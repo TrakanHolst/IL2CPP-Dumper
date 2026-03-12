@@ -1,0 +1,18 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -4690247257066454038
+  },
+  "m_Name": "Intro_Volume",
+  "components": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3105620800183184145
+    }
+  ]
+}

@@ -1,0 +1,3157 @@
+{
+  "class_count": 8,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "high",
+          "offset": 16,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "low",
+          "offset": 24,
+          "type": "System.UInt64"
+        }
+      ],
+      "interfaces": [
+        "IComparable`1",
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "high",
+              "type": "System.UInt64"
+            },
+            {
+              "name": "low",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "bytes",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "bytes",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "Beyond.Byte.UInt128"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToGuid",
+          "parameters": [],
+          "return_type": "System.Guid"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CompareTo",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "Beyond.Byte.UInt128"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "Beyond.Byte.UInt128"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Equality",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "Beyond.Byte.UInt128"
+            },
+            {
+              "name": "b",
+              "type": "Beyond.Byte.UInt128"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Inequality",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "Beyond.Byte.UInt128"
+            },
+            {
+              "name": "B",
+              "type": "Beyond.Byte.UInt128"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<>iFixBaseProxy_Equals",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<>iFixBaseProxy_GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "UInt128",
+      "namespace": "Beyond.Byte",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "currentIdx",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "datas",
+          "offset": 24,
+          "type": "System.Byte[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCurrentIdx",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRaw",
+          "parameters": [],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDataCopy",
+          "parameters": [],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadUInt",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadInt",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadByte",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadULong",
+          "parameters": [],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadLong",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadUInt128",
+          "parameters": [],
+          "return_type": "Beyond.Byte.UInt128"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadUTF8",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SkipReadUTF8",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteByte",
+          "parameters": [
+            {
+              "name": "val",
+              "type": "System.Byte"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteUInt",
+          "parameters": [
+            {
+              "name": "val",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteInt",
+          "parameters": [
+            {
+              "name": "val",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteULong",
+          "parameters": [
+            {
+              "name": "val",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteLong",
+          "parameters": [
+            {
+              "name": "val",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteUInt128",
+          "parameters": [
+            {
+              "name": "val",
+              "type": "Beyond.Byte.UInt128"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteUTF8",
+          "parameters": [
+            {
+              "name": "val",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SkipBytes",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RemainBytes",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateFromByte",
+          "parameters": [
+            {
+              "name": "bs",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "startIdx",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "Beyond.Byte.ByteBufStream"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Create",
+          "parameters": [
+            {
+              "name": "cap",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "Beyond.Byte.ByteBufStream"
+        }
+      ],
+      "name": "ByteBufStream",
+      "namespace": "Beyond.Byte",
+      "type_token": 33554435
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadUInt128",
+          "parameters": [
+            {
+              "name": "bs",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "startIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "bIsLittle",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "Beyond.Byte.UInt128"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadLong",
+          "parameters": [
+            {
+              "name": "bs",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "startIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "bIsLittle",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadULong",
+          "parameters": [
+            {
+              "name": "bs",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "startIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "bIsLittle",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadUInt",
+          "parameters": [
+            {
+              "name": "bs",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "startIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "bIsLittle",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadInt",
+          "parameters": [
+            {
+              "name": "bs",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "startIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "bIsLittle",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadUShort",
+          "parameters": [
+            {
+              "name": "bs",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "startIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "bIsLittle",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.UInt16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadShort",
+          "parameters": [
+            {
+              "name": "bs",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "startIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "bIsLittle",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadByte",
+          "parameters": [
+            {
+              "name": "bs",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "startIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "bIsLittle",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadFloat",
+          "parameters": [
+            {
+              "name": "bs",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "startIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "bIsLittle",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadUTF8",
+          "parameters": [
+            {
+              "name": "bs",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "startIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "len",
+              "type": "System.Int16&"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SkipReadUTF8",
+          "parameters": [
+            {
+              "name": "bs",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "startIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "len",
+              "type": "System.Int16&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteByte",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "writerIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Byte"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteUShort",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "writerIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.UInt16"
+            },
+            {
+              "name": "bIsLittle",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteShort",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "writerIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Int16"
+            },
+            {
+              "name": "bIsLittle",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteUInt",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "writerIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "bIsLittle",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteUInt",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "writerIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "bIsLittle",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Span<System.Byte>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteInt",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "writerIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Int32"
+            },
+            {
+              "name": "bIsLittle",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteULong",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "writerIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.UInt64"
+            },
+            {
+              "name": "bIsLittle",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteULong",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "writerIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.UInt64"
+            },
+            {
+              "name": "bIsLittle",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Span<System.Byte>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteLong",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "writerIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Int64"
+            },
+            {
+              "name": "bIsLittle",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteUInt128",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "writerIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "Beyond.Byte.UInt128"
+            },
+            {
+              "name": "bIsLittle",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteUInt128",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "writerIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "Beyond.Byte.UInt128"
+            },
+            {
+              "name": "bIsLittle",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Span<System.Byte>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteFloat",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "writerIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteUTF8",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "writerIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.String"
+            },
+            {
+              "name": "len",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SplitLong",
+          "parameters": [
+            {
+              "name": "longValue",
+              "type": "System.Int64"
+            },
+            {
+              "name": "highInt",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "lowInt",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MergeLong",
+          "parameters": [
+            {
+              "name": "highInt",
+              "type": "System.Int32"
+            },
+            {
+              "name": "lowInt",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SingleToInt32Bits",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Int32BitsToSingle",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHexString",
+          "parameters": [
+            {
+              "name": "byteArray",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHexString",
+          "parameters": [
+            {
+              "name": "byteArray",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "startIdx",
+              "type": "System.Int32"
+            },
+            {
+              "name": "length",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHexString",
+          "parameters": [
+            {
+              "name": "byteArray",
+              "type": "System.Span<System.Byte>"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHexString",
+          "parameters": [
+            {
+              "name": "byteArray",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "startIdx",
+              "type": "System.Int32"
+            },
+            {
+              "name": "length",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AppendHexString",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "Beyond.UnSafeString"
+            },
+            {
+              "name": "byteArray",
+              "type": "System.Span<System.Byte>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AppendHexString",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "Beyond.UnSafeString"
+            },
+            {
+              "name": "byteArray",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "startIdx",
+              "type": "System.Int32"
+            },
+            {
+              "name": "length",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHexStringUnsafeString",
+          "parameters": [
+            {
+              "name": "byteArray",
+              "type": "System.Span<System.Byte>"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHexStringUnsafeString",
+          "parameters": [
+            {
+              "name": "byteArray",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "startIdx",
+              "type": "System.Int32"
+            },
+            {
+              "name": "length",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ComputeMD5Bytes",
+          "parameters": [
+            {
+              "name": "bs",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "Beyond.Byte.UInt128"
+        }
+      ],
+      "name": "ByteHelper",
+      "namespace": "Beyond.Byte",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "virtualMachine",
+          "offset": 16,
+          "type": "IFix.Core.VirtualMachine"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "methodId",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "anonObj",
+          "offset": 32,
+          "type": "System.Object"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "wrapperArray",
+          "offset": 0,
+          "type": "IFix.ILFixDynamicMethodWrapper[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            },
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "anonObj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_0",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.UInt128&"
+            },
+            {
+              "name": "P1",
+              "type": "Beyond.Byte.UInt128"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_1",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.UInt128&"
+            },
+            {
+              "name": "P1",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_2",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.UInt128&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_3",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "Beyond.Byte.UInt128"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_4",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.UInt128&"
+            }
+          ],
+          "return_type": "System.Guid"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_5",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.UInt128&"
+            },
+            {
+              "name": "P1",
+              "type": "Beyond.Byte.UInt128"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_6",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.UInt128"
+            },
+            {
+              "name": "P1",
+              "type": "Beyond.Byte.UInt128"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_7",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.ByteBufStream&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_8",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.ByteBufStream&"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_9",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_10",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.ByteBufStream&"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_11",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_12",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_13",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_14",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.ByteBufStream&"
+            }
+          ],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_15",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_16",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.ByteBufStream&"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_17",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "Beyond.Byte.UInt128"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_18",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.ByteBufStream&"
+            }
+          ],
+          "return_type": "Beyond.Byte.UInt128"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_19",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.UInt16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_20",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_21",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Int16&"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_22",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.ByteBufStream&"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_23",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Int16&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_24",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.ByteBufStream&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_25",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Byte"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_26",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.ByteBufStream&"
+            },
+            {
+              "name": "P1",
+              "type": "System.Byte"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_27",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "P3",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_28",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.ByteBufStream&"
+            },
+            {
+              "name": "P1",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_29",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.ByteBufStream&"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_30",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.UInt64"
+            },
+            {
+              "name": "P3",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_31",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.ByteBufStream&"
+            },
+            {
+              "name": "P1",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_32",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.ByteBufStream&"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_33",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "Beyond.Byte.UInt128"
+            },
+            {
+              "name": "P3",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_34",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.ByteBufStream&"
+            },
+            {
+              "name": "P1",
+              "type": "Beyond.Byte.UInt128"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_35",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.UInt16"
+            },
+            {
+              "name": "P3",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_36",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Int16"
+            },
+            {
+              "name": "P3",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_37",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Object"
+            },
+            {
+              "name": "P3",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_38",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Byte.ByteBufStream&"
+            },
+            {
+              "name": "P1",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_39",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "Beyond.Byte.ByteBufStream"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_40",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "Beyond.Byte.ByteBufStream"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_41",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_42",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_43",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "P3",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Span<System.Byte>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_44",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P3",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_45",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.UInt64"
+            },
+            {
+              "name": "P3",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Span<System.Byte>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_46",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Int64"
+            },
+            {
+              "name": "P3",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_47",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "Beyond.Byte.UInt128"
+            },
+            {
+              "name": "P3",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Span<System.Byte>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_48",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_49",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_50",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Int64"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "P2",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_51",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_52",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_53",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_54",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_55",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Span<System.Byte>"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_56",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "P2",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P3",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_57",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Span<System.Byte>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_58",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "Beyond.Byte.UInt128"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ILFixDynamicMethodWrapper",
+      "namespace": "IFix",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "fieldNum",
+              "type": "System.Int32"
+            },
+            {
+              "name": "fieldTypes",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "typeIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vTable",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "methodIdArray",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RefAsyncBuilderStartMethod",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ILFixInterfaceBridge",
+      "namespace": "IFix",
+      "parent": "AnonymousStorey",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "virtualMachine",
+          "offset": 16,
+          "type": "IFix.Core.VirtualMachine"
+        }
+      ],
+      "interfaces": [
+        "WrappersManager"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPatch",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "IFix.ILFixDynamicMethodWrapper"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsPatched",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateDelegate",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Type"
+            },
+            {
+              "name": "id",
+              "type": "System.Int32"
+            },
+            {
+              "name": "anon",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Delegate"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateWrapper",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitWrapperArray",
+          "parameters": [
+            {
+              "name": "len",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateBridge",
+          "parameters": [
+            {
+              "name": "fieldNum",
+              "type": "System.Int32"
+            },
+            {
+              "name": "fieldTypes",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "typeIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vTable",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "slots",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            }
+          ],
+          "return_type": "IFix.Core.AnonymousStorey"
+        }
+      ],
+      "name": "WrappersManagerImpl",
+      "namespace": "IFix",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-UInt128-Equals0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-UInt128-Equals1",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-UInt128-GetHashCode0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-UInt128-op_Implicit0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-UInt128-ToGuid0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-UInt128-CompareTo0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-UInt128-op_Equality0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-UInt128-op_Inequality0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-GetCurrentIdx0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-GetRaw0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-GetDataCopy0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-ReadUInt0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-ReadUInt0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-ReadInt0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-ReadInt0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-ReadByte0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-ReadByte0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-ReadULong0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-ReadULong0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-ReadLong0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-ReadLong0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-ReadUInt1280",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-ReadUInt1280",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-ReadUShort0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-ReadShort0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-ReadUTF80",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-ReadUTF80",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-SkipReadUTF80",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-SkipReadUTF80",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-WriteByte0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-WriteByte0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-WriteUInt0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-WriteUInt0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-WriteInt0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-WriteULong0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-WriteULong0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-WriteLong0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-WriteUInt1280",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-WriteUInt1280",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-WriteUShort0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-WriteShort0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-WriteUTF80",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-WriteUTF80",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-SkipBytes0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-RemainBytes0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-CreateFromByte0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteBufStream-Create0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-Int32BitsToSingle0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-ReadFloat0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-WriteUInt1",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-WriteInt0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-WriteULong1",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-WriteLong0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-WriteUInt1281",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-SingleToInt32Bits0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-WriteFloat0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-SplitLong0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-MergeLong0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-GetHexString0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-GetHexString1",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-GetHexString2",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-GetHexString3",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-AppendHexString0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-AppendHexString1",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-GetHexStringUnsafeString0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-GetHexStringUnsafeString1",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Byte-ByteHelper-ComputeMD5Bytes0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "IDMAP0",
+      "namespace": "IFix",
+      "type_token": 33554440
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Beyond.Byte.dll"
+}

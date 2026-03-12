@@ -12,6 +12,7 @@ public:
     Dumper( );
 
     void DumpAssembly( const Il2CppImage & img, bool aiMode );
+    void DumpAssemblyJSON( const Il2CppImage & img );
     void DumpAllToFiles( );
 
 };

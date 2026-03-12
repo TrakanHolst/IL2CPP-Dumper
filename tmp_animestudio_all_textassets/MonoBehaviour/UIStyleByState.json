@@ -1,0 +1,38 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3102778280440492633
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -4683063299175004512
+  },
+  "m_Name": "",
+  "styleConfigs": [
+    {
+      "inputValidType": 4,
+      "stateConfigs": [
+        {
+          "stateController": {
+            "m_FileID": 0,
+            "m_PathID": -7250789886875864487
+          },
+          "stateName": "Touch"
+        }
+      ]
+    },
+    {
+      "inputValidType": 2,
+      "stateConfigs": [
+        {
+          "stateController": {
+            "m_FileID": 0,
+            "m_PathID": -7250789886875864487
+          },
+          "stateName": "Keyboard"
+        }
+      ]
+    }
+  ]
+}

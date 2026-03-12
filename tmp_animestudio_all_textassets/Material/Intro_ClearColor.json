@@ -1,0 +1,58 @@
+{
+  "m_Shader": {
+    "m_FileID": 2,
+    "m_PathID": -5538346700600192388,
+    "Name": "",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_BaseColorMap": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": {},
+    "m_Floats": {
+      "_AlphaClipThreshold": 0.5,
+      "_AlphaDstBlend": 0.0,
+      "_AlphaMaskChannel": 0.0,
+      "_AlphaSrcBlend": 1.0,
+      "_BlendMode": 0.0,
+      "_CullMode": 1.0,
+      "_DitherScale": 1.0,
+      "_DstBlend": 0.0,
+      "_EnableAlphaTest": 0.0,
+      "_MVDstBlend": 0.0,
+      "_MVSrcBlend": 1.0,
+      "_MainProperties": 0.0,
+      "_SkipShaderGUIPostProcess": 1.0,
+      "_SrcBlend": 1.0,
+      "_SurfaceType": 0.0,
+      "_TransparentSortPriority": 0.0,
+      "_ZWrite": 0.0
+    },
+    "m_Colors": {
+      "_BaseColor": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      }
+    }
+  },
+  "m_Name": "Intro_ClearColor",
+  "Name": "Intro_ClearColor"
+}

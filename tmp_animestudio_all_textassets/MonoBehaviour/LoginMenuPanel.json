@@ -1,0 +1,104 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4803927002980027815
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -6288959751767319187
+  },
+  "m_Name": "",
+  "_btnAnnounce": {
+    "m_FileID": 0,
+    "m_PathID": 5766903365302415961
+  },
+  "_btnSetting": {
+    "m_FileID": 0,
+    "m_PathID": -3941268983323757991
+  },
+  "_btnResCheck": {
+    "m_FileID": 0,
+    "m_PathID": 3195160217690763865
+  },
+  "_btnLogout": {
+    "m_FileID": 0,
+    "m_PathID": 8496745179405087321
+  },
+  "_btnQuitGame": {
+    "m_FileID": 0,
+    "m_PathID": 2685560900741886553
+  },
+  "_btnLogin": {
+    "m_FileID": 0,
+    "m_PathID": 6156829347043799641
+  },
+  "_btnQR": {
+    "m_FileID": 0,
+    "m_PathID": -8483177569919634855
+  },
+  "_ctrlAnnounce": {
+    "m_FileID": 0,
+    "m_PathID": 5887547369762452057
+  },
+  "_ctrlSetting": {
+    "m_FileID": 0,
+    "m_PathID": -5280579761383476647
+  },
+  "_ctrlResCheck": {
+    "m_FileID": 0,
+    "m_PathID": 6912302463387562585
+  },
+  "_ctrlLogout": {
+    "m_FileID": 0,
+    "m_PathID": -7046170257696951719
+  },
+  "_ctrlQR": {
+    "m_FileID": 0,
+    "m_PathID": -5698742176410045863
+  },
+  "_ctrlRight": {
+    "m_FileID": 0,
+    "m_PathID": -1587155483739753895
+  },
+  "_naviGroupRight": {
+    "m_FileID": 0,
+    "m_PathID": -6020426803257806247
+  },
+  "_bindingGroupForKeyboard": {
+    "m_FileID": 0,
+    "m_PathID": 3452706949751566937
+  },
+  "_rootPanelBindingGroup": {
+    "m_FileID": 0,
+    "m_PathID": -309671225598348711
+  },
+  "_alphaHandler": {
+    "m_FileID": 0,
+    "m_PathID": 3681548433557680729
+  },
+  "_redDotAnnounce": {
+    "m_FileID": 0,
+    "m_PathID": 6812943350820696665
+  },
+  "_transAnim": {
+    "m_FileID": 0,
+    "m_PathID": -7637395971007188391
+  },
+  "_serverZoneBtn": {
+    "m_FileID": 0,
+    "m_PathID": 6358781295602692697
+  },
+  "_serverZoneName": {
+    "m_FileID": 0,
+    "m_PathID": -8606864499578965415
+  },
+  "_serverZonePS5": {
+    "m_FileID": 0,
+    "m_PathID": -7150394181023632807
+  },
+  "_serverZoneNamePS5": {
+    "m_FileID": 0,
+    "m_PathID": -4549520290230046119
+  }
+}

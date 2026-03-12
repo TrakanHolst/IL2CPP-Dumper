@@ -1,0 +1,1273 @@
+{
+  "class_count": 12,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_Instance",
+          "offset": 0,
+          "type": "UnityEngine.Tilemaps.ITilemap"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Tilemap",
+          "offset": 16,
+          "type": "UnityEngine.Tilemaps.Tilemap"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_AddToList",
+          "offset": 24,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_RefreshCount",
+          "offset": 28,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_RefreshPos",
+          "offset": 32,
+          "type": "Unity.Collections.NativeArray<UnityEngine.Vector3Int>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RefreshTile",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3Int"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateInstance",
+          "parameters": [],
+          "return_type": "UnityEngine.Tilemaps.ITilemap"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FindAllRefreshPositions",
+          "parameters": [
+            {
+              "name": "tilemap",
+              "type": "UnityEngine.Tilemaps.ITilemap"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            },
+            {
+              "name": "oldTilesIntPtr",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "newTilesIntPtr",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "positionsIntPtr",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAllTileData",
+          "parameters": [
+            {
+              "name": "tilemap",
+              "type": "UnityEngine.Tilemaps.ITilemap"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            },
+            {
+              "name": "tilesIntPtr",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "positionsIntPtr",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "outTileDataIntPtr",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ITilemap",
+      "namespace": "UnityEngine.Tilemaps",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "UnityEngine.Tilemaps.Tile.ColliderType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Sprite",
+          "offset": 0,
+          "type": "UnityEngine.Tilemaps.Tile.ColliderType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Grid",
+          "offset": 0,
+          "type": "UnityEngine.Tilemaps.Tile.ColliderType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ColliderType",
+      "namespace": "",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Sprite",
+          "offset": 24,
+          "type": "UnityEngine.Sprite"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Color",
+          "offset": 32,
+          "type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Transform",
+          "offset": 48,
+          "type": "UnityEngine.Matrix4x4"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_InstancedGameObject",
+          "offset": 112,
+          "type": "UnityEngine.GameObject"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Flags",
+          "offset": 120,
+          "type": "UnityEngine.Tilemaps.TileFlags"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_ColliderType",
+          "offset": 124,
+          "type": "UnityEngine.Tilemaps.Tile.ColliderType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sprite",
+          "parameters": [],
+          "return_type": "UnityEngine.Sprite"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_sprite",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Sprite"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_color",
+          "parameters": [],
+          "return_type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_color",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_transform",
+          "parameters": [],
+          "return_type": "UnityEngine.Matrix4x4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_transform",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Matrix4x4"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_gameObject",
+          "parameters": [],
+          "return_type": "UnityEngine.GameObject"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_gameObject",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.GameObject"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_flags",
+          "parameters": [],
+          "return_type": "UnityEngine.Tilemaps.TileFlags"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_flags",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Tilemaps.TileFlags"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_colliderType",
+          "parameters": [],
+          "return_type": "UnityEngine.Tilemaps.Tile.ColliderType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_colliderType",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Tilemaps.Tile.ColliderType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTileData",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3Int"
+            },
+            {
+              "name": "tilemap",
+              "type": "UnityEngine.Tilemaps.ITilemap"
+            },
+            {
+              "name": "tileData",
+              "type": "UnityEngine.Tilemaps.TileData&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Tile",
+      "namespace": "UnityEngine.Tilemaps",
+      "parent": "TileBase",
+      "type_token": 33554435
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RefreshTile",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3Int"
+            },
+            {
+              "name": "tilemap",
+              "type": "UnityEngine.Tilemaps.ITilemap"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTileData",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3Int"
+            },
+            {
+              "name": "tilemap",
+              "type": "UnityEngine.Tilemaps.ITilemap"
+            },
+            {
+              "name": "tileData",
+              "type": "UnityEngine.Tilemaps.TileData&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTileDataNoRef",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3Int"
+            },
+            {
+              "name": "tilemap",
+              "type": "UnityEngine.Tilemaps.ITilemap"
+            }
+          ],
+          "return_type": "UnityEngine.Tilemaps.TileData"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTileAnimationData",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3Int"
+            },
+            {
+              "name": "tilemap",
+              "type": "UnityEngine.Tilemaps.ITilemap"
+            },
+            {
+              "name": "tileAnimationData",
+              "type": "UnityEngine.Tilemaps.TileAnimationData&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTileAnimationDataNoRef",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3Int"
+            },
+            {
+              "name": "tilemap",
+              "type": "UnityEngine.Tilemaps.ITilemap"
+            }
+          ],
+          "return_type": "UnityEngine.Tilemaps.TileAnimationData"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTileAnimationDataRef",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3Int"
+            },
+            {
+              "name": "tilemap",
+              "type": "UnityEngine.Tilemaps.ITilemap"
+            },
+            {
+              "name": "tileAnimationData",
+              "type": "UnityEngine.Tilemaps.TileAnimationData&"
+            },
+            {
+              "name": "hasAnimation",
+              "type": "System.Boolean&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "StartUp",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3Int"
+            },
+            {
+              "name": "tilemap",
+              "type": "UnityEngine.Tilemaps.ITilemap"
+            },
+            {
+              "name": "go",
+              "type": "UnityEngine.GameObject"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "StartUpRef",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3Int"
+            },
+            {
+              "name": "tilemap",
+              "type": "UnityEngine.Tilemaps.ITilemap"
+            },
+            {
+              "name": "go",
+              "type": "UnityEngine.GameObject"
+            },
+            {
+              "name": "startUpInvokedByUser",
+              "type": "System.Boolean&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "TileBase",
+      "namespace": "UnityEngine.Tilemaps",
+      "parent": "ScriptableObject",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_layoutGrid",
+          "parameters": [],
+          "return_type": "UnityEngine.Grid"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_cellBounds",
+          "parameters": [],
+          "return_type": "UnityEngine.BoundsInt"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_origin",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3Int"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_size",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3Int"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_tileAnchor",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_orientationMatrix",
+          "parameters": [],
+          "return_type": "UnityEngine.Matrix4x4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTileAsset",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3Int"
+            }
+          ],
+          "return_type": "UnityEngine.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTile",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3Int"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTileAssetsBlock",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3Int"
+            },
+            {
+              "name": "blockDimensions",
+              "type": "UnityEngine.Vector3Int"
+            }
+          ],
+          "return_type": "UnityEngine.Object[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTilesBlock",
+          "parameters": [
+            {
+              "name": "bounds",
+              "type": "UnityEngine.BoundsInt"
+            }
+          ],
+          "return_type": "UnityEngine.Tilemaps.TileBase[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HasTile",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3Int"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RefreshTile",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3Int"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RefreshTilesNative",
+          "parameters": [
+            {
+              "name": "positions",
+              "type": "System.Void*"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetUsedTilesCount",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetUsedTilesNonAlloc",
+          "parameters": [
+            {
+              "name": "usedTiles",
+              "type": "UnityEngine.Tilemaps.TileBase[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_GetUsedTilesNonAlloc",
+          "parameters": [
+            {
+              "name": "usedTiles",
+              "type": "UnityEngine.Object[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_origin_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector3Int&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_size_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector3Int&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_tileAnchor_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector3&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_orientationMatrix_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Matrix4x4&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTileAsset_Injected",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3Int&"
+            }
+          ],
+          "return_type": "UnityEngine.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTileAssetsBlock_Injected",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3Int&"
+            },
+            {
+              "name": "blockDimensions",
+              "type": "UnityEngine.Vector3Int&"
+            }
+          ],
+          "return_type": "UnityEngine.Object[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RefreshTile_Injected",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3Int&"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Tilemap",
+      "namespace": "UnityEngine.Tilemaps",
+      "parent": "GridLayout",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "UnityEngine.Tilemaps.TileFlags"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LockColor",
+          "offset": 0,
+          "type": "UnityEngine.Tilemaps.TileFlags"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LockTransform",
+          "offset": 0,
+          "type": "UnityEngine.Tilemaps.TileFlags"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "InstantiateGameObjectRuntimeOnly",
+          "offset": 0,
+          "type": "UnityEngine.Tilemaps.TileFlags"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "KeepGameObjectRuntimeOnly",
+          "offset": 0,
+          "type": "UnityEngine.Tilemaps.TileFlags"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LockAll",
+          "offset": 0,
+          "type": "UnityEngine.Tilemaps.TileFlags"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TileFlags",
+      "namespace": "UnityEngine.Tilemaps",
+      "type_token": 33554439
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RegisterSpriteAtlasRegistered",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnregisterSpriteAtlasRegistered",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnSpriteAtlasRegistered",
+          "parameters": [
+            {
+              "name": "atlas",
+              "type": "UnityEngine.U2D.SpriteAtlas"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "TilemapRenderer",
+      "namespace": "UnityEngine.Tilemaps",
+      "parent": "Renderer",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Sprite",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Color",
+          "offset": 20,
+          "type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Transform",
+          "offset": 36,
+          "type": "UnityEngine.Matrix4x4"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_GameObject",
+          "offset": 100,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Flags",
+          "offset": 104,
+          "type": "UnityEngine.Tilemaps.TileFlags"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_ColliderType",
+          "offset": 108,
+          "type": "UnityEngine.Tilemaps.Tile.ColliderType"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "Default",
+          "offset": 0,
+          "type": "UnityEngine.Tilemaps.TileData"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_sprite",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Sprite"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_color",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_transform",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Matrix4x4"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_gameObject",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.GameObject"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_flags",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Tilemaps.TileFlags"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_colliderType",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Tilemaps.Tile.ColliderType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateDefault",
+          "parameters": [],
+          "return_type": "UnityEngine.Tilemaps.TileData"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "TileData",
+      "namespace": "UnityEngine.Tilemaps",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Sprite",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Color",
+          "offset": 20,
+          "type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Transform",
+          "offset": 36,
+          "type": "UnityEngine.Matrix4x4"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_GameObject",
+          "offset": 100,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Flags",
+          "offset": 104,
+          "type": "UnityEngine.Tilemaps.TileFlags"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_ColliderType",
+          "offset": 108,
+          "type": "UnityEngine.Tilemaps.Tile.ColliderType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TileDataNative",
+      "namespace": "UnityEngine.Tilemaps",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Position",
+          "offset": 16,
+          "type": "UnityEngine.Vector3Int"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_TileAsset",
+          "offset": 32,
+          "type": "UnityEngine.Object"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Color",
+          "offset": 40,
+          "type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Transform",
+          "offset": 56,
+          "type": "UnityEngine.Matrix4x4"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TileChangeData",
+      "namespace": "UnityEngine.Tilemaps",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_AnimatedSprites",
+          "offset": 16,
+          "type": "UnityEngine.Sprite[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_AnimationSpeed",
+          "offset": 24,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_AnimationStartTime",
+          "offset": 28,
+          "type": "System.Single"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TileAnimationData",
+      "namespace": "UnityEngine.Tilemaps",
+      "type_token": 33554444
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.TilemapModule.dll"
+}

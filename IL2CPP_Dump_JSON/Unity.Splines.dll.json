@@ -1,0 +1,4027 @@
+{
+  "class_count": 37,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RemoveAt",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "T[]&"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "T[]&"
+            },
+            {
+              "name": "element",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ArrayUtility",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "P0",
+          "offset": 16,
+          "type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "P1",
+          "offset": 28,
+          "type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "P2",
+          "offset": 40,
+          "type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "P3",
+          "offset": 52,
+          "type": "Unity.Mathematics.float3"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "p0",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "p1",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "p2",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "p3",
+              "type": "Unity.Mathematics.float3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "UnityEngine.Splines.BezierKnot"
+            },
+            {
+              "name": "b",
+              "type": "UnityEngine.Splines.BezierKnot"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.Splines.BezierCurve"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "BezierCurve",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Position",
+          "offset": 16,
+          "type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "TangentIn",
+          "offset": 28,
+          "type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "TangentOut",
+          "offset": 40,
+          "type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Rotation",
+          "offset": 52,
+          "type": "Unity.Mathematics.quaternion"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Width",
+          "offset": 68,
+          "type": "System.Single"
+        }
+      ],
+      "interfaces": [
+        "ISerializationCallbackReceiver",
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "Unity.Mathematics.float3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "tangentIn",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "tangentOut",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "rotation",
+              "type": "Unity.Mathematics.quaternion"
+            },
+            {
+              "name": "width",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Transform",
+          "parameters": [
+            {
+              "name": "matrix",
+              "type": "Unity.Mathematics.float4x4"
+            }
+          ],
+          "return_type": "UnityEngine.Splines.BezierKnot"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BakeTangentDirectionToRotation",
+          "parameters": [
+            {
+              "name": "mirrored",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "main",
+              "type": "UnityEngine.Splines.BezierTangent"
+            }
+          ],
+          "return_type": "UnityEngine.Splines.BezierKnot"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnBeforeSerialize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnAfterDeserialize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.Splines.BezierKnot"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "BezierKnot",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "AutoSmooth",
+          "offset": 0,
+          "type": "UnityEngine.Splines.TangentMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Linear",
+          "offset": 0,
+          "type": "UnityEngine.Splines.TangentMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Mirrored",
+          "offset": 0,
+          "type": "UnityEngine.Splines.TangentMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Continuous",
+          "offset": 0,
+          "type": "UnityEngine.Splines.TangentMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Broken",
+          "offset": 0,
+          "type": "UnityEngine.Splines.TangentMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TangentMode",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "In",
+          "offset": 0,
+          "type": "UnityEngine.Splines.BezierTangent"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Out",
+          "offset": 0,
+          "type": "UnityEngine.Splines.BezierTangent"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "BezierTangent",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "origin",
+          "offset": 16,
+          "type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "tangent",
+          "offset": 28,
+          "type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "normal",
+          "offset": 40,
+          "type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "binormal",
+          "offset": 52,
+          "type": "Unity.Mathematics.float3"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "FrenetFrame",
+      "namespace": "",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "k_DistanceLUT",
+          "offset": 0,
+          "type": "UnityEngine.Splines.DistanceToInterpolation[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluatePosition",
+          "parameters": [
+            {
+              "name": "curve",
+              "type": "UnityEngine.Splines.BezierCurve"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluateTangent",
+          "parameters": [
+            {
+              "name": "curve",
+              "type": "UnityEngine.Splines.BezierCurve"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluateAcceleration",
+          "parameters": [
+            {
+              "name": "curve",
+              "type": "UnityEngine.Splines.BezierCurve"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculateCurveLengths",
+          "parameters": [
+            {
+              "name": "curve",
+              "type": "UnityEngine.Splines.BezierCurve"
+            },
+            {
+              "name": "lookupTable",
+              "type": "UnityEngine.Splines.DistanceToInterpolation[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Approximately",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.Single"
+            },
+            {
+              "name": "b",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluateUpVector",
+          "parameters": [
+            {
+              "name": "curve",
+              "type": "UnityEngine.Splines.BezierCurve"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            },
+            {
+              "name": "startUp",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "endUp",
+              "type": "Unity.Mathematics.float3"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetNextRotationMinimizingFrame",
+          "parameters": [
+            {
+              "name": "curve",
+              "type": "UnityEngine.Splines.BezierCurve"
+            },
+            {
+              "name": "previousRMFrame",
+              "type": "UnityEngine.Splines.CurveUtility.FrenetFrame"
+            },
+            {
+              "name": "nextRMFrameT",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.Splines.CurveUtility.FrenetFrame"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDistanceToInterpolation",
+          "parameters": [
+            {
+              "name": "lut",
+              "type": "T"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CurveUtility",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554439
+    },
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Index",
+          "parameters": [],
+          "return_type": "System.Single"
+        }
+      ],
+      "name": "IDataPoint",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Index",
+          "offset": 0,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Value",
+          "offset": 0,
+          "type": "TDataType"
+        }
+      ],
+      "interfaces": [
+        "IComparable`1",
+        "IComparable`1",
+        "IDataPoint"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Index",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Index",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Value",
+          "parameters": [],
+          "return_type": "TDataType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CompareTo",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.Splines.DataPoint<TDataType>"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CompareTo",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "DataPoint`1",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554442
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IComparer`1"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Compare",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "T"
+            },
+            {
+              "name": "y",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "DataPointComparer`1",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Distance",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "T",
+          "offset": 20,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "Invalid",
+          "offset": 0,
+          "type": "UnityEngine.Splines.DistanceToInterpolation"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "DistanceToInterpolation",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554444
+    },
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_EmptyCurves",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IReadOnlyList<System.Int32>"
+        }
+      ],
+      "name": "IHasEmptyCurves",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554445
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IReadOnlyList`1",
+        "IEnumerable`1",
+        "IEnumerable",
+        "IReadOnlyCollection`1"
+      ],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Closed",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLength",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCurve",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Splines.BezierCurve"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCurveLength",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCurveInterpolation",
+          "parameters": [
+            {
+              "name": "curveIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "curveDistance",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        }
+      ],
+      "name": "ISpline",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554446
+    },
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Splines",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IReadOnlyList<UnityEngine.Splines.Spline>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_KnotLinkCollection",
+          "parameters": [],
+          "return_type": "UnityEngine.Splines.KnotLinkCollection"
+        }
+      ],
+      "name": "ISplineContainer",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554447
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Knots",
+          "offset": 16,
+          "type": "UnityEngine.Splines.SplineKnotIndex[]"
+        }
+      ],
+      "interfaces": [
+        "IReadOnlyList`1",
+        "IEnumerable`1",
+        "IEnumerable",
+        "IReadOnlyCollection`1"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerator<UnityEngine.Splines.SplineKnotIndex>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.Collections.IEnumerable.GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.IEnumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Count",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Item",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Splines.SplineKnotIndex"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "KnotLink",
+      "namespace": "",
+      "type_token": 33554449
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_KnotsLink",
+          "offset": 16,
+          "type": "UnityEngine.Splines.KnotLinkCollection.KnotLink[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetKnotLinksInternal",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "UnityEngine.Splines.SplineKnotIndex"
+            }
+          ],
+          "return_type": "UnityEngine.Splines.KnotLinkCollection.KnotLink"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryGetKnotLinks",
+          "parameters": [
+            {
+              "name": "knotIndex",
+              "type": "UnityEngine.Splines.SplineKnotIndex"
+            },
+            {
+              "name": "linkedKnots",
+              "type": "System.Collections.Generic.IReadOnlyList<UnityEngine.Splines.SplineKnotIndex>&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Unlink",
+          "parameters": [
+            {
+              "name": "knot",
+              "type": "UnityEngine.Splines.SplineKnotIndex"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "KnotRemoved",
+          "parameters": [
+            {
+              "name": "splineIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "knotIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "KnotRemoved",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "UnityEngine.Splines.SplineKnotIndex"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "KnotInserted",
+          "parameters": [
+            {
+              "name": "splineIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "knotIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "KnotInserted",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "UnityEngine.Splines.SplineKnotIndex"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ShiftKnotIndices",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "UnityEngine.Splines.SplineKnotIndex"
+            },
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "KnotLinkCollection",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554448
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Slice",
+          "offset": 0,
+          "type": "Unity.Collections.NativeSlice<T>"
+        }
+      ],
+      "interfaces": [
+        "IReadOnlyList`1",
+        "IEnumerable`1",
+        "IEnumerable",
+        "IReadOnlyCollection`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "Unity.Collections.NativeArray<T>"
+            },
+            {
+              "name": "start",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerator<T>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.Collections.IEnumerable.GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.IEnumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Count",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Item",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "T"
+        }
+      ],
+      "name": "Slice`1",
+      "namespace": "",
+      "type_token": 33554451
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Knots",
+          "offset": 16,
+          "type": "Unity.Collections.NativeArray<UnityEngine.Splines.BezierKnot>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Curves",
+          "offset": 32,
+          "type": "Unity.Collections.NativeArray<UnityEngine.Splines.BezierCurve>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_SegmentLengthsLookupTable",
+          "offset": 48,
+          "type": "Unity.Collections.NativeArray<UnityEngine.Splines.DistanceToInterpolation>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Closed",
+          "offset": 64,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Length",
+          "offset": 68,
+          "type": "System.Single"
+        }
+      ],
+      "interfaces": [
+        "ISpline",
+        "IReadOnlyList`1",
+        "IEnumerable`1",
+        "IEnumerable",
+        "IReadOnlyCollection`1",
+        "IDisposable"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Closed",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Count",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLength",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Item",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Splines.BezierKnot"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerator<UnityEngine.Splines.BezierKnot>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.Collections.IEnumerable.GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.IEnumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "UnityEngine.Splines.ISpline"
+            },
+            {
+              "name": "transform",
+              "type": "Unity.Mathematics.float4x4"
+            },
+            {
+              "name": "allocator",
+              "type": "Unity.Collections.Allocator"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "knots",
+              "type": "System.Collections.Generic.IReadOnlyList<UnityEngine.Splines.BezierKnot>"
+            },
+            {
+              "name": "splits",
+              "type": "System.Collections.Generic.IReadOnlyList<System.Int32>"
+            },
+            {
+              "name": "closed",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "transform",
+              "type": "Unity.Mathematics.float4x4"
+            },
+            {
+              "name": "allocator",
+              "type": "Unity.Collections.Allocator"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCurve",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Splines.BezierCurve"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCurveLength",
+          "parameters": [
+            {
+              "name": "curveIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCurveInterpolation",
+          "parameters": [
+            {
+              "name": "curveIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "curveDistance",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        }
+      ],
+      "name": "NativeSpline",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554450
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Mode",
+          "offset": 16,
+          "type": "UnityEngine.Splines.TangentMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Tension",
+          "offset": 20,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_DistanceToInterpolation",
+          "offset": 24,
+          "type": "UnityEngine.Splines.DistanceToInterpolation[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_DistanceToInterpolation",
+          "parameters": [],
+          "return_type": "UnityEngine.Splines.DistanceToInterpolation[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvalidateCache",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "MetaData",
+      "namespace": "",
+      "type_token": 33554453
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "k_DefaultTangentMode",
+          "offset": 0,
+          "type": "UnityEngine.Splines.TangentMode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "k_DefaultMainTangent",
+          "offset": 0,
+          "type": "UnityEngine.Splines.BezierTangent"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "k_BatchModification",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "k_CurveDistanceLutResolution",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_EditModeType",
+          "offset": 16,
+          "type": "UnityEngine.Splines.SplineType"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Knots",
+          "offset": 24,
+          "type": "System.Collections.Generic.List<UnityEngine.Splines.BezierKnot>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Length",
+          "offset": 32,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_MetaData",
+          "offset": 40,
+          "type": "System.Collections.Generic.List<UnityEngine.Splines.Spline.MetaData>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Closed",
+          "offset": 48,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_IntData",
+          "offset": 56,
+          "type": "UnityEngine.Splines.SplineDataDictionary<System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_FloatData",
+          "offset": 64,
+          "type": "UnityEngine.Splines.SplineDataDictionary<System.Single>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Float4Data",
+          "offset": 72,
+          "type": "UnityEngine.Splines.SplineDataDictionary<Unity.Mathematics.float4>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_ObjectData",
+          "offset": 80,
+          "type": "UnityEngine.Splines.SplineDataDictionary<UnityEngine.Object>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "changed",
+          "offset": 88,
+          "type": "System.Action"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Changed",
+          "offset": 0,
+          "type": "System.Action<UnityEngine.Splines.Spline,System.Int32,UnityEngine.Splines.SplineModification>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_LastKnotChangeCurveLengths",
+          "offset": 96,
+          "type": "System.ValueTuple<System.Single,System.Single>"
+        }
+      ],
+      "interfaces": [
+        "ISpline",
+        "IReadOnlyList`1",
+        "IEnumerable`1",
+        "IEnumerable",
+        "IReadOnlyCollection`1",
+        "IList`1",
+        "ICollection`1"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_embeddedSplineData",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<UnityEngine.Splines.ISplineModificationHandler>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Count",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsReadOnly",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_Changed",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Splines.Spline,System.Int32,UnityEngine.Splines.SplineModification>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_Changed",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Splines.Spline,System.Int32,UnityEngine.Splines.SplineModification>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetDirtyNoNotify",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetDirty",
+          "parameters": [
+            {
+              "name": "modificationEvent",
+              "type": "UnityEngine.Splines.SplineModification"
+            },
+            {
+              "name": "knotIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnSplineChanged",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnsureMetaDataValid",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTangentMode",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Splines.TangentMode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ApplyTangentModeNoNotify",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "main",
+              "type": "UnityEngine.Splines.BezierTangent"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Knots",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<UnityEngine.Splines.BezierKnot>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Closed",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Closed",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IndexOf",
+          "parameters": [
+            {
+              "name": "item",
+              "type": "UnityEngine.Splines.BezierKnot"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Insert",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "knot",
+              "type": "UnityEngine.Splines.BezierKnot"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Insert",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "knot",
+              "type": "UnityEngine.Splines.BezierKnot"
+            },
+            {
+              "name": "mode",
+              "type": "UnityEngine.Splines.TangentMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Insert",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "knot",
+              "type": "UnityEngine.Splines.BezierKnot"
+            },
+            {
+              "name": "mode",
+              "type": "UnityEngine.Splines.TangentMode"
+            },
+            {
+              "name": "tension",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RemoveAt",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Item",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Splines.BezierKnot"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Item",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "UnityEngine.Splines.BezierKnot"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetKnot",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "UnityEngine.Splines.BezierKnot"
+            },
+            {
+              "name": "main",
+              "type": "UnityEngine.Splines.BezierTangent"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetKnotNoNotify",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "UnityEngine.Splines.BezierKnot"
+            },
+            {
+              "name": "main",
+              "type": "UnityEngine.Splines.BezierTangent"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "knots",
+              "type": "System.Collections.Generic.IEnumerable<UnityEngine.Splines.BezierKnot>"
+            },
+            {
+              "name": "closed",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCurve",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Splines.BezierCurve"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCurveLength",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLength",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCurveDistanceLut",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Splines.DistanceToInterpolation[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCurveInterpolation",
+          "parameters": [
+            {
+              "name": "curveIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "curveDistance",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerator<UnityEngine.Splines.BezierKnot>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.Collections.IEnumerable.GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.IEnumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "item",
+              "type": "UnityEngine.Splines.BezierKnot"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "item",
+              "type": "UnityEngine.Splines.BezierKnot"
+            },
+            {
+              "name": "mode",
+              "type": "UnityEngine.Splines.TangentMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Contains",
+          "parameters": [
+            {
+              "name": "item",
+              "type": "UnityEngine.Splines.BezierKnot"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CopyTo",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "UnityEngine.Splines.BezierKnot[]"
+            },
+            {
+              "name": "arrayIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [
+            {
+              "name": "item",
+              "type": "UnityEngine.Splines.BezierKnot"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CacheKnotOperationCurves",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Spline",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554452
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "k_IconPath",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Spline",
+          "offset": 24,
+          "type": "UnityEngine.Splines.Spline"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Splines",
+          "offset": 32,
+          "type": "UnityEngine.Splines.Spline[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Knots",
+          "offset": 40,
+          "type": "UnityEngine.Splines.KnotLinkCollection"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_ReorderedSplinesIndices",
+          "offset": 48,
+          "type": "System.Collections.Generic.List<System.ValueTuple<System.Int32,System.Int32>>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_RemovedSplinesIndices",
+          "offset": 56,
+          "type": "System.Collections.Generic.List<System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_AddedSplinesIndices",
+          "offset": 64,
+          "type": "System.Collections.Generic.List<System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SplineAdded",
+          "offset": 0,
+          "type": "System.Action<UnityEngine.Splines.SplineContainer,System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SplineRemoved",
+          "offset": 8,
+          "type": "System.Action<UnityEngine.Splines.SplineContainer,System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SplineReordered",
+          "offset": 16,
+          "type": "System.Action<UnityEngine.Splines.SplineContainer,System.Int32,System.Int32>"
+        }
+      ],
+      "interfaces": [
+        "ISplineContainer",
+        "ISerializationCallbackReceiver"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_SplineAdded",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Splines.SplineContainer,System.Int32>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_SplineAdded",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Splines.SplineContainer,System.Int32>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_SplineRemoved",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Splines.SplineContainer,System.Int32>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_SplineRemoved",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Splines.SplineContainer,System.Int32>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_SplineReordered",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Splines.SplineContainer,System.Int32,System.Int32>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_SplineReordered",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Splines.SplineContainer,System.Int32,System.Int32>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Splines",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IReadOnlyList<UnityEngine.Splines.Spline>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Splines",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Collections.Generic.IReadOnlyList<UnityEngine.Splines.Spline>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IndexOf",
+          "parameters": [
+            {
+              "name": "self",
+              "type": "System.Collections.Generic.IReadOnlyList<UnityEngine.Splines.Spline>"
+            },
+            {
+              "name": "elementToFind",
+              "type": "UnityEngine.Splines.Spline"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_KnotLinkCollection",
+          "parameters": [],
+          "return_type": "UnityEngine.Splines.KnotLinkCollection"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Item",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Splines.Spline"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnEnable",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnDisable",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnSplineChanged",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "UnityEngine.Splines.Spline"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "modificationType",
+              "type": "UnityEngine.Splines.SplineModification"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnKnotModified",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "UnityEngine.Splines.Spline"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsScaled",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Spline",
+          "parameters": [],
+          "return_type": "UnityEngine.Splines.Spline"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Spline",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Splines.Spline"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Evaluate",
+          "parameters": [
+            {
+              "name": "t",
+              "type": "System.Single"
+            },
+            {
+              "name": "position",
+              "type": "Unity.Mathematics.float3&"
+            },
+            {
+              "name": "tangent",
+              "type": "Unity.Mathematics.float3&"
+            },
+            {
+              "name": "upVector",
+              "type": "Unity.Mathematics.float3&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Evaluate",
+          "parameters": [
+            {
+              "name": "splineIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            },
+            {
+              "name": "position",
+              "type": "Unity.Mathematics.float3&"
+            },
+            {
+              "name": "tangent",
+              "type": "Unity.Mathematics.float3&"
+            },
+            {
+              "name": "upVector",
+              "type": "Unity.Mathematics.float3&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Evaluate",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            },
+            {
+              "name": "position",
+              "type": "Unity.Mathematics.float3&"
+            },
+            {
+              "name": "tangent",
+              "type": "Unity.Mathematics.float3&"
+            },
+            {
+              "name": "upVector",
+              "type": "Unity.Mathematics.float3&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluatePosition",
+          "parameters": [
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluatePositionV3",
+          "parameters": [
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluatePosition",
+          "parameters": [
+            {
+              "name": "splineIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluatePosition",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluateTangent",
+          "parameters": [
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluateTangent",
+          "parameters": [
+            {
+              "name": "splineIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluateTangent",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluateUpVector",
+          "parameters": [
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluateUpVector",
+          "parameters": [
+            {
+              "name": "splineIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluateUpVector",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluateAcceleration",
+          "parameters": [
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluateAcceleration",
+          "parameters": [
+            {
+              "name": "splineIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluateAcceleration",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculateLength",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculateLength",
+          "parameters": [
+            {
+              "name": "splineIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnBeforeSerialize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnAfterDeserialize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SplineContainer",
+      "namespace": "UnityEngine.Splines",
+      "parent": "MonoBehaviour",
+      "type_token": 33554455
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Distance",
+          "offset": 0,
+          "type": "UnityEngine.Splines.PathIndexUnit"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Normalized",
+          "offset": 0,
+          "type": "UnityEngine.Splines.PathIndexUnit"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Knot",
+          "offset": 0,
+          "type": "UnityEngine.Splines.PathIndexUnit"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "PathIndexUnit",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554457
+    },
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnSplineModified",
+          "parameters": [
+            {
+              "name": "info",
+              "type": "UnityEngine.Splines.SplineModificationData"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ISplineModificationHandler",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554458
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "k_DataPointComparer",
+          "offset": 0,
+          "type": "UnityEngine.Splines.DataPointComparer<UnityEngine.Splines.DataPoint<T>>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_IndexUnit",
+          "offset": 0,
+          "type": "UnityEngine.Splines.PathIndexUnit"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_DefaultValue",
+          "offset": 0,
+          "type": "T"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_DataPoints",
+          "offset": 0,
+          "type": "System.Collections.Generic.List<UnityEngine.Splines.DataPoint<T>>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_NeedsSort",
+          "offset": 0,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "changed",
+          "offset": 0,
+          "type": "System.Action"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Changed",
+          "offset": 0,
+          "type": "System.Action"
+        }
+      ],
+      "interfaces": [
+        "IEnumerable`1",
+        "IEnumerable",
+        "ISplineModificationHandler"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Count",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerator<UnityEngine.Splines.DataPoint<T>>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.Collections.IEnumerable.GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.IEnumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnityEngine.Splines.ISplineModificationHandler.OnSplineModified",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "UnityEngine.Splines.SplineModificationData"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SplineData`1",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554459
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Key",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Value",
+          "offset": 0,
+          "type": "UnityEngine.Splines.SplineData<T>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SplineDataKeyValuePair`1",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554461
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Data",
+          "offset": 0,
+          "type": "System.Collections.Generic.List<UnityEngine.Splines.SplineDataKeyValuePair<T>>"
+        }
+      ],
+      "interfaces": [
+        "IEnumerable`1",
+        "IEnumerable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerator<UnityEngine.Splines.SplineDataKeyValuePair<T>>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.Collections.IEnumerable.GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.IEnumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SplineDataDictionary`1",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554462
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Spline",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Knot",
+          "offset": 20,
+          "type": "System.Int32"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "System.Int32"
+            },
+            {
+              "name": "knot",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "otherIndex",
+              "type": "UnityEngine.Splines.SplineKnotIndex"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "SplineKnotIndex",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554463
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PointLineNearestPoint",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "a",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "b",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "lineParam",
+              "type": "System.Single&"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        }
+      ],
+      "name": "SplineMath",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554464
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Default",
+          "offset": 0,
+          "type": "UnityEngine.Splines.SplineModification"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ClosedModified",
+          "offset": 0,
+          "type": "UnityEngine.Splines.SplineModification"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "KnotModified",
+          "offset": 0,
+          "type": "UnityEngine.Splines.SplineModification"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "KnotInserted",
+          "offset": 0,
+          "type": "UnityEngine.Splines.SplineModification"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "KnotRemoved",
+          "offset": 0,
+          "type": "UnityEngine.Splines.SplineModification"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "KnotReordered",
+          "offset": 0,
+          "type": "UnityEngine.Splines.SplineModification"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "SplineModification",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554465
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "Spline",
+          "offset": 16,
+          "type": "UnityEngine.Splines.Spline"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "Modification",
+          "offset": 24,
+          "type": "UnityEngine.Splines.SplineModification"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "KnotIndex",
+          "offset": 28,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "PrevCurveLength",
+          "offset": 32,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "NextCurveLength",
+          "offset": 36,
+          "type": "System.Single"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "UnityEngine.Splines.Spline"
+            },
+            {
+              "name": "modification",
+              "type": "UnityEngine.Splines.SplineModification"
+            },
+            {
+              "name": "knotIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "prevCurveLength",
+              "type": "System.Single"
+            },
+            {
+              "name": "nextCurveLength",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SplineModificationData",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554466
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CatmullRom",
+          "offset": 0,
+          "type": "UnityEngine.Splines.SplineType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Bezier",
+          "offset": 0,
+          "type": "UnityEngine.Splines.SplineType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Linear",
+          "offset": 0,
+          "type": "UnityEngine.Splines.SplineType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "SplineType",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554467
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "start",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "length",
+          "offset": 20,
+          "type": "System.Single"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "start",
+              "type": "System.Single"
+            },
+            {
+              "name": "length",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Segment",
+      "namespace": "",
+      "type_token": 33554469
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Evaluate",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            },
+            {
+              "name": "position",
+              "type": "Unity.Mathematics.float3&"
+            },
+            {
+              "name": "tangent",
+              "type": "Unity.Mathematics.float3&"
+            },
+            {
+              "name": "upVector",
+              "type": "Unity.Mathematics.float3&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluatePosition",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluatePositionV3",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluateTangent",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluateUpVector",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluateUpVector",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "curveIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "curveT",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluateAcceleration",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SplineToCurveT",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "splineT",
+              "type": "System.Single"
+            },
+            {
+              "name": "curveT",
+              "type": "System.Single&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SplineToCurveT",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "splineT",
+              "type": "System.Single"
+            },
+            {
+              "name": "curveT",
+              "type": "System.Single&"
+            },
+            {
+              "name": "useLUT",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculateLength",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "transform",
+              "type": "Unity.Mathematics.float4x4"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCurveCount",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSubdivisionCount",
+          "parameters": [
+            {
+              "name": "length",
+              "type": "System.Single"
+            },
+            {
+              "name": "resolution",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetNearestPoint",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "point",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "range",
+              "type": "UnityEngine.Splines.SplineUtility.Segment"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single&"
+            },
+            {
+              "name": "nearest",
+              "type": "Unity.Mathematics.float3&"
+            },
+            {
+              "name": "time",
+              "type": "System.Single&"
+            },
+            {
+              "name": "segments",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Splines.SplineUtility.Segment"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetNearestPoint",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "point",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "nearest",
+              "type": "Unity.Mathematics.float3&"
+            },
+            {
+              "name": "t",
+              "type": "System.Single&"
+            },
+            {
+              "name": "resolution",
+              "type": "System.Int32"
+            },
+            {
+              "name": "iterations",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PreviousIndex",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NextIndex",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Previous",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Splines.BezierKnot"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Next",
+          "parameters": [
+            {
+              "name": "spline",
+              "type": "T"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Splines.BezierKnot"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PreviousIndex",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            },
+            {
+              "name": "wrap",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NextIndex",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            },
+            {
+              "name": "wrap",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetExplicitLinearTangent",
+          "parameters": [
+            {
+              "name": "point",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "to",
+              "type": "Unity.Mathematics.float3"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAutoSmoothTangent",
+          "parameters": [
+            {
+              "name": "previous",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "current",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "next",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "tension",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "Unity.Mathematics.float3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAutoSmoothKnot",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "previous",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "next",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "normal",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "width",
+              "type": "System.Single"
+            },
+            {
+              "name": "tension",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.Splines.BezierKnot"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetKnotRotation",
+          "parameters": [
+            {
+              "name": "tangent",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "normal",
+              "type": "Unity.Mathematics.float3"
+            }
+          ],
+          "return_type": "Unity.Mathematics.quaternion"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsIndexValid",
+          "parameters": [
+            {
+              "name": "container",
+              "type": "T"
+            },
+            {
+              "name": "index",
+              "type": "UnityEngine.Splines.SplineKnotIndex"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetLinkedKnotPosition",
+          "parameters": [
+            {
+              "name": "container",
+              "type": "T"
+            },
+            {
+              "name": "index",
+              "type": "UnityEngine.Splines.SplineKnotIndex"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SplineUtility",
+      "namespace": "UnityEngine.Splines",
+      "type_token": 33554468
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Unity.Splines.dll"
+}

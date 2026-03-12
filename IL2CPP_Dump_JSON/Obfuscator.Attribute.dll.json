@@ -1,0 +1,45 @@
+{
+  "class_count": 3,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SkipAttribute",
+      "namespace": "Beebyte.Obfuscator",
+      "parent": "Attribute",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SkipRenameAttribute",
+      "namespace": "Beebyte.Obfuscator",
+      "parent": "Attribute",
+      "type_token": 33554435
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Obfuscator.Attribute.dll"
+}

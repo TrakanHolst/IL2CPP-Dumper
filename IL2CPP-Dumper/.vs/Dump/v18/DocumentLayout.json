@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fonta\\GIT\\IL2CPP-Dumper\\IL2CPP-Dumper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B330DED-84CA-49D9-9261-532E41C7FC9D}|Dump\\Dump.vcxproj|C:\\Users\\fonta\\GIT\\IL2CPP-Dumper\\IL2CPP-Dumper\\Dump\\src\\dumper.cxx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6B330DED-84CA-49D9-9261-532E41C7FC9D}|Dump\\Dump.vcxproj|solutionrelative:Dump\\src\\dumper.cxx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dumper.cxx",
+              "DocumentMoniker": "C:\\Users\\fonta\\GIT\\IL2CPP-Dumper\\IL2CPP-Dumper\\Dump\\src\\dumper.cxx",
+              "RelativeDocumentMoniker": "Dump\\src\\dumper.cxx",
+              "ToolTip": "C:\\Users\\fonta\\GIT\\IL2CPP-Dumper\\IL2CPP-Dumper\\Dump\\src\\dumper.cxx",
+              "RelativeToolTip": "Dump\\src\\dumper.cxx",
+              "ViewState": "AgIAAAEAAAAAAAAAAAASwAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-01T08:16:22.686Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

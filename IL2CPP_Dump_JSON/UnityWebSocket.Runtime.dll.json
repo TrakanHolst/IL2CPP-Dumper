@@ -1,0 +1,1591 @@
+{
+  "class_count": 16,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<Code>k__BackingField",
+          "offset": 16,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<Reason>k__BackingField",
+          "offset": 24,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<WasClean>k__BackingField",
+          "offset": 32,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "code",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "code",
+              "type": "UnityWebSocket.CloseStatusCode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "code",
+              "type": "UnityWebSocket.CloseStatusCode"
+            },
+            {
+              "name": "reason",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "code",
+              "type": "System.UInt16"
+            },
+            {
+              "name": "reason",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Code",
+          "parameters": [],
+          "return_type": "System.UInt16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Code",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Reason",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Reason",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_WasClean",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_WasClean",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_StatusCode",
+          "parameters": [],
+          "return_type": "UnityWebSocket.CloseStatusCode"
+        }
+      ],
+      "name": "CloseEventArgs",
+      "namespace": "UnityWebSocket",
+      "parent": "EventArgs",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Unknown",
+          "offset": 0,
+          "type": "UnityWebSocket.CloseStatusCode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Normal",
+          "offset": 0,
+          "type": "UnityWebSocket.CloseStatusCode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Away",
+          "offset": 0,
+          "type": "UnityWebSocket.CloseStatusCode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ProtocolError",
+          "offset": 0,
+          "type": "UnityWebSocket.CloseStatusCode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "UnsupportedData",
+          "offset": 0,
+          "type": "UnityWebSocket.CloseStatusCode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Undefined",
+          "offset": 0,
+          "type": "UnityWebSocket.CloseStatusCode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "NoStatus",
+          "offset": 0,
+          "type": "UnityWebSocket.CloseStatusCode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Abnormal",
+          "offset": 0,
+          "type": "UnityWebSocket.CloseStatusCode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "InvalidData",
+          "offset": 0,
+          "type": "UnityWebSocket.CloseStatusCode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "PolicyViolation",
+          "offset": 0,
+          "type": "UnityWebSocket.CloseStatusCode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "TooBig",
+          "offset": 0,
+          "type": "UnityWebSocket.CloseStatusCode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MandatoryExtension",
+          "offset": 0,
+          "type": "UnityWebSocket.CloseStatusCode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ServerError",
+          "offset": 0,
+          "type": "UnityWebSocket.CloseStatusCode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "TlsHandshakeFailure",
+          "offset": 0,
+          "type": "UnityWebSocket.CloseStatusCode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "CloseStatusCode",
+      "namespace": "UnityWebSocket",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<Exception>k__BackingField",
+          "offset": 16,
+          "type": "System.Exception"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<Message>k__BackingField",
+          "offset": 24,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            },
+            {
+              "name": "exception",
+              "type": "System.Exception"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Exception",
+          "parameters": [],
+          "return_type": "System.Exception"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Exception",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Exception"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Message",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Message",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ErrorEventArgs",
+      "namespace": "UnityWebSocket",
+      "parent": "EventArgs",
+      "type_token": 33554436
+    },
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConnectAsync",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CloseAsync",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SendAsync",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SendAsync",
+          "parameters": [
+            {
+              "name": "text",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Address",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_SubProtocols",
+          "parameters": [],
+          "return_type": "System.String[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ReadyState",
+          "parameters": [],
+          "return_type": "UnityWebSocket.WebSocketState"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_BinaryType",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_BinaryType",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_OnOpen",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.EventHandler<UnityWebSocket.OpenEventArgs>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_OnOpen",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.EventHandler<UnityWebSocket.OpenEventArgs>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_OnClose",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.EventHandler<UnityWebSocket.CloseEventArgs>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_OnClose",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.EventHandler<UnityWebSocket.CloseEventArgs>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_OnError",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.EventHandler<UnityWebSocket.ErrorEventArgs>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_OnError",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.EventHandler<UnityWebSocket.ErrorEventArgs>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_OnMessage",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.EventHandler<UnityWebSocket.MessageEventArgs>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_OnMessage",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.EventHandler<UnityWebSocket.MessageEventArgs>"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IWebSocket",
+      "namespace": "UnityWebSocket",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_rawData",
+          "offset": 16,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_data",
+          "offset": 24,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<Opcode>k__BackingField",
+          "offset": 32,
+          "type": "UnityWebSocket.Opcode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "opcode",
+              "type": "UnityWebSocket.Opcode"
+            },
+            {
+              "name": "rawData",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "opcode",
+              "type": "UnityWebSocket.Opcode"
+            },
+            {
+              "name": "data",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Opcode",
+          "parameters": [],
+          "return_type": "UnityWebSocket.Opcode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Opcode",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityWebSocket.Opcode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Data",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_RawData",
+          "parameters": [],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsBinary",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsText",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetData",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetRawData",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "MessageEventArgs",
+      "namespace": "UnityWebSocket",
+      "parent": "EventArgs",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Text",
+          "offset": 0,
+          "type": "UnityWebSocket.Opcode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Binary",
+          "offset": 0,
+          "type": "UnityWebSocket.Opcode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Close",
+          "offset": 0,
+          "type": "UnityWebSocket.Opcode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Opcode",
+      "namespace": "UnityWebSocket",
+      "type_token": 33554439
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "OpenEventArgs",
+      "namespace": "UnityWebSocket",
+      "parent": "EventArgs",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "GITHUB",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "QQ_GROUP",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "QQ_GROUP_LINK",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "EMAIL",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "AUHTOR",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "VERSION",
+          "offset": 0,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "Settings",
+      "namespace": "UnityWebSocket",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Connecting",
+          "offset": 0,
+          "type": "UnityWebSocket.WebSocketState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Open",
+          "offset": 0,
+          "type": "UnityWebSocket.WebSocketState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Closing",
+          "offset": 0,
+          "type": "UnityWebSocket.WebSocketState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Closed",
+          "offset": 0,
+          "type": "UnityWebSocket.WebSocketState"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "WebSocketState",
+      "namespace": "UnityWebSocket",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "data",
+          "offset": 16,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "type",
+          "offset": 24,
+          "type": "System.Net.WebSockets.WebSocketMessageType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "type",
+              "type": "System.Net.WebSockets.WebSocketMessageType"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SendBuffer",
+      "namespace": "",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<Address>k__BackingField",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<SubProtocols>k__BackingField",
+          "offset": 24,
+          "type": "System.String[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<BinaryType>k__BackingField",
+          "offset": 32,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "OnOpen",
+          "offset": 40,
+          "type": "System.EventHandler<UnityWebSocket.OpenEventArgs>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "OnClose",
+          "offset": 48,
+          "type": "System.EventHandler<UnityWebSocket.CloseEventArgs>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "OnError",
+          "offset": 56,
+          "type": "System.EventHandler<UnityWebSocket.ErrorEventArgs>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "OnMessage",
+          "offset": 64,
+          "type": "System.EventHandler<UnityWebSocket.MessageEventArgs>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "socket",
+          "offset": 72,
+          "type": "System.Net.WebSockets.ClientWebSocket"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "sendQueueLock",
+          "offset": 80,
+          "type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "sendQueue",
+          "offset": 88,
+          "type": "System.Collections.Generic.Queue<UnityWebSocket.WebSocket.SendBuffer>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "isSendTaskRunning",
+          "offset": 96,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "eventQueue",
+          "offset": 104,
+          "type": "System.Collections.Generic.Queue<System.EventArgs>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "eventQueueLock",
+          "offset": 112,
+          "type": "System.Object"
+        }
+      ],
+      "interfaces": [
+        "IWebSocket"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Address",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Address",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_SubProtocols",
+          "parameters": [],
+          "return_type": "System.String[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_SubProtocols",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ReadyState",
+          "parameters": [],
+          "return_type": "UnityWebSocket.WebSocketState"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_BinaryType",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_BinaryType",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_OnOpen",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.EventHandler<UnityWebSocket.OpenEventArgs>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_OnOpen",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.EventHandler<UnityWebSocket.OpenEventArgs>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_OnClose",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.EventHandler<UnityWebSocket.CloseEventArgs>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_OnClose",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.EventHandler<UnityWebSocket.CloseEventArgs>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_OnError",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.EventHandler<UnityWebSocket.ErrorEventArgs>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_OnError",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.EventHandler<UnityWebSocket.ErrorEventArgs>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_OnMessage",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.EventHandler<UnityWebSocket.MessageEventArgs>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_OnMessage",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.EventHandler<UnityWebSocket.MessageEventArgs>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_isOpening",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "address",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "address",
+              "type": "System.String"
+            },
+            {
+              "name": "subProtocol",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "address",
+              "type": "System.String"
+            },
+            {
+              "name": "subProtocols",
+              "type": "System.String[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConnectAsync",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CloseAsync",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SendAsync",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SendAsync",
+          "parameters": [
+            {
+              "name": "text",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConnectTask",
+          "parameters": [],
+          "return_type": "System.Threading.Tasks.Task"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SendBufferAsync",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "UnityWebSocket.WebSocket.SendBuffer"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SendTask",
+          "parameters": [],
+          "return_type": "System.Threading.Tasks.Task"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReceiveTask",
+          "parameters": [],
+          "return_type": "System.Threading.Tasks.Task"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SocketDispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HandleOpen",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HandleMessage",
+          "parameters": [
+            {
+              "name": "opcode",
+              "type": "UnityWebSocket.Opcode"
+            },
+            {
+              "name": "rawData",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HandleClose",
+          "parameters": [
+            {
+              "name": "code",
+              "type": "System.UInt16"
+            },
+            {
+              "name": "reason",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HandleError",
+          "parameters": [
+            {
+              "name": "exception",
+              "type": "System.Exception"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HandleEventSync",
+          "parameters": [
+            {
+              "name": "eventArgs",
+              "type": "System.EventArgs"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Update",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Log",
+          "parameters": [
+            {
+              "name": "msg",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "WebSocket",
+      "namespace": "UnityWebSocket",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "rootName",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "_instance",
+          "offset": 0,
+          "type": "UnityWebSocket.WebSocketManager"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "sockets",
+          "offset": 24,
+          "type": "System.Collections.Generic.List<UnityWebSocket.WebSocket>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Instance",
+          "parameters": [],
+          "return_type": "UnityWebSocket.WebSocketManager"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Awake",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateInstance",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "socket",
+              "type": "UnityWebSocket.WebSocket"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [
+            {
+              "name": "socket",
+              "type": "UnityWebSocket.WebSocket"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Update",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "WebSocketManager",
+      "namespace": "UnityWebSocket",
+      "parent": "MonoBehaviour",
+      "type_token": 33554448
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityWebSocket.Runtime.dll"
+}

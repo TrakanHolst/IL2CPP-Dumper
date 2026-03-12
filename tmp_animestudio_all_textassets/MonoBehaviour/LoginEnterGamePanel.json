@@ -1,0 +1,25 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 444263578815296089
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 5817525864160966176
+  },
+  "m_Name": "",
+  "_canvasGroup": {
+    "m_FileID": 0,
+    "m_PathID": 1852103964476240473
+  },
+  "_btnEnterGame": {
+    "m_FileID": 0,
+    "m_PathID": 2019317302976901721
+  },
+  "_textEnterGame": {
+    "m_FileID": 0,
+    "m_PathID": 622956277625975385
+  },
+  "_delayEnterGame": 1.2
+}

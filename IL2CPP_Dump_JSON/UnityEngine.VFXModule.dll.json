@@ -1,0 +1,646 @@
+{
+  "class_count": 11,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Ptr",
+          "offset": 16,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Owner",
+          "offset": 24,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_VfxAsset",
+          "offset": 32,
+          "type": "UnityEngine.VFX.VisualEffectAsset"
+        }
+      ],
+      "interfaces": [
+        "IDisposable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "owner",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "vfxAsset",
+              "type": "UnityEngine.VFX.VisualEffectAsset"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateEventAttributeWrapper",
+          "parameters": [],
+          "return_type": "UnityEngine.VFX.VFXEventAttribute"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetWrapValue",
+          "parameters": [
+            {
+              "name": "ptrToEventAttribute",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_Create",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_InstanciateVFXEventAttribute",
+          "parameters": [
+            {
+              "name": "vfxAsset",
+              "type": "UnityEngine.VFX.VisualEffectAsset"
+            }
+          ],
+          "return_type": "UnityEngine.VFX.VFXEventAttribute"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_InitFromAsset",
+          "parameters": [
+            {
+              "name": "vfxAsset",
+              "type": "UnityEngine.VFX.VisualEffectAsset"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Release",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_Destroy",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "VFXEventAttribute",
+      "namespace": "UnityEngine.VFX",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Ptr",
+          "offset": 16,
+          "type": "System.IntPtr"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateExpressionValuesWrapper",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "UnityEngine.VFX.VFXExpressionValues"
+        }
+      ],
+      "name": "VFXExpressionValues",
+      "namespace": "UnityEngine.VFX",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "viewTotal",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "viewCount",
+          "offset": 20,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "viewOffset",
+          "offset": 24,
+          "type": "System.UInt32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "VFXCameraXRSettings",
+      "namespace": "UnityEngine.VFX",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "kDefaultCameraXRSettings",
+          "offset": 0,
+          "type": "UnityEngine.VFX.VFXCameraXRSettings"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "VFXManager",
+      "namespace": "UnityEngine.VFX",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnPlay",
+          "parameters": [
+            {
+              "name": "state",
+              "type": "UnityEngine.VFX.VFXSpawnerState"
+            },
+            {
+              "name": "vfxValues",
+              "type": "UnityEngine.VFX.VFXExpressionValues"
+            },
+            {
+              "name": "vfxComponent",
+              "type": "UnityEngine.VFX.VisualEffect"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnUpdate",
+          "parameters": [
+            {
+              "name": "state",
+              "type": "UnityEngine.VFX.VFXSpawnerState"
+            },
+            {
+              "name": "vfxValues",
+              "type": "UnityEngine.VFX.VFXExpressionValues"
+            },
+            {
+              "name": "vfxComponent",
+              "type": "UnityEngine.VFX.VisualEffect"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnStop",
+          "parameters": [
+            {
+              "name": "state",
+              "type": "UnityEngine.VFX.VFXSpawnerState"
+            },
+            {
+              "name": "vfxValues",
+              "type": "UnityEngine.VFX.VFXExpressionValues"
+            },
+            {
+              "name": "vfxComponent",
+              "type": "UnityEngine.VFX.VisualEffect"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "VFXSpawnerCallbacks",
+      "namespace": "UnityEngine.VFX",
+      "parent": "ScriptableObject",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Ptr",
+          "offset": 16,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Owner",
+          "offset": 24,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_WrapEventAttribute",
+          "offset": 32,
+          "type": "UnityEngine.VFX.VFXEventAttribute"
+        }
+      ],
+      "interfaces": [
+        "IDisposable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "owner",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateSpawnerStateWrapper",
+          "parameters": [],
+          "return_type": "UnityEngine.VFX.VFXSpawnerState"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PrepareWrapper",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetWrapValue",
+          "parameters": [
+            {
+              "name": "ptrToSpawnerState",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "ptrToEventAttribute",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Release",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_Destroy",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "VFXSpawnerState",
+      "namespace": "UnityEngine.VFX",
+      "type_token": 33554439
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "VisualEffectObject",
+      "namespace": "UnityEngine.VFX",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "PlayEventID",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "StopEventID",
+          "offset": 4,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "VisualEffectAsset",
+      "namespace": "UnityEngine.VFX",
+      "parent": "VisualEffectObject",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<nameId>k__BackingField",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<eventAttribute>k__BackingField",
+          "offset": 24,
+          "type": "UnityEngine.VFX.VFXEventAttribute"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "nameId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "eventAttribute",
+              "type": "UnityEngine.VFX.VFXEventAttribute"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "VFXOutputEventArgs",
+      "namespace": "UnityEngine.VFX",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_cachedEventAttribute",
+          "offset": 24,
+          "type": "UnityEngine.VFX.VFXEventAttribute"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "outputEventReceived",
+          "offset": 32,
+          "type": "System.Action<UnityEngine.VFX.VFXOutputEventArgs>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_visualEffectAsset",
+          "parameters": [],
+          "return_type": "UnityEngine.VFX.VisualEffectAsset"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateVFXEventAttribute",
+          "parameters": [],
+          "return_type": "UnityEngine.VFX.VFXEventAttribute"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeGetCachedEventAttributeForOutputEvent_Internal",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "UnityEngine.VFX.VisualEffect"
+            }
+          ],
+          "return_type": "UnityEngine.VFX.VFXEventAttribute"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeOutputEventReceived_Internal",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "UnityEngine.VFX.VisualEffect"
+            },
+            {
+              "name": "eventNameId",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "VisualEffect",
+      "namespace": "UnityEngine.VFX",
+      "parent": "Behaviour",
+      "type_token": 33554443
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.VFXModule.dll"
+}

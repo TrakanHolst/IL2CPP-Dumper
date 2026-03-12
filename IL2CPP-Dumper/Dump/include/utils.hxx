@@ -13,4 +13,7 @@ void EnsureDirectory( const std::string & path );
 
 std::string GetAccessModifier( uint32_t flags );
 
+std::string GetModuleDirectory( );
+std::string GetDllDirectory( void* hModule );
+
 #endif // UTILS_H

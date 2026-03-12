@@ -1,0 +1,15 @@
+{
+  "name": "il2cpp-dumper",
+  "version": "1.0.0",
+  "description": "Simple injectable DLL that dumps IL2CPP metadata from Unity games (classes, fields, methods, namespaces, interfaces, etc.).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-bigint": "^1.0.0"
+  }
+}

@@ -1,0 +1,36 @@
+=== NEW ENTITIES (in yours, NOT in reference) ===
+
+ID: 2100460011
+            "entityType": "Interactive",
+            "entityDataIdKey": "int_challenge_start_point_once",
+            "createState": "EnableAndShow",
+
+ID: 2100460012
+            "entityType": "Interactive",
+            "entityDataIdKey": "int_challenge_start_point_once",
+            "createState": "EnableAndShow",
+
+ID: 2100460013
+            "entityType": "Interactive",
+            "entityDataIdKey": "int_challenge_start_point_once",
+            "createState": "EnableAndShow",
+
+ID: 2100460014
+            "entityType": "Interactive",
+            "entityDataIdKey": "int_challenge_start_point_once",
+            "createState": "EnableAndShow",
+
+ID: 2100460015
+            "entityType": "Interactive",
+            "entityDataIdKey": "int_challenge_start_point_once",
+            "createState": "EnableAndShow",
+
+ID: 2100460016
+            "entityType": "Interactive",
+            "entityDataIdKey": "int_challenge_start_point_once",
+            "createState": "EnableAndShow",
+
+ID: 2100460017
+            "entityType": "Interactive",
+            "entityDataIdKey": "int_challenge_start_point_once",
+            "createState": "EnableAndShow",

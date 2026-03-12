@@ -1,0 +1,182 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5891413474571718055
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 2015016541006359814
+  },
+  "m_Name": "",
+  "m_Navigation": {
+    "m_Mode": 0,
+    "m_WrapAround": 0,
+    "m_SelectOnUp": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_SelectOnDown": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_SelectOnLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_SelectOnRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_Transition": 0,
+  "m_Colors": {
+    "m_NormalColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_HighlightedColor": {
+      "r": 0.9607843,
+      "g": 0.9607843,
+      "b": 0.9607843,
+      "a": 1.0
+    },
+    "m_PressedColor": {
+      "r": 0.78431374,
+      "g": 0.78431374,
+      "b": 0.78431374,
+      "a": 1.0
+    },
+    "m_SelectedColor": {
+      "r": 0.9607843,
+      "g": 0.9607843,
+      "b": 0.9607843,
+      "a": 1.0
+    },
+    "m_DisabledColor": {
+      "r": 0.78431374,
+      "g": 0.78431374,
+      "b": 0.78431374,
+      "a": 0.5019608
+    },
+    "m_ColorMultiplier": 1.0,
+    "m_FadeDuration": 0.1
+  },
+  "m_SpriteState": {
+    "m_HighlightedSprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_PressedSprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_SelectedSprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_DisabledSprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_AnimationTriggers": {
+    "m_NormalTrigger": "Normal",
+    "m_HighlightedTrigger": "Highlighted",
+    "m_PressedTrigger": "Pressed",
+    "m_SelectedTrigger": "Selected",
+    "m_DisabledTrigger": "Disabled"
+  },
+  "m_Interactable": 0,
+  "m_TargetGraphic": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_NotifyHover": 1,
+  "m_HoverEnableNode": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_HoverAudioKey": "",
+  "enableControllerNavi": 0,
+  "overrideNaviHintRectTransform": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "overrideNaviHintRectScale": 1.0,
+  "changeNaviHintParent": 0,
+  "hideNaviHint": 0,
+  "needNaviConfirmKeyHint": 0,
+  "useExplicitNaviSelect": 0,
+  "banExplicitOnLeft": 0,
+  "banExplicitOnRight": 0,
+  "banExplicitOnUp": 0,
+  "banExplicitOnDown": 0,
+  "m_ExplicitSelectOnLeft": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_ExplicitSelectOnRight": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_ExplicitSelectOnUp": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_ExplicitSelectOnDown": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "naviGroup": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_FillRect": {
+    "m_FileID": 0,
+    "m_PathID": -5002507698566598055
+  },
+  "m_HandleRect": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Direction": 0,
+  "m_MinValue": 0.0,
+  "m_MaxValue": 1.0,
+  "m_WholeNumbers": 0,
+  "m_Value": 0.0,
+  "m_OnValueChanged": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    }
+  },
+  "snapCenterRange": 0.0,
+  "audioSlide": "",
+  "audioClickHandle": "",
+  "onEndDragSlider": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    }
+  },
+  "onClickSlider": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    }
+  },
+  "onClickSliderHandle": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    }
+  },
+  "sliderAddActionId": "",
+  "sliderReduceActionId": "",
+  "snapStep": 0,
+  "stepValue": 1.0,
+  "_enableStickScroll": 0,
+  "_stickScrollTolerance": 0.001,
+  "_stickOverPushThreshold": 0.9,
+  "_stickOverPushMultiplier": 4,
+  "_stickScrollBatchCount": 30
+}

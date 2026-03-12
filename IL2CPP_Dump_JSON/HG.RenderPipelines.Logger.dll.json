@@ -1,0 +1,338 @@
+{
+  "class_count": 4,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogWarning",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogWarning",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            },
+            {
+              "name": "param1",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogWarning",
+          "parameters": [
+            {
+              "name": "context",
+              "type": "UnityEngine.Object"
+            },
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogError",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogError",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            },
+            {
+              "name": "param1",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogError",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            },
+            {
+              "name": "param1",
+              "type": "T1"
+            },
+            {
+              "name": "param2",
+              "type": "T2"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogError",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            },
+            {
+              "name": "param1",
+              "type": "T1"
+            },
+            {
+              "name": "param2",
+              "type": "T2"
+            },
+            {
+              "name": "param3",
+              "type": "T3"
+            },
+            {
+              "name": "param4",
+              "type": "T4"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogCritical",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogCritical",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            },
+            {
+              "name": "param1",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogCritical",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            },
+            {
+              "name": "param1",
+              "type": "T1"
+            },
+            {
+              "name": "param2",
+              "type": "T2"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogException",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "System.Exception"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogImportant",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGRPLogger",
+      "namespace": "HG.Rendering",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "virtualMachine",
+          "offset": 16,
+          "type": "IFix.Core.VirtualMachine"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "methodId",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "anonObj",
+          "offset": 32,
+          "type": "System.Object"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "wrapperArray",
+          "offset": 0,
+          "type": "IFix.ILFixDynamicMethodWrapper[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_0",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_1",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ILFixDynamicMethodWrapper",
+      "namespace": "IFix",
+      "type_token": 33554435
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPatch",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "IFix.ILFixDynamicMethodWrapper"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsPatched",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "WrappersManagerImpl",
+      "namespace": "IFix",
+      "type_token": 33554436
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "HG.RenderPipelines.Logger.dll"
+}

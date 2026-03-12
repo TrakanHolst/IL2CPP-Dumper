@@ -1,0 +1,3721 @@
+{
+  "class_count": 52,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnFatalError",
+          "parameters": [
+            {
+              "name": "msg",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnError",
+          "parameters": [
+            {
+              "name": "msg",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnWarning",
+          "parameters": [
+            {
+              "name": "msg",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnInfo",
+          "parameters": [
+            {
+              "name": "msg",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "DiagnosticHandler",
+      "namespace": "USD.NET.Unity",
+      "parent": "DiagnosticHandler",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Linear",
+          "offset": 0,
+          "type": "USD.NET.Unity.BasisCurvesSample.CurveType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Cubic",
+          "offset": 0,
+          "type": "USD.NET.Unity.BasisCurvesSample.CurveType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "CurveType",
+      "namespace": "",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Bezier",
+          "offset": 0,
+          "type": "USD.NET.Unity.BasisCurvesSample.Basis"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Bspline",
+          "offset": 0,
+          "type": "USD.NET.Unity.BasisCurvesSample.Basis"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CatmullRom",
+          "offset": 0,
+          "type": "USD.NET.Unity.BasisCurvesSample.Basis"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Hermite",
+          "offset": 0,
+          "type": "USD.NET.Unity.BasisCurvesSample.Basis"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Power",
+          "offset": 0,
+          "type": "USD.NET.Unity.BasisCurvesSample.Basis"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Basis",
+      "namespace": "",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Nonperiodic",
+          "offset": 0,
+          "type": "USD.NET.Unity.BasisCurvesSample.WrapMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Periodic",
+          "offset": 0,
+          "type": "USD.NET.Unity.BasisCurvesSample.WrapMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "WrapMode",
+      "namespace": "",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "type",
+          "offset": 176,
+          "type": "USD.NET.Unity.BasisCurvesSample.CurveType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "basis",
+          "offset": 180,
+          "type": "USD.NET.Unity.BasisCurvesSample.Basis"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "wrap",
+          "offset": 184,
+          "type": "USD.NET.Unity.BasisCurvesSample.WrapMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "BasisCurvesSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "CurvesSample",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "extent",
+          "offset": 96,
+          "type": "UnityEngine.Bounds"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "BoundableSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "XformableSample",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Perspective",
+          "offset": 0,
+          "type": "USD.NET.Unity.CameraSample.ProjectionType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Orthographic",
+          "offset": 0,
+          "type": "USD.NET.Unity.CameraSample.ProjectionType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ProjectionType",
+      "namespace": "",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Mono",
+          "offset": 0,
+          "type": "USD.NET.Unity.CameraSample.StereoRole"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Left",
+          "offset": 0,
+          "type": "USD.NET.Unity.CameraSample.StereoRole"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Right",
+          "offset": 0,
+          "type": "USD.NET.Unity.CameraSample.StereoRole"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "StereoRole",
+      "namespace": "",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "open",
+          "offset": 16,
+          "type": "System.Double"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "close",
+          "offset": 24,
+          "type": "System.Double"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Shutter",
+      "namespace": "",
+      "parent": "SampleBase",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "projection",
+          "offset": 96,
+          "type": "USD.NET.Unity.CameraSample.ProjectionType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "horizontalAperture",
+          "offset": 100,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "horizontalApertureOffset",
+          "offset": 104,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "verticalAperture",
+          "offset": 108,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "verticalApertureOffset",
+          "offset": 112,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "focalLength",
+          "offset": 116,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "clippingRange",
+          "offset": 120,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "clippingPlanes",
+          "offset": 128,
+          "type": "UnityEngine.Vector4[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "fStop",
+          "offset": 136,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "focusDistance",
+          "offset": 140,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "stereoRole",
+          "offset": 144,
+          "type": "USD.NET.Unity.CameraSample.StereoRole"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "shutter",
+          "offset": 152,
+          "type": "USD.NET.Unity.CameraSample.Shutter"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "fromCamera",
+              "type": "UnityEngine.Camera"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CopyFromCamera",
+          "parameters": [
+            {
+              "name": "camera",
+              "type": "UnityEngine.Camera"
+            },
+            {
+              "name": "convertTransformToUsd",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CopyToCamera",
+          "parameters": [
+            {
+              "name": "camera",
+              "type": "UnityEngine.Camera"
+            },
+            {
+              "name": "setTransform",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CameraSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "XformSample",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_size",
+          "offset": 128,
+          "type": "System.Double"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "size",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_size",
+          "parameters": [],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_size",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CubeSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "GprimSample",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "doubleSided",
+          "offset": 128,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "orientation",
+          "offset": 132,
+          "type": "USD.NET.Orientation"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "points",
+          "offset": 136,
+          "type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "normals",
+          "offset": 144,
+          "type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "velocities",
+          "offset": 152,
+          "type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "curveVertexCounts",
+          "offset": 160,
+          "type": "System.Int32[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "widths",
+          "offset": 168,
+          "type": "System.Single[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CurvesSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "PointBasedSample",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "colors",
+          "offset": 120,
+          "type": "USD.NET.Primvar<UnityEngine.Color[]>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "GprimSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "BoundableSample",
+      "type_token": 33554446
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ImageableSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "SampleBase",
+      "type_token": 33554447
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "visibility",
+          "offset": 168,
+          "type": "USD.NET.Visibility"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "purpose",
+          "offset": 172,
+          "type": "USD.NET.Purpose"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "doubleSided",
+          "offset": 176,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "orientation",
+          "offset": 180,
+          "type": "USD.NET.Orientation"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "faceVertexCounts",
+          "offset": 184,
+          "type": "System.Int32[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTriangles",
+          "parameters": [
+            {
+              "name": "triangleIndices",
+              "type": "System.Int32[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "MeshSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "MeshSampleBase",
+      "type_token": 33554448
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "faceVertexIndices",
+          "offset": 128,
+          "type": "System.Int32[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "points",
+          "offset": 136,
+          "type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "normals",
+          "offset": 144,
+          "type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "tangents",
+          "offset": 152,
+          "type": "USD.NET.Primvar<UnityEngine.Vector4[]>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ArbitraryPrimvars",
+          "offset": 160,
+          "type": "System.Collections.Generic.Dictionary<System.String,USD.NET.Primvar<System.Object>>"
+        }
+      ],
+      "interfaces": [
+        "IArbitraryPrimvars"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetArbitraryPrimvars",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.Dictionary<System.String,USD.NET.Primvar<System.Object>>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddPrimvars",
+          "parameters": [
+            {
+              "name": "primvars",
+              "type": "System.Collections.Generic.List<System.String>"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "MeshSampleBase",
+      "namespace": "USD.NET.Unity",
+      "parent": "PointBasedSample",
+      "type_token": 33554449
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "PointBasedSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "GprimSample",
+      "type_token": 33554450
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "prototypes",
+          "offset": 120,
+          "type": "USD.NET.Relationship"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "PointInstancerPrototypesSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "BoundableSample",
+      "type_token": 33554451
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "protoIndices",
+          "offset": 128,
+          "type": "System.Int32[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ids",
+          "offset": 136,
+          "type": "System.Int64[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "invisibleIds",
+          "offset": 144,
+          "type": "System.Int64[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "positions",
+          "offset": 152,
+          "type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "rotations",
+          "offset": 160,
+          "type": "UnityEngine.Quaternion[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "scales",
+          "offset": 168,
+          "type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "velocities",
+          "offset": 176,
+          "type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "angularVelocities",
+          "offset": 184,
+          "type": "UnityEngine.Vector3[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ComputeInstanceMatrices",
+          "parameters": [
+            {
+              "name": "scene",
+              "type": "USD.NET.Scene"
+            },
+            {
+              "name": "primPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Matrix4x4[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "PointInstancerSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "PointInstancerPrototypesSample",
+      "type_token": 33554452
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ScopeSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "ImageableSample",
+      "type_token": 33554453
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_radius",
+          "offset": 128,
+          "type": "System.Double"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "radius",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_radius",
+          "parameters": [],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_radius",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SphereSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "GprimSample",
+      "type_token": 33554454
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "kXformOpTransform",
+          "offset": 16,
+          "type": "System.String[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_xf",
+          "offset": 24,
+          "type": "UnityEngine.Matrix4x4"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "xformOpOrder",
+          "offset": 88,
+          "type": "System.String[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromTransform",
+          "parameters": [
+            {
+              "name": "transform",
+              "type": "UnityEngine.Transform"
+            }
+          ],
+          "return_type": "USD.NET.Unity.XformableSample"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_transform",
+          "parameters": [],
+          "return_type": "UnityEngine.Matrix4x4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_transform",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Matrix4x4"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConvertTransform",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "XformableSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "ImageableSample",
+      "type_token": 33554455
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "XformSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "XformableSample",
+      "type_token": 33554456
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "binding",
+          "offset": 16,
+          "type": "USD.NET.Relationship"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "materialPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "MaterialBindingSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "SampleBase",
+      "type_token": 33554457
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "surface",
+          "offset": 16,
+          "type": "USD.NET.Connectable<pxr.TfToken>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "displacement",
+          "offset": 24,
+          "type": "USD.NET.Connectable<pxr.TfToken>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "requiredKeywords",
+          "offset": 32,
+          "type": "System.String[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "surfacePath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "surfacePath",
+              "type": "System.String"
+            },
+            {
+              "name": "displacementPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadMaterial",
+          "parameters": [
+            {
+              "name": "scene",
+              "type": "USD.NET.Scene"
+            },
+            {
+              "name": "geometryPath",
+              "type": "System.String"
+            },
+            {
+              "name": "materialSample",
+              "type": "USD.NET.Unity.MaterialSample"
+            },
+            {
+              "name": "shaderId",
+              "type": "System.String&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Bind",
+          "parameters": [
+            {
+              "name": "scene",
+              "type": "USD.NET.Scene"
+            },
+            {
+              "name": "primPath",
+              "type": "System.String"
+            },
+            {
+              "name": "materialPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Unbind",
+          "parameters": [
+            {
+              "name": "scene",
+              "type": "USD.NET.Scene"
+            },
+            {
+              "name": "primPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "MaterialSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "SampleBase",
+      "type_token": 33554458
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value",
+          "offset": 16,
+          "type": "System.Object"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "connectedPath",
+          "offset": 24,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "usdName",
+          "offset": 32,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "unityName",
+          "offset": 40,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "requiredShaderKeywords",
+          "offset": 48,
+          "type": "System.String[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "ParameterInfo",
+      "namespace": "USD.NET.Unity",
+      "type_token": 33554459
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<UnityName>k__BackingField",
+          "offset": 24,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_UnityName",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_UnityName",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "unityName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "InputParameterAttribute",
+      "namespace": "USD.NET.Unity",
+      "parent": "UsdNamespaceAttribute",
+      "type_token": 33554460
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<UnityName>k__BackingField",
+          "offset": 24,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_UnityName",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_UnityName",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "unityName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "InputTextureAttribute",
+      "namespace": "USD.NET.Unity",
+      "parent": "UsdNamespaceAttribute",
+      "type_token": 33554461
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<Keywords>k__BackingField",
+          "offset": 16,
+          "type": "System.String[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Keywords",
+          "parameters": [],
+          "return_type": "System.String[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Keywords",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "keyword",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "keywords",
+              "type": "System.String[]"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "RequireShaderKeywordsAttribute",
+      "namespace": "USD.NET.Unity",
+      "parent": "Attribute",
+      "type_token": 33554462
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "id",
+          "offset": 16,
+          "type": "pxr.TfToken"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetClassType",
+          "parameters": [],
+          "return_type": "System.Type"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetValue",
+          "parameters": [
+            {
+              "name": "info",
+              "type": "System.Reflection.FieldInfo"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetInputParameters",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<USD.NET.Unity.ParameterInfo>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetInputTextures",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<USD.NET.Unity.ParameterInfo>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ShaderSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "SampleBase",
+      "type_token": 33554463
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "enableGpuInstancing",
+          "offset": 24,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "albedo",
+          "offset": 32,
+          "type": "USD.NET.Connectable<UnityEngine.Color>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "albedoMap",
+          "offset": 40,
+          "type": "USD.NET.Connectable<UnityEngine.Color>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "cutoff",
+          "offset": 48,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "smoothness",
+          "offset": 56,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "smoothnessScale",
+          "offset": 64,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "smoothnessTextureChannel",
+          "offset": 72,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "metallicMap",
+          "offset": 80,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "metallicScale",
+          "offset": 88,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "enableSpecularHighlights",
+          "offset": 96,
+          "type": "USD.NET.Connectable<System.Boolean>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "enableGlossyReflections",
+          "offset": 104,
+          "type": "USD.NET.Connectable<System.Boolean>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "normalMap",
+          "offset": 112,
+          "type": "USD.NET.Connectable<UnityEngine.Color>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "normalMapScale",
+          "offset": 120,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "parallaxMap",
+          "offset": 128,
+          "type": "USD.NET.Connectable<UnityEngine.Color>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "parallaxMapScale",
+          "offset": 136,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "occlusionMap",
+          "offset": 144,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "occlusionMapScale",
+          "offset": 152,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "emission",
+          "offset": 160,
+          "type": "USD.NET.Connectable<UnityEngine.Color>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "emissionMap",
+          "offset": 168,
+          "type": "USD.NET.Connectable<UnityEngine.Color>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "detailMask",
+          "offset": 176,
+          "type": "USD.NET.Connectable<UnityEngine.Color>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "detailAlbedoMap",
+          "offset": 184,
+          "type": "USD.NET.Connectable<UnityEngine.Color>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "detailNormalMap",
+          "offset": 192,
+          "type": "USD.NET.Connectable<UnityEngine.Color>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "detailNormalMapScale",
+          "offset": 200,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "uvSetForSecondaryTextures",
+          "offset": 208,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "renderingMode",
+          "offset": 216,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "srcBlend",
+          "offset": 224,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "dstBlend",
+          "offset": 232,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "zwrite",
+          "offset": 240,
+          "type": "USD.NET.Connectable<System.Single>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "StandardShaderSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "ShaderSample",
+      "type_token": 33554468
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "sourceFile",
+          "offset": 16,
+          "type": "USD.NET.Connectable<System.String>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "sRgb",
+          "offset": 24,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Texture2DSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "SampleBase",
+      "type_token": 33554469
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "displacement",
+          "offset": 16,
+          "type": "pxr.TfToken"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "surface",
+          "offset": 24,
+          "type": "pxr.TfToken"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Outputs",
+      "namespace": "",
+      "parent": "SampleBase",
+      "type_token": 33554471
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "diffuseColor",
+          "offset": 24,
+          "type": "USD.NET.Connectable<UnityEngine.Vector3>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "emissiveColor",
+          "offset": 32,
+          "type": "USD.NET.Connectable<UnityEngine.Vector3>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "useSpecularWorkflow",
+          "offset": 40,
+          "type": "USD.NET.Connectable<System.Int32>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "specularColor",
+          "offset": 48,
+          "type": "USD.NET.Connectable<UnityEngine.Vector3>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "metallic",
+          "offset": 56,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "roughness",
+          "offset": 64,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "clearcoat",
+          "offset": 72,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "clearcoatRoughness",
+          "offset": 80,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "opacity",
+          "offset": 88,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "opacityThreshold",
+          "offset": 96,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ior",
+          "offset": 104,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "normal",
+          "offset": 112,
+          "type": "USD.NET.Connectable<UnityEngine.Vector3>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "displacement",
+          "offset": 120,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "occlusion",
+          "offset": 128,
+          "type": "USD.NET.Connectable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "outputs",
+          "offset": 136,
+          "type": "USD.NET.Unity.PreviewSurfaceSample.Outputs"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "PreviewSurfaceSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "ShaderSample",
+      "type_token": 33554470
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "result",
+          "offset": 0,
+          "type": "System.Nullable<T>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Outputs",
+      "namespace": "",
+      "parent": "SampleBase",
+      "type_token": 33554473
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "fallback",
+          "offset": 0,
+          "type": "USD.NET.Connectable<T>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "outputs",
+          "offset": 0,
+          "type": "USD.NET.Unity.PrimvarReaderSample.Outputs<T>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "PrimvarReaderSample`1",
+      "namespace": "USD.NET.Unity",
+      "parent": "ShaderSample",
+      "type_token": 33554472
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "varname",
+          "offset": 0,
+          "type": "USD.NET.Connectable<System.String>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "PrimvarReaderImportSample`1",
+      "namespace": "USD.NET.Unity",
+      "parent": "PrimvarReaderSample`1",
+      "type_token": 33554474
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "varname",
+          "offset": 0,
+          "type": "USD.NET.Connectable<pxr.TfToken>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "PrimvarReaderExportSample`1",
+      "namespace": "USD.NET.Unity",
+      "parent": "PrimvarReaderSample`1",
+      "type_token": 33554475
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Black",
+          "offset": 0,
+          "type": "USD.NET.Unity.TextureReaderSample.WrapMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Clamp",
+          "offset": 0,
+          "type": "USD.NET.Unity.TextureReaderSample.WrapMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Repeat",
+          "offset": 0,
+          "type": "USD.NET.Unity.TextureReaderSample.WrapMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Mirror",
+          "offset": 0,
+          "type": "USD.NET.Unity.TextureReaderSample.WrapMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "WrapMode",
+      "namespace": "",
+      "type_token": 33554477
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Yes",
+          "offset": 0,
+          "type": "USD.NET.Unity.TextureReaderSample.SRGBMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "No",
+          "offset": 0,
+          "type": "USD.NET.Unity.TextureReaderSample.SRGBMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Auto",
+          "offset": 0,
+          "type": "USD.NET.Unity.TextureReaderSample.SRGBMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "SRGBMode",
+      "namespace": "",
+      "type_token": 33554478
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "r",
+          "offset": 16,
+          "type": "System.Nullable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "g",
+          "offset": 24,
+          "type": "System.Nullable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "b",
+          "offset": 32,
+          "type": "System.Nullable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "a",
+          "offset": 40,
+          "type": "System.Nullable<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "rgb",
+          "offset": 48,
+          "type": "System.Nullable<UnityEngine.Vector3>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "rgba",
+          "offset": 64,
+          "type": "System.Nullable<UnityEngine.Vector4>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Outputs",
+      "namespace": "",
+      "parent": "SampleBase",
+      "type_token": 33554479
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "file",
+          "offset": 24,
+          "type": "USD.NET.Connectable<pxr.SdfAssetPath>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "st",
+          "offset": 32,
+          "type": "USD.NET.Connectable<UnityEngine.Vector2>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "wrapS",
+          "offset": 40,
+          "type": "USD.NET.Connectable<USD.NET.Unity.TextureReaderSample.WrapMode>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "wrapT",
+          "offset": 48,
+          "type": "USD.NET.Connectable<USD.NET.Unity.TextureReaderSample.WrapMode>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "fallback",
+          "offset": 56,
+          "type": "USD.NET.Connectable<UnityEngine.Vector4>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "scale",
+          "offset": 64,
+          "type": "USD.NET.Connectable<UnityEngine.Vector4>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "bias",
+          "offset": 72,
+          "type": "USD.NET.Connectable<UnityEngine.Vector4>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "isSRGB",
+          "offset": 80,
+          "type": "USD.NET.Connectable<USD.NET.Unity.TextureReaderSample.SRGBMode>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "outputs",
+          "offset": 88,
+          "type": "USD.NET.Unity.TextureReaderSample.Outputs"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "filePath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "filePath",
+              "type": "System.String"
+            },
+            {
+              "name": "stConnectionPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetWrapMode",
+          "parameters": [
+            {
+              "name": "wrap",
+              "type": "UnityEngine.TextureWrapMode"
+            }
+          ],
+          "return_type": "USD.NET.Unity.TextureReaderSample.WrapMode"
+        }
+      ],
+      "name": "TextureReaderSample",
+      "namespace": "USD.NET.Unity",
+      "parent": "ShaderSample",
+      "type_token": 33554476
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "isInitialized",
+          "offset": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RegisterTypes",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UnityTypeBindings",
+      "namespace": "USD.NET.Unity",
+      "type_token": 33554480
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "PreserveAttribute",
+      "namespace": "USD.NET.Unity",
+      "parent": "Attribute",
+      "type_token": 33554482
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "basisChange",
+          "offset": 0,
+          "type": "UnityEngine.Matrix4x4"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "inverseBasisChange",
+          "offset": 64,
+          "type": "UnityEngine.Matrix4x4"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ChangeBasis",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "UnityEngine.Matrix4x4"
+            }
+          ],
+          "return_type": "UnityEngine.Matrix4x4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ChangeBasis",
+          "parameters": [
+            {
+              "name": "point",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTransform",
+          "parameters": [
+            {
+              "name": "localXf",
+              "type": "UnityEngine.Matrix4x4"
+            },
+            {
+              "name": "transform",
+              "type": "UnityEngine.Transform"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Decompose",
+          "parameters": [
+            {
+              "name": "matrix",
+              "type": "UnityEngine.Matrix4x4"
+            },
+            {
+              "name": "translation",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "rotation",
+              "type": "UnityEngine.Quaternion&"
+            },
+            {
+              "name": "scale",
+              "type": "UnityEngine.Vector3&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WeightedAvg",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "b",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "aWeight",
+              "type": "System.Single"
+            },
+            {
+              "name": "bWeight",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExtractTrs",
+          "parameters": [
+            {
+              "name": "transform",
+              "type": "UnityEngine.Matrix4x4"
+            },
+            {
+              "name": "localPosition",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "localRotation",
+              "type": "UnityEngine.Quaternion&"
+            },
+            {
+              "name": "localScale",
+              "type": "UnityEngine.Vector3&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExtractRotation",
+          "parameters": [
+            {
+              "name": "mat4",
+              "type": "UnityEngine.Matrix4x4"
+            }
+          ],
+          "return_type": "UnityEngine.Quaternion"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExtractPosition",
+          "parameters": [
+            {
+              "name": "mat4",
+              "type": "UnityEngine.Matrix4x4"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExtractScale",
+          "parameters": [
+            {
+              "name": "mat4",
+              "type": "UnityEngine.Matrix4x4"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HasAnySiblingsWithName",
+          "parameters": [
+            {
+              "name": "transform",
+              "type": "UnityEngine.Transform"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetUniqueName",
+          "parameters": [
+            {
+              "name": "transform",
+              "type": "UnityEngine.Transform"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPath",
+          "parameters": [
+            {
+              "name": "unityObj",
+              "type": "UnityEngine.Transform"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPath",
+          "parameters": [
+            {
+              "name": "unityObj",
+              "type": "UnityEngine.Transform"
+            },
+            {
+              "name": "unityObjRoot",
+              "type": "UnityEngine.Transform"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLocalToParentXf",
+          "parameters": [
+            {
+              "name": "unityXf",
+              "type": "UnityEngine.Transform"
+            }
+          ],
+          "return_type": "UnityEngine.Matrix4x4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToGfMatrix",
+          "parameters": [
+            {
+              "name": "unityXf",
+              "type": "UnityEngine.Transform"
+            }
+          ],
+          "return_type": "pxr.GfMatrix4d"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToGfMatrix",
+          "parameters": [
+            {
+              "name": "unityMat4",
+              "type": "UnityEngine.Matrix4x4"
+            }
+          ],
+          "return_type": "pxr.GfMatrix4d"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromMatrix",
+          "parameters": [
+            {
+              "name": "gfMat",
+              "type": "pxr.GfMatrix4d"
+            }
+          ],
+          "return_type": "UnityEngine.Matrix4x4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "UnityEngine.Matrix4x4[]"
+            }
+          ],
+          "return_type": "pxr.VtMatrix4dArray"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "pxr.VtMatrix4dArray"
+            }
+          ],
+          "return_type": "UnityEngine.Matrix4x4[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ListToVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.Collections.Generic.List<UnityEngine.Matrix4x4>"
+            }
+          ],
+          "return_type": "pxr.VtMatrix4dArray"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ListFromVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "pxr.VtMatrix4dArray"
+            }
+          ],
+          "return_type": "System.Collections.Generic.List<UnityEngine.Matrix4x4>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Color32ToVec4f",
+          "parameters": [
+            {
+              "name": "c",
+              "type": "UnityEngine.Color32"
+            }
+          ],
+          "return_type": "pxr.GfVec4f"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Vec4fToColor32",
+          "parameters": [
+            {
+              "name": "v",
+              "type": "pxr.GfVec4f"
+            }
+          ],
+          "return_type": "UnityEngine.Color32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.Collections.Generic.List<UnityEngine.Color32>"
+            }
+          ],
+          "return_type": "pxr.VtVec4fArray"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.Collections.Generic.List<UnityEngine.Color32>"
+            },
+            {
+              "name": "rgb",
+              "type": "pxr.VtVec3fArray&"
+            },
+            {
+              "name": "alpha",
+              "type": "pxr.VtFloatArray&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "UnityEngine.Color32[]"
+            }
+          ],
+          "return_type": "pxr.VtVec4fArray"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Color32FromVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "pxr.VtVec4fArray"
+            }
+          ],
+          "return_type": "UnityEngine.Color32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ColorToVec4f",
+          "parameters": [
+            {
+              "name": "c",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "pxr.GfVec4f"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Vec4fToColor",
+          "parameters": [
+            {
+              "name": "v",
+              "type": "pxr.GfVec4f"
+            }
+          ],
+          "return_type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.Collections.Generic.List<UnityEngine.Color>"
+            }
+          ],
+          "return_type": "pxr.VtVec4fArray"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.Collections.Generic.List<UnityEngine.Color>"
+            },
+            {
+              "name": "rgb",
+              "type": "pxr.VtVec3fArray&"
+            },
+            {
+              "name": "alpha",
+              "type": "pxr.VtFloatArray&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "UnityEngine.Color[]"
+            }
+          ],
+          "return_type": "pxr.VtVec4fArray"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ColorFromVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "pxr.VtVec4fArray"
+            }
+          ],
+          "return_type": "UnityEngine.Color[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ColorFromVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "pxr.VtVec4fArray"
+            },
+            {
+              "name": "output",
+              "type": "UnityEngine.Color[]&"
+            }
+          ],
+          "return_type": "UnityEngine.Color[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "UnityEngine.Color32[]"
+            },
+            {
+              "name": "rgb",
+              "type": "pxr.VtVec3fArray&"
+            },
+            {
+              "name": "alpha",
+              "type": "pxr.VtFloatArray&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExtractRgb",
+          "parameters": [
+            {
+              "name": "colors",
+              "type": "UnityEngine.Color32[]"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExtractAlpha",
+          "parameters": [
+            {
+              "name": "colors",
+              "type": "UnityEngine.Color32[]"
+            }
+          ],
+          "return_type": "System.Single[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "UnityEngine.Color[]"
+            },
+            {
+              "name": "rgb",
+              "type": "pxr.VtVec3fArray&"
+            },
+            {
+              "name": "alpha",
+              "type": "pxr.VtFloatArray&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromVtArray",
+          "parameters": [
+            {
+              "name": "rgbIn",
+              "type": "pxr.VtVec3fArray"
+            },
+            {
+              "name": "alphaIn",
+              "type": "pxr.VtFloatArray"
+            }
+          ],
+          "return_type": "UnityEngine.Color[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExtractRgb",
+          "parameters": [
+            {
+              "name": "colors",
+              "type": "UnityEngine.Color[]"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExtractAlpha",
+          "parameters": [
+            {
+              "name": "colors",
+              "type": "UnityEngine.Color[]"
+            }
+          ],
+          "return_type": "System.Single[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SwapQuaternionReal",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "UnityEngine.Quaternion[]&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "QuaternionToQuatf",
+          "parameters": [
+            {
+              "name": "quaternion",
+              "type": "UnityEngine.Quaternion"
+            }
+          ],
+          "return_type": "pxr.GfQuatf"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "QuatfToQuaternion",
+          "parameters": [
+            {
+              "name": "quat",
+              "type": "pxr.GfQuatf"
+            }
+          ],
+          "return_type": "UnityEngine.Quaternion"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "UnityEngine.Quaternion[]"
+            }
+          ],
+          "return_type": "pxr.VtQuatfArray"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "pxr.VtQuatfArray"
+            }
+          ],
+          "return_type": "UnityEngine.Quaternion[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ListToVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.Collections.Generic.List<UnityEngine.Quaternion>"
+            }
+          ],
+          "return_type": "pxr.VtQuatfArray"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ListFromVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "pxr.VtQuatfArray"
+            }
+          ],
+          "return_type": "System.Collections.Generic.List<UnityEngine.Quaternion>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "UnityEngine.Vector4[]"
+            }
+          ],
+          "return_type": "pxr.VtVec4fArray"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "pxr.VtVec4fArray"
+            }
+          ],
+          "return_type": "UnityEngine.Vector4[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ListToVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector4>"
+            }
+          ],
+          "return_type": "pxr.VtVec4fArray"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ListFromVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "pxr.VtVec4fArray"
+            }
+          ],
+          "return_type": "System.Collections.Generic.List<UnityEngine.Vector4>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BoundsToVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "UnityEngine.Bounds"
+            }
+          ],
+          "return_type": "pxr.VtVec3fArray"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BoundsFromVtArray",
+          "parameters": [
+            {
+              "name": "vtBounds",
+              "type": "pxr.VtValue"
+            }
+          ],
+          "return_type": "UnityEngine.Bounds"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BoundsFromVtArray",
+          "parameters": [
+            {
+              "name": "vtBounds",
+              "type": "pxr.VtValue"
+            },
+            {
+              "name": "bbox",
+              "type": "UnityEngine.Vector3[]"
+            }
+          ],
+          "return_type": "UnityEngine.Bounds"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "UnityEngine.Vector3[]"
+            }
+          ],
+          "return_type": "pxr.VtVec3fArray"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "pxr.VtVec3fArray"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "pxr.VtVec3fArray"
+            },
+            {
+              "name": "output",
+              "type": "UnityEngine.Vector3[]&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ListToVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+            }
+          ],
+          "return_type": "pxr.VtVec3fArray"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ListFromVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "pxr.VtVec3fArray"
+            }
+          ],
+          "return_type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "UnityEngine.Vector2[]"
+            }
+          ],
+          "return_type": "pxr.VtVec2fArray"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "pxr.VtVec2fArray"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ListToVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector2>"
+            }
+          ],
+          "return_type": "pxr.VtVec2fArray"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ListFromVtArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "pxr.VtVec2fArray"
+            }
+          ],
+          "return_type": "System.Collections.Generic.List<UnityEngine.Vector2>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Vector2ToVec2f",
+          "parameters": [
+            {
+              "name": "vec2",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "pxr.GfVec2f"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Vec2fToVector2",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "pxr.GfVec2f"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Vector3ToVec3f",
+          "parameters": [
+            {
+              "name": "vec3",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "pxr.GfVec3f"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Vec3fToVector3",
+          "parameters": [
+            {
+              "name": "v3",
+              "type": "pxr.GfVec3f"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Vector4ToVec4f",
+          "parameters": [
+            {
+              "name": "vector4",
+              "type": "UnityEngine.Vector4"
+            }
+          ],
+          "return_type": "pxr.GfVec4f"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Vec4fToVector4",
+          "parameters": [
+            {
+              "name": "v4",
+              "type": "pxr.GfVec4f"
+            }
+          ],
+          "return_type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RectToVtVec4",
+          "parameters": [
+            {
+              "name": "rect",
+              "type": "UnityEngine.Rect"
+            }
+          ],
+          "return_type": "pxr.GfVec4f"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Vec4fToRect",
+          "parameters": [
+            {
+              "name": "v4",
+              "type": "pxr.GfVec4f"
+            }
+          ],
+          "return_type": "UnityEngine.Rect"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UnityTypeConverter",
+      "namespace": "USD.NET.Unity",
+      "parent": "IntrinsicTypeConverter",
+      "type_token": 33554483
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "USD.NET.Unity.dll"
+}

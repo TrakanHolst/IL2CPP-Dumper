@@ -1,0 +1,497 @@
+{
+  "class_count": 11,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UpdatedEventHandler",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Updated",
+          "offset": 0,
+          "type": "UnityEngine.RemoteSettings.UpdatedEventHandler"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "BeforeFetchFromServer",
+          "offset": 8,
+          "type": "System.Action"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Completed",
+          "offset": 16,
+          "type": "System.Action<System.Boolean,System.Boolean,System.Int32>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RemoteSettingsUpdated",
+          "parameters": [
+            {
+              "name": "wasLastUpdatedFromServer",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RemoteSettingsBeforeFetchFromServer",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RemoteSettingsUpdateCompleted",
+          "parameters": [
+            {
+              "name": "wasLastUpdatedFromServer",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "settingsChanged",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "response",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "RemoteSettings",
+      "namespace": "UnityEngine",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Ptr",
+          "offset": 16,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Updated",
+          "offset": 24,
+          "type": "System.Action<System.Boolean>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RemoteConfigSettingsUpdated",
+          "parameters": [
+            {
+              "name": "rcs",
+              "type": "UnityEngine.RemoteConfigSettings"
+            },
+            {
+              "name": "wasLastUpdatedFromServer",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "RemoteConfigSettings",
+      "namespace": "UnityEngine",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kUnknown",
+          "offset": 0,
+          "type": "UnityEngine.RemoteConfigSettingsHelper.Tag"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kIntVal",
+          "offset": 0,
+          "type": "UnityEngine.RemoteConfigSettingsHelper.Tag"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kInt64Val",
+          "offset": 0,
+          "type": "UnityEngine.RemoteConfigSettingsHelper.Tag"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kUInt64Val",
+          "offset": 0,
+          "type": "UnityEngine.RemoteConfigSettingsHelper.Tag"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kDoubleVal",
+          "offset": 0,
+          "type": "UnityEngine.RemoteConfigSettingsHelper.Tag"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kBoolVal",
+          "offset": 0,
+          "type": "UnityEngine.RemoteConfigSettingsHelper.Tag"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kStringVal",
+          "offset": 0,
+          "type": "UnityEngine.RemoteConfigSettingsHelper.Tag"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kArrayVal",
+          "offset": 0,
+          "type": "UnityEngine.RemoteConfigSettingsHelper.Tag"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kMixedArrayVal",
+          "offset": 0,
+          "type": "UnityEngine.RemoteConfigSettingsHelper.Tag"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kMapVal",
+          "offset": 0,
+          "type": "UnityEngine.RemoteConfigSettingsHelper.Tag"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kMaxTags",
+          "offset": 0,
+          "type": "UnityEngine.RemoteConfigSettingsHelper.Tag"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Tag",
+      "namespace": "",
+      "type_token": 33554438
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "RemoteConfigSettingsHelper",
+      "namespace": "UnityEngine",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "ContinuousEvent",
+      "namespace": "UnityEngine.Analytics",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kSessionStopped",
+          "offset": 0,
+          "type": "UnityEngine.Analytics.AnalyticsSessionState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kSessionStarted",
+          "offset": 0,
+          "type": "UnityEngine.Analytics.AnalyticsSessionState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kSessionPaused",
+          "offset": 0,
+          "type": "UnityEngine.Analytics.AnalyticsSessionState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kSessionResumed",
+          "offset": 0,
+          "type": "UnityEngine.Analytics.AnalyticsSessionState"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "AnalyticsSessionState",
+      "namespace": "UnityEngine.Analytics",
+      "type_token": 33554440
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "sessionState",
+              "type": "UnityEngine.Analytics.AnalyticsSessionState"
+            },
+            {
+              "name": "sessionId",
+              "type": "System.Int64"
+            },
+            {
+              "name": "sessionElapsedTime",
+              "type": "System.Int64"
+            },
+            {
+              "name": "sessionChanged",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SessionStateChanged",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554442
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "token",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IdentityTokenChanged",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "sessionStateChanged",
+          "offset": 0,
+          "type": "UnityEngine.Analytics.AnalyticsSessionInfo.SessionStateChanged"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "identityTokenChanged",
+          "offset": 8,
+          "type": "UnityEngine.Analytics.AnalyticsSessionInfo.IdentityTokenChanged"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallSessionStateChanged",
+          "parameters": [
+            {
+              "name": "sessionState",
+              "type": "UnityEngine.Analytics.AnalyticsSessionState"
+            },
+            {
+              "name": "sessionId",
+              "type": "System.Int64"
+            },
+            {
+              "name": "sessionElapsedTime",
+              "type": "System.Int64"
+            },
+            {
+              "name": "sessionChanged",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallIdentityTokenChanged",
+          "parameters": [
+            {
+              "name": "token",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AnalyticsSessionInfo",
+      "namespace": "UnityEngine.Analytics",
+      "type_token": 33554441
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.UnityAnalyticsModule.dll"
+}

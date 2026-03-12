@@ -1,0 +1,230 @@
+{
+  "class_count": 4,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MultiPass",
+          "offset": 0,
+          "type": "UnityEngine.XR.XRSettings.StereoRenderingMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SinglePass",
+          "offset": 0,
+          "type": "UnityEngine.XR.XRSettings.StereoRenderingMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SinglePassInstanced",
+          "offset": 0,
+          "type": "UnityEngine.XR.XRSettings.StereoRenderingMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SinglePassMultiview",
+          "offset": 0,
+          "type": "UnityEngine.XR.XRSettings.StereoRenderingMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "StereoRenderingMode",
+      "namespace": "",
+      "type_token": 33554435
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_enabled",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_isDeviceActive",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_eyeTextureResolutionScale",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_eyeTextureResolutionScale",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_eyeTextureWidth",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_eyeTextureHeight",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_eyeTextureDesc",
+          "parameters": [],
+          "return_type": "UnityEngine.RenderTextureDescriptor"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_renderViewportScale",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_renderViewportScaleInternal",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_loadedDeviceName",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_supportedDevices",
+          "parameters": [],
+          "return_type": "System.String[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_stereoRenderingMode",
+          "parameters": [],
+          "return_type": "UnityEngine.XR.XRSettings.StereoRenderingMode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_eyeTextureDesc_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.RenderTextureDescriptor&"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "XRSettings",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "deviceLoaded",
+          "offset": 0,
+          "type": "System.Action<System.String>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisableAutoXRCameraTracking",
+          "parameters": [
+            {
+              "name": "camera",
+              "type": "UnityEngine.Camera"
+            },
+            {
+              "name": "disabled",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeDeviceLoaded",
+          "parameters": [
+            {
+              "name": "loadedDeviceName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "XRDevice",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554436
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.VRModule.dll"
+}

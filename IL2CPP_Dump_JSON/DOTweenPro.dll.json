@@ -1,0 +1,1515 @@
+{
+  "class_count": 13,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "preset",
+          "offset": 24,
+          "type": "DG.Tweening.Core.VisualManagerPreset"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "onEnableBehaviour",
+          "offset": 28,
+          "type": "DG.Tweening.Core.OnEnableBehaviour"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "onDisableBehaviour",
+          "offset": 32,
+          "type": "DG.Tweening.Core.OnDisableBehaviour"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_requiresRestartFromSpawnPoint",
+          "offset": 36,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_animComponent",
+          "offset": 40,
+          "type": "DG.Tweening.Core.ABSAnimationComponent"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Awake",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Update",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnEnable",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnDisable",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "DOTweenVisualManager",
+      "namespace": "DG.Tweening",
+      "parent": "MonoBehaviour",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Orthographic",
+          "offset": 0,
+          "type": "DG.Tweening.HandlesDrawMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Perspective",
+          "offset": 0,
+          "type": "DG.Tweening.HandlesDrawMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "HandlesDrawMode",
+      "namespace": "DG.Tweening",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Free",
+          "offset": 0,
+          "type": "DG.Tweening.HandlesType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Full",
+          "offset": 0,
+          "type": "DG.Tweening.HandlesType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "HandlesType",
+      "namespace": "DG.Tweening",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Default",
+          "offset": 0,
+          "type": "DG.Tweening.DOTweenInspectorMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "InfoAndWaypointsOnly",
+          "offset": 0,
+          "type": "DG.Tweening.DOTweenInspectorMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Developer",
+          "offset": 0,
+          "type": "DG.Tweening.DOTweenInspectorMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "OnlyPath",
+          "offset": 0,
+          "type": "DG.Tweening.DOTweenInspectorMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "DOTweenInspectorMode",
+      "namespace": "DG.Tweening",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "OnReset",
+          "offset": 0,
+          "type": "System.Action<DG.Tweening.DOTweenPath>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "delay",
+          "offset": 104,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "duration",
+          "offset": 108,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "easeType",
+          "offset": 112,
+          "type": "DG.Tweening.Ease"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "easeCurve",
+          "offset": 120,
+          "type": "UnityEngine.AnimationCurve"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "loops",
+          "offset": 128,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "id",
+          "offset": 136,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "loopType",
+          "offset": 144,
+          "type": "DG.Tweening.LoopType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "orientType",
+          "offset": 148,
+          "type": "DG.Tweening.Plugins.Options.OrientType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "lookAtTransform",
+          "offset": 152,
+          "type": "UnityEngine.Transform"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "lookAtPosition",
+          "offset": 160,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "lookAhead",
+          "offset": 172,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "autoPlay",
+          "offset": 176,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "autoKill",
+          "offset": 177,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "relative",
+          "offset": 178,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "isLocal",
+          "offset": 179,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "isClosedPath",
+          "offset": 180,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "pathResolution",
+          "offset": 184,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "pathMode",
+          "offset": 188,
+          "type": "DG.Tweening.PathMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "lockRotation",
+          "offset": 192,
+          "type": "DG.Tweening.AxisConstraint"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "assignForwardAndUp",
+          "offset": 196,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "forwardDirection",
+          "offset": 200,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "upDirection",
+          "offset": 212,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "tweenRigidbody",
+          "offset": 224,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "wps",
+          "offset": 232,
+          "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "fullWps",
+          "offset": 240,
+          "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "path",
+          "offset": 248,
+          "type": "DG.Tweening.Plugins.Core.PathCore.Path"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "inspectorMode",
+          "offset": 256,
+          "type": "DG.Tweening.DOTweenInspectorMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "pathType",
+          "offset": 260,
+          "type": "DG.Tweening.PathType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "handlesType",
+          "offset": 264,
+          "type": "DG.Tweening.HandlesType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "livePreview",
+          "offset": 268,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "handlesDrawMode",
+          "offset": 272,
+          "type": "DG.Tweening.HandlesDrawMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "perspectiveHandleSize",
+          "offset": 276,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "showIndexes",
+          "offset": 280,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "showWpLength",
+          "offset": 281,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "pathColor",
+          "offset": 284,
+          "type": "UnityEngine.Color"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "lastSrcPosition",
+          "offset": 300,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "lastSrcRotation",
+          "offset": 312,
+          "type": "UnityEngine.Quaternion"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "wpsDropdown",
+          "offset": 328,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "dropToFloorOffset",
+          "offset": 332,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "_miCreateTween",
+          "offset": 8,
+          "type": "System.Reflection.MethodInfo"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_OnReset",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<DG.Tweening.DOTweenPath>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_OnReset",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<DG.Tweening.DOTweenPath>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispatch_OnReset",
+          "parameters": [
+            {
+              "name": "path",
+              "type": "DG.Tweening.DOTweenPath"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Awake",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Reset",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnDestroy",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DOPlay",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DOPlayById",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DOPlayAllById",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DOPlayBackwards",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DOPlayForward",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DOPause",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DOTogglePause",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DORewind",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DORestart",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DORestart",
+          "parameters": [
+            {
+              "name": "fromHere",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DOComplete",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DOKill",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DOKillAllById",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTween",
+          "parameters": [],
+          "return_type": "DG.Tweening.Tween"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDrawPoints",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetFullWps",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReEvaluateRelativeTween",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<Awake>b__44_0",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "DOTweenPath",
+      "namespace": "DG.Tweening",
+      "parent": "ABSAnimationComponent",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Expand",
+          "offset": 0,
+          "type": "DG.Tweening.SpiralMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ExpandThenContract",
+          "offset": 0,
+          "type": "DG.Tweening.SpiralMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "SpiralMode",
+      "namespace": "DG.Tweening",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "depth",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "frequency",
+          "offset": 20,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "speed",
+          "offset": 24,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "mode",
+          "offset": 28,
+          "type": "DG.Tweening.SpiralMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "snapping",
+          "offset": 32,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "unit",
+          "offset": 36,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "axisQ",
+          "offset": 40,
+          "type": "UnityEngine.Quaternion"
+        }
+      ],
+      "interfaces": [
+        "IPlugOptions"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Reset",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SpiralOptions",
+      "namespace": "DG.Tweening.Plugins",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "DefaultDirection",
+          "offset": 0,
+          "type": "UnityEngine.Vector3"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Reset",
+          "parameters": [
+            {
+              "name": "t",
+              "type": "DG.Tweening.Core.TweenerCore<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetFrom",
+          "parameters": [
+            {
+              "name": "t",
+              "type": "DG.Tweening.Core.TweenerCore<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>"
+            },
+            {
+              "name": "isRelative",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetFrom",
+          "parameters": [
+            {
+              "name": "t",
+              "type": "DG.Tweening.Core.TweenerCore<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>"
+            },
+            {
+              "name": "fromValue",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "setImmediately",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "isRelative",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Get",
+          "parameters": [],
+          "return_type": "DG.Tweening.Plugins.Core.ABSTweenPlugin<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConvertToStartValue",
+          "parameters": [
+            {
+              "name": "t",
+              "type": "DG.Tweening.Core.TweenerCore<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>"
+            },
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetRelativeEndValue",
+          "parameters": [
+            {
+              "name": "t",
+              "type": "DG.Tweening.Core.TweenerCore<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetChangeValue",
+          "parameters": [
+            {
+              "name": "t",
+              "type": "DG.Tweening.Core.TweenerCore<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSpeedBasedDuration",
+          "parameters": [
+            {
+              "name": "options",
+              "type": "DG.Tweening.Plugins.SpiralOptions"
+            },
+            {
+              "name": "unitsXSecond",
+              "type": "System.Single"
+            },
+            {
+              "name": "changeValue",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluateAndApply",
+          "parameters": [
+            {
+              "name": "options",
+              "type": "DG.Tweening.Plugins.SpiralOptions"
+            },
+            {
+              "name": "t",
+              "type": "DG.Tweening.Tween"
+            },
+            {
+              "name": "isRelative",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "getter",
+              "type": "DG.Tweening.Core.DOGetter<UnityEngine.Vector3>"
+            },
+            {
+              "name": "setter",
+              "type": "DG.Tweening.Core.DOSetter<UnityEngine.Vector3>"
+            },
+            {
+              "name": "elapsed",
+              "type": "System.Single"
+            },
+            {
+              "name": "startValue",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "changeValue",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "duration",
+              "type": "System.Single"
+            },
+            {
+              "name": "usingInversePosition",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "newCompletedSteps",
+              "type": "System.Int32"
+            },
+            {
+              "name": "updateNotice",
+              "type": "DG.Tweening.Core.Enums.UpdateNotice"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SpiralPlugin",
+      "namespace": "DG.Tweening.Plugins",
+      "parent": "ABSTweenPlugin`3",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "updateType",
+          "offset": 24,
+          "type": "DG.Tweening.UpdateType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "isSpeedBased",
+          "offset": 28,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "hasOnStart",
+          "offset": 29,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "hasOnPlay",
+          "offset": 30,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "hasOnUpdate",
+          "offset": 31,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "hasOnStepComplete",
+          "offset": 32,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "hasOnComplete",
+          "offset": 33,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "hasOnTweenCreated",
+          "offset": 34,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "hasOnRewind",
+          "offset": 35,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "onStart",
+          "offset": 40,
+          "type": "UnityEngine.Events.UnityEvent"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "onPlay",
+          "offset": 48,
+          "type": "UnityEngine.Events.UnityEvent"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "onUpdate",
+          "offset": 56,
+          "type": "UnityEngine.Events.UnityEvent"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "onStepComplete",
+          "offset": 64,
+          "type": "UnityEngine.Events.UnityEvent"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "onComplete",
+          "offset": 72,
+          "type": "UnityEngine.Events.UnityEvent"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "onTweenCreated",
+          "offset": 80,
+          "type": "UnityEngine.Events.UnityEvent"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "onRewind",
+          "offset": 88,
+          "type": "UnityEngine.Events.UnityEvent"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "tween",
+          "offset": 96,
+          "type": "DG.Tweening.Tween"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DOPlay",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DOPlayBackwards",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DOPlayForward",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DOPause",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DOTogglePause",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DORewind",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DORestart",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DORestart",
+          "parameters": [
+            {
+              "name": "fromHere",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DOComplete",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DOKill",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ABSAnimationComponent",
+      "namespace": "DG.Tweening.Core",
+      "parent": "MonoBehaviour",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "DG.Tweening.Core.OnDisableBehaviour"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Pause",
+          "offset": 0,
+          "type": "DG.Tweening.Core.OnDisableBehaviour"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Rewind",
+          "offset": 0,
+          "type": "DG.Tweening.Core.OnDisableBehaviour"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Kill",
+          "offset": 0,
+          "type": "DG.Tweening.Core.OnDisableBehaviour"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "KillAndComplete",
+          "offset": 0,
+          "type": "DG.Tweening.Core.OnDisableBehaviour"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "DestroyGameObject",
+          "offset": 0,
+          "type": "DG.Tweening.Core.OnDisableBehaviour"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "OnDisableBehaviour",
+      "namespace": "DG.Tweening.Core",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "DG.Tweening.Core.OnEnableBehaviour"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Play",
+          "offset": 0,
+          "type": "DG.Tweening.Core.OnEnableBehaviour"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Restart",
+          "offset": 0,
+          "type": "DG.Tweening.Core.OnEnableBehaviour"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "RestartFromSpawnPoint",
+          "offset": 0,
+          "type": "DG.Tweening.Core.OnEnableBehaviour"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "OnEnableBehaviour",
+      "namespace": "DG.Tweening.Core",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Custom",
+          "offset": 0,
+          "type": "DG.Tweening.Core.VisualManagerPreset"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "PoolingSystem",
+          "offset": 0,
+          "type": "DG.Tweening.Core.VisualManagerPreset"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "VisualManagerPreset",
+      "namespace": "DG.Tweening.Core",
+      "type_token": 33554445
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "DOTweenPro.dll"
+}

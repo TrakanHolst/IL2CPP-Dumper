@@ -1,0 +1,57 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4416083828644704857
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -6277768070729411153
+  },
+  "m_Name": "",
+  "isIsolate": 1,
+  "isLayer": 1,
+  "removeLayerOnDisable": 0,
+  "parentNaviGroup": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "internalNaviStrategy": 0,
+  "navigationBindingType": 0,
+  "enablePartner": 1,
+  "naviPartnerOnUp": [],
+  "naviPartnerOnDown": [],
+  "naviPartnerOnLeft": [],
+  "naviPartnerOnRight": [],
+  "relatedInputBindingGroups": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3452706949751566937
+    }
+  ],
+  "focusActionId": "login_focus_menu",
+  "stopFocusActionId": "common_back",
+  "hideItemTipsOnUnFocus": 1,
+  "useDefaultTargetOnFocus": 1,
+  "useFocusHighlight": 1,
+  "focusHighlightMask": 0,
+  "focusHighlightNormalFrame": 1,
+  "focusHighlightDarkFrame": 0,
+  "focusOverrideHighlightRect": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "focusActionKeyHint": {
+    "m_FileID": 0,
+    "m_PathID": -5791768620898520487
+  },
+  "stopFocusActionKeyHint": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "onIsFocusedChange": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    }
+  }
+}

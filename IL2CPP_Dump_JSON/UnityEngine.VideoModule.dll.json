@@ -1,0 +1,1982 @@
+{
+  "class_count": 15,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Handle",
+          "offset": 16,
+          "type": "UnityEngine.Playables.PlayableHandle"
+        }
+      ],
+      "interfaces": [
+        "IPlayable",
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHandle",
+          "parameters": [],
+          "return_type": "UnityEngine.Playables.PlayableHandle"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.Experimental.Video.VideoClipPlayable"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "VideoClipPlayable",
+      "namespace": "UnityEngine.Experimental.Video",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_originalPath",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_frameCount",
+          "parameters": [],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_frameRate",
+          "parameters": [],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_length",
+          "parameters": [],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_width",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_height",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_pixelAspectRatioNumerator",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_pixelAspectRatioDenominator",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sRGB",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_audioTrackCount",
+          "parameters": [],
+          "return_type": "System.UInt16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAudioChannelCount",
+          "parameters": [
+            {
+              "name": "audioTrackIdx",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.UInt16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAudioSampleRate",
+          "parameters": [
+            {
+              "name": "audioTrackIdx",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAudioLanguage",
+          "parameters": [
+            {
+              "name": "audioTrackIdx",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "VideoClip",
+      "namespace": "UnityEngine.Video",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CameraFarPlane",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoRenderMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CameraNearPlane",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoRenderMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "RenderTexture",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoRenderMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MaterialOverride",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoRenderMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "APIOnly",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoRenderMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "VideoRenderMode",
+      "namespace": "UnityEngine.Video",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "No3D",
+          "offset": 0,
+          "type": "UnityEngine.Video.Video3DLayout"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SideBySide3D",
+          "offset": 0,
+          "type": "UnityEngine.Video.Video3DLayout"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "OverUnder3D",
+          "offset": 0,
+          "type": "UnityEngine.Video.Video3DLayout"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Video3DLayout",
+      "namespace": "UnityEngine.Video",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "NoScaling",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoAspectRatio"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FitVertically",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoAspectRatio"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FitHorizontally",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoAspectRatio"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FitInside",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoAspectRatio"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FitOutside",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoAspectRatio"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stretch",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoAspectRatio"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "VideoAspectRatio",
+      "namespace": "UnityEngine.Video",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "AudioDSPTimeSource",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoTimeSource"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "GameTimeSource",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoTimeSource"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "VideoTimeSource",
+      "namespace": "UnityEngine.Video",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Freerun",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoTimeReference"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "InternalTime",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoTimeReference"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ExternalTime",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoTimeReference"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "VideoTimeReference",
+      "namespace": "UnityEngine.Video",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "VideoClip",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoSource"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Url",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoSource"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "VideoSource",
+      "namespace": "UnityEngine.Video",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoAudioOutputMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "AudioSource",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoAudioOutputMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Direct",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoAudioOutputMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "APIOnly",
+          "offset": 0,
+          "type": "UnityEngine.Video.VideoAudioOutputMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "VideoAudioOutputMode",
+      "namespace": "UnityEngine.Video",
+      "type_token": 33554442
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "UnityEngine.Video.VideoPlayer"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "EventHandler",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554444
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "UnityEngine.Video.VideoPlayer"
+            },
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ErrorEventHandler",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554445
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "UnityEngine.Video.VideoPlayer"
+            },
+            {
+              "name": "frameIdx",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "FrameReadyEventHandler",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554446
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "UnityEngine.Video.VideoPlayer"
+            },
+            {
+              "name": "seconds",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "TimeEventHandler",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554447
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "prepareCompleted",
+          "offset": 24,
+          "type": "UnityEngine.Video.VideoPlayer.EventHandler"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "loopPointReached",
+          "offset": 32,
+          "type": "UnityEngine.Video.VideoPlayer.EventHandler"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "started",
+          "offset": 40,
+          "type": "UnityEngine.Video.VideoPlayer.EventHandler"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "frameDropped",
+          "offset": 48,
+          "type": "UnityEngine.Video.VideoPlayer.EventHandler"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "errorReceived",
+          "offset": 56,
+          "type": "UnityEngine.Video.VideoPlayer.ErrorEventHandler"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "seekCompleted",
+          "offset": 64,
+          "type": "UnityEngine.Video.VideoPlayer.EventHandler"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "clockResyncOccurred",
+          "offset": 72,
+          "type": "UnityEngine.Video.VideoPlayer.TimeEventHandler"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "frameReady",
+          "offset": 80,
+          "type": "UnityEngine.Video.VideoPlayer.FrameReadyEventHandler"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_source",
+          "parameters": [],
+          "return_type": "UnityEngine.Video.VideoSource"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_source",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoSource"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_url",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_url",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_clip",
+          "parameters": [],
+          "return_type": "UnityEngine.Video.VideoClip"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_clip",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoClip"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_renderMode",
+          "parameters": [],
+          "return_type": "UnityEngine.Video.VideoRenderMode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_renderMode",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoRenderMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_targetCamera",
+          "parameters": [],
+          "return_type": "UnityEngine.Camera"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_targetCamera",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Camera"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_targetTexture",
+          "parameters": [],
+          "return_type": "UnityEngine.RenderTexture"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_targetTexture",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.RenderTexture"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_targetMaterialRenderer",
+          "parameters": [],
+          "return_type": "UnityEngine.Renderer"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_targetMaterialRenderer",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Renderer"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_targetMaterialProperty",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_targetMaterialProperty",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_aspectRatio",
+          "parameters": [],
+          "return_type": "UnityEngine.Video.VideoAspectRatio"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_aspectRatio",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoAspectRatio"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_targetCameraAlpha",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_targetCameraAlpha",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_targetCamera3DLayout",
+          "parameters": [],
+          "return_type": "UnityEngine.Video.Video3DLayout"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_targetCamera3DLayout",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.Video3DLayout"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_texture",
+          "parameters": [],
+          "return_type": "UnityEngine.Texture"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Prepare",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_isPrepared",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_waitForFirstFrame",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_waitForFirstFrame",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_playOnAwake",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_playOnAwake",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Play",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Pause",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Stop",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_isPlaying",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_isPaused",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_canSetTime",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_time",
+          "parameters": [],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_time",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_frame",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_frame",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_clockTime",
+          "parameters": [],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_canStep",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "StepForward",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_canSetPlaybackSpeed",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_playbackSpeed",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_playbackSpeed",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_isLooping",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_isLooping",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_canSetTimeSource",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_timeSource",
+          "parameters": [],
+          "return_type": "UnityEngine.Video.VideoTimeSource"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_timeSource",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoTimeSource"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_timeReference",
+          "parameters": [],
+          "return_type": "UnityEngine.Video.VideoTimeReference"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_timeReference",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoTimeReference"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_externalReferenceTime",
+          "parameters": [],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_externalReferenceTime",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_canSetSkipOnDrop",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_skipOnDrop",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_skipOnDrop",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_frameCount",
+          "parameters": [],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_frameRate",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_length",
+          "parameters": [],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_width",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_height",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_pixelAspectRatioNumerator",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_pixelAspectRatioDenominator",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_audioTrackCount",
+          "parameters": [],
+          "return_type": "System.UInt16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAudioLanguageCode",
+          "parameters": [
+            {
+              "name": "trackIndex",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAudioChannelCount",
+          "parameters": [
+            {
+              "name": "trackIndex",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.UInt16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAudioSampleRate",
+          "parameters": [
+            {
+              "name": "trackIndex",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_controlledAudioTrackMaxCount",
+          "parameters": [],
+          "return_type": "System.UInt16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_controlledAudioTrackCount",
+          "parameters": [],
+          "return_type": "System.UInt16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_controlledAudioTrackCount",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetControlledAudioTrackCount",
+          "parameters": [],
+          "return_type": "System.UInt16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetControlledAudioTrackCount",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnableAudioTrack",
+          "parameters": [
+            {
+              "name": "trackIndex",
+              "type": "System.UInt16"
+            },
+            {
+              "name": "enabled",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsAudioTrackEnabled",
+          "parameters": [
+            {
+              "name": "trackIndex",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_audioOutputMode",
+          "parameters": [],
+          "return_type": "UnityEngine.Video.VideoAudioOutputMode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_audioOutputMode",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoAudioOutputMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_canSetDirectAudioVolume",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDirectAudioVolume",
+          "parameters": [
+            {
+              "name": "trackIndex",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetDirectAudioVolume",
+          "parameters": [
+            {
+              "name": "trackIndex",
+              "type": "System.UInt16"
+            },
+            {
+              "name": "volume",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDirectAudioMute",
+          "parameters": [
+            {
+              "name": "trackIndex",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetDirectAudioMute",
+          "parameters": [
+            {
+              "name": "trackIndex",
+              "type": "System.UInt16"
+            },
+            {
+              "name": "mute",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTargetAudioSource",
+          "parameters": [
+            {
+              "name": "trackIndex",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "UnityEngine.AudioSource"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTargetAudioSource",
+          "parameters": [
+            {
+              "name": "trackIndex",
+              "type": "System.UInt16"
+            },
+            {
+              "name": "source",
+              "type": "UnityEngine.AudioSource"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_prepareCompleted",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoPlayer.EventHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_prepareCompleted",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoPlayer.EventHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_loopPointReached",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoPlayer.EventHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_loopPointReached",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoPlayer.EventHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_started",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoPlayer.EventHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_started",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoPlayer.EventHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_frameDropped",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoPlayer.EventHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_frameDropped",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoPlayer.EventHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_errorReceived",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoPlayer.ErrorEventHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_errorReceived",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoPlayer.ErrorEventHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_seekCompleted",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoPlayer.EventHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_seekCompleted",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoPlayer.EventHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_clockResyncOccurred",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoPlayer.TimeEventHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_clockResyncOccurred",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoPlayer.TimeEventHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sendFrameReadyEvents",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_sendFrameReadyEvents",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_frameReady",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoPlayer.FrameReadyEventHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_frameReady",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Video.VideoPlayer.FrameReadyEventHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokePrepareCompletedCallback_Internal",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "UnityEngine.Video.VideoPlayer"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeFrameReadyCallback_Internal",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "UnityEngine.Video.VideoPlayer"
+            },
+            {
+              "name": "frameIdx",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeLoopPointReachedCallback_Internal",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "UnityEngine.Video.VideoPlayer"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeStartedCallback_Internal",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "UnityEngine.Video.VideoPlayer"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeFrameDroppedCallback_Internal",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "UnityEngine.Video.VideoPlayer"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeErrorReceivedCallback_Internal",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "UnityEngine.Video.VideoPlayer"
+            },
+            {
+              "name": "errorStr",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeSeekCompletedCallback_Internal",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "UnityEngine.Video.VideoPlayer"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeClockResyncOccurredCallback_Internal",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "UnityEngine.Video.VideoPlayer"
+            },
+            {
+              "name": "seconds",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "VideoPlayer",
+      "namespace": "UnityEngine.Video",
+      "parent": "Behaviour",
+      "type_token": 33554443
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.VideoModule.dll"
+}

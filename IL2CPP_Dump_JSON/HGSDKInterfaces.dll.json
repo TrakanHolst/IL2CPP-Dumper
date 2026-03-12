@@ -1,0 +1,5843 @@
+{
+  "class_count": 34,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LogSilent",
+          "offset": 0,
+          "type": "CSLogSeverity"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LogError",
+          "offset": 0,
+          "type": "CSLogSeverity"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LogWarning",
+          "offset": 0,
+          "type": "CSLogSeverity"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LogInfo",
+          "offset": 0,
+          "type": "CSLogSeverity"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LogDebug",
+          "offset": 0,
+          "type": "CSLogSeverity"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LogVerbose",
+          "offset": 0,
+          "type": "CSLogSeverity"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "CSLogSeverity",
+      "namespace": "",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "InterfaceReport",
+          "offset": 0,
+          "type": "CSReportType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LogCallback",
+          "offset": 0,
+          "type": "CSReportType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LogCallbackThreaded",
+          "offset": 0,
+          "type": "CSReportType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "CSReportType",
+      "namespace": "",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "JankOnlyBasicInfo",
+          "offset": 0,
+          "type": "JankReportInfoOption"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "JankSystemLog",
+          "offset": 0,
+          "type": "JankReportInfoOption"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "JankCustomLog",
+          "offset": 0,
+          "type": "JankReportInfoOption"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "JankCustomKv",
+          "offset": 0,
+          "type": "JankReportInfoOption"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "JankCallbackInfo",
+          "offset": 0,
+          "type": "JankReportInfoOption"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "JankAutoDumpStack",
+          "offset": 0,
+          "type": "JankReportInfoOption"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "JankAndroidAllJavaStack",
+          "offset": 0,
+          "type": "JankReportInfoOption"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "JankReportInfoOption",
+      "namespace": "",
+      "type_token": 33554436
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnCrashBaseRetEvent",
+          "parameters": [
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "crashType",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGCrashSightCallback",
+      "namespace": "",
+      "parent": "CrashSightCallback",
+      "type_token": 33554438
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnSetLogPathEvent",
+          "parameters": [
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "crashType",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnLogUploadResultEvent",
+          "parameters": [
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "crashType",
+              "type": "System.Int32"
+            },
+            {
+              "name": "result",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGCrashSightLogCallback",
+      "namespace": "",
+      "parent": "CrashSightLogCallback",
+      "type_token": 33554439
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "condition",
+              "type": "System.String"
+            },
+            {
+              "name": "stackTrace",
+              "type": "System.String"
+            },
+            {
+              "name": "type",
+              "type": "UnityEngine.LogType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginInvoke",
+          "parameters": [
+            {
+              "name": "condition",
+              "type": "System.String"
+            },
+            {
+              "name": "stackTrace",
+              "type": "System.String"
+            },
+            {
+              "name": "type",
+              "type": "UnityEngine.LogType"
+            },
+            {
+              "name": "callback",
+              "type": "System.AsyncCallback"
+            },
+            {
+              "name": "object",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.IAsyncResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndInvoke",
+          "parameters": [
+            {
+              "name": "result",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "LogCallbackDelegate",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554440
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "condition",
+              "type": "System.String"
+            },
+            {
+              "name": "stackTrace",
+              "type": "System.String"
+            },
+            {
+              "name": "type",
+              "type": "UnityEngine.LogType"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginInvoke",
+          "parameters": [
+            {
+              "name": "condition",
+              "type": "System.String"
+            },
+            {
+              "name": "stackTrace",
+              "type": "System.String"
+            },
+            {
+              "name": "type",
+              "type": "UnityEngine.LogType"
+            },
+            {
+              "name": "callback",
+              "type": "System.AsyncCallback"
+            },
+            {
+              "name": "object",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.IAsyncResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndInvoke",
+          "parameters": [
+            {
+              "name": "result",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "LogFilterDelegate",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "_crashSightCallback",
+          "offset": 0,
+          "type": "CrashSightAgent.HGCrashSightCallback"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "_crashSightLogCallback",
+          "offset": 8,
+          "type": "CrashSightAgent.HGCrashSightLogCallback"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "crashUploadUrl",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "callbackThreads",
+          "offset": 24,
+          "type": "System.Collections.Generic.List<System.Int32>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "callbackThreadsLock",
+          "offset": 32,
+          "type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "_LogCallbackEventHandler",
+          "offset": 40,
+          "type": "CrashSightAgent.LogCallbackDelegate"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_logFilter",
+          "offset": 48,
+          "type": "CrashSightAgent.LogFilterDelegate"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "_isInitialized",
+          "offset": 56,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "_autoReportLogLevel",
+          "offset": 60,
+          "type": "UnityEngine.LogType"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "_debugMode",
+          "offset": 64,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "_autoQuitApplicationAfterReport",
+          "offset": 65,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "_LogCallbackExtrasHandler",
+          "offset": 72,
+          "type": "System.Func<System.Collections.Generic.Dictionary<System.String,System.String>>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "_uncaughtAutoReportOnce",
+          "offset": 80,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_UnityBuildVersion",
+          "offset": 88,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_CommandLine",
+          "offset": 96,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_UserName",
+          "offset": 104,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_UserDomainName",
+          "offset": 112,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_DeviceModel",
+          "offset": 120,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_DeviceName",
+          "offset": 128,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_DeviceUniqueIdentifier",
+          "offset": 136,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_DeviceType",
+          "offset": 144,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_GraphicsDeviceName",
+          "offset": 152,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_GraphicsDeviceType",
+          "offset": 160,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_GraphicsDeviceVersion",
+          "offset": 168,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_GraphicsDeviceVendor",
+          "offset": 176,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_GraphicsMemorySize",
+          "offset": 184,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_NvidiaDriverVersion",
+          "offset": 192,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_BootParams",
+          "offset": 200,
+          "type": "System.String[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_SOCModel",
+          "offset": 208,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add__LogCallbackEventHandler",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "CrashSightAgent.LogCallbackDelegate"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove__LogCallbackEventHandler",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "CrashSightAgent.LogCallbackDelegate"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetLogFilter",
+          "parameters": [
+            {
+              "name": "filter",
+              "type": "CrashSightAgent.LogFilterDelegate"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitWithAppId",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "forceOnUiThread",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReportException",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "System.Exception"
+            },
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReportException",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "message",
+              "type": "System.String"
+            },
+            {
+              "name": "stackTrace",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReportException",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Int32"
+            },
+            {
+              "name": "exceptionName",
+              "type": "System.String"
+            },
+            {
+              "name": "exceptionMsg",
+              "type": "System.String"
+            },
+            {
+              "name": "exceptionStack",
+              "type": "System.String"
+            },
+            {
+              "name": "extInfo",
+              "type": "System.Collections.Generic.Dictionary<System.String,System.String>"
+            },
+            {
+              "name": "dumpNativeType",
+              "type": "System.Int32"
+            },
+            {
+              "name": "errorAttachmentPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetUserId",
+          "parameters": [
+            {
+              "name": "userId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddSceneData",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            },
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetUserValue",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            },
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetUserValue",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            },
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetUserValue",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            },
+            {
+              "name": "value",
+              "type": "System.String[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetAppVersion",
+          "parameters": [
+            {
+              "name": "appVersion",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConfigCrashServerUrl",
+          "parameters": [
+            {
+              "name": "crashServerUrl",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetLogPath",
+          "parameters": [
+            {
+              "name": "logPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConfigDebugMode",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetDeviceId",
+          "parameters": [
+            {
+              "name": "deviceId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConfigCrashReporter",
+          "parameters": [
+            {
+              "name": "logLevel",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConfigCrashReporter",
+          "parameters": [
+            {
+              "name": "logLevel",
+              "type": "CSLogSeverity"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PrintLog",
+          "parameters": [
+            {
+              "name": "level",
+              "type": "CSLogSeverity"
+            },
+            {
+              "name": "format",
+              "type": "System.String"
+            },
+            {
+              "name": "args",
+              "type": "System.Object[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TestNativeCrash",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetEnvironmentName",
+          "parameters": [
+            {
+              "name": "serverEnv",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnableAnrMonitor",
+          "parameters": [
+            {
+              "name": "timeoutMs",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisableAnrMonitor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RegisterCrashCallback",
+          "parameters": [
+            {
+              "name": "callback",
+              "type": "CrashSightCallback"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnregisterCrashCallback",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RegisterCrashLogCallback",
+          "parameters": [
+            {
+              "name": "callback",
+              "type": "CrashSightLogCallback"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnableExceptionHandler",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RegisterLogCallback",
+          "parameters": [
+            {
+              "name": "handler",
+              "type": "CrashSightAgent.LogCallbackDelegate"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnregisterLogCallback",
+          "parameters": [
+            {
+              "name": "handler",
+              "type": "CrashSightAgent.LogCallbackDelegate"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetLogCallbackExtrasHandler",
+          "parameters": [
+            {
+              "name": "handler",
+              "type": "System.Func<System.Collections.Generic.Dictionary<System.String,System.String>>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConfigAutoQuitApplication",
+          "parameters": [
+            {
+              "name": "autoQuit",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AutoQuitApplicationAfterReport",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DebugLog",
+          "parameters": [
+            {
+              "name": "tag",
+              "type": "System.String"
+            },
+            {
+              "name": "format",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsInitialized",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_RegisterExceptionHandler",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_UnregisterExceptionHandler",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetCrashSightStackTraceEnable",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConfigCallbackType",
+          "parameters": [
+            {
+              "name": "callbackType",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetDeviceModel",
+          "parameters": [
+            {
+              "name": "deviceModel",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReportLogInfo",
+          "parameters": [
+            {
+              "name": "msgType",
+              "type": "System.String"
+            },
+            {
+              "name": "msg",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetScene",
+          "parameters": [
+            {
+              "name": "sceneId",
+              "type": "System.String"
+            },
+            {
+              "name": "upload",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetScene",
+          "parameters": [
+            {
+              "name": "sceneId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "upload",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCrashThreadId",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetCustomizedDeviceID",
+          "parameters": [
+            {
+              "name": "deviceId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSDKDefinedDeviceID",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetCustomizedMatchID",
+          "parameters": [
+            {
+              "name": "matchId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSDKSessionID",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TestOomCrash",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TestJavaCrash",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TestANR",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCrashUuid",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetLogcatBufferSize",
+          "parameters": [
+            {
+              "name": "size",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TestOcCrash",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "StartDumpRoutine",
+          "parameters": [
+            {
+              "name": "dumpMode",
+              "type": "System.Int32"
+            },
+            {
+              "name": "startTimeMode",
+              "type": "System.Int32"
+            },
+            {
+              "name": "startTime",
+              "type": "System.Int64"
+            },
+            {
+              "name": "dumpInterval",
+              "type": "System.Int64"
+            },
+            {
+              "name": "dumpTimes",
+              "type": "System.Int32"
+            },
+            {
+              "name": "saveLocal",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "savePath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "StartMonitorFdCount",
+          "parameters": [
+            {
+              "name": "interval",
+              "type": "System.Int32"
+            },
+            {
+              "name": "limit",
+              "type": "System.Int32"
+            },
+            {
+              "name": "dumpType",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getExceptionType",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TestUseAfterFree",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReRegistAllMonitors",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CloseAllMonitors",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "setEnableGetPackageInfo",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "setCatchMultiSignal",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "enableDetailedPageTracing",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsLastSessionCrash",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLastSessionUserId",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CheckFdCount",
+          "parameters": [
+            {
+              "name": "limit",
+              "type": "System.Int32"
+            },
+            {
+              "name": "dumpType",
+              "type": "System.Int32"
+            },
+            {
+              "name": "upload",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetOomLogPath",
+          "parameters": [
+            {
+              "name": "logPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReportJank",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Int32"
+            },
+            {
+              "name": "exceptionName",
+              "type": "System.String"
+            },
+            {
+              "name": "exceptionMsg",
+              "type": "System.String"
+            },
+            {
+              "name": "exceptionStack",
+              "type": "System.String"
+            },
+            {
+              "name": "paramsJson",
+              "type": "System.String"
+            },
+            {
+              "name": "reportInfoOption",
+              "type": "System.Int32"
+            },
+            {
+              "name": "jankAttachmentPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReportStuck",
+          "parameters": [
+            {
+              "name": "threadId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "maxChecks",
+              "type": "System.Int32"
+            },
+            {
+              "name": "checkInterval",
+              "type": "System.Int64"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "message",
+              "type": "System.String"
+            },
+            {
+              "name": "extInfo",
+              "type": "System.Collections.Generic.Dictionary<System.String,System.String>"
+            },
+            {
+              "name": "dumpNativeType",
+              "type": "System.Int32"
+            },
+            {
+              "name": "attachPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetVehEnable",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReportCrash",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReportDump",
+          "parameters": [
+            {
+              "name": "dump_path",
+              "type": "System.String"
+            },
+            {
+              "name": "is_async",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetExtraHandler",
+          "parameters": [
+            {
+              "name": "extra_handle_enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UploadGivenPathDump",
+          "parameters": [
+            {
+              "name": "dump_dir",
+              "type": "System.String"
+            },
+            {
+              "name": "is_extra_check",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetDumpType",
+          "parameters": [
+            {
+              "name": "dump_type",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddValidExpCode",
+          "parameters": [
+            {
+              "name": "exp_code",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UploadCrashWithGuid",
+          "parameters": [
+            {
+              "name": "guid",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetCrashUploadEnable",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetWorkSpace",
+          "parameters": [
+            {
+              "name": "workspace",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetCustomAttachDir",
+          "parameters": [
+            {
+              "name": "path",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetErrorUploadInterval",
+          "parameters": [
+            {
+              "name": "interval",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetErrorUploadEnable",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetRecordFileDir",
+          "parameters": [
+            {
+              "name": "record_dir",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitContext",
+          "parameters": [
+            {
+              "name": "userId",
+              "type": "System.String"
+            },
+            {
+              "name": "version",
+              "type": "System.String"
+            },
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Init",
+          "parameters": [
+            {
+              "name": "app_id",
+              "type": "System.String"
+            },
+            {
+              "name": "app_key",
+              "type": "System.String"
+            },
+            {
+              "name": "app_version",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConfigDefault",
+          "parameters": [
+            {
+              "name": "channel",
+              "type": "System.String"
+            },
+            {
+              "name": "version",
+              "type": "System.String"
+            },
+            {
+              "name": "user",
+              "type": "System.String"
+            },
+            {
+              "name": "delay",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_OnLogCallbackHandlerMain",
+          "parameters": [
+            {
+              "name": "condition",
+              "type": "System.String"
+            },
+            {
+              "name": "stackTrace",
+              "type": "System.String"
+            },
+            {
+              "name": "type",
+              "type": "UnityEngine.LogType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_OnLogCallbackHandlerThreaded",
+          "parameters": [
+            {
+              "name": "condition",
+              "type": "System.String"
+            },
+            {
+              "name": "stackTrace",
+              "type": "System.String"
+            },
+            {
+              "name": "type",
+              "type": "UnityEngine.LogType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_OnLogCallbackHandler",
+          "parameters": [
+            {
+              "name": "condition",
+              "type": "System.String"
+            },
+            {
+              "name": "stackTrace",
+              "type": "System.String"
+            },
+            {
+              "name": "type",
+              "type": "UnityEngine.LogType"
+            },
+            {
+              "name": "rType",
+              "type": "CSReportType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_OnUncaughtExceptionHandler",
+          "parameters": [
+            {
+              "name": "sender",
+              "type": "System.Object"
+            },
+            {
+              "name": "args",
+              "type": "System.UnhandledExceptionEventArgs"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_HandleException",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "System.Exception"
+            },
+            {
+              "name": "message",
+              "type": "System.String"
+            },
+            {
+              "name": "uncaught",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ShouldSkipFrame",
+          "parameters": [
+            {
+              "name": "frame",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_reportException",
+          "parameters": [
+            {
+              "name": "uncaught",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "reason",
+              "type": "System.String"
+            },
+            {
+              "name": "stackTrace",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddTrackCustomData",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddLocalLogFile",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "valueOf",
+          "parameters": [
+            {
+              "name": "logLevel",
+              "type": "UnityEngine.LogType"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "isEnableAutoReport",
+          "parameters": [
+            {
+              "name": "logLevel",
+              "type": "UnityEngine.LogType"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_HandleException",
+          "parameters": [
+            {
+              "name": "logLevel",
+              "type": "UnityEngine.LogType"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "message",
+              "type": "System.String"
+            },
+            {
+              "name": "stackTrace",
+              "type": "System.String"
+            },
+            {
+              "name": "uncaught",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "rType",
+              "type": "CSReportType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CrashSightAgent",
+      "namespace": "",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "monoBehaviour",
+          "offset": 0,
+          "type": "CrashSightMonoBehaviour"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "anrTimeoutMs",
+          "offset": 8,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "detectionTimeoutMs",
+          "offset": 12,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "<Paused>k__BackingField",
+          "offset": 16,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ticksSinceUiUpdate",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "reported",
+          "offset": 24,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "running",
+          "offset": 25,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "thread",
+          "offset": 32,
+          "type": "System.Threading.Thread"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Paused",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Paused",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Start",
+          "parameters": [
+            {
+              "name": "timeoutMs",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Stop",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateUiStatus",
+          "parameters": [],
+          "return_type": "System.Collections.IEnumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Run",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Report",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CrashSightAnrMonitor",
+      "namespace": "",
+      "type_token": 33554442
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            },
+            {
+              "name": "innerException",
+              "type": "System.Exception"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UnityAnrException",
+      "namespace": "",
+      "parent": "Exception",
+      "type_token": 33554445
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnCrashBaseRetEvent",
+          "parameters": [
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "crashType",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CrashSightCallback",
+      "namespace": "",
+      "type_token": 33554446
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnSetLogPathEvent",
+          "parameters": [
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "crashType",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnLogUploadResultEvent",
+          "parameters": [
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "crashType",
+              "type": "System.Int32"
+            },
+            {
+              "name": "result",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CrashSightLogCallback",
+      "namespace": "",
+      "type_token": 33554447
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "_instance",
+          "offset": 0,
+          "type": "CrashSightMonoBehaviour"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ApplicationResuming",
+          "offset": 24,
+          "type": "System.Action"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ApplicationPausing",
+          "offset": 32,
+          "type": "System.Action"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ApplicationQuitting",
+          "offset": 40,
+          "type": "System.Action"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_isRunning",
+          "offset": 48,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Instance",
+          "parameters": [],
+          "return_type": "CrashSightMonoBehaviour"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_ApplicationResuming",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_ApplicationResuming",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_ApplicationPausing",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_ApplicationPausing",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_ApplicationQuitting",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_ApplicationQuitting",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdatePauseStatus",
+          "parameters": [
+            {
+              "name": "paused",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnApplicationPause",
+          "parameters": [
+            {
+              "name": "pauseStatus",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnApplicationFocus",
+          "parameters": [
+            {
+              "name": "hasFocus",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnApplicationQuit",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Awake",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CrashSightMonoBehaviour",
+      "namespace": "",
+      "parent": "MonoBehaviour",
+      "type_token": 33554448
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "enable",
+          "offset": 0,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "stackTrace",
+          "offset": 8,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "setEnable",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExtractStackTrace",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CrashSightStackTrace",
+      "namespace": "",
+      "type_token": 33554449
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginInvoke",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "T"
+            },
+            {
+              "name": "callback",
+              "type": "System.AsyncCallback"
+            },
+            {
+              "name": "object",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.IAsyncResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndInvoke",
+          "parameters": [
+            {
+              "name": "result",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "OnUQMRetEventHandler`1",
+      "namespace": "GCloud.UQM",
+      "parent": "MulticastDelegate",
+      "type_token": 33554450
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "T"
+            },
+            {
+              "name": "crashType",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginInvoke",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "T"
+            },
+            {
+              "name": "crashType",
+              "type": "T"
+            },
+            {
+              "name": "callback",
+              "type": "System.AsyncCallback"
+            },
+            {
+              "name": "object",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.IAsyncResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndInvoke",
+          "parameters": [
+            {
+              "name": "result",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "OnUQMStringRetEventHandler`1",
+      "namespace": "GCloud.UQM",
+      "parent": "MulticastDelegate",
+      "type_token": 33554451
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "T"
+            },
+            {
+              "name": "crashType",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginInvoke",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "T"
+            },
+            {
+              "name": "crashType",
+              "type": "T"
+            },
+            {
+              "name": "callback",
+              "type": "System.AsyncCallback"
+            },
+            {
+              "name": "object",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.IAsyncResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndInvoke",
+          "parameters": [
+            {
+              "name": "result",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "OnUQMStringRetSetLogPathEventHandler`1",
+      "namespace": "GCloud.UQM",
+      "parent": "MulticastDelegate",
+      "type_token": 33554452
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "T"
+            },
+            {
+              "name": "crashType",
+              "type": "T"
+            },
+            {
+              "name": "result",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginInvoke",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "T"
+            },
+            {
+              "name": "crashType",
+              "type": "T"
+            },
+            {
+              "name": "result",
+              "type": "T"
+            },
+            {
+              "name": "callback",
+              "type": "System.AsyncCallback"
+            },
+            {
+              "name": "object",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.IAsyncResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndInvoke",
+          "parameters": [
+            {
+              "name": "result",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "OnUQMRetLogUploadEventHandler`1",
+      "namespace": "GCloud.UQM",
+      "parent": "MulticastDelegate",
+      "type_token": 33554453
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LibName",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "initialized",
+          "offset": 0,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "isDebug",
+          "offset": 1,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Init",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UQM",
+      "namespace": "GCloud.UQM",
+      "type_token": 33554454
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CSLogLevelSilent",
+          "offset": 0,
+          "type": "GCloud.UQM.UQMCrashLevel"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CSLogLevelError",
+          "offset": 0,
+          "type": "GCloud.UQM.UQMCrashLevel"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CSLogLevelWarn",
+          "offset": 0,
+          "type": "GCloud.UQM.UQMCrashLevel"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CSLogLevelInfo",
+          "offset": 0,
+          "type": "GCloud.UQM.UQMCrashLevel"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CSLogLevelDebug",
+          "offset": 0,
+          "type": "GCloud.UQM.UQMCrashLevel"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CSLogLevelVerbose",
+          "offset": 0,
+          "type": "GCloud.UQM.UQMCrashLevel"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "UQMCrashLevel",
+      "namespace": "GCloud.UQM",
+      "type_token": 33554455
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CrashBaseRetEvent",
+          "offset": 0,
+          "type": "GCloud.UQM.OnUQMStringRetEventHandler<System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CrashSetLogPathRetEvent",
+          "offset": 8,
+          "type": "GCloud.UQM.OnUQMStringRetSetLogPathEventHandler<System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CrashLogUploadRetEvent",
+          "offset": 16,
+          "type": "GCloud.UQM.OnUQMRetLogUploadEventHandler<System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "_gameAgentClass",
+          "offset": 24,
+          "type": "UnityEngine.AndroidJavaClass"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "_isLoadedSo",
+          "offset": 32,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "_gameType",
+          "offset": 36,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "GAME_AGENT_CLASS",
+          "offset": 40,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_InitContext",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.String"
+            },
+            {
+              "name": "version",
+              "type": "System.String"
+            },
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_ReportExceptionW",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Int32"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "message",
+              "type": "System.String"
+            },
+            {
+              "name": "stack_trace",
+              "type": "System.String"
+            },
+            {
+              "name": "extras",
+              "type": "System.String"
+            },
+            {
+              "name": "is_async",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "attachmentPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_SetUserValue",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            },
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_SetVehEnable",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_SetExtraHandler",
+          "parameters": [
+            {
+              "name": "extra_handle_enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_SetCustomLogDirW",
+          "parameters": [
+            {
+              "name": "log_path",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_SetUserId",
+          "parameters": [
+            {
+              "name": "user_id",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_MonitorEnable",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_PrintLog",
+          "parameters": [
+            {
+              "name": "level",
+              "type": "System.Int32"
+            },
+            {
+              "name": "tag",
+              "type": "System.String"
+            },
+            {
+              "name": "format",
+              "type": "System.String"
+            },
+            {
+              "name": "arg",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_UploadGivenPathDump",
+          "parameters": [
+            {
+              "name": "dump_dir",
+              "type": "System.String"
+            },
+            {
+              "name": "is_extra_check",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_ReportCrash",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_ReportDump",
+          "parameters": [
+            {
+              "name": "dump_dir",
+              "type": "System.String"
+            },
+            {
+              "name": "is_async",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_SetEnvironmentName",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_InitWithAppId",
+          "parameters": [
+            {
+              "name": "app_id",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_SetAppVersion",
+          "parameters": [
+            {
+              "name": "app_version",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_ConfigCrashServerUrl",
+          "parameters": [
+            {
+              "name": "crash_server_url",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_ConfigDebugMode",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_SetDeviceId",
+          "parameters": [
+            {
+              "name": "device_id",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_ConfigCrashReporter",
+          "parameters": [
+            {
+              "name": "log_level",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_TestNativeCrash",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_SetDumpType",
+          "parameters": [
+            {
+              "name": "dump_type",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_AddValidExpCode",
+          "parameters": [
+            {
+              "name": "exp_code",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_UploadCrashWithGuid",
+          "parameters": [
+            {
+              "name": "guid",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_SetCrashUploadEnable",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_SetWorkSpaceW",
+          "parameters": [
+            {
+              "name": "workspace",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_SetEngineInfo",
+          "parameters": [
+            {
+              "name": "version",
+              "type": "System.String"
+            },
+            {
+              "name": "buildConfig",
+              "type": "System.String"
+            },
+            {
+              "name": "language",
+              "type": "System.String"
+            },
+            {
+              "name": "locale",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_SetCustomAttachDirW",
+          "parameters": [
+            {
+              "name": "log_path",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_UseSavedUserId",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CS_ReportStuck",
+          "parameters": [
+            {
+              "name": "threadId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "maxChecks",
+              "type": "System.Int32"
+            },
+            {
+              "name": "checkInterval",
+              "type": "System.Int32"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "message",
+              "type": "System.String"
+            },
+            {
+              "name": "extraInfo",
+              "type": "System.String"
+            },
+            {
+              "name": "dumpNativeType",
+              "type": "System.Int32"
+            },
+            {
+              "name": "attachPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_CrashBaseRetEvent",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "GCloud.UQM.OnUQMStringRetEventHandler<System.Int32>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_CrashBaseRetEvent",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "GCloud.UQM.OnUQMStringRetEventHandler<System.Int32>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_CrashSetLogPathRetEvent",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "GCloud.UQM.OnUQMStringRetSetLogPathEventHandler<System.Int32>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_CrashSetLogPathRetEvent",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "GCloud.UQM.OnUQMStringRetSetLogPathEventHandler<System.Int32>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_CrashLogUploadRetEvent",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "GCloud.UQM.OnUQMRetLogUploadEventHandler<System.Int32>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_CrashLogUploadRetEvent",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "GCloud.UQM.OnUQMRetLogUploadEventHandler<System.Int32>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_CrashSightPlatform",
+          "parameters": [],
+          "return_type": "UnityEngine.AndroidJavaClass"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadCrashSightCoreSo",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConfigCallbackType",
+          "parameters": [
+            {
+              "name": "callbackType",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConfigGameType",
+          "parameters": [
+            {
+              "name": "gameType",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConfigAutoReportLogLevel",
+          "parameters": [
+            {
+              "name": "level",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConfigCrashServerUrl",
+          "parameters": [
+            {
+              "name": "serverUrl",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConfigDebugMode",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConfigDefault",
+          "parameters": [
+            {
+              "name": "channel",
+              "type": "System.String"
+            },
+            {
+              "name": "version",
+              "type": "System.String"
+            },
+            {
+              "name": "user",
+              "type": "System.String"
+            },
+            {
+              "name": "delay",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitWithAppId",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "forceOnUiThread",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitContext",
+          "parameters": [
+            {
+              "name": "userId",
+              "type": "System.String"
+            },
+            {
+              "name": "version",
+              "type": "System.String"
+            },
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogRecord",
+          "parameters": [
+            {
+              "name": "level",
+              "type": "System.Int32"
+            },
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddSceneData",
+          "parameters": [
+            {
+              "name": "k",
+              "type": "System.String"
+            },
+            {
+              "name": "v",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReportException",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Int32"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "message",
+              "type": "System.String"
+            },
+            {
+              "name": "stackTrace",
+              "type": "System.String"
+            },
+            {
+              "name": "extras",
+              "type": "System.String"
+            },
+            {
+              "name": "quitProgram",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReportException",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Int32"
+            },
+            {
+              "name": "exceptionName",
+              "type": "System.String"
+            },
+            {
+              "name": "exceptionMsg",
+              "type": "System.String"
+            },
+            {
+              "name": "exceptionStack",
+              "type": "System.String"
+            },
+            {
+              "name": "extInfo",
+              "type": "System.Collections.Generic.Dictionary<System.String,System.String>"
+            },
+            {
+              "name": "dumpNativeType",
+              "type": "System.Int32"
+            },
+            {
+              "name": "errorAttachmentPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetUserId",
+          "parameters": [
+            {
+              "name": "userId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetScene",
+          "parameters": [
+            {
+              "name": "sceneId",
+              "type": "System.String"
+            },
+            {
+              "name": "upload",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReRegistAllMonitors",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CloseAllMonitors",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReportLogInfo",
+          "parameters": [
+            {
+              "name": "msgType",
+              "type": "System.String"
+            },
+            {
+              "name": "msg",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetAppVersion",
+          "parameters": [
+            {
+              "name": "appVersion",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetDeviceId",
+          "parameters": [
+            {
+              "name": "deviceId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetCustomizedDeviceID",
+          "parameters": [
+            {
+              "name": "deviceId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSDKDefinedDeviceID",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetCustomizedMatchID",
+          "parameters": [
+            {
+              "name": "matchId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSDKSessionID",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCrashUuid",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetDeviceModel",
+          "parameters": [
+            {
+              "name": "deviceModel",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetLogPath",
+          "parameters": [
+            {
+              "name": "logPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetCrashCallback",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnsetCrashCallback",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetCrashLogCallback",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnCrashCallbackMessage",
+          "parameters": [
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "crashType",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnCrashCallbackData",
+          "parameters": [
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "crashType",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnCrashSetLogPathMessage",
+          "parameters": [
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "crashType",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnCrashLogUploadMessage",
+          "parameters": [
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "crashType",
+              "type": "System.Int32"
+            },
+            {
+              "name": "result",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnCrashCallbackNoRet",
+          "parameters": [
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "crashType",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConfigCallBack",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnregisterCallBack",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConfigLogCallBack",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TestOomCrash",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TestJavaCrash",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TestOcCrash",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TestNativeCrash",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TestANR",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCrashThreadId",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetLogcatBufferSize",
+          "parameters": [
+            {
+              "name": "size",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetCallbackMsg",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "StartDumpRoutine",
+          "parameters": [
+            {
+              "name": "dumpMode",
+              "type": "System.Int32"
+            },
+            {
+              "name": "startTimeMode",
+              "type": "System.Int32"
+            },
+            {
+              "name": "startTime",
+              "type": "System.Int64"
+            },
+            {
+              "name": "dumpInterval",
+              "type": "System.Int64"
+            },
+            {
+              "name": "dumpTimes",
+              "type": "System.Int32"
+            },
+            {
+              "name": "saveLocal",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "savePath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "StartMonitorFdCount",
+          "parameters": [
+            {
+              "name": "interval",
+              "type": "System.Int32"
+            },
+            {
+              "name": "limit",
+              "type": "System.Int32"
+            },
+            {
+              "name": "dumpType",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getExceptionType",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TestUseAfterFree",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetServerEnv",
+          "parameters": [
+            {
+              "name": "serverEnv",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetVehEnable",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReportCrash",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReportDump",
+          "parameters": [
+            {
+              "name": "dump_path",
+              "type": "System.String"
+            },
+            {
+              "name": "is_async",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetExtraHandler",
+          "parameters": [
+            {
+              "name": "extra_handle_enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UploadGivenPathDump",
+          "parameters": [
+            {
+              "name": "dump_dir",
+              "type": "System.String"
+            },
+            {
+              "name": "is_extra_check",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetErrorUploadInterval",
+          "parameters": [
+            {
+              "name": "interval",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetErrorUploadEnable",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetRecordFileDir",
+          "parameters": [
+            {
+              "name": "record_dir",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Init",
+          "parameters": [
+            {
+              "name": "app_id",
+              "type": "System.String"
+            },
+            {
+              "name": "app_key",
+              "type": "System.String"
+            },
+            {
+              "name": "app_version",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "setEnableGetPackageInfo",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetDumpType",
+          "parameters": [
+            {
+              "name": "dump_type",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddValidExpCode",
+          "parameters": [
+            {
+              "name": "exp_code",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UploadCrashWithGuid",
+          "parameters": [
+            {
+              "name": "guid",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetCrashUploadEnable",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetWorkSpace",
+          "parameters": [
+            {
+              "name": "workspace",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetEngineInfo",
+          "parameters": [
+            {
+              "name": "version",
+              "type": "System.String"
+            },
+            {
+              "name": "buildConfig",
+              "type": "System.String"
+            },
+            {
+              "name": "language",
+              "type": "System.String"
+            },
+            {
+              "name": "locale",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "setCatchMultiSignal",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "enableDetailedPageTracing",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "useSavedUserId",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetCustomAttachDir",
+          "parameters": [
+            {
+              "name": "path",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsLastSessionCrash",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLastSessionUserId",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CheckFdCount",
+          "parameters": [
+            {
+              "name": "limit",
+              "type": "System.Int32"
+            },
+            {
+              "name": "dumpType",
+              "type": "System.Int32"
+            },
+            {
+              "name": "upload",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetOomLogPath",
+          "parameters": [
+            {
+              "name": "logPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReportJank",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Int32"
+            },
+            {
+              "name": "exceptionName",
+              "type": "System.String"
+            },
+            {
+              "name": "exceptionMsg",
+              "type": "System.String"
+            },
+            {
+              "name": "exceptionStack",
+              "type": "System.String"
+            },
+            {
+              "name": "paramsJson",
+              "type": "System.String"
+            },
+            {
+              "name": "reportInfoOption",
+              "type": "System.Int32"
+            },
+            {
+              "name": "jankAttachmentPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ProcessEngineAnr",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetEngineMainThread",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReportStuck",
+          "parameters": [
+            {
+              "name": "threadId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "maxChecks",
+              "type": "System.Int32"
+            },
+            {
+              "name": "checkInterval",
+              "type": "System.Int64"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "message",
+              "type": "System.String"
+            },
+            {
+              "name": "extInfo",
+              "type": "System.Collections.Generic.Dictionary<System.String,System.String>"
+            },
+            {
+              "name": "dumpNativeType",
+              "type": "System.Int32"
+            },
+            {
+              "name": "attachPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UQMCrash",
+      "namespace": "GCloud.UQM",
+      "type_token": 33554456
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "UQM_CRASH_CALLBACK_EXTRA_DATA",
+          "offset": 0,
+          "type": "GCloud.UQM.UQMMethodNameID"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "UQM_CRASH_CALLBACK_EXTRA_MESSAGE",
+          "offset": 0,
+          "type": "GCloud.UQM.UQMMethodNameID"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "UQM_CRASH_CALLBACK_SET_LOG_PATH",
+          "offset": 0,
+          "type": "GCloud.UQM.UQMMethodNameID"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "UQM_CRASH_CALLBACK_LOG_UPLOAD_RESULT",
+          "offset": 0,
+          "type": "GCloud.UQM.UQMMethodNameID"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "UQMMethodNameID",
+      "namespace": "GCloud.UQM",
+      "type_token": 33554457
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "GCloud.UQM.UQMLog.Level"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Log",
+          "offset": 0,
+          "type": "GCloud.UQM.UQMLog.Level"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Warning",
+          "offset": 0,
+          "type": "GCloud.UQM.UQMLog.Level"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Error",
+          "offset": 0,
+          "type": "GCloud.UQM.UQMLog.Level"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Level",
+      "namespace": "",
+      "type_token": 33554459
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "level",
+          "offset": 0,
+          "type": "GCloud.UQM.UQMLog.Level"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "header",
+          "offset": 0,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetLevel",
+          "parameters": [
+            {
+              "name": "l",
+              "type": "GCloud.UQM.UQMLog.Level"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Log",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogWarning",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogError",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FullLog",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UQMLog",
+      "namespace": "GCloud.UQM",
+      "type_token": 33554458
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "methodId",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "crashType",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "logUploadResult",
+          "offset": 24,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_MethodId",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_CrashType",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LogUploadResult",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "_methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "_crashType",
+              "type": "System.Int32"
+            },
+            {
+              "name": "_logUploadResult",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "RetArgsWrapper",
+      "namespace": "GCloud.UQM",
+      "type_token": 33554460
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "callType",
+              "type": "System.Int32"
+            },
+            {
+              "name": "logUploadResult",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginInvoke",
+          "parameters": [
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "callType",
+              "type": "System.Int32"
+            },
+            {
+              "name": "logUploadResult",
+              "type": "System.Int32"
+            },
+            {
+              "name": "callback",
+              "type": "System.AsyncCallback"
+            },
+            {
+              "name": "object",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.IAsyncResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndInvoke",
+          "parameters": [
+            {
+              "name": "result",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "UQMRetJsonEventHandler",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554462
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "initialzed",
+          "offset": 0,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "instance",
+          "offset": 8,
+          "type": "GCloud.UQM.UQMMessageCenter"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnUQMRet",
+          "parameters": [
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "crashType",
+              "type": "System.Int32"
+            },
+            {
+              "name": "logUploadResult",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "cs_setUnityCallback",
+          "parameters": [
+            {
+              "name": "eventHandler",
+              "type": "GCloud.UQM.UQMMessageCenter.UQMRetJsonEventHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Instance",
+          "parameters": [],
+          "return_type": "GCloud.UQM.UQMMessageCenter"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Init",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Uninit",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SynchronousDelegate",
+          "parameters": [
+            {
+              "name": "arg",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UQMMessageCenter",
+      "namespace": "GCloud.UQM",
+      "parent": "MonoBehaviour",
+      "type_token": 33554461
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "NONE",
+          "offset": 0,
+          "type": "GCloud.UQM.MiniJSON.Json.Parser.TOKEN"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CURLY_OPEN",
+          "offset": 0,
+          "type": "GCloud.UQM.MiniJSON.Json.Parser.TOKEN"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CURLY_CLOSE",
+          "offset": 0,
+          "type": "GCloud.UQM.MiniJSON.Json.Parser.TOKEN"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SQUARED_OPEN",
+          "offset": 0,
+          "type": "GCloud.UQM.MiniJSON.Json.Parser.TOKEN"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SQUARED_CLOSE",
+          "offset": 0,
+          "type": "GCloud.UQM.MiniJSON.Json.Parser.TOKEN"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "COLON",
+          "offset": 0,
+          "type": "GCloud.UQM.MiniJSON.Json.Parser.TOKEN"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "COMMA",
+          "offset": 0,
+          "type": "GCloud.UQM.MiniJSON.Json.Parser.TOKEN"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "STRING",
+          "offset": 0,
+          "type": "GCloud.UQM.MiniJSON.Json.Parser.TOKEN"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "NUMBER",
+          "offset": 0,
+          "type": "GCloud.UQM.MiniJSON.Json.Parser.TOKEN"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "TRUE",
+          "offset": 0,
+          "type": "GCloud.UQM.MiniJSON.Json.Parser.TOKEN"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FALSE",
+          "offset": 0,
+          "type": "GCloud.UQM.MiniJSON.Json.Parser.TOKEN"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "NULL",
+          "offset": 0,
+          "type": "GCloud.UQM.MiniJSON.Json.Parser.TOKEN"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TOKEN",
+      "namespace": "",
+      "type_token": 33554465
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "WORD_BREAK",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "json",
+          "offset": 16,
+          "type": "System.IO.StringReader"
+        }
+      ],
+      "interfaces": [
+        "IDisposable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsWordBreak",
+          "parameters": [
+            {
+              "name": "c",
+              "type": "System.Char"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "jsonString",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Parse",
+          "parameters": [
+            {
+              "name": "jsonString",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ParseObject",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.Dictionary<System.String,System.Object>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ParseArray",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.List<System.Object>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ParseValue",
+          "parameters": [],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ParseByToken",
+          "parameters": [
+            {
+              "name": "token",
+              "type": "GCloud.UQM.MiniJSON.Json.Parser.TOKEN"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ParseString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ParseNumber",
+          "parameters": [],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EatWhitespace",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_PeekChar",
+          "parameters": [],
+          "return_type": "System.Char"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_NextChar",
+          "parameters": [],
+          "return_type": "System.Char"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_NextWord",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_NextToken",
+          "parameters": [],
+          "return_type": "GCloud.UQM.MiniJSON.Json.Parser.TOKEN"
+        }
+      ],
+      "name": "Parser",
+      "namespace": "",
+      "type_token": 33554464
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "builder",
+          "offset": 16,
+          "type": "System.Text.StringBuilder"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Serialize",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SerializeValue",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SerializeObject",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Collections.IDictionary"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SerializeArray",
+          "parameters": [
+            {
+              "name": "anArray",
+              "type": "System.Collections.IList"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SerializeString",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SerializeOther",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Serializer",
+      "namespace": "",
+      "type_token": 33554466
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Deserialize",
+          "parameters": [
+            {
+              "name": "json",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Serialize",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "Json",
+      "namespace": "GCloud.UQM.MiniJSON",
+      "type_token": 33554463
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "HGSDKInterfaces.dll"
+}

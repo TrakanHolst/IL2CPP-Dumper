@@ -1,0 +1,64 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -3589055248654503149
+  },
+  "m_Name": "Vignette",
+  "active": 0,
+  "mode": {
+    "overrideState": 1,
+    "m_Value": 0
+  },
+  "color": {
+    "overrideState": 1,
+    "m_Value": {
+      "r": 0.06666667,
+      "g": 0.067174576,
+      "b": 0.07450981,
+      "a": 1.0
+    }
+  },
+  "center": {
+    "overrideState": 1,
+    "m_Value": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "intensity": {
+    "overrideState": 1,
+    "m_Value": 0.2
+  },
+  "smoothness": {
+    "overrideState": 1,
+    "m_Value": 0.38
+  },
+  "roundness": {
+    "overrideState": 1,
+    "m_Value": 1.0
+  },
+  "rounded": {
+    "overrideState": 1,
+    "m_Value": 0
+  },
+  "blink": {
+    "overrideState": 0,
+    "m_Value": 0
+  },
+  "mask": {
+    "overrideState": 1,
+    "m_Value": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "opacity": {
+    "overrideState": 1,
+    "m_Value": 1.0
+  }
+}

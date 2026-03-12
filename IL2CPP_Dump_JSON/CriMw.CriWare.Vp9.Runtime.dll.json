@@ -1,0 +1,269 @@
+{
+  "class_count": 7,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGConstantBufferLayoutAttribute",
+      "namespace": "HG.Rendering.Runtime",
+      "parent": "Attribute",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AnimatorBlackboardAttribute",
+      "namespace": "Beyond.SourceGenerator",
+      "parent": "Attribute",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "capacity",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "tSize",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ring",
+          "offset": 24,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "DataNAttribute",
+      "namespace": "Beyond.SourceGenerator",
+      "parent": "Attribute",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "layoutKind",
+          "offset": 16,
+          "type": "System.Runtime.InteropServices.LayoutKind"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "isTag",
+          "offset": 20,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ECSComponentAttribute",
+      "namespace": "Beyond.SourceGenerator",
+      "parent": "Attribute",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CameraControlConfigAttribute",
+      "namespace": "Beyond.SourceGenerator",
+      "parent": "Attribute",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "scriptVersionString",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "cri_mana_vp9_name",
+          "offset": 0,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SupportCurrentPlatform",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetupVp9Decoder",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "criWareUnity_GetAllocateFunc",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "criWareUnity_GetDeallocateFunc",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "criManaUnity_GetAllocatorManager",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "criMvPly_AttachCodecInterface",
+          "parameters": [
+            {
+              "name": "codec_type",
+              "type": "System.Int32"
+            },
+            {
+              "name": "codec_if",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "codecalpha_if",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "criVvp9_SetUserAllocator",
+          "parameters": [
+            {
+              "name": "alloc_func",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "free_func",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "usr_obj",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "criVvp9_GetInterface",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "criVvp9_GetAlphaInterface",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        }
+      ],
+      "name": "CriManaVp9",
+      "namespace": "CriWare",
+      "type_token": 33554439
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "CriMw.CriWare.Vp9.Runtime.dll"
+}

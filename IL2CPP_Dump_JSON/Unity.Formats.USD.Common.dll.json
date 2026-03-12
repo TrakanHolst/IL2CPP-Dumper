@@ -1,0 +1,655 @@
+{
+  "class_count": 10,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "m_usdInitialized",
+          "offset": 0,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "m_usdInitializeFailed",
+          "offset": 1,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "m_handler",
+          "offset": 8,
+          "type": "USD.NET.Unity.DiagnosticHandler"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Initialize",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetupUsdPath",
+          "parameters": [
+            {
+              "name": "sourceFilePath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "InitUsd",
+      "namespace": "Unity.Formats.USD",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Initial",
+          "offset": 0,
+          "type": "Unity.Formats.USD.ImportType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ForceRebuild",
+          "offset": 0,
+          "type": "Unity.Formats.USD.ImportType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Refresh",
+          "offset": 0,
+          "type": "Unity.Formats.USD.ImportType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Streaming",
+          "offset": 0,
+          "type": "Unity.Formats.USD.ImportType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ImportType",
+      "namespace": "Unity.Formats.USD",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "InitSucceeded",
+          "offset": 16,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "TimeTakenMs",
+          "offset": 24,
+          "type": "System.Double"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "UsageAnalyticsData",
+      "namespace": "",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "FileExtension",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "TimeTakenMs",
+          "offset": 24,
+          "type": "System.Double"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Succeeded",
+          "offset": 32,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "IncludesMeshes",
+          "offset": 33,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "IncludesPointInstancer",
+          "offset": 34,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "IncludesMaterials",
+          "offset": 35,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "IncludesSkel",
+          "offset": 36,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ImportAnalyticsData",
+      "namespace": "",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Success",
+          "offset": 16,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ImportType",
+          "offset": 20,
+          "type": "Unity.Formats.USD.ImportType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ContainsMeshes",
+          "offset": 24,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ContainsPointInstancer",
+          "offset": 25,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ContainsSkel",
+          "offset": 26,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ContainsMaterials",
+          "offset": 27,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Default",
+          "parameters": [],
+          "return_type": "Unity.Formats.USD.UsdEditorAnalytics.ImportResult"
+        }
+      ],
+      "name": "ImportResult",
+      "namespace": "",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "FileExtension",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "TimeTakenMs",
+          "offset": 24,
+          "type": "System.Double"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Succeeded",
+          "offset": 32,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ForceRebuild",
+          "offset": 33,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "IncludesMeshes",
+          "offset": 34,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "IncludesPointInstancer",
+          "offset": 35,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "IncludesMaterials",
+          "offset": 36,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "IncludesSkel",
+          "offset": 37,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ReimportAnalyticsData",
+      "namespace": "",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "FileExtension",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "TimeTakenMs",
+          "offset": 24,
+          "type": "System.Double"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Succeeded",
+          "offset": 32,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "OnlyOverrides",
+          "offset": 33,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ExportAnalyticsData",
+      "namespace": "",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "FileExtension",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "TimeTakenMs",
+          "offset": 24,
+          "type": "System.Double"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Succeeded",
+          "offset": 32,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "OnlyOverrides",
+          "offset": 33,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "FrameCount",
+          "offset": 36,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "RecorderExportAnalyticsData",
+      "namespace": "",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "k_MaxEventsPerHour",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "k_MaxNumberOfElements",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "k_VendorKey",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "k_UsageEventName",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "k_ImportEventName",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "k_ReimportEventName",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "k_ExportEventName",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "k_RecorderExportEventName",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "sUsdEditorAnalyticsEvents",
+          "offset": 0,
+          "type": "System.Collections.Generic.Dictionary<System.String,System.Boolean>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RegisterAnalytics",
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SendUsageEvent",
+          "parameters": [
+            {
+              "name": "success",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "timeTakenMs",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SendImportEvent",
+          "parameters": [
+            {
+              "name": "fileExtension",
+              "type": "System.String"
+            },
+            {
+              "name": "timeTakenMs",
+              "type": "System.Double"
+            },
+            {
+              "name": "importResult",
+              "type": "Unity.Formats.USD.UsdEditorAnalytics.ImportResult"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SendReimportEvent",
+          "parameters": [
+            {
+              "name": "fileExtension",
+              "type": "System.String"
+            },
+            {
+              "name": "timeTakenMs",
+              "type": "System.Double"
+            },
+            {
+              "name": "importResult",
+              "type": "Unity.Formats.USD.UsdEditorAnalytics.ImportResult"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SendExportEvent",
+          "parameters": [
+            {
+              "name": "fileExtension",
+              "type": "System.String"
+            },
+            {
+              "name": "timeTakenMs",
+              "type": "System.Double"
+            },
+            {
+              "name": "exportSucceeded",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "onlyOverrides",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SendRecorderExportEvent",
+          "parameters": [
+            {
+              "name": "fileExtension",
+              "type": "System.String"
+            },
+            {
+              "name": "timeTakenMs",
+              "type": "System.Double"
+            },
+            {
+              "name": "exportSucceeded",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "onlyOverrides",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "frameCount",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UsdEditorAnalytics",
+      "namespace": "Unity.Formats.USD",
+      "type_token": 33554436
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Unity.Formats.USD.Common.dll"
+}

@@ -1,0 +1,280 @@
+{
+  "class_count": 7,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGConstantBufferLayoutAttribute",
+      "namespace": "HG.Rendering.Runtime",
+      "parent": "Attribute",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CameraControlConfigAttribute",
+      "namespace": "Beyond.SourceGenerator",
+      "parent": "Attribute",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "layoutKind",
+          "offset": 16,
+          "type": "System.Runtime.InteropServices.LayoutKind"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "isTag",
+          "offset": 20,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ECSComponentAttribute",
+      "namespace": "Beyond.SourceGenerator",
+      "parent": "Attribute",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "capacity",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "tSize",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ring",
+          "offset": 24,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "DataNAttribute",
+      "namespace": "Beyond.SourceGenerator",
+      "parent": "Attribute",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AnimatorBlackboardAttribute",
+      "namespace": "Beyond.SourceGenerator",
+      "parent": "Attribute",
+      "type_token": 33554438
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryGetBundleDeps",
+          "parameters": [
+            {
+              "name": "manifestDataBinary",
+              "type": "Beyond.ManifestBinary.ManifestDataBinary"
+            },
+            {
+              "name": "bundle",
+              "type": "Beyond.ManifestBinary.ManifestDataBinary.Bundle"
+            },
+            {
+              "name": "bundles",
+              "type": "System.Collections.Generic.List<Beyond.ManifestBinary.ManifestDataBinary.Bundle>&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryGetBundleDirectDeps",
+          "parameters": [
+            {
+              "name": "manifestDataBinary",
+              "type": "Beyond.ManifestBinary.ManifestDataBinary"
+            },
+            {
+              "name": "bundle",
+              "type": "Beyond.ManifestBinary.ManifestDataBinary.Bundle"
+            },
+            {
+              "name": "bundles",
+              "type": "System.Collections.Generic.List<Beyond.ManifestBinary.ManifestDataBinary.Bundle>&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryGetBundleDirectReverseDeps",
+          "parameters": [
+            {
+              "name": "manifestDataBinary",
+              "type": "Beyond.ManifestBinary.ManifestDataBinary"
+            },
+            {
+              "name": "bundle",
+              "type": "Beyond.ManifestBinary.ManifestDataBinary.Bundle"
+            },
+            {
+              "name": "bundles",
+              "type": "System.Collections.Generic.List<Beyond.ManifestBinary.ManifestDataBinary.Bundle>&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_TryGetBundleDeps",
+          "parameters": [
+            {
+              "name": "manifestDataBinary",
+              "type": "Beyond.ManifestBinary.ManifestDataBinary"
+            },
+            {
+              "name": "bundle",
+              "type": "Beyond.ManifestBinary.ManifestDataBinary.Bundle"
+            },
+            {
+              "name": "bundles",
+              "type": "System.Collections.Generic.List<Beyond.ManifestBinary.ManifestDataBinary.Bundle>&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLogBundleName",
+          "parameters": [
+            {
+              "name": "manifestBinary",
+              "type": "Beyond.ManifestBinary.RuntimeManifestBinary"
+            },
+            {
+              "name": "bundle",
+              "type": "Beyond.ManifestBinary.ManifestDataBinary.Bundle"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLogAssetPath",
+          "parameters": [
+            {
+              "name": "manifestBinary",
+              "type": "Beyond.ManifestBinary.RuntimeManifestBinary"
+            },
+            {
+              "name": "asset",
+              "type": "Beyond.ManifestBinary.ManifestDataBinary.AssetInfo"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "VFSEditorUnsafeUtils",
+      "namespace": "Beyond.VFS.Editor",
+      "type_token": 33554439
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "VFSEditor.dll"
+}

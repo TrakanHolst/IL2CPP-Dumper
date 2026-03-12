@@ -1,0 +1,43 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 14
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1591109113233594916
+  },
+  "m_Name": "",
+  "_volumeType": 0,
+  "_blendMode": 0,
+  "_priority": 200,
+  "_blendDistance": 5.0,
+  "_fadeInDuration": 3.0,
+  "_fadeOutDuration": 3.0,
+  "_manualBlendFactor": 1.0,
+  "_envPhase": {
+    "m_FileID": 9,
+    "m_PathID": 4465568732261698156
+  },
+  "_polyLineShape": {
+    "m_posList": [],
+    "m_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "m_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "m_height": 5.0,
+    "m_baseHeightOffset": 0.0,
+    "m_BVHNodes": [],
+    "m_BVHNodeRightChildIndex": [],
+    "m_isDirty": 0,
+    "m_checkedConvex": 0,
+    "m_isClockWise": 0
+  }
+}

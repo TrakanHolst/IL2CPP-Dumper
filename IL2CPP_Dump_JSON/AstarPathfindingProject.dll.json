@@ -1,0 +1,4662 @@
+{
+  "class_count": 22,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "EmbeddedAttribute",
+      "namespace": "Microsoft.CodeAnalysis",
+      "parent": "Attribute",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IsUnmanagedAttribute",
+      "namespace": "System.Runtime.CompilerServices",
+      "parent": "Attribute",
+      "type_token": 33554435
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ShrinkArray",
+          "parameters": [
+            {
+              "name": "arr",
+              "type": "T[]"
+            },
+            {
+              "name": "newLength",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "T[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Swap",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "T&"
+            },
+            {
+              "name": "b",
+              "type": "T&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Realloc",
+          "parameters": [
+            {
+              "name": "arr",
+              "type": "Unity.Collections.NativeArray<T>&"
+            },
+            {
+              "name": "newSize",
+              "type": "System.Int32"
+            },
+            {
+              "name": "allocator",
+              "type": "Unity.Collections.Allocator"
+            },
+            {
+              "name": "options",
+              "type": "Unity.Collections.NativeArrayOptions"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Realloc",
+          "parameters": [
+            {
+              "name": "arr",
+              "type": "T[]&"
+            },
+            {
+              "name": "newSize",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnsafeAppendBufferToArray",
+          "parameters": [
+            {
+              "name": "src",
+              "type": "Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer"
+            }
+          ],
+          "return_type": "T[]"
+        }
+      ],
+      "name": "AstarMemory",
+      "namespace": "RVO",
+      "type_token": 33554436
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FillIn",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "Unity.Collections.NativeArray<T>&"
+            },
+            {
+              "name": "start",
+              "type": "System.Int32"
+            },
+            {
+              "name": "length",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetValueAt",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "Unity.Collections.NativeArray<T>&"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetValueAt",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "Unity.Collections.NativeArray<T>&"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "T"
+        }
+      ],
+      "name": "NativeCollectionExtensions",
+      "namespace": "RVO",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "DefaultAgent",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "DefaultObstacle",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Character",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Enemy",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "NPC",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FactoryObstacle",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer6",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer7",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer8",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer9",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer10",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer11",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer12",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer13",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer14",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer15",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer16",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer17",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer18",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer19",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer20",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer21",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer22",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer23",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer24",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer25",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer26",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer27",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer28",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer29",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layer30",
+          "offset": 0,
+          "type": "RVO.RVOLayer"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "RVOLayer",
+      "namespace": "RVO",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Colinear",
+          "offset": 0,
+          "type": "RVO.Side"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Left",
+          "offset": 0,
+          "type": "RVO.Side"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Right",
+          "offset": 0,
+          "type": "RVO.Side"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Side",
+      "namespace": "RVO",
+      "type_token": 33554439
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ComplexMultiply",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "b",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ComplexMultiplyConjugate",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "b",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClosestPointOnLine",
+          "parameters": [
+            {
+              "name": "lineStart",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "lineEnd",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "point",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClosestPointOnLineFactor",
+          "parameters": [
+            {
+              "name": "lineStart",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "lineEnd",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "point",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClosestPointOnLineFactor",
+          "parameters": [
+            {
+              "name": "lineStart",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "lineEnd",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "point",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClosestPointOnLineFactor",
+          "parameters": [
+            {
+              "name": "lineStart",
+              "type": "RVO.Int2"
+            },
+            {
+              "name": "lineEnd",
+              "type": "RVO.Int2"
+            },
+            {
+              "name": "point",
+              "type": "RVO.Int2"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClosestPointOnSegment",
+          "parameters": [
+            {
+              "name": "lineStart",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "lineEnd",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "point",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClosestPointOnSegmentXZ",
+          "parameters": [
+            {
+              "name": "lineStart",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "lineEnd",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "point",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SqrDistancePointSegmentApproximate",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Int32"
+            },
+            {
+              "name": "z",
+              "type": "System.Int32"
+            },
+            {
+              "name": "px",
+              "type": "System.Int32"
+            },
+            {
+              "name": "pz",
+              "type": "System.Int32"
+            },
+            {
+              "name": "qx",
+              "type": "System.Int32"
+            },
+            {
+              "name": "qz",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SqrDistancePointSegmentApproximate",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "b",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "p",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SqrDistancePointSegment",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "b",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "p",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SqrDistanceSegmentSegment",
+          "parameters": [
+            {
+              "name": "s1",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "e1",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "s2",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "e2",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SqrDistanceXZ",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "b",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SignedTriangleAreaTimes2XZ",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "b",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "c",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SignedTriangleAreaTimes2XZ",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "b",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "c",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RightXZ",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "b",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "p",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RightXZ",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "b",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "p",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SideXZ",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "b",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "p",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "RVO.Side"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RightOrColinear",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "b",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "p",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RightOrColinear",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "RVO.Int2"
+            },
+            {
+              "name": "b",
+              "type": "RVO.Int2"
+            },
+            {
+              "name": "p",
+              "type": "RVO.Int2"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RightOrColinearXZ",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "b",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "p",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RightOrColinearXZ",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "b",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "p",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsClockwiseMarginXZ",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "b",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "c",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsClockwiseXZ",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "b",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "c",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsClockwiseXZ",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "b",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "c",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsClockwiseOrColinearXZ",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "b",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "c",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsClockwiseOrColinear",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "RVO.Int2"
+            },
+            {
+              "name": "b",
+              "type": "RVO.Int2"
+            },
+            {
+              "name": "c",
+              "type": "RVO.Int2"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsColinear",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "b",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "c",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsColinear",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "b",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "c",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsColinearXZ",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "b",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "c",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsColinearXZ",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "b",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "c",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsColinearAlmostXZ",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "b",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "c",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SegmentsIntersect",
+          "parameters": [
+            {
+              "name": "start1",
+              "type": "RVO.Int2"
+            },
+            {
+              "name": "end1",
+              "type": "RVO.Int2"
+            },
+            {
+              "name": "start2",
+              "type": "RVO.Int2"
+            },
+            {
+              "name": "end2",
+              "type": "RVO.Int2"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SegmentsIntersectXZ",
+          "parameters": [
+            {
+              "name": "start1",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "end1",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "start2",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "end2",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SegmentsIntersectXZ",
+          "parameters": [
+            {
+              "name": "start1",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "end1",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "start2",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "end2",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LineLineIntersectionFactor",
+          "parameters": [
+            {
+              "name": "start1",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "dir1",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "start2",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "dir2",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "t",
+              "type": "System.Single&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LineDirIntersectionPointXZ",
+          "parameters": [
+            {
+              "name": "start1",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "dir1",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "start2",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "dir2",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LineDirIntersectionPointXZ",
+          "parameters": [
+            {
+              "name": "start1",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "dir1",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "start2",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "dir2",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "intersects",
+              "type": "System.Boolean&"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RaySegmentIntersectXZ",
+          "parameters": [
+            {
+              "name": "start1",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "end1",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "start2",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "end2",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LineIntersectionFactorXZ",
+          "parameters": [
+            {
+              "name": "start1",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "end1",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "start2",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "end2",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "factor1",
+              "type": "System.Single&"
+            },
+            {
+              "name": "factor2",
+              "type": "System.Single&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LineIntersectionFactorXZ",
+          "parameters": [
+            {
+              "name": "start1",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "end1",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "start2",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "end2",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "factor1",
+              "type": "System.Single&"
+            },
+            {
+              "name": "factor2",
+              "type": "System.Single&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LineRayIntersectionFactorXZ",
+          "parameters": [
+            {
+              "name": "start1",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "end1",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "start2",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "end2",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LineIntersectionFactorXZ",
+          "parameters": [
+            {
+              "name": "start1",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "end1",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "start2",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "end2",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LineIntersectionPointXZ",
+          "parameters": [
+            {
+              "name": "start1",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "end1",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "start2",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "end2",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LineIntersectionPointXZ",
+          "parameters": [
+            {
+              "name": "start1",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "end1",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "start2",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "end2",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "intersects",
+              "type": "System.Boolean&"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LineIntersectionPoint",
+          "parameters": [
+            {
+              "name": "start1",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "end1",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "start2",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "end2",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LineIntersectionPoint",
+          "parameters": [
+            {
+              "name": "start1",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "end1",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "start2",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "end2",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "intersects",
+              "type": "System.Boolean&"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SegmentIntersectionPointXZ",
+          "parameters": [
+            {
+              "name": "start1",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "end1",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "start2",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "end2",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "intersects",
+              "type": "System.Boolean&"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SegmentIntersectsBounds",
+          "parameters": [
+            {
+              "name": "bounds",
+              "type": "UnityEngine.Bounds"
+            },
+            {
+              "name": "a",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "b",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LineCircleIntersectionFactor",
+          "parameters": [
+            {
+              "name": "circleCenter",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "linePoint1",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "linePoint2",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "radius",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReversesFaceOrientations",
+          "parameters": [
+            {
+              "name": "matrix",
+              "type": "UnityEngine.Matrix4x4"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReversesFaceOrientationsXZ",
+          "parameters": [
+            {
+              "name": "matrix",
+              "type": "UnityEngine.Matrix4x4"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Normalize",
+          "parameters": [
+            {
+              "name": "v",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "magnitude",
+              "type": "System.Single&"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Normalize",
+          "parameters": [
+            {
+              "name": "v",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "magnitude",
+              "type": "System.Single&"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClampMagnitudeXZ",
+          "parameters": [
+            {
+              "name": "v",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "maxMagnitude",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MagnitudeXZ",
+          "parameters": [
+            {
+              "name": "v",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Single"
+        }
+      ],
+      "name": "VectorMath",
+      "namespace": "RVO",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "x",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "y",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "z",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Precision",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FloatPrecision",
+          "offset": 0,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "PrecisionFactor",
+          "offset": 0,
+          "type": "System.Single"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_zero",
+          "parameters": [],
+          "return_type": "RVO.Int3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "_x",
+              "type": "System.Int32"
+            },
+            {
+              "name": "_y",
+              "type": "System.Int32"
+            },
+            {
+              "name": "_z",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Equality",
+          "parameters": [
+            {
+              "name": "lhs",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "rhs",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Inequality",
+          "parameters": [
+            {
+              "name": "lhs",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "rhs",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Explicit",
+          "parameters": [
+            {
+              "name": "ob",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "RVO.Int3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Explicit",
+          "parameters": [
+            {
+              "name": "ob",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Subtraction",
+          "parameters": [
+            {
+              "name": "lhs",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "rhs",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "RVO.Int3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_UnaryNegation",
+          "parameters": [
+            {
+              "name": "lhs",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "RVO.Int3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Addition",
+          "parameters": [
+            {
+              "name": "lhs",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "rhs",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "RVO.Int3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Multiply",
+          "parameters": [
+            {
+              "name": "lhs",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "rhs",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "RVO.Int3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Multiply",
+          "parameters": [
+            {
+              "name": "lhs",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "rhs",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "RVO.Int3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Multiply",
+          "parameters": [
+            {
+              "name": "lhs",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "rhs",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "RVO.Int3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Division",
+          "parameters": [
+            {
+              "name": "lhs",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "rhs",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "RVO.Int3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Item",
+          "parameters": [
+            {
+              "name": "i",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Item",
+          "parameters": [
+            {
+              "name": "i",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Angle",
+          "parameters": [
+            {
+              "name": "lhs",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "rhs",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dot",
+          "parameters": [
+            {
+              "name": "lhs",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "rhs",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DotLong",
+          "parameters": [
+            {
+              "name": "lhs",
+              "type": "RVO.Int3"
+            },
+            {
+              "name": "rhs",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Normal2D",
+          "parameters": [],
+          "return_type": "RVO.Int3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_magnitude",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_costMagnitude",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sqrMagnitude",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sqrMagnitudeLong",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "Int3",
+      "namespace": "RVO",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "x",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "y",
+          "offset": 20,
+          "type": "System.Int32"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Int32"
+            },
+            {
+              "name": "y",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sqrMagnitudeLong",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_UnaryNegation",
+          "parameters": [
+            {
+              "name": "lhs",
+              "type": "RVO.Int2"
+            }
+          ],
+          "return_type": "RVO.Int2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Addition",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "RVO.Int2"
+            },
+            {
+              "name": "b",
+              "type": "RVO.Int2"
+            }
+          ],
+          "return_type": "RVO.Int2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Subtraction",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "RVO.Int2"
+            },
+            {
+              "name": "b",
+              "type": "RVO.Int2"
+            }
+          ],
+          "return_type": "RVO.Int2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Equality",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "RVO.Int2"
+            },
+            {
+              "name": "b",
+              "type": "RVO.Int2"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Inequality",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "RVO.Int2"
+            },
+            {
+              "name": "b",
+              "type": "RVO.Int2"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DotLong",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "RVO.Int2"
+            },
+            {
+              "name": "b",
+              "type": "RVO.Int2"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "RVO.Int2"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Min",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "RVO.Int2"
+            },
+            {
+              "name": "b",
+              "type": "RVO.Int2"
+            }
+          ],
+          "return_type": "RVO.Int2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Max",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "RVO.Int2"
+            },
+            {
+              "name": "b",
+              "type": "RVO.Int2"
+            }
+          ],
+          "return_type": "RVO.Int2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromInt3XZ",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "RVO.Int3"
+            }
+          ],
+          "return_type": "RVO.Int2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToInt3XZ",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "RVO.Int2"
+            }
+          ],
+          "return_type": "RVO.Int3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "Int2",
+      "namespace": "RVO",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "agentID",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "agentIndex",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "manuallyControlled",
+          "offset": 24,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "locked",
+          "offset": 25,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "radius",
+          "offset": 28,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "height",
+          "offset": 32,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "desiredSpeed",
+          "offset": 36,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "maxSpeed",
+          "offset": 40,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "agentTimeHorizon",
+          "offset": 44,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "obstacleTimeHorizon",
+          "offset": 48,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "priority",
+          "offset": 52,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "elevationCoordinate",
+          "offset": 56,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "layer",
+          "offset": 60,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "collidesWith",
+          "offset": 64,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "position",
+          "offset": 68,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "currentVelocity",
+          "offset": 76,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "desiredVelocity",
+          "offset": 84,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "desiredTargetPointInVelocitySpace",
+          "offset": 92,
+          "type": "UnityEngine.Vector2"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "RVOAgentJobData",
+      "namespace": "RVO",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "agentID",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "agentIndex",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "radius",
+          "offset": 24,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "height",
+          "offset": 28,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "desiredSpeed",
+          "offset": 32,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "maxSpeed",
+          "offset": 36,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "agentTimeHorizon",
+          "offset": 40,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "obstacleTimeHorizon",
+          "offset": 44,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "priority",
+          "offset": 48,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "locked",
+          "offset": 52,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "layer",
+          "offset": 56,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "collidesWith",
+          "offset": 60,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "maxNeighbours",
+          "offset": 64,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "position",
+          "offset": 68,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "position3",
+          "offset": 76,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "elevationCoordinate",
+          "offset": 88,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ignoreAgent",
+          "offset": 96,
+          "type": "RVO.RVOAgent"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "currentVelocity",
+          "offset": 104,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "desiredTargetPointInVelocitySpace",
+          "offset": 112,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "desiredVelocity",
+          "offset": 120,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "nextTargetPoint",
+          "offset": 128,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "collisionNormal",
+          "offset": 136,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "manuallyControlled",
+          "offset": 144,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<PreCalculationCallback>k__BackingField",
+          "offset": 152,
+          "type": "System.Action"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "next",
+          "offset": 160,
+          "type": "RVO.RVOAgent"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "calculatedSpeed",
+          "offset": 168,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "calculatedTargetPoint",
+          "offset": 172,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_neighbours",
+          "offset": 184,
+          "type": "System.Collections.Generic.List<RVO.RVOAgent>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_neighbourDists",
+          "offset": 192,
+          "type": "System.Collections.Generic.List<System.Single>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_PreCalculationCallback",
+          "parameters": [],
+          "return_type": "System.Action"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_PreCalculationCallback",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTarget",
+          "parameters": [
+            {
+              "name": "targetPoint",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "desiredSpeed",
+              "type": "System.Single"
+            },
+            {
+              "name": "maxSpeed",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetCollisionNormal",
+          "parameters": [
+            {
+              "name": "normal",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ForceSetVelocity",
+          "parameters": [
+            {
+              "name": "velocity",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_neighbours",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.List<RVO.RVOAgent>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PreCalculation",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateJobData",
+          "parameters": [],
+          "return_type": "RVO.RVOAgentJobData"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PostCalculation",
+          "parameters": [
+            {
+              "name": "resultSpeed",
+              "type": "System.Single"
+            },
+            {
+              "name": "resultTargetPoint",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculateNeighbours",
+          "parameters": [
+            {
+              "name": "quadtree",
+              "type": "RVO.RVOQuadtree"
+            },
+            {
+              "name": "desiredDeltaTime",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InsertAgentNeighbour",
+          "parameters": [
+            {
+              "name": "rvoAgent",
+              "type": "RVO.RVOAgent"
+            },
+            {
+              "name": "rangeSq",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Rainbow",
+          "parameters": [
+            {
+              "name": "v",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.Color"
+        }
+      ],
+      "name": "RVOAgent",
+      "namespace": "RVO",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "obstacleID",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "obstacleIndex",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "layer",
+          "offset": 24,
+          "type": "RVO.RVOLayer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "height",
+          "offset": 28,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "position",
+          "offset": 32,
+          "type": "UnityEngine.Vector3"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Equality",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "RVO.RVOObstacleJobData"
+            },
+            {
+              "name": "b",
+              "type": "RVO.RVOObstacleJobData"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Inequality",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "RVO.RVOObstacleJobData"
+            },
+            {
+              "name": "b",
+              "type": "RVO.RVOObstacleJobData"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "RVOObstacleJobData",
+      "namespace": "RVO",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "agentCount",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "agents",
+          "offset": 24,
+          "type": "Unity.Collections.NativeList<RVO.RVOAgentJobData>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "obstacleCount",
+          "offset": 40,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "breakingBias",
+          "offset": 44,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "obsBufferMaxIndex",
+          "offset": 48,
+          "type": "Unity.Collections.NativeArray<System.Int32>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "agentBufferMaxIndex",
+          "offset": 64,
+          "type": "Unity.Collections.NativeArray<System.Int32>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "obsVoBuffer",
+          "offset": 80,
+          "type": "Unity.Collections.NativeArray<RVO.VO>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "agentVoBuffer",
+          "offset": 96,
+          "type": "Unity.Collections.NativeArray<RVO.VO>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "calculatedSpeeds",
+          "offset": 112,
+          "type": "Unity.Collections.NativeArray<System.Single>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "calculatedTargetPoints",
+          "offset": 128,
+          "type": "Unity.Collections.NativeArray<UnityEngine.Vector2>"
+        }
+      ],
+      "interfaces": [
+        "IJobParallelFor"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Execute",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "RVOParallelJob",
+      "namespace": "",
+      "type_token": 33554447
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "agentCount",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "agents",
+          "offset": 24,
+          "type": "Unity.Collections.NativeList<RVO.RVOAgentJobData>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "obstacleCount",
+          "offset": 40,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "obstacles",
+          "offset": 48,
+          "type": "Unity.Collections.NativeList<RVO.RVOObstacleJobData>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "deltaTime",
+          "offset": 64,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "obsBufferMaxIndex",
+          "offset": 72,
+          "type": "Unity.Collections.NativeArray<System.Int32>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "obsVoBuffer",
+          "offset": 88,
+          "type": "Unity.Collections.NativeArray<RVO.VO>"
+        }
+      ],
+      "interfaces": [
+        "IJobParallelFor"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Execute",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "JobForCalcObstacleVO",
+      "namespace": "",
+      "type_token": 33554448
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "agentCount",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "agents",
+          "offset": 24,
+          "type": "Unity.Collections.NativeList<RVO.RVOAgentJobData>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "agentNeighbours",
+          "offset": 40,
+          "type": "Unity.Collections.NativeList<System.Boolean>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "deltaTime",
+          "offset": 56,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "agentBufferMaxIndex",
+          "offset": 64,
+          "type": "Unity.Collections.NativeArray<System.Int32>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "agentVoBuffer",
+          "offset": 80,
+          "type": "Unity.Collections.NativeArray<RVO.VO>"
+        }
+      ],
+      "interfaces": [
+        "IJobParallelFor"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Execute",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "JobForCalcAgentNeighbourVO",
+      "namespace": "",
+      "type_token": 33554449
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "desiredDeltaTime",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_jobAgents",
+          "offset": 24,
+          "type": "Unity.Collections.NativeList<RVO.RVOAgentJobData>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_jobNeighbours",
+          "offset": 40,
+          "type": "Unity.Collections.NativeList<System.Boolean>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_jobObstacles",
+          "offset": 56,
+          "type": "Unity.Collections.NativeList<RVO.RVOObstacleJobData>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_jobCalculatedSpeeds",
+          "offset": 72,
+          "type": "Unity.Collections.NativeArray<System.Single>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_jobCalculatedTargetPoints",
+          "offset": 88,
+          "type": "Unity.Collections.NativeArray<UnityEngine.Vector2>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_jobAgentBufferMaxIndex",
+          "offset": 104,
+          "type": "Unity.Collections.NativeArray<System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_jobAgentVoBuffer",
+          "offset": 120,
+          "type": "Unity.Collections.NativeArray<RVO.VO>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_jobObsBufferMaxIndex",
+          "offset": 136,
+          "type": "Unity.Collections.NativeArray<System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_jobObsVoBuffer",
+          "offset": 152,
+          "type": "Unity.Collections.NativeArray<RVO.VO>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_obstacles",
+          "offset": 168,
+          "type": "Unity.Collections.NativeList<RVO.RVOObstacleJobData>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_obstacleIDToIndex",
+          "offset": 184,
+          "type": "System.Collections.Generic.Dictionary<System.Int32,System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_nextObstacleID",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_obstaclesChanged",
+          "offset": 192,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_agents",
+          "offset": 200,
+          "type": "System.Collections.Generic.List<RVO.RVOAgent>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_agentIDToIndex",
+          "offset": 208,
+          "type": "System.Collections.Generic.Dictionary<System.Int32,System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_nextAgentID",
+          "offset": 4,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<Quadtree>k__BackingField",
+          "offset": 216,
+          "type": "RVO.RVOQuadtree"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "deltaTime",
+          "offset": 224,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "lastStep",
+          "offset": 228,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "m_symmetryBreakingBias",
+          "offset": 232,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "m_simulationFPS",
+          "offset": 236,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "m_vertexCount",
+          "offset": 240,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SHRINK_FACTOR",
+          "offset": 0,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "INIT_AGENT_COUNT",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "INIT_OBSTACLE_COUNT",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "INIT_AGENT_VO_COUNT",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "INIT_OBS_VO_COUNT",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_agentCount",
+          "offset": 244,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_agentVOCount",
+          "offset": 248,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_obsVOCount",
+          "offset": 252,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_handle",
+          "offset": 256,
+          "type": "Unity.Jobs.JobHandle"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_DesiredDeltaTime",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_DesiredDeltaTime",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_agents",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.List<RVO.RVOAgent>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Quadtree",
+          "parameters": [],
+          "return_type": "RVO.RVOQuadtree"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Quadtree",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "RVO.RVOQuadtree"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnDestroy",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddAgent",
+          "parameters": [],
+          "return_type": "RVO.RVOAgent"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RemoveAgent",
+          "parameters": [
+            {
+              "name": "agent",
+              "type": "RVO.RVOAgent"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddObstacle",
+          "parameters": [
+            {
+              "name": "vertices",
+              "type": "UnityEngine.Vector3[]"
+            },
+            {
+              "name": "height",
+              "type": "System.Single"
+            },
+            {
+              "name": "layer",
+              "type": "RVO.RVOLayer"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateObstacle",
+          "parameters": [
+            {
+              "name": "obstacleID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vertices",
+              "type": "UnityEngine.Vector3[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RemoveObstacle",
+          "parameters": [
+            {
+              "name": "obstacleID",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BuildQuadtree",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Update",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_Realloc",
+          "parameters": [
+            {
+              "name": "agentCount",
+              "type": "System.Int32"
+            },
+            {
+              "name": "obstacleCount",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_WriteBackResult",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_To2D",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "elevation",
+              "type": "System.Single&"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SegmentObstacle",
+          "parameters": [
+            {
+              "name": "segmentStart",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "segmentEnd",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "offset",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "radius",
+              "type": "System.Single"
+            },
+            {
+              "name": "inverseDt",
+              "type": "System.Single"
+            },
+            {
+              "name": "inverseDeltaTime",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "RVO.VO"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BiasDesiredVelocity",
+          "parameters": [
+            {
+              "name": "obsStart",
+              "type": "System.Int32"
+            },
+            {
+              "name": "obsEnd",
+              "type": "System.Int32"
+            },
+            {
+              "name": "obsVos",
+              "type": "Unity.Collections.NativeArray<RVO.VO>&"
+            },
+            {
+              "name": "agentStart",
+              "type": "System.Int32"
+            },
+            {
+              "name": "agentEnd",
+              "type": "System.Int32"
+            },
+            {
+              "name": "agentVos",
+              "type": "Unity.Collections.NativeArray<RVO.VO>&"
+            },
+            {
+              "name": "desiredVelocity",
+              "type": "UnityEngine.Vector2&"
+            },
+            {
+              "name": "targetPointInVelocitySpace",
+              "type": "UnityEngine.Vector2&"
+            },
+            {
+              "name": "maxBiasRadians",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GradientDescent",
+          "parameters": [
+            {
+              "name": "obsStart",
+              "type": "System.Int32"
+            },
+            {
+              "name": "obsEnd",
+              "type": "System.Int32"
+            },
+            {
+              "name": "obsVos",
+              "type": "Unity.Collections.NativeArray<RVO.VO>&"
+            },
+            {
+              "name": "agentStart",
+              "type": "System.Int32"
+            },
+            {
+              "name": "agentEnd",
+              "type": "System.Int32"
+            },
+            {
+              "name": "agentVos",
+              "type": "Unity.Collections.NativeArray<RVO.VO>&"
+            },
+            {
+              "name": "agent",
+              "type": "RVO.RVOAgentJobData"
+            },
+            {
+              "name": "sampleAround1",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "sampleAround2",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Trace",
+          "parameters": [
+            {
+              "name": "obsStart",
+              "type": "System.Int32"
+            },
+            {
+              "name": "obsEnd",
+              "type": "System.Int32"
+            },
+            {
+              "name": "obsVos",
+              "type": "Unity.Collections.NativeArray<RVO.VO>&"
+            },
+            {
+              "name": "agentStart",
+              "type": "System.Int32"
+            },
+            {
+              "name": "agentEnd",
+              "type": "System.Int32"
+            },
+            {
+              "name": "agentVos",
+              "type": "Unity.Collections.NativeArray<RVO.VO>&"
+            },
+            {
+              "name": "agent",
+              "type": "RVO.RVOAgentJobData"
+            },
+            {
+              "name": "p",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "score",
+              "type": "System.Single&"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluateGradient",
+          "parameters": [
+            {
+              "name": "obsStart",
+              "type": "System.Int32"
+            },
+            {
+              "name": "obsEnd",
+              "type": "System.Int32"
+            },
+            {
+              "name": "obsVos",
+              "type": "Unity.Collections.NativeArray<RVO.VO>&"
+            },
+            {
+              "name": "agentStart",
+              "type": "System.Int32"
+            },
+            {
+              "name": "agentEnd",
+              "type": "System.Int32"
+            },
+            {
+              "name": "agentVos",
+              "type": "Unity.Collections.NativeArray<RVO.VO>&"
+            },
+            {
+              "name": "agent",
+              "type": "RVO.RVOAgentJobData"
+            },
+            {
+              "name": "p",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "value",
+              "type": "System.Single&"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        }
+      ],
+      "name": "Simulator",
+      "namespace": "RVO",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "point",
+          "offset": 16,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "dir",
+          "offset": 24,
+          "type": "UnityEngine.Vector2"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Line",
+      "namespace": "RVO",
+      "type_token": 33554450
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "child00",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "linkedList",
+          "offset": 24,
+          "type": "RVO.RVOAgent"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "count",
+          "offset": 32,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "maxSpeed",
+          "offset": 36,
+          "type": "System.Single"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "rvoAgent",
+              "type": "RVO.RVOAgent"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Distribute",
+          "parameters": [
+            {
+              "name": "nodes",
+              "type": "RVO.RVOQuadtree.Node[]"
+            },
+            {
+              "name": "r",
+              "type": "UnityEngine.Rect"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculateMaxSpeed",
+          "parameters": [
+            {
+              "name": "nodes",
+              "type": "RVO.RVOQuadtree.Node[]"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Single"
+        }
+      ],
+      "name": "Node",
+      "namespace": "",
+      "type_token": 33554452
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "p",
+          "offset": 16,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "speed",
+          "offset": 24,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "timeHorizon",
+          "offset": 28,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "agentRadius",
+          "offset": 32,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "maxRadius",
+          "offset": 36,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "RvoAgent",
+          "offset": 40,
+          "type": "RVO.RVOAgent"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "nodes",
+          "offset": 48,
+          "type": "RVO.RVOQuadtree.Node[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "QueryRec",
+          "parameters": [
+            {
+              "name": "i",
+              "type": "System.Int32"
+            },
+            {
+              "name": "r",
+              "type": "UnityEngine.Rect"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "QuadtreeQuery",
+      "namespace": "",
+      "type_token": 33554453
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LeafSize",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "maxRadius",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_nodes",
+          "offset": 24,
+          "type": "RVO.RVOQuadtree.Node[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "filledNodes",
+          "offset": 32,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_bounds",
+          "offset": 36,
+          "type": "UnityEngine.Rect"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_nodes",
+          "parameters": [],
+          "return_type": "RVO.RVOQuadtree.Node[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_bounds",
+          "parameters": [],
+          "return_type": "UnityEngine.Rect"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetBounds",
+          "parameters": [
+            {
+              "name": "r",
+              "type": "UnityEngine.Rect"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetNodeIndex",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Insert",
+          "parameters": [
+            {
+              "name": "rvoAgent",
+              "type": "RVO.RVOAgent"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculateSpeeds",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Query",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "speed",
+              "type": "System.Single"
+            },
+            {
+              "name": "timeHorizon",
+              "type": "System.Single"
+            },
+            {
+              "name": "agentRadius",
+              "type": "System.Single"
+            },
+            {
+              "name": "rvoAgent",
+              "type": "RVO.RVOAgent"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "RVOQuadtree",
+      "namespace": "RVO",
+      "type_token": 33554451
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "line1",
+          "offset": 16,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "line2",
+          "offset": 24,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "dir1",
+          "offset": 32,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "dir2",
+          "offset": 40,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "cutoffLine",
+          "offset": 48,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "cutoffDir",
+          "offset": 56,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "circleCenter",
+          "offset": 64,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "colliding",
+          "offset": 72,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "radius",
+          "offset": 76,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "weightFactor",
+          "offset": 80,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "weightBonus",
+          "offset": 84,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "segmentStart",
+          "offset": 88,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "segmentEnd",
+          "offset": 96,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "segment",
+          "offset": 104,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "center",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "offset",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "radius",
+              "type": "System.Single"
+            },
+            {
+              "name": "inverseDt",
+              "type": "System.Single"
+            },
+            {
+              "name": "inverseDeltaTime",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SignedDistanceFromLine",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "dir",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "p",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ScaledGradient",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "weight",
+              "type": "System.Single&"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Gradient",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "weight",
+              "type": "System.Single&"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        }
+      ],
+      "name": "VO",
+      "namespace": "RVO",
+      "type_token": 33554454
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "AstarPathfindingProject.dll"
+}

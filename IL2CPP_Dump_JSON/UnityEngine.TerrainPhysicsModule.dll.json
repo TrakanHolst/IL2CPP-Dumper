@@ -1,0 +1,201 @@
+{
+  "class_count": 3,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Position",
+          "offset": 16,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Normal",
+          "offset": 28,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Distance",
+          "offset": 40,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Edge01",
+          "offset": 44,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Edge02",
+          "offset": 56,
+          "type": "UnityEngine.Vector3"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_position",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_normal",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_edge01",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_edge02",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_distance",
+          "parameters": [],
+          "return_type": "System.Single"
+        }
+      ],
+      "name": "HGTerrainRaycastHit",
+      "namespace": "UnityEngine",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_terrainData",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGTerrainRaycast",
+          "parameters": [
+            {
+              "name": "ray",
+              "type": "UnityEngine.Ray"
+            },
+            {
+              "name": "maxDistance",
+              "type": "System.Single"
+            },
+            {
+              "name": "hitHoles",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "hasHit",
+              "type": "System.Boolean&"
+            }
+          ],
+          "return_type": "UnityEngine.HGTerrainRaycastHit"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGTerrainRaycast",
+          "parameters": [
+            {
+              "name": "ray",
+              "type": "UnityEngine.Ray"
+            },
+            {
+              "name": "hitInfo",
+              "type": "UnityEngine.HGTerrainRaycastHit&"
+            },
+            {
+              "name": "maxDistance",
+              "type": "System.Single"
+            },
+            {
+              "name": "hitHoles",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGTerrainRaycast_Injected",
+          "parameters": [
+            {
+              "name": "ray",
+              "type": "UnityEngine.Ray&"
+            },
+            {
+              "name": "maxDistance",
+              "type": "System.Single"
+            },
+            {
+              "name": "hitHoles",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "hasHit",
+              "type": "System.Boolean&"
+            },
+            {
+              "name": "ret",
+              "type": "UnityEngine.HGTerrainRaycastHit&"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "TerrainCollider",
+      "namespace": "UnityEngine",
+      "parent": "Collider",
+      "type_token": 33554435
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.TerrainPhysicsModule.dll"
+}

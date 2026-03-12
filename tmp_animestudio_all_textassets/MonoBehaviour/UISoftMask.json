@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4631305748259926617
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -211679095525042430
+  },
+  "m_Name": "",
+  "_maskableDefaultShader": {
+    "m_FileID": 53,
+    "m_PathID": -5686924490240107124
+  },
+  "_maskableTextShader": {
+    "m_FileID": 54,
+    "m_PathID": 2786552470741801451
+  }
+}

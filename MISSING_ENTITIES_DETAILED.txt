@@ -1,0 +1,231 @@
+=== MISSING ENTITIES (in reference, NOT in yours) ===
+
+ID: 2100021177
+map01_lv001_lv_data_sub_02.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_02.json-      "entityDataIdKey": "int_doodad_flower_1",
+map01_lv001_lv_data_sub_02.json-      "createState": "Disable",
+
+ID: 2100021178
+map01_lv001_lv_data_sub_02.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_02.json-      "entityDataIdKey": "int_doodad_flower_1",
+map01_lv001_lv_data_sub_02.json-      "createState": "Disable",
+
+ID: 2100021179
+map01_lv001_lv_data_sub_02.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_02.json-      "entityDataIdKey": "int_doodad_flower_1",
+map01_lv001_lv_data_sub_02.json-      "createState": "Disable",
+
+ID: 2100021180
+map01_lv001_lv_data_sub_02.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_02.json-      "entityDataIdKey": "int_doodad_flower_1",
+map01_lv001_lv_data_sub_02.json-      "createState": "Disable",
+
+ID: 2100021181
+map01_lv001_lv_data_sub_02.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_02.json-      "entityDataIdKey": "int_doodad_flower_1",
+map01_lv001_lv_data_sub_02.json-      "createState": "Disable",
+
+ID: 2100021182
+map01_lv001_lv_data_sub_02.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_02.json-      "entityDataIdKey": "int_doodad_flower_1",
+map01_lv001_lv_data_sub_02.json-      "createState": "Disable",
+
+ID: 2100021183
+map01_lv001_lv_data_sub_02.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_02.json-      "entityDataIdKey": "int_doodad_flower_1",
+map01_lv001_lv_data_sub_02.json-      "createState": "Disable",
+
+ID: 2100021184
+map01_lv001_lv_data_sub_02.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_02.json-      "entityDataIdKey": "int_doodad_flower_1",
+map01_lv001_lv_data_sub_02.json-      "createState": "Disable",
+
+ID: 2100021185
+map01_lv001_lv_data_sub_02.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_02.json-      "entityDataIdKey": "int_doodad_flower_1",
+map01_lv001_lv_data_sub_02.json-      "createState": "Disable",
+
+ID: 2100021186
+map01_lv001_lv_data_sub_02.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_02.json-      "entityDataIdKey": "int_doodad_flower_1",
+map01_lv001_lv_data_sub_02.json-      "createState": "Disable",
+
+ID: 2100021187
+map01_lv001_lv_data_sub_02.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_02.json-      "entityDataIdKey": "int_doodad_flower_1",
+map01_lv001_lv_data_sub_02.json-      "createState": "Disable",
+
+ID: 2100021188
+map01_lv001_lv_data_sub_02.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_02.json-      "entityDataIdKey": "int_doodad_flower_1",
+map01_lv001_lv_data_sub_02.json-      "createState": "Disable",
+
+ID: 2100021189
+map01_lv001_lv_data_sub_02.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_02.json-      "entityDataIdKey": "int_doodad_flower_1",
+map01_lv001_lv_data_sub_02.json-      "createState": "Disable",
+
+ID: 2100021190
+map01_lv001_lv_data_sub_02.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_02.json-      "entityDataIdKey": "int_doodad_flower_1",
+map01_lv001_lv_data_sub_02.json-      "createState": "Disable",
+
+ID: 2100021191
+map01_lv001_lv_data_sub_02.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_02.json-      "entityDataIdKey": "int_doodad_flower_1",
+map01_lv001_lv_data_sub_02.json-      "createState": "Disable",
+
+ID: 2100021192
+map01_lv001_lv_data_sub_02.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_02.json-      "entityDataIdKey": "int_doodad_flower_1",
+map01_lv001_lv_data_sub_02.json-      "createState": "Disable",
+
+ID: 2100021193
+map01_lv001_lv_data_sub_02.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_02.json-      "entityDataIdKey": "int_doodad_flower_1",
+map01_lv001_lv_data_sub_02.json-      "createState": "Disable",
+
+ID: 2100021194
+map01_lv001_lv_data_sub_02.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_02.json-      "entityDataIdKey": "int_doodad_flower_1",
+map01_lv001_lv_data_sub_02.json-      "createState": "Disable",
+
+ID: 2100021195
+map01_lv001_lv_data_sub_02.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_02.json-      "entityDataIdKey": "int_doodad_flower_1",
+map01_lv001_lv_data_sub_02.json-      "createState": "Disable",
+
+ID: 2100021196
+map01_lv001_lv_data_sub_02.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_02.json-      "entityDataIdKey": "int_doodad_flower_1",
+map01_lv001_lv_data_sub_02.json-      "createState": "Disable",
+
+ID: 2100180003
+map01_lv001_lv_data_sub_sm1l1m2.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_sm1l1m2.json-      "entityDataIdKey": "int_narrative_common_empty",
+map01_lv001_lv_data_sub_sm1l1m2.json-      "createState": "Disable",
+
+ID: 2100210142
+map01_lv001_lv_data_sub_gm01m2.json-      "entityType": "Npc",
+map01_lv001_lv_data_sub_gm01m2.json-      "entityDataIdKey": "npc_gentleman_unionscholar_a_31_map01_lv001_data_sub_gm01m2_gameplay_001",
+map01_lv001_lv_data_sub_gm01m2.json-      "createState": "Disable",
+
+ID: 2100210143
+map01_lv001_lv_data_sub_gm01m2.json-      "entityType": "Npc",
+map01_lv001_lv_data_sub_gm01m2.json-      "entityDataIdKey": "npc_tpl_gentleman_unionscholar_a_07_map01_lv001_data_sub_gm01m2_gameplay_001",
+map01_lv001_lv_data_sub_gm01m2.json-      "createState": "Disable",
+
+ID: 2100210144
+map01_lv001_lv_data_sub_gm01m2.json-      "entityType": "Npc",
+map01_lv001_lv_data_sub_gm01m2.json-      "entityDataIdKey": "npc_tpl_gentleman_unionscholar_a_10_map01_lv001_data_sub_gm01m2_gameplay_001",
+map01_lv001_lv_data_sub_gm01m2.json-      "createState": "Disable",
+
+ID: 2100240024
+map01_lv001_lv_data_sub_sm1l1m6.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_sm1l1m6.json-      "entityDataIdKey": "int_narrative_empty",
+map01_lv001_lv_data_sub_sm1l1m6.json-      "createState": "Disable",
+
+ID: 2100240025
+map01_lv001_lv_data_sub_sm1l1m6.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_sm1l1m6.json-      "entityDataIdKey": "int_narrative_empty",
+map01_lv001_lv_data_sub_sm1l1m6.json-      "createState": "Disable",
+
+ID: 2100330010
+map01_lv001_lv_data_sub_env.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_env.json-      "entityDataIdKey": "int_narrative_common_book",
+map01_lv001_lv_data_sub_env.json-      "createState": "EnableAndShow",
+
+ID: 2100330196
+map01_lv001_lv_data_sub_env.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_env.json-      "entityDataIdKey": "int_trigger_dnarrative_document",
+map01_lv001_lv_data_sub_env.json-      "createState": "EnableAndShow",
+
+ID: 2100330197
+map01_lv001_lv_data_sub_env.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_env.json-      "entityDataIdKey": "int_trigger_dnarrative_notebook",
+map01_lv001_lv_data_sub_env.json-      "createState": "EnableAndShow",
+
+ID: 2100330198
+map01_lv001_lv_data_sub_env.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_env.json-      "entityDataIdKey": "int_narrative_common_pad",
+map01_lv001_lv_data_sub_env.json-      "createState": "EnableAndShow",
+
+ID: 2100390932
+map01_lv001_lv_data_sub_06.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_06.json-      "entityDataIdKey": "int_collection_common",
+map01_lv001_lv_data_sub_06.json-      "createState": "Disable",
+
+ID: 2100420056
+map01_lv001_lv_data_sub_07.json-      "entityType": "Enemy",
+map01_lv001_lv_data_sub_07.json-      "entityDataIdKey": "eny_0050_hound",
+map01_lv001_lv_data_sub_07.json-      "createState": "Disable",
+
+ID: 2100420057
+map01_lv001_lv_data_sub_07.json-      "entityType": "Enemy",
+map01_lv001_lv_data_sub_07.json-      "entityDataIdKey": "eny_0050_hound",
+map01_lv001_lv_data_sub_07.json-      "createState": "Disable",
+
+ID: 2100420058
+map01_lv001_lv_data_sub_07.json-      "entityType": "Enemy",
+map01_lv001_lv_data_sub_07.json-      "entityDataIdKey": "eny_0050_hound",
+map01_lv001_lv_data_sub_07.json-      "createState": "Disable",
+
+ID: 2100420059
+map01_lv001_lv_data_sub_07.json-      "entityType": "Enemy",
+map01_lv001_lv_data_sub_07.json-      "entityDataIdKey": "eny_0029_lbmob",
+map01_lv001_lv_data_sub_07.json-      "createState": "Disable",
+
+ID: 2100430019
+map01_lv001_lv_data_sub_08.json-      "entityType": "Npc",
+map01_lv001_lv_data_sub_08.json-      "entityDataIdKey": "npc_obj_rabbit_02_map01_lv001_data_sub_08_gameplay_001",
+map01_lv001_lv_data_sub_08.json-      "createState": "Disable",
+
+ID: 2100430020
+map01_lv001_lv_data_sub_08.json-      "entityType": "Npc",
+map01_lv001_lv_data_sub_08.json-      "entityDataIdKey": "npc_obj_rabbit_02_map01_lv001_data_sub_08_gameplay_003",
+map01_lv001_lv_data_sub_08.json-      "createState": "EnableAndShow",
+
+ID: 2100430021
+map01_lv001_lv_data_sub_08.json-      "entityType": "Npc",
+map01_lv001_lv_data_sub_08.json-      "entityDataIdKey": "npc_obj_rabbit_02_map01_lv001_data_sub_08_gameplay_002",
+map01_lv001_lv_data_sub_08.json-      "createState": "Disable",
+
+ID: 2100430025
+map01_lv001_lv_data_sub_08.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_08.json-      "entityDataIdKey": "int_module_chasingrabbit",
+map01_lv001_lv_data_sub_08.json-      "createState": "EnableAndShow",
+
+ID: 2100430026
+map01_lv001_lv_data_sub_08.json-      "entityType": "Npc",
+map01_lv001_lv_data_sub_08.json-      "entityDataIdKey": "npc_obj_rabbit_02_map01_lv001_data_sub_08_gameplay_006",
+map01_lv001_lv_data_sub_08.json-      "createState": "EnableAndShow",
+
+ID: 2100430027
+map01_lv001_lv_data_sub_08.json-      "entityType": "Npc",
+map01_lv001_lv_data_sub_08.json-      "entityDataIdKey": "npc_obj_rabbit_02_map01_lv001_data_sub_08_gameplay_005",
+map01_lv001_lv_data_sub_08.json-      "createState": "EnableAndShow",
+
+ID: 2100430031
+map01_lv001_lv_data_sub_08.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_08.json-      "entityDataIdKey": "int_module_chasingrabbit",
+map01_lv001_lv_data_sub_08.json-      "createState": "EnableAndShow",
+
+ID: 2100430032
+map01_lv001_lv_data_sub_08.json-      "entityType": "Interactive",
+map01_lv001_lv_data_sub_08.json-      "entityDataIdKey": "int_module_chasingrabbit",
+map01_lv001_lv_data_sub_08.json-      "createState": "EnableAndShow",
+
+ID: 2100430037
+map01_lv001_lv_data_sub_08.json-      "entityType": "Npc",
+map01_lv001_lv_data_sub_08.json-      "entityDataIdKey": "npc_obj_rabbit_02_map01_lv001_data_sub_08_gameplay_007",
+map01_lv001_lv_data_sub_08.json-      "createState": "Disable",
+
+ID: 2100430038
+map01_lv001_lv_data_sub_08.json-      "entityType": "Npc",
+map01_lv001_lv_data_sub_08.json-      "entityDataIdKey": "npc_obj_rabbit_02_map01_lv001_data_sub_08_gameplay_004",
+map01_lv001_lv_data_sub_08.json-      "createState": "Disable",
+
+ID: 30019
+map01_lv001_lv_data_sub_factory.json-      "entityType": "FactoryRegion",
+map01_lv001_lv_data_sub_factory.json-      "entityDataIdKey": "factory_region",
+map01_lv001_lv_data_sub_factory.json-      "createState": "EnableAndShow",

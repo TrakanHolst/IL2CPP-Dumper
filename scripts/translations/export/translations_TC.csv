@@ -1,0 +1,1228 @@
+﻿Key,Module,Translation
+app.description,app,明日方舟：終末地的高級工具和實用程序，包括工廠規劃器、招募模擬器、角色規劃器、角色展示和社區計劃。
+app.title,app,EndfieldTools.DEV - 明日方舟：終末地工具與實用程序
+ascension.add_character,ascension,添加角色
+ascension.add_character_desc,ascension,選擇角色並設定等級範圍以計算材料
+ascension.add_weapon,ascension,添加武器
+ascension.add_weapon_desc,ascension,添加武器與角色一起規劃升級
+ascension.category_breakthrough_char,ascension,角色突破材料
+ascension.category_breakthrough_weapon,ascension,武器突破材料
+ascension.category_exp,ascension,經驗
+ascension.category_exp_char,ascension,角色經驗
+ascension.category_exp_weapon,ascension,武器經驗
+ascension.category_gold,ascension,金幣
+ascension.category_plant,ascension,植物材料
+ascension.category_skill_crown,ascension,技能皇冠
+ascension.category_skill_level,ascension,技能升級材料
+ascension.category_skill_specialize,ascension,技能專精材料
+ascension.clear_all,ascension,清除全部
+ascension.deficit,ascension,缺少
+ascension.description,ascension,
+ascension.farming_list,ascension,刷取清單
+ascension.from_level,ascension,從等級
+ascension.include_skills,ascension,包含技能
+ascension.inventory,ascension,背包
+ascension.inventory_hint,ascension,使用Tab或Enter鍵在輸入框之間切換
+ascension.inventory_search,ascension,搜尋材料...
+ascension.inventory_title,ascension,材料背包
+ascension.keep_in_inventory,ascension,保留在背包中
+ascension.level_range,ascension,等級範圍
+ascension.levels,ascension,等級
+ascension.materials_needed,ascension,所需材料
+ascension.materials_required,ascension,所需材料
+ascension.no_items,ascension,尚未選擇角色或武器
+ascension.no_items_found,ascension,未找到物品
+ascension.no_items_hint,ascension,
+ascension.no_materials,ascension,不需要材料
+ascension.no_materials_allocated,ascension,背包中沒有分配任何材料。
+ascension.owned,ascension,擁有
+ascension.planner,ascension,規劃
+ascension.priority,ascension,優先級
+ascension.priority_mode,ascension,切換優先級排序
+ascension.remove,ascension,移除
+ascension.remove_and_delete,ascension,移除並刪除
+ascension.remove_confirm_message,ascension,以下材料已分配給 {name}：
+ascension.remove_confirm_title,ascension,從背包中移除？
+ascension.select_character,ascension,選擇角色
+ascension.select_weapon,ascension,選擇武器
+ascension.skill_from_level,ascension,技能從
+ascension.skill_level,ascension,
+ascension.skill_to_level,ascension,技能到
+ascension.skills,ascension,技能
+ascension.talents,ascension,天賦
+ascension.title,ascension,升格規劃器
+ascension.to_level,ascension,到等級
+ascension.total_exp,ascension,總計
+ascension.total_items,ascension,總計：{count} 個物品
+ascension.welcome_description,ascension,規劃角色和武器的升級，追蹤所需材料，並在同一個地方管理您的道具庫存。
+ascension.welcome_title,ascension,歡迎使用升格規劃器
+auth.login,auth,登入
+auth.logout,auth,登出
+auth.setup_username,auth,歡迎！請設置您的用戶名。
+auth.signup,auth,註冊
+auth.welcome_back,auth,歡迎回來，{username}！
+buildings.sub_automation_core,buildings,子自動化核心
+buildings.sub_automation_core.desc,buildings,將不同物品路由到每個輸出端口。所有輸入均被消耗。
+builds.add_alt_weapon,builds,替代
+builds.add_alternative,builds,新增備選
+builds.add_character,builds,新增角色
+builds.add_recommended_partner,builds,
+builds.all_time,builds,全部時間
+builds.alt_label_placeholder,builds,替代
+builds.alternative,builds,備選
+builds.alternative_equipment,builds,備選
+builds.alternative_label_placeholder,builds,標籤（如：經濟選項、後期）
+builds.alternative_reason_placeholder,builds,為什麼這是備選方案？
+builds.apply_filters,builds,套用篩選
+builds.auto_saved,builds,已自動儲存
+builds.back_to_character,builds,返回配置列表
+builds.back_to_list,builds,返回配置列表
+builds.be_first_character,builds,成為第一個分享該角色配置的人！
+builds.be_first_to_share,builds,成為第一個與社群分享配置的人！
+builds.browse_builds,builds,瀏覽配置
+builds.browse_character_builds,builds,瀏覽該角色的社群配置
+builds.build,builds,配置
+builds.build_character,builds,角色配置
+builds.build_description,builds,配置指南
+builds.build_name,builds,配置名稱
+builds.build_team,builds,組建隊伍
+builds.by,builds,作者
+builds.change_alt_weapon,builds,更換替代武器
+builds.change_character,builds,更換角色
+builds.character_desc,builds,選擇此配置的主角色
+builds.character_level,builds,等級
+builds.character_not_found,builds,未找到角色
+builds.character_not_found_desc,builds,未找到該角色。
+builds.characters,builds,角色
+builds.clear_draft,builds,清除草稿
+builds.clear_filters,builds,清除篩選
+builds.click_to_add_partners,builds,
+builds.comments,builds,留言
+builds.comments_count,builds,留言
+builds.confirm_delete,builds,確定要刪除此配置嗎？此操作無法撤銷。
+builds.copied,builds,已複製!
+builds.copy_to_clipboard,builds,複製到剪貼簿
+builds.counted_in_calculations,builds,已計入屬性
+builds.create_and_share,builds,建立並分享配置
+builds.create_build,builds,建立配置
+builds.create_character,builds,建立角色配置
+builds.create_first,builds,建立你的第一個配置
+builds.create_new,builds,建立新配置
+builds.create_team,builds,建立團隊配置
+builds.create_your_own,builds,創建你的配裝!
+builds.delete_success,builds,配置刪除成功
+builds.description,builds,建立並與社群分享角色配置
+builds.edit_mode,builds,編輯
+builds.edit_reason,builds,編輯原因
+builds.equipment,builds,裝備
+builds.equipment_body,builds,軀體
+builds.equipment_bonuses,builds,裝備加成
+builds.equipment_edc,builds,配件
+builds.equipment_hand,builds,手部
+builds.equipment_medical,builds,醫療
+builds.equipment_medical_coming_soon,builds,醫療物品即將推出
+builds.equipment_reason_placeholder,builds,為什麼選擇這套裝備？
+builds.error_delete,builds,刪除配置失敗
+builds.error_load_build,builds,載入配置編輯失敗
+builds.error_loading,builds,載入配置失敗
+builds.error_name_required,builds,需要配置名稱
+builds.error_no_main_character,builds,請選擇主角色
+builds.error_title,builds,配置未找到
+builds.error_toggle,builds,切換可見性失敗
+builds.explain_why,builds,說明原因
+builds.export_build,builds,匯出配置
+builds.filter_by_character,builds,主角色
+builds.filter_by_element,builds,元素類型
+builds.filter_by_partner,builds,隊友
+builds.filter_by_set,builds,裝備套裝
+builds.filter_by_tag,builds,標籤
+builds.filter_by_weapon,builds,武器
+builds.filter_character,builds,角色
+builds.filter_has_video,builds,有影片指南
+builds.filter_weapon,builds,武器類型
+builds.filters,builds,篩選
+builds.guide,builds,配置指南
+builds.hide_section,builds,隱藏此部分
+builds.hide_stats,builds,隱藏屬性
+builds.import_build,builds,匯入配置
+builds.import_error,builds,無效的配置資料，請檢查JSON格式。
+builds.import_export,builds,匯入/匯出配置
+builds.import_placeholder,builds,貼上配置JSON以匯入...
+builds.import_success,builds,配置匯入成功!
+builds.latest_builds,builds,最新配置
+builds.liked_builds,builds,喜歡的配置
+builds.likes,builds,讚
+builds.link_copied,builds,連結已複製！
+builds.loading_builds,builds,正在載入配置...
+builds.login_required,builds,需要登入才能儲存配置
+builds.main_equipment,builds,主要裝備
+builds.make_public,builds,設為公開
+builds.manage_builds,builds,管理配置
+builds.max_2_tags,builds,最多2個
+builds.max_partners_reached,builds,
+builds.most_liked,builds,最多讚
+builds.most_popular,builds,最熱門
+builds.my_builds,builds,我的配置
+builds.no_build_specified,builds,未指定配置
+builds.no_build_specified_desc,builds,請選擇要檢視的配置。
+builds.no_builds_character,builds,暫無配置
+builds.no_builds_period,builds,該時間段內暫無配置。
+builds.no_builds_yet,builds,你還沒有建立任何配置
+builds.no_character_selected,builds,未選擇角色
+builds.no_community_builds,builds,暫無社群配置
+builds.no_description,builds,無描述
+builds.no_equipment_selected,builds,未選擇裝備
+builds.no_liked_builds,builds,你還沒有喜歡的配置
+builds.no_notes,builds,無備註
+builds.no_results,builds,未找到配置
+builds.no_results_desc,builds,沒有配置符合您目前的篩選條件。請調整篩選條件或瀏覽下方的熱門配置。
+builds.no_weapon,builds,未選擇武器
+builds.not_found,builds,配置未找到或您沒有權限查看
+builds.not_found_desc,builds,你查找的配置不存在或已被刪除。
+builds.notes,builds,備註
+builds.nothing_recommended,builds,無推薦
+builds.other_recommended_partners,builds,
+builds.partner,builds,隊友
+builds.partners_explanation_placeholder,builds,
+builds.popular_this_week,builds,本週熱門配置
+builds.preview,builds,預覽
+builds.preview_note,builds,這是你的配置在其他人看來的預覽
+builds.private,builds,私人
+builds.public,builds,公開
+builds.publish,builds,發佈
+builds.recommended_partners_help,builds,
+builds.remove_alternative,builds,移除備選
+builds.remove_character,builds,移除
+builds.remove_to_add_more,builds,
+builds.reset_filters,builds,重置篩選
+builds.results_for,builds,搜尋結果
+builds.role,builds,定位
+builds.save_build,builds,儲存配置
+builds.save_error,builds,儲存配置失敗，請重試。
+builds.save_requirements,builds,需要配置名稱和至少一名角色
+builds.save_success,builds,配置儲存成功！
+builds.saving,builds,儲存中...
+builds.search_equipment,builds,按套裝名稱、屬性或效果搜尋...
+builds.search_placeholder,builds,搜尋配置...
+builds.search_results,builds,搜尋結果
+builds.select_equipment,builds,選擇裝備
+builds.select_partner_to_recommend,builds,
+builds.select_weapon,builds,選擇武器
+builds.selected_partners,builds,
+builds.set_bonuses,builds,套裝效果
+builds.share_with_community,builds,與社區分享你的策略
+builds.short_description,builds,簡短描述
+builds.show_stats,builds,顯示屬性
+builds.single_build,builds,單人配置
+builds.single_char,builds,單一角色
+builds.single_mode,builds,單角色
+builds.skill_priority,builds,技能優先順序
+builds.skill_priority_reason_placeholder,builds,為什麼選擇這個練級順序？
+builds.skill_type_combo,builds,連攜
+builds.skill_type_normal,builds,普攻
+builds.skill_type_ultimate,builds,終結
+builds.skill_upgrade_priority,builds,技能升級優先順序
+builds.skills,builds,技能
+builds.solo_build,builds,單人配置
+builds.sort_by,builds,排序
+builds.sort_latest,builds,最新
+builds.sort_popular,builds,熱門
+builds.subtitle,builds,瀏覽和分享隊伍配置
+builds.tag_boss,builds,Boss
+builds.tag_early_game,builds,前期
+builds.tag_f2p_friendly,builds,平民友好
+builds.tag_farming,builds,刷取
+builds.tag_help,builds,選擇最多2個標籤幫助玩家找到你的配置
+builds.tag_late_game,builds,後期
+builds.tag_mid_game,builds,中期
+builds.tag_not_f2p_friendly,builds,非平民友好
+builds.tags,builds,標籤
+builds.team_build,builds,團隊配置
+builds.team_desc,builds,建立最多4名角色的團隊
+builds.team_mode,builds,隊伍（最多4人）
+builds.team_role_placeholder,builds,定位 (如主C、輔助)
+builds.team_role_reason_placeholder,builds,為什麼這個角色擔任此定位？
+builds.this_month,builds,本月
+builds.this_week,builds,本週
+builds.title,builds,社群配置
+builds.try_different_filters,builds,嘗試調整篩選條件或搜尋詞以找到更多配置。
+builds.unnamed,builds,未命名配置
+builds.unpublish,builds,取消發佈
+builds.untitled,builds,未命名配置
+builds.up_to_4,builds,最多4個角色
+builds.update_build,builds,更新配置
+builds.update_success,builds,配置更新成功！
+builds.video,builds,影片
+builds.video_showcase,builds,影片展示
+builds.view_character_details,builds,查看角色詳情
+builds.view_mode,builds,檢視
+builds.views,builds,瀏覽
+builds.visibility_updated,builds,配置可見性已更新
+builds.watch_video,builds,觀看影片
+builds.weapon,builds,武器
+builds.weapon_bonuses,builds,武器加成
+builds.weapon_label_placeholder,builds,畢業
+builds.weapon_not_found,builds,武器未找到
+builds.weapon_reason_placeholder,builds,為什麼選擇這把武器？
+builds.weapon_skills,builds,武器技能
+builds.weapons,builds,武器
+builds.why_these_partners,builds,
+builds.your_username,builds,你的使用者名稱
+builds.youtube_video,builds,YouTube影片
+builds.youtube_video_hint,builds,添加展示配置的YouTube影片
+characters.all_elements,characters,所有元素
+characters.all_professions,characters,全部職業
+characters.all_rarities,characters,所有稀有度
+characters.aspd,characters,攻擊速度
+characters.atk,characters,攻擊力
+characters.battle_skills,characters,戰鬥技能
+characters.battle_tags,characters,戰鬥標籤
+characters.breakthrough,characters,突破
+characters.breakthrough_details,characters,突破詳情
+characters.browse_all,characters,瀏覽所有終末地角色
+characters.def,characters,防禦力
+characters.department,characters,派系
+characters.discussion,characters,角色討論
+characters.effect,characters,效果
+characters.element,characters,元素
+characters.exp_items_required,characters,經驗物品
+characters.experience_calculator,characters,經驗計算器
+characters.factory_skill_slot,characters,技能槽位 {slot}
+characters.factory_skills,characters,基建技能
+characters.from_level,characters,從
+characters.hp,characters,生命值
+characters.level_1,characters,等級 1
+characters.level_range,characters,等級範圍
+characters.level_up_requirements,characters,升級要求
+characters.materials_required,characters,所需材料
+characters.max_level,characters,最大等級
+characters.no_factory_skills,characters,無基建技能
+characters.potential,characters,潛能
+characters.potential_level,characters,潛能 {level}
+characters.potential_passive,characters,潛能與被動
+characters.profession,characters,職業
+characters.profile_records,characters,檔案記錄
+characters.rarity,characters,稀有度
+characters.required_items,characters,所需材料
+characters.results,characters,找到角色
+characters.search,characters,搜尋角色...
+characters.skill_type_combo,characters,連攜技
+characters.skill_type_normal,characters,普通技能
+characters.skill_type_talent,characters,天賦
+characters.skill_type_ultimate,characters,終結技
+characters.stats_progression,characters,屬性成長
+characters.talents,characters,天賦
+characters.title,characters,角色
+characters.to_level,characters,到
+characters.unlocks_at,characters,等級{level}解鎖
+characters.voice_actors,characters,配音演員
+characters.voice_lines,characters,語音台詞
+characters.weapon_type,characters,武器類型
+comments.auth_required_title,comments,需要身份驗證
+comments.be_first,comments,成為第一個分享想法的人！
+comments.cancel,comments,取消
+comments.char_count,comments,{count} / {max}
+comments.days_ago,comments,{count}天前
+comments.delete,comments,刪除
+comments.deleting,comments,正在刪除...
+comments.edit,comments,編輯
+comments.edit_placeholder,comments,編輯您的評論...
+comments.edited,comments,（已編輯）
+comments.error_delete_failed,comments,刪除評論失敗，請重試。
+comments.error_empty,comments,評論不能為空。
+comments.error_invalid_content,comments,您的評論包含無效字符或 HTML 標籤，請僅使用純文字。
+comments.error_post_failed,comments,發布評論失敗，請重試。
+comments.error_too_long,comments,評論過長（最多 {max} 字符）。
+comments.error_update_failed,comments,更新評論失敗，請重試。
+comments.formatting_guide,comments,格式化
+comments.hide_replies,comments,隱藏 {count} 條回覆
+comments.hours_ago,comments,{count}小時前
+comments.join_discussion,comments,加入討論...
+comments.just_now,comments,剛剛
+comments.load_more,comments,載入更多評論
+comments.loading,comments,正在載入評論...
+comments.loading_replies,comments,正在載入回覆...
+comments.login_link,comments,登入
+comments.login_required,comments,請登入以發布評論。
+comments.mention_keyboard_hint,comments,↑↓ 導航 • Enter 選擇 • Esc 關閉
+comments.mention_no_users,comments,找不到用戶
+comments.mention_searching,comments,正在搜尋用戶...
+comments.minutes_ago,comments,{count}分鐘前
+comments.no_comments,comments,暫無評論
+comments.placeholder,comments,分享您的想法...
+comments.post_comment,comments,發布評論
+comments.post_reply,comments,發布回覆
+comments.posting,comments,正在發布...
+comments.reply,comments,回覆
+comments.reply_placeholder,comments,撰寫回覆...
+comments.replying_to,comments,回覆給
+comments.save_changes,comments,保存更改
+comments.show_replies,comments,顯示 {count} 條回覆
+comments.success_deleted,comments,評論刪除成功！
+comments.success_posted,comments,評論發布成功！
+comments.success_reply_posted,comments,回覆發布成功！
+comments.success_updated,comments,評論更新成功！
+comments.title,comments,評論
+comments.warning_auth_required,comments,請登入以發布評論。
+common.all_time,common,全部時間
+common.back,common,返回
+common.cancel,common,取消
+common.clear,common,清除
+common.close,common,關閉
+common.coming_soon,common,即將推出...
+common.confirm,common,確認
+common.copied,common,已複製!
+common.copy,common,複製
+common.copy_link,common,複製連結
+common.delete,common,刪除
+common.edit,common,編輯
+common.error,common,錯誤
+common.exp_required,common,所需經驗
+common.filters,common,篩選
+common.frequently_asked_questions,common,常見問題
+common.gold_cost,common,金幣消耗
+common.last_updated,common,最後更新
+common.latest,common,最新
+common.level,common,等級
+common.loading,common,加載中...
+common.no_data_yet,common,暫無資料
+common.no_results,common,未找到結果
+common.optional,common,選填
+common.popular,common,熱門
+common.quick_navigation,common,快速導航
+common.related_characters,common,相關角色
+common.related_weapons,common,相關武器
+common.reset,common,重置
+common.save,common,保存
+common.saving,common,儲存中...
+common.search,common,搜尋
+common.search_results,common,搜尋結果
+common.show_less,common,收起
+common.show_more,common,展開更多
+common.sort_by,common,排序
+common.success,common,成功
+common.this_month,common,本月
+common.this_week,common,本週
+common.view,common,查看
+custom.conveyor_merger.desc,custom,將最多3條傳送帶合併為1條輸出。無需電力。
+custom.conveyor_merger.name,custom,傳送帶合併器
+equipment.additional_stats,equipment,附加屬性
+equipment.all_parts,equipment,所有部位類型
+equipment.all_stages,equipment,所有階段
+equipment.all_tiers,equipment,所有階級
+equipment.attr.AllDamageTakenScalar,equipment,全傷害減免
+equipment.attr.AllSkillDamageIncrease,equipment,全技能傷害
+equipment.attr.CrystAndPulseDamageIncrease,equipment,凝冰&雷電傷害
+equipment.attr.FireAndNaturalDamageIncrease,equipment,烈焰&草木傷害
+equipment.attr.Main,equipment,主屬性
+equipment.attr.SpellDamageIncrease,equipment,源石技藝傷害
+equipment.attr.Sub,equipment,副屬性
+equipment.base_stats,equipment,基礎屬性
+equipment.best_for_characters,equipment,最適合這些角色
+equipment.best_sets,equipment,最佳裝備套裝
+equipment.browse_all,equipment,瀏覽所有裝備套裝
+equipment.community_rating,equipment,社群評分
+equipment.early_game,equipment,前期 (Lv10-28)
+equipment.equipment_details,equipment,裝備詳情
+equipment.equipment_pieces,equipment,裝備部件
+equipment.filter_by_part,equipment,按部位類型篩選
+equipment.filter_by_stage,equipment,按遊戲階段篩選
+equipment.filter_by_tier,equipment,按階級篩選
+equipment.game_stage,equipment,遊戲階段
+equipment.late_game,equipment,後期 (Lv70)
+equipment.level_requirement,equipment,需要等級 {level}
+equipment.loading,equipment,正在載入裝備資料...
+equipment.main_stat,equipment,主屬性
+equipment.mid_game,equipment,中期 (Lv36-50)
+equipment.most_liked,equipment,最多讚
+equipment.no_set_bonus,equipment,散件裝備，無套裝效果
+equipment.no_sets_found,equipment,找不到裝備套裝
+equipment.no_standalone_found,equipment,未找到散件裝備
+equipment.no_stats,equipment,暫無屬性資料
+equipment.part_body,equipment,軀體
+equipment.part_edc,equipment,EDC
+equipment.part_hand,equipment,手部
+equipment.part_of_set,equipment,屬於 {setName}
+equipment.part_type,equipment,部位類型
+equipment.rate_this_set,equipment,為您的角色評價此套裝
+equipment.recommended_for,equipment,推薦給 {characterName}
+equipment.related_sets,equipment,相關套裝
+equipment.results,equipment,個套裝
+equipment.search,equipment,搜尋裝備套裝...
+equipment.select_character,equipment,選擇角色...
+equipment.set_bonus,equipment,{count} 件套裝加成
+equipment.set_effects,equipment,套裝效果
+equipment.sort_by,equipment,排序方式
+equipment.sort_name,equipment,名稱
+equipment.sort_pieces,equipment,總件數
+equipment.sort_tier,equipment,階級
+equipment.standalone,equipment,獨立裝備
+equipment.standalone_equipment,equipment,散件裝備
+equipment.standalone_results,equipment,件
+equipment.stats,equipment,屬性
+equipment.sub_stats,equipment,副屬性
+equipment.tier,equipment,等級
+equipment.tier_0,equipment,階級 0
+equipment.tier_1,equipment,階級 1
+equipment.tier_2,equipment,階級 2
+equipment.tier_3,equipment,階級 3
+equipment.tier_4,equipment,階級 4
+equipment.tier_pieces,equipment,階級 {tier} 部件
+equipment.title,equipment,裝備套裝
+equipment.total_pieces,equipment,{count} 件
+equipment.view_all_sets,equipment,查看所有裝備套裝
+equipment.view_set_details,equipment,查看套裝詳情
+essence_solver.compatible,essence_solver,Compatible
+essence_solver.farm_locations,essence_solver,Farm at
+essence_solver.filter_by_dungeon,essence_solver,Filter by Dungeon
+essence_solver.filter_by_rarity,essence_solver,Filter by Rarity
+essence_solver.matches,essence_solver,Matches
+essence_solver.missing,essence_solver,Missing
+essence_solver.no_results,essence_solver,No essences match the current filters
+essence_solver.recommended_essences,essence_solver,Recommended Essences
+essence_solver.select_weapon,essence_solver,Select a Weapon
+essence_solver.stats,essence_solver,Stats
+essence_solver.title,essence_solver,Weapon Essence Solver
+factory.actual,factory,實際值
+factory.all_items_production_overview,factory,所有物品生產概覽
+factory.balanced,factory,平衡
+factory.bottlenecks_detected,factory,檢測到瓶頸
+factory.browse_blueprints,factory,瀏覽藍圖
+factory.buffer_bottlenecks,factory,緩衝區瓶頸
+factory.buffer_capacity,factory,容量
+factory.build,factory,建造
+factory.building_count,factory,建築
+factory.building_menu,factory,建築菜單
+factory.buildings,factory,建築
+factory.clear,factory,清除
+factory.click_product_tabs_for_details,factory,點擊上方產品標籤查看詳細生產鏈分析
+factory.click_to_set,factory,點擊設定
+factory.community_blueprints,factory,AIC工廠藍圖
+factory.community_blueprints_subtitle,factory,瀏覽和分享社群工廠藍圖
+factory.configure,factory,配置
+factory.configure_output,factory,設定輸出
+factory.confirm_delete_plan,factory,確定要刪除此方案嗎？
+factory.connection_graph,factory,連接圖
+factory.consumed,factory,消耗/分鐘
+factory.consumed_by,factory,消費者
+factory.conveyor_connection_errors,factory,傳送帶連接錯誤
+factory.conveyor_menu,factory,傳送帶菜單
+factory.conveyor_saturation,factory,傳送帶飽和
+factory.conveyors,factory,傳送帶
+factory.cookbook,factory,配方手冊
+factory.cookbook_all_description,factory,瀏覽遊戲資料中所有可製作的物品
+factory.cookbook_alternative_recipes,factory,替代配方
+factory.cookbook_back_to_search,factory,返回搜尋
+factory.cookbook_crafted_item,factory,製作物品
+factory.cookbook_filter_factory,factory,僅顯示當前工廠可製作的物品
+factory.cookbook_filtered_description,factory,僅顯示您當前工廠建築可以製作的物品
+factory.cookbook_machine_required,factory,所需機器
+factory.cookbook_no_factory_items,factory,當前工廠建築無法製作任何物品
+factory.cookbook_no_items,factory,找不到可製作的物品
+factory.cookbook_no_recipes,factory,此物品沒有可用的配方
+factory.cookbook_production_chain,factory,生產鏈
+factory.cookbook_raw_material,factory,原材料
+factory.cookbook_select_item,factory,選擇一個物品以查看其生產鏈
+factory.cookbook_selected_item,factory,已選擇的物品
+factory.cookbook_show_all,factory,顯示所有物品
+factory.cookbook_theoretical_rate,factory,理論最大速率
+factory.cookbook_title,factory,配方手冊
+factory.copy,factory,複製
+factory.copy_to_clipboard,factory,複製到剪貼簿
+factory.craft_time,factory,製作時間
+factory.create_blueprint,factory,創建藍圖
+factory.create_first,factory,創建第一個藍圖
+factory.create_new_save,factory,創建新存檔
+factory.current_file,factory,當前文件
+factory.current_tool,factory,工具
+factory.cycles_per_min,factory,循環/分鐘
+factory.cycles_per_minute,factory,循環/分鐘
+factory.deficit,factory,赤字
+factory.delete,factory,刪除
+factory.delete_building,factory,刪除建築
+factory.depth_level,factory,Lv {level}
+factory.description,factory,描述
+factory.description_placeholder,factory,簡短描述...
+factory.destination,factory,目的地
+factory.detailed_producer_analysis,factory,詳細生產者分析
+factory.download_png,factory,下載 PNG
+factory.edit_save,factory,編輯存檔
+factory.efficiency,factory,效率
+factory.enter_save_name,factory,輸入存檔名稱...
+factory.error_deleting_plan,factory,刪除方案失敗。
+factory.error_loading_plan,factory,載入方案失敗。
+factory.error_loading_plans,factory,載入存檔失敗。
+factory.error_output_mismatch,factory,輸出與目標輸入不匹配
+factory.error_saving_plan,factory,儲存方案失敗。
+factory.error_updating_plan,factory,更新方案失敗。
+factory.export_import,factory,匯出 / 匯入
+factory.export_import_hint,factory,將工廠匯出為JSON檔案以分享或備份，或匯入之前匯出的檔案。
+factory.export_json,factory,匯出
+factory.filter_by_building,factory,建築類型
+factory.filter_by_output,factory,輸出物品
+factory.filter_by_stage,factory,遊戲階段
+factory.filter_by_tags,factory,標籤
+factory.final_product,factory,最終產品
+factory.final_products,factory,最終產品
+factory.final_products_summary,factory,最終產品摘要
+factory.fix_conveyor_error,factory,更改配方或重新連接傳送帶以匹配輸入
+factory.focus,factory,聚焦
+factory.from_connected_recipe,factory,來自連接的配方
+factory.graph_view,factory,連接圖
+factory.grid_bounds,factory,網格邊界
+factory.grid_bounds_desc,factory,"定義工廠網格的大小（以0,0為中心）。建築和傳送帶不能放置在這些限制之外。"
+factory.grid_height,factory,網格高度（單元格）
+factory.grid_range,factory,網格範圍
+factory.grid_width,factory,網格寬度（單元格）
+factory.import_json,factory,匯入
+factory.input_buffer,factory,輸入緩衝區
+factory.inputs,factory,輸入
+factory.item,factory,物品
+factory.item_category.components,factory,組件
+factory.item_category.consumables,factory,消耗品
+factory.item_category.equipment,factory,裝備
+factory.item_category.featured,factory,推薦
+factory.item_category.liquids,factory,液體
+factory.item_category.other,factory,其他
+factory.item_category.processed,factory,加工材料
+factory.item_category.raw_materials,factory,原材料
+factory.items_in_transit,factory,運輸中
+factory.live_updates,factory,即時（1秒）
+factory.load,factory,加載
+factory.loading_items,factory,加載物品中...
+factory.local_saves,factory,本機
+factory.login_for_online,factory,登入以線上儲存工廠
+factory.login_required,factory,請登入以線上儲存。
+factory.machine,factory,機器
+factory.make_private,factory,設為私密
+factory.make_public,factory,設為公開
+factory.menu.build_mode,factory,建造模式
+factory.menu.clear_grid,factory,清除網格
+factory.menu.edit,factory,編輯
+factory.menu.export_json,factory,匯出JSON
+factory.menu.file,factory,檔案
+factory.menu.graph_view,factory,圖形檢視
+factory.menu.import_json,factory,匯入JSON
+factory.menu.new_grid,factory,新建網格
+factory.menu.pan_mode,factory,平移模式
+factory.menu.production_stats,factory,生產統計
+factory.menu.reset_simulator,factory,
+factory.menu.title,factory,選單
+factory.menu.tools,factory,工具
+factory.menu.view,factory,檢視
+factory.menu.zoom_fit,factory,自適應縮放
+factory.merge_inputs,factory,個輸入
+factory.merge_mixed_items,factory,多種物品類型合併中
+factory.merge_preview,factory,放開以合併
+factory.merge_saturated,factory,合併已飽和
+factory.merge_total_rate,factory,總速率
+factory.merged_conveyor,factory,合併輸送帶
+factory.most_liked,factory,最多按讚
+factory.most_popular,factory,最受歡迎
+factory.move,factory,移動
+factory.move_building,factory,移動建築
+factory.multi_producer_excess,factory,多生產者過剩
+factory.my_blueprints,factory,我的藍圖
+factory.name_required,factory,請輸入名稱。
+factory.net,factory,淨值/分鐘
+factory.new_online_save,factory,新建線上存檔
+factory.new_save,factory,新存檔
+factory.no_blueprints,factory,尚無藍圖
+factory.no_file_loaded,factory,未載入檔案。建立新存檔或載入現有存檔。
+factory.no_online_saves,factory,尚無線上存檔
+factory.no_output_selected,factory,未選擇輸出
+factory.no_production_data,factory,無生產數據可用。為建築分配配方以查看統計信息。
+factory.no_recipe,factory,無配方
+factory.no_recipes_available,factory,此建築無可用配方
+factory.no_recipes_produce_item,factory,找不到生產此物品的配方。此物品可能需要導入或手動創建。
+factory.no_saved_games,factory,尚無存檔
+factory.not_configured,factory,未設定
+factory.notifications.auto_loaded,factory,自動加載：{name}
+factory.notifications.cannot_place_building,factory,無法在此處放置建築 - 位置被其他建築或傳送帶阻擋
+factory.notifications.cannot_place_control_point,factory,無法在此處放置控制點 - 沒有有效路徑
+factory.notifications.confirm_delete,factory,"刪除存檔 ""{name}""？此操作無法撤銷。"
+factory.notifications.confirm_import,factory,是否匯入此工廠？未保存的更改將丟失。
+factory.notifications.confirm_load,factory,"加載 ""{name}""？"
+factory.notifications.confirm_load_with_current,factory,"加載 ""{name}""？任何未保存的更改將丟失。"
+factory.notifications.conveyor_error,factory,重新計算傳送帶時出錯。建築已旋轉，但傳送帶可能需要手動重新連接。
+factory.notifications.created_new_save,factory,"創建新存檔 ""{name}"""
+factory.notifications.exported_json,factory,工廠已匯出為JSON檔案
+factory.notifications.failed_to_delete,factory,刪除存檔失敗
+factory.notifications.failed_to_export,factory,匯出工廠失敗
+factory.notifications.failed_to_import,factory,匯入工廠失敗
+factory.notifications.failed_to_load,factory,加載遊戲失敗
+factory.notifications.failed_to_read_file,factory,讀取檔案失敗
+factory.notifications.failed_to_rotate,factory,旋轉建築失敗
+factory.notifications.failed_to_save,factory,保存遊戲失敗
+factory.notifications.imported_json,factory,工廠匯入成功
+factory.notifications.loaded,factory,"已加載 ""{name}"""
+factory.notifications.new_grid_created,factory,已創建新網格並帶有子自動化核心
+factory.notifications.output_cleared,factory,輸出物品已清除
+factory.notifications.output_selected,factory,已選擇輸出物品：{item}
+factory.notifications.please_enter_name,factory,請輸入存檔名稱
+factory.notifications.recipe_assigned,factory,已分配配方：{recipe}
+factory.notifications.recipe_cleared,factory,配方已清除
+factory.notifications.save_deleted,factory,存檔已刪除
+factory.notifications.saved_as,factory,"已保存為 ""{name}"""
+factory.notifications.saved_to,factory,"已保存到 ""{name}"""
+factory.online_benefits,factory,從任何裝置存取存檔並與社群分享
+factory.online_saves,factory,線上
+factory.output,factory,輸出
+factory.output_buffer,factory,輸出緩衝區
+factory.output_conveyors,factory,輸出傳送帶
+factory.output_item,factory,輸出物品
+factory.outputs,factory,輸出
+factory.overview,factory,概覽
+factory.pan,factory,平移
+factory.per_minute,factory,每分鐘
+factory.place_building,factory,放置建築
+factory.plan_deleted,factory,方案已刪除！
+factory.plan_loaded,factory,方案已載入！
+factory.plan_saved,factory,方案已儲存！
+factory.plan_updated,factory,方案已更新！
+factory.planner.feature_buildings_desc,factory,訪問所有工廠建築，包含詳細信息、配方和生產統計數據
+factory.planner.feature_buildings_title,factory,建築庫
+factory.planner.feature_community_desc,factory,瀏覽和學習其他玩家分享的工廠佈局（即將推出）
+factory.planner.feature_community_title,factory,社區計劃
+factory.planner.feature_conveyors_desc,factory,使用智能傳送帶路由連接建築物，可檢測錯誤並提供修復建議
+factory.planner.feature_conveyors_title,factory,智能傳送帶
+factory.planner.feature_grid_desc,factory,在可自定義的網格上放置建築物和傳送帶，支持完整的平移和縮放
+factory.planner.feature_grid_title,factory,交互式網格
+factory.planner.feature_save_desc,factory,在本地保存您的工廠佈局並與社群分享
+factory.planner.feature_save_title,factory,保存和加載
+factory.planner.feature_stats_desc,factory,實時生產統計、瓶頸檢測和優化建議
+factory.planner.feature_stats_title,factory,生產分析
+factory.planner.features_subtitle,factory,規劃完美AIC工廠所需的一切
+factory.planner.features_title,factory,功能
+factory.planner.report_issues,factory,報告問題和想法
+factory.planner.start_planning,factory,開始規劃
+factory.planner.subtitle,factory,使用交互式網格規劃器設計和優化您的AIC（自動化工業綜合體）工廠佈局
+factory.planner.wip_message,factory,此工具仍在積極開發中。請在我們的Discord社群報告任何問題或分享您的想法！
+factory.planner.wip_title,factory,開發中
+factory.popular,factory,熱門
+factory.port_config,factory,設定連接埠
+factory.port_config_hint,factory,點擊輸出端口分配物品。輸入端口的物品將被消耗。
+factory.power,factory,電力
+factory.power_consumed,factory,電力消耗
+factory.power_warning,factory,電力不足！
+factory.produced,factory,生產/分鐘
+factory.produced_by,factory,生產者
+factory.producing,factory,正在生產
+factory.production_chain,factory,生產鏈
+factory.production_depth,factory,生產深度
+factory.production_flow,factory,生產流程
+factory.production_flows,factory,生產流程
+factory.production_imbalance,factory,生產不平衡
+factory.production_rate,factory,生產速率
+factory.production_statistics,factory,生產統計
+factory.production_stats_note,factory,所有速率以每分鐘顯示。淨值 = 生產 - 消耗。
+factory.production_summary,factory,摘要
+factory.raw_material,factory,原材料
+factory.raw_materials,factory,原材料
+factory.recipe,factory,配方
+factory.redo,factory,重做
+factory.requires,factory,需要
+factory.reset_view,factory,重置視圖
+factory.rotate,factory,旋轉
+factory.rotate_building,factory,旋轉建築
+factory.rotate_ccw,factory,逆時針旋轉
+factory.rotate_cw,factory,順時針旋轉
+factory.save,factory,保存
+factory.save_name,factory,名稱
+factory.save_online,factory,線上儲存
+factory.saved_games,factory,已保存的遊戲
+factory.select_building,factory,選擇建築...
+factory.select_item,factory,選擇物品...
+factory.select_output,factory,選擇輸出
+factory.select_recipe,factory,選擇配方
+factory.set_output,factory,設定輸出
+factory.set_recipe,factory,設定配方
+factory.settings,factory,設置
+factory.sim_fast,factory,快速 (2x)
+factory.sim_faster,factory,更快 (4x)
+factory.sim_normal,factory,正常 (1x)
+factory.sim_paused,factory,已暫停
+factory.sim_speed,factory,速度
+factory.state_clogged,factory,輸出阻塞
+factory.state_idle,factory,未激活
+factory.state_producing,factory,生產中
+factory.state_unlinked,factory,無輸入連接
+factory.state_waiting,factory,等待輸入
+factory.status,factory,狀態
+factory.suggestion_add_building,factory,添加一個帶有這些配方之一的新建築並將其連接到消費者
+factory.suggestions_to_fix_deficits,factory,修復赤字的建議
+factory.surplus,factory,盈餘
+factory.theoretical,factory,理論值
+factory.thumbnail_preview,factory,預覽
+factory.title,factory,工廠規劃器
+factory.total_buildings,factory,活躍建築
+factory.travel_time,factory,移動時間
+factory.undo,factory,撤銷
+factory.unlimited,factory,無限
+factory.update_save,factory,更新存檔
+factory.view_compact,factory,緊湊檢視
+factory.view_grid,factory,網格檢視
+factory.view_list,factory,列表檢視
+factory.view_mode,factory,檢視模式
+factory.visibility_private,factory,私密
+factory.visibility_private_desc,factory,僅自己可見
+factory.visibility_public,factory,公開
+factory.visibility_public_desc,factory,在社群藍圖中可見
+factory.your_online_saves,factory,您的線上存檔
+factory.zoom_in,factory,放大
+factory.zoom_out,factory,縮小
+factory_plans.all_time,factory_plans,All Time
+factory_plans.back_to_browse,factory_plans,Back to All Blueprints
+factory_plans.be_first_to_share,factory_plans,Be the first to share a blueprint for
+factory_plans.blueprint_found,factory_plans,blueprint found
+factory_plans.blueprint_name,factory_plans,Blueprint Name
+factory_plans.blueprints_found,factory_plans,blueprints found
+factory_plans.browse_crafting_blueprints,factory_plans,Browse community factory blueprints for crafting
+factory_plans.buildings,factory_plans,Buildings
+factory_plans.buildings_used,factory_plans,Buildings Used
+factory_plans.by,factory_plans,by
+factory_plans.comments,factory_plans,Comments
+factory_plans.confirm_delete,factory_plans,Are you sure you want to delete
+factory_plans.create_blueprint,factory_plans,Create Blueprint
+factory_plans.create_first_blueprint,factory_plans,Create your first factory blueprint to share with the community!
+factory_plans.create_new,factory_plans,Create New
+factory_plans.delete_error,factory_plans,Failed to delete blueprint
+factory_plans.description,factory_plans,Browse and share community AIC factory blueprints for Arknights: Endfield
+factory_plans.description_label,factory_plans,Description
+factory_plans.full_description,factory_plans,Full Description
+factory_plans.full_description_hint,factory_plans,Detailed guide for your blueprint (optional)
+factory_plans.game_stage,factory_plans,Game Stage
+factory_plans.grid_size,factory_plans,Grid size
+factory_plans.how_to_craft,factory_plans,How to Craft
+factory_plans.ingame_code,factory_plans,In-Game Code
+factory_plans.ingame_code_hint,factory_plans,Optional: Your in-game factory sharing code
+factory_plans.ingame_code_label,factory_plans,In-Game Sharing Code
+factory_plans.ingame_region,factory_plans,Server Region
+factory_plans.inputs,factory_plans,Inputs
+factory_plans.latest,factory_plans,Latest
+factory_plans.load_in_planner,factory_plans,Load in Planner
+factory_plans.loading_blueprint,factory_plans,Loading blueprint...
+factory_plans.make_private,factory_plans,Make Private
+factory_plans.make_public,factory_plans,Make Public
+factory_plans.manage_your_blueprints,factory_plans,Manage your shared factory blueprints
+factory_plans.most_liked,factory_plans,Most Liked
+factory_plans.my_blueprints,factory_plans,My Blueprints
+factory_plans.net_power,factory_plans,Net Power
+factory_plans.no_blueprints,factory_plans,No Blueprints Yet
+factory_plans.no_blueprints_yet,factory_plans,No Blueprints Yet
+factory_plans.no_external_inputs,factory_plans,No external inputs required
+factory_plans.not_found,factory_plans,Blueprint Not Found
+factory_plans.not_found_desc,factory_plans,This blueprint may have been deleted or made private.
+factory_plans.open_planner,factory_plans,Open Factory Planner
+factory_plans.outputs,factory_plans,Outputs
+factory_plans.popular,factory_plans,Most Popular
+factory_plans.power_consumption,factory_plans,Consumption
+factory_plans.power_generation,factory_plans,Generation
+factory_plans.private,factory_plans,Private
+factory_plans.production,factory_plans,Production
+factory_plans.production_preview,factory_plans,Production Preview
+factory_plans.production_summary,factory_plans,Production Summary
+factory_plans.public,factory_plans,Public
+factory_plans.region,factory_plans,Region
+factory_plans.save_blueprint,factory_plans,Save Blueprint
+factory_plans.saving,factory_plans,Saving...
+factory_plans.search_placeholder,factory_plans,Search blueprints...
+factory_plans.share_blueprint,factory_plans,Share Blueprint
+factory_plans.share_description,factory_plans,Share your factory layout with the community
+factory_plans.short_description,factory_plans,Short Description
+factory_plans.short_description_hint,factory_plans,Brief description shown on cards (max 200 chars)
+factory_plans.sort_latest,factory_plans,Latest
+factory_plans.sort_popular,factory_plans,Popular
+factory_plans.tags,factory_plans,Tags
+factory_plans.tags_hint,factory_plans,Select up to 3 tags
+factory_plans.this_month,factory_plans,This Month
+factory_plans.this_week,factory_plans,This Week
+factory_plans.thumbnail_preview,factory_plans,Thumbnail Preview
+factory_plans.title,factory_plans,AIC Factory Blueprints
+factory_plans.toggle_error,factory_plans,Failed to update visibility
+factory_plans.total_buildings,factory_plans,Total buildings
+factory_plans.update_blueprint,factory_plans,Update Blueprint
+factory_plans.video_guide,factory_plans,Video Guide
+factory_plans.visibility,factory_plans,Visibility
+factory_plans.visibility_private,factory_plans,Private - Only you can see
+factory_plans.visibility_public,factory_plans,Public - Anyone can see
+factory_plans.youtube_url,factory_plans,YouTube Video URL
+factory_plans.youtube_url_hint,factory_plans,Optional video guide
+guides.features_title,guides,你將學到什麼
+home.ascension_planner_desc,home,規劃角色和武器升級，追蹤材料
+home.browse_blueprints,home,Browse Community Blueprints
+home.character_builds,home,角色配裝
+home.character_planner_desc,home,規劃您的角色進度和資源
+home.character_showcase_desc,home,分享和發現來自社群的角色配置
+home.characters_desc,home,瀏覽所有終末地角色的完整詳細資訊和社群討論
+home.check_out_tools,home,看看我的工具！
+home.codes.copied,home,已複製！
+home.codes.copy,home,複製代碼
+home.codes.ends_in,home,結束於
+home.codes.expired,home,已過期
+home.codes.how_to_redeem,home,兌換方式：遊戲內進入 [設定] > [平台與帳號] > [兌換碼]
+home.codes.no_expiration,home,永久有效
+home.codes.tap_to_copy,home,點擊複製
+home.codes.title,home,兌換碼
+home.coming_soon,home,即將推出
+home.community,home,社群
+home.community_builds_desc,home,分享和探索社群角色構建
+home.community_plans_desc,home,與社群分享和探索工廠計劃
+home.equipment_desc,home,探索裝備套裝及其獎勵
+home.essences_desc,home,發現武器精華及其效果
+home.events.ended,home,已結束
+home.events.ends_in,home,結束於
+home.events.left,home,剩餘
+home.events.not_confirmed,home,未確認
+home.events.starts_in,home,開始於
+home.events.title,home,活動
+home.factory_blueprints,home,AIC Factory Blueprints
+home.factory_blueprints_desc,home,Browse and share community AIC factory blueprints
+home.factory_planner_desc,home,輕鬆規劃和優化您的工廠佈局
+home.factory_short,home,
+home.factory_simulator,home,工廠模擬器
+home.fun_tools,home,趣味與模擬
+home.guides_desc,home,通過全面指南學習遊戲機制和策略
+home.headhunt_tracker_desc,home,追蹤您的招募次數和保底計數器
+home.interactive_map_desc,home,使用交互式地圖探索世界
+home.login_register,home,登入 / 註冊
+home.planner_desc,home,打開互動式工廠網格規劃器
+home.planners,home,
+home.popular_builds,home,熱門角色配裝
+home.popular_builds_desc,home,發現社群中最受歡迎的角色配裝
+home.simulators,home,
+home.site_description,home,為明日方舟：終末地玩家打造的最酷工具與實用程序合集。
+home.summon_simulator_desc,home,有趣的抽卡模擬器，附帶幸運排行榜！
+home.toolbox,home,工具箱
+home.toolbox_desc,home,探索我們的工具和實用程序集合
+home.tools,home,工具
+home.valley_iv_desc,home,探索Valley IV地區
+home.view_all,home,查看全部
+home.weapons_desc,home,探索所有武器類型及其屬性
+home.welcome_to,home,歡迎來到
+home.wuling_desc,home,探索武陵地區
+home.your_profile,home,您的個人資料
+map.activate,map,激活
+map.amber_rice,map,琥珀米
+map.battles,map,戰鬥遭遇
+map.category_battles,map,戰鬥遭遇
+map.category_chests,map,寶箱
+map.category_collectibles,map,收藏品
+map.category_daily_instances,map,每日副本
+map.category_dungeons,map,地下城
+map.category_ether,map,乙太資源
+map.category_factory,map,工廠點位
+map.category_mining_formations,map,礦脈
+map.category_mining_points,map,採礦點
+map.category_narrative,map,故事碎片
+map.category_other,map,其他興趣點
+map.category_plants,map,植物材料
+map.category_rare_minerals,map,稀有礦物
+map.category_terminals,map,終端
+map.category_travel,map,快速旅行
+map.challenge,map,挑戰
+map.challenge_entrance,map,挑戰入口
+map.chest,map,寶箱
+map.chest_high_tier,map,高級寶箱
+map.chest_locked,map,上鎖的寶箱
+map.chest_normal,map,普通寶箱
+map.clear_all,map,清除
+map.clear_search,map,清除搜尋
+map.click_to_explore,map,點擊探索
+map.close,map,關閉
+map.collectible,map,收集品
+map.collectibles,map,收集品
+map.communication_terminal,map,通訊終端
+map.coordinates,map,座標
+map.daily_dungeon,map,每日副本
+map.dungeon,map,地下城
+map.dungeon_entrance,map,地下城入口
+map.dungeon_exit,map,地下城出口
+map.enemies,map,敵人
+map.enemy_encounter,map,敵人遭遇
+map.energy_point,map,能量點
+map.ether_recycle,map,
+map.fast_travel,map,快速旅行
+map.fast_travel_point,map,快速旅行點
+map.feature_battles_desc,map,地下城入口、挑戰點和首領位置
+map.feature_battles_title,map,戰鬥遭遇
+map.feature_chests_desc,map,尋找並追蹤所有寶箱位置 - 普通、上鎖和高級寶箱
+map.feature_chests_title,map,寶箱
+map.feature_collectibles_desc,map,故事碎片、終端和收集點位置
+map.feature_collectibles_title,map,收藏品
+map.feature_filtering_desc,map,按類型、等級和區域篩選興趣點
+map.feature_filtering_title,map,進階篩選
+map.feature_filters_desc,map,
+map.feature_filters_title,map,
+map.feature_gathering_desc,map,
+map.feature_gathering_title,map,
+map.feature_mining_desc,map,礦石節點、礦脈和稀有礦物位置
+map.feature_mining_title,map,採礦點
+map.feature_poi_desc,map,
+map.feature_poi_title,map,
+map.feature_tracking_desc,map,
+map.feature_tracking_title,map,
+map.feature_travel_desc,map,遊戲內所有快速旅行點地圖
+map.feature_travel_title,map,快速旅行
+map.features_subtitle,map,追蹤所有重要位置
+map.features_title,map,探索每個角落
+map.filter,map,篩選與搜尋
+map.filters,map,篩選
+map.glowbug,map,螢光蟲
+map.hub_area,map,中心區域
+map.interactive_object,map,互動對象
+map.layer,map,圖層
+map.layers,map,地圖圖層
+map.legend,map,圖例
+map.level,map,關卡
+map.level_ranges,map,等級範圍
+map.loading,map,正在載入地圖數據...
+map.mark_arrow,map,標記箭頭
+map.mark_fac_unlocker,map,工廠解鎖器
+map.mechanism,map,機關
+map.mineral_copper,map,銅礦
+map.mineral_iron,map,鐵礦
+map.mineral_originium,map,源石
+map.mineral_quartz,map,石英
+map.mineral_special_metal,map,特殊金屬
+map.narrative_fragment,map,碎片
+map.no_results,map,未找到興趣點
+map.poi_details,map,興趣點詳情
+map.poi_types,map,興趣點類型
+map.pois_visible,map,個可見興趣點
+map.rare_mineral,map,稀有礦物
+map.rare_prefix,map,稀有
+map.reading_terminal,map,閱讀終端
+map.recommended_level,map,推薦等級
+map.redjade_ginseng,map,紅玉參
+map.reed_rye,map,蘆葦黑麥
+map.region,map,區域
+map.region_talos_ii,map,塔衛二
+map.region_valley_iv,map,四號谷地地圖
+map.region_wuling,map,五陵地圖
+map.report_issues,map,在 Discord 社群中報告問題和想法
+map.reset_view,map,重置視圖
+map.rewards,map,獎勵
+map.scorchbug,map,焦蟲
+map.search_placeholder,map,搜尋興趣點...
+map.select_all,map,全部
+map.select_layer,map,選擇圖層
+map.select_region,map,選擇區域
+map.show_all,map,顯示全部
+map.special_locations,map,特殊地點
+map.terminal,map,終端
+map.title,map,互動地圖
+map.travel_point,map,
+map.type,map,類型
+map.view_point,map,觀景點
+map.warning_terminal,map,警告終端
+map.welcome_subtitle,map,探索明日方舟：終末地的終極夥伴。尋找所有寶箱、採礦點、收藏品和興趣點。
+map.wip_message,map,互動地圖正在開發中。加入我們的 Discord 社群報告問題或分享您的想法！
+map.wip_title,map,開發中
+map.zoom_in,map,放大
+map.zoom_out,map,縮小
+nav.achievement_tracker,nav,
+nav.achievement_tracker_short,nav,
+nav.ascension_planner,nav,升格規劃器
+nav.character_planner,nav,角色規劃器
+nav.character_showcase,nav,角色展示
+nav.characters,nav,角色
+nav.community_blueprints,nav,Community Blueprints
+nav.community_builds,nav,社區配置
+nav.community_plans,nav,社區計劃
+nav.discord,nav,加入社群
+nav.factory_planner,nav,工廠規劃器
+nav.guides,nav,指南
+nav.headhunt_short,nav,
+nav.headhunt_tracker,nav,招募追蹤器
+nav.home,nav,主頁
+nav.interactive_map,nav,互動地圖
+nav.planner,nav,規劃器
+nav.profile,nav,個人資料
+nav.recipes,nav,配方
+nav.summon_simulator,nav,招募模擬器
+nav.weapon_essence_solver,nav,Essence Solver
+nav.weapon_essences,nav,武器精華
+nav.weapons,nav,武器
+notification.deleted,notification,刪除成功
+notification.error,notification,發生錯誤
+notification.loaded,notification,加載成功
+notification.saved,notification,保存成功
+reactions.authentication_required,reactions,需要身份驗證
+reactions.dislike,reactions,踩
+reactions.like,reactions,點讚
+reactions.login_required,reactions,請登錄以對此內容作出反應。
+summon.amazing_pull,summon,驚人的抽卡！您獲得了{count}個六星！這可能是第一名！提交到排行榜？
+summon.amazing_pull_prompt,summon,驚人的抽卡！您獲得了{count}個六星！要提交到排行榜嗎？
+summon.animation_in_progress,summon,動畫進行中...
+summon.auth_error,summon,身份驗證錯誤。請重新登入。
+summon.average,summon,平均
+summon.average_joe,summon,普通人
+summon.average_rarity,summon,平均稀有度
+summon.average_title,summon,完美平衡，萬物應如此。
+summon.base_six_star_rate,summon,基礎6★機率：{rate}%
+summon.best_session,summon,最佳十連：
+summon.better_five_star,summon,更好的結果！您的{count}個五星超越了之前的最佳{previous}！提交到排行榜？
+summon.better_score,summon,更好的結果！您的得分{current}超越了之前的最佳{previous}！提交到排行榜？
+summon.blessed_by_rng,summon,被RNG祝福
+summon.blessed_title,summon,你被幸運之神眷顧了！
+summon.character_collection,summon,角色收藏
+summon.character_pool,summon,角色池
+summon.characters_available,summon,{count}個可用角色
+summon.collection_progress,summon,收藏進度：
+summon.collection_ratio,summon,{current} / {total}個角色
+summon.complete_character_list,summon,完整的可用角色清單及單個掉落率
+summon.counted_message,summon,您的招募結果將計入排行榜。爭奪山丘之王角色！
+summon.counter_resets,summon,獲得任何5★或6★時計數器重置
+summon.current_pity_counter,summon,當前保底計數器：
+summon.current_rate,summon,當前機率：{rate}%
+summon.current_rate_with_bonus,summon,當前機率：{rate}% (+{bonus}% 加成)
+summon.current_six_star_rate,summon,當前6★機率
+summon.cursed_by_rng,summon,被RNG詛咒
+summon.cursed_title,summon,抽卡之神在考驗你...
+summon.description,summon,滿足您的抽卡癮！擲骰子追逐那些難以捉摸的6★角色，真實掉落率。「再來一次十連，我發誓！」
+summon.discord_linked,summon,Discord已關聯 - 如果您獲勝，您將獲得角色！
+summon.discord_warning,summon,您仍可以提交到排行榜，但如果沒有關聯Discord，獲勝後將無法獲得角色！
+summon.download_image,summon,下載圖片
+summon.drop_rates,summon,招募掉落率
+summon.drop_rates_by_rarity,summon,按稀有度劃分的掉落率
+summon.each_rate,summon,~{rate}% 每個
+summon.expected_rate,summon,期望：{rate}%
+summon.first_six_star,summon,首個6★於：
+summon.first_six_star_pulls,summon,{count}次招募
+summon.five_star_guarantee,summon,5★保底系統
+summon.five_star_pity_counter,summon,5★保底計數器
+summon.five_star_rate,summon,5★掉落率
+summon.four_star_rate,summon,4★掉落率
+summon.fun_stats,summon,趣味統計
+summon.gacha_hell,summon,抽卡地獄
+summon.gacha_hell_title,summon,願你的運氣很快好轉...
+summon.generating_image,summon,正在生成圖片...
+summon.guaranteed_at,summon,第{threshold}次招募時保證獲得6★
+summon.guaranteed_five_star,summon,每{threshold}次未獲得5★+時保證獲得5★或更高
+summon.individual_character_rates,summon,單個角色掉落率
+summon.leaderboard_description,summon,本週前10名最佳十連（每週一重置）
+summon.leaderboard_discord_reward,summon,第1名玩家將獲得{site} Discord上的「山丘之王」角色！
+summon.leaderboard_title,summon,每週排行榜
+summon.least_pulled_character,summon,最少招募的角色
+summon.least_pulled_six_star,summon,最少招募的6★
+summon.legendary_luck,summon,傳說級幸運
+summon.legendary_title,summon,RNG之神眷顧著你！
+summon.link_discord_profile,summon,在您的個人資料中關聯您的Discord帳號以獲得角色！
+summon.link_discord_reminder,summon,別忘了關聯您的Discord帳號以獲得角色！
+summon.loading_leaderboard,summon,正在載入排行榜...
+summon.logged_in,summon,已登入
+summon.login_to_save,summon,登入以保存您的結果
+summon.lucky,summon,幸運！
+summon.lucky_charm,summon,幸運符
+summon.lucky_title,summon,幸運青睞勇者！
+summon.most_pulled_character,summon,最常招募的角色
+summon.most_pulled_six_star,summon,最常招募的6★
+summon.new_record,summon,新紀錄！您的{count}個六星超越了之前的最佳{previous}！提交到排行榜？
+summon.new_record_submitted,summon,新紀錄！您的得分{score}已提交到排行榜！
+summon.next_guaranteed,summon,下一次招募保證獲得5★或更高！
+summon.next_guarantees_five_star,summon,下一次招募保證獲得5★或更高！
+summon.next_guarantees_six_star,summon,下一次招募保證獲得6★！
+summon.nice_pull,summon,不錯的抽卡！
+summon.no_history,summon,還沒有招募歷史。進行您的首次招募以在此處查看結果！
+summon.not_counted_warning,summon,您的招募結果不會計入排行榜。
+summon.not_logged_in,summon,未登入
+summon.not_logged_in_message,summon,真可惜您沒有登入！這次抽卡本可以進入前10名。
+summon.not_owned,summon,未擁有
+summon.novice_description,summon,進行您的首次招募以查看統計！
+summon.novice_summoner,summon,新手召喚師
+summon.on_leaderboard,summon,排行榜第{placement}名
+summon.owned_count,summon,{count}×
+summon.perform_10x,summon,進行10次招募/尋訪
+summon.pity_active,summon,保底系統啟動！+{bonus}%加成率
+summon.pity_active_bonus,summon,保底啟動中：+{bonus}%加成
+summon.pity_bonus,summon,保底加成
+summon.pity_counter,summon,保底計數器
+summon.pity_resets,summon,獲得6★時保底完全重置
+summon.pity_starts_at,summon,保底從第{threshold}次招募開始：每次+{increase}%
+summon.pity_system,summon,保底系統（6★）
+summon.pool_description,summon,瀏覽招募池中的所有可用角色，按稀有度組織
+summon.profile_error,summon,配置文件未載入。請重試。
+summon.pulled_count,summon,已招募{count}個
+summon.pulled_times,summon,已招募{count}次
+summon.pulls_until_guaranteed_five_star,summon,距離保底5★的次數
+summon.rarity_breakdown,summon,稀有度分佈
+summon.rate,summon,{rate}%機率
+summon.recent_description,summon,您最近的10次招募/尋訪結果
+summon.recent_summons,summon,最近的招募
+summon.record_beaten,summon,新紀錄！您的得分{current}超越了之前的最佳{previous}！
+summon.record_holder,summon,紀錄保持者
+summon.reset_confirm,summon,您確定要重置所有招募/尋訪統計資料嗎？此操作無法撤銷。
+summon.reset_stats,summon,重置所有統計
+summon.reset_warning,summon,這將永久刪除您的所有招募歷史
+summon.result_preview,summon,招募/尋訪結果預覽
+summon.session_preview,summon,招募/尋訪會話預覽
+summon.share_result,summon,分享您的招募/尋訪結果
+summon.share_session,summon,分享招募/尋訪會話
+summon.six_star_rate,summon,6★掉落率
+summon.six_star_resets_counter,summon,獲得6★也會重置此計數器
+summon.six_stars_count,summon,{count}個六星
+summon.slightly_unlucky,summon,有點倒霉
+summon.slightly_unlucky_title,summon,情況可以更好...
+summon.star_characters,summon,{rarity}星角色
+summon.stats_description,summon,追蹤您的抽卡之旅，看看您有多幸運！
+summon.stats_title,summon,您的招募統計
+summon.submit,summon,提交到排行榜
+summon.submit_failed,summon,提交到排行榜失敗。請重試。
+summon.submit_qualifier,summon,您的招募結果符合排行榜資格！
+summon.submit_success,summon,您的招募結果已提交到排行榜！
+summon.submit_to_leaderboard,summon,提交到排行榜？
+summon.submitting,summon,正在提交...
+summon.summoned_on,summon,在{site}上招募
+summon.summoning,summon,正在招募/尋訪10個角色...
+summon.summons_until_guaranteed,summon,距離保底5★還有{count}次招募！
+summon.summons_without_five_star,summon,未獲得5★+的招募次數：
+summon.summons_without_five_star_plus,summon,未獲得5★+的招募次數
+summon.table_character,summon,角色
+summon.table_drop_rate,summon,掉落率
+summon.table_profession,summon,職業
+summon.table_rarity,summon,稀有度
+summon.table_type,summon,類型
+summon.title,summon,招募/尋訪模擬器
+summon.total_pulls,summon,總招募次數
+summon.total_value,summon,總價值
+summon.unique_characters,summon,獨特角色
+summon.unlucky,summon,倒霉
+summon.very_lucky,summon,非常幸運！
+summon.very_unlucky,summon,非常倒霉
+summon.view_profile,summon,查看您的個人資料
+summon.warning_until_guaranteed,summon,距離保底5★還有{count}次招募！
+summon.your_stats,summon,您的統計
+theme.dark,theme,深色
+theme.dark_desc,theme,終末之地工具深色主題
+theme.high_contrast,theme,高對比度
+theme.light,theme,淺色
+theme.light_desc,theme,終末之地工具淺色主題
+theme.navy,theme,海軍藍
+weapons.attack,weapons,攻擊力
+weapons.attack_growth,weapons,攻擊力成長
+weapons.attack_stats,weapons,攻擊屬性
+weapons.best_characters,weapons,最佳裝備角色
+weapons.best_weapons,weapons,最佳武器
+weapons.breakthrough,weapons,突破
+weapons.breakthrough_level,weapons,突破等級
+weapons.compatible_characters,weapons,相容角色
+weapons.compatible_characters_desc,weapons,此武器可以裝備給使用相同武器類型的角色。
+weapons.compatible_weapons,weapons,相容武器
+weapons.description,weapons,描述
+weapons.effects,weapons,效果
+weapons.level_up_requirements,weapons,升級要求
+weapons.max_level,weapons,最大等級
+weapons.no_skills,weapons,無技能數據
+weapons.passive_attribute,weapons,被動屬性
+weapons.potential_skill,weapons,潛能技能
+weapons.results,weapons,找到武器
+weapons.search,weapons,搜尋武器...
+weapons.skill_level,weapons,等級
+weapons.skill_levels_unlocked,weapons,技能等級解鎖
+weapons.skills,weapons,技能
+weapons.skills_talents,weapons,技能與天賦
+weapons.special_attribute,weapons,特殊屬性
+weapons.stage,weapons,階段 {stage}
+weapons.stat_increase,weapons,屬性提升
+weapons.view_compatible_characters,weapons,查看相容角色

@@ -1,0 +1,788 @@
+{
+  "class_count": 7,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "onMissReferencedScript",
+          "offset": 0,
+          "type": "System.Action"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "hashToStringPath",
+          "offset": 8,
+          "type": "System.Func<System.Int64,System.String>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "checkHashValid",
+          "offset": 16,
+          "type": "System.Func<System.Int64,System.Boolean>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "addPathSting",
+          "offset": 24,
+          "type": "System.Action<System.String>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAllLoadedAssetBundles_Native",
+          "parameters": [],
+          "return_type": "UnityEngine.AssetBundle[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAllLoadedAssetBundles",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<UnityEngine.AssetBundle>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WaitForAllAsyncOperationsToComplete",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WaitForAllAsyncOperationsToComplete_Internal",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeOnMissReferencedScriptOnBehaviour",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_enableLazyCloseFile",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryCloseLazyCloseFile_Internal",
+          "parameters": [
+            {
+              "name": "force",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryCloseLazyCloseFile",
+          "parameters": [
+            {
+              "name": "force",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HashToStringPath",
+          "parameters": [
+            {
+              "name": "hash",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CheckHashValid",
+          "parameters": [
+            {
+              "name": "hash",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddPathStringToCSharp",
+          "parameters": [
+            {
+              "name": "path",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadFromFileAsync_Internal",
+          "parameters": [
+            {
+              "name": "path",
+              "type": "System.String"
+            },
+            {
+              "name": "crc",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "offset",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "UnityEngine.AssetBundleCreateRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadFromFileAsync",
+          "parameters": [
+            {
+              "name": "path",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.AssetBundleCreateRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadFromFileAsync",
+          "parameters": [
+            {
+              "name": "path",
+              "type": "System.String"
+            },
+            {
+              "name": "crc",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "offset",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "UnityEngine.AssetBundleCreateRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadFromFile_Internal",
+          "parameters": [
+            {
+              "name": "path",
+              "type": "System.String"
+            },
+            {
+              "name": "crc",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "offset",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "UnityEngine.AssetBundle"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadFromFile",
+          "parameters": [
+            {
+              "name": "path",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.AssetBundle"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadFromFile",
+          "parameters": [
+            {
+              "name": "path",
+              "type": "System.String"
+            },
+            {
+              "name": "crc",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "offset",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "UnityEngine.AssetBundle"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadFromMemoryAsync_Internal",
+          "parameters": [
+            {
+              "name": "binary",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "crc",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "UnityEngine.AssetBundleCreateRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadFromMemoryAsync",
+          "parameters": [
+            {
+              "name": "binary",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "UnityEngine.AssetBundleCreateRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadAsset",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadAsset",
+          "parameters": [
+            {
+              "name": "hash",
+              "type": "System.Int64"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "UnityEngine.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadAsset",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "UnityEngine.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadAsset_Internal",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "UnityEngine.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadAssetByHash_Internal",
+          "parameters": [
+            {
+              "name": "hash",
+              "type": "System.Int64"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "UnityEngine.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadAssetAsync",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.AssetBundleRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadAssetAsync",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "UnityEngine.AssetBundleRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadAssetAsync",
+          "parameters": [
+            {
+              "name": "hash",
+              "type": "System.Int64"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "UnityEngine.AssetBundleRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadSubAssetAsync",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "subAssetInstanceID",
+              "type": "System.Int64"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "UnityEngine.AssetBundleRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadAssetAsync_Internal",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "UnityEngine.AssetBundleRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadAssetAsyncByHash_Internal",
+          "parameters": [
+            {
+              "name": "hash",
+              "type": "System.Int64"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "UnityEngine.AssetBundleRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Unload",
+          "parameters": [
+            {
+              "name": "unloadAllLoadedObjects",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnloadAsync",
+          "parameters": [
+            {
+              "name": "unloadAllLoadedObjects",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.AsyncOperation"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadSubAssetAsync_Internal",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "instanceID",
+              "type": "System.Int64"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "UnityEngine.AssetBundleRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_memoryBudgetKB",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_memoryBudgetKB",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AssetBundle",
+      "namespace": "UnityEngine",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_assetBundle",
+          "parameters": [],
+          "return_type": "UnityEngine.AssetBundle"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AssetBundleCreateRequest",
+      "namespace": "UnityEngine",
+      "parent": "AsyncOperation",
+      "type_token": 33554435
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_maxBlocksPerFile",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_maxBlocksPerFile",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_blockCount",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_blockCount",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_blockSize",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_memoryBudgetKB",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_memoryBudgetKB",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AssetBundleLoadingCache",
+      "namespace": "UnityEngine",
+      "type_token": 33554436
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "AssetBundleRecompressOperation",
+      "namespace": "UnityEngine",
+      "parent": "AsyncOperation",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetResult",
+          "parameters": [],
+          "return_type": "UnityEngine.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_asset",
+          "parameters": [],
+          "return_type": "UnityEngine.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AssetBundleRequest",
+      "namespace": "UnityEngine",
+      "parent": "ResourceRequest",
+      "type_token": 33554438
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LZ4Decompress",
+          "parameters": [
+            {
+              "name": "src",
+              "type": "System.Void*"
+            },
+            {
+              "name": "srcSize",
+              "type": "System.Int32"
+            },
+            {
+              "name": "dst",
+              "type": "System.Void*"
+            },
+            {
+              "name": "dstSize",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LZ4Decompress",
+          "parameters": [
+            {
+              "name": "src",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "srcOffset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "srcSize",
+              "type": "System.Int32"
+            },
+            {
+              "name": "dst",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "dstOffset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "dstSize",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "AssetBundleUtility",
+      "namespace": "UnityEngine.Experimental.AssetBundlePatching",
+      "type_token": 33554439
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.AssetBundleModule.dll"
+}

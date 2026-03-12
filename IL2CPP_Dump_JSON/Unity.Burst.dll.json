@@ -1,0 +1,5358 @@
+{
+  "class_count": 52,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "EmbeddedAttribute",
+      "namespace": "Microsoft.CodeAnalysis",
+      "parent": "Attribute",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IsReadOnlyAttribute",
+      "namespace": "System.Runtime.CompilerServices",
+      "parent": "Attribute",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Default",
+          "offset": 0,
+          "type": "Unity.Burst.OptimizeFor"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Performance",
+          "offset": 0,
+          "type": "Unity.Burst.OptimizeFor"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Size",
+          "offset": 0,
+          "type": "Unity.Burst.OptimizeFor"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FastCompilation",
+          "offset": 0,
+          "type": "Unity.Burst.OptimizeFor"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Balanced",
+          "offset": 0,
+          "type": "Unity.Burst.OptimizeFor"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "OptimizeFor",
+      "namespace": "Unity.Burst",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Default",
+          "offset": 0,
+          "type": "Unity.Burst.FloatMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Strict",
+          "offset": 0,
+          "type": "Unity.Burst.FloatMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Deterministic",
+          "offset": 0,
+          "type": "Unity.Burst.FloatMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Fast",
+          "offset": 0,
+          "type": "Unity.Burst.FloatMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "FloatMode",
+      "namespace": "Unity.Burst",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Standard",
+          "offset": 0,
+          "type": "Unity.Burst.FloatPrecision"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "High",
+          "offset": 0,
+          "type": "Unity.Burst.FloatPrecision"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Medium",
+          "offset": 0,
+          "type": "Unity.Burst.FloatPrecision"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Low",
+          "offset": 0,
+          "type": "Unity.Burst.FloatPrecision"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "FloatPrecision",
+      "namespace": "Unity.Burst",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<FloatMode>k__BackingField",
+          "offset": 16,
+          "type": "Unity.Burst.FloatMode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<FloatPrecision>k__BackingField",
+          "offset": 20,
+          "type": "Unity.Burst.FloatPrecision"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_compileSynchronously",
+          "offset": 24,
+          "type": "System.Nullable<System.Boolean>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_disableDirectCall",
+          "offset": 26,
+          "type": "System.Nullable<System.Boolean>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<OptimizeFor>k__BackingField",
+          "offset": 28,
+          "type": "Unity.Burst.OptimizeFor"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<Options>k__BackingField",
+          "offset": 32,
+          "type": "System.String[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_FloatMode",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "Unity.Burst.FloatMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_FloatPrecision",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "Unity.Burst.FloatPrecision"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_CompileSynchronously",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_DisableDirectCall",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_OptimizeFor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "Unity.Burst.OptimizeFor"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Options",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "floatPrecision",
+              "type": "Unity.Burst.FloatPrecision"
+            },
+            {
+              "name": "floatMode",
+              "type": "Unity.Burst.FloatMode"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "BurstCompileAttribute",
+      "namespace": "Unity.Burst",
+      "parent": "Attribute",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "reinitType",
+          "offset": 16,
+          "type": "System.Type"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "toReinit",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "StaticTypeReinitAttribute",
+      "namespace": "",
+      "parent": "Attribute",
+      "type_token": 33554441
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "IsBurstEnabledDelegate",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "IsBurstEnabledImpl",
+          "offset": 0,
+          "type": "Unity.Burst.BurstCompiler.BurstCompilerHelper.IsBurstEnabledDelegate"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "IsBurstGenerated",
+          "offset": 8,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsBurstEnabled",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DiscardedMethod",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsCompiledByBurst",
+          "parameters": [
+            {
+              "name": "del",
+              "type": "System.Delegate"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "BurstCompilerHelper",
+      "namespace": "",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<Method>k__BackingField",
+          "offset": 16,
+          "type": "System.Reflection.MethodInfo"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "method",
+              "type": "System.Reflection.MethodInfo"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Method",
+          "parameters": [],
+          "return_type": "System.Reflection.MethodInfo"
+        }
+      ],
+      "name": "FakeDelegate",
+      "namespace": "",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "_IsEnabled",
+          "offset": 0,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "Options",
+          "offset": 8,
+          "type": "Unity.Burst.BurstCompilerOptions"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "OnCompileILPPMethod2",
+          "offset": 16,
+          "type": "System.Action"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "DummyMethodInfo",
+          "offset": 24,
+          "type": "System.Reflection.MethodInfo"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsEnabled",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CompileILPPMethod2",
+          "parameters": [
+            {
+              "name": "burstMethodHandle",
+              "type": "System.RuntimeMethodHandle"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetILPPMethodFunctionPointer2",
+          "parameters": [
+            {
+              "name": "ilppMethod",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "managedMethodHandle",
+              "type": "System.RuntimeMethodHandle"
+            },
+            {
+              "name": "delegateTypeHandle",
+              "type": "System.RuntimeTypeHandle"
+            }
+          ],
+          "return_type": "System.Void*"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CompileFunctionPointer",
+          "parameters": [
+            {
+              "name": "delegateMethod",
+              "type": "T"
+            }
+          ],
+          "return_type": "Unity.Burst.FunctionPointer<T>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Compile",
+          "parameters": [
+            {
+              "name": "delegateObj",
+              "type": "System.Object"
+            },
+            {
+              "name": "isFunctionPointer",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void*"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Compile",
+          "parameters": [
+            {
+              "name": "delegateObj",
+              "type": "System.Object"
+            },
+            {
+              "name": "methodInfo",
+              "type": "System.Reflection.MethodInfo"
+            },
+            {
+              "name": "isFunctionPointer",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "isILPostProcessing",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void*"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DummyMethod",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "BurstCompiler",
+      "namespace": "Unity.Burst",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "ForceDisableBurstCompilation",
+          "offset": 0,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "ForceBurstCompilationSynchronously",
+          "offset": 1,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "IsSecondaryUnityProcess",
+          "offset": 2,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_enableBurstCompilation",
+          "offset": 16,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_enableBurstSafetyChecks",
+          "offset": 17,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<IsGlobal>k__BackingField",
+          "offset": 18,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<OptionsChanged>k__BackingField",
+          "offset": 24,
+          "type": "System.Action"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "isGlobal",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsGlobal",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_EnableBurstCompilation",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_EnableBurstCompilation",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_EnableBurstSafetyChecks",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_OptionsChanged",
+          "parameters": [],
+          "return_type": "System.Action"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryGetAttribute",
+          "parameters": [
+            {
+              "name": "member",
+              "type": "System.Reflection.MemberInfo"
+            },
+            {
+              "name": "attribute",
+              "type": "Unity.Burst.BurstCompileAttribute&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetBurstCompileAttribute",
+          "parameters": [
+            {
+              "name": "memberInfo",
+              "type": "System.Reflection.MemberInfo"
+            }
+          ],
+          "return_type": "Unity.Burst.BurstCompileAttribute"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HasBurstCompileAttribute",
+          "parameters": [
+            {
+              "name": "member",
+              "type": "System.Reflection.MemberInfo"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnOptionsChanged",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MaybeTriggerRecompilation",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CheckIsSecondaryUnityProcess",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "BurstCompilerOptions",
+      "namespace": "Unity.Burst",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "Value",
+          "offset": 0,
+          "type": "System.Int64"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HashCode64`1",
+      "namespace": "",
+      "type_token": 33554448
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "PreserveAttribute",
+      "namespace": "",
+      "parent": "Attribute",
+      "type_token": 33554449
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode64",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HashStringWithFNV1A64",
+          "parameters": [
+            {
+              "name": "text",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PreventRequiredAttributeStrip",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Log",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "logType",
+              "type": "System.Int32"
+            },
+            {
+              "name": "fileName",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "lineNumber",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "BurstRuntime",
+      "namespace": "Unity.Burst",
+      "type_token": 33554447
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "PreserveAttribute",
+      "namespace": "",
+      "parent": "Attribute",
+      "type_token": 33554451
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Integer",
+          "offset": 0,
+          "type": "Unity.Burst.BurstString.NumberBufferKind"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Float",
+          "offset": 0,
+          "type": "Unity.Burst.BurstString.NumberBufferKind"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "NumberBufferKind",
+      "namespace": "",
+      "type_token": 33554452
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "_buffer",
+          "offset": 16,
+          "type": "System.Byte*"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Kind",
+          "offset": 24,
+          "type": "Unity.Burst.BurstString.NumberBufferKind"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "DigitsCount",
+          "offset": 28,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Scale",
+          "offset": 32,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "IsNegative",
+          "offset": 36,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "kind",
+              "type": "Unity.Burst.BurstString.NumberBufferKind"
+            },
+            {
+              "name": "buffer",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "digitsCount",
+              "type": "System.Int32"
+            },
+            {
+              "name": "scale",
+              "type": "System.Int32"
+            },
+            {
+              "name": "isNegative",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDigitsPointer",
+          "parameters": [],
+          "return_type": "System.Byte*"
+        }
+      ],
+      "name": "NumberBuffer",
+      "namespace": "",
+      "type_token": 33554453
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "General",
+          "offset": 0,
+          "type": "Unity.Burst.BurstString.NumberFormatKind"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Decimal",
+          "offset": 0,
+          "type": "Unity.Burst.BurstString.NumberFormatKind"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "DecimalForceSigned",
+          "offset": 0,
+          "type": "Unity.Burst.BurstString.NumberFormatKind"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Hexadecimal",
+          "offset": 0,
+          "type": "Unity.Burst.BurstString.NumberFormatKind"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "NumberFormatKind",
+      "namespace": "",
+      "type_token": 33554454
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Kind",
+          "offset": 16,
+          "type": "Unity.Burst.BurstString.NumberFormatKind"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "AlignAndSize",
+          "offset": 17,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Specifier",
+          "offset": 18,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Lowercase",
+          "offset": 19,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "kind",
+              "type": "Unity.Burst.BurstString.NumberFormatKind"
+            },
+            {
+              "name": "alignAndSize",
+              "type": "System.SByte"
+            },
+            {
+              "name": "specifier",
+              "type": "System.Byte"
+            },
+            {
+              "name": "lowercase",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Uppercase",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetBase",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "FormatOptions",
+      "namespace": "",
+      "type_token": 33554455
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_length",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_blocks",
+          "offset": 20,
+          "type": "Unity.Burst.BurstString.tBigInt.<m_blocks>e__FixedBuffer"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLength",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetBlock",
+          "parameters": [
+            {
+              "name": "idx",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsZero",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetU64",
+          "parameters": [
+            {
+              "name": "val",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetU32",
+          "parameters": [
+            {
+              "name": "val",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "tBigInt",
+      "namespace": "",
+      "type_token": 33554456
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Unique",
+          "offset": 0,
+          "type": "Unity.Burst.BurstString.CutoffMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "TotalLength",
+          "offset": 0,
+          "type": "Unity.Burst.BurstString.CutoffMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FractionLength",
+          "offset": 0,
+          "type": "Unity.Burst.BurstString.CutoffMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "CutoffMode",
+      "namespace": "",
+      "type_token": 33554458
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_floatingPoint",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_integer",
+          "offset": 16,
+          "type": "System.UInt32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsNegative",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetExponent",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMantissa",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        }
+      ],
+      "name": "tFloatUnion32",
+      "namespace": "",
+      "type_token": 33554459
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_floatingPoint",
+          "offset": 16,
+          "type": "System.Double"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_integer",
+          "offset": 16,
+          "type": "System.UInt64"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsNegative",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetExponent",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMantissa",
+          "parameters": [],
+          "return_type": "System.UInt64"
+        }
+      ],
+      "name": "tFloatUnion64",
+      "namespace": "",
+      "type_token": 33554460
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "SplitByColon",
+          "offset": 0,
+          "type": "System.Char[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "logTable",
+          "offset": 8,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "g_PowerOf10_U32",
+          "offset": 16,
+          "type": "System.UInt32[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "InfinityString",
+          "offset": 24,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "NanString",
+          "offset": 32,
+          "type": "System.Byte[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CopyFixedString",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "src",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "srcLength",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Format",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "src",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "srcLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "formatOptionsRaw",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Format",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Single"
+            },
+            {
+              "name": "formatOptionsRaw",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Format",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Double"
+            },
+            {
+              "name": "formatOptionsRaw",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Format",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "formatOptionsRaw",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Format",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Char"
+            },
+            {
+              "name": "formatOptionsRaw",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Format",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Byte"
+            },
+            {
+              "name": "formatOptionsRaw",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Format",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.UInt16"
+            },
+            {
+              "name": "formatOptionsRaw",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Format",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "formatOptionsRaw",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Format",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.UInt64"
+            },
+            {
+              "name": "formatOptionsRaw",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Format",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.SByte"
+            },
+            {
+              "name": "formatOptionsRaw",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Format",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Int16"
+            },
+            {
+              "name": "formatOptionsRaw",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Format",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Int32"
+            },
+            {
+              "name": "formatOptionsRaw",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Format",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Int64"
+            },
+            {
+              "name": "formatOptionsRaw",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConvertUnsignedIntegerToString",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.UInt64"
+            },
+            {
+              "name": "options",
+              "type": "Unity.Burst.BurstString.FormatOptions"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLengthIntegerToString",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int64"
+            },
+            {
+              "name": "basis",
+              "type": "System.Int32"
+            },
+            {
+              "name": "zeroPadding",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConvertIntegerToString",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Int64"
+            },
+            {
+              "name": "options",
+              "type": "Unity.Burst.BurstString.FormatOptions"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FormatNumber",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "number",
+              "type": "Unity.Burst.BurstString.NumberBuffer&"
+            },
+            {
+              "name": "nMaxDigits",
+              "type": "System.Int32"
+            },
+            {
+              "name": "options",
+              "type": "Unity.Burst.BurstString.FormatOptions"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FormatDecimalOrHexadecimal",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "number",
+              "type": "Unity.Burst.BurstString.NumberBuffer&"
+            },
+            {
+              "name": "zeroPadding",
+              "type": "System.Int32"
+            },
+            {
+              "name": "outputPositiveSign",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValueToIntegerChar",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            },
+            {
+              "name": "uppercase",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AlignRight",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "align",
+              "type": "System.Int32"
+            },
+            {
+              "name": "length",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AlignLeft",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "align",
+              "type": "System.Int32"
+            },
+            {
+              "name": "length",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLengthForFormatGeneral",
+          "parameters": [
+            {
+              "name": "number",
+              "type": "Unity.Burst.BurstString.NumberBuffer&"
+            },
+            {
+              "name": "nMaxDigits",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FormatGeneral",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "number",
+              "type": "Unity.Burst.BurstString.NumberBuffer&"
+            },
+            {
+              "name": "nMaxDigits",
+              "type": "System.Int32"
+            },
+            {
+              "name": "expChar",
+              "type": "System.Byte"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RoundNumber",
+          "parameters": [
+            {
+              "name": "number",
+              "type": "Unity.Burst.BurstString.NumberBuffer&"
+            },
+            {
+              "name": "pos",
+              "type": "System.Int32"
+            },
+            {
+              "name": "isCorrectlyRounded",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ShouldRoundUp",
+          "parameters": [
+            {
+              "name": "dig",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "i",
+              "type": "System.Int32"
+            },
+            {
+              "name": "isCorrectlyRounded",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogBase2",
+          "parameters": [
+            {
+              "name": "val",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BigInt_Compare",
+          "parameters": [
+            {
+              "name": "lhs",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            },
+            {
+              "name": "rhs",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BigInt_Add",
+          "parameters": [
+            {
+              "name": "pResult",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            },
+            {
+              "name": "lhs",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            },
+            {
+              "name": "rhs",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BigInt_Add_internal",
+          "parameters": [
+            {
+              "name": "pResult",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            },
+            {
+              "name": "pLarge",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            },
+            {
+              "name": "pSmall",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BigInt_Multiply",
+          "parameters": [
+            {
+              "name": "pResult",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            },
+            {
+              "name": "lhs",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            },
+            {
+              "name": "rhs",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BigInt_Multiply_internal",
+          "parameters": [
+            {
+              "name": "pResult",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            },
+            {
+              "name": "pLarge",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            },
+            {
+              "name": "pSmall",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BigInt_Multiply",
+          "parameters": [
+            {
+              "name": "pResult",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            },
+            {
+              "name": "lhs",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            },
+            {
+              "name": "rhs",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BigInt_Multiply2",
+          "parameters": [
+            {
+              "name": "pResult",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            },
+            {
+              "name": "input",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BigInt_Multiply2",
+          "parameters": [
+            {
+              "name": "pResult",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BigInt_Multiply10",
+          "parameters": [
+            {
+              "name": "pResult",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "g_PowerOf10_Big",
+          "parameters": [
+            {
+              "name": "i",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "Unity.Burst.BurstString.tBigInt"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BigInt_Pow10",
+          "parameters": [
+            {
+              "name": "pResult",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            },
+            {
+              "name": "exponent",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BigInt_MultiplyPow10",
+          "parameters": [
+            {
+              "name": "pResult",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            },
+            {
+              "name": "input",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            },
+            {
+              "name": "exponent",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BigInt_Pow2",
+          "parameters": [
+            {
+              "name": "pResult",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            },
+            {
+              "name": "exponent",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BigInt_DivideWithRemainder_MaxQuotient9",
+          "parameters": [
+            {
+              "name": "pDividend",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            },
+            {
+              "name": "divisor",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BigInt_ShiftLeft",
+          "parameters": [
+            {
+              "name": "pResult",
+              "type": "Unity.Burst.BurstString.tBigInt&"
+            },
+            {
+              "name": "shift",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dragon4",
+          "parameters": [
+            {
+              "name": "mantissa",
+              "type": "System.UInt64"
+            },
+            {
+              "name": "exponent",
+              "type": "System.Int32"
+            },
+            {
+              "name": "mantissaHighBitIdx",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "hasUnequalMargins",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "cutoffMode",
+              "type": "Unity.Burst.BurstString.CutoffMode"
+            },
+            {
+              "name": "cutoffNumber",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "pOutBuffer",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "bufferSize",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "pOutExponent",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FormatInfinityNaN",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "mantissa",
+              "type": "System.UInt64"
+            },
+            {
+              "name": "isNegative",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "formatOptions",
+              "type": "Unity.Burst.BurstString.FormatOptions"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConvertFloatToString",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Single"
+            },
+            {
+              "name": "formatOptions",
+              "type": "Unity.Burst.BurstString.FormatOptions"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConvertDoubleToString",
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "destIndex",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "destLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Double"
+            },
+            {
+              "name": "formatOptions",
+              "type": "Unity.Burst.BurstString.FormatOptions"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "BurstString",
+      "namespace": "Unity.Burst",
+      "type_token": 33554450
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "_ptr",
+          "offset": 0,
+          "type": "System.IntPtr"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Invoke",
+          "parameters": [],
+          "return_type": "T"
+        }
+      ],
+      "name": "FunctionPointer`1",
+      "namespace": "Unity.Burst",
+      "type_token": 33554461
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "NoAliasAttribute",
+      "namespace": "Unity.Burst",
+      "parent": "Attribute",
+      "type_token": 33554462
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "_buffer",
+          "offset": 0,
+          "type": "System.Void*"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "System.Void*"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Data",
+          "parameters": [],
+          "return_type": "T&"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_UnsafeDataPointer",
+          "parameters": [],
+          "return_type": "System.Void*"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetOrCreate",
+          "parameters": [
+            {
+              "name": "alignment",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "Unity.Burst.SharedStatic<T>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetOrCreateUnsafe",
+          "parameters": [
+            {
+              "name": "alignment",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "hashCode",
+              "type": "System.Int64"
+            },
+            {
+              "name": "subHashCode",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "Unity.Burst.SharedStatic<T>"
+        }
+      ],
+      "name": "SharedStatic`1",
+      "namespace": "Unity.Burst",
+      "type_token": 33554463
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "PreserveAttribute",
+      "namespace": "",
+      "parent": "Attribute",
+      "type_token": 33554465
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetOrCreateSharedStaticInternal",
+          "parameters": [
+            {
+              "name": "getHashCode64",
+              "type": "System.Int64"
+            },
+            {
+              "name": "getSubHashCode64",
+              "type": "System.Int64"
+            },
+            {
+              "name": "sizeOf",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "alignment",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void*"
+        }
+      ],
+      "name": "SharedStatic",
+      "namespace": "Unity.Burst",
+      "type_token": 33554464
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "umul128",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.UInt64"
+            },
+            {
+              "name": "y",
+              "type": "System.UInt64"
+            },
+            {
+              "name": "high",
+              "type": "System.UInt64&"
+            }
+          ],
+          "return_type": "System.UInt64"
+        }
+      ],
+      "name": "Common",
+      "namespace": "Unity.Burst.Intrinsics",
+      "type_token": 33554466
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "BurstTargetCpuAttribute",
+      "namespace": "Unity.Burst.Intrinsics",
+      "parent": "Attribute",
+      "type_token": 33554467
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "V64DebugView",
+      "namespace": "Unity.Burst.Intrinsics",
+      "type_token": 33554468
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "V128DebugView",
+      "namespace": "Unity.Burst.Intrinsics",
+      "type_token": 33554469
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "V256DebugView",
+      "namespace": "Unity.Burst.Intrinsics",
+      "type_token": 33554470
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte0",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte1",
+          "offset": 17,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte2",
+          "offset": 18,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte3",
+          "offset": 19,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte4",
+          "offset": 20,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte5",
+          "offset": 21,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte6",
+          "offset": 22,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte7",
+          "offset": 23,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte8",
+          "offset": 24,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte9",
+          "offset": 25,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte10",
+          "offset": 26,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte11",
+          "offset": 27,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte12",
+          "offset": 28,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte13",
+          "offset": 29,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte14",
+          "offset": 30,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte15",
+          "offset": 31,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte0",
+          "offset": 16,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte1",
+          "offset": 17,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte2",
+          "offset": 18,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte3",
+          "offset": 19,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte4",
+          "offset": 20,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte5",
+          "offset": 21,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte6",
+          "offset": 22,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte7",
+          "offset": 23,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte8",
+          "offset": 24,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte9",
+          "offset": 25,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte10",
+          "offset": 26,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte11",
+          "offset": 27,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte12",
+          "offset": 28,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte13",
+          "offset": 29,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte14",
+          "offset": 30,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte15",
+          "offset": 31,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort0",
+          "offset": 16,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort1",
+          "offset": 18,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort2",
+          "offset": 20,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort3",
+          "offset": 22,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort4",
+          "offset": 24,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort5",
+          "offset": 26,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort6",
+          "offset": 28,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort7",
+          "offset": 30,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort0",
+          "offset": 16,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort1",
+          "offset": 18,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort2",
+          "offset": 20,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort3",
+          "offset": 22,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort4",
+          "offset": 24,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort5",
+          "offset": 26,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort6",
+          "offset": 28,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort7",
+          "offset": 30,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UInt0",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UInt1",
+          "offset": 20,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UInt2",
+          "offset": 24,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UInt3",
+          "offset": 28,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SInt0",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SInt1",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SInt2",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SInt3",
+          "offset": 28,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ULong0",
+          "offset": 16,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ULong1",
+          "offset": 24,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SLong0",
+          "offset": 16,
+          "type": "System.Int64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SLong1",
+          "offset": 24,
+          "type": "System.Int64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Float0",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Float1",
+          "offset": 20,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Float2",
+          "offset": 24,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Float3",
+          "offset": 28,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Double0",
+          "offset": 16,
+          "type": "System.Double"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Double1",
+          "offset": 24,
+          "type": "System.Double"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Lo64",
+          "offset": 16,
+          "type": "Unity.Burst.Intrinsics.v64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Hi64",
+          "offset": 24,
+          "type": "Unity.Burst.Intrinsics.v64"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "v128",
+      "namespace": "Unity.Burst.Intrinsics",
+      "type_token": 33554471
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte0",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte1",
+          "offset": 17,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte2",
+          "offset": 18,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte3",
+          "offset": 19,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte4",
+          "offset": 20,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte5",
+          "offset": 21,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte6",
+          "offset": 22,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte7",
+          "offset": 23,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte8",
+          "offset": 24,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte9",
+          "offset": 25,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte10",
+          "offset": 26,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte11",
+          "offset": 27,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte12",
+          "offset": 28,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte13",
+          "offset": 29,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte14",
+          "offset": 30,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte15",
+          "offset": 31,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte16",
+          "offset": 32,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte17",
+          "offset": 33,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte18",
+          "offset": 34,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte19",
+          "offset": 35,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte20",
+          "offset": 36,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte21",
+          "offset": 37,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte22",
+          "offset": 38,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte23",
+          "offset": 39,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte24",
+          "offset": 40,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte25",
+          "offset": 41,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte26",
+          "offset": 42,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte27",
+          "offset": 43,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte28",
+          "offset": 44,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte29",
+          "offset": 45,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte30",
+          "offset": 46,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte31",
+          "offset": 47,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte0",
+          "offset": 16,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte1",
+          "offset": 17,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte2",
+          "offset": 18,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte3",
+          "offset": 19,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte4",
+          "offset": 20,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte5",
+          "offset": 21,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte6",
+          "offset": 22,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte7",
+          "offset": 23,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte8",
+          "offset": 24,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte9",
+          "offset": 25,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte10",
+          "offset": 26,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte11",
+          "offset": 27,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte12",
+          "offset": 28,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte13",
+          "offset": 29,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte14",
+          "offset": 30,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte15",
+          "offset": 31,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte16",
+          "offset": 32,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte17",
+          "offset": 33,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte18",
+          "offset": 34,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte19",
+          "offset": 35,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte20",
+          "offset": 36,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte21",
+          "offset": 37,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte22",
+          "offset": 38,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte23",
+          "offset": 39,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte24",
+          "offset": 40,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte25",
+          "offset": 41,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte26",
+          "offset": 42,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte27",
+          "offset": 43,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte28",
+          "offset": 44,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte29",
+          "offset": 45,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte30",
+          "offset": 46,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte31",
+          "offset": 47,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort0",
+          "offset": 16,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort1",
+          "offset": 18,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort2",
+          "offset": 20,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort3",
+          "offset": 22,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort4",
+          "offset": 24,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort5",
+          "offset": 26,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort6",
+          "offset": 28,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort7",
+          "offset": 30,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort8",
+          "offset": 32,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort9",
+          "offset": 34,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort10",
+          "offset": 36,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort11",
+          "offset": 38,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort12",
+          "offset": 40,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort13",
+          "offset": 42,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort14",
+          "offset": 44,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort15",
+          "offset": 46,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort0",
+          "offset": 16,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort1",
+          "offset": 18,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort2",
+          "offset": 20,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort3",
+          "offset": 22,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort4",
+          "offset": 24,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort5",
+          "offset": 26,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort6",
+          "offset": 28,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort7",
+          "offset": 30,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort8",
+          "offset": 32,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort9",
+          "offset": 34,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort10",
+          "offset": 36,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort11",
+          "offset": 38,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort12",
+          "offset": 40,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort13",
+          "offset": 42,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort14",
+          "offset": 44,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort15",
+          "offset": 46,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UInt0",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UInt1",
+          "offset": 20,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UInt2",
+          "offset": 24,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UInt3",
+          "offset": 28,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UInt4",
+          "offset": 32,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UInt5",
+          "offset": 36,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UInt6",
+          "offset": 40,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UInt7",
+          "offset": 44,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SInt0",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SInt1",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SInt2",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SInt3",
+          "offset": 28,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SInt4",
+          "offset": 32,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SInt5",
+          "offset": 36,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SInt6",
+          "offset": 40,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SInt7",
+          "offset": 44,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ULong0",
+          "offset": 16,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ULong1",
+          "offset": 24,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ULong2",
+          "offset": 32,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ULong3",
+          "offset": 40,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SLong0",
+          "offset": 16,
+          "type": "System.Int64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SLong1",
+          "offset": 24,
+          "type": "System.Int64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SLong2",
+          "offset": 32,
+          "type": "System.Int64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SLong3",
+          "offset": 40,
+          "type": "System.Int64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Float0",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Float1",
+          "offset": 20,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Float2",
+          "offset": 24,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Float3",
+          "offset": 28,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Float4",
+          "offset": 32,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Float5",
+          "offset": 36,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Float6",
+          "offset": 40,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Float7",
+          "offset": 44,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Double0",
+          "offset": 16,
+          "type": "System.Double"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Double1",
+          "offset": 24,
+          "type": "System.Double"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Double2",
+          "offset": 32,
+          "type": "System.Double"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Double3",
+          "offset": 40,
+          "type": "System.Double"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Lo128",
+          "offset": 16,
+          "type": "Unity.Burst.Intrinsics.v128"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Hi128",
+          "offset": 32,
+          "type": "Unity.Burst.Intrinsics.v128"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "v",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "lo",
+              "type": "Unity.Burst.Intrinsics.v128"
+            },
+            {
+              "name": "hi",
+              "type": "Unity.Burst.Intrinsics.v128"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "v256",
+      "namespace": "Unity.Burst.Intrinsics",
+      "type_token": 33554472
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte0",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte1",
+          "offset": 17,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte2",
+          "offset": 18,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte3",
+          "offset": 19,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte4",
+          "offset": 20,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte5",
+          "offset": 21,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte6",
+          "offset": 22,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Byte7",
+          "offset": 23,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte0",
+          "offset": 16,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte1",
+          "offset": 17,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte2",
+          "offset": 18,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte3",
+          "offset": 19,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte4",
+          "offset": 20,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte5",
+          "offset": 21,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte6",
+          "offset": 22,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SByte7",
+          "offset": 23,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort0",
+          "offset": 16,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort1",
+          "offset": 18,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort2",
+          "offset": 20,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UShort3",
+          "offset": 22,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort0",
+          "offset": 16,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort1",
+          "offset": 18,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort2",
+          "offset": 20,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SShort3",
+          "offset": 22,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UInt0",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UInt1",
+          "offset": 20,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SInt0",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SInt1",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ULong0",
+          "offset": 16,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "SLong0",
+          "offset": 16,
+          "type": "System.Int64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Float0",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Float1",
+          "offset": 20,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Double0",
+          "offset": 16,
+          "type": "System.Double"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "v64",
+      "namespace": "Unity.Burst.Intrinsics",
+      "type_token": 33554473
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "mm256_load_ps",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "System.Void*"
+            }
+          ],
+          "return_type": "Unity.Burst.Intrinsics.v256"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "mm256_store_ps",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "System.Void*"
+            },
+            {
+              "name": "val",
+              "type": "Unity.Burst.Intrinsics.v256"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "mm256_loadu_si256",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "System.Void*"
+            }
+          ],
+          "return_type": "Unity.Burst.Intrinsics.v256"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "mm256_storeu_si256",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "System.Void*"
+            },
+            {
+              "name": "v",
+              "type": "Unity.Burst.Intrinsics.v256"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "mm256_set1_epi32",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "Unity.Burst.Intrinsics.v256"
+        }
+      ],
+      "name": "Avx",
+      "namespace": "",
+      "type_token": 33554475
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsAvx2Supported",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "mm256_xor_si256",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "Unity.Burst.Intrinsics.v256"
+            },
+            {
+              "name": "b",
+              "type": "Unity.Burst.Intrinsics.v256"
+            }
+          ],
+          "return_type": "Unity.Burst.Intrinsics.v256"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "mm256_add_epi64",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "Unity.Burst.Intrinsics.v256"
+            },
+            {
+              "name": "b",
+              "type": "Unity.Burst.Intrinsics.v256"
+            }
+          ],
+          "return_type": "Unity.Burst.Intrinsics.v256"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "mm256_mul_epu32",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "Unity.Burst.Intrinsics.v256"
+            },
+            {
+              "name": "b",
+              "type": "Unity.Burst.Intrinsics.v256"
+            }
+          ],
+          "return_type": "Unity.Burst.Intrinsics.v256"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "mm256_slli_epi64",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "Unity.Burst.Intrinsics.v256"
+            },
+            {
+              "name": "imm8",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "Unity.Burst.Intrinsics.v256"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "mm256_srli_epi64",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "Unity.Burst.Intrinsics.v256"
+            },
+            {
+              "name": "imm8",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "Unity.Burst.Intrinsics.v256"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "mm256_shuffle_epi32",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "Unity.Burst.Intrinsics.v256"
+            },
+            {
+              "name": "imm8",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "Unity.Burst.Intrinsics.v256"
+        }
+      ],
+      "name": "Avx2",
+      "namespace": "",
+      "type_token": 33554476
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SHUFFLE",
+          "parameters": [
+            {
+              "name": "d",
+              "type": "System.Int32"
+            },
+            {
+              "name": "c",
+              "type": "System.Int32"
+            },
+            {
+              "name": "b",
+              "type": "System.Int32"
+            },
+            {
+              "name": "a",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "Sse",
+      "namespace": "",
+      "type_token": 33554477
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_epi64",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "Unity.Burst.Intrinsics.v128"
+            },
+            {
+              "name": "b",
+              "type": "Unity.Burst.Intrinsics.v128"
+            }
+          ],
+          "return_type": "Unity.Burst.Intrinsics.v128"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "mul_epu32",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "Unity.Burst.Intrinsics.v128"
+            },
+            {
+              "name": "b",
+              "type": "Unity.Burst.Intrinsics.v128"
+            }
+          ],
+          "return_type": "Unity.Burst.Intrinsics.v128"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "slli_epi64",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "Unity.Burst.Intrinsics.v128"
+            },
+            {
+              "name": "imm8",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "Unity.Burst.Intrinsics.v128"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "srli_epi64",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "Unity.Burst.Intrinsics.v128"
+            },
+            {
+              "name": "imm8",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "Unity.Burst.Intrinsics.v128"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "xor_si128",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "Unity.Burst.Intrinsics.v128"
+            },
+            {
+              "name": "b",
+              "type": "Unity.Burst.Intrinsics.v128"
+            }
+          ],
+          "return_type": "Unity.Burst.Intrinsics.v128"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "shuffle_epi32",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "Unity.Burst.Intrinsics.v128"
+            },
+            {
+              "name": "imm8",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "Unity.Burst.Intrinsics.v128"
+        }
+      ],
+      "name": "Sse2",
+      "namespace": "",
+      "type_token": 33554478
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "X86",
+      "namespace": "Unity.Burst.Intrinsics",
+      "type_token": 33554474
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "min",
+              "type": "System.Int64"
+            },
+            {
+              "name": "max",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AssumeRangeAttribute",
+      "namespace": "Unity.Burst.CompilerServices",
+      "parent": "Attribute",
+      "type_token": 33554479
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Likely",
+          "parameters": [
+            {
+              "name": "condition",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "Hint",
+      "namespace": "Unity.Burst.CompilerServices",
+      "type_token": 33554480
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "__StaticArrayInitTypeSize=3",
+      "namespace": "",
+      "type_token": 33554482
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "__StaticArrayInitTypeSize=32",
+      "namespace": "",
+      "type_token": 33554483
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "__StaticArrayInitTypeSize=256",
+      "namespace": "",
+      "type_token": 33554484
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Unity.Burst.dll"
+}

@@ -1,0 +1,141 @@
+{
+  "class_count": 2,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EncodeToTGA",
+          "parameters": [
+            {
+              "name": "tex",
+              "type": "UnityEngine.Texture2D"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EncodeToPNG",
+          "parameters": [
+            {
+              "name": "tex",
+              "type": "UnityEngine.Texture2D"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EncodeToJPG",
+          "parameters": [
+            {
+              "name": "tex",
+              "type": "UnityEngine.Texture2D"
+            },
+            {
+              "name": "quality",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EncodeToJPG",
+          "parameters": [
+            {
+              "name": "tex",
+              "type": "UnityEngine.Texture2D"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EncodeToEXR",
+          "parameters": [
+            {
+              "name": "tex",
+              "type": "UnityEngine.Texture2D"
+            },
+            {
+              "name": "flags",
+              "type": "UnityEngine.Texture2D.EXRFlags"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EncodeToEXR",
+          "parameters": [
+            {
+              "name": "tex",
+              "type": "UnityEngine.Texture2D"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadImage",
+          "parameters": [
+            {
+              "name": "tex",
+              "type": "UnityEngine.Texture2D"
+            },
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "markNonReadable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadImage",
+          "parameters": [
+            {
+              "name": "tex",
+              "type": "UnityEngine.Texture2D"
+            },
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "ImageConversion",
+      "namespace": "UnityEngine",
+      "type_token": 33554434
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.ImageConversionModule.dll"
+}

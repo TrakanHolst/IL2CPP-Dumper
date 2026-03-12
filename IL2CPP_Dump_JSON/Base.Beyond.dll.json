@@ -1,0 +1,2921 @@
+{
+  "class_count": 20,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "EmbeddedAttribute",
+      "namespace": "Microsoft.CodeAnalysis",
+      "parent": "Attribute",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IsUnmanagedAttribute",
+      "namespace": "System.Runtime.CompilerServices",
+      "parent": "Attribute",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "NullChecks",
+          "offset": 0,
+          "type": "Unity.IL2CPP.CompilerServices.Option"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ArrayBoundsChecks",
+          "offset": 0,
+          "type": "Unity.IL2CPP.CompilerServices.Option"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "DivideByZeroChecks",
+          "offset": 0,
+          "type": "Unity.IL2CPP.CompilerServices.Option"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Option",
+      "namespace": "Unity.IL2CPP.CompilerServices",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<Option>k__BackingField",
+          "offset": 16,
+          "type": "Unity.IL2CPP.CompilerServices.Option"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<Value>k__BackingField",
+          "offset": 24,
+          "type": "System.Object"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Option",
+          "parameters": [],
+          "return_type": "Unity.IL2CPP.CompilerServices.Option"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Option",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "Unity.IL2CPP.CompilerServices.Option"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Value",
+          "parameters": [],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Value",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "option",
+              "type": "Unity.IL2CPP.CompilerServices.Option"
+            },
+            {
+              "name": "value",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Il2CppSetOptionAttribute",
+      "namespace": "Unity.IL2CPP.CompilerServices",
+      "parent": "Attribute",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddRange",
+          "parameters": [
+            {
+              "name": "hashSet",
+              "type": "System.Collections.Generic.HashSet<T>"
+            },
+            {
+              "name": "range",
+              "type": "System.Collections.Generic.IEnumerable<T>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DeepClone",
+          "parameters": [
+            {
+              "name": "hashSet",
+              "type": "System.Collections.Generic.HashSet<T>"
+            }
+          ],
+          "return_type": "System.Collections.Generic.HashSet<T>"
+        }
+      ],
+      "name": "CollectionUtils",
+      "namespace": "Beyond",
+      "type_token": 33554438
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsTrue",
+          "parameters": [
+            {
+              "name": "condition",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsTrue",
+          "parameters": [
+            {
+              "name": "condition",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsFalse",
+          "parameters": [
+            {
+              "name": "condition",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsFalse",
+          "parameters": [
+            {
+              "name": "condition",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsNotNull",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsNull",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "DebugAssert",
+      "namespace": "Beyond",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "_enumCountCache",
+          "offset": 0,
+          "type": "System.Collections.Generic.Dictionary<System.Type,System.Int32>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumCount",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromIntNoGC",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "TEnum"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IntToEnumNoGC",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "TEnum"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "EnumUtils",
+      "namespace": "Beyond",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "m_dict",
+          "offset": 0,
+          "type": "System.Collections.Generic.Dictionary<TKey,TValue>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "m_list",
+          "offset": 0,
+          "type": "System.Collections.Generic.List<TValue>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryAdd",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "TKey"
+            },
+            {
+              "name": "value",
+              "type": "TValue"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryGetValue",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "TKey"
+            },
+            {
+              "name": "value",
+              "type": "TValue&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ContainsKey",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "TKey"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_items",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IReadOnlyList<TValue>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "StaticFastLookupCollection`2",
+      "namespace": "Beyond",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_dict",
+          "offset": 0,
+          "type": "System.Collections.Generic.Dictionary<TKey,TValue>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_list",
+          "offset": 0,
+          "type": "System.Collections.Generic.List<System.ValueTuple<TKey,TValue>>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "m_keyComparer",
+          "offset": 0,
+          "type": "System.Collections.Generic.IEqualityComparer<TKey>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryAdd",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "TKey"
+            },
+            {
+              "name": "value",
+              "type": "TValue"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "TKey"
+            },
+            {
+              "name": "value",
+              "type": "TValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Count",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryGetValue",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "TKey"
+            },
+            {
+              "name": "value",
+              "type": "TValue&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ContainsKey",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "TKey"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "TKey"
+            },
+            {
+              "name": "value",
+              "type": "TValue&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "TKey"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_items",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IReadOnlyList<System.ValueTuple<TKey,TValue>>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "DynamicFastLookupCollection`2",
+      "namespace": "Beyond",
+      "type_token": 33554442
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Object"
+            },
+            {
+              "name": "",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "str1",
+              "type": "System.Int16*"
+            },
+            {
+              "name": "str2",
+              "type": "System.Int16*"
+            },
+            {
+              "name": "len",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginInvoke",
+          "parameters": [
+            {
+              "name": "str1",
+              "type": "System.Int16*"
+            },
+            {
+              "name": "str2",
+              "type": "System.Int16*"
+            },
+            {
+              "name": "len",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.AsyncCallback"
+            },
+            {
+              "name": "",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.IAsyncResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndInvoke",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "_EqualsIgnoreCase_0000002C$PostfixBurstDelegate",
+      "namespace": "Beyond",
+      "parent": "MulticastDelegate",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Pointer",
+          "offset": 0,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "DeferredCompilation",
+          "offset": 8,
+          "type": "System.IntPtr"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetFunctionPointerDiscard",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.IntPtr&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetFunctionPointer",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Constructor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Initialize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "str1",
+              "type": "System.Int16*"
+            },
+            {
+              "name": "str2",
+              "type": "System.Int16*"
+            },
+            {
+              "name": "len",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "_EqualsIgnoreCase_0000002C$BurstDirectCall",
+      "namespace": "Beyond",
+      "type_token": 33554445
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LowerFirst",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.String"
+            },
+            {
+              "name": "includeAllStartUppers",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TrimStartLength",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.String"
+            },
+            {
+              "name": "lengthString",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TrimStartLength",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.String"
+            },
+            {
+              "name": "length",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TrimEndLength",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.String"
+            },
+            {
+              "name": "lengthString",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TrimEndLength",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.String"
+            },
+            {
+              "name": "length",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Trim",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.String"
+            },
+            {
+              "name": "startLengthString",
+              "type": "System.String"
+            },
+            {
+              "name": "endLengthString",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EqualsIgnoreCase",
+          "parameters": [
+            {
+              "name": "strA",
+              "type": "System.String"
+            },
+            {
+              "name": "strB",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_EqualsIgnoreCase",
+          "parameters": [
+            {
+              "name": "str1",
+              "type": "System.Int16*"
+            },
+            {
+              "name": "str2",
+              "type": "System.Int16*"
+            },
+            {
+              "name": "len",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SafeValue",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateZStringBuilder",
+          "parameters": [],
+          "return_type": "Cysharp.Text.Utf16ValueStringBuilder"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZConcat",
+          "parameters": [
+            {
+              "name": "arg1",
+              "type": "T1"
+            },
+            {
+              "name": "arg2",
+              "type": "T2"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZConcat",
+          "parameters": [
+            {
+              "name": "arg1",
+              "type": "T1"
+            },
+            {
+              "name": "arg2",
+              "type": "T2"
+            },
+            {
+              "name": "arg3",
+              "type": "T3"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZConcat",
+          "parameters": [
+            {
+              "name": "arg1",
+              "type": "T1"
+            },
+            {
+              "name": "arg2",
+              "type": "T2"
+            },
+            {
+              "name": "arg3",
+              "type": "T3"
+            },
+            {
+              "name": "arg4",
+              "type": "T4"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZConcat",
+          "parameters": [
+            {
+              "name": "arg1",
+              "type": "T1"
+            },
+            {
+              "name": "arg2",
+              "type": "T2"
+            },
+            {
+              "name": "arg3",
+              "type": "T3"
+            },
+            {
+              "name": "arg4",
+              "type": "T4"
+            },
+            {
+              "name": "arg5",
+              "type": "T5"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZConcat",
+          "parameters": [
+            {
+              "name": "arg1",
+              "type": "T1"
+            },
+            {
+              "name": "arg2",
+              "type": "T2"
+            },
+            {
+              "name": "arg3",
+              "type": "T3"
+            },
+            {
+              "name": "arg4",
+              "type": "T4"
+            },
+            {
+              "name": "arg5",
+              "type": "T5"
+            },
+            {
+              "name": "arg6",
+              "type": "T6"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZConcat",
+          "parameters": [
+            {
+              "name": "arg1",
+              "type": "T1"
+            },
+            {
+              "name": "arg2",
+              "type": "T2"
+            },
+            {
+              "name": "arg3",
+              "type": "T3"
+            },
+            {
+              "name": "arg4",
+              "type": "T4"
+            },
+            {
+              "name": "arg5",
+              "type": "T5"
+            },
+            {
+              "name": "arg6",
+              "type": "T6"
+            },
+            {
+              "name": "arg7",
+              "type": "T7"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZConcat",
+          "parameters": [
+            {
+              "name": "arg1",
+              "type": "T1"
+            },
+            {
+              "name": "arg2",
+              "type": "T2"
+            },
+            {
+              "name": "arg3",
+              "type": "T3"
+            },
+            {
+              "name": "arg4",
+              "type": "T4"
+            },
+            {
+              "name": "arg5",
+              "type": "T5"
+            },
+            {
+              "name": "arg6",
+              "type": "T6"
+            },
+            {
+              "name": "arg7",
+              "type": "T7"
+            },
+            {
+              "name": "arg8",
+              "type": "T8"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZConcat",
+          "parameters": [
+            {
+              "name": "arg1",
+              "type": "T1"
+            },
+            {
+              "name": "arg2",
+              "type": "T2"
+            },
+            {
+              "name": "arg3",
+              "type": "T3"
+            },
+            {
+              "name": "arg4",
+              "type": "T4"
+            },
+            {
+              "name": "arg5",
+              "type": "T5"
+            },
+            {
+              "name": "arg6",
+              "type": "T6"
+            },
+            {
+              "name": "arg7",
+              "type": "T7"
+            },
+            {
+              "name": "arg8",
+              "type": "T8"
+            },
+            {
+              "name": "arg9",
+              "type": "T9"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZConcat",
+          "parameters": [
+            {
+              "name": "arg1",
+              "type": "T1"
+            },
+            {
+              "name": "arg2",
+              "type": "T2"
+            },
+            {
+              "name": "arg3",
+              "type": "T3"
+            },
+            {
+              "name": "arg4",
+              "type": "T4"
+            },
+            {
+              "name": "arg5",
+              "type": "T5"
+            },
+            {
+              "name": "arg6",
+              "type": "T6"
+            },
+            {
+              "name": "arg7",
+              "type": "T7"
+            },
+            {
+              "name": "arg8",
+              "type": "T8"
+            },
+            {
+              "name": "arg9",
+              "type": "T9"
+            },
+            {
+              "name": "arg10",
+              "type": "T10"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZConcat",
+          "parameters": [
+            {
+              "name": "arg1",
+              "type": "T1"
+            },
+            {
+              "name": "arg2",
+              "type": "T2"
+            },
+            {
+              "name": "arg3",
+              "type": "T3"
+            },
+            {
+              "name": "arg4",
+              "type": "T4"
+            },
+            {
+              "name": "arg5",
+              "type": "T5"
+            },
+            {
+              "name": "arg6",
+              "type": "T6"
+            },
+            {
+              "name": "arg7",
+              "type": "T7"
+            },
+            {
+              "name": "arg8",
+              "type": "T8"
+            },
+            {
+              "name": "arg9",
+              "type": "T9"
+            },
+            {
+              "name": "arg10",
+              "type": "T10"
+            },
+            {
+              "name": "arg11",
+              "type": "T11"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZConcat",
+          "parameters": [
+            {
+              "name": "arg1",
+              "type": "T1"
+            },
+            {
+              "name": "arg2",
+              "type": "T2"
+            },
+            {
+              "name": "arg3",
+              "type": "T3"
+            },
+            {
+              "name": "arg4",
+              "type": "T4"
+            },
+            {
+              "name": "arg5",
+              "type": "T5"
+            },
+            {
+              "name": "arg6",
+              "type": "T6"
+            },
+            {
+              "name": "arg7",
+              "type": "T7"
+            },
+            {
+              "name": "arg8",
+              "type": "T8"
+            },
+            {
+              "name": "arg9",
+              "type": "T9"
+            },
+            {
+              "name": "arg10",
+              "type": "T10"
+            },
+            {
+              "name": "arg11",
+              "type": "T11"
+            },
+            {
+              "name": "arg12",
+              "type": "T12"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZConcat",
+          "parameters": [
+            {
+              "name": "arg1",
+              "type": "T1"
+            },
+            {
+              "name": "arg2",
+              "type": "T2"
+            },
+            {
+              "name": "arg3",
+              "type": "T3"
+            },
+            {
+              "name": "arg4",
+              "type": "T4"
+            },
+            {
+              "name": "arg5",
+              "type": "T5"
+            },
+            {
+              "name": "arg6",
+              "type": "T6"
+            },
+            {
+              "name": "arg7",
+              "type": "T7"
+            },
+            {
+              "name": "arg8",
+              "type": "T8"
+            },
+            {
+              "name": "arg9",
+              "type": "T9"
+            },
+            {
+              "name": "arg10",
+              "type": "T10"
+            },
+            {
+              "name": "arg11",
+              "type": "T11"
+            },
+            {
+              "name": "arg12",
+              "type": "T12"
+            },
+            {
+              "name": "arg13",
+              "type": "T13"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZConcat",
+          "parameters": [
+            {
+              "name": "arg1",
+              "type": "T1"
+            },
+            {
+              "name": "arg2",
+              "type": "T2"
+            },
+            {
+              "name": "arg3",
+              "type": "T3"
+            },
+            {
+              "name": "arg4",
+              "type": "T4"
+            },
+            {
+              "name": "arg5",
+              "type": "T5"
+            },
+            {
+              "name": "arg6",
+              "type": "T6"
+            },
+            {
+              "name": "arg7",
+              "type": "T7"
+            },
+            {
+              "name": "arg8",
+              "type": "T8"
+            },
+            {
+              "name": "arg9",
+              "type": "T9"
+            },
+            {
+              "name": "arg10",
+              "type": "T10"
+            },
+            {
+              "name": "arg11",
+              "type": "T11"
+            },
+            {
+              "name": "arg12",
+              "type": "T12"
+            },
+            {
+              "name": "arg13",
+              "type": "T13"
+            },
+            {
+              "name": "arg14",
+              "type": "T14"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZConcat",
+          "parameters": [
+            {
+              "name": "arg1",
+              "type": "T1"
+            },
+            {
+              "name": "arg2",
+              "type": "T2"
+            },
+            {
+              "name": "arg3",
+              "type": "T3"
+            },
+            {
+              "name": "arg4",
+              "type": "T4"
+            },
+            {
+              "name": "arg5",
+              "type": "T5"
+            },
+            {
+              "name": "arg6",
+              "type": "T6"
+            },
+            {
+              "name": "arg7",
+              "type": "T7"
+            },
+            {
+              "name": "arg8",
+              "type": "T8"
+            },
+            {
+              "name": "arg9",
+              "type": "T9"
+            },
+            {
+              "name": "arg10",
+              "type": "T10"
+            },
+            {
+              "name": "arg11",
+              "type": "T11"
+            },
+            {
+              "name": "arg12",
+              "type": "T12"
+            },
+            {
+              "name": "arg13",
+              "type": "T13"
+            },
+            {
+              "name": "arg14",
+              "type": "T14"
+            },
+            {
+              "name": "arg15",
+              "type": "T15"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZConcat",
+          "parameters": [
+            {
+              "name": "arg1",
+              "type": "T1"
+            },
+            {
+              "name": "arg2",
+              "type": "T2"
+            },
+            {
+              "name": "arg3",
+              "type": "T3"
+            },
+            {
+              "name": "arg4",
+              "type": "T4"
+            },
+            {
+              "name": "arg5",
+              "type": "T5"
+            },
+            {
+              "name": "arg6",
+              "type": "T6"
+            },
+            {
+              "name": "arg7",
+              "type": "T7"
+            },
+            {
+              "name": "arg8",
+              "type": "T8"
+            },
+            {
+              "name": "arg9",
+              "type": "T9"
+            },
+            {
+              "name": "arg10",
+              "type": "T10"
+            },
+            {
+              "name": "arg11",
+              "type": "T11"
+            },
+            {
+              "name": "arg12",
+              "type": "T12"
+            },
+            {
+              "name": "arg13",
+              "type": "T13"
+            },
+            {
+              "name": "arg14",
+              "type": "T14"
+            },
+            {
+              "name": "arg15",
+              "type": "T15"
+            },
+            {
+              "name": "arg16",
+              "type": "T16"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZFormat",
+          "parameters": [
+            {
+              "name": "format",
+              "type": "System.String"
+            },
+            {
+              "name": "arg1",
+              "type": "T1"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZFormat",
+          "parameters": [
+            {
+              "name": "format",
+              "type": "System.String"
+            },
+            {
+              "name": "arg1",
+              "type": "T1"
+            },
+            {
+              "name": "arg2",
+              "type": "T2"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZFormat",
+          "parameters": [
+            {
+              "name": "format",
+              "type": "System.String"
+            },
+            {
+              "name": "arg1",
+              "type": "T1"
+            },
+            {
+              "name": "arg2",
+              "type": "T2"
+            },
+            {
+              "name": "arg3",
+              "type": "T3"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZFormat",
+          "parameters": [
+            {
+              "name": "format",
+              "type": "System.String"
+            },
+            {
+              "name": "arg1",
+              "type": "T1"
+            },
+            {
+              "name": "arg2",
+              "type": "T2"
+            },
+            {
+              "name": "arg3",
+              "type": "T3"
+            },
+            {
+              "name": "arg4",
+              "type": "T4"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZFormat",
+          "parameters": [
+            {
+              "name": "format",
+              "type": "System.String"
+            },
+            {
+              "name": "arg1",
+              "type": "T1"
+            },
+            {
+              "name": "arg2",
+              "type": "T2"
+            },
+            {
+              "name": "arg3",
+              "type": "T3"
+            },
+            {
+              "name": "arg4",
+              "type": "T4"
+            },
+            {
+              "name": "arg5",
+              "type": "T5"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZFormat",
+          "parameters": [
+            {
+              "name": "format",
+              "type": "System.String"
+            },
+            {
+              "name": "arg1",
+              "type": "T1"
+            },
+            {
+              "name": "arg2",
+              "type": "T2"
+            },
+            {
+              "name": "arg3",
+              "type": "T3"
+            },
+            {
+              "name": "arg4",
+              "type": "T4"
+            },
+            {
+              "name": "arg5",
+              "type": "T5"
+            },
+            {
+              "name": "arg6",
+              "type": "T6"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZJoin",
+          "parameters": [
+            {
+              "name": "separator",
+              "type": "System.Char"
+            },
+            {
+              "name": "values",
+              "type": "T[]"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZJoin",
+          "parameters": [
+            {
+              "name": "separator",
+              "type": "System.Char"
+            },
+            {
+              "name": "values",
+              "type": "System.Collections.Generic.List<T>"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZJoin",
+          "parameters": [
+            {
+              "name": "separator",
+              "type": "System.Char"
+            },
+            {
+              "name": "values",
+              "type": "System.Collections.Generic.IEnumerable<T>"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZJoin",
+          "parameters": [
+            {
+              "name": "separator",
+              "type": "System.Char"
+            },
+            {
+              "name": "values",
+              "type": "System.Collections.Generic.ICollection<T>"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZJoin",
+          "parameters": [
+            {
+              "name": "separator",
+              "type": "System.Char"
+            },
+            {
+              "name": "values",
+              "type": "System.Collections.Generic.IList<T>"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZJoin",
+          "parameters": [
+            {
+              "name": "separator",
+              "type": "System.Char"
+            },
+            {
+              "name": "values",
+              "type": "System.Collections.Generic.IReadOnlyList<T>"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZJoin",
+          "parameters": [
+            {
+              "name": "separator",
+              "type": "System.Char"
+            },
+            {
+              "name": "values",
+              "type": "System.Collections.Generic.IReadOnlyCollection<T>"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZJoin",
+          "parameters": [
+            {
+              "name": "separator",
+              "type": "System.String"
+            },
+            {
+              "name": "values",
+              "type": "System.Collections.Generic.List<T>"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZJoin",
+          "parameters": [
+            {
+              "name": "separator",
+              "type": "System.String"
+            },
+            {
+              "name": "values",
+              "type": "System.Collections.Generic.IEnumerable<T>"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZJoin",
+          "parameters": [
+            {
+              "name": "separator",
+              "type": "System.String"
+            },
+            {
+              "name": "values",
+              "type": "System.Collections.Generic.ICollection<T>"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZJoin",
+          "parameters": [
+            {
+              "name": "separator",
+              "type": "System.String"
+            },
+            {
+              "name": "values",
+              "type": "System.Collections.Generic.IList<T>"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZJoin",
+          "parameters": [
+            {
+              "name": "separator",
+              "type": "System.String"
+            },
+            {
+              "name": "values",
+              "type": "System.Collections.Generic.IReadOnlyList<T>"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ZJoin",
+          "parameters": [
+            {
+              "name": "separator",
+              "type": "System.String"
+            },
+            {
+              "name": "values",
+              "type": "System.Collections.Generic.IReadOnlyCollection<T>"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_EqualsIgnoreCase$BurstManaged",
+          "parameters": [
+            {
+              "name": "str1",
+              "type": "System.Int16*"
+            },
+            {
+              "name": "str2",
+              "type": "System.Int16*"
+            },
+            {
+              "name": "len",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "StringUtils",
+      "namespace": "Beyond",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FONT_PATH",
+          "offset": 0,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Encrypt",
+          "parameters": [
+            {
+              "name": "text",
+              "type": "System.String"
+            },
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IOoOIiII",
+          "parameters": [
+            {
+              "name": "encryptText",
+              "type": "System.String"
+            },
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EncryptBytes",
+          "parameters": [
+            {
+              "name": "bytes",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_IooiIIO",
+          "parameters": [
+            {
+              "name": "encryptText",
+              "type": "System.String"
+            },
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IooiIIO",
+          "parameters": [
+            {
+              "name": "encryptText",
+              "type": "System.String"
+            },
+            {
+              "name": "result",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_Encrypt",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_IIiiIIIoO",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.ReadOnlySpan<System.Byte>"
+            },
+            {
+              "name": "key",
+              "type": "System.String"
+            },
+            {
+              "name": "result",
+              "type": "System.Span<System.Byte>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_IIiiIIIoO",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromBase64String",
+          "parameters": [
+            {
+              "name": "text",
+              "type": "System.String"
+            },
+            {
+              "name": "buffer",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IOOO000iiI",
+      "namespace": "Beyond.Security",
+      "type_token": 33554446
+    },
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IDisposeEnumerator",
+      "namespace": "Beyond.Base",
+      "type_token": 33554447
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Initialize",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "$BurstDirectCallInitializer",
+      "namespace": "",
+      "type_token": 33554448
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "virtualMachine",
+          "offset": 16,
+          "type": "IFix.Core.VirtualMachine"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "methodId",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "anonObj",
+          "offset": 32,
+          "type": "System.Object"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "wrapperArray",
+          "offset": 0,
+          "type": "IFix.ILFixDynamicMethodWrapper[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            },
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "anonObj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_0",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_1",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_2",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_3",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Object"
+            },
+            {
+              "name": "P2",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_4",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_5",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_6",
+          "parameters": [],
+          "return_type": "Cysharp.Text.Utf16ValueStringBuilder"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_7",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_8",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "P2",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_9",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.ReadOnlySpan<System.Byte>"
+            },
+            {
+              "name": "P1",
+              "type": "System.Object"
+            },
+            {
+              "name": "P2",
+              "type": "System.Span<System.Byte>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_10",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "P2",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ILFixDynamicMethodWrapper",
+      "namespace": "IFix",
+      "type_token": 33554449
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "fieldNum",
+              "type": "System.Int32"
+            },
+            {
+              "name": "fieldTypes",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "typeIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vTable",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "methodIdArray",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RefAsyncBuilderStartMethod",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ILFixInterfaceBridge",
+      "namespace": "IFix",
+      "parent": "AnonymousStorey",
+      "type_token": 33554450
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "virtualMachine",
+          "offset": 16,
+          "type": "IFix.Core.VirtualMachine"
+        }
+      ],
+      "interfaces": [
+        "WrappersManager"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPatch",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "IFix.ILFixDynamicMethodWrapper"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsPatched",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateDelegate",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Type"
+            },
+            {
+              "name": "id",
+              "type": "System.Int32"
+            },
+            {
+              "name": "anon",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Delegate"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateWrapper",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitWrapperArray",
+          "parameters": [
+            {
+              "name": "len",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateBridge",
+          "parameters": [
+            {
+              "name": "fieldNum",
+              "type": "System.Int32"
+            },
+            {
+              "name": "fieldTypes",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "typeIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vTable",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "slots",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            }
+          ],
+          "return_type": "IFix.Core.AnonymousStorey"
+        }
+      ],
+      "name": "WrappersManagerImpl",
+      "namespace": "IFix",
+      "type_token": 33554451
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-StringUtils-LowerFirst0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-StringUtils-TrimStartLength0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-StringUtils-TrimStartLength1",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-StringUtils-TrimEndLength0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-StringUtils-TrimEndLength1",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-StringUtils-Trim0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-StringUtils-EqualsIgnoreCase0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-StringUtils-SafeValue0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-StringUtils-CreateZStringBuilder0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Security-IOOO000iiI-_Encrypt0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Security-IOOO000iiI-EncryptBytes0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Security-IOOO000iiI-Encrypt0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Security-IOOO000iiI-_IIiiIIIoO0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Security-IOOO000iiI-_IooiIIO0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Security-IOOO000iiI-IOoOIiII0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Security-IOOO000iiI-IooiIIO0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Security-IOOO000iiI-_IIiiIIIoO1",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Security-IOOO000iiI-FromBase64String0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "IDMAP0",
+      "namespace": "IFix",
+      "type_token": 33554452
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Base.Beyond.dll"
+}

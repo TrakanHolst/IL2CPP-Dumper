@@ -1,0 +1,555 @@
+{
+  "class_count": 14,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Ptr",
+          "offset": 16,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_SubsystemDescriptor",
+          "offset": 24,
+          "type": "UnityEngine.ISubsystemDescriptor"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetHandle",
+          "parameters": [
+            {
+              "name": "subsystem",
+              "type": "UnityEngine.IntegratedSubsystem"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IntegratedSubsystem",
+      "namespace": "UnityEngine",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IntegratedSubsystem`1",
+      "namespace": "UnityEngine",
+      "parent": "IntegratedSubsystem",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Ptr",
+          "offset": 16,
+          "type": "System.IntPtr"
+        }
+      ],
+      "interfaces": [
+        "ISubsystemDescriptor"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_id",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IntegratedSubsystemDescriptor",
+      "namespace": "UnityEngine",
+      "type_token": 33554436
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IntegratedSubsystemDescriptor`1",
+      "namespace": "UnityEngine",
+      "parent": "IntegratedSubsystemDescriptor",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetId",
+          "parameters": [
+            {
+              "name": "descriptorPtr",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "SubsystemDescriptorBindings",
+      "namespace": "UnityEngine",
+      "type_token": 33554438
+    },
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_id",
+          "parameters": [],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "ISubsystemDescriptor",
+      "namespace": "UnityEngine",
+      "type_token": 33554439
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Subsystem",
+      "namespace": "UnityEngine",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<id>k__BackingField",
+          "offset": 16,
+          "type": "System.String"
+        }
+      ],
+      "interfaces": [
+        "ISubsystemDescriptor"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_id",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SubsystemDescriptor",
+      "namespace": "UnityEngine",
+      "type_token": 33554441
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_AddDescriptor",
+          "parameters": [
+            {
+              "name": "descriptor",
+              "type": "UnityEngine.SubsystemDescriptor"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Internal_SubsystemDescriptors",
+      "namespace": "UnityEngine",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "beforeReloadSubsystems",
+          "offset": 0,
+          "type": "System.Action"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "afterReloadSubsystems",
+          "offset": 8,
+          "type": "System.Action"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_IntegratedSubsystems",
+          "offset": 16,
+          "type": "System.Collections.Generic.List<UnityEngine.IntegratedSubsystem>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_StandaloneSubsystems",
+          "offset": 24,
+          "type": "System.Collections.Generic.List<UnityEngine.SubsystemsImplementation.SubsystemWithProvider>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_DeprecatedSubsystems",
+          "offset": 32,
+          "type": "System.Collections.Generic.List<UnityEngine.Subsystem>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "reloadSubsytemsStarted",
+          "offset": 40,
+          "type": "System.Action"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "reloadSubsytemsCompleted",
+          "offset": 48,
+          "type": "System.Action"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReloadSubsystemsStarted",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReloadSubsystemsCompleted",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitializeIntegratedSubsystem",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "subsystem",
+              "type": "UnityEngine.IntegratedSubsystem"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClearSubsystems",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "StaticConstructScriptingClassMap",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetIntegratedSubsystemByPtr",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "UnityEngine.IntegratedSubsystem"
+        }
+      ],
+      "name": "SubsystemManager",
+      "namespace": "UnityEngine",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_IntegratedDescriptors",
+          "offset": 0,
+          "type": "System.Collections.Generic.List<UnityEngine.IntegratedSubsystemDescriptor>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_StandaloneDescriptors",
+          "offset": 8,
+          "type": "System.Collections.Generic.List<UnityEngine.SubsystemsImplementation.SubsystemDescriptorWithProvider>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_DeprecatedDescriptors",
+          "offset": 16,
+          "type": "System.Collections.Generic.List<UnityEngine.SubsystemDescriptor>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitializeManagedDescriptor",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "desc",
+              "type": "UnityEngine.IntegratedSubsystemDescriptor"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClearManagedDescriptors",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReportSingleSubsystemAnalytics",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RegisterDescriptor",
+          "parameters": [
+            {
+              "name": "descriptor",
+              "type": "TDescriptor"
+            },
+            {
+              "name": "storeInList",
+              "type": "System.Collections.Generic.List<TBaseTypeInList>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RegisterDeprecatedDescriptor",
+          "parameters": [
+            {
+              "name": "descriptor",
+              "type": "UnityEngine.SubsystemDescriptor"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SubsystemDescriptorStore",
+      "namespace": "UnityEngine.SubsystemsImplementation",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<id>k__BackingField",
+          "offset": 16,
+          "type": "System.String"
+        }
+      ],
+      "interfaces": [
+        "ISubsystemDescriptor"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_id",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SubsystemDescriptorWithProvider",
+      "namespace": "UnityEngine.SubsystemsImplementation",
+      "type_token": 33554445
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SubsystemWithProvider",
+      "namespace": "UnityEngine.SubsystemsImplementation",
+      "type_token": 33554446
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.SubsystemsModule.dll"
+}

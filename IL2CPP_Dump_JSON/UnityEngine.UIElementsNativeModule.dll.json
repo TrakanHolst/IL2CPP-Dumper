@@ -1,0 +1,4730 @@
+{
+  "class_count": 32,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "UnityEngine.Yoga.YogaNode"
+            },
+            {
+              "name": "width",
+              "type": "System.Single"
+            },
+            {
+              "name": "height",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        }
+      ],
+      "name": "BaselineFunction",
+      "namespace": "UnityEngine.Yoga",
+      "parent": "MulticastDelegate",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "config",
+              "type": "UnityEngine.Yoga.YogaConfig"
+            },
+            {
+              "name": "node",
+              "type": "UnityEngine.Yoga.YogaNode"
+            },
+            {
+              "name": "level",
+              "type": "UnityEngine.Yoga.YogaLogLevel"
+            },
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Logger",
+      "namespace": "UnityEngine.Yoga",
+      "parent": "MulticastDelegate",
+      "type_token": 33554435
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "UnityEngine.Yoga.YogaNode"
+            },
+            {
+              "name": "width",
+              "type": "System.Single"
+            },
+            {
+              "name": "widthMode",
+              "type": "UnityEngine.Yoga.YogaMeasureMode"
+            },
+            {
+              "name": "height",
+              "type": "System.Single"
+            },
+            {
+              "name": "heightMode",
+              "type": "UnityEngine.Yoga.YogaMeasureMode"
+            }
+          ],
+          "return_type": "UnityEngine.Yoga.YogaSize"
+        }
+      ],
+      "name": "MeasureFunction",
+      "namespace": "UnityEngine.Yoga",
+      "parent": "MulticastDelegate",
+      "type_token": 33554436
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Make",
+          "parameters": [
+            {
+              "name": "width",
+              "type": "System.Single"
+            },
+            {
+              "name": "height",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.Yoga.YogaSize"
+        }
+      ],
+      "name": "MeasureOutput",
+      "namespace": "UnityEngine.Yoga",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Auto",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaAlign"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FlexStart",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaAlign"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Center",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaAlign"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FlexEnd",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaAlign"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stretch",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaAlign"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Baseline",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaAlign"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SpaceBetween",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaAlign"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SpaceAround",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaAlign"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "YogaAlign",
+      "namespace": "UnityEngine.Yoga",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "Default",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaConfig"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_ygConfig",
+          "offset": 16,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_logger",
+          "offset": 24,
+          "type": "UnityEngine.Yoga.Logger"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "ygConfig",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Handle",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_UseWebDefaults",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_UseWebDefaults",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_PointScaleFactor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "YogaConfig",
+      "namespace": "UnityEngine.Yoga",
+      "type_token": 33554439
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsUndefined",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "YogaConstants",
+      "namespace": "UnityEngine.Yoga",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Inherit",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaDirection"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LTR",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaDirection"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "RTL",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaDirection"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "YogaDirection",
+      "namespace": "UnityEngine.Yoga",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Flex",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaDisplay"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaDisplay"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "YogaDisplay",
+      "namespace": "UnityEngine.Yoga",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Left",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaEdge"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Top",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaEdge"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Right",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaEdge"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Bottom",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaEdge"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Start",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaEdge"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "End",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaEdge"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Horizontal",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaEdge"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Vertical",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaEdge"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "All",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaEdge"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "YogaEdge",
+      "namespace": "UnityEngine.Yoga",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Column",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaFlexDirection"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ColumnReverse",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaFlexDirection"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Row",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaFlexDirection"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "RowReverse",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaFlexDirection"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "YogaFlexDirection",
+      "namespace": "UnityEngine.Yoga",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FlexStart",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaJustify"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Center",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaJustify"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FlexEnd",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaJustify"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SpaceBetween",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaJustify"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SpaceAround",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaJustify"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "YogaJustify",
+      "namespace": "UnityEngine.Yoga",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Error",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaLogLevel"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Warn",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaLogLevel"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Info",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaLogLevel"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Debug",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaLogLevel"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Verbose",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaLogLevel"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Fatal",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaLogLevel"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "YogaLogLevel",
+      "namespace": "UnityEngine.Yoga",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Undefined",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaMeasureMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Exactly",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaMeasureMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "AtMost",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaMeasureMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "YogaMeasureMode",
+      "namespace": "UnityEngine.Yoga",
+      "type_token": 33554447
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeNewWithConfig",
+          "parameters": [
+            {
+              "name": "config",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeFree",
+          "parameters": [
+            {
+              "name": "ygNode",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeFreeInternal",
+          "parameters": [
+            {
+              "name": "ygNode",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGSetManagedObject",
+          "parameters": [
+            {
+              "name": "ygNode",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "node",
+              "type": "UnityEngine.Yoga.YogaNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeSetConfig",
+          "parameters": [
+            {
+              "name": "ygNode",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "config",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGConfigGetDefault",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGConfigNew",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGConfigFree",
+          "parameters": [
+            {
+              "name": "config",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGConfigFreeInternal",
+          "parameters": [
+            {
+              "name": "config",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGConfigSetUseWebDefaults",
+          "parameters": [
+            {
+              "name": "config",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "useWebDefaults",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGConfigGetUseWebDefaults",
+          "parameters": [
+            {
+              "name": "config",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGConfigSetPointScaleFactor",
+          "parameters": [
+            {
+              "name": "config",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "pixelsInPoint",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeInsertChild",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "child",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "index",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeRemoveChild",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "child",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeCalculateLayout",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "availableWidth",
+              "type": "System.Single"
+            },
+            {
+              "name": "availableHeight",
+              "type": "System.Single"
+            },
+            {
+              "name": "parentDirection",
+              "type": "UnityEngine.Yoga.YogaDirection"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeMarkDirty",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeIsDirty",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeCopyStyle",
+          "parameters": [
+            {
+              "name": "dstNode",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "srcNode",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeSetMeasureFunc",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeRemoveMeasureFunc",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeMeasureInvoke",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "UnityEngine.Yoga.YogaNode"
+            },
+            {
+              "name": "width",
+              "type": "System.Single"
+            },
+            {
+              "name": "widthMode",
+              "type": "UnityEngine.Yoga.YogaMeasureMode"
+            },
+            {
+              "name": "height",
+              "type": "System.Single"
+            },
+            {
+              "name": "heightMode",
+              "type": "UnityEngine.Yoga.YogaMeasureMode"
+            },
+            {
+              "name": "returnValueAddress",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeBaselineInvoke",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "UnityEngine.Yoga.YogaNode"
+            },
+            {
+              "name": "width",
+              "type": "System.Single"
+            },
+            {
+              "name": "height",
+              "type": "System.Single"
+            },
+            {
+              "name": "returnValueAddress",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeSetHasNewLayout",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "hasNewLayout",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeGetHasNewLayout",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleGetDirection",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "UnityEngine.Yoga.YogaDirection"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetFlexDirection",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "flexDirection",
+              "type": "UnityEngine.Yoga.YogaFlexDirection"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetJustifyContent",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "justifyContent",
+              "type": "UnityEngine.Yoga.YogaJustify"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetAlignContent",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "alignContent",
+              "type": "UnityEngine.Yoga.YogaAlign"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetAlignItems",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "alignItems",
+              "type": "UnityEngine.Yoga.YogaAlign"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetAlignSelf",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "alignSelf",
+              "type": "UnityEngine.Yoga.YogaAlign"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetPositionType",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "positionType",
+              "type": "UnityEngine.Yoga.YogaPositionType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetFlexWrap",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "flexWrap",
+              "type": "UnityEngine.Yoga.YogaWrap"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetOverflow",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "flexWrap",
+              "type": "UnityEngine.Yoga.YogaOverflow"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetDisplay",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "display",
+              "type": "UnityEngine.Yoga.YogaDisplay"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetFlex",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "flex",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetFlexGrow",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "flexGrow",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetFlexShrink",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "flexShrink",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetFlexBasis",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "flexBasis",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetFlexBasisPercent",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "flexBasis",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetFlexBasisAuto",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetWidth",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "width",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetWidthPercent",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "width",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetWidthAuto",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetHeight",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "height",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetHeightPercent",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "height",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetHeightAuto",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetMinWidth",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "minWidth",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetMinWidthPercent",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "minWidth",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetMinHeight",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "minHeight",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetMinHeightPercent",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "minHeight",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetMaxWidth",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "maxWidth",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetMaxWidthPercent",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "maxWidth",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetMaxHeight",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "maxHeight",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetMaxHeightPercent",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "maxHeight",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetPosition",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "edge",
+              "type": "UnityEngine.Yoga.YogaEdge"
+            },
+            {
+              "name": "position",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetPositionPercent",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "edge",
+              "type": "UnityEngine.Yoga.YogaEdge"
+            },
+            {
+              "name": "position",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetMargin",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "edge",
+              "type": "UnityEngine.Yoga.YogaEdge"
+            },
+            {
+              "name": "margin",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetMarginPercent",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "edge",
+              "type": "UnityEngine.Yoga.YogaEdge"
+            },
+            {
+              "name": "margin",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetMarginAuto",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "edge",
+              "type": "UnityEngine.Yoga.YogaEdge"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetPadding",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "edge",
+              "type": "UnityEngine.Yoga.YogaEdge"
+            },
+            {
+              "name": "padding",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetPaddingPercent",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "edge",
+              "type": "UnityEngine.Yoga.YogaEdge"
+            },
+            {
+              "name": "padding",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeStyleSetBorder",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "edge",
+              "type": "UnityEngine.Yoga.YogaEdge"
+            },
+            {
+              "name": "border",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeLayoutGetLeft",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeLayoutGetTop",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeLayoutGetRight",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeLayoutGetBottom",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeLayoutGetWidth",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeLayoutGetHeight",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeLayoutGetMargin",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "edge",
+              "type": "UnityEngine.Yoga.YogaEdge"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeLayoutGetPadding",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "edge",
+              "type": "UnityEngine.Yoga.YogaEdge"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "YGNodeLayoutGetBorder",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "edge",
+              "type": "UnityEngine.Yoga.YogaEdge"
+            }
+          ],
+          "return_type": "System.Single"
+        }
+      ],
+      "name": "Native",
+      "namespace": "UnityEngine.Yoga",
+      "type_token": 33554448
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_ygNode",
+          "offset": 16,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_config",
+          "offset": 24,
+          "type": "UnityEngine.Yoga.YogaConfig"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_parent",
+          "offset": 32,
+          "type": "System.WeakReference"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_children",
+          "offset": 40,
+          "type": "System.Collections.Generic.List<UnityEngine.Yoga.YogaNode>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_measureFunction",
+          "offset": 48,
+          "type": "UnityEngine.Yoga.MeasureFunction"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_baselineFunction",
+          "offset": 56,
+          "type": "UnityEngine.Yoga.BaselineFunction"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_data",
+          "offset": 64,
+          "type": "System.Object"
+        }
+      ],
+      "interfaces": [
+        "IEnumerable`1",
+        "IEnumerable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "config",
+              "type": "UnityEngine.Yoga.YogaConfig"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Config",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaConfig"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsDirty",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MarkDirty",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_HasNewLayout",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsMeasureDefined",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsBaselineDefined",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CopyStyle",
+          "parameters": [
+            {
+              "name": "srcNode",
+              "type": "UnityEngine.Yoga.YogaNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_FlexDirection",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaFlexDirection"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_JustifyContent",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaJustify"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Display",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaDisplay"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AlignItems",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaAlign"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AlignSelf",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaAlign"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AlignContent",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaAlign"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_PositionType",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaPositionType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Wrap",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaWrap"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Flex",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_FlexGrow",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_FlexShrink",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_FlexBasis",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Width",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Height",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_MaxWidth",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_MaxHeight",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_MinWidth",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_MinHeight",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LayoutX",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LayoutY",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LayoutRight",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LayoutBottom",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LayoutWidth",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LayoutHeight",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Overflow",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaOverflow"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Count",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MarkLayoutSeen",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Insert",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "node",
+              "type": "UnityEngine.Yoga.YogaNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RemoveAt",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetMeasureFunction",
+          "parameters": [
+            {
+              "name": "measureFunction",
+              "type": "UnityEngine.Yoga.MeasureFunction"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculateLayout",
+          "parameters": [
+            {
+              "name": "width",
+              "type": "System.Single"
+            },
+            {
+              "name": "height",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MeasureInternal",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "UnityEngine.Yoga.YogaNode"
+            },
+            {
+              "name": "width",
+              "type": "System.Single"
+            },
+            {
+              "name": "widthMode",
+              "type": "UnityEngine.Yoga.YogaMeasureMode"
+            },
+            {
+              "name": "height",
+              "type": "System.Single"
+            },
+            {
+              "name": "heightMode",
+              "type": "UnityEngine.Yoga.YogaMeasureMode"
+            }
+          ],
+          "return_type": "UnityEngine.Yoga.YogaSize"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BaselineInternal",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "UnityEngine.Yoga.YogaNode"
+            },
+            {
+              "name": "width",
+              "type": "System.Single"
+            },
+            {
+              "name": "height",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerator<UnityEngine.Yoga.YogaNode>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.Collections.IEnumerable.GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.IEnumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Left",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Top",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Right",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Bottom",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetStylePosition",
+          "parameters": [
+            {
+              "name": "edge",
+              "type": "UnityEngine.Yoga.YogaEdge"
+            },
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_MarginLeft",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_MarginTop",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_MarginRight",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_MarginBottom",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetStyleMargin",
+          "parameters": [
+            {
+              "name": "edge",
+              "type": "UnityEngine.Yoga.YogaEdge"
+            },
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_PaddingLeft",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_PaddingTop",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_PaddingRight",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_PaddingBottom",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetStylePadding",
+          "parameters": [
+            {
+              "name": "edge",
+              "type": "UnityEngine.Yoga.YogaEdge"
+            },
+            {
+              "name": "value",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_BorderLeftWidth",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_BorderTopWidth",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_BorderRightWidth",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_BorderBottomWidth",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LayoutMarginLeft",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LayoutMarginTop",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LayoutMarginRight",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LayoutMarginBottom",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LayoutPaddingLeft",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LayoutPaddingTop",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LayoutPaddingRight",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LayoutPaddingBottom",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LayoutBorderLeft",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LayoutBorderTop",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LayoutBorderRight",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LayoutBorderBottom",
+          "parameters": [],
+          "return_type": "System.Single"
+        }
+      ],
+      "name": "YogaNode",
+      "namespace": "UnityEngine.Yoga",
+      "type_token": 33554449
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Visible",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaOverflow"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Hidden",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaOverflow"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Scroll",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaOverflow"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "YogaOverflow",
+      "namespace": "UnityEngine.Yoga",
+      "type_token": 33554450
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Relative",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaPositionType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Absolute",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaPositionType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "YogaPositionType",
+      "namespace": "UnityEngine.Yoga",
+      "type_token": 33554451
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "width",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "height",
+          "offset": 20,
+          "type": "System.Single"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "YogaSize",
+      "namespace": "UnityEngine.Yoga",
+      "type_token": 33554452
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Undefined",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaUnit"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Point",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaUnit"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Percent",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaUnit"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Auto",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaUnit"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "YogaUnit",
+      "namespace": "UnityEngine.Yoga",
+      "type_token": 33554453
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "unit",
+          "offset": 20,
+          "type": "UnityEngine.Yoga.YogaUnit"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Unit",
+          "parameters": [],
+          "return_type": "UnityEngine.Yoga.YogaUnit"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Value",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Point",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.Yoga.YogaValue"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.Yoga.YogaValue"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Auto",
+          "parameters": [],
+          "return_type": "UnityEngine.Yoga.YogaValue"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Percent",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.Yoga.YogaValue"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "pointValue",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.Yoga.YogaValue"
+        }
+      ],
+      "name": "YogaValue",
+      "namespace": "UnityEngine.Yoga",
+      "type_token": 33554454
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "NoWrap",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaWrap"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Wrap",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaWrap"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "WrapReverse",
+          "offset": 0,
+          "type": "UnityEngine.Yoga.YogaWrap"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "YogaWrap",
+      "namespace": "UnityEngine.Yoga",
+      "type_token": 33554455
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "text",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "font",
+          "offset": 24,
+          "type": "UnityEngine.Font"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "size",
+          "offset": 32,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "scaling",
+          "offset": 36,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "style",
+          "offset": 40,
+          "type": "UnityEngine.FontStyle"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "color",
+          "offset": 44,
+          "type": "UnityEngine.Color"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "anchor",
+          "offset": 60,
+          "type": "UnityEngine.TextAnchor"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "wordWrap",
+          "offset": 64,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "wordWrapWidth",
+          "offset": 68,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "richText",
+          "offset": 72,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TextNativeSettings",
+      "namespace": "UnityEngine.UIElements",
+      "type_token": 33554456
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "position",
+          "offset": 16,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "color",
+          "offset": 28,
+          "type": "UnityEngine.Color32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "uv0",
+          "offset": 32,
+          "type": "UnityEngine.Vector2"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TextVertex",
+      "namespace": "UnityEngine.UIElements",
+      "type_token": 33554457
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCursorPosition",
+          "parameters": [
+            {
+              "name": "settings",
+              "type": "UnityEngine.UIElements.TextNativeSettings"
+            },
+            {
+              "name": "rect",
+              "type": "UnityEngine.Rect"
+            },
+            {
+              "name": "cursorIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ComputeTextWidth",
+          "parameters": [
+            {
+              "name": "settings",
+              "type": "UnityEngine.UIElements.TextNativeSettings"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ComputeTextHeight",
+          "parameters": [
+            {
+              "name": "settings",
+              "type": "UnityEngine.UIElements.TextNativeSettings"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetVertices",
+          "parameters": [
+            {
+              "name": "settings",
+              "type": "UnityEngine.UIElements.TextNativeSettings"
+            }
+          ],
+          "return_type": "Unity.Collections.NativeArray<UnityEngine.UIElements.TextVertex>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetOffset",
+          "parameters": [
+            {
+              "name": "settings",
+              "type": "UnityEngine.UIElements.TextNativeSettings"
+            },
+            {
+              "name": "screenRect",
+              "type": "UnityEngine.Rect"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ComputeTextScaling",
+          "parameters": [
+            {
+              "name": "worldMatrix",
+              "type": "UnityEngine.Matrix4x4"
+            },
+            {
+              "name": "pixelsPerPoint",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DoComputeTextWidth",
+          "parameters": [
+            {
+              "name": "settings",
+              "type": "UnityEngine.UIElements.TextNativeSettings"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DoComputeTextHeight",
+          "parameters": [
+            {
+              "name": "settings",
+              "type": "UnityEngine.UIElements.TextNativeSettings"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DoGetCursorPosition",
+          "parameters": [
+            {
+              "name": "settings",
+              "type": "UnityEngine.UIElements.TextNativeSettings"
+            },
+            {
+              "name": "rect",
+              "type": "UnityEngine.Rect"
+            },
+            {
+              "name": "cursorPosition",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetVertices",
+          "parameters": [
+            {
+              "name": "settings",
+              "type": "UnityEngine.UIElements.TextNativeSettings"
+            },
+            {
+              "name": "buffer",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "vertexSize",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vertexCount",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DoGetOffset",
+          "parameters": [
+            {
+              "name": "settings",
+              "type": "UnityEngine.UIElements.TextNativeSettings"
+            },
+            {
+              "name": "rect",
+              "type": "UnityEngine.Rect"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DoComputeTextWidth_Injected",
+          "parameters": [
+            {
+              "name": "settings",
+              "type": "UnityEngine.UIElements.TextNativeSettings&"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DoComputeTextHeight_Injected",
+          "parameters": [
+            {
+              "name": "settings",
+              "type": "UnityEngine.UIElements.TextNativeSettings&"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DoGetCursorPosition_Injected",
+          "parameters": [
+            {
+              "name": "settings",
+              "type": "UnityEngine.UIElements.TextNativeSettings&"
+            },
+            {
+              "name": "rect",
+              "type": "UnityEngine.Rect&"
+            },
+            {
+              "name": "cursorPosition",
+              "type": "System.Int32"
+            },
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector2&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetVertices_Injected",
+          "parameters": [
+            {
+              "name": "settings",
+              "type": "UnityEngine.UIElements.TextNativeSettings&"
+            },
+            {
+              "name": "buffer",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "vertexSize",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vertexCount",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DoGetOffset_Injected",
+          "parameters": [
+            {
+              "name": "settings",
+              "type": "UnityEngine.UIElements.TextNativeSettings&"
+            },
+            {
+              "name": "rect",
+              "type": "UnityEngine.Rect&"
+            },
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector2&"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "TextNative",
+      "namespace": "UnityEngine.UIElements",
+      "type_token": 33554458
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "RepaintOverlayPanelsCallback",
+          "offset": 0,
+          "type": "System.Action"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "UpdateRuntimePanelsCallback",
+          "offset": 8,
+          "type": "System.Action"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "RepaintOffscreenPanelsCallback",
+          "offset": 16,
+          "type": "System.Action"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RepaintOverlayPanels",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateRuntimePanels",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RepaintOffscreenPanels",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RegisterPlayerloopCallback",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnregisterPlayerloopCallback",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "VisualElementCreation",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UIElementsRuntimeUtilityNative",
+      "namespace": "UnityEngine.UIElements",
+      "type_token": 33554459
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "offsetFromWriteStart",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "size",
+          "offset": 20,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "source",
+          "offset": 24,
+          "type": "System.UIntPtr"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "GfxUpdateBufferRange",
+      "namespace": "UnityEngine.UIElements.UIR",
+      "type_token": 33554460
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "firstIndex",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "indexCount",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "minIndexVal",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "vertsReferenced",
+          "offset": 28,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "DrawBufferRange",
+      "namespace": "UnityEngine.UIElements.UIR",
+      "type_token": 33554461
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Vertex",
+          "offset": 0,
+          "type": "UnityEngine.UIElements.UIR.Utility.GPUBufferType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Index",
+          "offset": 0,
+          "type": "UnityEngine.UIElements.UIR.Utility.GPUBufferType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "GPUBufferType",
+      "namespace": "",
+      "type_token": 33554463
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "buffer",
+          "offset": 0,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "elemCount",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "elemStride",
+          "offset": 0,
+          "type": "System.Int32"
+        }
+      ],
+      "interfaces": [
+        "IDisposable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "elementCount",
+              "type": "System.Int32"
+            },
+            {
+              "name": "type",
+              "type": "UnityEngine.UIElements.UIR.Utility.GPUBufferType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateRanges",
+          "parameters": [
+            {
+              "name": "ranges",
+              "type": "Unity.Collections.NativeSlice<UnityEngine.UIElements.UIR.GfxUpdateBufferRange>"
+            },
+            {
+              "name": "rangesMin",
+              "type": "System.Int32"
+            },
+            {
+              "name": "rangesMax",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ElementStride",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_BufferPointer",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        }
+      ],
+      "name": "GPUBuffer`1",
+      "namespace": "",
+      "type_token": 33554464
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "GraphicsResourcesRecreate",
+          "offset": 0,
+          "type": "System.Action<System.Boolean>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "EngineUpdate",
+          "offset": 8,
+          "type": "System.Action"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FlushPendingResources",
+          "offset": 16,
+          "type": "System.Action"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "RegisterIntermediateRenderers",
+          "offset": 24,
+          "type": "System.Action<UnityEngine.Camera>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "RenderNodeAdd",
+          "offset": 32,
+          "type": "System.Action<System.IntPtr>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "RenderNodeExecute",
+          "offset": 40,
+          "type": "System.Action<System.IntPtr>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "RenderNodeCleanup",
+          "offset": 48,
+          "type": "System.Action<System.IntPtr>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_MarkerRaiseEngineUpdate",
+          "offset": 56,
+          "type": "Unity.Profiling.ProfilerMarker"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetVectorArray",
+          "parameters": [
+            {
+              "name": "props",
+              "type": "UnityEngine.MaterialPropertyBlock"
+            },
+            {
+              "name": "name",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vector4s",
+              "type": "Unity.Collections.NativeSlice<T>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_GraphicsResourcesRecreate",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<System.Boolean>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_GraphicsResourcesRecreate",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<System.Boolean>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_EngineUpdate",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_EngineUpdate",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_FlushPendingResources",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_FlushPendingResources",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_RegisterIntermediateRenderers",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Camera>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_RegisterIntermediateRenderers",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Camera>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_RenderNodeExecute",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<System.IntPtr>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_RenderNodeExecute",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<System.IntPtr>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RaiseGraphicsResourcesRecreate",
+          "parameters": [
+            {
+              "name": "recreate",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RaiseEngineUpdate",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RaiseFlushPendingResources",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RaiseRegisterIntermediateRenderers",
+          "parameters": [
+            {
+              "name": "camera",
+              "type": "UnityEngine.Camera"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RaiseRenderNodeAdd",
+          "parameters": [
+            {
+              "name": "userData",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RaiseRenderNodeExecute",
+          "parameters": [
+            {
+              "name": "userData",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RaiseRenderNodeCleanup",
+          "parameters": [
+            {
+              "name": "userData",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AllocateBuffer",
+          "parameters": [
+            {
+              "name": "elementCount",
+              "type": "System.Int32"
+            },
+            {
+              "name": "elementStride",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vertexBuffer",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FreeBuffer",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateBufferRanges",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "ranges",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "rangeCount",
+              "type": "System.Int32"
+            },
+            {
+              "name": "writeRangeStart",
+              "type": "System.Int32"
+            },
+            {
+              "name": "writeRangeEnd",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetVectorArray",
+          "parameters": [
+            {
+              "name": "props",
+              "type": "UnityEngine.MaterialPropertyBlock"
+            },
+            {
+              "name": "name",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vector4s",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetVertexDeclaration",
+          "parameters": [
+            {
+              "name": "vertexAttributes",
+              "type": "UnityEngine.Rendering.VertexAttributeDescriptor[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RegisterIntermediateRenderer",
+          "parameters": [
+            {
+              "name": "camera",
+              "type": "UnityEngine.Camera"
+            },
+            {
+              "name": "material",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "transform",
+              "type": "UnityEngine.Matrix4x4"
+            },
+            {
+              "name": "aabb",
+              "type": "UnityEngine.Bounds"
+            },
+            {
+              "name": "renderLayer",
+              "type": "System.Int32"
+            },
+            {
+              "name": "shadowCasting",
+              "type": "System.Int32"
+            },
+            {
+              "name": "receiveShadows",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "sameDistanceSortPriority",
+              "type": "System.Int32"
+            },
+            {
+              "name": "sceneCullingMask",
+              "type": "System.UInt64"
+            },
+            {
+              "name": "rendererCallbackFlags",
+              "type": "System.Int32"
+            },
+            {
+              "name": "userData",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "userDataSize",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DrawRanges",
+          "parameters": [
+            {
+              "name": "ib",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "vertexStreams",
+              "type": "System.IntPtr*"
+            },
+            {
+              "name": "streamCount",
+              "type": "System.Int32"
+            },
+            {
+              "name": "ranges",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "rangeCount",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vertexDecl",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetPropertyBlock",
+          "parameters": [
+            {
+              "name": "props",
+              "type": "UnityEngine.MaterialPropertyBlock"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetScissorRect",
+          "parameters": [
+            {
+              "name": "scissorRect",
+              "type": "UnityEngine.RectInt"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisableScissor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateStencilState",
+          "parameters": [
+            {
+              "name": "stencilState",
+              "type": "UnityEngine.Rendering.StencilState"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetStencilState",
+          "parameters": [
+            {
+              "name": "stencilState",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "stencilRef",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HasMappedBufferRange",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InsertCPUFence",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CPUFencePassed",
+          "parameters": [
+            {
+              "name": "fence",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WaitForCPUFencePassed",
+          "parameters": [
+            {
+              "name": "fence",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SyncRenderThread",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetActiveViewport",
+          "parameters": [],
+          "return_type": "UnityEngine.RectInt"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ProfileDrawChainBegin",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ProfileDrawChainEnd",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NotifyOfUIREvents",
+          "parameters": [
+            {
+              "name": "subscribe",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetUnityProjectionMatrix",
+          "parameters": [],
+          "return_type": "UnityEngine.Matrix4x4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RegisterIntermediateRenderer_Injected",
+          "parameters": [
+            {
+              "name": "camera",
+              "type": "UnityEngine.Camera"
+            },
+            {
+              "name": "material",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "transform",
+              "type": "UnityEngine.Matrix4x4&"
+            },
+            {
+              "name": "aabb",
+              "type": "UnityEngine.Bounds&"
+            },
+            {
+              "name": "renderLayer",
+              "type": "System.Int32"
+            },
+            {
+              "name": "shadowCasting",
+              "type": "System.Int32"
+            },
+            {
+              "name": "receiveShadows",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "sameDistanceSortPriority",
+              "type": "System.Int32"
+            },
+            {
+              "name": "sceneCullingMask",
+              "type": "System.UInt64"
+            },
+            {
+              "name": "rendererCallbackFlags",
+              "type": "System.Int32"
+            },
+            {
+              "name": "userData",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "userDataSize",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetScissorRect_Injected",
+          "parameters": [
+            {
+              "name": "scissorRect",
+              "type": "UnityEngine.RectInt&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateStencilState_Injected",
+          "parameters": [
+            {
+              "name": "stencilState",
+              "type": "UnityEngine.Rendering.StencilState&"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetActiveViewport_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.RectInt&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetUnityProjectionMatrix_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Matrix4x4&"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Utility",
+      "namespace": "UnityEngine.UIElements.UIR",
+      "type_token": 33554462
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.UIElementsNativeModule.dll"
+}

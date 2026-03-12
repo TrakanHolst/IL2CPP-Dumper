@@ -1,0 +1,402 @@
+{
+  "class_count": 8,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "EmbeddedAttribute",
+      "namespace": "Microsoft.CodeAnalysis",
+      "parent": "Attribute",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IsUnmanagedAttribute",
+      "namespace": "System.Runtime.CompilerServices",
+      "parent": "Attribute",
+      "type_token": 33554435
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateSpan",
+          "parameters": [
+            {
+              "name": "arr",
+              "type": "Unity.Collections.NativeArray<T>"
+            }
+          ],
+          "return_type": "System.Span<T>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToStringUTF8",
+          "parameters": [
+            {
+              "name": "arr",
+              "type": "Unity.Collections.NativeArray<System.Byte>"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetElementRef",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "Unity.Collections.NativeArray<T>"
+            },
+            {
+              "name": "idx",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "T&"
+        }
+      ],
+      "name": "NativeHelper",
+      "namespace": "Beyond.Native",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "virtualMachine",
+          "offset": 16,
+          "type": "IFix.Core.VirtualMachine"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "methodId",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "anonObj",
+          "offset": 32,
+          "type": "System.Object"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "wrapperArray",
+          "offset": 0,
+          "type": "IFix.ILFixDynamicMethodWrapper[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            },
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "anonObj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_0",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Unity.Collections.NativeArray<System.Byte>"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ILFixDynamicMethodWrapper",
+      "namespace": "IFix",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "fieldNum",
+              "type": "System.Int32"
+            },
+            {
+              "name": "fieldTypes",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "typeIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vTable",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "methodIdArray",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RefAsyncBuilderStartMethod",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ILFixInterfaceBridge",
+      "namespace": "IFix",
+      "parent": "AnonymousStorey",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "virtualMachine",
+          "offset": 16,
+          "type": "IFix.Core.VirtualMachine"
+        }
+      ],
+      "interfaces": [
+        "WrappersManager"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPatch",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "IFix.ILFixDynamicMethodWrapper"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsPatched",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateDelegate",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Type"
+            },
+            {
+              "name": "id",
+              "type": "System.Int32"
+            },
+            {
+              "name": "anon",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Delegate"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateWrapper",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitWrapperArray",
+          "parameters": [
+            {
+              "name": "len",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateBridge",
+          "parameters": [
+            {
+              "name": "fieldNum",
+              "type": "System.Int32"
+            },
+            {
+              "name": "fieldTypes",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "typeIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vTable",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "slots",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            }
+          ],
+          "return_type": "IFix.Core.AnonymousStorey"
+        }
+      ],
+      "name": "WrappersManagerImpl",
+      "namespace": "IFix",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Native-NativeHelper-ToStringUTF80",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "IDMAP0",
+      "namespace": "IFix",
+      "type_token": 33554440
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Beyond.Native.dll"
+}

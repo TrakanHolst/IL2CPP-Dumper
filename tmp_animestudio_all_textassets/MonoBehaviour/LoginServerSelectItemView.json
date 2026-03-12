@@ -1,0 +1,54 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5445141186182902361
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -8217940645502088686
+  },
+  "m_Name": "",
+  "_serverName": {
+    "m_FileID": 0,
+    "m_PathID": 6978455850521195097
+  },
+  "_playerIcon": {
+    "m_FileID": 0,
+    "m_PathID": -5620591778584202663
+  },
+  "_playerLevel": {
+    "m_FileID": 0,
+    "m_PathID": -2300677992122944935
+  },
+  "_delayImages": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7058440771337588135
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -189176344637803943
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1505937498124586407
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1120041399894536793
+    }
+  ],
+  "_delayText": {
+    "m_FileID": 0,
+    "m_PathID": 6120835503896785497
+  },
+  "_btnSelect": {
+    "m_FileID": 0,
+    "m_PathID": -7095271582333341095
+  },
+  "_stateController": {
+    "m_FileID": 0,
+    "m_PathID": -7155947643882376615
+  }
+}

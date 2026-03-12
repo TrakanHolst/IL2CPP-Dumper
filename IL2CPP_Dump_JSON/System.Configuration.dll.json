@@ -1,0 +1,318 @@
+{
+  "class_count": 10,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Properties",
+          "parameters": [],
+          "return_type": "System.Configuration.ConfigurationPropertyCollection"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsModified",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Reset",
+          "parameters": [
+            {
+              "name": "parentElement",
+              "type": "System.Configuration.ConfigurationElement"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ResetModified",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ConfigurationElement",
+      "namespace": "System.Configuration",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DeserializeSection",
+          "parameters": [
+            {
+              "name": "reader",
+              "type": "System.Xml.XmlReader"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsModified",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ResetModified",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SerializeSection",
+          "parameters": [
+            {
+              "name": "parentElement",
+              "type": "System.Configuration.ConfigurationElement"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "saveMode",
+              "type": "System.Configuration.ConfigurationSaveMode"
+            }
+          ],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "ConfigurationSection",
+      "namespace": "System.Configuration",
+      "parent": "ConfigurationElement",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Full",
+          "offset": 0,
+          "type": "System.Configuration.ConfigurationSaveMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Minimal",
+          "offset": 0,
+          "type": "System.Configuration.ConfigurationSaveMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Modified",
+          "offset": 0,
+          "type": "System.Configuration.ConfigurationSaveMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ConfigurationSaveMode",
+      "namespace": "System.Configuration",
+      "type_token": 33554436
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "ConfigurationPropertyCollection",
+      "namespace": "System.Configuration",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "ConfigurationElementCollection",
+      "namespace": "System.Configuration",
+      "parent": "ConfigurationElement",
+      "type_token": 33554438
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "itemType",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ConfigurationCollectionAttribute",
+      "namespace": "System.Configuration",
+      "parent": "Attribute",
+      "type_token": 33554439
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "ConfigurationSectionGroup",
+      "namespace": "System.Configuration",
+      "type_token": 33554440
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Properties",
+          "parameters": [],
+          "return_type": "System.Configuration.ConfigurationPropertyCollection"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DeserializeSection",
+          "parameters": [
+            {
+              "name": "xmlReader",
+              "type": "System.Xml.XmlReader"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsModified",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Reset",
+          "parameters": [
+            {
+              "name": "parentSection",
+              "type": "System.Configuration.ConfigurationElement"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ResetModified",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SerializeSection",
+          "parameters": [
+            {
+              "name": "parentSection",
+              "type": "System.Configuration.ConfigurationElement"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "saveMode",
+              "type": "System.Configuration.ConfigurationSaveMode"
+            }
+          ],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "IgnoreSection",
+      "namespace": "System.Configuration",
+      "parent": "ConfigurationSection",
+      "type_token": 33554441
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ThrowNotSupportedException",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ThrowStub",
+      "namespace": "Unity",
+      "parent": "ObjectDisposedException",
+      "type_token": 33554442
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "System.Configuration.dll"
+}

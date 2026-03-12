@@ -1,0 +1,1315 @@
+{
+  "class_count": 14,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "EmbeddedAttribute",
+      "namespace": "Microsoft.CodeAnalysis",
+      "parent": "Attribute",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IsUnmanagedAttribute",
+      "namespace": "System.Runtime.CompilerServices",
+      "parent": "Attribute",
+      "type_token": 33554435
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IComparer`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Compare",
+          "parameters": [
+            {
+              "name": "keyframe1",
+              "type": "UnityEngine.Keyframe"
+            },
+            {
+              "name": "keyframe2",
+              "type": "UnityEngine.Keyframe"
+            }
+          ],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "KeyframeComparer",
+      "namespace": "",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_values",
+          "offset": 16,
+          "type": "UnityEngine.Keyframe*"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_valuesLength",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_preWrapMode",
+          "offset": 28,
+          "type": "UnityEngine.WrapMode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_postWrapMode",
+          "offset": 32,
+          "type": "UnityEngine.WrapMode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_keyframeComparer",
+          "offset": 0,
+          "type": "Beyond.FPtrAnimNativeCurve.KeyframeComparer"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "CURVE_MATRIX",
+          "offset": 4,
+          "type": "Unity.Mathematics.float4x4"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "CURVE_MATRIX_PRIME",
+          "offset": 68,
+          "type": "Unity.Mathematics.float3x3"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsValid",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateCurve",
+          "parameters": [
+            {
+              "name": "animationCurve",
+              "type": "UnityEngine.AnimationCurve"
+            },
+            {
+              "name": "allocator",
+              "type": "Unity.Collections.Allocator"
+            }
+          ],
+          "return_type": "Unity.Collections.NativeArray<UnityEngine.Keyframe>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateLine",
+          "parameters": [
+            {
+              "name": "val",
+              "type": "System.Single"
+            },
+            {
+              "name": "allocator",
+              "type": "Unity.Collections.Allocator"
+            }
+          ],
+          "return_type": "Unity.Collections.NativeArray<UnityEngine.Keyframe>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Evaluate",
+          "parameters": [
+            {
+              "name": "time",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetInsertionIndex",
+          "parameters": [
+            {
+              "name": "keys",
+              "type": "UnityEngine.Keyframe*"
+            },
+            {
+              "name": "valuesLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "time",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WrapTime",
+          "parameters": [
+            {
+              "name": "time",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Evaluate",
+          "parameters": [
+            {
+              "name": "time",
+              "type": "System.Single"
+            },
+            {
+              "name": "keyframe",
+              "type": "UnityEngine.Keyframe&"
+            },
+            {
+              "name": "nextKeyframe",
+              "type": "UnityEngine.Keyframe&"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CubicBezier",
+          "parameters": [
+            {
+              "name": "curveMatrix",
+              "type": "Unity.Mathematics.float4&"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CubicBezier",
+          "parameters": [
+            {
+              "name": "curveMatrix",
+              "type": "Unity.Mathematics.float3&"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DeCasteljauBezier",
+          "parameters": [
+            {
+              "name": "degree",
+              "type": "System.Int32"
+            },
+            {
+              "name": "coords",
+              "type": "Unity.Mathematics.float4"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTWithBisectionMethod",
+          "parameters": [
+            {
+              "name": "time",
+              "type": "System.Single"
+            },
+            {
+              "name": "curveXCoords",
+              "type": "Unity.Mathematics.float4&"
+            },
+            {
+              "name": "t",
+              "type": "System.Single&"
+            },
+            {
+              "name": "tBottom",
+              "type": "System.Single&"
+            },
+            {
+              "name": "tTop",
+              "type": "System.Single&"
+            },
+            {
+              "name": "diff",
+              "type": "System.Single&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTWithNewtonMethod",
+          "parameters": [
+            {
+              "name": "time",
+              "type": "System.Single"
+            },
+            {
+              "name": "xCoords",
+              "type": "Unity.Mathematics.float4&"
+            },
+            {
+              "name": "curveXCoords",
+              "type": "Unity.Mathematics.float4&"
+            },
+            {
+              "name": "t",
+              "type": "System.Single&"
+            },
+            {
+              "name": "tBottom",
+              "type": "System.Single&"
+            },
+            {
+              "name": "tTop",
+              "type": "System.Single&"
+            },
+            {
+              "name": "diff",
+              "type": "System.Single&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UseNewtonMethod",
+          "parameters": [
+            {
+              "name": "curveCoords",
+              "type": "Unity.Mathematics.float4"
+            },
+            {
+              "name": "coord",
+              "type": "System.Single"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            },
+            {
+              "name": "curvePrimeCoords",
+              "type": "Unity.Mathematics.float3"
+            },
+            {
+              "name": "primePrimeCoords",
+              "type": "Unity.Mathematics.float4"
+            },
+            {
+              "name": "coordAtT",
+              "type": "System.Single&"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateTLimits",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Single"
+            },
+            {
+              "name": "time",
+              "type": "System.Single"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            },
+            {
+              "name": "tBottom",
+              "type": "System.Single&"
+            },
+            {
+              "name": "tTop",
+              "type": "System.Single&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "FPtrAnimNativeCurve",
+      "namespace": "Beyond",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_values",
+          "offset": 16,
+          "type": "System.Single*"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_valuesLength",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_preWrapMode",
+          "offset": 28,
+          "type": "UnityEngine.WrapMode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_postWrapMode",
+          "offset": 32,
+          "type": "UnityEngine.WrapMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsValid",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateCurve",
+          "parameters": [
+            {
+              "name": "curve",
+              "type": "UnityEngine.AnimationCurve"
+            },
+            {
+              "name": "resolution",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "Unity.Collections.NativeArray<System.Single>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Evaluate",
+          "parameters": [
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_Repeat",
+          "parameters": [
+            {
+              "name": "t",
+              "type": "System.Single"
+            },
+            {
+              "name": "length",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_Pingpong",
+          "parameters": [
+            {
+              "name": "t",
+              "type": "System.Single"
+            },
+            {
+              "name": "length",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        }
+      ],
+      "name": "FPtrNativeCurve",
+      "namespace": "Beyond",
+      "type_token": 33554438
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "NPCAbilityUnsafeUtils",
+      "namespace": "Beyond.NPC.Ability",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "DoAnimatorStepBegin",
+          "offset": 0,
+          "type": "Beyond.NPC.Ability.FNPCUnionAnimationAbilityCommand.ENPCUnionAnimationAbilityCommandType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "DoAnimatorStepEnd",
+          "offset": 0,
+          "type": "Beyond.NPC.Ability.FNPCUnionAnimationAbilityCommand.ENPCUnionAnimationAbilityCommandType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ENPCUnionAnimationAbilityCommandType",
+      "namespace": "",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "stepEndDegree",
+          "offset": 16,
+          "type": "System.Single"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "DoAnimatorStepEndParams",
+      "namespace": "",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "stepBeginDegree",
+          "offset": 16,
+          "type": "System.Single"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "DoAnimatorUpdateStepBeginDegreeParams",
+      "namespace": "",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "cmdType",
+          "offset": 16,
+          "type": "Beyond.NPC.Ability.FNPCUnionAnimationAbilityCommand.ENPCUnionAnimationAbilityCommandType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Payload",
+          "offset": 20,
+          "type": "Unity.Collections.FixedBytes4094"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetData",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "T&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetData",
+          "parameters": [],
+          "return_type": "T"
+        }
+      ],
+      "name": "FNPCUnionAnimationAbilityCommand",
+      "namespace": "Beyond.NPC.Ability",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Idle",
+          "offset": 0,
+          "type": "Beyond.Gameplay.AbilityUnsafe.ENPCAbilityPathFollowStateType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Move",
+          "offset": 0,
+          "type": "Beyond.Gameplay.AbilityUnsafe.ENPCAbilityPathFollowStateType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MoveStop",
+          "offset": 0,
+          "type": "Beyond.Gameplay.AbilityUnsafe.ENPCAbilityPathFollowStateType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ENPCAbilityPathFollowStateType",
+      "namespace": "Beyond.Gameplay.AbilityUnsafe",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "TOTAL_POINT_CAPACITY",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ELEMENT_PER_POINT",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_pathPointQueue",
+          "offset": 16,
+          "type": "Beyond.Gameplay.AbilityUnsafe.FNPCAbilityPathFollowFragment.<m_pathPointQueue>e__FixedBuffer"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_front",
+          "offset": 912,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_pointCount",
+          "offset": 916,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "state",
+          "offset": 920,
+          "type": "Beyond.Gameplay.AbilityUnsafe.ENPCAbilityPathFollowStateType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "passedAim",
+          "offset": 924,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "passedAimStyle",
+          "offset": 936,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "passedAimExtInfo",
+          "offset": 940,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "passedAimSpeed",
+          "offset": 944,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "passedPatrolActionPoint",
+          "offset": 948,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_StartPos",
+          "offset": 952,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "forward",
+          "offset": 964,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "maxDistance",
+          "offset": 976,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "progressDistance",
+          "offset": 980,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "startMoveProcess",
+          "offset": 984,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "bPathFollowEnd",
+          "offset": 985,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "startMoveStopTime",
+          "offset": 988,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "loopCount",
+          "offset": 992,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "loopCountStartIndex",
+          "offset": 996,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "bRetargetAim",
+          "offset": 1000,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "pathChanged",
+          "offset": 1001,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_passedPoint",
+          "offset": 1002,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "groundSlopeAngle",
+          "offset": 1004,
+          "type": "System.Single"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_pointCount",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_aim",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_aimStyle",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_aimExtInfo",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_aimDesiredSpeed",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_startPos",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_startPos",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Init",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MarkPathFollowEnd",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MarkMoveStop",
+          "parameters": [
+            {
+              "name": "time",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetPathIsLoop",
+          "parameters": [
+            {
+              "name": "bIsLoop",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPathIsLoop",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushPoint",
+          "parameters": [
+            {
+              "name": "point",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "styleEnum",
+              "type": "System.Int32"
+            },
+            {
+              "name": "extPointInfo",
+              "type": "System.Int32"
+            },
+            {
+              "name": "desiredSpeed",
+              "type": "System.Single"
+            },
+            {
+              "name": "patrolActionPoint",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopPathPoint",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_RefreshScope",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalGroundSlope",
+          "parameters": [
+            {
+              "name": "curPos",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "steeringPos",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "speed",
+              "type": "System.Single"
+            },
+            {
+              "name": "smoothTime",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SlopeAngleDeg",
+          "parameters": [
+            {
+              "name": "pos",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "aim",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReplaceLastPoint",
+          "parameters": [
+            {
+              "name": "point",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "styleEnum",
+              "type": "System.Int32"
+            },
+            {
+              "name": "extPointInfo",
+              "type": "System.Int32"
+            },
+            {
+              "name": "desiredSpeed",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClearAllPathPoints",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPathPoint",
+          "parameters": [
+            {
+              "name": "idx",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPathPointStyle",
+          "parameters": [
+            {
+              "name": "idx",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPathPointExtInfo",
+          "parameters": [
+            {
+              "name": "idx",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPathPointDesiredSpeed",
+          "parameters": [
+            {
+              "name": "idx",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetAimPointDesiredSpeed",
+          "parameters": [
+            {
+              "name": "speed",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsSubActionPoint",
+          "parameters": [
+            {
+              "name": "idx",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsPathFull",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPointCount",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPathLength",
+          "parameters": [
+            {
+              "name": "currentLocation",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEffectPointCount",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FloatToInt32Bits",
+          "parameters": [
+            {
+              "name": "v",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Int32BitsToFloat",
+          "parameters": [
+            {
+              "name": "v",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Single"
+        }
+      ],
+      "name": "FNPCAbilityPathFollowFragment",
+      "namespace": "Beyond.Gameplay.AbilityUnsafe",
+      "type_token": 33554445
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "AbilityUnsafe.Gameplay.Beyond.dll"
+}

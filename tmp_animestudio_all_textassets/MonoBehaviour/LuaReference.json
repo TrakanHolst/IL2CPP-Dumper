@@ -1,0 +1,38 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3985406089093116505
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -3893951356388347130
+  },
+  "m_Name": "",
+  "refDict": {
+    "_keys": [
+      "actionKeyHint",
+      "redDot"
+    ],
+    "_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -3278145604786654631
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    ]
+  },
+  "refExtraInfoDict": {
+    "_keys": [],
+    "_values": []
+  },
+  "isRootRef": 1,
+  "subReferences": [],
+  "references": {
+    "version": 2,
+    "RefIds": []
+  }
+}

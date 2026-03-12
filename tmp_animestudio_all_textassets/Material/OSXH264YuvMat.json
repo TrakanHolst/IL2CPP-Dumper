@@ -1,0 +1,83 @@
+{
+  "m_Shader": {
+    "m_FileID": 7,
+    "m_PathID": 8946774893205838127,
+    "Name": "",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_MainTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_TextureA": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_TextureRGB": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": {},
+    "m_Floats": {
+      "_AdditiveIntensity": 1.0,
+      "_CullMode": 2.0,
+      "_DstBlendMode": 0.0,
+      "_EnableSoftEdge": 0.0,
+      "_EnableUIClipSceneDepth": 0.0,
+      "_SoftEdgeRange": 0.0,
+      "_SrcBlendMode": 0.0,
+      "_ZWriteMode": 1.0,
+      "_farPlaneDepthOffset": 0.005,
+      "_isFarPlaneDepth": 0.0
+    },
+    "m_Colors": {
+      "_MovieTexture_ST": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      }
+    }
+  },
+  "m_Name": "OSXH264YuvMat",
+  "Name": "OSXH264YuvMat"
+}

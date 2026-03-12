@@ -1,0 +1,51 @@
+{
+  "class_count": 2,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "opaqueShader",
+          "offset": 24,
+          "type": "UnityEngine.Shader"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "transparentShader",
+          "offset": 32,
+          "type": "UnityEngine.Shader"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnCreate",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "OverdrawRendererFeature",
+      "namespace": "OverdrawForURP",
+      "parent": "ScriptableObject",
+      "type_token": 33554434
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "OverdrawForURP.dll"
+}

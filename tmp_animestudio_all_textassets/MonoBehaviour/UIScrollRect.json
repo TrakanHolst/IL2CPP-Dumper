@@ -1,0 +1,83 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8818625983208557991
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -4290981313537983267
+  },
+  "m_Name": "",
+  "m_Content": {
+    "m_FileID": 0,
+    "m_PathID": -8589089461503397287
+  },
+  "m_Horizontal": 0,
+  "m_Vertical": 1,
+  "m_scrollEnableNode": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_MovementType": 1,
+  "m_Elasticity": 0.1,
+  "m_Inertia": 1,
+  "m_DecelerationRate": 0.135,
+  "m_ScrollSensitivity": 1.0,
+  "m_Viewport": {
+    "m_FileID": 0,
+    "m_PathID": 5281935183412261465
+  },
+  "m_HorizontalScrollbar": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_VerticalScrollbar": {
+    "m_FileID": 0,
+    "m_PathID": -3785893660023459239
+  },
+  "m_HorizontalScrollbarVisibility": 0,
+  "m_VerticalScrollbarVisibility": 1,
+  "m_HorizontalScrollbarSpacing": 0.0,
+  "m_VerticalScrollbarSpacing": 0.0,
+  "m_OnValueChanged": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    }
+  },
+  "disableScroll": 0,
+  "smoothScrollTweenSpd": 1000.0,
+  "smoothScrollTweenEase": 3,
+  "_stickScrollSpeed": 10.0,
+  "_stickScrollTolerance": 0.001,
+  "_naviGroup": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_enableWrapNavigation": 0,
+  "_scrollBindingGroup": {
+    "m_FileID": 0,
+    "m_PathID": -4009438053493247399
+  },
+  "_autoScrollStrategy": 1,
+  "_alignBoundPaddingX": 50.0,
+  "_alignBoundPaddingY": 50.0,
+  "_moveTipsLeftOrTop": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_moveTipsRightOrBottom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_enableOverScrollEffect": 0,
+  "_overScrollTriggerValue": 0.2,
+  "_overScrollEffectPrevNode": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_overScrollEffectNextNode": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

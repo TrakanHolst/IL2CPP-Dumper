@@ -1,0 +1,2070 @@
+{
+  "class_count": 7,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "setEnvironment",
+          "parameters": [
+            {
+              "name": "env",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "enableRealTimeSend",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "init",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "regionTag",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "setGlobalProperties",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "globalProperties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "unsetGlobalProperties",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "propertyKeys",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "clearGlobalProperties",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "eventTrack",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "appStartEvent",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "channel1",
+              "type": "System.String"
+            },
+            {
+              "name": "channel2",
+              "type": "System.String"
+            },
+            {
+              "name": "beat",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "pauseBeat",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "resumeBeat",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "userLoginEvent",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "userId",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "unsetUser",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "characterLoginEvent",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "characterId",
+              "type": "System.String"
+            },
+            {
+              "name": "serverId",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "unsetCharacter",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getPresetProperties",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "flush",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getStaticPresetProperties",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getDeviceIdProperties",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "setGlobalPropertiesV2",
+          "parameters": [
+            {
+              "name": "globalProperties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "unsetGlobalPropertiesV2",
+          "parameters": [
+            {
+              "name": "propertyKeys",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "clearGlobalPropertiesV2",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "eventTrackV2",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "appStartEventV2",
+          "parameters": [
+            {
+              "name": "channel1",
+              "type": "System.String"
+            },
+            {
+              "name": "channel2",
+              "type": "System.String"
+            },
+            {
+              "name": "beat",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "pauseBeatV2",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "resumeBeatV2",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "userLoginEventV2",
+          "parameters": [
+            {
+              "name": "userId",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "unsetUserV2",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "characterLoginEventV2",
+          "parameters": [
+            {
+              "name": "characterId",
+              "type": "System.String"
+            },
+            {
+              "name": "serverId",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "unsetCharacterV2",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getPresetPropertiesV2",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "flushV2",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getStaticPresetPropertiesV2",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getDeviceIdPropertiesV2",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "eventTrackV3",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "IEventLogSDK",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_el",
+          "offset": 0,
+          "type": "Hypergryph.SDK.IEventLogSDK"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_eventLogSdk",
+          "parameters": [],
+          "return_type": "Hypergryph.SDK.IEventLogSDK"
+        }
+      ],
+      "name": "HGEventLogSDKBridge",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554435
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetEnvironment",
+          "parameters": [
+            {
+              "name": "env",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetGlobalProperties",
+          "parameters": [
+            {
+              "name": "globalProperties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnsetGlobalProperties",
+          "parameters": [
+            {
+              "name": "propertyKeys",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClearGlobalProperties",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventTrack",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AppStartEvent",
+          "parameters": [
+            {
+              "name": "channel1",
+              "type": "System.String"
+            },
+            {
+              "name": "channel2",
+              "type": "System.String"
+            },
+            {
+              "name": "beat",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UserLoginEvent",
+          "parameters": [
+            {
+              "name": "userId",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnsetUser",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CharacterLoginEvent",
+          "parameters": [
+            {
+              "name": "characterId",
+              "type": "System.String"
+            },
+            {
+              "name": "serverId",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnsetCharacter",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPresetProperties",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PauseBeat",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ResumeBeat",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Flush",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnableRealTimeSend",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticPresetProperties",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDeviceIdProperties",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnApplicationPause",
+          "parameters": [
+            {
+              "name": "pause",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGEventLogSDKAppInstance",
+      "namespace": "Hypergryph.SDK",
+      "parent": "MonoBehaviour",
+      "type_token": 33554436
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "init",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "region",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventTrackWithAppId",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "HGEventLogSDKInstance",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "appIdForInstance",
+          "offset": 0,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetEnvironment",
+          "parameters": [
+            {
+              "name": "env",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Init",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "regionTag",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetGlobalProperties",
+          "parameters": [
+            {
+              "name": "globalProperties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnsetGlobalProperties",
+          "parameters": [
+            {
+              "name": "propertyKeys",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClearGlobalProperties",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventTrack",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AppStartEvent",
+          "parameters": [
+            {
+              "name": "channel1",
+              "type": "System.String"
+            },
+            {
+              "name": "channel2",
+              "type": "System.String"
+            },
+            {
+              "name": "beat",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UserLoginEvent",
+          "parameters": [
+            {
+              "name": "userId",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnsetUser",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CharacterLoginEvent",
+          "parameters": [
+            {
+              "name": "characterId",
+              "type": "System.String"
+            },
+            {
+              "name": "serverId",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnsetCharacter",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPresetProperties",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PauseBeat",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ResumeBeat",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Flush",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnableRealTimeSend",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticPresetProperties",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDeviceIdProperties",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnApplicationPause",
+          "parameters": [
+            {
+              "name": "pause",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGEventLogSDKMgr",
+      "namespace": "Hypergryph.SDK",
+      "parent": "MonoBehaviour",
+      "type_token": 33554438
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IEventLogSDK"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogSetEnvironment",
+          "parameters": [
+            {
+              "name": "env",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogInitInstance",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "regionTag",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogSetGlobalProperties",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "globalProperties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogUnsetGlobalProperties",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "propertyKeys",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogClearGlobalProperties",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogEvent",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogAppStartEvent",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "channel1",
+              "type": "System.String"
+            },
+            {
+              "name": "channel2",
+              "type": "System.String"
+            },
+            {
+              "name": "beat",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogBeatPause",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogBeatResume",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogUserLoginEvent",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "userId",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogUnsetUser",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogCharacterLoginEvent",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "characterId",
+              "type": "System.String"
+            },
+            {
+              "name": "serverId",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogUnsetCharacter",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogGetPresetProperties",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogGetStaticPresetProperties",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogGetDeviceIdProperties",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogEnableRealTimeSend",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogFlush",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogFree",
+          "parameters": [
+            {
+              "name": "buf",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogUnsetGlobalPropertiesV2",
+          "parameters": [
+            {
+              "name": "property_keys",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogSetGlobalPropertiesV2",
+          "parameters": [
+            {
+              "name": "global_properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogClearGlobalPropertiesV2",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogEventV2",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "json_str",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogAppStartEventV2",
+          "parameters": [
+            {
+              "name": "channel1",
+              "type": "System.String"
+            },
+            {
+              "name": "channel2",
+              "type": "System.String"
+            },
+            {
+              "name": "beat",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "json_str",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogBeatPauseV2",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogBeatResumeV2",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogUserLoginEventV2",
+          "parameters": [
+            {
+              "name": "user_id",
+              "type": "System.String"
+            },
+            {
+              "name": "json_str",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogUnsetUserV2",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogCharacterLoginEventV2",
+          "parameters": [
+            {
+              "name": "character_id",
+              "type": "System.String"
+            },
+            {
+              "name": "server_id",
+              "type": "System.String"
+            },
+            {
+              "name": "json_str",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogUnsetCharacterV2",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogGetPresetPropertiesV2",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogGetStaticPresetPropertiesV2",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogGetDeviceIdPropertiesV2",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventLogFlushV2",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "setEnvironment",
+          "parameters": [
+            {
+              "name": "env",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "init",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "regionTag",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "setGlobalProperties",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "globalProperties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "unsetGlobalProperties",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "propertyKeys",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "clearGlobalProperties",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "eventTrack",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "appStartEvent",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "channel1",
+              "type": "System.String"
+            },
+            {
+              "name": "channel2",
+              "type": "System.String"
+            },
+            {
+              "name": "beat",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "pauseBeat",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "resumeBeat",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "userLoginEvent",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "userId",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "unsetUser",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "characterLoginEvent",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "characterId",
+              "type": "System.String"
+            },
+            {
+              "name": "serverId",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "unsetCharacter",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getPresetProperties",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getStaticPresetProperties",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getDeviceIdProperties",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "flush",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "enableRealTimeSend",
+          "parameters": [
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "setGlobalPropertiesV2",
+          "parameters": [
+            {
+              "name": "globalProperties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "unsetGlobalPropertiesV2",
+          "parameters": [
+            {
+              "name": "propertyKeys",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "clearGlobalPropertiesV2",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "eventTrackV2",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "appStartEventV2",
+          "parameters": [
+            {
+              "name": "channel1",
+              "type": "System.String"
+            },
+            {
+              "name": "channel2",
+              "type": "System.String"
+            },
+            {
+              "name": "beat",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "pauseBeatV2",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "resumeBeatV2",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "userLoginEventV2",
+          "parameters": [
+            {
+              "name": "userId",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "unsetUserV2",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "characterLoginEventV2",
+          "parameters": [
+            {
+              "name": "characterId",
+              "type": "System.String"
+            },
+            {
+              "name": "serverId",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "unsetCharacterV2",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getPresetPropertiesV2",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "flushV2",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getStaticPresetPropertiesV2",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getDeviceIdPropertiesV2",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "eventTrackV3",
+          "parameters": [
+            {
+              "name": "appId",
+              "type": "System.String"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "properties",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "HGEventLogSDKPluginWindows",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554439
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Hypergryph.EventLogSDK.dll"
+}

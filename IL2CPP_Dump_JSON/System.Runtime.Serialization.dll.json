@@ -1,0 +1,157 @@
+{
+  "class_count": 5,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "isReference",
+          "offset": 16,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsReference",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "DataContractAttribute",
+      "namespace": "System.Runtime.Serialization",
+      "parent": "Attribute",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "name",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "order",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "isRequired",
+          "offset": 28,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "emitDefaultValue",
+          "offset": 29,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Name",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Order",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsRequired",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_EmitDefaultValue",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "DataMemberAttribute",
+      "namespace": "System.Runtime.Serialization",
+      "parent": "Attribute",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value",
+          "offset": 16,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Value",
+          "parameters": [],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "EnumMemberAttribute",
+      "namespace": "System.Runtime.Serialization",
+      "parent": "Attribute",
+      "type_token": 33554436
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "IgnoreDataMemberAttribute",
+      "namespace": "System.Runtime.Serialization",
+      "parent": "Attribute",
+      "type_token": 33554437
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "System.Runtime.Serialization.dll"
+}

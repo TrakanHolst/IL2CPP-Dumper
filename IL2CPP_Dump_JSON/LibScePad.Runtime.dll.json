@@ -1,0 +1,3511 @@
+{
+  "class_count": 90,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsSupportAudioFunction",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetAudioOutPath",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "path",
+              "type": "Plugins.LibScePad.ScePadAudioOutPath"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetVolumeGain",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "speakerVol",
+              "type": "System.Byte"
+            },
+            {
+              "name": "jackVol",
+              "type": "System.Byte"
+            },
+            {
+              "name": "micGain",
+              "type": "System.Byte"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHeadSetType",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "Plugins.LibScePad.ScePadHeadsetType"
+        }
+      ],
+      "name": "Audio",
+      "namespace": "",
+      "type_token": 33554435
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Init",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetOrOpen",
+          "parameters": [
+            {
+              "name": "userId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "type",
+              "type": "Plugins.LibScePad.ScePadType"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHandle",
+          "parameters": [
+            {
+              "name": "userId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "type",
+              "type": "Plugins.LibScePad.ScePadType"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Close",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ResetLightBar",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetLightBar",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "color",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetLightBar",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "r",
+              "type": "System.Byte"
+            },
+            {
+              "name": "g",
+              "type": "System.Byte"
+            },
+            {
+              "name": "b",
+              "type": "System.Byte"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetControllerInformation",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "info",
+              "type": "Plugins.LibScePad.ScePadControllerInformation&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadState",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "data",
+              "type": "Plugins.LibScePad.ScePadData&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetMotionSensorState",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTiltCorrectionState",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetAngularVelocityDeadbandState",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetAngularVelocityBiasCorrectionState",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ResetOrientation",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetVibrationMode",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "mode",
+              "type": "Plugins.LibScePad.ScePadVibrationMode"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_InitWithBluetooth",
+          "parameters": [],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "Basic",
+      "namespace": "",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_cachedOffEffectCmdArray",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectOffParamIternal.Command[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_cachedFeedBackEffectCmdArray",
+          "offset": 8,
+          "type": "Plugins.LibScePad.ScePadTriggerFeedbackEffectParamInternal.Command[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_cachedVibrationEffectCmdArray",
+          "offset": 16,
+          "type": "Plugins.LibScePad.ScePadTriggerVibrationEffectParamInternal.Command[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_cachedWeaponEffectCmdArray",
+          "offset": 24,
+          "type": "Plugins.LibScePad.ScePadTriggerWeaponEffectParamInternal.Command[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_cachedSlopeEffectCmdArray",
+          "offset": 32,
+          "type": "Plugins.LibScePad.ScePadTriggerSlopeFeedbackEffectParamInternal.Command[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_cachedMulPosEffectCmdArray",
+          "offset": 40,
+          "type": "Plugins.LibScePad.ScePadTriggerMultiPositionFeedbackEffectParamInternal.Command[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_cachedMulVibEffectCmdArray",
+          "offset": 48,
+          "type": "Plugins.LibScePad.ScePadTriggerMultiPositionVibrationEffectParamInternal.Command[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTriggerEffectStates",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "l2",
+              "type": "Plugins.LibScePad.ScePadTriggerEffectState&"
+            },
+            {
+              "name": "r2",
+              "type": "Plugins.LibScePad.ScePadTriggerEffectState&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTriggerEffectOff",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "mask",
+              "type": "Plugins.LibScePad.TriggerMask"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTriggerEffect",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "command",
+              "type": "Plugins.LibScePad.TriggerEffectCommandUnion"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_SetTriggerEffectFeedback",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "mask",
+              "type": "Plugins.LibScePad.TriggerMask"
+            },
+            {
+              "name": "paramL2",
+              "type": "Plugins.LibScePad.TriggerFeedbackEffect"
+            },
+            {
+              "name": "paramR2",
+              "type": "Plugins.LibScePad.TriggerFeedbackEffect"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_SetTriggerEffectVibration",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "mask",
+              "type": "Plugins.LibScePad.TriggerMask"
+            },
+            {
+              "name": "paramL2",
+              "type": "Plugins.LibScePad.TriggerVibrationEffect"
+            },
+            {
+              "name": "paramR2",
+              "type": "Plugins.LibScePad.TriggerVibrationEffect"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_SetTriggerEffectWeapon",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "mask",
+              "type": "Plugins.LibScePad.TriggerMask"
+            },
+            {
+              "name": "paramL2",
+              "type": "Plugins.LibScePad.TriggerWeaponEffect"
+            },
+            {
+              "name": "paramR2",
+              "type": "Plugins.LibScePad.TriggerWeaponEffect"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_SetTriggerEffectSlope",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "mask",
+              "type": "Plugins.LibScePad.TriggerMask"
+            },
+            {
+              "name": "slopeL2",
+              "type": "Plugins.LibScePad.TriggerSlopeFeedbackEffect"
+            },
+            {
+              "name": "slopeR2",
+              "type": "Plugins.LibScePad.TriggerSlopeFeedbackEffect"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_SetTriggerEffectMultiPosition",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "mask",
+              "type": "Plugins.LibScePad.TriggerMask"
+            },
+            {
+              "name": "paramL2",
+              "type": "Plugins.LibScePad.TriggerMultiPositionFeedbackEffect"
+            },
+            {
+              "name": "paramR2",
+              "type": "Plugins.LibScePad.TriggerMultiPositionFeedbackEffect"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_SetTriggerEffectMultiPositionVibration",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "mask",
+              "type": "Plugins.LibScePad.TriggerMask"
+            },
+            {
+              "name": "paramL2",
+              "type": "Plugins.LibScePad.TriggerMultiPositionVibrationEffect"
+            },
+            {
+              "name": "paramR2",
+              "type": "Plugins.LibScePad.TriggerMultiPositionVibrationEffect"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Trigger",
+      "namespace": "",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_available",
+          "offset": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_available",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "LibScePad",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_PORT_TYPE_STANDARD",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_PORT_TYPE_SPECIAL",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_PORT_TYPE_REMOTE_CONTROL",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadType",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_SUPPORT_BUS_TYPE_USB",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadSupportBusType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_SUPPORT_BUS_TYPE_USB_BT",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadSupportBusType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadSupportBusType",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_VIBRATION_MODE_ADVANCED",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadVibrationMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_VIBRATION_MODE_COMPATIBLE",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadVibrationMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_VIBRATION_MODE_COMPATIBLE2",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadVibrationMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_VIBRATION_MODE_ADVANCED_AND_COMPATIBLE",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadVibrationMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_VIBRATION_MODE_ADVANCED_AND_COMPATIBLE2",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadVibrationMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadVibrationMode",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_AUDIO_OUT_PATH_STEREO_HEADSET",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadAudioOutPath"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_AUDIO_OUT_PATH_MONO_HEADSET",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadAudioOutPath"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_AUDIO_OUT_PATH_MONO_HEADSET_SPEAKER",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadAudioOutPath"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_AUDIO_OUT_PATH_SPEAKER",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadAudioOutPath"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_AUDIO_OUT_PATH_OFF",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadAudioOutPath"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadAudioOutPath",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_HEADSET_TYPE_NONE",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadHeadsetType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_HEADSET_TYPE_HEADPHONE",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadHeadsetType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_HEADSET_TYPE_HEADSET",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadHeadsetType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadHeadsetType",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_TRIGGER_EFFECT_MODE_OFF",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_TRIGGER_EFFECT_MODE_FEEDBACK",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_TRIGGER_EFFECT_MODE_WEAPON",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_TRIGGER_EFFECT_MODE_VIBRATION",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_TRIGGER_EFFECT_MODE_MULTIPLE_POSITION_FEEDBACK",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_TRIGGER_EFFECT_MODE_SLOPE_FEEDBACK",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_TRIGGER_EFFECT_MODE_MULTIPLE_POSITION_VIBRATION",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadTriggerEffectMode",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_TRIGGER_EFFECT_STATE_OFF",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_TRIGGER_EFFECT_STATE_FEEDBACK_STANDBY",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_TRIGGER_EFFECT_STATE_FEEDBACK_ACTIVE",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_TRIGGER_EFFECT_STATE_WEAPON_STANDBY",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_TRIGGER_EFFECT_STATE_WEAPON_PULLING",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_TRIGGER_EFFECT_STATE_WEAPON_FIRED",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_TRIGGER_EFFECT_STATE_VIBRATION_STANDBY",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_TRIGGER_EFFECT_STATE_VIBRATION_ACTIVE",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SCE_PAD_TRIGGER_EFFECT_STATE_INTERCEPTED",
+          "offset": 0,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectState"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadTriggerEffectState",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "NONE",
+          "offset": 0,
+          "type": "Plugins.LibScePad.TriggerMask"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "L2",
+          "offset": 0,
+          "type": "Plugins.LibScePad.TriggerMask"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "R2",
+          "offset": 0,
+          "type": "Plugins.LibScePad.TriggerMask"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ALL",
+          "offset": 0,
+          "type": "Plugins.LibScePad.TriggerMask"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TriggerMask",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "feedback",
+          "offset": 16,
+          "type": "Plugins.LibScePad.TriggerFeedbackEffect"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "weapon",
+          "offset": 16,
+          "type": "Plugins.LibScePad.TriggerWeaponEffect"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "vibration",
+          "offset": 16,
+          "type": "Plugins.LibScePad.TriggerVibrationEffect"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "slopeFeedback",
+          "offset": 16,
+          "type": "Plugins.LibScePad.TriggerSlopeFeedbackEffect"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "multiPositionFeedback",
+          "offset": 16,
+          "type": "Plugins.LibScePad.TriggerMultiPositionFeedbackEffect"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "multiPositionVibration",
+          "offset": 16,
+          "type": "Plugins.LibScePad.TriggerMultiPositionVibrationEffect"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "mask",
+          "offset": 27,
+          "type": "Plugins.LibScePad.TriggerMask"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "mode",
+          "offset": 28,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TriggerEffectCommandUnion",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "position",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "strength",
+          "offset": 17,
+          "type": "System.Byte"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TriggerFeedbackEffect",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554447
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "startPosition",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "endPosition",
+          "offset": 17,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "strength",
+          "offset": 18,
+          "type": "System.Byte"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TriggerWeaponEffect",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554448
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "position",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "amplitude",
+          "offset": 17,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "frequency",
+          "offset": 18,
+          "type": "System.Byte"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TriggerVibrationEffect",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554449
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "startPosition",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "endPosition",
+          "offset": 17,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "startStrength",
+          "offset": 18,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "endStrength",
+          "offset": 19,
+          "type": "System.Byte"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TriggerSlopeFeedbackEffect",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554450
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "strength0",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "strength1",
+          "offset": 17,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "strength2",
+          "offset": 18,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "strength3",
+          "offset": 19,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "strength4",
+          "offset": 20,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "strength5",
+          "offset": 21,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "strength6",
+          "offset": 22,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "strength7",
+          "offset": 23,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "strength8",
+          "offset": 24,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "strength9",
+          "offset": 25,
+          "type": "System.Byte"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TriggerMultiPositionFeedbackEffect",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554451
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "amplitude0",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "amplitude1",
+          "offset": 17,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "amplitude2",
+          "offset": 18,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "amplitude3",
+          "offset": 19,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "amplitude4",
+          "offset": 20,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "amplitude5",
+          "offset": 21,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "amplitude6",
+          "offset": 22,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "amplitude7",
+          "offset": 23,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "amplitude8",
+          "offset": 24,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "amplitude9",
+          "offset": 25,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "frequency",
+          "offset": 26,
+          "type": "System.Byte"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TriggerMultiPositionVibrationEffect",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554452
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "pixelDensity",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "resolutionX",
+          "offset": 20,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "resolutionY",
+          "offset": 22,
+          "type": "System.UInt16"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadTouchPadInformation",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554453
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "deadZoneLeft",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "deadZoneRight",
+          "offset": 17,
+          "type": "System.Byte"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadStickInformation",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554454
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "x",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "y",
+          "offset": 17,
+          "type": "System.Byte"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadAnalogStick",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554455
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "l2",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "r2",
+          "offset": 17,
+          "type": "System.Byte"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadAnalogButtons",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554456
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "buttons",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "leftStick",
+          "offset": 20,
+          "type": "Plugins.LibScePad.ScePadAnalogStick"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "rightStick",
+          "offset": 22,
+          "type": "Plugins.LibScePad.ScePadAnalogStick"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "analogButtons",
+          "offset": 24,
+          "type": "Plugins.LibScePad.ScePadAnalogButtons"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "orientation",
+          "offset": 28,
+          "type": "UnityEngine.Quaternion"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "acceleration",
+          "offset": 44,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "angularVelocity",
+          "offset": 56,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "connected",
+          "offset": 68,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "timeStamp",
+          "offset": 72,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "connectedCount",
+          "offset": 80,
+          "type": "System.Byte"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "Plugins.LibScePad.ScePadDataInternal"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ScePadData",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554457
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "touchPadInfo",
+          "offset": 16,
+          "type": "Plugins.LibScePad.ScePadTouchPadInformation"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "stickInfo",
+          "offset": 24,
+          "type": "Plugins.LibScePad.ScePadStickInformation"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "connectionType",
+          "offset": 26,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "connectionCount",
+          "offset": 27,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "connected",
+          "offset": 28,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "info",
+              "type": "Plugins.LibScePad.ScePadControllerInformationInternal"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ScePadControllerInformation",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554458
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LibName",
+          "offset": 0,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsSupportedAudioFunction",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetAudioOutPath",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "path",
+              "type": "Plugins.LibScePad.ScePadAudioOutPath"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetVolumeGain",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "gain",
+              "type": "Plugins.LibScePad.ScePadVolumeGainInternal&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetJackState",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "headSetType",
+              "type": "Plugins.LibScePad.ScePadJackStateInternal&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Init",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Init3_WindowsOnly",
+          "parameters": [
+            {
+              "name": "init3Param",
+              "type": "Plugins.LibScePad.ScePadInit3ParamInternal"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Close",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Open",
+          "parameters": [
+            {
+              "name": "userId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "type",
+              "type": "Plugins.LibScePad.ScePadType"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "param",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHandle",
+          "parameters": [
+            {
+              "name": "userId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "type",
+              "type": "Plugins.LibScePad.ScePadType"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ResetLightBar",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetLightBar",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "color",
+              "type": "Plugins.LibScePad.ScePadColorInternal&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadState",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "data",
+              "type": "Plugins.LibScePad.ScePadDataInternal&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Read",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "data",
+              "type": "Plugins.LibScePad.ScePadDataInternal&"
+            },
+            {
+              "name": "num",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetControllerInformation",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "info",
+              "type": "Plugins.LibScePad.ScePadControllerInformationInternal&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetMotionSensorState",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTiltCorrectionState",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetAngularVelocityDeadbandState",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetAngularVelocityBiasCorrectionState",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "enable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ResetOrientation",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetVibrationMode",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "mode",
+              "type": "Plugins.LibScePad.ScePadVibrationMode"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetVibration",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "mode",
+              "type": "Plugins.LibScePad.ScePadVibrationParamInternal&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTriggerEffectState",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "info",
+              "type": "Plugins.LibScePad.ScePadTriggerEffectStateInformationInternal&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTriggerEffectOff",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "param",
+              "type": "Plugins.LibScePad.ScePadTriggerEffectOffParamIternal&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTriggerEffectFeedback",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "param",
+              "type": "Plugins.LibScePad.ScePadTriggerFeedbackEffectParamInternal&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTriggerEffectVibration",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "param",
+              "type": "Plugins.LibScePad.ScePadTriggerVibrationEffectParamInternal&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTriggerEffectWeapon",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "param",
+              "type": "Plugins.LibScePad.ScePadTriggerWeaponEffectParamInternal&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTriggerEffectSlope",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "param",
+              "type": "Plugins.LibScePad.ScePadTriggerSlopeFeedbackEffectParamInternal&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTriggerEffectMultiPosition",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "param",
+              "type": "Plugins.LibScePad.ScePadTriggerMultiPositionFeedbackEffectParamInternal&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTriggerEffectMultiPositionVibration",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            },
+            {
+              "name": "param",
+              "type": "Plugins.LibScePad.ScePadTriggerMultiPositionVibrationEffectParamInternal&"
+            }
+          ],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "LibScePadInvoke",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554459
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "r",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "g",
+          "offset": 17,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "b",
+          "offset": 18,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "reserved",
+          "offset": 19,
+          "type": "System.Byte"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadColorInternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554460
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "allocFunc",
+          "offset": 16,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "freeFunc",
+          "offset": 24,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "supportBusType",
+          "offset": 32,
+          "type": "Plugins.LibScePad.ScePadSupportBusType"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "reserve",
+          "offset": 36,
+          "type": "Plugins.LibScePad.ScePadInit3ParamInternal.<reserve>e__FixedBuffer"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadInit3ParamInternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554461
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "buttons",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "leftStick",
+          "offset": 20,
+          "type": "Plugins.LibScePad.ScePadAnalogStick"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "rightStick",
+          "offset": 22,
+          "type": "Plugins.LibScePad.ScePadAnalogStick"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "analogButtons",
+          "offset": 24,
+          "type": "Plugins.LibScePad.ScePadAnalogButtonsInternal"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "orientation",
+          "offset": 28,
+          "type": "Plugins.LibScePad.SceFQuaternionInternal"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "acceleration",
+          "offset": 44,
+          "type": "Plugins.LibScePad.SceFVector3Internal"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "angularVelocity",
+          "offset": 56,
+          "type": "Plugins.LibScePad.SceFVector3Internal"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "touchData",
+          "offset": 68,
+          "type": "Plugins.LibScePad.ScePadTouchDataInternal"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "connected",
+          "offset": 92,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "timestamp",
+          "offset": 96,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "extennsionnUnitData",
+          "offset": 104,
+          "type": "Plugins.LibScePad.ScePadExtensionUnitDataInternal"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "connectedCount",
+          "offset": 120,
+          "type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "reserve",
+          "offset": 121,
+          "type": "Plugins.LibScePad.ScePadDataInternal.<reserve>e__FixedBuffer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "deviceUniqueDataLen",
+          "offset": 123,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "deviceUniqueData",
+          "offset": 124,
+          "type": "Plugins.LibScePad.ScePadDataInternal.<deviceUniqueData>e__FixedBuffer"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadDataInternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554463
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "touchPadInfo",
+          "offset": 16,
+          "type": "Plugins.LibScePad.ScePadTouchPadInformation"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "stickInfo",
+          "offset": 24,
+          "type": "Plugins.LibScePad.ScePadStickInformation"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "connectionType",
+          "offset": 26,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "connectionCount",
+          "offset": 27,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "connected",
+          "offset": 28,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_",
+          "offset": 29,
+          "type": "Plugins.LibScePad.ScePadControllerInformationInternal.<_>e__FixedBuffer"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadControllerInformationInternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554466
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "largeMotor",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "smallMotor",
+          "offset": 17,
+          "type": "System.Byte"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadVibrationParamInternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554468
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "l2",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "r2",
+          "offset": 17,
+          "type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_",
+          "offset": 18,
+          "type": "Plugins.LibScePad.ScePadAnalogButtonsInternal.<_>e__FixedBuffer"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadAnalogButtonsInternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554469
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "touchNum",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "reserve",
+          "offset": 17,
+          "type": "Plugins.LibScePad.ScePadTouchDataInternal.<reserve>e__FixedBuffer"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "reserve1",
+          "offset": 20,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "touch1",
+          "offset": 24,
+          "type": "Plugins.LibScePad.ScePadTouchInternal"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "touch2",
+          "offset": 32,
+          "type": "Plugins.LibScePad.ScePadTouchInternal"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadTouchDataInternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554471
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "x",
+          "offset": 16,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "y",
+          "offset": 18,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "id",
+          "offset": 20,
+          "type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "reserve",
+          "offset": 21,
+          "type": "Plugins.LibScePad.ScePadTouchInternal.<reserve>e__FixedBuffer"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadTouchInternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554473
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "reserve",
+          "offset": 16,
+          "type": "Plugins.LibScePad.ScePadOpenParamInternal.<reserve>e__FixedBuffer"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadOpenParamInternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554475
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "extensionUnitId",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "reserve",
+          "offset": 20,
+          "type": "Plugins.LibScePad.ScePadExtensionUnitDataInternal.<reserve>e__FixedBuffer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "dateLength",
+          "offset": 21,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "data",
+          "offset": 22,
+          "type": "Plugins.LibScePad.ScePadExtensionUnitDataInternal.<data>e__FixedBuffer"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadExtensionUnitDataInternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554477
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "speakerVol",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "jackVol",
+          "offset": 17,
+          "type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "reserved",
+          "offset": 18,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "micGain",
+          "offset": 19,
+          "type": "System.Byte"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadVolumeGainInternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554480
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "headsetType",
+          "offset": 16,
+          "type": "Plugins.LibScePad.ScePadHeadsetType"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "reserve",
+          "offset": 20,
+          "type": "Plugins.LibScePad.ScePadJackStateInternal.<reserve>e__FixedBuffer"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadJackStateInternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554481
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "x",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "y",
+          "offset": 20,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "z",
+          "offset": 24,
+          "type": "System.Single"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "SceFVector3Internal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554483
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "x",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "y",
+          "offset": 20,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "z",
+          "offset": 24,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "w",
+          "offset": 28,
+          "type": "System.Single"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "SceFQuaternionInternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554484
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "mode",
+          "offset": 16,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectMode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_",
+          "offset": 20,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectOffParamIternal.Command.<_>e__FixedBuffer"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Command",
+      "namespace": "",
+      "type_token": 33554486
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "triggerMask",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_",
+          "offset": 17,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectOffParamIternal.<_>e__FixedBuffer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "command",
+          "offset": 24,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectOffParamIternal.Command[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadTriggerEffectOffParamIternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554485
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "mode",
+          "offset": 16,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectMode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_1",
+          "offset": 20,
+          "type": "Plugins.LibScePad.ScePadTriggerFeedbackEffectParamInternal.Command.<_1>e__FixedBuffer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "position",
+          "offset": 24,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "strength",
+          "offset": 25,
+          "type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_2",
+          "offset": 26,
+          "type": "Plugins.LibScePad.ScePadTriggerFeedbackEffectParamInternal.Command.<_2>e__FixedBuffer"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Command",
+      "namespace": "",
+      "type_token": 33554490
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "triggerMask",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_",
+          "offset": 17,
+          "type": "Plugins.LibScePad.ScePadTriggerFeedbackEffectParamInternal.<_>e__FixedBuffer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "command",
+          "offset": 24,
+          "type": "Plugins.LibScePad.ScePadTriggerFeedbackEffectParamInternal.Command[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadTriggerFeedbackEffectParamInternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554489
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "mode",
+          "offset": 16,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectMode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_1",
+          "offset": 20,
+          "type": "Plugins.LibScePad.ScePadTriggerWeaponEffectParamInternal.Command.<_1>e__FixedBuffer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "startPosition",
+          "offset": 24,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "endPosition",
+          "offset": 25,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "strength",
+          "offset": 26,
+          "type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_2",
+          "offset": 27,
+          "type": "Plugins.LibScePad.ScePadTriggerWeaponEffectParamInternal.Command.<_2>e__FixedBuffer"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Command",
+      "namespace": "",
+      "type_token": 33554495
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "triggerMask",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_",
+          "offset": 17,
+          "type": "Plugins.LibScePad.ScePadTriggerWeaponEffectParamInternal.<_>e__FixedBuffer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "command",
+          "offset": 24,
+          "type": "Plugins.LibScePad.ScePadTriggerWeaponEffectParamInternal.Command[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadTriggerWeaponEffectParamInternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554494
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "mode",
+          "offset": 16,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectMode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_1",
+          "offset": 20,
+          "type": "Plugins.LibScePad.ScePadTriggerVibrationEffectParamInternal.Command.<_1>e__FixedBuffer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "position",
+          "offset": 24,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "amplitude",
+          "offset": 25,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "frequency",
+          "offset": 26,
+          "type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_2",
+          "offset": 27,
+          "type": "Plugins.LibScePad.ScePadTriggerVibrationEffectParamInternal.Command.<_2>e__FixedBuffer"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Command",
+      "namespace": "",
+      "type_token": 33554500
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "triggerMask",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_",
+          "offset": 17,
+          "type": "Plugins.LibScePad.ScePadTriggerVibrationEffectParamInternal.<_>e__FixedBuffer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "command",
+          "offset": 24,
+          "type": "Plugins.LibScePad.ScePadTriggerVibrationEffectParamInternal.Command[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadTriggerVibrationEffectParamInternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554499
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "mode",
+          "offset": 16,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectMode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_1",
+          "offset": 20,
+          "type": "Plugins.LibScePad.ScePadTriggerSlopeFeedbackEffectParamInternal.Command.<_1>e__FixedBuffer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "startPosition",
+          "offset": 24,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "endPosition",
+          "offset": 25,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "startStrength",
+          "offset": 26,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "endStrength",
+          "offset": 27,
+          "type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_2",
+          "offset": 28,
+          "type": "Plugins.LibScePad.ScePadTriggerSlopeFeedbackEffectParamInternal.Command.<_2>e__FixedBuffer"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Command",
+      "namespace": "",
+      "type_token": 33554505
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "triggerMask",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_",
+          "offset": 17,
+          "type": "Plugins.LibScePad.ScePadTriggerSlopeFeedbackEffectParamInternal.<_>e__FixedBuffer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "command",
+          "offset": 24,
+          "type": "Plugins.LibScePad.ScePadTriggerSlopeFeedbackEffectParamInternal.Command[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadTriggerSlopeFeedbackEffectParamInternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554504
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "mode",
+          "offset": 16,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectMode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_1",
+          "offset": 20,
+          "type": "Plugins.LibScePad.ScePadTriggerMultiPositionFeedbackEffectParamInternal.Command.<_1>e__FixedBuffer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "strength",
+          "offset": 24,
+          "type": "Plugins.LibScePad.ScePadTriggerMultiPositionFeedbackEffectParamInternal.Command.<strength>e__FixedBuffer"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_2",
+          "offset": 34,
+          "type": "Plugins.LibScePad.ScePadTriggerMultiPositionFeedbackEffectParamInternal.Command.<_2>e__FixedBuffer"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Command",
+      "namespace": "",
+      "type_token": 33554510
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "triggerMask",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_",
+          "offset": 17,
+          "type": "Plugins.LibScePad.ScePadTriggerMultiPositionFeedbackEffectParamInternal.<_>e__FixedBuffer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "command",
+          "offset": 24,
+          "type": "Plugins.LibScePad.ScePadTriggerMultiPositionFeedbackEffectParamInternal.Command[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadTriggerMultiPositionFeedbackEffectParamInternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554509
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "mode",
+          "offset": 16,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectMode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_1",
+          "offset": 20,
+          "type": "Plugins.LibScePad.ScePadTriggerMultiPositionVibrationEffectParamInternal.Command.<_1>e__FixedBuffer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "frequency",
+          "offset": 24,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "amplitude",
+          "offset": 25,
+          "type": "Plugins.LibScePad.ScePadTriggerMultiPositionVibrationEffectParamInternal.Command.<amplitude>e__FixedBuffer"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_2",
+          "offset": 35,
+          "type": "Plugins.LibScePad.ScePadTriggerMultiPositionVibrationEffectParamInternal.Command.<_2>e__FixedBuffer"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Command",
+      "namespace": "",
+      "type_token": 33554516
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "triggerMask",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_",
+          "offset": 17,
+          "type": "Plugins.LibScePad.ScePadTriggerMultiPositionVibrationEffectParamInternal.<_>e__FixedBuffer"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "command",
+          "offset": 24,
+          "type": "Plugins.LibScePad.ScePadTriggerMultiPositionVibrationEffectParamInternal.Command[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadTriggerMultiPositionVibrationEffectParamInternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554515
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "state",
+          "offset": 16,
+          "type": "Plugins.LibScePad.ScePadTriggerEffectStateInformationInternal.<state>e__FixedBuffer"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ScePadTriggerEffectStateInformationInternal",
+      "namespace": "Plugins.LibScePad",
+      "type_token": 33554521
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "LibScePad.Runtime.dll"
+}

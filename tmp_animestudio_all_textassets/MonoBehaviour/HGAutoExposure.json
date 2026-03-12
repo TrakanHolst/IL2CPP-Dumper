@@ -1,0 +1,86 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 1706499241336000824
+  },
+  "m_Name": "HGAutoExposure",
+  "active": 0,
+  "autoExposureEnabled": {
+    "overrideState": 1,
+    "m_Value": 0
+  },
+  "autoModeEnabled": {
+    "overrideState": 0,
+    "m_Value": 0
+  },
+  "envEV100CompensationCurve": {
+    "overrideState": 0,
+    "m_Value": {
+      "m_Curve": [],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    }
+  },
+  "manualEVCompensationAuto": {
+    "overrideState": 0,
+    "m_Value": 0.0
+  },
+  "curveEditModeEnabled": {
+    "overrideState": 1,
+    "m_Value": 0
+  },
+  "exposureLerpUpSpeed": {
+    "overrideState": 0,
+    "m_Value": 0.6
+  },
+  "exposureLerpDownSpeed": {
+    "overrideState": 0,
+    "m_Value": 0.4
+  },
+  "exposureEV100Range": {
+    "overrideState": 0,
+    "m_Value": {
+      "x": -8.0,
+      "y": 4.0
+    }
+  },
+  "exposureEV100HistogramRange": {
+    "overrideState": 0,
+    "m_Value": {
+      "x": -8.0,
+      "y": 4.0
+    }
+  },
+  "meteringMode": {
+    "overrideState": 0,
+    "m_Value": 1
+  },
+  "centerPixelWeight": {
+    "overrideState": 0,
+    "m_Value": 0.75
+  },
+  "pixelLuminanceRange": {
+    "overrideState": 0,
+    "m_Value": {
+      "x": 0.05,
+      "y": 0.95
+    }
+  },
+  "manualEVCompensation": {
+    "overrideState": 0,
+    "m_Value": 0.0
+  },
+  "evClampRange": {
+    "overrideState": 0,
+    "m_Value": {
+      "x": -4.0,
+      "y": 4.0
+    }
+  }
+}

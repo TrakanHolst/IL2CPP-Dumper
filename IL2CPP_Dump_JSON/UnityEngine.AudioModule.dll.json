@@ -1,0 +1,1446 @@
+{
+  "class_count": 19,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "deviceWasChanged",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AudioConfigurationChangeHandler",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "OnAudioConfigurationChanged",
+          "offset": 0,
+          "type": "UnityEngine.AudioSettings.AudioConfigurationChangeHandler"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "OnAudioSystemShuttingDown",
+          "offset": 8,
+          "type": "System.Action"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "OnAudioSystemStartedUp",
+          "offset": 16,
+          "type": "System.Action"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeOnAudioConfigurationChanged",
+          "parameters": [
+            {
+              "name": "deviceWasChanged",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeOnAudioSystemShuttingDown",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeOnAudioSystemStartedUp",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AudioSettings",
+      "namespace": "UnityEngine",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Single[]"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "PCMReaderCallback",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "PCMSetPositionCallback",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_PCMReaderCallback",
+          "offset": 24,
+          "type": "UnityEngine.AudioClip.PCMReaderCallback"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_PCMSetPositionCallback",
+          "offset": 32,
+          "type": "UnityEngine.AudioClip.PCMSetPositionCallback"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_length",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_samples",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_frequency",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokePCMReaderCallback_Internal",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Single[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokePCMSetPositionCallback_Internal",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AudioClip",
+      "namespace": "UnityEngine",
+      "type_token": 33554436
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AudioBehaviour",
+      "namespace": "UnityEngine",
+      "parent": "Behaviour",
+      "type_token": 33554439
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "AudioListener",
+      "namespace": "UnityEngine",
+      "parent": "AudioBehaviour",
+      "type_token": 33554440
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetPitch",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "UnityEngine.AudioSource"
+            },
+            {
+              "name": "pitch",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PlayHelper",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "UnityEngine.AudioSource"
+            },
+            {
+              "name": "delay",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PlayOneShotHelper",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "UnityEngine.AudioSource"
+            },
+            {
+              "name": "clip",
+              "type": "UnityEngine.AudioClip"
+            },
+            {
+              "name": "volumeScale",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Stop",
+          "parameters": [
+            {
+              "name": "stopOneShots",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_volume",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_pitch",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_time",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_time",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_clip",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.AudioClip"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_outputAudioMixerGroup",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Audio.AudioMixerGroup"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Play",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PlayOneShot",
+          "parameters": [
+            {
+              "name": "clip",
+              "type": "UnityEngine.AudioClip"
+            },
+            {
+              "name": "volumeScale",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Stop",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_isPlaying",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PlayClipAtPoint",
+          "parameters": [
+            {
+              "name": "clip",
+              "type": "UnityEngine.AudioClip"
+            },
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "volume",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_playOnAwake",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_panStereo",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_spatialBlend",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_bypassReverbZones",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AudioSource",
+      "namespace": "UnityEngine",
+      "parent": "AudioBehaviour",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Handle",
+          "offset": 16,
+          "type": "UnityEngine.Playables.PlayableHandle"
+        }
+      ],
+      "interfaces": [
+        "IPlayable",
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Create",
+          "parameters": [
+            {
+              "name": "graph",
+              "type": "UnityEngine.Playables.PlayableGraph"
+            },
+            {
+              "name": "clip",
+              "type": "UnityEngine.AudioClip"
+            },
+            {
+              "name": "looping",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Audio.AudioClipPlayable"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateHandle",
+          "parameters": [
+            {
+              "name": "graph",
+              "type": "UnityEngine.Playables.PlayableGraph"
+            },
+            {
+              "name": "clip",
+              "type": "UnityEngine.AudioClip"
+            },
+            {
+              "name": "looping",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Playables.PlayableHandle"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "UnityEngine.Playables.PlayableHandle"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHandle",
+          "parameters": [],
+          "return_type": "UnityEngine.Playables.PlayableHandle"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "playable",
+              "type": "UnityEngine.Audio.AudioClipPlayable"
+            }
+          ],
+          "return_type": "UnityEngine.Playables.Playable"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Explicit",
+          "parameters": [
+            {
+              "name": "playable",
+              "type": "UnityEngine.Playables.Playable"
+            }
+          ],
+          "return_type": "UnityEngine.Audio.AudioClipPlayable"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.Audio.AudioClipPlayable"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetVolume",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetStereoPan",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetSpatialBlend",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Seek",
+          "parameters": [
+            {
+              "name": "startTime",
+              "type": "System.Double"
+            },
+            {
+              "name": "startDelay",
+              "type": "System.Double"
+            },
+            {
+              "name": "duration",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetVolumeInternal",
+          "parameters": [
+            {
+              "name": "hdl",
+              "type": "UnityEngine.Playables.PlayableHandle&"
+            },
+            {
+              "name": "volume",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetStereoPanInternal",
+          "parameters": [
+            {
+              "name": "hdl",
+              "type": "UnityEngine.Playables.PlayableHandle&"
+            },
+            {
+              "name": "stereoPan",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetSpatialBlendInternal",
+          "parameters": [
+            {
+              "name": "hdl",
+              "type": "UnityEngine.Playables.PlayableHandle&"
+            },
+            {
+              "name": "spatialBlend",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetStartDelayInternal",
+          "parameters": [
+            {
+              "name": "hdl",
+              "type": "UnityEngine.Playables.PlayableHandle&"
+            },
+            {
+              "name": "delay",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetPauseDelayInternal",
+          "parameters": [
+            {
+              "name": "hdl",
+              "type": "UnityEngine.Playables.PlayableHandle&"
+            },
+            {
+              "name": "delay",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InternalCreateAudioClipPlayable",
+          "parameters": [
+            {
+              "name": "graph",
+              "type": "UnityEngine.Playables.PlayableGraph&"
+            },
+            {
+              "name": "clip",
+              "type": "UnityEngine.AudioClip"
+            },
+            {
+              "name": "looping",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "handle",
+              "type": "UnityEngine.Playables.PlayableHandle&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "AudioClipPlayable",
+      "namespace": "UnityEngine.Audio",
+      "type_token": 33554442
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FindSnapshot",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Audio.AudioMixerSnapshot"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TransitionToSnapshot",
+          "parameters": [
+            {
+              "name": "snapshot",
+              "type": "UnityEngine.Audio.AudioMixerSnapshot"
+            },
+            {
+              "name": "timeToReach",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TransitionToSnapshotInternal",
+          "parameters": [
+            {
+              "name": "snapshot",
+              "type": "UnityEngine.Audio.AudioMixerSnapshot"
+            },
+            {
+              "name": "timeToReach",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AudioMixer",
+      "namespace": "UnityEngine.Audio",
+      "type_token": 33554443
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "AudioMixerGroup",
+      "namespace": "UnityEngine.Audio",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Handle",
+          "offset": 16,
+          "type": "UnityEngine.Playables.PlayableHandle"
+        }
+      ],
+      "interfaces": [
+        "IPlayable",
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Create",
+          "parameters": [
+            {
+              "name": "graph",
+              "type": "UnityEngine.Playables.PlayableGraph"
+            },
+            {
+              "name": "inputCount",
+              "type": "System.Int32"
+            },
+            {
+              "name": "normalizeInputVolumes",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Audio.AudioMixerPlayable"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateHandle",
+          "parameters": [
+            {
+              "name": "graph",
+              "type": "UnityEngine.Playables.PlayableGraph"
+            },
+            {
+              "name": "inputCount",
+              "type": "System.Int32"
+            },
+            {
+              "name": "normalizeInputVolumes",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Playables.PlayableHandle"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "UnityEngine.Playables.PlayableHandle"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHandle",
+          "parameters": [],
+          "return_type": "UnityEngine.Playables.PlayableHandle"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "playable",
+              "type": "UnityEngine.Audio.AudioMixerPlayable"
+            }
+          ],
+          "return_type": "UnityEngine.Playables.Playable"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.Audio.AudioMixerPlayable"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateAudioMixerPlayableInternal",
+          "parameters": [
+            {
+              "name": "graph",
+              "type": "UnityEngine.Playables.PlayableGraph&"
+            },
+            {
+              "name": "normalizeInputVolumes",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "handle",
+              "type": "UnityEngine.Playables.PlayableHandle&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "AudioMixerPlayable",
+      "namespace": "UnityEngine.Audio",
+      "type_token": 33554445
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_audioMixer",
+          "parameters": [],
+          "return_type": "UnityEngine.Audio.AudioMixer"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TransitionTo",
+          "parameters": [
+            {
+              "name": "timeToReach",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AudioMixerSnapshot",
+      "namespace": "UnityEngine.Audio",
+      "type_token": 33554446
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Create",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "key",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "UnityEngine.Playables.PlayableBinding"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateAudioOutput",
+          "parameters": [
+            {
+              "name": "graph",
+              "type": "UnityEngine.Playables.PlayableGraph"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Playables.PlayableOutput"
+        }
+      ],
+      "name": "AudioPlayableBinding",
+      "namespace": "UnityEngine.Audio",
+      "type_token": 33554447
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InternalCreateAudioOutput",
+          "parameters": [
+            {
+              "name": "graph",
+              "type": "UnityEngine.Playables.PlayableGraph&"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "handle",
+              "type": "UnityEngine.Playables.PlayableOutputHandle&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "AudioPlayableGraphExtensions",
+      "namespace": "UnityEngine.Audio",
+      "type_token": 33554448
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Handle",
+          "offset": 16,
+          "type": "UnityEngine.Playables.PlayableOutputHandle"
+        }
+      ],
+      "interfaces": [
+        "IPlayableOutput"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Create",
+          "parameters": [
+            {
+              "name": "graph",
+              "type": "UnityEngine.Playables.PlayableGraph"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "target",
+              "type": "UnityEngine.AudioSource"
+            }
+          ],
+          "return_type": "UnityEngine.Audio.AudioPlayableOutput"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "UnityEngine.Playables.PlayableOutputHandle"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Null",
+          "parameters": [],
+          "return_type": "UnityEngine.Audio.AudioPlayableOutput"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHandle",
+          "parameters": [],
+          "return_type": "UnityEngine.Playables.PlayableOutputHandle"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "UnityEngine.Audio.AudioPlayableOutput"
+            }
+          ],
+          "return_type": "UnityEngine.Playables.PlayableOutput"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Explicit",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "UnityEngine.Playables.PlayableOutput"
+            }
+          ],
+          "return_type": "UnityEngine.Audio.AudioPlayableOutput"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTarget",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.AudioSource"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetEvaluateOnSeek",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InternalSetTarget",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "UnityEngine.Playables.PlayableOutputHandle&"
+            },
+            {
+              "name": "target",
+              "type": "UnityEngine.AudioSource"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InternalSetEvaluateOnSeek",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "UnityEngine.Playables.PlayableOutputHandle&"
+            },
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AudioPlayableOutput",
+      "namespace": "UnityEngine.Audio",
+      "type_token": 33554449
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "provider",
+              "type": "UnityEngine.Experimental.Audio.AudioSampleProvider"
+            },
+            {
+              "name": "sampleFrameCount",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SampleFramesHandler",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554451
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "sampleFramesAvailable",
+          "offset": 16,
+          "type": "UnityEngine.Experimental.Audio.AudioSampleProvider.SampleFramesHandler"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "sampleFramesOverflow",
+          "offset": 24,
+          "type": "UnityEngine.Experimental.Audio.AudioSampleProvider.SampleFramesHandler"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeSampleFramesAvailable",
+          "parameters": [
+            {
+              "name": "sampleFrameCount",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeSampleFramesOverflow",
+          "parameters": [
+            {
+              "name": "droppedSampleFrameCount",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AudioSampleProvider",
+      "namespace": "UnityEngine.Experimental.Audio",
+      "type_token": 33554450
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.AudioModule.dll"
+}

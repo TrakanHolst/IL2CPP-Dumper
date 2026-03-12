@@ -1,0 +1,72 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2268290328262537817
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 3145928721743724654
+  },
+  "m_Name": "",
+  "actionId": "",
+  "btnTarget": {
+    "m_FileID": 0,
+    "m_PathID": 2883514526190137945
+  },
+  "bindingViewActionType": 0,
+  "_useCustomText": 0,
+  "_showSecondAction": 0,
+  "_onlyShowOnLongPress": 0,
+  "_adaptForceGrayState": 0,
+  "_content": {
+    "m_FileID": 0,
+    "m_PathID": 2699780018561217113
+  },
+  "_contentCanvasGroup": {
+    "m_FileID": 0,
+    "m_PathID": -3115798399756733863
+  },
+  "_icon": {
+    "m_FileID": 0,
+    "m_PathID": 791447919881613913
+  },
+  "_longPressIcon": {
+    "m_FileID": 0,
+    "m_PathID": -1984587446853897639
+  },
+  "_pressHintNode": {
+    "m_FileID": 0,
+    "m_PathID": 6081539423895286361
+  },
+  "_pressHintProgressImg": {
+    "m_FileID": 0,
+    "m_PathID": -5613607290884722087
+  },
+  "_text": {
+    "m_FileID": 0,
+    "m_PathID": -7358851173800283559
+  },
+  "_secondIcon": {
+    "m_FileID": 0,
+    "m_PathID": -472391432920960423
+  },
+  "_secondNode": {
+    "m_FileID": 0,
+    "m_PathID": -3742762211514060199
+  },
+  "_modifyIcon": {
+    "m_FileID": 0,
+    "m_PathID": 8931155224147784281
+  },
+  "_mutexGameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_changeScaleOnHide": 0,
+  "_canvasGroup": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "autoUpdate": 1
+}

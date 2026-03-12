@@ -1,0 +1,1635 @@
+{
+  "class_count": 13,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "min",
+          "offset": 16,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "max",
+          "offset": 28,
+          "type": "UnityEngine.Vector3"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_size",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Bounds",
+          "parameters": [],
+          "return_type": "UnityEngine.Bounds"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClosestPoint",
+          "parameters": [
+            {
+              "name": "point",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        }
+      ],
+      "name": "KDBounds",
+      "namespace": "DataStructures.ViliWonka.KDTree",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "partitionCoordinate",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "partitionAxis",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "negativeChild",
+          "offset": 24,
+          "type": "DataStructures.ViliWonka.KDTree.KDNode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "positiveChild",
+          "offset": 32,
+          "type": "DataStructures.ViliWonka.KDTree.KDNode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "start",
+          "offset": 40,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "end",
+          "offset": 44,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "bounds",
+          "offset": 48,
+          "type": "DataStructures.ViliWonka.KDTree.KDBounds"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Count",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Leaf",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "KDNode",
+      "namespace": "DataStructures.ViliWonka.KDTree",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "protected",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "queueArray",
+          "offset": 16,
+          "type": "DataStructures.ViliWonka.KDTree.KDQueryNode[]"
+        },
+        {
+          "access": "protected",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "minHeap",
+          "offset": 24,
+          "type": "DataStructures.ViliWonka.Heap.MinHeap<DataStructures.ViliWonka.KDTree.KDQueryNode>"
+        },
+        {
+          "access": "protected",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "count",
+          "offset": 32,
+          "type": "System.Int32"
+        },
+        {
+          "access": "protected",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "queryIndex",
+          "offset": 36,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_heaps",
+          "offset": 40,
+          "type": "System.Collections.Generic.SortedList<System.Int32,DataStructures.ViliWonka.Heap.KSmallestHeap<System.Int32>>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushGetQueue",
+          "parameters": [],
+          "return_type": "DataStructures.ViliWonka.KDTree.KDQueryNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushToQueue",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "DataStructures.ViliWonka.KDTree.KDNode"
+            },
+            {
+              "name": "tempClosestPoint",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushToHeap",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "DataStructures.ViliWonka.KDTree.KDNode"
+            },
+            {
+              "name": "tempClosestPoint",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "queryPosition",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LeftToProcess",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopFromQueue",
+          "parameters": [],
+          "return_type": "DataStructures.ViliWonka.KDTree.KDQueryNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopFromHeap",
+          "parameters": [],
+          "return_type": "DataStructures.ViliWonka.KDTree.KDQueryNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Reset",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "queryNodesContainersInitialSize",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DrawLastQuery",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClosestPoint",
+          "parameters": [
+            {
+              "name": "tree",
+              "type": "DataStructures.ViliWonka.KDTree.KDTree"
+            },
+            {
+              "name": "queryPosition",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "resultIndices",
+              "type": "System.Collections.Generic.List<System.Int32>"
+            },
+            {
+              "name": "resultDistances",
+              "type": "System.Collections.Generic.List<System.Single>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Interval",
+          "parameters": [
+            {
+              "name": "tree",
+              "type": "DataStructures.ViliWonka.KDTree.KDTree"
+            },
+            {
+              "name": "min",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "max",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "resultIndices",
+              "type": "System.Collections.Generic.List<System.Int32>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "KNearest",
+          "parameters": [
+            {
+              "name": "tree",
+              "type": "DataStructures.ViliWonka.KDTree.KDTree"
+            },
+            {
+              "name": "queryPosition",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "k",
+              "type": "System.Int32"
+            },
+            {
+              "name": "resultIndices",
+              "type": "System.Collections.Generic.List<System.Int32>"
+            },
+            {
+              "name": "resultDistances",
+              "type": "System.Collections.Generic.List<System.Single>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Radius",
+          "parameters": [
+            {
+              "name": "tree",
+              "type": "DataStructures.ViliWonka.KDTree.KDTree"
+            },
+            {
+              "name": "queryPosition",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "queryRadius",
+              "type": "System.Single"
+            },
+            {
+              "name": "resultIndices",
+              "type": "System.Collections.Generic.List<System.Int32>"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "KDQuery",
+      "namespace": "DataStructures.ViliWonka.KDTree",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "node",
+          "offset": 16,
+          "type": "DataStructures.ViliWonka.KDTree.KDNode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "tempClosestPoint",
+          "offset": 24,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "distance",
+          "offset": 36,
+          "type": "System.Single"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "DataStructures.ViliWonka.KDTree.KDNode"
+            },
+            {
+              "name": "tempClosestPoint",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "KDQueryNode",
+      "namespace": "DataStructures.ViliWonka.KDTree",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<RootNode>k__BackingField",
+          "offset": 16,
+          "type": "DataStructures.ViliWonka.KDTree.KDNode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "points",
+          "offset": 24,
+          "type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "permutation",
+          "offset": 32,
+          "type": "System.Int32[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<Count>k__BackingField",
+          "offset": 40,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "maxPointsPerLeafNode",
+          "offset": 44,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "kdNodesStack",
+          "offset": 48,
+          "type": "DataStructures.ViliWonka.KDTree.KDNode[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "kdNodesCount",
+          "offset": 56,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_RootNode",
+          "parameters": [],
+          "return_type": "DataStructures.ViliWonka.KDTree.KDNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_RootNode",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "DataStructures.ViliWonka.KDTree.KDNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Points",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Permutation",
+          "parameters": [],
+          "return_type": "System.Int32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Count",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Count",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "maxPointsPerLeafNode",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "points",
+              "type": "UnityEngine.Vector3[]"
+            },
+            {
+              "name": "maxPointsPerLeafNode",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Build",
+          "parameters": [
+            {
+              "name": "newPoints",
+              "type": "UnityEngine.Vector3[]"
+            },
+            {
+              "name": "maxPointsPerLeafNode",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Build",
+          "parameters": [
+            {
+              "name": "newPoints",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+            },
+            {
+              "name": "maxPointsPerLeafNode",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Rebuild",
+          "parameters": [
+            {
+              "name": "maxPointsPerLeafNode",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetCount",
+          "parameters": [
+            {
+              "name": "newSize",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BuildTree",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetKDNode",
+          "parameters": [],
+          "return_type": "DataStructures.ViliWonka.KDTree.KDNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ResetKDNodeStack",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MakeBounds",
+          "parameters": [],
+          "return_type": "DataStructures.ViliWonka.KDTree.KDBounds"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SplitNode",
+          "parameters": [
+            {
+              "name": "parent",
+              "type": "DataStructures.ViliWonka.KDTree.KDNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculatePivot",
+          "parameters": [
+            {
+              "name": "start",
+              "type": "System.Int32"
+            },
+            {
+              "name": "end",
+              "type": "System.Int32"
+            },
+            {
+              "name": "boundsStart",
+              "type": "System.Single"
+            },
+            {
+              "name": "boundsEnd",
+              "type": "System.Single"
+            },
+            {
+              "name": "axis",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Partition",
+          "parameters": [
+            {
+              "name": "start",
+              "type": "System.Int32"
+            },
+            {
+              "name": "end",
+              "type": "System.Int32"
+            },
+            {
+              "name": "partitionPivot",
+              "type": "System.Single"
+            },
+            {
+              "name": "axis",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ContinueSplit",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "DataStructures.ViliWonka.KDTree.KDNode"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "KDTree",
+      "namespace": "DataStructures.ViliWonka.KDTree",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "protected",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "nodesCount",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "protected",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "maxSize",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "protected",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "heap",
+          "offset": 24,
+          "type": "System.Single[]"
+        },
+        {
+          "access": "protected",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "tempHeap",
+          "offset": 32,
+          "type": "System.Single"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "initialSize",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Count",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_HeadValue",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Parent",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Left",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Right",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BubbleDownMax",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BubbleUpMax",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BubbleDownMin",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BubbleUpMin",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Swap",
+          "parameters": [
+            {
+              "name": "A",
+              "type": "System.Int32"
+            },
+            {
+              "name": "B",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpsizeHeap",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushValue",
+          "parameters": [
+            {
+              "name": "h",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopValue",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FlushHeapResult",
+          "parameters": [
+            {
+              "name": "heapList",
+              "type": "System.Collections.Generic.List<System.Single>"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "BaseHeap",
+      "namespace": "DataStructures.ViliWonka.Heap",
+      "type_token": 33554439
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "maxEntries",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Full",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushValue",
+          "parameters": [
+            {
+              "name": "h",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopValue",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Print",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HeapPropertyHolds",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "depth",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "KSmallestHeap",
+      "namespace": "DataStructures.ViliWonka.Heap",
+      "parent": "BaseHeap",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "objs",
+          "offset": 0,
+          "type": "T[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "tempObjs",
+          "offset": 0,
+          "type": "T"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "maxEntries",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_HeadHeapObject",
+          "parameters": [],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Swap",
+          "parameters": [
+            {
+              "name": "A",
+              "type": "System.Int32"
+            },
+            {
+              "name": "B",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushValue",
+          "parameters": [
+            {
+              "name": "h",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushObj",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "T"
+            },
+            {
+              "name": "h",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopValue",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopObj",
+          "parameters": [],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopObj",
+          "parameters": [
+            {
+              "name": "heapValue",
+              "type": "System.Single&"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FlushResult",
+          "parameters": [
+            {
+              "name": "resultList",
+              "type": "System.Collections.Generic.List<T>"
+            },
+            {
+              "name": "heapList",
+              "type": "System.Collections.Generic.List<System.Single>"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "KSmallestHeap`1",
+      "namespace": "DataStructures.ViliWonka.Heap",
+      "parent": "KSmallestHeap",
+      "type_token": 33554441
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "initialSize",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushValue",
+          "parameters": [
+            {
+              "name": "h",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopValue",
+          "parameters": [],
+          "return_type": "System.Single"
+        }
+      ],
+      "name": "MaxHeap",
+      "namespace": "DataStructures.ViliWonka.Heap",
+      "parent": "BaseHeap",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "objs",
+          "offset": 0,
+          "type": "T[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "tempObjs",
+          "offset": 0,
+          "type": "T"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "maxNodes",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_HeadHeapObject",
+          "parameters": [],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Swap",
+          "parameters": [
+            {
+              "name": "A",
+              "type": "System.Int32"
+            },
+            {
+              "name": "B",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushValue",
+          "parameters": [
+            {
+              "name": "h",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopValue",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushObj",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "T"
+            },
+            {
+              "name": "h",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopObj",
+          "parameters": [],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopObj",
+          "parameters": [
+            {
+              "name": "heapValue",
+              "type": "System.Single&"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpsizeHeap",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FlushResult",
+          "parameters": [
+            {
+              "name": "resultList",
+              "type": "System.Collections.Generic.List<T>"
+            },
+            {
+              "name": "heapList",
+              "type": "System.Collections.Generic.List<System.Single>"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "MaxHeap`1",
+      "namespace": "DataStructures.ViliWonka.Heap",
+      "parent": "MaxHeap",
+      "type_token": 33554443
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "initialSize",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushValue",
+          "parameters": [
+            {
+              "name": "h",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopValue",
+          "parameters": [],
+          "return_type": "System.Single"
+        }
+      ],
+      "name": "MinHeap",
+      "namespace": "DataStructures.ViliWonka.Heap",
+      "parent": "BaseHeap",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "objs",
+          "offset": 0,
+          "type": "T[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "tempObjs",
+          "offset": 0,
+          "type": "T"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "maxNodes",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_HeadHeapObject",
+          "parameters": [],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Swap",
+          "parameters": [
+            {
+              "name": "A",
+              "type": "System.Int32"
+            },
+            {
+              "name": "B",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushValue",
+          "parameters": [
+            {
+              "name": "h",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopValue",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushObj",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "T"
+            },
+            {
+              "name": "h",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopObj",
+          "parameters": [],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopObj",
+          "parameters": [
+            {
+              "name": "heapValue",
+              "type": "System.Single&"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpsizeHeap",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FlushResult",
+          "parameters": [
+            {
+              "name": "resultList",
+              "type": "System.Collections.Generic.List<T>"
+            },
+            {
+              "name": "heapList",
+              "type": "System.Collections.Generic.List<System.Single>"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "MinHeap`1",
+      "namespace": "DataStructures.ViliWonka.Heap",
+      "parent": "MinHeap",
+      "type_token": 33554445
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "VWKDTree.dll"
+}

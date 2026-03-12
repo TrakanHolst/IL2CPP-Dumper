@@ -1,0 +1,810 @@
+{
+  "class_count": 10,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "UNITY_CRC_SALT",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "MAX_CACHE_CHAR_NUM",
+          "offset": 8,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "MAX_CACHE_CHAR_BYTE_NUM",
+          "offset": 12,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "crctable",
+          "offset": 16,
+          "type": "System.UInt32[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculateCrc32",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "length",
+              "type": "System.Int32"
+            },
+            {
+              "name": "startCRC",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculateCrc32",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.ReadOnlySpan<System.Byte>"
+            },
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "length",
+              "type": "System.Int32"
+            },
+            {
+              "name": "startCRC",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnityCRC",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnityCRC64",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "XXHash64",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "XXHash64",
+          "parameters": [
+            {
+              "name": "bytes",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "XXHash32",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CRC32",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "length",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CRC32",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Crc32Utils",
+      "namespace": "Beyond.Cryptor",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateRsaProviderFromPrivateKey",
+          "parameters": [
+            {
+              "name": "privateKey",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Security.Cryptography.RSACryptoServiceProvider"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_GetIntegerSize",
+          "parameters": [
+            {
+              "name": "binr",
+              "type": "System.IO.BinaryReader"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateRsaProviderFromPublicKey",
+          "parameters": [
+            {
+              "name": "publicKeyString",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Security.Cryptography.RSACryptoServiceProvider"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "VerfyStream",
+          "parameters": [
+            {
+              "name": "stream",
+              "type": "System.IO.Stream"
+            },
+            {
+              "name": "publicKey",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateRsaProviderFromPublicKey",
+          "parameters": [
+            {
+              "name": "x509key",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Security.Cryptography.RSACryptoServiceProvider"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_CompareBytearrays",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "b",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "RSACryptoUtils",
+      "namespace": "Beyond.Cryptor",
+      "type_token": 33554435
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "__StaticArrayInitTypeSize=15",
+      "namespace": "",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "__StaticArrayInitTypeSize=1024",
+      "namespace": "",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "virtualMachine",
+          "offset": 16,
+          "type": "IFix.Core.VirtualMachine"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "methodId",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "anonObj",
+          "offset": 32,
+          "type": "System.Object"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "wrapperArray",
+          "offset": 0,
+          "type": "IFix.ILFixDynamicMethodWrapper[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            },
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "anonObj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_0",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.ReadOnlySpan<System.Byte>"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P3",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_1",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_2",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_3",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_4",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Security.Cryptography.RSACryptoServiceProvider"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_5",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            },
+            {
+              "name": "P1",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ILFixDynamicMethodWrapper",
+      "namespace": "IFix",
+      "type_token": 33554439
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "fieldNum",
+              "type": "System.Int32"
+            },
+            {
+              "name": "fieldTypes",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "typeIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vTable",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "methodIdArray",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RefAsyncBuilderStartMethod",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ILFixInterfaceBridge",
+      "namespace": "IFix",
+      "parent": "AnonymousStorey",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "virtualMachine",
+          "offset": 16,
+          "type": "IFix.Core.VirtualMachine"
+        }
+      ],
+      "interfaces": [
+        "WrappersManager"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPatch",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "IFix.ILFixDynamicMethodWrapper"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsPatched",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateDelegate",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Type"
+            },
+            {
+              "name": "id",
+              "type": "System.Int32"
+            },
+            {
+              "name": "anon",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Delegate"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateWrapper",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitWrapperArray",
+          "parameters": [
+            {
+              "name": "len",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateBridge",
+          "parameters": [
+            {
+              "name": "fieldNum",
+              "type": "System.Int32"
+            },
+            {
+              "name": "fieldTypes",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "typeIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vTable",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "slots",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            }
+          ],
+          "return_type": "IFix.Core.AnonymousStorey"
+        }
+      ],
+      "name": "WrappersManagerImpl",
+      "namespace": "IFix",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Cryptor-Crc32Utils-CalculateCrc320",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Cryptor-Crc32Utils-UnityCRC0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Cryptor-Crc32Utils-UnityCRC640",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Cryptor-Crc32Utils-XXHash640",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Cryptor-Crc32Utils-XXHash641",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Cryptor-Crc32Utils-XXHash320",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Cryptor-Crc32Utils-CRC320",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Cryptor-RSACryptoUtils-_GetIntegerSize0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Cryptor-RSACryptoUtils-CreateRsaProviderFromPrivateKey0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Cryptor-RSACryptoUtils-CreateRsaProviderFromPublicKey0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Cryptor-RSACryptoUtils-CreateRsaProviderFromPublicKey1",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Cryptor-RSACryptoUtils-VerfyStream0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Cryptor-RSACryptoUtils-_CompareBytearrays0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "IDMAP0",
+      "namespace": "IFix",
+      "type_token": 33554442
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Common.Beyond.Cyptor.dll"
+}

@@ -1,0 +1,41 @@
+# Entity Comparison: Your Extraction vs Reference
+
+## Summary
+- Missing (in reference, not in yours): 46 entities
+- New (in yours, not in reference): 7 entities
+- Net difference: -39 entities
+
+Reference Date: December 17, 2025
+Your Extraction: February 3, 2026
+
+---
+
+## MISSING ENTITIES (46 total)
+
+### Breakdown by Type:
+- 20 × int_doodad_flower_1 (Disable state) - IDs 2100021177-2100021196
+- 4 × Enemy entities (Disable state)
+  - eny_0050_hound (3×) - IDs 2100420056-58
+  - eny_0029_lbmob (1×) - ID 2100420059
+- 11 × NPC entities
+  - Gentleman/Union Scholar NPCs - IDs 2100210142-144
+  - Rabbit NPCs - IDs 2100430019-21, 2100430026-27, 2100430037-38
+- 8 × Interactive entities
+  - int_narrative_* (empty/book/pad/document) - IDs 2100180003, 2100240024-25, 2100330010, 2100330196-198
+  - int_collection_common - ID 2100390932
+  - int_module_chasingrabbit (3×) - IDs 2100430025, 2100430031-32
+- 1 × FactoryRegion - ID 30019
+### Why Missing?
+Most likely: Reference extracts NPCs and FactoryRegion entities from separate fields you're not extracting.
+Your extraction only extracts: interactives, enemies, guideHints, specificData, blackbox
+
+---
+
+## NEW ENTITIES (7 total)
+
+### All are Challenge Start Points:
+- 7 × int_challenge_start_point_once (EnableAndShow) - IDs 2100460011-2100460017
+
+### Why New?
+Game update: These challenge points were added between Dec 17, 2025 and Feb 3, 2026.
+

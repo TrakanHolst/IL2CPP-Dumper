@@ -1,0 +1,2222 @@
+{
+  "class_count": 32,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "EmbeddedAttribute",
+      "namespace": "Microsoft.CodeAnalysis",
+      "parent": "Attribute",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IsReadOnlyAttribute",
+      "namespace": "System.Runtime.CompilerServices",
+      "parent": "Attribute",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "NodeAdded",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputTracking.TrackingStateEventType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "NodeRemoved",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputTracking.TrackingStateEventType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "TrackingAcquired",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputTracking.TrackingStateEventType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "TrackingLost",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputTracking.TrackingStateEventType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TrackingStateEventType",
+      "namespace": "",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "trackingAcquired",
+          "offset": 0,
+          "type": "System.Action<UnityEngine.XR.XRNodeState>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "trackingLost",
+          "offset": 8,
+          "type": "System.Action<UnityEngine.XR.XRNodeState>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "nodeAdded",
+          "offset": 16,
+          "type": "System.Action<UnityEngine.XR.XRNodeState>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "nodeRemoved",
+          "offset": 24,
+          "type": "System.Action<UnityEngine.XR.XRNodeState>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeTrackingEvent",
+          "parameters": [
+            {
+              "name": "eventType",
+              "type": "UnityEngine.XR.InputTracking.TrackingStateEventType"
+            },
+            {
+              "name": "nodeType",
+              "type": "UnityEngine.XR.XRNode"
+            },
+            {
+              "name": "uniqueID",
+              "type": "System.Int64"
+            },
+            {
+              "name": "tracked",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "InputTracking",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LeftEye",
+          "offset": 0,
+          "type": "UnityEngine.XR.XRNode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "RightEye",
+          "offset": 0,
+          "type": "UnityEngine.XR.XRNode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CenterEye",
+          "offset": 0,
+          "type": "UnityEngine.XR.XRNode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Head",
+          "offset": 0,
+          "type": "UnityEngine.XR.XRNode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LeftHand",
+          "offset": 0,
+          "type": "UnityEngine.XR.XRNode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "RightHand",
+          "offset": 0,
+          "type": "UnityEngine.XR.XRNode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "GameController",
+          "offset": 0,
+          "type": "UnityEngine.XR.XRNode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "TrackingReference",
+          "offset": 0,
+          "type": "UnityEngine.XR.XRNode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "HardwareTracker",
+          "offset": 0,
+          "type": "UnityEngine.XR.XRNode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "XRNode",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "UnityEngine.XR.AvailableTrackingData"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "PositionAvailable",
+          "offset": 0,
+          "type": "UnityEngine.XR.AvailableTrackingData"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "RotationAvailable",
+          "offset": 0,
+          "type": "UnityEngine.XR.AvailableTrackingData"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "VelocityAvailable",
+          "offset": 0,
+          "type": "UnityEngine.XR.AvailableTrackingData"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "AngularVelocityAvailable",
+          "offset": 0,
+          "type": "UnityEngine.XR.AvailableTrackingData"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "AccelerationAvailable",
+          "offset": 0,
+          "type": "UnityEngine.XR.AvailableTrackingData"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "AngularAccelerationAvailable",
+          "offset": 0,
+          "type": "UnityEngine.XR.AvailableTrackingData"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "AvailableTrackingData",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Type",
+          "offset": 16,
+          "type": "UnityEngine.XR.XRNode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_AvailableFields",
+          "offset": 20,
+          "type": "UnityEngine.XR.AvailableTrackingData"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Position",
+          "offset": 24,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Rotation",
+          "offset": 36,
+          "type": "UnityEngine.Quaternion"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Velocity",
+          "offset": 52,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_AngularVelocity",
+          "offset": 64,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Acceleration",
+          "offset": 76,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_AngularAcceleration",
+          "offset": 88,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Tracked",
+          "offset": 100,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_UniqueID",
+          "offset": 104,
+          "type": "System.UInt64"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_uniqueID",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_nodeType",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.XR.XRNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_tracked",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "XRNodeState",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Custom",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputFeatureType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Binary",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputFeatureType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "DiscreteStates",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputFeatureType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Axis1D",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputFeatureType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Axis2D",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputFeatureType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Axis3D",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputFeatureType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Rotation",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputFeatureType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Hand",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputFeatureType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Bone",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputFeatureType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Eyes",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputFeatureType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kUnityXRInputFeatureTypeInvalid",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputFeatureType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "InputFeatureType",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Connected",
+          "offset": 0,
+          "type": "UnityEngine.XR.ConnectionChangeType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Disconnected",
+          "offset": 0,
+          "type": "UnityEngine.XR.ConnectionChangeType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ConfigChange",
+          "offset": 0,
+          "type": "UnityEngine.XR.ConnectionChangeType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ConnectionChangeType",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputDeviceCharacteristics"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "HeadMounted",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputDeviceCharacteristics"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Camera",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputDeviceCharacteristics"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "HeldInHand",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputDeviceCharacteristics"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "HandTracking",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputDeviceCharacteristics"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "EyeTracking",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputDeviceCharacteristics"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "TrackedDevice",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputDeviceCharacteristics"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Controller",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputDeviceCharacteristics"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "TrackingReference",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputDeviceCharacteristics"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Left",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputDeviceCharacteristics"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Right",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputDeviceCharacteristics"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Simulated6DOF",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputDeviceCharacteristics"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "InputDeviceCharacteristics",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputTrackingState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Position",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputTrackingState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Rotation",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputTrackingState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Velocity",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputTrackingState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "AngularVelocity",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputTrackingState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Acceleration",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputTrackingState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "AngularAcceleration",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputTrackingState"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "All",
+          "offset": 0,
+          "type": "UnityEngine.XR.InputTrackingState"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "InputTrackingState",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Name",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_InternalType",
+          "offset": 24,
+          "type": "UnityEngine.XR.InputFeatureType"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_name",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_internalType",
+          "parameters": [],
+          "return_type": "UnityEngine.XR.InputFeatureType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.XR.InputFeatureUsage"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "InputFeatureUsage",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_DeviceId",
+          "offset": 16,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Initialized",
+          "offset": 24,
+          "type": "System.Boolean"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "deviceId",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_deviceId",
+          "parameters": [],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.XR.InputDevice"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "InputDevice",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_DeviceId",
+          "offset": 16,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_FeatureIndex",
+          "offset": 24,
+          "type": "System.UInt32"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_deviceId",
+          "parameters": [],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_featureIndex",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.XR.Hand"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "Hand",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554447
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_DeviceId",
+          "offset": 16,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_FeatureIndex",
+          "offset": 24,
+          "type": "System.UInt32"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_deviceId",
+          "parameters": [],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_featureIndex",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.XR.Eyes"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "Eyes",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554448
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_DeviceId",
+          "offset": 16,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_FeatureIndex",
+          "offset": 24,
+          "type": "System.UInt32"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_deviceId",
+          "parameters": [],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_featureIndex",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.XR.Bone"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "Bone",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554449
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "deviceConnected",
+          "offset": 0,
+          "type": "System.Action<UnityEngine.XR.InputDevice>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "deviceDisconnected",
+          "offset": 8,
+          "type": "System.Action<UnityEngine.XR.InputDevice>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "deviceConfigChanged",
+          "offset": 16,
+          "type": "System.Action<UnityEngine.XR.InputDevice>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeConnectionEvent",
+          "parameters": [
+            {
+              "name": "deviceId",
+              "type": "System.UInt64"
+            },
+            {
+              "name": "change",
+              "type": "UnityEngine.XR.ConnectionChangeType"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "InputDevices",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554450
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "displaySubsystemInstance",
+          "offset": 16,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "renderPassIndex",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "renderTarget",
+          "offset": 32,
+          "type": "UnityEngine.Rendering.RenderTargetIdentifier"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "renderTargetDesc",
+          "offset": 72,
+          "type": "UnityEngine.RenderTextureDescriptor"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "hasMotionVectorPass",
+          "offset": 124,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "motionVectorRenderTarget",
+          "offset": 128,
+          "type": "UnityEngine.Rendering.RenderTargetIdentifier"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "motionVectorRenderTargetDesc",
+          "offset": 168,
+          "type": "UnityEngine.RenderTextureDescriptor"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "shouldFillOutDepth",
+          "offset": 220,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "cullingPassIndex",
+          "offset": 224,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "XRRenderPass",
+      "namespace": "",
+      "type_token": 33554452
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "displaySubsystemInstance",
+          "offset": 16,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "nativeBlitAvailable",
+          "offset": 24,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "nativeBlitInvalidStates",
+          "offset": 25,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "blitParamsCount",
+          "offset": 28,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "XRMirrorViewBlitDesc",
+      "namespace": "",
+      "type_token": 33554453
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "displayFocusChanged",
+          "offset": 32,
+          "type": "System.Action<System.Boolean>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeDisplayFocusChanged",
+          "parameters": [
+            {
+              "name": "focus",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "XRDisplaySubsystem",
+      "namespace": "UnityEngine.XR",
+      "parent": "IntegratedSubsystem`1",
+      "type_token": 33554451
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "XRDisplaySubsystemDescriptor",
+      "namespace": "UnityEngine.XR",
+      "parent": "IntegratedSubsystemDescriptor`1",
+      "type_token": 33554454
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "trackingOriginUpdated",
+          "offset": 32,
+          "type": "System.Action<UnityEngine.XR.XRInputSubsystem>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "boundaryChanged",
+          "offset": 40,
+          "type": "System.Action<UnityEngine.XR.XRInputSubsystem>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeTrackingOriginUpdatedEvent",
+          "parameters": [
+            {
+              "name": "internalPtr",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeBoundaryChangedEvent",
+          "parameters": [
+            {
+              "name": "internalPtr",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "XRInputSubsystem",
+      "namespace": "UnityEngine.XR",
+      "parent": "IntegratedSubsystem`1",
+      "type_token": 33554455
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "XRInputSubsystemDescriptor",
+      "namespace": "UnityEngine.XR",
+      "parent": "IntegratedSubsystemDescriptor`1",
+      "type_token": 33554456
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_InvalidId",
+          "offset": 0,
+          "type": "UnityEngine.XR.MeshId"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_SubId1",
+          "offset": 16,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_SubId2",
+          "offset": 24,
+          "type": "System.UInt64"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.XR.MeshId"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "MeshId",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554457
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Success",
+          "offset": 0,
+          "type": "UnityEngine.XR.MeshGenerationStatus"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "InvalidMeshId",
+          "offset": 0,
+          "type": "UnityEngine.XR.MeshGenerationStatus"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "GenerationAlreadyInProgress",
+          "offset": 0,
+          "type": "UnityEngine.XR.MeshGenerationStatus"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Canceled",
+          "offset": 0,
+          "type": "UnityEngine.XR.MeshGenerationStatus"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "UnknownError",
+          "offset": 0,
+          "type": "UnityEngine.XR.MeshGenerationStatus"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "MeshGenerationStatus",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554458
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Combine",
+          "parameters": [
+            {
+              "name": "hash1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash2",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Combine",
+          "parameters": [
+            {
+              "name": "hash1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash2",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash3",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Combine",
+          "parameters": [
+            {
+              "name": "hash1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash2",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash3",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash4",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Combine",
+          "parameters": [
+            {
+              "name": "hash1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash2",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash3",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash4",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash5",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Combine",
+          "parameters": [
+            {
+              "name": "hash1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash2",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash3",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash4",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash5",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash6",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Combine",
+          "parameters": [
+            {
+              "name": "hash1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash2",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash3",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash4",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash5",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash6",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash7",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Combine",
+          "parameters": [
+            {
+              "name": "hash1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash2",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash3",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash4",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash5",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash6",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash7",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hash8",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "HashCodeHelper",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554459
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<MeshId>k__BackingField",
+          "offset": 16,
+          "type": "UnityEngine.XR.MeshId"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<Mesh>k__BackingField",
+          "offset": 32,
+          "type": "UnityEngine.Mesh"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<MeshCollider>k__BackingField",
+          "offset": 40,
+          "type": "UnityEngine.MeshCollider"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<Status>k__BackingField",
+          "offset": 48,
+          "type": "UnityEngine.XR.MeshGenerationStatus"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<Attributes>k__BackingField",
+          "offset": 52,
+          "type": "UnityEngine.XR.MeshVertexAttributes"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<Timestamp>k__BackingField",
+          "offset": 56,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<Position>k__BackingField",
+          "offset": 64,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<Rotation>k__BackingField",
+          "offset": 76,
+          "type": "UnityEngine.Quaternion"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<Scale>k__BackingField",
+          "offset": 92,
+          "type": "UnityEngine.Vector3"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_MeshId",
+          "parameters": [],
+          "return_type": "UnityEngine.XR.MeshId"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Mesh",
+          "parameters": [],
+          "return_type": "UnityEngine.Mesh"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_MeshCollider",
+          "parameters": [],
+          "return_type": "UnityEngine.MeshCollider"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Status",
+          "parameters": [],
+          "return_type": "UnityEngine.XR.MeshGenerationStatus"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Attributes",
+          "parameters": [],
+          "return_type": "UnityEngine.XR.MeshVertexAttributes"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Position",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Rotation",
+          "parameters": [],
+          "return_type": "UnityEngine.Quaternion"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Scale",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.XR.MeshGenerationResult"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "MeshGenerationResult",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554460
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "UnityEngine.XR.MeshVertexAttributes"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Normals",
+          "offset": 0,
+          "type": "UnityEngine.XR.MeshVertexAttributes"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Tangents",
+          "offset": 0,
+          "type": "UnityEngine.XR.MeshVertexAttributes"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "UVs",
+          "offset": 0,
+          "type": "UnityEngine.XR.MeshVertexAttributes"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Colors",
+          "offset": 0,
+          "type": "UnityEngine.XR.MeshVertexAttributes"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "MeshVertexAttributes",
+      "namespace": "UnityEngine.XR",
+      "type_token": 33554461
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "m_Self",
+          "offset": 16,
+          "type": "System.IntPtr"
+        }
+      ],
+      "interfaces": [
+        "IDisposable"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [
+            {
+              "name": "self",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "MeshTransformList",
+      "namespace": "",
+      "type_token": 33554463
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeMeshReadyDelegate",
+          "parameters": [
+            {
+              "name": "result",
+              "type": "UnityEngine.XR.MeshGenerationResult"
+            },
+            {
+              "name": "onMeshGenerationComplete",
+              "type": "System.Action<UnityEngine.XR.MeshGenerationResult>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "XRMeshSubsystem",
+      "namespace": "UnityEngine.XR",
+      "parent": "IntegratedSubsystem`1",
+      "type_token": 33554462
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "XRMeshSubsystemDescriptor",
+      "namespace": "UnityEngine.XR",
+      "parent": "IntegratedSubsystemDescriptor`1",
+      "type_token": 33554464
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.XRModule.dll"
+}

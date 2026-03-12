@@ -1,0 +1,1583 @@
+{
+  "class_count": 18,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BrotliDecoderCreateInstance",
+          "parameters": [
+            {
+              "name": "allocFunc",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "freeFunc",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "opaque",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "Microsoft.Win32.SafeHandles.SafeBrotliDecoderHandle"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BrotliDecoderDecompressStream",
+          "parameters": [
+            {
+              "name": "state",
+              "type": "Microsoft.Win32.SafeHandles.SafeBrotliDecoderHandle"
+            },
+            {
+              "name": "availableIn",
+              "type": "System.IntPtr&"
+            },
+            {
+              "name": "nextIn",
+              "type": "System.Byte**"
+            },
+            {
+              "name": "availableOut",
+              "type": "System.IntPtr&"
+            },
+            {
+              "name": "nextOut",
+              "type": "System.Byte**"
+            },
+            {
+              "name": "totalOut",
+              "type": "System.IntPtr&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BrotliDecoderDestroyInstance",
+          "parameters": [
+            {
+              "name": "state",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BrotliDecoderIsFinished",
+          "parameters": [
+            {
+              "name": "state",
+              "type": "Microsoft.Win32.SafeHandles.SafeBrotliDecoderHandle"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BrotliEncoderCreateInstance",
+          "parameters": [
+            {
+              "name": "allocFunc",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "freeFunc",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "opaque",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "Microsoft.Win32.SafeHandles.SafeBrotliEncoderHandle"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BrotliEncoderSetParameter",
+          "parameters": [
+            {
+              "name": "state",
+              "type": "Microsoft.Win32.SafeHandles.SafeBrotliEncoderHandle"
+            },
+            {
+              "name": "parameter",
+              "type": "System.IO.Compression.BrotliEncoderParameter"
+            },
+            {
+              "name": "value",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BrotliEncoderCompressStream",
+          "parameters": [
+            {
+              "name": "state",
+              "type": "Microsoft.Win32.SafeHandles.SafeBrotliEncoderHandle"
+            },
+            {
+              "name": "op",
+              "type": "System.IO.Compression.BrotliEncoderOperation"
+            },
+            {
+              "name": "availableIn",
+              "type": "System.IntPtr&"
+            },
+            {
+              "name": "nextIn",
+              "type": "System.Byte**"
+            },
+            {
+              "name": "availableOut",
+              "type": "System.IntPtr&"
+            },
+            {
+              "name": "nextOut",
+              "type": "System.Byte**"
+            },
+            {
+              "name": "totalOut",
+              "type": "System.IntPtr&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BrotliEncoderHasMoreOutput",
+          "parameters": [
+            {
+              "name": "state",
+              "type": "Microsoft.Win32.SafeHandles.SafeBrotliEncoderHandle"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BrotliEncoderDestroyInstance",
+          "parameters": [
+            {
+              "name": "state",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Brotli",
+      "namespace": "",
+      "type_token": 33554435
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "Interop",
+      "namespace": "",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Format",
+          "parameters": [
+            {
+              "name": "resourceFormat",
+              "type": "System.String"
+            },
+            {
+              "name": "p1",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Format",
+          "parameters": [
+            {
+              "name": "resourceFormat",
+              "type": "System.String"
+            },
+            {
+              "name": "p1",
+              "type": "System.Object"
+            },
+            {
+              "name": "p2",
+              "type": "System.Object"
+            },
+            {
+              "name": "p3",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "SR",
+      "namespace": "",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_stream",
+          "offset": 40,
+          "type": "System.IO.Stream"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "_buffer",
+          "offset": 48,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "_leaveOpen",
+          "offset": 56,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "_mode",
+          "offset": 60,
+          "type": "System.IO.Compression.CompressionMode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_activeAsyncOperation",
+          "offset": 64,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_decoder",
+          "offset": 72,
+          "type": "System.IO.Compression.BrotliDecoder"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_bufferOffset",
+          "offset": 88,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_bufferCount",
+          "offset": 92,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_encoder",
+          "offset": 96,
+          "type": "System.IO.Compression.BrotliEncoder"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "stream",
+              "type": "System.IO.Stream"
+            },
+            {
+              "name": "mode",
+              "type": "System.IO.Compression.CompressionMode"
+            },
+            {
+              "name": "leaveOpen",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnsureNotDisposed",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [
+            {
+              "name": "disposing",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValidateParameters",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_CanRead",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_CanWrite",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_CanSeek",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Seek",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int64"
+            },
+            {
+              "name": "origin",
+              "type": "System.IO.SeekOrigin"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Length",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Position",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Position",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetLength",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsyncOperationIsActive",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnsureNoActiveAsyncOperation",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AsyncOperationStarting",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AsyncOperationCompleting",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ThrowInvalidBeginCall",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Read",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Read",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "System.Span<System.Byte>"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginRead",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            },
+            {
+              "name": "asyncCallback",
+              "type": "System.AsyncCallback"
+            },
+            {
+              "name": "asyncState",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.IAsyncResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndRead",
+          "parameters": [
+            {
+              "name": "asyncResult",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadAsync",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            },
+            {
+              "name": "cancellationToken",
+              "type": "System.Threading.CancellationToken"
+            }
+          ],
+          "return_type": "System.Threading.Tasks.Task<System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadAsync",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "System.Memory<System.Byte>"
+            },
+            {
+              "name": "cancellationToken",
+              "type": "System.Threading.CancellationToken"
+            }
+          ],
+          "return_type": "System.Threading.Tasks.ValueTask<System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FinishReadAsyncMemory",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "System.Memory<System.Byte>"
+            },
+            {
+              "name": "cancellationToken",
+              "type": "System.Threading.CancellationToken"
+            }
+          ],
+          "return_type": "System.Threading.Tasks.ValueTask<System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "stream",
+              "type": "System.IO.Stream"
+            },
+            {
+              "name": "compressionLevel",
+              "type": "System.IO.Compression.CompressionLevel"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "stream",
+              "type": "System.IO.Stream"
+            },
+            {
+              "name": "compressionLevel",
+              "type": "System.IO.Compression.CompressionLevel"
+            },
+            {
+              "name": "leaveOpen",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Write",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Write",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "System.ReadOnlySpan<System.Byte>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteCore",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "System.ReadOnlySpan<System.Byte>"
+            },
+            {
+              "name": "isFinalBlock",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginWrite",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            },
+            {
+              "name": "asyncCallback",
+              "type": "System.AsyncCallback"
+            },
+            {
+              "name": "asyncState",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.IAsyncResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndWrite",
+          "parameters": [
+            {
+              "name": "asyncResult",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteAsync",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            },
+            {
+              "name": "cancellationToken",
+              "type": "System.Threading.CancellationToken"
+            }
+          ],
+          "return_type": "System.Threading.Tasks.Task"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteAsync",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "System.ReadOnlyMemory<System.Byte>"
+            },
+            {
+              "name": "cancellationToken",
+              "type": "System.Threading.CancellationToken"
+            }
+          ],
+          "return_type": "System.Threading.Tasks.ValueTask"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteAsyncMemoryCore",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "System.ReadOnlyMemory<System.Byte>"
+            },
+            {
+              "name": "cancellationToken",
+              "type": "System.Threading.CancellationToken"
+            }
+          ],
+          "return_type": "System.Threading.Tasks.Task"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Flush",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FlushAsync",
+          "parameters": [
+            {
+              "name": "cancellationToken",
+              "type": "System.Threading.CancellationToken"
+            }
+          ],
+          "return_type": "System.Threading.Tasks.Task"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FlushAsyncCore",
+          "parameters": [
+            {
+              "name": "cancellationToken",
+              "type": "System.Threading.CancellationToken"
+            }
+          ],
+          "return_type": "System.Threading.Tasks.Task"
+        }
+      ],
+      "name": "BrotliStream",
+      "namespace": "System.IO.Compression",
+      "parent": "Stream",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetQualityFromCompressionLevel",
+          "parameters": [
+            {
+              "name": "level",
+              "type": "System.IO.Compression.CompressionLevel"
+            }
+          ],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "BrotliUtils",
+      "namespace": "System.IO.Compression",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_state",
+          "offset": 16,
+          "type": "Microsoft.Win32.SafeHandles.SafeBrotliDecoderHandle"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_disposed",
+          "offset": 24,
+          "type": "System.Boolean"
+        }
+      ],
+      "interfaces": [
+        "IDisposable"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitializeDecoder",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnsureInitialized",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnsureNotDisposed",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Decompress",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "System.ReadOnlySpan<System.Byte>"
+            },
+            {
+              "name": "destination",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "bytesConsumed",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "bytesWritten",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Buffers.OperationStatus"
+        }
+      ],
+      "name": "BrotliDecoder",
+      "namespace": "System.IO.Compression",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_state",
+          "offset": 16,
+          "type": "Microsoft.Win32.SafeHandles.SafeBrotliEncoderHandle"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_disposed",
+          "offset": 24,
+          "type": "System.Boolean"
+        }
+      ],
+      "interfaces": [
+        "IDisposable"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "quality",
+              "type": "System.Int32"
+            },
+            {
+              "name": "window",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitializeEncoder",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnsureInitialized",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnsureNotDisposed",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetQuality",
+          "parameters": [
+            {
+              "name": "quality",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetWindow",
+          "parameters": [
+            {
+              "name": "window",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Flush",
+          "parameters": [
+            {
+              "name": "destination",
+              "type": "System.Memory<System.Byte>"
+            },
+            {
+              "name": "bytesWritten",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Buffers.OperationStatus"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Flush",
+          "parameters": [
+            {
+              "name": "destination",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "bytesWritten",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Buffers.OperationStatus"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Compress",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "System.ReadOnlyMemory<System.Byte>"
+            },
+            {
+              "name": "destination",
+              "type": "System.Memory<System.Byte>"
+            },
+            {
+              "name": "bytesConsumed",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "bytesWritten",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "isFinalBlock",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Buffers.OperationStatus"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Compress",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "System.ReadOnlySpan<System.Byte>"
+            },
+            {
+              "name": "destination",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "bytesConsumed",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "bytesWritten",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "isFinalBlock",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Buffers.OperationStatus"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Compress",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "System.ReadOnlySpan<System.Byte>"
+            },
+            {
+              "name": "destination",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "bytesConsumed",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "bytesWritten",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "operation",
+              "type": "System.IO.Compression.BrotliEncoderOperation"
+            }
+          ],
+          "return_type": "System.Buffers.OperationStatus"
+        }
+      ],
+      "name": "BrotliEncoder",
+      "namespace": "System.IO.Compression",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Process",
+          "offset": 0,
+          "type": "System.IO.Compression.BrotliEncoderOperation"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Flush",
+          "offset": 0,
+          "type": "System.IO.Compression.BrotliEncoderOperation"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Finish",
+          "offset": 0,
+          "type": "System.IO.Compression.BrotliEncoderOperation"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "EmitMetadata",
+          "offset": 0,
+          "type": "System.IO.Compression.BrotliEncoderOperation"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "BrotliEncoderOperation",
+      "namespace": "System.IO.Compression",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Mode",
+          "offset": 0,
+          "type": "System.IO.Compression.BrotliEncoderParameter"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Quality",
+          "offset": 0,
+          "type": "System.IO.Compression.BrotliEncoderParameter"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LGWin",
+          "offset": 0,
+          "type": "System.IO.Compression.BrotliEncoderParameter"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LGBlock",
+          "offset": 0,
+          "type": "System.IO.Compression.BrotliEncoderParameter"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LCModeling",
+          "offset": 0,
+          "type": "System.IO.Compression.BrotliEncoderParameter"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SizeHint",
+          "offset": 0,
+          "type": "System.IO.Compression.BrotliEncoderParameter"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "BrotliEncoderParameter",
+      "namespace": "System.IO.Compression",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "Task",
+          "offset": 16,
+          "type": "System.Threading.Tasks.Task"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "_state",
+          "offset": 24,
+          "type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "_completedSynchronously",
+          "offset": 32,
+          "type": "System.Boolean"
+        }
+      ],
+      "interfaces": [
+        "IAsyncResult"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "task",
+              "type": "System.Threading.Tasks.Task"
+            },
+            {
+              "name": "state",
+              "type": "System.Object"
+            },
+            {
+              "name": "completedSynchronously",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.IAsyncResult.get_AsyncState",
+          "parameters": [],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.IAsyncResult.get_CompletedSynchronously",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.IAsyncResult.get_IsCompleted",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.IAsyncResult.get_AsyncWaitHandle",
+          "parameters": [],
+          "return_type": "System.Threading.WaitHandle"
+        }
+      ],
+      "name": "TaskWrapperAsyncResult",
+      "namespace": "",
+      "type_token": 33554447
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Begin",
+          "parameters": [
+            {
+              "name": "task",
+              "type": "System.Threading.Tasks.Task"
+            },
+            {
+              "name": "callback",
+              "type": "System.AsyncCallback"
+            },
+            {
+              "name": "state",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.IAsyncResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "End",
+          "parameters": [
+            {
+              "name": "asyncResult",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "End",
+          "parameters": [
+            {
+              "name": "asyncResult",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "TResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeCallbackWhenTaskCompletes",
+          "parameters": [
+            {
+              "name": "antecedent",
+              "type": "System.Threading.Tasks.Task"
+            },
+            {
+              "name": "callback",
+              "type": "System.AsyncCallback"
+            },
+            {
+              "name": "asyncResult",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "TaskToApm",
+      "namespace": "System.Threading.Tasks",
+      "type_token": 33554446
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReleaseHandle",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsInvalid",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "SafeBrotliEncoderHandle",
+      "namespace": "Microsoft.Win32.SafeHandles",
+      "parent": "SafeHandle",
+      "type_token": 33554449
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReleaseHandle",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsInvalid",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "SafeBrotliDecoderHandle",
+      "namespace": "Microsoft.Win32.SafeHandles",
+      "parent": "SafeHandle",
+      "type_token": 33554450
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "System.IO.Compression.dll"
+}

@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2614255339438572313
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 8803230974266453151
+  },
+  "m_Name": "",
+  "_animationIn": {
+    "m_FileID": 0,
+    "m_PathID": 7335076339941167205
+  },
+  "_animationInEasing": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_animationLoop": {
+    "m_FileID": 0,
+    "m_PathID": 8365504464704711066
+  },
+  "_animationOut": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "autoPlay": 1,
+  "_onlyOnce": 0,
+  "_needSyncLoopAnim": 0,
+  "_syncLoopAnimKey": "",
+  "_options": {
+    "animEase": 1
+  },
+  "_audioOnOpen": "",
+  "_audioOnClose": ""
+}

@@ -1,0 +1,100 @@
+=== POI COUNT BY MAP/LEVEL ===
+Total: 6,994 POIs across 56 levels
+
+== MAIN MAPS (6,362 POIs - 91.0%) ==
+
+Map01 (4,661 POIs):
+  1,481 POIs - map01_lv001 (Main starting area)
+    665 POIs - map01_lv005
+    652 POIs - map01_lv006
+    588 POIs - map01_lv007
+    377 POIs - map01_lv003
+    298 POIs - map01_lv002
+  -----
+  4,661 Total
+
+Map02 (2,302 POIs):
+  1,624 POIs - map02_lv002
+    678 POIs - map02_lv001
+  -----
+  2,302 Total
+
+Map03 (0 POIs):
+  No POIs extracted (likely empty or future content)
+
+Map04 (0 POIs):
+  No POIs extracted (likely empty or future content)
+
+== DUNGEONS (625 POIs - 8.9%) ==
+
+Weekly Raid Dungeons:
+    385 POIs - dung01_wrdg001 (main weekly raid dungeon)
+     11 POIs - dung01_wrdg001_guide (tutorial version)
+  -----
+    396 Total
+
+Challenge Dungeons (CDG):
+    104 POIs - dung01_cdg004
+     18 POIs - dung01_cdg006
+     12 POIs - dung01_cdg008
+      9 POIs - dung01_cdg007
+      8 POIs - dung01_cdg002
+      6 POIs - dung01_cdg001
+      5 POIs - dung01_cdg005
+      4 POIs - dung01_cdg010
+  -----
+    166 Total
+
+Red Dungeons (RDG):
+     17 POIs - dung01_rdg005
+      9 POIs - dung01_rdg002
+      8 POIs - dung01_rdg003 (NEW - not in reference!)
+      7 POIs - dung01_rdg004 (NEW - not in reference!)
+      1 POI  - dung01_rdg001
+  -----
+     42 Total
+
+Boss Dungeons (BDG):
+      6 POIs - dung01_bdg003
+      4 POIs - dung01_bdg001
+  -----
+     10 Total
+
+== SPECIAL AREAS (18 POIs - 0.3%) ==
+
+Base/Spaceship:
+      3 POIs - base01_lv003
+      3 POIs - base01_lv001
+  -----
+      6 Total
+
+Independent/Event Dungeons:
+      6 POIs - indie_dg005
+      5 POIs - indie_dg002
+  -----
+     11 Total
+
+== SUMMARY BY TYPE ==
+
+Main World Maps:  6,362 POIs (91.0%)
+  - map01:        4,661 POIs (66.6%)
+  - map02:        2,302 POIs (32.9%)
+
+Dungeons:           625 POIs (8.9%)
+  - Weekly Raid:    396 POIs (5.7%)
+  - Challenge:      166 POIs (2.4%)
+  - Red Dungeons:    42 POIs (0.6%)
+  - Boss:            10 POIs (0.1%)
+
+Special:             18 POIs (0.3%)
+  - Base:             6 POIs (0.1%)
+  - Events:          11 POIs (0.2%)
+
+== NOTES ==
+
+- Map01 is the largest area with 4,661 POIs (66.6% of all POIs)
+- Map02 has 2,302 POIs across 2 levels
+- Map03 and Map04 have level data but no POIs (likely future content areas)
+- dung01_rdg003 and dung01_rdg004 are NEW dungeons not in reference
+- Weekly raid dungeon (wrdg001) has the most dungeon POIs (385)
+

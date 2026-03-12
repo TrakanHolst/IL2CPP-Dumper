@@ -1,0 +1,416 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3102778280440492633
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -6045623549229441481
+  },
+  "m_Name": "",
+  "states": [
+    {
+      "stateName": "Touch",
+      "descriptions": [
+        {
+          "animationImpactType": 0,
+          "animationClip": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "animationTarget": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "animator": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "animImpact": 0,
+          "animParamSetBoolTrue": "",
+          "animParamSetBoolFalse": "",
+          "animParamSetTrigger": "",
+          "animParamResetTrigger": "",
+          "animParamSetInteger": "",
+          "animParamSetIntegerValue": 0,
+          "animParamSetFloat": "",
+          "animParamSetFloatValue": 0,
+          "button": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "buttonInteractable": 0,
+          "canvasGroup": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "canvasGroupImpactType": 0,
+          "canvasGroupAlpha": 0.0,
+          "canvasGroupInteractable": 0,
+          "canvasGroupColor": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "componentIsEnabled": 0,
+          "targetType": 3,
+          "gameObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "gameObjectIsActive": 0,
+          "graphic": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "graphicMaterial": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "gridLayoutGroup": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "gridLayoutGroupImpactType": 0,
+          "gridLayoutGroupPadding": {
+            "m_Left": 0,
+            "m_Right": 0,
+            "m_Top": 0,
+            "m_Bottom": 0
+          },
+          "gridLayoutGroupSpacing": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "gridLayoutGroupCellSize": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "gridLayoutConstraintCount": 0,
+          "image": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "imageImpact": 0,
+          "imageEnabled": 0,
+          "imageSetSprite": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "imageSetColor": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "imageSetMaterialFloatParam": "",
+          "imageSetMaterialFloatValue": 0.0,
+          "layoutElement": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "layoutElementImpactType": 0,
+          "layoutElementPreferredWidth": 0.0,
+          "layoutElementPreferredHeight": 0.0,
+          "layoutElementMinWidth": 0.0,
+          "layoutElementMinHeight": 0.0,
+          "layoutElementFlexibleWidth": 0.0,
+          "layoutElementFlexibleHeight": 0.0,
+          "layoutGroup": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "layoutGroupImpactType": 0,
+          "layoutGroupPadding": {
+            "m_Left": 0,
+            "m_Right": 0,
+            "m_Top": 0,
+            "m_Bottom": 0
+          },
+          "layoutGroupSpacing": 0.0,
+          "layoutGroupChildAlignment": 0,
+          "layoutGroupReverseArrangement": 0,
+          "rectTransform": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "rectTransformImpactType": 0,
+          "rectTransformPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "rectTransformSize": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "rectTransformRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rectTransformScale": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rectTransformWidth": 0.0,
+          "rectTransformHeight": 0.0,
+          "rectTransformTop": 0.0,
+          "rectTransformBottom": 0.0,
+          "rectTransformLeft": 0.0,
+          "rectTransformRight": 0.0,
+          "rectTransformAnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "rectTransformAnchorMax": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "rectTransformPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scrollList": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "scrollListImpactType": 0,
+          "scrollListPadding": {
+            "top": 0.0,
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0
+          },
+          "uiStateController": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "stateName": "",
+          "text": {
+            "m_FileID": 0,
+            "m_PathID": 622956277625975385
+          },
+          "textImpact": 1,
+          "textColor": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "textId": "LOGIN_TXT_GAMEPANEL_NOTICE_MB",
+          "textFontSize": 0.0,
+          "textMaxFontSize": 0.0,
+          "textHorizontalAlignment": 0
+        }
+      ]
+    },
+    {
+      "stateName": "Keyboard",
+      "descriptions": [
+        {
+          "animationImpactType": 0,
+          "animationClip": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "animationTarget": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "animator": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "animImpact": 0,
+          "animParamSetBoolTrue": "",
+          "animParamSetBoolFalse": "",
+          "animParamSetTrigger": "",
+          "animParamResetTrigger": "",
+          "animParamSetInteger": "",
+          "animParamSetIntegerValue": 0,
+          "animParamSetFloat": "",
+          "animParamSetFloatValue": 0,
+          "button": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "buttonInteractable": 0,
+          "canvasGroup": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "canvasGroupImpactType": 0,
+          "canvasGroupAlpha": 0.0,
+          "canvasGroupInteractable": 0,
+          "canvasGroupColor": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "component": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "componentIsEnabled": 0,
+          "targetType": 3,
+          "gameObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "gameObjectIsActive": 0,
+          "graphic": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "graphicMaterial": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "gridLayoutGroup": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "gridLayoutGroupImpactType": 0,
+          "gridLayoutGroupPadding": {
+            "m_Left": 0,
+            "m_Right": 0,
+            "m_Top": 0,
+            "m_Bottom": 0
+          },
+          "gridLayoutGroupSpacing": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "gridLayoutGroupCellSize": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "gridLayoutConstraintCount": 0,
+          "image": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "imageImpact": 0,
+          "imageEnabled": 0,
+          "imageSetSprite": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "imageSetColor": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "imageSetMaterialFloatParam": "",
+          "imageSetMaterialFloatValue": 0.0,
+          "layoutElement": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "layoutElementImpactType": 0,
+          "layoutElementPreferredWidth": 0.0,
+          "layoutElementPreferredHeight": 0.0,
+          "layoutElementMinWidth": 0.0,
+          "layoutElementMinHeight": 0.0,
+          "layoutElementFlexibleWidth": 0.0,
+          "layoutElementFlexibleHeight": 0.0,
+          "layoutGroup": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "layoutGroupImpactType": 0,
+          "layoutGroupPadding": {
+            "m_Left": 0,
+            "m_Right": 0,
+            "m_Top": 0,
+            "m_Bottom": 0
+          },
+          "layoutGroupSpacing": 0.0,
+          "layoutGroupChildAlignment": 0,
+          "layoutGroupReverseArrangement": 0,
+          "rectTransform": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "rectTransformImpactType": 0,
+          "rectTransformPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "rectTransformSize": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "rectTransformRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rectTransformScale": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rectTransformWidth": 0.0,
+          "rectTransformHeight": 0.0,
+          "rectTransformTop": 0.0,
+          "rectTransformBottom": 0.0,
+          "rectTransformLeft": 0.0,
+          "rectTransformRight": 0.0,
+          "rectTransformAnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "rectTransformAnchorMax": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "rectTransformPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scrollList": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "scrollListImpactType": 0,
+          "scrollListPadding": {
+            "top": 0.0,
+            "left": 0.0,
+            "right": 0.0,
+            "bottom": 0.0
+          },
+          "uiStateController": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "stateName": "",
+          "text": {
+            "m_FileID": 0,
+            "m_PathID": 622956277625975385
+          },
+          "textImpact": 1,
+          "textColor": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "textId": "LOGIN_TXT_GAMEPANEL_NOTICE",
+          "textFontSize": 0.0,
+          "textMaxFontSize": 0.0,
+          "textHorizontalAlignment": 0
+        }
+      ]
+    }
+  ]
+}

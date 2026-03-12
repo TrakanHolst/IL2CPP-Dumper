@@ -1,0 +1,5065 @@
+{
+  "class_count": 34,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "listen",
+          "offset": 24,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "damping",
+          "offset": 28,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "sensitivity",
+          "offset": 32,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "pitchControls",
+          "offset": 36,
+          "type": "CW.Common.CwInputManager.Axis"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "yawControls",
+          "offset": 72,
+          "type": "CW.Common.CwInputManager.Axis"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "rollControls",
+          "offset": 108,
+          "type": "CW.Common.CwInputManager.Axis"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "remainingDelta",
+          "offset": 144,
+          "type": "UnityEngine.Quaternion"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Listen",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Listen",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Damping",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Damping",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Sensitivity",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Sensitivity",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_PitchControls",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "CW.Common.CwInputManager.Axis"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_PitchControls",
+          "parameters": [],
+          "return_type": "CW.Common.CwInputManager.Axis"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_YawControls",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "CW.Common.CwInputManager.Axis"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_YawControls",
+          "parameters": [],
+          "return_type": "CW.Common.CwInputManager.Axis"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_RollControls",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "CW.Common.CwInputManager.Axis"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_RollControls",
+          "parameters": [],
+          "return_type": "CW.Common.CwInputManager.Axis"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Start",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnDisable",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Update",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnApplicationFocus",
+          "parameters": [
+            {
+              "name": "focus",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddToDelta",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DampenDelta",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CwCameraLook",
+      "namespace": "CW.Common",
+      "parent": "MonoBehaviour",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "listen",
+          "offset": 24,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "damping",
+          "offset": 28,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "sensitivity",
+          "offset": 32,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "horizontalControls",
+          "offset": 36,
+          "type": "CW.Common.CwInputManager.Axis"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "depthControls",
+          "offset": 72,
+          "type": "CW.Common.CwInputManager.Axis"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "verticalControls",
+          "offset": 108,
+          "type": "CW.Common.CwInputManager.Axis"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "remainingDelta",
+          "offset": 144,
+          "type": "UnityEngine.Vector3"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Listen",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Listen",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Damping",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Damping",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Sensitivity",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Sensitivity",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_HorizontalControls",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "CW.Common.CwInputManager.Axis"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_HorizontalControls",
+          "parameters": [],
+          "return_type": "CW.Common.CwInputManager.Axis"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_DepthControls",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "CW.Common.CwInputManager.Axis"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_DepthControls",
+          "parameters": [],
+          "return_type": "CW.Common.CwInputManager.Axis"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_VerticalControls",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "CW.Common.CwInputManager.Axis"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_VerticalControls",
+          "parameters": [],
+          "return_type": "CW.Common.CwInputManager.Axis"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Start",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Update",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddToDelta",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DampenDelta",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CwCameraMove",
+      "namespace": "CW.Common",
+      "parent": "MonoBehaviour",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "listen",
+          "offset": 24,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "damping",
+          "offset": 28,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "pitchControls",
+          "offset": 32,
+          "type": "CW.Common.CwInputManager.Axis"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "yawControls",
+          "offset": 68,
+          "type": "CW.Common.CwInputManager.Axis"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "remainingDelta",
+          "offset": 104,
+          "type": "UnityEngine.Vector3"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Listen",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Listen",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Damping",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Damping",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_PitchControls",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "CW.Common.CwInputManager.Axis"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_PitchControls",
+          "parameters": [],
+          "return_type": "CW.Common.CwInputManager.Axis"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_YawControls",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "CW.Common.CwInputManager.Axis"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_YawControls",
+          "parameters": [],
+          "return_type": "CW.Common.CwInputManager.Axis"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnEnable",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Update",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddToDelta",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DampenDelta",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CwCameraPivot",
+      "namespace": "CW.Common",
+      "parent": "MonoBehaviour",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "upgradeInputModule",
+          "offset": 24,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "changeExposureInHDRP",
+          "offset": 25,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "changeVisualEnvironmentInHDRP",
+          "offset": 26,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "changeFogInHDRP",
+          "offset": 27,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "changeCloudsInHDRP",
+          "offset": 28,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "changeMotionBlurInHDRP",
+          "offset": 29,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "upgradeLightsInHDRP",
+          "offset": 30,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "upgradeCamerasInHDRP",
+          "offset": 31,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_UpgradeInputModule",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_UpgradeInputModule",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_ChangeExposureInHDRP",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ChangeExposureInHDRP",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_ChangeVisualEnvironmentInHDRP",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ChangeVisualEnvironmentInHDRP",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_ChangeFogInHDRP",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ChangeFogInHDRP",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_ChangeCloudsInHDRP",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ChangeCloudsInHDRP",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_ChangeMotionBlurInHDRP",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ChangeMotionBlurInHDRP",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_UpgradeLightsInHDRP",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_UpgradeLightsInHDRP",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_UpgradeCamerasInHDRP",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_UpgradeCamerasInHDRP",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnEnable",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryApplyURP",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryApplyHDRP",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryCreateVolume",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryUpgradeLights",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryUpgradeCameras",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryUpgradeEventSystem",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CwDemo",
+      "namespace": "CW.Common",
+      "parent": "MonoBehaviour",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "PreviousScene",
+          "offset": 0,
+          "type": "CW.Common.CwDemoButton.LinkType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "NextScene",
+          "offset": 0,
+          "type": "CW.Common.CwDemoButton.LinkType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Publisher",
+          "offset": 0,
+          "type": "CW.Common.CwDemoButton.LinkType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "URL",
+          "offset": 0,
+          "type": "CW.Common.CwDemoButton.LinkType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Isolate",
+          "offset": 0,
+          "type": "CW.Common.CwDemoButton.LinkType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "LinkType",
+      "namespace": "",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "KeepSelected",
+          "offset": 0,
+          "type": "CW.Common.CwDemoButton.ToggleType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ToggleSelection",
+          "offset": 0,
+          "type": "CW.Common.CwDemoButton.ToggleType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SelectPrevious",
+          "offset": 0,
+          "type": "CW.Common.CwDemoButton.ToggleType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ToggleType",
+      "namespace": "",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "link",
+          "offset": 24,
+          "type": "CW.Common.CwDemoButton.LinkType"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "urlTarget",
+          "offset": 32,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "isolateTarget",
+          "offset": 40,
+          "type": "UnityEngine.Transform"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "isolateToggle",
+          "offset": 48,
+          "type": "CW.Common.CwDemoButton.ToggleType"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "cachedCanvasGroup",
+          "offset": 56,
+          "type": "UnityEngine.CanvasGroup"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "previousChild",
+          "offset": 64,
+          "type": "UnityEngine.Transform"
+        }
+      ],
+      "interfaces": [
+        "IPointerDownHandler",
+        "IEventSystemHandler"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Link",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "CW.Common.CwDemoButton.LinkType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Link",
+          "parameters": [],
+          "return_type": "CW.Common.CwDemoButton.LinkType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_UrlTarget",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_UrlTarget",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_IsolateTarget",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Transform"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsolateTarget",
+          "parameters": [],
+          "return_type": "UnityEngine.Transform"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_IsolateToggle",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "CW.Common.CwDemoButton.ToggleType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsolateToggle",
+          "parameters": [],
+          "return_type": "CW.Common.CwDemoButton.ToggleType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnEnable",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Update",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnPointerDown",
+          "parameters": [
+            {
+              "name": "eventData",
+              "type": "UnityEngine.EventSystems.PointerEventData"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCurrentLevel",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLevelCount",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadLevel",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CwDemoButton",
+      "namespace": "CW.Common",
+      "parent": "MonoBehaviour",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "buttonPrefab",
+          "offset": 24,
+          "type": "UnityEngine.GameObject"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "buttonRoot",
+          "offset": 32,
+          "type": "UnityEngine.RectTransform"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "icon",
+          "offset": 40,
+          "type": "UnityEngine.Sprite"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "color",
+          "offset": 48,
+          "type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "overrideName",
+          "offset": 64,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "clone",
+          "offset": 72,
+          "type": "UnityEngine.GameObject"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_ButtonPrefab",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.GameObject"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ButtonPrefab",
+          "parameters": [],
+          "return_type": "UnityEngine.GameObject"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_ButtonRoot",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.RectTransform"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ButtonRoot",
+          "parameters": [],
+          "return_type": "UnityEngine.RectTransform"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Icon",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Sprite"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Icon",
+          "parameters": [],
+          "return_type": "UnityEngine.Sprite"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Color",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Color",
+          "parameters": [],
+          "return_type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_OverrideName",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_OverrideName",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Build",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BuildAll",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DoInstantiate",
+          "parameters": [],
+          "return_type": "UnityEngine.GameObject"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CwDemoButtonBuilder",
+      "namespace": "CW.Common",
+      "parent": "MonoBehaviour",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "multiplier",
+          "offset": 24,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "intensityInStandard",
+          "offset": 28,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "intensityInURP",
+          "offset": 32,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "intensityInHDRP",
+          "offset": 36,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "cachedLight",
+          "offset": 40,
+          "type": "UnityEngine.Light"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "cachedLightSet",
+          "offset": 48,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Multiplier",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Multiplier",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_IntensityInStandard",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IntensityInStandard",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_IntensityInURP",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IntensityInURP",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_IntensityInHDRP",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IntensityInHDRP",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_CachedLight",
+          "parameters": [],
+          "return_type": "UnityEngine.Light"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Update",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ApplyIntensity",
+          "parameters": [
+            {
+              "name": "intensity",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CwLightIntensity",
+      "namespace": "CW.Common",
+      "parent": "MonoBehaviour",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "angularVelocity",
+          "offset": 24,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "relativeTo",
+          "offset": 36,
+          "type": "UnityEngine.Space"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AngularVelocity",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AngularVelocity",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_RelativeTo",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Space"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_RelativeTo",
+          "parameters": [],
+          "return_type": "UnityEngine.Space"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Update",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CwRotate",
+      "namespace": "CW.Common",
+      "parent": "MonoBehaviour",
+      "type_token": 33554443
+    },
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HasChild",
+          "parameters": [
+            {
+              "name": "child",
+              "type": "CW.Common.CwChild"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "IHasChildren",
+      "namespace": "",
+      "type_token": 33554445
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DestroyGameObjectIfInvalid",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetParent",
+          "parameters": [],
+          "return_type": "CW.Common.CwChild.IHasChildren"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Start",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CwChild",
+      "namespace": "CW.Common",
+      "parent": "MonoBehaviour",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "depthMode",
+          "offset": 24,
+          "type": "UnityEngine.DepthTextureMode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "cachedCamera",
+          "offset": 32,
+          "type": "UnityEngine.Camera"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_DepthMode",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.DepthTextureMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_DepthMode",
+          "parameters": [],
+          "return_type": "UnityEngine.DepthTextureMode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateDepthMode",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Update",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CwDepthTextureMode",
+      "namespace": "CW.Common",
+      "parent": "MonoBehaviour",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "TargetTransform",
+          "offset": 0,
+          "type": "CW.Common.CwFollow.FollowType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MainCamera",
+          "offset": 0,
+          "type": "CW.Common.CwFollow.FollowType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "FollowType",
+      "namespace": "",
+      "type_token": 33554448
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Update",
+          "offset": 0,
+          "type": "CW.Common.CwFollow.UpdateType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LateUpdate",
+          "offset": 0,
+          "type": "CW.Common.CwFollow.UpdateType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "UpdateType",
+      "namespace": "",
+      "type_token": 33554449
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "follow",
+          "offset": 24,
+          "type": "CW.Common.CwFollow.FollowType"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "target",
+          "offset": 32,
+          "type": "UnityEngine.Transform"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "damping",
+          "offset": 40,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "rotate",
+          "offset": 44,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ignoreZ",
+          "offset": 45,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "followIn",
+          "offset": 48,
+          "type": "CW.Common.CwFollow.UpdateType"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "localPosition",
+          "offset": 52,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "localRotation",
+          "offset": 64,
+          "type": "UnityEngine.Vector3"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Follow",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "CW.Common.CwFollow.FollowType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Follow",
+          "parameters": [],
+          "return_type": "CW.Common.CwFollow.FollowType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Target",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Transform"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Target",
+          "parameters": [],
+          "return_type": "UnityEngine.Transform"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Damping",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Damping",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Rotate",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Rotate",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_IgnoreZ",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IgnoreZ",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_FollowIn",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "CW.Common.CwFollow.UpdateType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_FollowIn",
+          "parameters": [],
+          "return_type": "CW.Common.CwFollow.UpdateType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_LocalPosition",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LocalPosition",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_LocalRotation",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LocalRotation",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdatePosition",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Update",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LateUpdate",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CwFollow",
+      "namespace": "CW.Common",
+      "parent": "MonoBehaviour",
+      "type_token": 33554447
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "HorizontalDrag",
+          "offset": 0,
+          "type": "CW.Common.CwInputManager.AxisGesture"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "VerticalDrag",
+          "offset": 0,
+          "type": "CW.Common.CwInputManager.AxisGesture"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Twist",
+          "offset": 0,
+          "type": "CW.Common.CwInputManager.AxisGesture"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "HorizontalPull",
+          "offset": 0,
+          "type": "CW.Common.CwInputManager.AxisGesture"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "VerticalPull",
+          "offset": 0,
+          "type": "CW.Common.CwInputManager.AxisGesture"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "AxisGesture",
+      "namespace": "",
+      "type_token": 33554451
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "FingerCount",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "FingerInvert",
+          "offset": 20,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "FingerGesture",
+          "offset": 24,
+          "type": "CW.Common.CwInputManager.AxisGesture"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "FingerSensitivity",
+          "offset": 28,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "KeyNegative",
+          "offset": 32,
+          "type": "UnityEngine.KeyCode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "KeyPositive",
+          "offset": 36,
+          "type": "UnityEngine.KeyCode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "KeyNegativeAlt",
+          "offset": 40,
+          "type": "UnityEngine.KeyCode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "KeyPositiveAlt",
+          "offset": 44,
+          "type": "UnityEngine.KeyCode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "KeySensitivity",
+          "offset": 48,
+          "type": "System.Single"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "fCount",
+              "type": "System.Int32"
+            },
+            {
+              "name": "fInvert",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "fGesture",
+              "type": "CW.Common.CwInputManager.AxisGesture"
+            },
+            {
+              "name": "fSensitivty",
+              "type": "System.Single"
+            },
+            {
+              "name": "kNegative",
+              "type": "UnityEngine.KeyCode"
+            },
+            {
+              "name": "kPositive",
+              "type": "UnityEngine.KeyCode"
+            },
+            {
+              "name": "kNegativeAlt",
+              "type": "UnityEngine.KeyCode"
+            },
+            {
+              "name": "kPositiveAlt",
+              "type": "UnityEngine.KeyCode"
+            },
+            {
+              "name": "kSensitivity",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetValue",
+          "parameters": [
+            {
+              "name": "delta",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        }
+      ],
+      "name": "Axis",
+      "namespace": "",
+      "type_token": 33554452
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UseFinger",
+          "offset": 16,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UseMouse",
+          "offset": 17,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UseKey",
+          "offset": 20,
+          "type": "UnityEngine.KeyCode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "uFinger",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "uMouse",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "uKey",
+              "type": "UnityEngine.KeyCode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WentDown",
+          "parameters": [
+            {
+              "name": "finger",
+              "type": "CW.Common.CwInputManager.Finger"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsDown",
+          "parameters": [
+            {
+              "name": "finger",
+              "type": "CW.Common.CwInputManager.Finger"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WentUp",
+          "parameters": [
+            {
+              "name": "finger",
+              "type": "CW.Common.CwInputManager.Finger"
+            },
+            {
+              "name": "useAnyFinger",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "Trigger",
+      "namespace": "",
+      "type_token": 33554453
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Finger",
+          "offset": 16,
+          "type": "CW.Common.CwInputManager.Finger"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Find",
+          "parameters": [
+            {
+              "name": "links",
+              "type": "System.Collections.Generic.List<T>"
+            },
+            {
+              "name": "finger",
+              "type": "CW.Common.CwInputManager.Finger"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Create",
+          "parameters": [
+            {
+              "name": "links",
+              "type": "System.Collections.Generic.List<T>&"
+            },
+            {
+              "name": "finger",
+              "type": "CW.Common.CwInputManager.Finger"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClearAll",
+          "parameters": [
+            {
+              "name": "links",
+              "type": "System.Collections.Generic.List<T>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClearAndRemove",
+          "parameters": [
+            {
+              "name": "links",
+              "type": "System.Collections.Generic.List<T>"
+            },
+            {
+              "name": "link",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Link",
+      "namespace": "",
+      "type_token": 33554454
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Index",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Pressure",
+          "offset": 20,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Down",
+          "offset": 24,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Up",
+          "offset": 25,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Age",
+          "offset": 28,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "StartedOverGui",
+          "offset": 32,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "StartScreenPosition",
+          "offset": 36,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ScreenPosition",
+          "offset": 44,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ScreenPositionOld",
+          "offset": 52,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ScreenPositionOldOld",
+          "offset": 60,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ScreenPositionOldOldOld",
+          "offset": 68,
+          "type": "UnityEngine.Vector2"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_SmoothScreenPositionDelta",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSmoothScreenPosition",
+          "parameters": [
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Finger",
+      "namespace": "",
+      "type_token": 33554455
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "guiLayers",
+          "offset": 24,
+          "type": "UnityEngine.LayerMask"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "OnFingerDown",
+          "offset": 0,
+          "type": "System.Action<CW.Common.CwInputManager.Finger>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "OnFingerUpdate",
+          "offset": 8,
+          "type": "System.Action<CW.Common.CwInputManager.Finger>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "OnFingerUp",
+          "offset": 16,
+          "type": "System.Action<CW.Common.CwInputManager.Finger>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MOUSE_FINGER_INDEX",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "HOVER_FINGER_INDEX",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "tempRaycastResults",
+          "offset": 24,
+          "type": "System.Collections.Generic.List<UnityEngine.EventSystems.RaycastResult>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "tempPointerEventData",
+          "offset": 32,
+          "type": "UnityEngine.EventSystems.PointerEventData"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "tempEventSystem",
+          "offset": 40,
+          "type": "UnityEngine.EventSystems.EventSystem"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "fingers",
+          "offset": 48,
+          "type": "System.Collections.Generic.List<CW.Common.CwInputManager.Finger>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "filteredFingers",
+          "offset": 56,
+          "type": "System.Collections.Generic.List<CW.Common.CwInputManager.Finger>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "pool",
+          "offset": 64,
+          "type": "System.Collections.Generic.Stack<CW.Common.CwInputManager.Finger>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_GuiLayers",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.LayerMask"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_GuiLayers",
+          "parameters": [],
+          "return_type": "UnityEngine.LayerMask"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_OnFingerDown",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<CW.Common.CwInputManager.Finger>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_OnFingerDown",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<CW.Common.CwInputManager.Finger>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_OnFingerUpdate",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<CW.Common.CwInputManager.Finger>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_OnFingerUpdate",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<CW.Common.CwInputManager.Finger>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_OnFingerUp",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<CW.Common.CwInputManager.Finger>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_OnFingerUp",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<CW.Common.CwInputManager.Finger>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Fingers",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.List<CW.Common.CwInputManager.Finger>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ScaleFactor",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetFingers",
+          "parameters": [
+            {
+              "name": "ignoreStartedOverGui",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "ignoreHover",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Collections.Generic.List<CW.Common.CwInputManager.Finger>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PointOverGui",
+          "parameters": [
+            {
+              "name": "screenPosition",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "guiLayers",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RaycastGui",
+          "parameters": [
+            {
+              "name": "screenPosition",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "guiLayers",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Collections.Generic.List<UnityEngine.EventSystems.RaycastResult>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAveragePosition",
+          "parameters": [
+            {
+              "name": "fingers",
+              "type": "System.Collections.Generic.List<CW.Common.CwInputManager.Finger>"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAverageOldPosition",
+          "parameters": [
+            {
+              "name": "fingers",
+              "type": "System.Collections.Generic.List<CW.Common.CwInputManager.Finger>"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAveragePullScaled",
+          "parameters": [
+            {
+              "name": "fingers",
+              "type": "System.Collections.Generic.List<CW.Common.CwInputManager.Finger>"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAverageDeltaScaled",
+          "parameters": [
+            {
+              "name": "fingers",
+              "type": "System.Collections.Generic.List<CW.Common.CwInputManager.Finger>"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAverageTwistRadians",
+          "parameters": [
+            {
+              "name": "fingers",
+              "type": "System.Collections.Generic.List<CW.Common.CwInputManager.Finger>"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnsureThisComponentExists",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Update",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FindFinger",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "CW.Common.CwInputManager.Finger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddFinger",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "screenPosition",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "pressure",
+              "type": "System.Single"
+            },
+            {
+              "name": "set",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Hermite",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "b",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "c",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "d",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "t",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HermiteInterpolate",
+          "parameters": [
+            {
+              "name": "y0",
+              "type": "System.Single"
+            },
+            {
+              "name": "y1",
+              "type": "System.Single"
+            },
+            {
+              "name": "y2",
+              "type": "System.Single"
+            },
+            {
+              "name": "y3",
+              "type": "System.Single"
+            },
+            {
+              "name": "mu",
+              "type": "System.Single"
+            },
+            {
+              "name": "mu2",
+              "type": "System.Single"
+            },
+            {
+              "name": "mu3",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRadians",
+          "parameters": [
+            {
+              "name": "screenPosition",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "referencePoint",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDeltaRadians",
+          "parameters": [
+            {
+              "name": "finger",
+              "type": "CW.Common.CwInputManager.Finger"
+            },
+            {
+              "name": "referencePoint",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "lastReferencePoint",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CwInputManager",
+      "namespace": "CW.Common",
+      "parent": "MonoBehaviour",
+      "type_token": 33554450
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "lifetime",
+          "offset": 24,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Lifetime",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Lifetime",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTemporary",
+          "parameters": [
+            {
+              "name": "desc",
+              "type": "UnityEngine.RenderTextureDescriptor"
+            },
+            {
+              "name": "title",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.RenderTexture"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReleaseTemporary",
+          "parameters": [
+            {
+              "name": "renderTexture",
+              "type": "UnityEngine.RenderTexture"
+            }
+          ],
+          "return_type": "UnityEngine.RenderTexture"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CwRenderTextureManager",
+      "namespace": "CW.Common",
+      "parent": "MonoBehaviour",
+      "type_token": 33554456
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "instances",
+          "offset": 0,
+          "type": "System.Collections.Generic.List<CW.Common.CwRoot>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Exists",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Root",
+          "parameters": [],
+          "return_type": "UnityEngine.Transform"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRoot",
+          "parameters": [],
+          "return_type": "UnityEngine.Transform"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnEnable",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnDisable",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CwRoot",
+      "namespace": "CW.Common",
+      "parent": "MonoBehaviour",
+      "type_token": 33554457
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CwSeedAttribute",
+      "namespace": "CW.Common",
+      "parent": "PropertyAttribute",
+      "type_token": 33554458
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "HelpUrlPrefix",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ComponentMenuPrefix",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "GameObjectMenuPrefix",
+          "offset": 0,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "CwShared",
+      "namespace": "CW.Common",
+      "type_token": 33554459
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "LongName",
+          "offset": 24,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ShortName",
+          "offset": 32,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Documentation",
+          "offset": 40,
+          "type": "UnityEngine.TextAsset"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "icon",
+          "offset": 48,
+          "type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "version",
+          "offset": 56,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Icon",
+          "parameters": [],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Version",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CwGuide",
+      "namespace": "CW.Common",
+      "parent": "ScriptableObject",
+      "type_token": 33554460
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "seedStates",
+          "offset": 0,
+          "type": "System.Collections.Generic.Stack<UnityEngine.Random.State>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "tempMaterials",
+          "offset": 8,
+          "type": "System.Collections.Generic.List<UnityEngine.Material>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "tempProperties",
+          "offset": 16,
+          "type": "System.Collections.Generic.List<UnityEngine.MaterialPropertyBlock>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "OnCameraPreRender",
+          "offset": 24,
+          "type": "System.Action<UnityEngine.Camera>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "OnCameraPostRender",
+          "offset": 32,
+          "type": "System.Action<UnityEngine.Camera>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "actives",
+          "offset": 40,
+          "type": "System.Collections.Generic.Stack<UnityEngine.RenderTexture>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "uniqueSeed",
+          "offset": 48,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "materials",
+          "offset": 56,
+          "type": "System.Collections.Generic.List<UnityEngine.Material>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_OnCameraPreRender",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Camera>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_OnCameraPreRender",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Camera>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_OnCameraPostRender",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Camera>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_OnCameraPostRender",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Camera>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetOrAddComponent",
+          "parameters": [
+            {
+              "name": "gameObject",
+              "type": "UnityEngine.GameObject"
+            },
+            {
+              "name": "recordUndo",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddComponent",
+          "parameters": [
+            {
+              "name": "gameObject",
+              "type": "UnityEngine.GameObject"
+            },
+            {
+              "name": "recordUndo",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IndexInMask",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "mask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCamera",
+          "parameters": [
+            {
+              "name": "currentCamera",
+              "type": "UnityEngine.Camera"
+            },
+            {
+              "name": "gameObject",
+              "type": "UnityEngine.GameObject"
+            }
+          ],
+          "return_type": "UnityEngine.Camera"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetObserverPosition",
+          "parameters": [
+            {
+              "name": "observer",
+              "type": "UnityEngine.Transform"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Enabled",
+          "parameters": [
+            {
+              "name": "b",
+              "type": "UnityEngine.Behaviour"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginSeed",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginSeed",
+          "parameters": [
+            {
+              "name": "newSeed",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndSeed",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Brighten",
+          "parameters": [
+            {
+              "name": "color",
+              "type": "UnityEngine.Color"
+            },
+            {
+              "name": "brightness",
+              "type": "System.Single"
+            },
+            {
+              "name": "convertToGamma",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Premultiply",
+          "parameters": [
+            {
+              "name": "color",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Saturate",
+          "parameters": [
+            {
+              "name": "c",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Saturate",
+          "parameters": [
+            {
+              "name": "c",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Resize",
+          "parameters": [
+            {
+              "name": "list",
+              "type": "System.Collections.Generic.List<T>"
+            },
+            {
+              "name": "size",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Sharpness",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.Single"
+            },
+            {
+              "name": "p",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToLinear",
+          "parameters": [
+            {
+              "name": "gamma",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToLinear",
+          "parameters": [
+            {
+              "name": "gamma",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToGamma",
+          "parameters": [
+            {
+              "name": "linear",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToGamma",
+          "parameters": [
+            {
+              "name": "linear",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UniformScale",
+          "parameters": [
+            {
+              "name": "scale",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginActive",
+          "parameters": [
+            {
+              "name": "renderTexture",
+              "type": "UnityEngine.RenderTexture"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndActive",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTempMaterial",
+          "parameters": [
+            {
+              "name": "material",
+              "type": "UnityEngine.Material"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTempMaterial",
+          "parameters": [
+            {
+              "name": "material1",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "material2",
+              "type": "UnityEngine.Material"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTempMaterial",
+          "parameters": [
+            {
+              "name": "materials",
+              "type": "System.Collections.Generic.List<UnityEngine.Material>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTempMaterial",
+          "parameters": [
+            {
+              "name": "properties",
+              "type": "UnityEngine.MaterialPropertyBlock"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddMaterial",
+          "parameters": [
+            {
+              "name": "r",
+              "type": "UnityEngine.Renderer"
+            },
+            {
+              "name": "m",
+              "type": "UnityEngine.Material"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReplaceMaterial",
+          "parameters": [
+            {
+              "name": "r",
+              "type": "UnityEngine.Renderer"
+            },
+            {
+              "name": "m",
+              "type": "UnityEngine.Material"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RemoveMaterial",
+          "parameters": [
+            {
+              "name": "r",
+              "type": "UnityEngine.Renderer"
+            },
+            {
+              "name": "m",
+              "type": "UnityEngine.Material"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateTempTexture2D",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "width",
+              "type": "System.Int32"
+            },
+            {
+              "name": "height",
+              "type": "System.Int32"
+            },
+            {
+              "name": "format",
+              "type": "UnityEngine.TextureFormat"
+            },
+            {
+              "name": "mips",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "linear",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateTempMaterial",
+          "parameters": [
+            {
+              "name": "materialName",
+              "type": "System.String"
+            },
+            {
+              "name": "shaderName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Material"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateTempMaterial",
+          "parameters": [
+            {
+              "name": "materialName",
+              "type": "System.String"
+            },
+            {
+              "name": "shader",
+              "type": "UnityEngine.Shader"
+            }
+          ],
+          "return_type": "UnityEngine.Material"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateTempMaterial",
+          "parameters": [
+            {
+              "name": "materialName",
+              "type": "System.String"
+            },
+            {
+              "name": "source",
+              "type": "UnityEngine.Material"
+            }
+          ],
+          "return_type": "UnityEngine.Material"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Destroy",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "T"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateGameObject",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "layer",
+              "type": "System.Int32"
+            },
+            {
+              "name": "parent",
+              "type": "UnityEngine.Transform"
+            },
+            {
+              "name": "recordUndo",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.GameObject"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateGameObject",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "layer",
+              "type": "System.Int32"
+            },
+            {
+              "name": "parent",
+              "type": "UnityEngine.Transform"
+            },
+            {
+              "name": "localPosition",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "localRotation",
+              "type": "UnityEngine.Quaternion"
+            },
+            {
+              "name": "localScale",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "recordUndo",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.GameObject"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateElement",
+          "parameters": [
+            {
+              "name": "parent",
+              "type": "UnityEngine.Transform"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Reciprocal",
+          "parameters": [
+            {
+              "name": "v",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Reciprocal",
+          "parameters": [
+            {
+              "name": "v",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Divide",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.Single"
+            },
+            {
+              "name": "b",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Divide",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.Double"
+            },
+            {
+              "name": "b",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Acos",
+          "parameters": [
+            {
+              "name": "v",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Acos",
+          "parameters": [
+            {
+              "name": "v",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DampenFactor",
+          "parameters": [
+            {
+              "name": "speed",
+              "type": "System.Single"
+            },
+            {
+              "name": "elapsed",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DampenFactor",
+          "parameters": [
+            {
+              "name": "damping",
+              "type": "System.Single"
+            },
+            {
+              "name": "deltaTime",
+              "type": "System.Single"
+            },
+            {
+              "name": "linear",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Atan2",
+          "parameters": [
+            {
+              "name": "xy",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Mod",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.Int32"
+            },
+            {
+              "name": "b",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Mod",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.Single"
+            },
+            {
+              "name": "b",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetReadableCopy",
+          "parameters": [
+            {
+              "name": "texture",
+              "type": "UnityEngine.Texture"
+            },
+            {
+              "name": "format",
+              "type": "UnityEngine.TextureFormat"
+            },
+            {
+              "name": "mipMaps",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "width",
+              "type": "System.Int32"
+            },
+            {
+              "name": "height",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        }
+      ],
+      "name": "CwHelper",
+      "namespace": "CW.Common",
+      "type_token": 33554461
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "keyMapping",
+          "offset": 0,
+          "type": "System.Collections.Generic.Dictionary<UnityEngine.KeyCode,UnityEngine.InputSystem.Key>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Enable",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMouseButtonControl",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.InputSystem.Controls.ButtonControl"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetButtonControl",
+          "parameters": [
+            {
+              "name": "oldKey",
+              "type": "UnityEngine.KeyCode"
+            }
+          ],
+          "return_type": "UnityEngine.InputSystem.Controls.ButtonControl"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTouchCount",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTouch",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "id",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector2&"
+            },
+            {
+              "name": "pressure",
+              "type": "System.Single&"
+            },
+            {
+              "name": "set",
+              "type": "System.Boolean&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMousePosition",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetKeyWentDown",
+          "parameters": [
+            {
+              "name": "oldKey",
+              "type": "UnityEngine.KeyCode"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetKeyIsHeld",
+          "parameters": [
+            {
+              "name": "oldKey",
+              "type": "UnityEngine.KeyCode"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetKeyWentUp",
+          "parameters": [
+            {
+              "name": "oldKey",
+              "type": "UnityEngine.KeyCode"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMouseWentDown",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMouseIsHeld",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMouseWentUp",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMouseWheelDelta",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMouseExists",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetKeyboardExists",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CwInput",
+      "namespace": "CW.Common",
+      "type_token": 33554463
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Invalid",
+          "offset": 0,
+          "type": "CW.Common.CwShaderBundle.Pipeline"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Standard",
+          "offset": 0,
+          "type": "CW.Common.CwShaderBundle.Pipeline"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "URP2019",
+          "offset": 0,
+          "type": "CW.Common.CwShaderBundle.Pipeline"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "URP2020",
+          "offset": 0,
+          "type": "CW.Common.CwShaderBundle.Pipeline"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "URP2021",
+          "offset": 0,
+          "type": "CW.Common.CwShaderBundle.Pipeline"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "HDRP2019",
+          "offset": 0,
+          "type": "CW.Common.CwShaderBundle.Pipeline"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "HDRP2020",
+          "offset": 0,
+          "type": "CW.Common.CwShaderBundle.Pipeline"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "HDRP2021",
+          "offset": 0,
+          "type": "CW.Common.CwShaderBundle.Pipeline"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "COUNT",
+          "offset": 0,
+          "type": "CW.Common.CwShaderBundle.Pipeline"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Pipeline",
+      "namespace": "",
+      "type_token": 33554465
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Pipe",
+          "offset": 16,
+          "type": "CW.Common.CwShaderBundle.Pipeline"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Code",
+          "offset": 24,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Hash",
+          "offset": 32,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Dirty",
+          "offset": 36,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_HashString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ShaderVariant",
+      "namespace": "",
+      "type_token": 33554466
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "title",
+          "offset": 24,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "target",
+          "offset": 32,
+          "type": "UnityEngine.Shader"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "variantHash",
+          "offset": 40,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "projectHash",
+          "offset": 44,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "variants",
+          "offset": 48,
+          "type": "System.Collections.Generic.List<CW.Common.CwShaderBundle.ShaderVariant>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Title",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Title",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Target",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Shader"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Target",
+          "parameters": [],
+          "return_type": "UnityEngine.Shader"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_VariantHash",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_VariantHash",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_ProjectHash",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ProjectHash",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Variants",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.List<CW.Common.CwShaderBundle.ShaderVariant>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Dirty",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetProjectHash",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DetectProjectPipeline",
+          "parameters": [],
+          "return_type": "CW.Common.CwShaderBundle.Pipeline"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsStandard",
+          "parameters": [
+            {
+              "name": "pipe",
+              "type": "CW.Common.CwShaderBundle.Pipeline"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsScriptable",
+          "parameters": [
+            {
+              "name": "pipe",
+              "type": "CW.Common.CwShaderBundle.Pipeline"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsURP",
+          "parameters": [
+            {
+              "name": "pipe",
+              "type": "CW.Common.CwShaderBundle.Pipeline"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsHDRP",
+          "parameters": [
+            {
+              "name": "pipe",
+              "type": "CW.Common.CwShaderBundle.Pipeline"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CwShaderBundle",
+      "namespace": "CW.Common",
+      "parent": "ScriptableObject",
+      "type_token": 33554464
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "CW.Common.dll"
+}

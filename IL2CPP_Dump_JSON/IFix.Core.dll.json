@@ -1,0 +1,5178 @@
+{
+  "class_count": 37,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ID",
+          "offset": 16,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IDTagAttribute",
+      "namespace": "IFix.Core",
+      "parent": "Attribute",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "removers",
+          "offset": 0,
+          "type": "System.Collections.Generic.Dictionary<System.Reflection.Assembly,System.Action>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "<>f__am$cache0",
+          "offset": 8,
+          "type": "System.Func<System.Reflection.ParameterInfo,System.Type>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "readMethod",
+          "parameters": [
+            {
+              "name": "reader",
+              "type": "System.IO.BinaryReader"
+            },
+            {
+              "name": "externTypes",
+              "type": "System.Type[]"
+            }
+          ],
+          "return_type": "System.Reflection.MethodBase"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getMapId",
+          "parameters": [
+            {
+              "name": "idMapArray",
+              "type": "System.Collections.Generic.List<System.Type>"
+            },
+            {
+              "name": "method",
+              "type": "System.Reflection.MethodBase"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "readSlotInfo",
+          "parameters": [
+            {
+              "name": "reader",
+              "type": "System.IO.BinaryReader"
+            },
+            {
+              "name": "itfMethodToId",
+              "type": "System.Collections.Generic.Dictionary<System.Reflection.MethodInfo,System.Int32>"
+            },
+            {
+              "name": "externTypes",
+              "type": "System.Type[]"
+            },
+            {
+              "name": "maxId",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Load",
+          "parameters": [
+            {
+              "name": "stream",
+              "type": "System.IO.Stream"
+            },
+            {
+              "name": "checkNew",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "IFix.Core.VirtualMachine"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Unload",
+          "parameters": [
+            {
+              "name": "assembly",
+              "type": "System.Reflection.Assembly"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<readMethod>m__0",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "System.Reflection.ParameterInfo"
+            }
+          ],
+          "return_type": "System.Type"
+        }
+      ],
+      "name": "PatchManager",
+      "namespace": "IFix.Core",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Blt_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldind_U1",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stelem_Any",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldelem_I",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Endfinally",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Arglist",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Shl",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_Ovf_I4",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stloc",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Refanytype",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Callvirt",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldelem_R8",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Unaligned",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_I2",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldfld",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Sizeof",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Newanon",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Sub",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_Ovf_U2",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Cgt_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Call",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stind_R8",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_Ovf_I8",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Readonly",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Newobj",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Shr_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldvirtftn",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Jmp",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Cgt",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldtoken",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_Ovf_U",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldind_Ref",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_Ovf_I_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_I1",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldloc",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldind_R8",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldind_U4",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldlen",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Rem_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Starg",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Calli",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_Ovf_U1_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Add",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Switch",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CallExtern",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldelem_I8",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldelema",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Div",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Br",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ret",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldind_I4",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Clt",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_I4",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ceq",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_U",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Initobj",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stelem_Ref",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Mul_Ovf_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldstr",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Mul_Ovf",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Sub_Ovf",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldelem_U1",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_I",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_U4",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Blt",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_Ovf_I",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "No",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Brtrue",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Unbox_Any",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Not",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Neg",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldind_I8",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stind_Ref",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_R4",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_Ovf_U4",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_Ovf_U8",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldind_I",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Tail",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Initblk",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_Ovf_U8_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Shr",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Callvirtvirt",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "StackSpace",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldsflda",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ble",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldloca",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldtype",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_I8",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_Ovf_U2_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Add_Ovf",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Isinst",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stobj",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_Ovf_I1_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Cpblk",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Pop",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "And",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Box",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Mul",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_U1",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Nop",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_R_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldarga",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Bgt",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Break",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Div_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldc_I4",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Refanyval",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_U8",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Bgt_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stelem_R8",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Bge",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldflda",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldelem_I1",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Localloc",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldind_I1",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldelem_U4",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Volatile",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldarg",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldftn",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Xor",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_Ovf_I2",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_Ovf_U_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stind_I2",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldc_R4",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stelem_I2",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Or",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Castclass",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Newarr",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Throw",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_U2",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Clt_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_Ovf_U4_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Dup",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldvirtftn2",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Add_Ovf_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldc_R8",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldelem_Any",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Sub_Ovf_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Brfalse",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_R8",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Unbox",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Endfilter",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Rethrow",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Rem",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldnull",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_Ovf_U1",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stfld",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stelem_I",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Mkrefany",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stelem_R4",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldc_I8",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Cpobj",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stind_I8",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Bne_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Constrained",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stelem_I1",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beq",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Bge_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldind_I2",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldelem_I2",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_Ovf_I8_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_Ovf_I1",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldobj",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Leave",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stind_I",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stind_I1",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldelem_R4",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_Ovf_I4_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldelem_I4",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldind_R4",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ckfinite",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldelem_Ref",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stsfld",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldsfld",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stelem_I8",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stelem_I4",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldelem_U2",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Conv_Ovf_I2_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stind_R4",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ldind_U2",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ble_Un",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Stind_I4",
+          "offset": 0,
+          "type": "IFix.Core.Code"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Code",
+      "namespace": "IFix.Core",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Code",
+          "offset": 16,
+          "type": "IFix.Core.Code"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Operand",
+          "offset": 20,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Instruction",
+      "namespace": "IFix.Core",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Catch",
+          "offset": 0,
+          "type": "IFix.Core.ExceptionHandlerType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Filter",
+          "offset": 0,
+          "type": "IFix.Core.ExceptionHandlerType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Finally",
+          "offset": 0,
+          "type": "IFix.Core.ExceptionHandlerType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Fault",
+          "offset": 0,
+          "type": "IFix.Core.ExceptionHandlerType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ExceptionHandlerType",
+      "namespace": "IFix.Core",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "CatchType",
+          "offset": 16,
+          "type": "System.Type"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "CatchTypeId",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "HandlerEnd",
+          "offset": 28,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "HandlerStart",
+          "offset": 32,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "HandlerType",
+          "offset": 36,
+          "type": "IFix.Core.ExceptionHandlerType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "TryEnd",
+          "offset": 40,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "TryStart",
+          "offset": 44,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ExceptionHandler",
+      "namespace": "IFix.Core",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "unmanagedFields",
+          "offset": 16,
+          "type": "IFix.Core.Value[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "managedFields",
+          "offset": 24,
+          "type": "System.Object[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "typeId",
+          "offset": 32,
+          "type": "System.Int32"
+        },
+        {
+          "access": "protected",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "virtualMachine",
+          "offset": 40,
+          "type": "IFix.Core.VirtualMachine"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "equalMethodId",
+          "offset": 48,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "finalizeMethodId",
+          "offset": 52,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "getHashCodeMethodId",
+          "offset": 56,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "toStringMethodId",
+          "offset": 60,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "fieldNum",
+              "type": "System.Int32"
+            },
+            {
+              "name": "fieldTypes",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "typeID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vTable",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Ldfld",
+          "parameters": [
+            {
+              "name": "fieldIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "evaluationStackBase",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "evaluationStackPointer",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "managedStack",
+              "type": "System.Object[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Stfld",
+          "parameters": [
+            {
+              "name": "fieldIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "evaluationStackBase",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "evaluationStackPointer",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "managedStack",
+              "type": "System.Object[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Get",
+          "parameters": [
+            {
+              "name": "fieldIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            },
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            },
+            {
+              "name": "valueTypeClone",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Set",
+          "parameters": [
+            {
+              "name": "fieldIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "obj",
+              "type": "System.Object"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            },
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ObjectEquals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ObjectGetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ObjectToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AnonymousStorey",
+      "namespace": "IFix.Core",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "FieldNum",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "FieldTypes",
+          "offset": 24,
+          "type": "System.Int32[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "CtorId",
+          "offset": 32,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "CtorParamNum",
+          "offset": 36,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Slots",
+          "offset": 40,
+          "type": "System.Int32[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "VTable",
+          "offset": 48,
+          "type": "System.Int32[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AnonymousStoreyInfo",
+      "namespace": "IFix.Core",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Integer",
+          "offset": 0,
+          "type": "IFix.Core.ValueType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Long",
+          "offset": 0,
+          "type": "IFix.Core.ValueType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Float",
+          "offset": 0,
+          "type": "IFix.Core.ValueType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Double",
+          "offset": 0,
+          "type": "IFix.Core.ValueType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "StackReference",
+          "offset": 0,
+          "type": "IFix.Core.ValueType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "StaticFieldReference",
+          "offset": 0,
+          "type": "IFix.Core.ValueType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FieldReference",
+          "offset": 0,
+          "type": "IFix.Core.ValueType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ChainFieldReference",
+          "offset": 0,
+          "type": "IFix.Core.ValueType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Object",
+          "offset": 0,
+          "type": "IFix.Core.ValueType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ValueType",
+          "offset": 0,
+          "type": "IFix.Core.ValueType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ArrayReference",
+          "offset": 0,
+          "type": "IFix.Core.ValueType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ValueType",
+      "namespace": "IFix.Core",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Type",
+          "offset": 16,
+          "type": "IFix.Core.ValueType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Value1",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Value2",
+          "offset": 24,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Value",
+      "namespace": "IFix.Core",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "genericAction",
+          "offset": 0,
+          "type": "System.Reflection.MethodInfo[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "genericFunc",
+          "offset": 8,
+          "type": "System.Reflection.MethodInfo[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "genericDelegateCreatorCache",
+          "offset": 16,
+          "type": "System.Collections.Generic.Dictionary<System.Type,System.Func<IFix.Core.GenericDelegate,System.Delegate>>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "<>f__am$cache0",
+          "offset": 24,
+          "type": "System.Func<System.Reflection.MethodInfo,System.Boolean>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "<>f__am$cache1",
+          "offset": 32,
+          "type": "System.Func<System.Reflection.MethodInfo,System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "<>f__am$cache2",
+          "offset": 40,
+          "type": "System.Func<System.Reflection.MethodInfo,System.Boolean>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "<>f__am$cache3",
+          "offset": 48,
+          "type": "System.Func<System.Reflection.MethodInfo,System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "<>f__am$cache4",
+          "offset": 56,
+          "type": "System.Func<System.Reflection.ParameterInfo,System.Boolean>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "<>f__am$cache5",
+          "offset": 64,
+          "type": "System.Func<IFix.Core.GenericDelegate,System.Delegate>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "<>f__am$cache6",
+          "offset": 72,
+          "type": "System.Func<System.Reflection.ParameterInfo,System.Type>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PreventStripping",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Create",
+          "parameters": [
+            {
+              "name": "delegateType",
+              "type": "System.Type"
+            },
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            },
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "anonObj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Delegate"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<Create>m__0",
+          "parameters": [
+            {
+              "name": "m",
+              "type": "System.Reflection.MethodInfo"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<Create>m__1",
+          "parameters": [
+            {
+              "name": "m",
+              "type": "System.Reflection.MethodInfo"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<Create>m__2",
+          "parameters": [
+            {
+              "name": "m",
+              "type": "System.Reflection.MethodInfo"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<Create>m__3",
+          "parameters": [
+            {
+              "name": "m",
+              "type": "System.Reflection.MethodInfo"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<Create>m__4",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "System.Reflection.ParameterInfo"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<Create>m__5",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "IFix.Core.GenericDelegate"
+            }
+          ],
+          "return_type": "System.Delegate"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<Create>m__6",
+          "parameters": [
+            {
+              "name": "pinfo",
+              "type": "System.Reflection.ParameterInfo"
+            }
+          ],
+          "return_type": "System.Type"
+        }
+      ],
+      "name": "GenericDelegateFactory",
+      "namespace": "IFix.Core",
+      "type_token": 33554447
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "virtualMachine",
+          "offset": 16,
+          "type": "IFix.Core.VirtualMachine"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "methodId",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "anonObj",
+          "offset": 32,
+          "type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "pushSelf",
+          "offset": 40,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "extraArgNum",
+          "offset": 44,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            },
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "anonObj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Action",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Action",
+          "parameters": [
+            {
+              "name": "p1",
+              "type": "T1"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Action",
+          "parameters": [
+            {
+              "name": "p1",
+              "type": "T1"
+            },
+            {
+              "name": "p2",
+              "type": "T2"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Action",
+          "parameters": [
+            {
+              "name": "p1",
+              "type": "T1"
+            },
+            {
+              "name": "p2",
+              "type": "T2"
+            },
+            {
+              "name": "p3",
+              "type": "T3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Action",
+          "parameters": [
+            {
+              "name": "p1",
+              "type": "T1"
+            },
+            {
+              "name": "p2",
+              "type": "T2"
+            },
+            {
+              "name": "p3",
+              "type": "T3"
+            },
+            {
+              "name": "p4",
+              "type": "T4"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Func",
+          "parameters": [],
+          "return_type": "TResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Func",
+          "parameters": [
+            {
+              "name": "p1",
+              "type": "T1"
+            }
+          ],
+          "return_type": "TResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Func",
+          "parameters": [
+            {
+              "name": "p1",
+              "type": "T1"
+            },
+            {
+              "name": "p2",
+              "type": "T2"
+            }
+          ],
+          "return_type": "TResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Func",
+          "parameters": [
+            {
+              "name": "p1",
+              "type": "T1"
+            },
+            {
+              "name": "p2",
+              "type": "T2"
+            },
+            {
+              "name": "p3",
+              "type": "T3"
+            }
+          ],
+          "return_type": "TResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Func",
+          "parameters": [
+            {
+              "name": "p1",
+              "type": "T1"
+            },
+            {
+              "name": "p2",
+              "type": "T2"
+            },
+            {
+              "name": "p3",
+              "type": "T3"
+            },
+            {
+              "name": "p4",
+              "type": "T4"
+            }
+          ],
+          "return_type": "TResult"
+        }
+      ],
+      "name": "GenericDelegate",
+      "namespace": "IFix.Core",
+      "type_token": 33554451
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "NullChecks",
+          "offset": 0,
+          "type": "Unity.IL2CPP.CompilerServices.Option"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ArrayBoundsChecks",
+          "offset": 0,
+          "type": "Unity.IL2CPP.CompilerServices.Option"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "DivideByZeroChecks",
+          "offset": 0,
+          "type": "Unity.IL2CPP.CompilerServices.Option"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Option",
+      "namespace": "Unity.IL2CPP.CompilerServices",
+      "type_token": 33554452
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<Option>k__BackingField",
+          "offset": 16,
+          "type": "Unity.IL2CPP.CompilerServices.Option"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<Value>k__BackingField",
+          "offset": 24,
+          "type": "System.Object"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "option",
+              "type": "Unity.IL2CPP.CompilerServices.Option"
+            },
+            {
+              "name": "value",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Option",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "Unity.IL2CPP.CompilerServices.Option"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Value",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Il2CppSetOptionAttribute",
+      "namespace": "Unity.IL2CPP.CompilerServices",
+      "parent": "Attribute",
+      "type_token": 33554453
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "memberwiseClone",
+          "offset": 16,
+          "type": "System.Reflection.MethodInfo"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clone",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Object"
+        }
+      ],
+      "name": "ObjectClone",
+      "namespace": "IFix.Core",
+      "type_token": 33554454
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "paramCount",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "hasThis",
+          "offset": 20,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "hasReturn",
+          "offset": 21,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "refFlags",
+          "offset": 24,
+          "type": "System.Boolean[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "outFlags",
+          "offset": 32,
+          "type": "System.Boolean[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "rawTypes",
+          "offset": 40,
+          "type": "System.Type[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "method",
+          "offset": 48,
+          "type": "System.Reflection.MethodBase"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ctor",
+          "offset": 56,
+          "type": "System.Reflection.ConstructorInfo"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "returnType",
+          "offset": 64,
+          "type": "System.Type"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "isNullableHasValue",
+          "offset": 72,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "isNullableValue",
+          "offset": 73,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "method",
+              "type": "System.Reflection.MethodBase"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            },
+            {
+              "name": "call",
+              "type": "IFix.Core.Call&"
+            },
+            {
+              "name": "isInstantiate",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ReflectionMethodInvoker",
+      "namespace": "IFix.Core",
+      "type_token": 33554455
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Base",
+          "offset": 16,
+          "type": "IFix.Core.Value*"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Top",
+          "offset": 24,
+          "type": "IFix.Core.Value*"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "UnmanagedStack",
+      "namespace": "IFix.Core",
+      "type_token": 33554456
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "UnmanagedStack",
+          "offset": 16,
+          "type": "IFix.Core.UnmanagedStack*"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ManagedStack",
+          "offset": 24,
+          "type": "System.Object[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "evaluationStackHandler",
+          "offset": 32,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "unmanagedStackHandler",
+          "offset": 40,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "localSlot",
+          "offset": 0,
+          "type": "System.LocalDataStoreSlot"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Stack",
+          "parameters": [],
+          "return_type": "IFix.Core.ThreadStackInfo"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ThreadStackInfo",
+      "namespace": "IFix.Core",
+      "type_token": 33554457
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnboxPrimitive",
+          "parameters": [
+            {
+              "name": "evaluationStackPointer",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "obj",
+              "type": "System.Object"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "mGet",
+          "parameters": [
+            {
+              "name": "isArray",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "root",
+              "type": "System.Object"
+            },
+            {
+              "name": "layer",
+              "type": "System.Int32"
+            },
+            {
+              "name": "fieldIdList",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "fieldInfos",
+              "type": "System.Reflection.FieldInfo[]"
+            },
+            {
+              "name": "newFieldInfos",
+              "type": "System.Collections.Generic.Dictionary<System.Int32,IFix.Core.NewFieldInfo>"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "mSet",
+          "parameters": [
+            {
+              "name": "isArray",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "root",
+              "type": "System.Object"
+            },
+            {
+              "name": "val",
+              "type": "System.Object"
+            },
+            {
+              "name": "layer",
+              "type": "System.Int32"
+            },
+            {
+              "name": "fieldIdList",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "fieldInfos",
+              "type": "System.Reflection.FieldInfo[]"
+            },
+            {
+              "name": "newFieldInfos",
+              "type": "System.Collections.Generic.Dictionary<System.Int32,IFix.Core.NewFieldInfo>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToObject",
+          "parameters": [
+            {
+              "name": "evaluationStackBase",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "evaluationStackPointer",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "managedStack",
+              "type": "System.Object[]"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            },
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            },
+            {
+              "name": "valueTypeClone",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushObject",
+          "parameters": [
+            {
+              "name": "evaluationStackBase",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "evaluationStackPointer",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "managedStack",
+              "type": "System.Object[]"
+            },
+            {
+              "name": "obj",
+              "type": "System.Object"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateReference",
+          "parameters": [
+            {
+              "name": "evaluationStackBase",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "evaluationStackPointer",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "managedStack",
+              "type": "System.Object[]"
+            },
+            {
+              "name": "obj",
+              "type": "System.Object"
+            },
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "EvaluationStackOperation",
+      "namespace": "IFix.Core",
+      "type_token": 33554458
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "argumentBase",
+          "offset": 16,
+          "type": "IFix.Core.Value*"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "evaluationStackBase",
+          "offset": 24,
+          "type": "IFix.Core.Value*"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "managedStack",
+          "offset": 32,
+          "type": "System.Object[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "currentTop",
+          "offset": 40,
+          "type": "IFix.Core.Value*"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "topWriteBack",
+          "offset": 48,
+          "type": "IFix.Core.Value**"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Begin",
+          "parameters": [],
+          "return_type": "IFix.Core.Call"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginForStack",
+          "parameters": [
+            {
+              "name": "stack",
+              "type": "IFix.Core.ThreadStackInfo"
+            }
+          ],
+          "return_type": "IFix.Core.Call"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushBoolean",
+          "parameters": [
+            {
+              "name": "b",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetBoolean",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushByte",
+          "parameters": [
+            {
+              "name": "b",
+              "type": "System.Byte"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetByte",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSByte",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.SByte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushInt16",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.Int16"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetInt16",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushChar",
+          "parameters": [
+            {
+              "name": "c",
+              "type": "System.Char"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetChar",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Char"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushUInt16",
+          "parameters": [
+            {
+              "name": "us",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetUInt16",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.UInt16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushInt32",
+          "parameters": [
+            {
+              "name": "i",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetInt32",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushUInt32",
+          "parameters": [
+            {
+              "name": "ui",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetUInt32",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushInt64",
+          "parameters": [
+            {
+              "name": "i",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetInt64",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushUInt64",
+          "parameters": [
+            {
+              "name": "i",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetUInt64",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushSingle",
+          "parameters": [
+            {
+              "name": "f",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSingle",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushDouble",
+          "parameters": [
+            {
+              "name": "d",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDouble",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushIntPtr",
+          "parameters": [
+            {
+              "name": "i",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetIntPtr",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushObject",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushValueType",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetObject",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAsType",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushObjectAsResult",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushRef",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateReference",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "obj",
+              "type": "System.Object"
+            },
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Call",
+      "namespace": "IFix.Core",
+      "type_token": 33554459
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CustomBridgeAttribute",
+      "namespace": "IFix",
+      "parent": "Attribute",
+      "type_token": 33554460
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "delegateAdptCache",
+          "offset": 0,
+          "type": "System.Collections.Generic.Dictionary<System.Type,System.Reflection.MethodInfo>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsAssignable",
+          "parameters": [
+            {
+              "name": "delegateMethod",
+              "type": "System.Reflection.MethodInfo"
+            },
+            {
+              "name": "method",
+              "type": "System.Reflection.MethodInfo"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryAdapterToDelegate",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            },
+            {
+              "name": "delegateType",
+              "type": "System.Type"
+            },
+            {
+              "name": "perfix",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Delegate"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Utils",
+      "namespace": "IFix.Core",
+      "type_token": 33554461
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<Real>k__BackingField",
+          "offset": 144,
+          "type": "System.Exception"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Real",
+          "parameters": [],
+          "return_type": "System.Exception"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Real",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Exception"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "RuntimeException",
+      "namespace": "IFix.Core",
+      "parent": "Exception",
+      "type_token": 33554462
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "vm",
+              "type": "IFix.Core.VirtualMachine"
+            },
+            {
+              "name": "call",
+              "type": "IFix.Core.Call&"
+            },
+            {
+              "name": "isInstantiate",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ExternInvoker",
+      "namespace": "IFix.Core",
+      "parent": "MulticastDelegate",
+      "type_token": 33554463
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Object",
+          "offset": 16,
+          "type": "System.Object"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "FieldIdList",
+          "offset": 24,
+          "type": "System.Int32[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "FieldAddr",
+      "namespace": "IFix.Core",
+      "type_token": 33554464
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "start",
+          "offset": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Start",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Stop",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Cleanner",
+      "namespace": "IFix.Core",
+      "type_token": 33554465
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Name",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "DeclaringType",
+          "offset": 24,
+          "type": "System.Type"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "FieldType",
+          "offset": 32,
+          "type": "System.Type"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "MethodId",
+          "offset": 40,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "staticObjectKey",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "stack",
+          "offset": 8,
+          "type": "IFix.Core.ThreadStackInfo"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "newFieldValues",
+          "offset": 16,
+          "type": "System.Collections.Generic.Dictionary<System.Int32,System.Collections.Generic.Dictionary<System.String,System.Object>>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "objList",
+          "offset": 24,
+          "type": "System.Collections.Generic.Dictionary<System.Int32,System.WeakReference>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetDefaultValue",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Sweep",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CheckInit",
+          "parameters": [
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            },
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ObjectToIndex",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HasInitialize",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetValue",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetValue",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            },
+            {
+              "name": "value",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "NewFieldInfo",
+      "namespace": "IFix.Core",
+      "type_token": 33554466
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Invoker",
+          "offset": 16,
+          "type": "IFix.Core.ExternInvoker"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ArgumentCount",
+          "offset": 24,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CalliInvokerInfo",
+      "namespace": "",
+      "type_token": 33554468
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "objectClone",
+          "offset": 16,
+          "type": "IFix.Core.ObjectClone"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "unmanagedCodes",
+          "offset": 24,
+          "type": "IFix.Core.Instruction**"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "exceptionHandlers",
+          "offset": 32,
+          "type": "IFix.Core.ExceptionHandler[][]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "onDispose",
+          "offset": 40,
+          "type": "System.Action"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "externInvokers",
+          "offset": 48,
+          "type": "IFix.Core.ExternInvoker[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "calliInvokerCache",
+          "offset": 56,
+          "type": "System.Collections.Generic.Dictionary<System.Reflection.MethodBase,IFix.Core.VirtualMachine.CalliInvokerInfo>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "externMethods",
+          "offset": 64,
+          "type": "System.Reflection.MethodBase[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "externTypes",
+          "offset": 72,
+          "type": "System.Type[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "internStrings",
+          "offset": 80,
+          "type": "System.String[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "fieldInfos",
+          "offset": 88,
+          "type": "System.Reflection.FieldInfo[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "newFieldInfos",
+          "offset": 96,
+          "type": "System.Collections.Generic.Dictionary<System.Int32,IFix.Core.NewFieldInfo>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "anonymousStoreyInfos",
+          "offset": 104,
+          "type": "IFix.Core.AnonymousStoreyInfo[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "overrideCache",
+          "offset": 112,
+          "type": "System.Collections.Generic.Dictionary<System.Type,System.Collections.Generic.Dictionary<System.Reflection.MethodInfo,System.Reflection.MethodInfo>>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "staticFieldTypes",
+          "offset": 120,
+          "type": "System.Type[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "staticFields",
+          "offset": 128,
+          "type": "System.Object[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "cctors",
+          "offset": 136,
+          "type": "System.Int32[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "wrappersManager",
+          "offset": 144,
+          "type": "IFix.Core.WrappersManager"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Info",
+          "offset": 0,
+          "type": "System.Action<System.String>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "<>f__mg$cache0",
+          "offset": 8,
+          "type": "System.Action<System.String>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "unmanaged_codes",
+              "type": "IFix.Core.Instruction**"
+            },
+            {
+              "name": "on_dispose",
+              "type": "System.Action"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_ExceptionHandlers",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "IFix.Core.ExceptionHandler[][]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ExternTypes",
+          "parameters": [],
+          "return_type": "System.Type[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_ExternTypes",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Type[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_ExternMethods",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Reflection.MethodBase[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_InternStrings",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_FieldInfos",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Reflection.FieldInfo[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_NewFieldInfos",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Collections.Generic.Dictionary<System.Int32,IFix.Core.NewFieldInfo>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AnonymousStoreyInfos",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "IFix.Core.AnonymousStoreyInfo[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_StaticFieldTypes",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Type[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Cctors",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_WrappersManager",
+          "parameters": [],
+          "return_type": "IFix.Core.WrappersManager"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_WrappersManager",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "IFix.Core.WrappersManager"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "checkCctorExecute",
+          "parameters": [
+            {
+              "name": "fieldId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "argumentBase",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "managedStack",
+              "type": "System.Object[]"
+            },
+            {
+              "name": "evaluationStackBase",
+              "type": "IFix.Core.Value*"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "store",
+          "parameters": [
+            {
+              "name": "stackBase",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "dst",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "src",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "managedStack",
+              "type": "System.Object[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "copy",
+          "parameters": [
+            {
+              "name": "stackBase",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "dst",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "src",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "managedStack",
+              "type": "System.Object[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "resolveStackReference",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "stackBase",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "managedStack",
+              "type": "System.Object[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "stackReferenceToPointer",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "IFix.Core.Value*"
+            }
+          ],
+          "return_type": "System.Byte*"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "tryConvertStackReferenceToPointer",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "IFix.Core.Value*"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "pointerValueToAddress",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "managedStack",
+              "type": "System.Object[]"
+            }
+          ],
+          "return_type": "System.Byte*"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "valueToInt64",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "IFix.Core.Value*"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "valueToFloat",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "IFix.Core.Value*"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "valueToDouble",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "IFix.Core.Value*"
+            }
+          ],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "storeToRawPointer",
+          "parameters": [
+            {
+              "name": "destination",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "src",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "code",
+              "type": "IFix.Core.Code"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "loadFromRawPointer",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "dest",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "code",
+              "type": "IFix.Core.Code"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Execute",
+          "parameters": [
+            {
+              "name": "methodIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "call",
+              "type": "IFix.Core.Call&"
+            },
+            {
+              "name": "argsCount",
+              "type": "System.Int32"
+            },
+            {
+              "name": "refCount",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Execute",
+          "parameters": [
+            {
+              "name": "methodIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "argumentBase",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "managedStack",
+              "type": "System.Object[]"
+            },
+            {
+              "name": "evaluationStackBase",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "argsCount",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "IFix.Core.Value*"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "throwRuntimeException",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "System.Exception"
+            },
+            {
+              "name": "bWrap",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getExceptionHandler",
+          "parameters": [
+            {
+              "name": "methodIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "exceptionType",
+              "type": "System.Type"
+            },
+            {
+              "name": "pc",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "IFix.Core.ExceptionHandler"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "arrayGet",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            },
+            {
+              "name": "idx",
+              "type": "System.Int32"
+            },
+            {
+              "name": "val",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "managedStack",
+              "type": "System.Object[]"
+            },
+            {
+              "name": "evaluationStackBase",
+              "type": "IFix.Core.Value*"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "arraySet",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            },
+            {
+              "name": "idx",
+              "type": "System.Int32"
+            },
+            {
+              "name": "val",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "managedStack",
+              "type": "System.Object[]"
+            },
+            {
+              "name": "evaluationStackBase",
+              "type": "IFix.Core.Value*"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_Info",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Execute",
+          "parameters": [
+            {
+              "name": "pc",
+              "type": "IFix.Core.Instruction*"
+            },
+            {
+              "name": "argumentBase",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "managedStack",
+              "type": "System.Object[]"
+            },
+            {
+              "name": "evaluationStackBase",
+              "type": "IFix.Core.Value*"
+            },
+            {
+              "name": "argsCount",
+              "type": "System.Int32"
+            },
+            {
+              "name": "methodIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "refCount",
+              "type": "System.Int32"
+            },
+            {
+              "name": "topWriteBack",
+              "type": "IFix.Core.Value**"
+            }
+          ],
+          "return_type": "IFix.Core.Value*"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "VirtualMachine",
+      "namespace": "IFix.Core",
+      "type_token": 33554467
+    },
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateDelegate",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Type"
+            },
+            {
+              "name": "id",
+              "type": "System.Int32"
+            },
+            {
+              "name": "anon",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Delegate"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateBridge",
+          "parameters": [
+            {
+              "name": "fieldNum",
+              "type": "System.Int32"
+            },
+            {
+              "name": "fieldTypes",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "typeIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vTable",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "slots",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            }
+          ],
+          "return_type": "IFix.Core.AnonymousStorey"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateWrapper",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitWrapperArray",
+          "parameters": [
+            {
+              "name": "len",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Object"
+        }
+      ],
+      "name": "WrappersManager",
+      "namespace": "IFix.Core",
+      "type_token": 33554469
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "IFix.Core.dll"
+}

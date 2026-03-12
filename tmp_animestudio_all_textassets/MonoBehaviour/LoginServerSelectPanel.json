@@ -1,0 +1,40 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7197094628152504921
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 8846800186387232184
+  },
+  "m_Name": "",
+  "_btnBack": {
+    "m_FileID": 0,
+    "m_PathID": 419613676518306393
+  },
+  "_btnConfirm": {
+    "m_FileID": 0,
+    "m_PathID": 7425737955147117145
+  },
+  "_showAnim": {
+    "m_FileID": 0,
+    "m_PathID": -6188480720315878823
+  },
+  "_showList": {
+    "m_FileID": 0,
+    "m_PathID": 74750474347278937
+  },
+  "_naviGroup": {
+    "m_FileID": 0,
+    "m_PathID": -4106412764301954471
+  },
+  "_bindingGroup": {
+    "m_FileID": 0,
+    "m_PathID": -3994621692204748199
+  },
+  "_rootPanelBindingGroup": {
+    "m_FileID": 0,
+    "m_PathID": -309671225598348711
+  }
+}

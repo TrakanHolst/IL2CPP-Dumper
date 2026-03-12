@@ -1,0 +1,1228 @@
+﻿Key,Module,Translation
+app.description,app,明日方舟：终末地的高级工具和实用程序，包括工厂规划器、招募模拟器、角色规划器、角色展示和社区计划。
+app.title,app,EndfieldTools.DEV - 明日方舟：终末地工具与实用程序
+ascension.add_character,ascension,添加角色
+ascension.add_character_desc,ascension,规划等级和技能升级
+ascension.add_weapon,ascension,添加武器
+ascension.add_weapon_desc,ascension,规划突破升级
+ascension.category_breakthrough_char,ascension,角色突破
+ascension.category_breakthrough_weapon,ascension,武器突破
+ascension.category_exp,ascension,经验
+ascension.category_exp_char,ascension,角色经验
+ascension.category_exp_weapon,ascension,武器经验
+ascension.category_gold,ascension,金币
+ascension.category_plant,ascension,植物材料
+ascension.category_skill_crown,ascension,技能皇冠
+ascension.category_skill_level,ascension,技能升级
+ascension.category_skill_specialize,ascension,技能专精
+ascension.clear_all,ascension,清除全部
+ascension.deficit,ascension,缺少
+ascension.description,ascension,规划你的角色和武器升级。追踪材料并管理你的库存。
+ascension.farming_list,ascension,刷取清单
+ascension.from_level,ascension,起始等级
+ascension.include_skills,ascension,包含技能
+ascension.inventory,ascension,背包
+ascension.inventory_hint,ascension,使用Tab或Enter键在输入框之间切换
+ascension.inventory_search,ascension,搜索材料...
+ascension.inventory_title,ascension,材料背包
+ascension.keep_in_inventory,ascension,保留在背包中
+ascension.level_range,ascension,等级范围
+ascension.levels,ascension,等级
+ascension.materials_needed,ascension,需要
+ascension.materials_required,ascension,所需材料
+ascension.no_items,ascension,尚未添加角色或武器
+ascension.no_items_found,ascension,未找到物品
+ascension.no_items_hint,ascension,点击上方按钮开始规划你的升级
+ascension.no_materials,ascension,无需材料
+ascension.no_materials_allocated,ascension,背包中没有分配任何材料。
+ascension.owned,ascension,拥有
+ascension.planner,ascension,规划
+ascension.priority,ascension,优先级
+ascension.priority_mode,ascension,切换优先级排序
+ascension.remove,ascension,移除
+ascension.remove_and_delete,ascension,移除并删除
+ascension.remove_confirm_message,ascension,以下材料已分配给 {name}：
+ascension.remove_confirm_title,ascension,从背包中移除？
+ascension.select_character,ascension,选择角色
+ascension.select_weapon,ascension,选择武器
+ascension.skill_from_level,ascension,
+ascension.skill_level,ascension,技能等级
+ascension.skill_to_level,ascension,
+ascension.skills,ascension,技能
+ascension.talents,ascension,天赋
+ascension.title,ascension,突破规划器
+ascension.to_level,ascension,目标等级
+ascension.total_exp,ascension,总计
+ascension.total_items,ascension,总计：{count} 个物品
+ascension.welcome_description,ascension,将角色和武器添加到列表中规划升级。追踪所需材料并监控进度。
+ascension.welcome_title,ascension,欢迎使用升级规划器
+auth.login,auth,登录
+auth.logout,auth,登出
+auth.setup_username,auth,欢迎！请设置您的用户名。
+auth.signup,auth,注册
+auth.welcome_back,auth,欢迎回来，{username}！
+buildings.sub_automation_core,buildings,子自动化核心
+buildings.sub_automation_core.desc,buildings,将不同物品路由到每个输出端口。所有输入均被消耗。
+builds.add_alt_weapon,builds,替代
+builds.add_alternative,builds,添加备选
+builds.add_character,builds,添加角色
+builds.add_recommended_partner,builds,
+builds.all_time,builds,全部时间
+builds.alt_label_placeholder,builds,替代
+builds.alternative,builds,备选
+builds.alternative_equipment,builds,备选装备
+builds.alternative_label_placeholder,builds,标签 (如平民方案、后期)
+builds.alternative_reason_placeholder,builds,为什么这是备选方案？
+builds.apply_filters,builds,应用筛选
+builds.auto_saved,builds,已自动保存
+builds.back_to_character,builds,返回配置列表
+builds.back_to_list,builds,返回列表
+builds.be_first_character,builds,成为第一个分享该角色配置的人！
+builds.be_first_to_share,builds,成为第一个与社区分享配置的玩家！
+builds.browse_builds,builds,浏览配置
+builds.browse_character_builds,builds,浏览该角色的社区配置
+builds.build,builds,配置
+builds.build_character,builds,角色配置
+builds.build_description,builds,配置指南
+builds.build_name,builds,配置名称
+builds.build_team,builds,组建队伍
+builds.by,builds,作者
+builds.change_alt_weapon,builds,更换替代武器
+builds.change_character,builds,更换角色
+builds.character_desc,builds,选择此配置的主角色
+builds.character_level,builds,等级
+builds.character_not_found,builds,未找到角色
+builds.character_not_found_desc,builds,未找到该角色。
+builds.characters,builds,角色
+builds.clear_draft,builds,清除草稿
+builds.clear_filters,builds,清除筛选
+builds.click_to_add_partners,builds,
+builds.comments,builds,评论
+builds.comments_count,builds,评论
+builds.confirm_delete,builds,确定要删除此配置吗？此操作无法撤销。
+builds.copied,builds,已复制!
+builds.copy_to_clipboard,builds,复制到剪贴板
+builds.counted_in_calculations,builds,已计入属性
+builds.create_and_share,builds,创建并分享配置
+builds.create_build,builds,创建配置
+builds.create_character,builds,创建角色配置
+builds.create_first,builds,创建首个配置
+builds.create_new,builds,创建新配置
+builds.create_team,builds,创建团队配置
+builds.create_your_own,builds,创建你的配装!
+builds.delete_success,builds,配置删除成功
+builds.description,builds,创建并与社区分享角色配置
+builds.edit_mode,builds,编辑
+builds.edit_reason,builds,编辑原因
+builds.equipment,builds,装备
+builds.equipment_body,builds,躯体
+builds.equipment_bonuses,builds,装备加成
+builds.equipment_edc,builds,配件
+builds.equipment_hand,builds,手部
+builds.equipment_medical,builds,医疗
+builds.equipment_medical_coming_soon,builds,医疗物品即将推出
+builds.equipment_reason_placeholder,builds,为什么选择这套装备？
+builds.error_delete,builds,删除配置失败
+builds.error_load_build,builds,加载配置失败
+builds.error_loading,builds,加载配置失败
+builds.error_name_required,builds,配置名称为必填项
+builds.error_no_main_character,builds,请选择主角色
+builds.error_title,builds,配置未找到
+builds.error_toggle,builds,切换可见性失败
+builds.explain_why,builds,说明原因
+builds.export_build,builds,导出配置
+builds.filter_by_character,builds,主角色
+builds.filter_by_element,builds,元素类型
+builds.filter_by_partner,builds,队友
+builds.filter_by_set,builds,装备套装
+builds.filter_by_tag,builds,标签
+builds.filter_by_weapon,builds,武器
+builds.filter_character,builds,角色
+builds.filter_has_video,builds,有视频指南
+builds.filter_weapon,builds,武器类型
+builds.filters,builds,筛选
+builds.guide,builds,配置指南
+builds.hide_section,builds,隐藏此部分
+builds.hide_stats,builds,隐藏属性
+builds.import_build,builds,导入配置
+builds.import_error,builds,无效的配置数据，请检查JSON格式。
+builds.import_export,builds,导入/导出配置
+builds.import_placeholder,builds,粘贴配置JSON以导入...
+builds.import_success,builds,配置导入成功!
+builds.latest_builds,builds,最新配置
+builds.liked_builds,builds,喜欢的配置
+builds.likes,builds,点赞
+builds.link_copied,builds,链接已复制！
+builds.loading_builds,builds,正在加载配置...
+builds.login_required,builds,需要登录才能保存配置
+builds.main_equipment,builds,主装备
+builds.make_public,builds,设为公开
+builds.manage_builds,builds,管理配置
+builds.max_2_tags,builds,最多2个
+builds.max_partners_reached,builds,
+builds.most_liked,builds,最多点赞
+builds.most_popular,builds,最热门
+builds.my_builds,builds,我的配置
+builds.no_build_specified,builds,未指定配置
+builds.no_build_specified_desc,builds,请选择要查看的配置。
+builds.no_builds_character,builds,暂无配置
+builds.no_builds_period,builds,该时间段内暂无配置。
+builds.no_builds_yet,builds,你还没有创建任何配置
+builds.no_character_selected,builds,未选择角色
+builds.no_community_builds,builds,暂无社区配置
+builds.no_description,builds,暂无描述
+builds.no_equipment_selected,builds,未选择装备
+builds.no_liked_builds,builds,你还没有喜欢的配置
+builds.no_notes,builds,暂无备注
+builds.no_results,builds,未找到配置
+builds.no_results_desc,builds,没有符合当前筛选条件的配置。请尝试调整筛选条件或浏览下方的热门配置。
+builds.no_weapon,builds,未选择武器
+builds.not_found,builds,配置未找到或你没有查看权限
+builds.not_found_desc,builds,你查找的配置不存在或已被删除。
+builds.notes,builds,备注
+builds.nothing_recommended,builds,无推荐
+builds.other_recommended_partners,builds,
+builds.partner,builds,队友
+builds.partners_explanation_placeholder,builds,
+builds.popular_this_week,builds,本周热门配置
+builds.preview,builds,预览
+builds.preview_note,builds,这是你的配置在其他人看来的预览
+builds.private,builds,私密
+builds.public,builds,公开
+builds.publish,builds,发布
+builds.recommended_partners_help,builds,
+builds.remove_alternative,builds,移除备选
+builds.remove_character,builds,移除
+builds.remove_to_add_more,builds,
+builds.reset_filters,builds,重置筛选
+builds.results_for,builds,搜索结果
+builds.role,builds,定位
+builds.save_build,builds,保存配置
+builds.save_error,builds,保存配置失败，请重试。
+builds.save_requirements,builds,需要配置名称和至少一个角色
+builds.save_success,builds,配置保存成功！
+builds.saving,builds,保存中...
+builds.search_equipment,builds,按套装名称、属性或效果搜索...
+builds.search_placeholder,builds,搜索配置...
+builds.search_results,builds,搜索结果
+builds.select_equipment,builds,选择装备
+builds.select_partner_to_recommend,builds,
+builds.select_weapon,builds,选择武器
+builds.selected_partners,builds,
+builds.set_bonuses,builds,套装效果
+builds.share_with_community,builds,与社区分享你的策略
+builds.short_description,builds,简短描述
+builds.show_stats,builds,显示属性
+builds.single_build,builds,单人配置
+builds.single_char,builds,单个角色
+builds.single_mode,builds,单角色
+builds.skill_priority,builds,技能优先级
+builds.skill_priority_reason_placeholder,builds,为什么选择这个升级顺序？
+builds.skill_type_combo,builds,连携
+builds.skill_type_normal,builds,普攻
+builds.skill_type_ultimate,builds,终结
+builds.skill_upgrade_priority,builds,技能升级优先级
+builds.skills,builds,技能
+builds.solo_build,builds,单人配置
+builds.sort_by,builds,排序方式
+builds.sort_latest,builds,最新
+builds.sort_popular,builds,热门
+builds.subtitle,builds,浏览和分享队伍配置
+builds.tag_boss,builds,Boss战
+builds.tag_early_game,builds,前期
+builds.tag_f2p_friendly,builds,平民友好
+builds.tag_farming,builds,刷本
+builds.tag_help,builds,选择最多2个标签帮助玩家找到你的配置
+builds.tag_late_game,builds,后期
+builds.tag_mid_game,builds,中期
+builds.tag_not_f2p_friendly,builds,非平民
+builds.tags,builds,标签
+builds.team_build,builds,团队配置
+builds.team_desc,builds,创建最多4名角色的团队
+builds.team_mode,builds,队伍（最多4人）
+builds.team_role_placeholder,builds,定位 (如主C、辅助)
+builds.team_role_reason_placeholder,builds,为什么这个角色担任此定位？
+builds.this_month,builds,本月
+builds.this_week,builds,本周
+builds.title,builds,社区配置
+builds.try_different_filters,builds,尝试调整筛选条件或搜索词以找到更多配置。
+builds.unnamed,builds,未命名配置
+builds.unpublish,builds,取消发布
+builds.untitled,builds,未命名配置
+builds.up_to_4,builds,最多4个角色
+builds.update_build,builds,更新配置
+builds.update_success,builds,配置更新成功！
+builds.video,builds,视频
+builds.video_showcase,builds,视频展示
+builds.view_character_details,builds,查看角色详情
+builds.view_mode,builds,查看
+builds.views,builds,浏览
+builds.visibility_updated,builds,配置可见性已更新
+builds.watch_video,builds,观看视频
+builds.weapon,builds,武器
+builds.weapon_bonuses,builds,武器加成
+builds.weapon_label_placeholder,builds,毕业
+builds.weapon_not_found,builds,武器未找到
+builds.weapon_reason_placeholder,builds,为什么选择这把武器？
+builds.weapon_skills,builds,武器技能
+builds.weapons,builds,武器
+builds.why_these_partners,builds,
+builds.your_username,builds,你的用户名
+builds.youtube_video,builds,YouTube视频
+builds.youtube_video_hint,builds,添加展示配置的YouTube视频
+characters.all_elements,characters,所有元素
+characters.all_professions,characters,全部职业
+characters.all_rarities,characters,所有稀有度
+characters.aspd,characters,攻击速度
+characters.atk,characters,攻击力
+characters.battle_skills,characters,战斗技能
+characters.battle_tags,characters,战斗标签
+characters.breakthrough,characters,突破
+characters.breakthrough_details,characters,突破详情
+characters.browse_all,characters,浏览所有终末地角色
+characters.def,characters,防御力
+characters.department,characters,派系
+characters.discussion,characters,角色讨论
+characters.effect,characters,效果
+characters.element,characters,元素
+characters.exp_items_required,characters,经验物品
+characters.experience_calculator,characters,经验计算器
+characters.factory_skill_slot,characters,技能槽位 {slot}
+characters.factory_skills,characters,基建技能
+characters.from_level,characters,从
+characters.hp,characters,生命值
+characters.level_1,characters,等级 1
+characters.level_range,characters,等级范围
+characters.level_up_requirements,characters,升级要求
+characters.materials_required,characters,所需材料
+characters.max_level,characters,最大等级
+characters.no_factory_skills,characters,无基建技能
+characters.potential,characters,潜能
+characters.potential_level,characters,潜能 {level}
+characters.potential_passive,characters,潜能与被动
+characters.profession,characters,职业
+characters.profile_records,characters,档案记录
+characters.rarity,characters,稀有度
+characters.required_items,characters,所需材料
+characters.results,characters,找到角色
+characters.search,characters,搜索角色...
+characters.skill_type_combo,characters,连携技
+characters.skill_type_normal,characters,普通技能
+characters.skill_type_talent,characters,天赋
+characters.skill_type_ultimate,characters,终结技
+characters.stats_progression,characters,属性成长
+characters.talents,characters,天赋
+characters.title,characters,角色
+characters.to_level,characters,到
+characters.unlocks_at,characters,等级{level}解锁
+characters.voice_actors,characters,配音演员
+characters.voice_lines,characters,语音台词
+characters.weapon_type,characters,武器类型
+comments.auth_required_title,comments,需要身份验证
+comments.be_first,comments,成为第一个分享想法的人！
+comments.cancel,comments,取消
+comments.char_count,comments,{count} / {max}
+comments.days_ago,comments,{count}天前
+comments.delete,comments,删除
+comments.deleting,comments,正在删除...
+comments.edit,comments,编辑
+comments.edit_placeholder,comments,编辑你的评论...
+comments.edited,comments,（已编辑）
+comments.error_delete_failed,comments,评论删除失败，请重试。
+comments.error_empty,comments,评论不能为空。
+comments.error_invalid_content,comments,你的评论包含无效字符或HTML标签，请仅使用纯文本。
+comments.error_post_failed,comments,评论发布失败，请重试。
+comments.error_too_long,comments,评论过长（最多 {max} 个字符）。
+comments.error_update_failed,comments,评论更新失败，请重试。
+comments.formatting_guide,comments,格式指南
+comments.hide_replies,comments,隐藏 {count} 条回复
+comments.hours_ago,comments,{count}小时前
+comments.join_discussion,comments,加入讨论...
+comments.just_now,comments,刚刚
+comments.load_more,comments,加载更多评论
+comments.loading,comments,正在加载评论...
+comments.loading_replies,comments,正在加载回复...
+comments.login_link,comments,登录
+comments.login_required,comments,请登录以发表评论。
+comments.mention_keyboard_hint,comments,↑↓ 导航 • Enter 选择 • Esc 关闭
+comments.mention_no_users,comments,未找到用户
+comments.mention_searching,comments,正在搜索用户...
+comments.minutes_ago,comments,{count}分钟前
+comments.no_comments,comments,暂无评论
+comments.placeholder,comments,分享你的想法...
+comments.post_comment,comments,发表评论
+comments.post_reply,comments,发表回复
+comments.posting,comments,正在发布...
+comments.reply,comments,回复
+comments.reply_placeholder,comments,写一条回复...
+comments.replying_to,comments,回复
+comments.save_changes,comments,保存更改
+comments.show_replies,comments,显示 {count} 条回复
+comments.success_deleted,comments,评论删除成功！
+comments.success_posted,comments,评论发布成功！
+comments.success_reply_posted,comments,回复发布成功！
+comments.success_updated,comments,评论更新成功！
+comments.title,comments,评论
+comments.warning_auth_required,comments,请登录以发表评论。
+common.all_time,common,全部时间
+common.back,common,返回
+common.cancel,common,取消
+common.clear,common,清除
+common.close,common,关闭
+common.coming_soon,common,即将推出...
+common.confirm,common,确认
+common.copied,common,已复制!
+common.copy,common,复制
+common.copy_link,common,复制链接
+common.delete,common,删除
+common.edit,common,编辑
+common.error,common,错误
+common.exp_required,common,所需经验
+common.filters,common,筛选
+common.frequently_asked_questions,common,常见问题
+common.gold_cost,common,金币消耗
+common.last_updated,common,最后更新
+common.latest,common,最新
+common.level,common,等级
+common.loading,common,加载中...
+common.no_data_yet,common,暂无数据
+common.no_results,common,未找到结果
+common.optional,common,可选
+common.popular,common,热门
+common.quick_navigation,common,快速导航
+common.related_characters,common,相关角色
+common.related_weapons,common,相关武器
+common.reset,common,重置
+common.save,common,保存
+common.saving,common,保存中...
+common.search,common,搜索
+common.search_results,common,搜索结果
+common.show_less,common,收起
+common.show_more,common,展开更多
+common.sort_by,common,排序
+common.success,common,成功
+common.this_month,common,本月
+common.this_week,common,本周
+common.view,common,查看
+custom.conveyor_merger.desc,custom,将最多3条传送带合并为1条输出。无需电力。
+custom.conveyor_merger.name,custom,传送带合并器
+equipment.additional_stats,equipment,附加属性
+equipment.all_parts,equipment,所有部位
+equipment.all_stages,equipment,所有阶段
+equipment.all_tiers,equipment,所有阶级
+equipment.attr.AllDamageTakenScalar,equipment,全伤害减免
+equipment.attr.AllSkillDamageIncrease,equipment,全技能伤害
+equipment.attr.CrystAndPulseDamageIncrease,equipment,凝冰&雷电伤害
+equipment.attr.FireAndNaturalDamageIncrease,equipment,烈焰&草木伤害
+equipment.attr.Main,equipment,主属性
+equipment.attr.SpellDamageIncrease,equipment,源石技艺伤害
+equipment.attr.Sub,equipment,副属性
+equipment.base_stats,equipment,基础属性
+equipment.best_for_characters,equipment,最适合的角色
+equipment.best_sets,equipment,最佳装备套装
+equipment.browse_all,equipment,浏览所有装备套装
+equipment.community_rating,equipment,社区评分
+equipment.early_game,equipment,前期（Lv10-28）
+equipment.equipment_details,equipment,装备详情
+equipment.equipment_pieces,equipment,装备部件
+equipment.filter_by_part,equipment,按部位类型筛选
+equipment.filter_by_stage,equipment,按游戏阶段筛选
+equipment.filter_by_tier,equipment,按阶级筛选
+equipment.game_stage,equipment,游戏阶段
+equipment.late_game,equipment,后期（Lv70）
+equipment.level_requirement,equipment,需要等级 {level}
+equipment.loading,equipment,正在加载装备数据...
+equipment.main_stat,equipment,主属性
+equipment.mid_game,equipment,中期（Lv36-50）
+equipment.most_liked,equipment,最受好评
+equipment.no_set_bonus,equipment,散件装备，无套装效果
+equipment.no_sets_found,equipment,未找到装备套装
+equipment.no_standalone_found,equipment,未找到散件装备
+equipment.no_stats,equipment,暂无属性数据
+equipment.part_body,equipment,躯干
+equipment.part_edc,equipment,EDC
+equipment.part_hand,equipment,手部
+equipment.part_of_set,equipment,属于 {setName}
+equipment.part_type,equipment,部位类型
+equipment.rate_this_set,equipment,为此套装评分
+equipment.recommended_for,equipment,推荐给 {characterName}
+equipment.related_sets,equipment,相关套装
+equipment.results,equipment,个套装
+equipment.search,equipment,搜索装备套装...
+equipment.select_character,equipment,选择角色...
+equipment.set_bonus,equipment,{count}件套效果
+equipment.set_effects,equipment,套装效果
+equipment.sort_by,equipment,排序方式
+equipment.sort_name,equipment,名称
+equipment.sort_pieces,equipment,总件数
+equipment.sort_tier,equipment,阶级
+equipment.standalone,equipment,独立装备
+equipment.standalone_equipment,equipment,散件装备
+equipment.standalone_results,equipment,件
+equipment.stats,equipment,属性
+equipment.sub_stats,equipment,副属性
+equipment.tier,equipment,阶级
+equipment.tier_0,equipment,阶级 0
+equipment.tier_1,equipment,阶级 1
+equipment.tier_2,equipment,阶级 2
+equipment.tier_3,equipment,阶级 3
+equipment.tier_4,equipment,阶级 4
+equipment.tier_pieces,equipment,阶级 {tier} 部件
+equipment.title,equipment,装备套装
+equipment.total_pieces,equipment,{count} 件
+equipment.view_all_sets,equipment,查看所有装备套装
+equipment.view_set_details,equipment,查看套装详情
+essence_solver.compatible,essence_solver,Compatible
+essence_solver.farm_locations,essence_solver,Farm at
+essence_solver.filter_by_dungeon,essence_solver,Filter by Dungeon
+essence_solver.filter_by_rarity,essence_solver,Filter by Rarity
+essence_solver.matches,essence_solver,Matches
+essence_solver.missing,essence_solver,Missing
+essence_solver.no_results,essence_solver,No essences match the current filters
+essence_solver.recommended_essences,essence_solver,Recommended Essences
+essence_solver.select_weapon,essence_solver,Select a Weapon
+essence_solver.stats,essence_solver,Stats
+essence_solver.title,essence_solver,Weapon Essence Solver
+factory.actual,factory,实际值
+factory.all_items_production_overview,factory,所有物品生产概览
+factory.balanced,factory,平衡
+factory.bottlenecks_detected,factory,检测到瓶颈
+factory.browse_blueprints,factory,浏览蓝图
+factory.buffer_bottlenecks,factory,缓冲区瓶颈
+factory.buffer_capacity,factory,容量
+factory.build,factory,建造
+factory.building_count,factory,建筑
+factory.building_menu,factory,建筑菜单
+factory.buildings,factory,建筑
+factory.clear,factory,清除
+factory.click_product_tabs_for_details,factory,点击上方产品标签查看详细生产链分析
+factory.click_to_set,factory,点击设置
+factory.community_blueprints,factory,AIC工厂蓝图
+factory.community_blueprints_subtitle,factory,浏览和分享社区工厂蓝图
+factory.configure,factory,配置
+factory.configure_output,factory,配置输出
+factory.confirm_delete_plan,factory,确定要删除此方案吗？
+factory.connection_graph,factory,连接图
+factory.consumed,factory,消耗/分钟
+factory.consumed_by,factory,消费者
+factory.conveyor_connection_errors,factory,传送带连接错误
+factory.conveyor_menu,factory,传送带菜单
+factory.conveyor_saturation,factory,传送带饱和
+factory.conveyors,factory,传送带
+factory.cookbook,factory,配方手册
+factory.cookbook_all_description,factory,浏览游戏数据中所有可制作的物品
+factory.cookbook_alternative_recipes,factory,替代配方
+factory.cookbook_back_to_search,factory,返回搜索
+factory.cookbook_crafted_item,factory,制成品
+factory.cookbook_filter_factory,factory,仅显示当前工厂可制作的物品
+factory.cookbook_filtered_description,factory,仅显示当前工厂建筑可制作的物品
+factory.cookbook_machine_required,factory,所需机器
+factory.cookbook_no_factory_items,factory,当前工厂建筑无法制作任何物品
+factory.cookbook_no_items,factory,未找到可制作的物品
+factory.cookbook_no_recipes,factory,此物品无可用配方
+factory.cookbook_production_chain,factory,生产链
+factory.cookbook_raw_material,factory,原材料
+factory.cookbook_select_item,factory,选择一个物品查看其生产链
+factory.cookbook_selected_item,factory,已选物品
+factory.cookbook_show_all,factory,显示所有物品
+factory.cookbook_theoretical_rate,factory,理论最大速率
+factory.cookbook_title,factory,配方手册
+factory.copy,factory,复制
+factory.copy_to_clipboard,factory,复制到剪贴板
+factory.craft_time,factory,制作时间
+factory.create_blueprint,factory,创建蓝图
+factory.create_first,factory,创建第一个蓝图
+factory.create_new_save,factory,创建新存档
+factory.current_file,factory,当前文件
+factory.current_tool,factory,工具
+factory.cycles_per_min,factory,循环/分钟
+factory.cycles_per_minute,factory,循环/分钟
+factory.deficit,factory,赤字
+factory.delete,factory,删除
+factory.delete_building,factory,删除建筑
+factory.depth_level,factory,Lv {level}
+factory.description,factory,描述
+factory.description_placeholder,factory,简短描述...
+factory.destination,factory,目的地
+factory.detailed_producer_analysis,factory,详细生产者分析
+factory.download_png,factory,下载 PNG
+factory.edit_save,factory,编辑存档
+factory.efficiency,factory,效率
+factory.enter_save_name,factory,输入存档名称...
+factory.error_deleting_plan,factory,删除方案失败。
+factory.error_loading_plan,factory,加载方案失败。
+factory.error_loading_plans,factory,加载存档失败。
+factory.error_output_mismatch,factory,输出与目标输入不匹配
+factory.error_saving_plan,factory,保存方案失败。
+factory.error_updating_plan,factory,更新方案失败。
+factory.export_import,factory,导出 / 导入
+factory.export_import_hint,factory,将工厂导出为JSON文件以分享或备份，或导入之前导出的文件。
+factory.export_json,factory,导出
+factory.filter_by_building,factory,建筑类型
+factory.filter_by_output,factory,输出物品
+factory.filter_by_stage,factory,游戏阶段
+factory.filter_by_tags,factory,标签
+factory.final_product,factory,最终产品
+factory.final_products,factory,最终产品
+factory.final_products_summary,factory,最终产品摘要
+factory.fix_conveyor_error,factory,更改配方或重新连接传送带以匹配输入
+factory.focus,factory,聚焦
+factory.from_connected_recipe,factory,来自连接的配方
+factory.graph_view,factory,连接图
+factory.grid_bounds,factory,网格边界
+factory.grid_bounds_desc,factory,"定义工厂网格的大小（以0,0为中心）。建筑和传送带不能放置在这些限制之外。"
+factory.grid_height,factory,网格高度（单元格）
+factory.grid_range,factory,网格范围
+factory.grid_width,factory,网格宽度（单元格）
+factory.import_json,factory,导入
+factory.input_buffer,factory,输入缓冲
+factory.inputs,factory,输入
+factory.item,factory,物品
+factory.item_category.components,factory,组件
+factory.item_category.consumables,factory,消耗品
+factory.item_category.equipment,factory,装备
+factory.item_category.featured,factory,推荐
+factory.item_category.liquids,factory,液体
+factory.item_category.other,factory,其他
+factory.item_category.processed,factory,加工材料
+factory.item_category.raw_materials,factory,原材料
+factory.items_in_transit,factory,传输中
+factory.live_updates,factory,实时（1秒）
+factory.load,factory,加载
+factory.loading_items,factory,加载物品中...
+factory.local_saves,factory,本地
+factory.login_for_online,factory,登录以在线保存工厂
+factory.login_required,factory,请登录以在线保存。
+factory.machine,factory,机器
+factory.make_private,factory,设为私密
+factory.make_public,factory,设为公开
+factory.menu.build_mode,factory,建造模式
+factory.menu.clear_grid,factory,清除网格
+factory.menu.edit,factory,编辑
+factory.menu.export_json,factory,导出JSON
+factory.menu.file,factory,文件
+factory.menu.graph_view,factory,图形视图
+factory.menu.import_json,factory,导入JSON
+factory.menu.new_grid,factory,新建网格
+factory.menu.pan_mode,factory,平移模式
+factory.menu.production_stats,factory,生产统计
+factory.menu.reset_simulator,factory,
+factory.menu.title,factory,菜单
+factory.menu.tools,factory,工具
+factory.menu.view,factory,视图
+factory.menu.zoom_fit,factory,自适应缩放
+factory.merge_inputs,factory,输入
+factory.merge_mixed_items,factory,多种物品类型合并中
+factory.merge_preview,factory,松开以合并
+factory.merge_saturated,factory,合并已饱和
+factory.merge_total_rate,factory,总速率
+factory.merged_conveyor,factory,合并传送带
+factory.most_liked,factory,最多点赞
+factory.most_popular,factory,最受欢迎
+factory.move,factory,移动
+factory.move_building,factory,移动建筑
+factory.multi_producer_excess,factory,多生产者过剩
+factory.my_blueprints,factory,我的蓝图
+factory.name_required,factory,请输入存档名称。
+factory.net,factory,净值/分钟
+factory.new_online_save,factory,新建在线存档
+factory.new_save,factory,新存档
+factory.no_blueprints,factory,暂无蓝图
+factory.no_file_loaded,factory,未加载文件。创建新存档或加载现有存档。
+factory.no_online_saves,factory,暂无在线存档
+factory.no_output_selected,factory,未选择输出
+factory.no_production_data,factory,无生产数据可用。为建筑分配配方以查看统计信息。
+factory.no_recipe,factory,无配方
+factory.no_recipes_available,factory,此建筑无可用配方
+factory.no_recipes_produce_item,factory,找不到生产此物品的配方。此物品可能需要导入或手动创建。
+factory.no_saved_games,factory,暂无存档
+factory.not_configured,factory,未配置
+factory.notifications.auto_loaded,factory,自动加载：{name}
+factory.notifications.cannot_place_building,factory,无法在此处放置建筑 - 位置被其他建筑或传送带阻挡
+factory.notifications.cannot_place_control_point,factory,无法在此处放置控制点 - 没有有效路径
+factory.notifications.confirm_delete,factory,"删除存档 ""{name}""？此操作无法撤销。"
+factory.notifications.confirm_import,factory,是否导入此工厂？未保存的更改将丢失。
+factory.notifications.confirm_load,factory,"加载 ""{name}""？"
+factory.notifications.confirm_load_with_current,factory,"加载 ""{name}""？任何未保存的更改将丢失。"
+factory.notifications.conveyor_error,factory,重新计算传送带时出错。建筑已旋转，但传送带可能需要手动重新连接。
+factory.notifications.created_new_save,factory,"创建新存档 ""{name}"""
+factory.notifications.exported_json,factory,工厂已导出为JSON文件
+factory.notifications.failed_to_delete,factory,删除存档失败
+factory.notifications.failed_to_export,factory,导出工厂失败
+factory.notifications.failed_to_import,factory,导入工厂失败
+factory.notifications.failed_to_load,factory,加载游戏失败
+factory.notifications.failed_to_read_file,factory,读取文件失败
+factory.notifications.failed_to_rotate,factory,旋转建筑失败
+factory.notifications.failed_to_save,factory,保存游戏失败
+factory.notifications.imported_json,factory,工厂导入成功
+factory.notifications.loaded,factory,"已加载 ""{name}"""
+factory.notifications.new_grid_created,factory,已创建新网格并带有子自动化核心
+factory.notifications.output_cleared,factory,输出物品已清除
+factory.notifications.output_selected,factory,已选择输出物品：{item}
+factory.notifications.please_enter_name,factory,请输入存档名称
+factory.notifications.recipe_assigned,factory,已分配配方：{recipe}
+factory.notifications.recipe_cleared,factory,配方已清除
+factory.notifications.save_deleted,factory,存档已删除
+factory.notifications.saved_as,factory,"已保存为 ""{name}"""
+factory.notifications.saved_to,factory,"已保存到 ""{name}"""
+factory.online_benefits,factory,从任何设备访问存档并与社区分享
+factory.online_saves,factory,在线
+factory.output,factory,输出
+factory.output_buffer,factory,输出缓冲
+factory.output_conveyors,factory,输出传送带
+factory.output_item,factory,输出物品
+factory.outputs,factory,输出
+factory.overview,factory,概览
+factory.pan,factory,平移
+factory.per_minute,factory,每分钟
+factory.place_building,factory,放置建筑
+factory.plan_deleted,factory,方案删除成功！
+factory.plan_loaded,factory,方案加载成功！
+factory.plan_saved,factory,方案保存成功！
+factory.plan_updated,factory,方案更新成功！
+factory.planner.feature_buildings_desc,factory,访问所有工厂建筑，包含详细信息、配方和生产统计数据
+factory.planner.feature_buildings_title,factory,建筑库
+factory.planner.feature_community_desc,factory,浏览和学习其他玩家分享的工厂布局（即将推出）
+factory.planner.feature_community_title,factory,社区计划
+factory.planner.feature_conveyors_desc,factory,使用智能传送带路由连接建筑物，可检测错误并提供修复建议
+factory.planner.feature_conveyors_title,factory,智能传送带
+factory.planner.feature_grid_desc,factory,在可自定义的网格上放置建筑物和传送带，支持完整的平移和缩放
+factory.planner.feature_grid_title,factory,交互式网格
+factory.planner.feature_save_desc,factory,在本地保存您的工厂布局并与社区分享
+factory.planner.feature_save_title,factory,保存和加载
+factory.planner.feature_stats_desc,factory,实时生产统计、瓶颈检测和优化建议
+factory.planner.feature_stats_title,factory,生产分析
+factory.planner.features_subtitle,factory,规划完美AIC工厂所需的一切
+factory.planner.features_title,factory,功能
+factory.planner.report_issues,factory,报告问题和想法
+factory.planner.start_planning,factory,开始规划
+factory.planner.subtitle,factory,使用交互式网格规划器设计和优化您的AIC（自动化工业综合体）工厂布局
+factory.planner.wip_message,factory,此工具仍在积极开发中。请在我们的Discord社区报告任何问题或分享您的想法！
+factory.planner.wip_title,factory,开发中
+factory.popular,factory,热门
+factory.port_config,factory,配置端口
+factory.port_config_hint,factory,点击输出端口分配物品。输入端口的物品将被消耗。
+factory.power,factory,电力
+factory.power_consumed,factory,电力消耗
+factory.power_warning,factory,电力不足！
+factory.produced,factory,生产/分钟
+factory.produced_by,factory,生产者
+factory.producing,factory,正在生产
+factory.production_chain,factory,生产链
+factory.production_depth,factory,生产深度
+factory.production_flow,factory,生产流程
+factory.production_flows,factory,生产流程
+factory.production_imbalance,factory,生产不平衡
+factory.production_rate,factory,生产速率
+factory.production_statistics,factory,生产统计
+factory.production_stats_note,factory,所有速率以每分钟显示。净值 = 生产 - 消耗。
+factory.production_summary,factory,摘要
+factory.raw_material,factory,原材料
+factory.raw_materials,factory,原材料
+factory.recipe,factory,配方
+factory.redo,factory,重做
+factory.requires,factory,需要
+factory.reset_view,factory,重置视图
+factory.rotate,factory,旋转
+factory.rotate_building,factory,旋转建筑
+factory.rotate_ccw,factory,逆时针旋转
+factory.rotate_cw,factory,顺时针旋转
+factory.save,factory,保存
+factory.save_name,factory,名称
+factory.save_online,factory,在线保存
+factory.saved_games,factory,已保存的游戏
+factory.select_building,factory,选择建筑
+factory.select_item,factory,选择物品...
+factory.select_output,factory,选择输出
+factory.select_recipe,factory,选择配方
+factory.set_output,factory,设置输出
+factory.set_recipe,factory,设置配方
+factory.settings,factory,设置
+factory.sim_fast,factory,快速 (2x)
+factory.sim_faster,factory,更快 (4x)
+factory.sim_normal,factory,正常 (1x)
+factory.sim_paused,factory,已暂停
+factory.sim_speed,factory,速度
+factory.state_clogged,factory,输出阻塞
+factory.state_idle,factory,未激活
+factory.state_producing,factory,生产中
+factory.state_unlinked,factory,无输入连接
+factory.state_waiting,factory,等待输入
+factory.status,factory,状态
+factory.suggestion_add_building,factory,添加一个带有这些配方之一的新建筑并将其连接到消费者
+factory.suggestions_to_fix_deficits,factory,修复赤字的建议
+factory.surplus,factory,盈余
+factory.theoretical,factory,理论值
+factory.thumbnail_preview,factory,预览
+factory.title,factory,工厂规划器
+factory.total_buildings,factory,活跃建筑
+factory.travel_time,factory,传输时间
+factory.undo,factory,撤销
+factory.unlimited,factory,无限
+factory.update_save,factory,更新存档
+factory.view_compact,factory,紧凑视图
+factory.view_grid,factory,网格视图
+factory.view_list,factory,列表视图
+factory.view_mode,factory,视图模式
+factory.visibility_private,factory,私密
+factory.visibility_private_desc,factory,仅自己可见
+factory.visibility_public,factory,公开
+factory.visibility_public_desc,factory,在社区蓝图中可见
+factory.your_online_saves,factory,您的在线存档
+factory.zoom_in,factory,放大
+factory.zoom_out,factory,缩小
+factory_plans.all_time,factory_plans,All Time
+factory_plans.back_to_browse,factory_plans,Back to All Blueprints
+factory_plans.be_first_to_share,factory_plans,Be the first to share a blueprint for
+factory_plans.blueprint_found,factory_plans,blueprint found
+factory_plans.blueprint_name,factory_plans,Blueprint Name
+factory_plans.blueprints_found,factory_plans,blueprints found
+factory_plans.browse_crafting_blueprints,factory_plans,Browse community factory blueprints for crafting
+factory_plans.buildings,factory_plans,Buildings
+factory_plans.buildings_used,factory_plans,Buildings Used
+factory_plans.by,factory_plans,by
+factory_plans.comments,factory_plans,Comments
+factory_plans.confirm_delete,factory_plans,Are you sure you want to delete
+factory_plans.create_blueprint,factory_plans,Create Blueprint
+factory_plans.create_first_blueprint,factory_plans,Create your first factory blueprint to share with the community!
+factory_plans.create_new,factory_plans,Create New
+factory_plans.delete_error,factory_plans,Failed to delete blueprint
+factory_plans.description,factory_plans,Browse and share community AIC factory blueprints for Arknights: Endfield
+factory_plans.description_label,factory_plans,Description
+factory_plans.full_description,factory_plans,Full Description
+factory_plans.full_description_hint,factory_plans,Detailed guide for your blueprint (optional)
+factory_plans.game_stage,factory_plans,Game Stage
+factory_plans.grid_size,factory_plans,Grid size
+factory_plans.how_to_craft,factory_plans,How to Craft
+factory_plans.ingame_code,factory_plans,In-Game Code
+factory_plans.ingame_code_hint,factory_plans,Optional: Your in-game factory sharing code
+factory_plans.ingame_code_label,factory_plans,In-Game Sharing Code
+factory_plans.ingame_region,factory_plans,Server Region
+factory_plans.inputs,factory_plans,Inputs
+factory_plans.latest,factory_plans,Latest
+factory_plans.load_in_planner,factory_plans,Load in Planner
+factory_plans.loading_blueprint,factory_plans,Loading blueprint...
+factory_plans.make_private,factory_plans,Make Private
+factory_plans.make_public,factory_plans,Make Public
+factory_plans.manage_your_blueprints,factory_plans,Manage your shared factory blueprints
+factory_plans.most_liked,factory_plans,Most Liked
+factory_plans.my_blueprints,factory_plans,My Blueprints
+factory_plans.net_power,factory_plans,Net Power
+factory_plans.no_blueprints,factory_plans,No Blueprints Yet
+factory_plans.no_blueprints_yet,factory_plans,No Blueprints Yet
+factory_plans.no_external_inputs,factory_plans,No external inputs required
+factory_plans.not_found,factory_plans,Blueprint Not Found
+factory_plans.not_found_desc,factory_plans,This blueprint may have been deleted or made private.
+factory_plans.open_planner,factory_plans,Open Factory Planner
+factory_plans.outputs,factory_plans,Outputs
+factory_plans.popular,factory_plans,Most Popular
+factory_plans.power_consumption,factory_plans,Consumption
+factory_plans.power_generation,factory_plans,Generation
+factory_plans.private,factory_plans,Private
+factory_plans.production,factory_plans,Production
+factory_plans.production_preview,factory_plans,Production Preview
+factory_plans.production_summary,factory_plans,Production Summary
+factory_plans.public,factory_plans,Public
+factory_plans.region,factory_plans,Region
+factory_plans.save_blueprint,factory_plans,Save Blueprint
+factory_plans.saving,factory_plans,Saving...
+factory_plans.search_placeholder,factory_plans,Search blueprints...
+factory_plans.share_blueprint,factory_plans,Share Blueprint
+factory_plans.share_description,factory_plans,Share your factory layout with the community
+factory_plans.short_description,factory_plans,Short Description
+factory_plans.short_description_hint,factory_plans,Brief description shown on cards (max 200 chars)
+factory_plans.sort_latest,factory_plans,Latest
+factory_plans.sort_popular,factory_plans,Popular
+factory_plans.tags,factory_plans,Tags
+factory_plans.tags_hint,factory_plans,Select up to 3 tags
+factory_plans.this_month,factory_plans,This Month
+factory_plans.this_week,factory_plans,This Week
+factory_plans.thumbnail_preview,factory_plans,Thumbnail Preview
+factory_plans.title,factory_plans,AIC Factory Blueprints
+factory_plans.toggle_error,factory_plans,Failed to update visibility
+factory_plans.total_buildings,factory_plans,Total buildings
+factory_plans.update_blueprint,factory_plans,Update Blueprint
+factory_plans.video_guide,factory_plans,Video Guide
+factory_plans.visibility,factory_plans,Visibility
+factory_plans.visibility_private,factory_plans,Private - Only you can see
+factory_plans.visibility_public,factory_plans,Public - Anyone can see
+factory_plans.youtube_url,factory_plans,YouTube Video URL
+factory_plans.youtube_url_hint,factory_plans,Optional video guide
+guides.features_title,guides,你将学到什么
+home.ascension_planner_desc,home,规划角色和武器升级，追踪材料
+home.browse_blueprints,home,Browse Community Blueprints
+home.character_builds,home,角色配装
+home.character_planner_desc,home,规划您的角色进度和资源
+home.character_showcase_desc,home,分享和发现来自社区的角色配置
+home.characters_desc,home,浏览所有终末地角色的完整详细信息和社区讨论
+home.check_out_tools,home,看看我的工具！
+home.codes.copied,home,已复制！
+home.codes.copy,home,复制代码
+home.codes.ends_in,home,结束于
+home.codes.expired,home,已过期
+home.codes.how_to_redeem,home,兑换方式：游戏内进入 [设置] > [平台与账号] > [兑换码]
+home.codes.no_expiration,home,永久有效
+home.codes.tap_to_copy,home,点击复制
+home.codes.title,home,兑换码
+home.coming_soon,home,即将推出
+home.community,home,社区
+home.community_builds_desc,home,分享和探索社区角色构建
+home.community_plans_desc,home,与社区分享和探索工厂计划
+home.equipment_desc,home,探索装备套装及其奖励
+home.essences_desc,home,发现武器精华及其效果
+home.events.ended,home,已结束
+home.events.ends_in,home,结束于
+home.events.left,home,剩余
+home.events.not_confirmed,home,未确认
+home.events.starts_in,home,开始于
+home.events.title,home,活动
+home.factory_blueprints,home,AIC Factory Blueprints
+home.factory_blueprints_desc,home,Browse and share community AIC factory blueprints
+home.factory_planner_desc,home,轻松规划和优化您的工厂布局
+home.factory_short,home,
+home.factory_simulator,home,工厂模拟器
+home.fun_tools,home,趣味与模拟
+home.guides_desc,home,通过全面指南学习游戏机制和策略
+home.headhunt_tracker_desc,home,追踪您的招募次数和保底计数器
+home.interactive_map_desc,home,使用交互式地图探索世界
+home.login_register,home,登录 / 注册
+home.planner_desc,home,打开交互式工厂网格规划器
+home.planners,home,
+home.popular_builds,home,热门角色配装
+home.popular_builds_desc,home,发现社区中最受欢迎的角色配装
+home.simulators,home,
+home.site_description,home,为明日方舟：终末地玩家打造的最酷工具与实用程序合集。
+home.summon_simulator_desc,home,有趣的抽卡模拟器，附带运气排行榜！
+home.toolbox,home,工具箱
+home.toolbox_desc,home,探索我们的工具和实用程序集合
+home.tools,home,工具
+home.valley_iv_desc,home,探索Valley IV地区
+home.view_all,home,查看全部
+home.weapons_desc,home,探索所有武器类型及其属性
+home.welcome_to,home,欢迎来到
+home.wuling_desc,home,探索武陵地区
+home.your_profile,home,您的资料
+map.activate,map,激活
+map.amber_rice,map,琥珀米
+map.battles,map,战斗遭遇
+map.category_battles,map,战斗遭遇
+map.category_chests,map,宝箱
+map.category_collectibles,map,收藏品
+map.category_daily_instances,map,每日副本
+map.category_dungeons,map,地下城
+map.category_ether,map,以太资源
+map.category_factory,map,工厂点位
+map.category_mining_formations,map,矿脉
+map.category_mining_points,map,采矿点
+map.category_narrative,map,故事碎片
+map.category_other,map,其他兴趣点
+map.category_plants,map,植物材料
+map.category_rare_minerals,map,稀有矿物
+map.category_terminals,map,终端
+map.category_travel,map,快速旅行
+map.challenge,map,挑战
+map.challenge_entrance,map,挑战入口
+map.chest,map,宝箱
+map.chest_high_tier,map,高级宝箱
+map.chest_locked,map,上锁的宝箱
+map.chest_normal,map,普通宝箱
+map.clear_all,map,清除
+map.clear_search,map,清除搜索
+map.click_to_explore,map,点击探索
+map.close,map,关闭
+map.collectible,map,收集品
+map.collectibles,map,收集品
+map.communication_terminal,map,通讯终端
+map.coordinates,map,坐标
+map.daily_dungeon,map,每日副本
+map.dungeon,map,地下城
+map.dungeon_entrance,map,地下城入口
+map.dungeon_exit,map,地下城出口
+map.enemies,map,敌人
+map.enemy_encounter,map,敌人遭遇
+map.energy_point,map,能量点
+map.ether_recycle,map,
+map.fast_travel,map,快速旅行
+map.fast_travel_point,map,快速旅行点
+map.feature_battles_desc,map,地下城入口、挑战点和首领位置
+map.feature_battles_title,map,战斗遭遇
+map.feature_chests_desc,map,寻找并追踪所有宝箱位置 - 普通、上锁和高级宝箱
+map.feature_chests_title,map,宝箱
+map.feature_collectibles_desc,map,故事碎片、终端和收集点位置
+map.feature_collectibles_title,map,收藏品
+map.feature_filtering_desc,map,按类型、等级和区域筛选兴趣点
+map.feature_filtering_title,map,高级筛选
+map.feature_filters_desc,map,按类别筛选兴趣点，专注于特定资源或收集品。
+map.feature_filters_title,map,高级筛选
+map.feature_gathering_desc,map,发现植物采集点，包括蘑菇、花卉和其他植物资源。
+map.feature_gathering_title,map,采集点
+map.feature_mining_desc,map,矿石节点、矿脉和稀有矿物位置
+map.feature_mining_title,map,采矿点
+map.feature_poi_desc,map,探索所有兴趣点，包括传送点、终端、副本和故事碎片。
+map.feature_poi_title,map,兴趣点
+map.feature_tracking_desc,map,标记已收集的物品并追踪您在地图上的探索进度。
+map.feature_tracking_title,map,进度追踪
+map.feature_travel_desc,map,游戏内所有快速旅行点地图
+map.feature_travel_title,map,快速旅行
+map.features_subtitle,map,追踪所有重要位置
+map.features_title,map,探索每个角落
+map.filter,map,筛选与搜索
+map.filters,map,筛选
+map.glowbug,map,荧光虫
+map.hub_area,map,中心区域
+map.interactive_object,map,互动对象
+map.layer,map,图层
+map.layers,map,地图图层
+map.legend,map,图例
+map.level,map,关卡
+map.level_ranges,map,等级范围
+map.loading,map,正在加载地图数据...
+map.mark_arrow,map,标记箭头
+map.mark_fac_unlocker,map,工厂解锁器
+map.mechanism,map,机关
+map.mineral_copper,map,铜矿
+map.mineral_iron,map,铁矿
+map.mineral_originium,map,源石
+map.mineral_quartz,map,石英
+map.mineral_special_metal,map,特殊金属
+map.narrative_fragment,map,碎片
+map.no_results,map,未找到兴趣点
+map.poi_details,map,兴趣点详情
+map.poi_types,map,兴趣点类型
+map.pois_visible,map,个可见兴趣点
+map.rare_mineral,map,稀有矿物
+map.rare_prefix,map,稀有
+map.reading_terminal,map,阅读终端
+map.recommended_level,map,推荐等级
+map.redjade_ginseng,map,红玉参
+map.reed_rye,map,芦苇黑麦
+map.region,map,区域
+map.region_talos_ii,map,塔卫二
+map.region_valley_iv,map,四号谷地地图
+map.region_wuling,map,五陵地图
+map.report_issues,map,在 Discord 社区中报告问题和想法
+map.reset_view,map,重置视图
+map.rewards,map,奖励
+map.scorchbug,map,焦虫
+map.search_placeholder,map,搜索兴趣点...
+map.select_all,map,全部
+map.select_layer,map,选择图层
+map.select_region,map,选择区域
+map.show_all,map,显示全部
+map.special_locations,map,特殊地点
+map.terminal,map,终端
+map.title,map,互动地图
+map.travel_point,map,
+map.type,map,类型
+map.view_point,map,观景点
+map.warning_terminal,map,警告终端
+map.welcome_subtitle,map,探索明日方舟：终末地的终极伙伴。寻找所有宝箱、采矿点、收藏品和兴趣点。
+map.wip_message,map,互动地图正在开发中。加入我们的 Discord 社区报告问题或分享您的想法！
+map.wip_title,map,开发中
+map.zoom_in,map,放大
+map.zoom_out,map,缩小
+nav.achievement_tracker,nav,
+nav.achievement_tracker_short,nav,
+nav.ascension_planner,nav,突破规划器
+nav.character_planner,nav,角色规划器
+nav.character_showcase,nav,角色展示
+nav.characters,nav,角色
+nav.community_blueprints,nav,Community Blueprints
+nav.community_builds,nav,社区配置
+nav.community_plans,nav,社区计划
+nav.discord,nav,加入社区
+nav.factory_planner,nav,工厂规划器
+nav.guides,nav,指南
+nav.headhunt_short,nav,
+nav.headhunt_tracker,nav,招募追踪器
+nav.home,nav,主页
+nav.interactive_map,nav,互动地图
+nav.planner,nav,规划器
+nav.profile,nav,个人资料
+nav.recipes,nav,配方
+nav.summon_simulator,nav,招募模拟器
+nav.weapon_essence_solver,nav,Essence Solver
+nav.weapon_essences,nav,武器精华
+nav.weapons,nav,武器
+notification.deleted,notification,删除成功
+notification.error,notification,发生错误
+notification.loaded,notification,加载成功
+notification.saved,notification,保存成功
+reactions.authentication_required,reactions,需要身份验证
+reactions.dislike,reactions,踩
+reactions.like,reactions,点赞
+reactions.login_required,reactions,请登录以对此内容作出反应。
+summon.amazing_pull,summon,惊人的抽卡！您获得了{count}个六星！这可能是第一名！提交到排行榜？
+summon.amazing_pull_prompt,summon,惊人的抽卡！您获得了{count}个六星！要提交到排行榜吗？
+summon.animation_in_progress,summon,动画进行中...
+summon.auth_error,summon,身份验证错误。请重新登录。
+summon.average,summon,平均
+summon.average_joe,summon,普通人
+summon.average_rarity,summon,平均稀有度
+summon.average_title,summon,完美平衡，万物应如此。
+summon.base_six_star_rate,summon,基础6★概率：{rate}%
+summon.best_session,summon,最佳十连：
+summon.better_five_star,summon,更好的结果！您的{count}个五星超越了之前的最佳{previous}！提交到排行榜？
+summon.better_score,summon,更好的结果！您的得分{current}超越了之前的最佳{previous}！提交到排行榜？
+summon.blessed_by_rng,summon,被RNG祝福
+summon.blessed_title,summon,你被幸运之神眷顾了！
+summon.character_collection,summon,角色收藏
+summon.character_pool,summon,角色池
+summon.characters_available,summon,{count}个可用角色
+summon.collection_progress,summon,收藏进度：
+summon.collection_ratio,summon,{current} / {total}个角色
+summon.complete_character_list,summon,完整的可用角色列表及单个掉落率
+summon.counted_message,summon,您的招募结果将计入排行榜。争夺山丘之王角色！
+summon.counter_resets,summon,获得任何5★或6★时计数器重置
+summon.current_pity_counter,summon,当前保底计数器：
+summon.current_rate,summon,当前概率：{rate}%
+summon.current_rate_with_bonus,summon,当前概率：{rate}% (+{bonus}% 加成)
+summon.current_six_star_rate,summon,当前6★概率
+summon.cursed_by_rng,summon,被RNG诅咒
+summon.cursed_title,summon,抽卡之神在考验你...
+summon.description,summon,满足您的抽卡瘾！掷骰子追逐那些难以捉摸的6★角色，真实掉落率。'再来一次十连，我发誓！'
+summon.discord_linked,summon,Discord已关联 - 如果您获胜，您将获得角色！
+summon.discord_warning,summon,您仍可以提交到排行榜，但如果没有关联Discord，获胜后将无法获得角色！
+summon.download_image,summon,下载图片
+summon.drop_rates,summon,招募掉落率
+summon.drop_rates_by_rarity,summon,按稀有度划分的掉落率
+summon.each_rate,summon,~{rate}% 每个
+summon.expected_rate,summon,期望：{rate}%
+summon.first_six_star,summon,首个6★于：
+summon.first_six_star_pulls,summon,{count}次招募
+summon.five_star_guarantee,summon,5★保底系统
+summon.five_star_pity_counter,summon,5★保底计数器
+summon.five_star_rate,summon,5★掉落率
+summon.four_star_rate,summon,4★掉落率
+summon.fun_stats,summon,趣味统计
+summon.gacha_hell,summon,抽卡地狱
+summon.gacha_hell_title,summon,愿你的运气很快好转...
+summon.generating_image,summon,正在生成图片...
+summon.guaranteed_at,summon,第{threshold}次招募时保证获得6★
+summon.guaranteed_five_star,summon,每{threshold}次未获得5★+时保证获得5★或更高
+summon.individual_character_rates,summon,单个角色掉落率
+summon.leaderboard_description,summon,本周前10名最佳十连（每周一重置）
+summon.leaderboard_discord_reward,summon,第1名玩家将获得{site} Discord上的'山丘之王'角色！
+summon.leaderboard_title,summon,每周排行榜
+summon.least_pulled_character,summon,最少招募的角色
+summon.least_pulled_six_star,summon,最少招募的6★
+summon.legendary_luck,summon,传说级幸运
+summon.legendary_title,summon,RNG之神眷顾着你！
+summon.link_discord_profile,summon,在您的个人资料中关联您的Discord账户以获得角色！
+summon.link_discord_reminder,summon,别忘了关联您的Discord账户以获得角色！
+summon.loading_leaderboard,summon,正在加载排行榜...
+summon.logged_in,summon,已登录
+summon.login_to_save,summon,登录以保存您的结果
+summon.lucky,summon,幸运！
+summon.lucky_charm,summon,幸运符
+summon.lucky_title,summon,幸运青睐勇者！
+summon.most_pulled_character,summon,最常招募的角色
+summon.most_pulled_six_star,summon,最常招募的6★
+summon.new_record,summon,新纪录！您的{count}个六星超越了之前的最佳{previous}！提交到排行榜？
+summon.new_record_submitted,summon,新纪录！您的得分{score}已提交到排行榜！
+summon.next_guaranteed,summon,下一次招募保证获得5★或更高！
+summon.next_guarantees_five_star,summon,下一次招募保证获得5★或更高！
+summon.next_guarantees_six_star,summon,下一次招募保证获得6★！
+summon.nice_pull,summon,不错的抽卡！
+summon.no_history,summon,还没有招募历史。进行您的首次招募以在此处查看结果！
+summon.not_counted_warning,summon,您的招募结果不会计入排行榜。
+summon.not_logged_in,summon,未登录
+summon.not_logged_in_message,summon,真可惜您没有登录！这次抽卡本可以进入前10名。
+summon.not_owned,summon,未拥有
+summon.novice_description,summon,进行您的首次招募以查看统计！
+summon.novice_summoner,summon,新手召唤师
+summon.on_leaderboard,summon,排行榜第{placement}名
+summon.owned_count,summon,{count}×
+summon.perform_10x,summon,进行10次招募/寻访
+summon.pity_active,summon,保底系统激活！+{bonus}%加成率
+summon.pity_active_bonus,summon,保底激活中：+{bonus}%加成
+summon.pity_bonus,summon,保底加成
+summon.pity_counter,summon,保底计数器
+summon.pity_resets,summon,获得6★时保底完全重置
+summon.pity_starts_at,summon,保底从第{threshold}次招募开始：每次+{increase}%
+summon.pity_system,summon,保底系统（6★）
+summon.pool_description,summon,浏览招募池中的所有可用角色，按稀有度组织
+summon.profile_error,summon,配置文件未加载。请重试。
+summon.pulled_count,summon,已招募{count}个
+summon.pulled_times,summon,已招募{count}次
+summon.pulls_until_guaranteed_five_star,summon,距离保底5★的次数
+summon.rarity_breakdown,summon,稀有度分布
+summon.rate,summon,{rate}%概率
+summon.recent_description,summon,您最近的10次招募/寻访结果
+summon.recent_summons,summon,最近的招募
+summon.record_beaten,summon,新纪录！您的得分{current}超越了之前的最佳{previous}！
+summon.record_holder,summon,纪录保持者
+summon.reset_confirm,summon,您确定要重置所有招募/寻访统计数据吗？此操作无法撤消。
+summon.reset_stats,summon,重置所有统计
+summon.reset_warning,summon,这将永久删除您的所有招募历史
+summon.result_preview,summon,招募/寻访结果预览
+summon.session_preview,summon,招募/寻访会话预览
+summon.share_result,summon,分享您的招募/寻访结果
+summon.share_session,summon,分享招募/寻访会话
+summon.six_star_rate,summon,6★掉落率
+summon.six_star_resets_counter,summon,获得6★也会重置此计数器
+summon.six_stars_count,summon,{count}个六星
+summon.slightly_unlucky,summon,有点倒霉
+summon.slightly_unlucky_title,summon,情况可以更好...
+summon.star_characters,summon,{rarity}星角色
+summon.stats_description,summon,追踪您的抽卡之旅，看看您有多幸运！
+summon.stats_title,summon,您的招募统计
+summon.submit,summon,提交到排行榜
+summon.submit_failed,summon,提交到排行榜失败。请重试。
+summon.submit_qualifier,summon,您的招募结果符合排行榜资格！
+summon.submit_success,summon,您的招募结果已提交到排行榜！
+summon.submit_to_leaderboard,summon,提交到排行榜？
+summon.submitting,summon,正在提交...
+summon.summoned_on,summon,在{site}上招募
+summon.summoning,summon,正在招募/寻访10个角色...
+summon.summons_until_guaranteed,summon,距离保底5★还有{count}次招募！
+summon.summons_without_five_star,summon,未获得5★+的招募次数：
+summon.summons_without_five_star_plus,summon,未获得5★+的招募次数
+summon.table_character,summon,角色
+summon.table_drop_rate,summon,掉落率
+summon.table_profession,summon,职业
+summon.table_rarity,summon,稀有度
+summon.table_type,summon,类型
+summon.title,summon,招募/寻访模拟器
+summon.total_pulls,summon,总招募次数
+summon.total_value,summon,总价值
+summon.unique_characters,summon,独特角色
+summon.unlucky,summon,倒霉
+summon.very_lucky,summon,非常幸运！
+summon.very_unlucky,summon,非常倒霉
+summon.view_profile,summon,查看您的资料
+summon.warning_until_guaranteed,summon,距离保底5★还有{count}次招募！
+summon.your_stats,summon,您的统计
+theme.dark,theme,深色
+theme.dark_desc,theme,终末之地工具深色主题
+theme.high_contrast,theme,高对比度
+theme.light,theme,浅色
+theme.light_desc,theme,终末之地工具浅色主题
+theme.navy,theme,海军蓝
+weapons.attack,weapons,攻击力
+weapons.attack_growth,weapons,攻击力成长
+weapons.attack_stats,weapons,攻击属性
+weapons.best_characters,weapons,最佳装备角色
+weapons.best_weapons,weapons,最佳武器
+weapons.breakthrough,weapons,突破
+weapons.breakthrough_level,weapons,突破等级
+weapons.compatible_characters,weapons,兼容角色
+weapons.compatible_characters_desc,weapons,此武器可以装备给使用相同武器类型的角色。
+weapons.compatible_weapons,weapons,兼容武器
+weapons.description,weapons,描述
+weapons.effects,weapons,效果
+weapons.level_up_requirements,weapons,升级要求
+weapons.max_level,weapons,最大等级
+weapons.no_skills,weapons,无技能数据
+weapons.passive_attribute,weapons,被动属性
+weapons.potential_skill,weapons,潜能技能
+weapons.results,weapons,找到武器
+weapons.search,weapons,搜索武器...
+weapons.skill_level,weapons,等级
+weapons.skill_levels_unlocked,weapons,技能等级解锁
+weapons.skills,weapons,技能
+weapons.skills_talents,weapons,技能与天赋
+weapons.special_attribute,weapons,特殊属性
+weapons.stage,weapons,阶段 {stage}
+weapons.stat_increase,weapons,属性提升
+weapons.view_compatible_characters,weapons,查看兼容角色

@@ -1,0 +1,3665 @@
+{
+  "class_count": 38,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Format",
+          "parameters": [
+            {
+              "name": "resourceFormat",
+              "type": "System.String"
+            },
+            {
+              "name": "p1",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Format",
+          "parameters": [
+            {
+              "name": "resourceFormat",
+              "type": "System.String"
+            },
+            {
+              "name": "p1",
+              "type": "System.Object"
+            },
+            {
+              "name": "p2",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "SR",
+      "namespace": "",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "baseUri",
+          "offset": 16,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "baseUri",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "BaseUriAnnotation",
+      "namespace": "System.Xml.Linq",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "lineNumber",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "linePosition",
+          "offset": 20,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "lineNumber",
+              "type": "System.Int32"
+            },
+            {
+              "name": "linePosition",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "LineInfoAnnotation",
+      "namespace": "System.Xml.Linq",
+      "type_token": 33554436
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "lineNumber",
+              "type": "System.Int32"
+            },
+            {
+              "name": "linePosition",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "LineInfoEndElementAnnotation",
+      "namespace": "System.Xml.Linq",
+      "parent": "LineInfoAnnotation",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "next",
+          "offset": 32,
+          "type": "System.Xml.Linq.XAttribute"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "name",
+          "offset": 40,
+          "type": "System.Xml.Linq.XName"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value",
+          "offset": 48,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.Xml.Linq.XName"
+            },
+            {
+              "name": "value",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Xml.Linq.XAttribute"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsNamespaceDeclaration",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Name",
+          "parameters": [],
+          "return_type": "System.Xml.Linq.XName"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_NodeType",
+          "parameters": [],
+          "return_type": "System.Xml.XmlNodeType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Value",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPrefixOfNamespace",
+          "parameters": [
+            {
+              "name": "ns",
+              "type": "System.Xml.Linq.XNamespace"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValidateAttribute",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.Xml.Linq.XName"
+            },
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "XAttribute",
+      "namespace": "System.Xml.Linq",
+      "parent": "XObject",
+      "type_token": 33554438
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Xml.Linq.XCData"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_NodeType",
+          "parameters": [],
+          "return_type": "System.Xml.XmlNodeType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteTo",
+          "parameters": [
+            {
+              "name": "writer",
+              "type": "System.Xml.XmlWriter"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CloneNode",
+          "parameters": [],
+          "return_type": "System.Xml.Linq.XNode"
+        }
+      ],
+      "name": "XCData",
+      "namespace": "System.Xml.Linq",
+      "parent": "XText",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value",
+          "offset": 40,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Xml.Linq.XComment"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_NodeType",
+          "parameters": [],
+          "return_type": "System.Xml.XmlNodeType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Value",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteTo",
+          "parameters": [
+            {
+              "name": "writer",
+              "type": "System.Xml.XmlWriter"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CloneNode",
+          "parameters": [],
+          "return_type": "System.Xml.Linq.XNode"
+        }
+      ],
+      "name": "XComment",
+      "namespace": "System.Xml.Linq",
+      "parent": "XNode",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "_eCache",
+          "offset": 16,
+          "type": "System.Xml.Linq.NamespaceCache"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "_aCache",
+          "offset": 32,
+          "type": "System.Xml.Linq.NamespaceCache"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "_lineInfo",
+          "offset": 48,
+          "type": "System.Xml.IXmlLineInfo"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_currentContainer",
+          "offset": 56,
+          "type": "System.Xml.Linq.XContainer"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_baseUri",
+          "offset": 64,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "rootContainer",
+              "type": "System.Xml.Linq.XContainer"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "rootContainer",
+              "type": "System.Xml.Linq.XContainer"
+            },
+            {
+              "name": "r",
+              "type": "System.Xml.XmlReader"
+            },
+            {
+              "name": "o",
+              "type": "System.Xml.Linq.LoadOptions"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadContentFrom",
+          "parameters": [
+            {
+              "name": "rootContainer",
+              "type": "System.Xml.Linq.XContainer"
+            },
+            {
+              "name": "r",
+              "type": "System.Xml.XmlReader"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadContentFrom",
+          "parameters": [
+            {
+              "name": "rootContainer",
+              "type": "System.Xml.Linq.XContainer"
+            },
+            {
+              "name": "r",
+              "type": "System.Xml.XmlReader"
+            },
+            {
+              "name": "o",
+              "type": "System.Xml.Linq.LoadOptions"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "ContentReader",
+      "namespace": "",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "content",
+          "offset": 40,
+          "type": "System.Object"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Xml.Linq.XContainer"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LastNode",
+          "parameters": [],
+          "return_type": "System.Xml.Linq.XNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "content",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Nodes",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<System.Xml.Linq.XNode>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddAttribute",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.Xml.Linq.XAttribute"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddAttributeSkipNotify",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.Xml.Linq.XAttribute"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddContentSkipNotify",
+          "parameters": [
+            {
+              "name": "content",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddNode",
+          "parameters": [
+            {
+              "name": "n",
+              "type": "System.Xml.Linq.XNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddNodeSkipNotify",
+          "parameters": [
+            {
+              "name": "n",
+              "type": "System.Xml.Linq.XNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddString",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddStringSkipNotify",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AppendNode",
+          "parameters": [
+            {
+              "name": "n",
+              "type": "System.Xml.Linq.XNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AppendNodeSkipNotify",
+          "parameters": [
+            {
+              "name": "n",
+              "type": "System.Xml.Linq.XNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AppendText",
+          "parameters": [
+            {
+              "name": "sb",
+              "type": "System.Text.StringBuilder"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConvertTextToNode",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStringValue",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadContentFrom",
+          "parameters": [
+            {
+              "name": "r",
+              "type": "System.Xml.XmlReader"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadContentFrom",
+          "parameters": [
+            {
+              "name": "r",
+              "type": "System.Xml.XmlReader"
+            },
+            {
+              "name": "o",
+              "type": "System.Xml.Linq.LoadOptions"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RemoveNode",
+          "parameters": [
+            {
+              "name": "n",
+              "type": "System.Xml.Linq.XNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValidateNode",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.Xml.Linq.XNode"
+            },
+            {
+              "name": "previous",
+              "type": "System.Xml.Linq.XNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValidateString",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteContentTo",
+          "parameters": [
+            {
+              "name": "writer",
+              "type": "System.Xml.XmlWriter"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "XContainer",
+      "namespace": "System.Xml.Linq",
+      "parent": "XNode",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_version",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_encoding",
+          "offset": 24,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_standalone",
+          "offset": 32,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "version",
+              "type": "System.String"
+            },
+            {
+              "name": "encoding",
+              "type": "System.String"
+            },
+            {
+              "name": "standalone",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Xml.Linq.XDeclaration"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Encoding",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Standalone",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Version",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "XDeclaration",
+      "namespace": "System.Xml.Linq",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_declaration",
+          "offset": 48,
+          "type": "System.Xml.Linq.XDeclaration"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Xml.Linq.XDocument"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Declaration",
+          "parameters": [],
+          "return_type": "System.Xml.Linq.XDeclaration"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Declaration",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Xml.Linq.XDeclaration"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_NodeType",
+          "parameters": [],
+          "return_type": "System.Xml.XmlNodeType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Root",
+          "parameters": [],
+          "return_type": "System.Xml.Linq.XElement"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteTo",
+          "parameters": [
+            {
+              "name": "writer",
+              "type": "System.Xml.XmlWriter"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddAttribute",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.Xml.Linq.XAttribute"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddAttributeSkipNotify",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.Xml.Linq.XAttribute"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CloneNode",
+          "parameters": [],
+          "return_type": "System.Xml.Linq.XNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetFirstNode",
+          "parameters": [],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsWhitespace",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValidateNode",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.Xml.Linq.XNode"
+            },
+            {
+              "name": "previous",
+              "type": "System.Xml.Linq.XNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValidateDocument",
+          "parameters": [
+            {
+              "name": "previous",
+              "type": "System.Xml.Linq.XNode"
+            },
+            {
+              "name": "allowBefore",
+              "type": "System.Xml.XmlNodeType"
+            },
+            {
+              "name": "allowAfter",
+              "type": "System.Xml.XmlNodeType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValidateString",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "XDocument",
+      "namespace": "System.Xml.Linq",
+      "parent": "XContainer",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_name",
+          "offset": 40,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_publicId",
+          "offset": 48,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_systemId",
+          "offset": 56,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_internalSubset",
+          "offset": 64,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "publicId",
+              "type": "System.String"
+            },
+            {
+              "name": "systemId",
+              "type": "System.String"
+            },
+            {
+              "name": "internalSubset",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Xml.Linq.XDocumentType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_InternalSubset",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Name",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_NodeType",
+          "parameters": [],
+          "return_type": "System.Xml.XmlNodeType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_PublicId",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_SystemId",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteTo",
+          "parameters": [
+            {
+              "name": "writer",
+              "type": "System.Xml.XmlWriter"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CloneNode",
+          "parameters": [],
+          "return_type": "System.Xml.Linq.XNode"
+        }
+      ],
+      "name": "XDocumentType",
+      "namespace": "System.Xml.Linq",
+      "parent": "XNode",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "name",
+          "offset": 48,
+          "type": "System.Xml.Linq.XName"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "lastAttr",
+          "offset": 56,
+          "type": "System.Xml.Linq.XAttribute"
+        }
+      ],
+      "interfaces": [
+        "IXmlSerializable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.Xml.Linq.XName"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Xml.Linq.XElement"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Xml.Linq.XStreamingElement"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_HasAttributes",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsEmpty",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Name",
+          "parameters": [],
+          "return_type": "System.Xml.Linq.XName"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_NodeType",
+          "parameters": [],
+          "return_type": "System.Xml.XmlNodeType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Value",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Attribute",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.Xml.Linq.XName"
+            }
+          ],
+          "return_type": "System.Xml.Linq.XAttribute"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Attributes",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<System.Xml.Linq.XAttribute>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPrefixOfNamespace",
+          "parameters": [
+            {
+              "name": "ns",
+              "type": "System.Xml.Linq.XNamespace"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteTo",
+          "parameters": [
+            {
+              "name": "writer",
+              "type": "System.Xml.XmlWriter"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.Xml.Serialization.IXmlSerializable.GetSchema",
+          "parameters": [],
+          "return_type": "System.Xml.Schema.XmlSchema"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.Xml.Serialization.IXmlSerializable.ReadXml",
+          "parameters": [
+            {
+              "name": "reader",
+              "type": "System.Xml.XmlReader"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.Xml.Serialization.IXmlSerializable.WriteXml",
+          "parameters": [
+            {
+              "name": "writer",
+              "type": "System.Xml.XmlWriter"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddAttribute",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.Xml.Linq.XAttribute"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddAttributeSkipNotify",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.Xml.Linq.XAttribute"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AppendAttribute",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.Xml.Linq.XAttribute"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AppendAttributeSkipNotify",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.Xml.Linq.XAttribute"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CloneNode",
+          "parameters": [],
+          "return_type": "System.Xml.Linq.XNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAttributes",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.Xml.Linq.XName"
+            }
+          ],
+          "return_type": "System.Collections.Generic.IEnumerable<System.Xml.Linq.XAttribute>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetNamespaceOfPrefixInScope",
+          "parameters": [
+            {
+              "name": "prefix",
+              "type": "System.String"
+            },
+            {
+              "name": "outOfScope",
+              "type": "System.Xml.Linq.XElement"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadElementFrom",
+          "parameters": [
+            {
+              "name": "r",
+              "type": "System.Xml.XmlReader"
+            },
+            {
+              "name": "o",
+              "type": "System.Xml.Linq.LoadOptions"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadElementFromImpl",
+          "parameters": [
+            {
+              "name": "r",
+              "type": "System.Xml.XmlReader"
+            },
+            {
+              "name": "o",
+              "type": "System.Xml.Linq.LoadOptions"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetEndElementLineInfo",
+          "parameters": [
+            {
+              "name": "lineNumber",
+              "type": "System.Int32"
+            },
+            {
+              "name": "linePosition",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValidateNode",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "System.Xml.Linq.XNode"
+            },
+            {
+              "name": "previous",
+              "type": "System.Xml.Linq.XNode"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "XElement",
+      "namespace": "System.Xml.Linq",
+      "parent": "XContainer",
+      "type_token": 33554447
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "TValue"
+            }
+          ],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "ExtractKeyDelegate",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554450
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Value",
+          "offset": 0,
+          "type": "TValue"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "HashCode",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Next",
+          "offset": 0,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Entry",
+      "namespace": "",
+      "type_token": 33554452
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_buckets",
+          "offset": 0,
+          "type": "System.Int32[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_entries",
+          "offset": 0,
+          "type": "System.Xml.Linq.XHashtable.XHashtableState.Entry<TValue>[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_numEntries",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_extractKey",
+          "offset": 0,
+          "type": "System.Xml.Linq.XHashtable.ExtractKeyDelegate<TValue>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "extractKey",
+              "type": "System.Xml.Linq.XHashtable.ExtractKeyDelegate<TValue>"
+            },
+            {
+              "name": "capacity",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Resize",
+          "parameters": [],
+          "return_type": "System.Xml.Linq.XHashtable.XHashtableState<TValue>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryGetValue",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "TValue&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryAdd",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "TValue"
+            },
+            {
+              "name": "newValue",
+              "type": "TValue&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FindEntry",
+          "parameters": [
+            {
+              "name": "hashCode",
+              "type": "System.Int32"
+            },
+            {
+              "name": "key",
+              "type": "System.String"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            },
+            {
+              "name": "entryIndex",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ComputeHashCode",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "XHashtableState",
+      "namespace": "",
+      "type_token": 33554451
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_state",
+          "offset": 0,
+          "type": "System.Xml.Linq.XHashtable.XHashtableState<TValue>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "extractKey",
+              "type": "System.Xml.Linq.XHashtable.ExtractKeyDelegate<TValue>"
+            },
+            {
+              "name": "capacity",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryGetValue",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "TValue&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "TValue"
+            }
+          ],
+          "return_type": "TValue"
+        }
+      ],
+      "name": "XHashtable`1",
+      "namespace": "System.Xml.Linq",
+      "type_token": 33554449
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_ns",
+          "offset": 16,
+          "type": "System.Xml.Linq.XNamespace"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_namespaceName",
+          "offset": 24,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Get",
+          "parameters": [
+            {
+              "name": "namespaceName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Xml.Linq.XNamespace"
+        }
+      ],
+      "name": "NamespaceCache",
+      "namespace": "System.Xml.Linq",
+      "type_token": 33554453
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_writer",
+          "offset": 16,
+          "type": "System.Xml.XmlWriter"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_resolver",
+          "offset": 24,
+          "type": "System.Xml.Linq.NamespaceResolver"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "writer",
+              "type": "System.Xml.XmlWriter"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteElement",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "System.Xml.Linq.XElement"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPrefixOfNamespace",
+          "parameters": [
+            {
+              "name": "ns",
+              "type": "System.Xml.Linq.XNamespace"
+            },
+            {
+              "name": "allowDefaultNamespace",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushAncestors",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "System.Xml.Linq.XElement"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushElement",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "System.Xml.Linq.XElement"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteEndElement",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteFullEndElement",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteStartElement",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "System.Xml.Linq.XElement"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ElementWriter",
+      "namespace": "System.Xml.Linq",
+      "type_token": 33554454
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "prefix",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ns",
+          "offset": 24,
+          "type": "System.Xml.Linq.XNamespace"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "scope",
+          "offset": 32,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "prev",
+          "offset": 40,
+          "type": "System.Xml.Linq.NamespaceResolver.NamespaceDeclaration"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "NamespaceDeclaration",
+      "namespace": "",
+      "type_token": 33554456
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_scope",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_declaration",
+          "offset": 24,
+          "type": "System.Xml.Linq.NamespaceResolver.NamespaceDeclaration"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_rover",
+          "offset": 32,
+          "type": "System.Xml.Linq.NamespaceResolver.NamespaceDeclaration"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushScope",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopScope",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "prefix",
+              "type": "System.String"
+            },
+            {
+              "name": "ns",
+              "type": "System.Xml.Linq.XNamespace"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddFirst",
+          "parameters": [
+            {
+              "name": "prefix",
+              "type": "System.String"
+            },
+            {
+              "name": "ns",
+              "type": "System.Xml.Linq.XNamespace"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPrefixOfNamespace",
+          "parameters": [
+            {
+              "name": "ns",
+              "type": "System.Xml.Linq.XNamespace"
+            },
+            {
+              "name": "allowDefaultNamespace",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "NamespaceResolver",
+      "namespace": "System.Xml.Linq",
+      "type_token": 33554455
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Add",
+          "offset": 0,
+          "type": "System.Xml.Linq.XObjectChange"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Remove",
+          "offset": 0,
+          "type": "System.Xml.Linq.XObjectChange"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Name",
+          "offset": 0,
+          "type": "System.Xml.Linq.XObjectChange"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Value",
+          "offset": 0,
+          "type": "System.Xml.Linq.XObjectChange"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "XObjectChange",
+      "namespace": "System.Xml.Linq",
+      "type_token": 33554457
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "System.Xml.Linq.LoadOptions"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "PreserveWhitespace",
+          "offset": 0,
+          "type": "System.Xml.Linq.LoadOptions"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SetBaseUri",
+          "offset": 0,
+          "type": "System.Xml.Linq.LoadOptions"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SetLineInfo",
+          "offset": 0,
+          "type": "System.Xml.Linq.LoadOptions"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "LoadOptions",
+      "namespace": "System.Xml.Linq",
+      "type_token": 33554458
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "System.Xml.Linq.SaveOptions"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "DisableFormatting",
+          "offset": 0,
+          "type": "System.Xml.Linq.SaveOptions"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "OmitDuplicateNamespaces",
+          "offset": 0,
+          "type": "System.Xml.Linq.SaveOptions"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "SaveOptions",
+      "namespace": "System.Xml.Linq",
+      "type_token": 33554459
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_ns",
+          "offset": 16,
+          "type": "System.Xml.Linq.XNamespace"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_localName",
+          "offset": 24,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_hashCode",
+          "offset": 32,
+          "type": "System.Int32"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1",
+        "ISerializable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "ns",
+              "type": "System.Xml.Linq.XNamespace"
+            },
+            {
+              "name": "localName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LocalName",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Namespace",
+          "parameters": [],
+          "return_type": "System.Xml.Linq.XNamespace"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_NamespaceName",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Get",
+          "parameters": [
+            {
+              "name": "expandedName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Xml.Linq.XName"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Get",
+          "parameters": [
+            {
+              "name": "localName",
+              "type": "System.String"
+            },
+            {
+              "name": "namespaceName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Xml.Linq.XName"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "expandedName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Xml.Linq.XName"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Equality",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.Xml.Linq.XName"
+            },
+            {
+              "name": "right",
+              "type": "System.Xml.Linq.XName"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.IEquatable<System.Xml.Linq.XName>.Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Xml.Linq.XName"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.Runtime.Serialization.ISerializable.GetObjectData",
+          "parameters": [
+            {
+              "name": "info",
+              "type": "System.Runtime.Serialization.SerializationInfo"
+            },
+            {
+              "name": "context",
+              "type": "System.Runtime.Serialization.StreamingContext"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "XName",
+      "namespace": "System.Xml.Linq",
+      "type_token": 33554460
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_namespaces",
+          "offset": 0,
+          "type": "System.Xml.Linq.XHashtable<System.WeakReference>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_refNone",
+          "offset": 8,
+          "type": "System.WeakReference"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_refXml",
+          "offset": 16,
+          "type": "System.WeakReference"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_refXmlns",
+          "offset": 24,
+          "type": "System.WeakReference"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_namespaceName",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_hashCode",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_names",
+          "offset": 32,
+          "type": "System.Xml.Linq.XHashtable<System.Xml.Linq.XName>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "namespaceName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_NamespaceName",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetName",
+          "parameters": [
+            {
+              "name": "localName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Xml.Linq.XName"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_None",
+          "parameters": [],
+          "return_type": "System.Xml.Linq.XNamespace"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Xml",
+          "parameters": [],
+          "return_type": "System.Xml.Linq.XNamespace"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Xmlns",
+          "parameters": [],
+          "return_type": "System.Xml.Linq.XNamespace"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Get",
+          "parameters": [
+            {
+              "name": "namespaceName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Xml.Linq.XNamespace"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "namespaceName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Xml.Linq.XNamespace"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Equality",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.Xml.Linq.XNamespace"
+            },
+            {
+              "name": "right",
+              "type": "System.Xml.Linq.XNamespace"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Inequality",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.Xml.Linq.XNamespace"
+            },
+            {
+              "name": "right",
+              "type": "System.Xml.Linq.XNamespace"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetName",
+          "parameters": [
+            {
+              "name": "localName",
+              "type": "System.String"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Xml.Linq.XName"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Get",
+          "parameters": [
+            {
+              "name": "namespaceName",
+              "type": "System.String"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Xml.Linq.XNamespace"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExtractLocalName",
+          "parameters": [
+            {
+              "name": "n",
+              "type": "System.Xml.Linq.XName"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExtractNamespace",
+          "parameters": [
+            {
+              "name": "r",
+              "type": "System.WeakReference"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnsureNamespace",
+          "parameters": [
+            {
+              "name": "refNmsp",
+              "type": "System.WeakReference&"
+            },
+            {
+              "name": "namespaceName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Xml.Linq.XNamespace"
+        }
+      ],
+      "name": "XNamespace",
+      "namespace": "System.Xml.Linq",
+      "type_token": 33554461
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "next",
+          "offset": 32,
+          "type": "System.Xml.Linq.XNode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteTo",
+          "parameters": [
+            {
+              "name": "writer",
+              "type": "System.Xml.XmlWriter"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AppendText",
+          "parameters": [
+            {
+              "name": "sb",
+              "type": "System.Text.StringBuilder"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CloneNode",
+          "parameters": [],
+          "return_type": "System.Xml.Linq.XNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetXmlString",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Xml.Linq.SaveOptions"
+            }
+          ],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "XNode",
+      "namespace": "System.Xml.Linq",
+      "parent": "XObject",
+      "type_token": 33554462
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "parent",
+          "offset": 16,
+          "type": "System.Xml.Linq.XContainer"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "annotations",
+          "offset": 24,
+          "type": "System.Object"
+        }
+      ],
+      "interfaces": [
+        "IXmlLineInfo"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_BaseUri",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_NodeType",
+          "parameters": [],
+          "return_type": "System.Xml.XmlNodeType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Parent",
+          "parameters": [],
+          "return_type": "System.Xml.Linq.XElement"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddAnnotation",
+          "parameters": [
+            {
+              "name": "annotation",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AnnotationForSealedType",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Annotation",
+          "parameters": [],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.Xml.IXmlLineInfo.HasLineInfo",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.Xml.IXmlLineInfo.get_LineNumber",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.Xml.IXmlLineInfo.get_LinePosition",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_HasBaseUri",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NotifyChanged",
+          "parameters": [
+            {
+              "name": "sender",
+              "type": "System.Object"
+            },
+            {
+              "name": "e",
+              "type": "System.Xml.Linq.XObjectChangeEventArgs"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NotifyChanging",
+          "parameters": [
+            {
+              "name": "sender",
+              "type": "System.Object"
+            },
+            {
+              "name": "e",
+              "type": "System.Xml.Linq.XObjectChangeEventArgs"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetBaseUri",
+          "parameters": [
+            {
+              "name": "baseUri",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetLineInfo",
+          "parameters": [
+            {
+              "name": "lineNumber",
+              "type": "System.Int32"
+            },
+            {
+              "name": "linePosition",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SkipNotify",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSaveOptionsFromAnnotations",
+          "parameters": [],
+          "return_type": "System.Xml.Linq.SaveOptions"
+        }
+      ],
+      "name": "XObject",
+      "namespace": "System.Xml.Linq",
+      "type_token": 33554463
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "changing",
+          "offset": 16,
+          "type": "System.EventHandler<System.Xml.Linq.XObjectChangeEventArgs>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "changed",
+          "offset": 24,
+          "type": "System.EventHandler<System.Xml.Linq.XObjectChangeEventArgs>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "XObjectChangeAnnotation",
+      "namespace": "System.Xml.Linq",
+      "type_token": 33554464
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_objectChange",
+          "offset": 16,
+          "type": "System.Xml.Linq.XObjectChange"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "Add",
+          "offset": 0,
+          "type": "System.Xml.Linq.XObjectChangeEventArgs"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "Remove",
+          "offset": 8,
+          "type": "System.Xml.Linq.XObjectChangeEventArgs"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "Name",
+          "offset": 16,
+          "type": "System.Xml.Linq.XObjectChangeEventArgs"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "Value",
+          "offset": 24,
+          "type": "System.Xml.Linq.XObjectChangeEventArgs"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "objectChange",
+              "type": "System.Xml.Linq.XObjectChange"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "XObjectChangeEventArgs",
+      "namespace": "System.Xml.Linq",
+      "parent": "EventArgs",
+      "type_token": 33554465
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "target",
+          "offset": 40,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "data",
+          "offset": 48,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "target",
+              "type": "System.String"
+            },
+            {
+              "name": "data",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Xml.Linq.XProcessingInstruction"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Data",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_NodeType",
+          "parameters": [],
+          "return_type": "System.Xml.XmlNodeType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Target",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteTo",
+          "parameters": [
+            {
+              "name": "writer",
+              "type": "System.Xml.XmlWriter"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CloneNode",
+          "parameters": [],
+          "return_type": "System.Xml.Linq.XNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValidateName",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "XProcessingInstruction",
+      "namespace": "System.Xml.Linq",
+      "parent": "XNode",
+      "type_token": 33554466
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "name",
+          "offset": 16,
+          "type": "System.Xml.Linq.XName"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "content",
+          "offset": 24,
+          "type": "System.Object"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "XStreamingElement",
+      "namespace": "System.Xml.Linq",
+      "type_token": 33554467
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "text",
+          "offset": 40,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Xml.Linq.XText"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_NodeType",
+          "parameters": [],
+          "return_type": "System.Xml.XmlNodeType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Value",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Value",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteTo",
+          "parameters": [
+            {
+              "name": "writer",
+              "type": "System.Xml.XmlWriter"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AppendText",
+          "parameters": [
+            {
+              "name": "sb",
+              "type": "System.Text.StringBuilder"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CloneNode",
+          "parameters": [],
+          "return_type": "System.Xml.Linq.XNode"
+        }
+      ],
+      "name": "XText",
+      "namespace": "System.Xml.Linq",
+      "parent": "XNode",
+      "type_token": 33554468
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "t_cachedInstance",
+          "offset": -1,
+          "type": "System.Text.StringBuilder"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Acquire",
+          "parameters": [
+            {
+              "name": "capacity",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Text.StringBuilder"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Release",
+          "parameters": [
+            {
+              "name": "sb",
+              "type": "System.Text.StringBuilder"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStringAndRelease",
+          "parameters": [
+            {
+              "name": "sb",
+              "type": "System.Text.StringBuilder"
+            }
+          ],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "StringBuilderCache",
+      "namespace": "System.Text",
+      "type_token": 33554469
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ThrowNotSupportedException",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ThrowStub",
+      "namespace": "Unity",
+      "parent": "ObjectDisposedException",
+      "type_token": 33554470
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "System.Xml.Linq.dll"
+}

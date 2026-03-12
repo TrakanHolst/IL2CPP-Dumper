@@ -1,0 +1,113 @@
+=== ARKNIGHTS ENDFIELD ASSET EXTRACTION ANALYSIS ===
+
+Based on the extracted folders at D:\Telechargements\:
+
+== EXTRACTED SPRITES STRUCTURE ==
+
+Folder: D:\Telechargements\sprites (201MB)
+Categories (18 total):
+  - charbattleicon       (Character battle icons)
+  - charformation        (Character formation images)
+  - chargacha            (Gacha character art)
+  - charhorheadicon      (Character horizontal head icons)
+  - charicon             (Character icons - 152x212 PNG)
+  - charimg510           (Character images 510px)
+  - charinfo             (Character info graphics)
+  - charprofessionicon   (Profession icons)
+  - charremoteicon       (Remote character icons)
+  - charremoteicon700    (Remote icons 700px)
+  - charroundicon        (Round character icons)
+  - chartalent           (Talent icons)
+  - itemicon             (Item icons)
+  - itemiconbig          (Large item icons)
+  - itemiconcompositedeco (Composite decoration icons)
+  - itemiconcompositedecobig (Large composite deco icons)
+  - itemtips             (Item tooltips)
+  - skillicon            (Skill icons)
+
+Files: PNG format, already extracted and organized
+
+== RAW ASSETS STRUCTURE ==
+
+Folder: D:\Telechargements\assets (215MB)
+Path: assets/assets/beyond/dynamicassets/
+
+Contains:
+  - gameplay/ui/sprites/levelmap/
+    - Map tiles for all levels (base01_lv001, base01_lv003, etc.)
+    - Grid-based tiles (e.g., base01_lv001_1_1.png, _1_2.png, etc.)
+    - Decorative map elements
+
+== EXTRACTION METHOD ANALYSIS ==
+
+The extraction appears to have been done using a Unity asset extraction tool.
+
+Common Tools Used for Unity Asset Extraction:
+
+1. AssetStudio (Most Popular)
+   - GUI-based Unity asset viewer/extractor
+   - Supports sprites, textures, audio, models
+   - Can batch export organized by type
+   - Download: https://github.com/Perfare/AssetStudio
+
+2. UABE (Unity Assets Bundle Extractor)
+   - Advanced tool for editing and extracting
+   - Can extract from .bundle and .assets files
+   - Download: https://github.com/SeriousCache/UABE
+
+3. AssetRipper
+   - Automated extraction and conversion
+   - Modern alternative to AssetStudio
+   - Download: https://github.com/AssetRipper/AssetRipper
+
+== HOW TO EXTRACT GAME ASSETS ==
+
+Step 1: Locate Game Asset Files
+  Unity games typically store assets in:
+  - [Game Install]/[GameName]_Data/
+  - Android: /Android/obb/ or /Android/data/
+  - Common files: level0, sharedassets0.assets, resources.assets
+
+Step 2: Use AssetStudio (Recommended)
+  1. Download AssetStudio from GitHub
+  2. Run AssetStudioGUI.exe
+  3. File → Load Folder → Select game's data folder
+  4. Wait for assets to load
+  5. Asset List tab shows all assets
+  6. Select assets → Export → Export selected assets
+  7. Choose output folder
+
+Step 3: Organize Extracted Assets
+  - Sprites will be exported as PNG files
+  - Can filter by type (Sprite, Texture2D, AudioClip, etc.)
+  - Can batch export all of one type
+
+== LIKELY EXTRACTION PROCESS FOR THESE FILES ==
+
+Based on the organized structure:
+1. Used AssetStudio to load Endfield game assets
+2. Filtered for Sprite/Texture2D assets
+3. Exported sprites organized by folder structure:
+   - Sprites folder: UI sprites categorized by type
+   - Assets folder: Raw game assets (map tiles, etc.)
+4. PNG conversion done automatically by AssetStudio
+
+== TO EXTRACT YOURSELF ==
+
+1. Find Arknights Endfield installation folder
+2. Locate the Data folder (usually [GameName]_Data)
+3. Download AssetStudio: https://github.com/Perfare/AssetStudio/releases
+4. Load the Data folder in AssetStudio
+5. Navigate Asset List, filter by type
+6. Export desired assets
+
+== ALTERNATIVE: Extract from APK (Android) ==
+
+If game is Android-based:
+1. Get APK file
+2. Rename .apk to .zip
+3. Extract contents
+4. Find .obb files in /assets/
+5. Use AssetStudio to open .obb files
+6. Export assets
+

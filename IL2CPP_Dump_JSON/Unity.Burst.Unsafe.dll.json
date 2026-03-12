@@ -1,0 +1,49 @@
+{
+  "class_count": 3,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AsRef",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "System.Void*"
+            }
+          ],
+          "return_type": "T&"
+        }
+      ],
+      "name": "Unsafe",
+      "namespace": "Unity.Burst",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "NonVersionableAttribute",
+      "namespace": "System.Runtime.Versioning",
+      "parent": "Attribute",
+      "type_token": 33554435
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Unity.Burst.Unsafe.dll"
+}

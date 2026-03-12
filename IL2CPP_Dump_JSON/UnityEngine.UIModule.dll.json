@@ -1,0 +1,2330 @@
+{
+  "class_count": 12,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsRaycastLocationValid",
+          "parameters": [
+            {
+              "name": "sp",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "eventCamera",
+              "type": "UnityEngine.Camera"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "ICanvasRaycastFilter",
+      "namespace": "UnityEngine",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "ICanvasRaycastFilter"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_color",
+          "parameters": [],
+          "return_type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_color",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_alpha",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_alpha",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_interactable",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_interactable",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_blocksRaycasts",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_blocksRaycasts",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ignoreParentGroups",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_ignoreParentGroups",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsRaycastLocationValid",
+          "parameters": [
+            {
+              "name": "sp",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "eventCamera",
+              "type": "UnityEngine.Camera"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_color_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Color&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_color_Injected",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Color&"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CanvasGroup",
+      "namespace": "UnityEngine",
+      "parent": "Behaviour",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "start",
+          "offset": 16,
+          "type": "System.UInt16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "end",
+          "offset": 18,
+          "type": "System.UInt16"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "InstanceRange",
+      "namespace": "",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<isMask>k__BackingField",
+          "offset": 24,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_hasPopInstruction",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_materialCount",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_materialCount",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_popMaterialCount",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_absoluteDepth",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_hasMoved",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_cullTransparentMesh",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_cullTransparentMesh",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_cull",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_cull",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetColor",
+          "parameters": [
+            {
+              "name": "color",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetColor",
+          "parameters": [],
+          "return_type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnableRectClipping",
+          "parameters": [
+            {
+              "name": "rect",
+              "type": "UnityEngine.Rect"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_clippingSoftness",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_clippingHGSoftness",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector4"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisableRectClipping",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetMaterial",
+          "parameters": [
+            {
+              "name": "material",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMaterial",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Material"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetPopMaterial",
+          "parameters": [
+            {
+              "name": "material",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTexture",
+          "parameters": [
+            {
+              "name": "texture",
+              "type": "UnityEngine.Texture"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetAlphaTexture",
+          "parameters": [
+            {
+              "name": "texture",
+              "type": "UnityEngine.Texture"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetMesh",
+          "parameters": [
+            {
+              "name": "mesh",
+              "type": "UnityEngine.Mesh"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetAlpha",
+          "parameters": [
+            {
+              "name": "alpha",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetMaterial",
+          "parameters": [
+            {
+              "name": "material",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "texture",
+              "type": "UnityEngine.Texture"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMaterial",
+          "parameters": [],
+          "return_type": "UnityEngine.Material"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SplitUIVertexStreams",
+          "parameters": [
+            {
+              "name": "verts",
+              "type": "System.Collections.Generic.List<UnityEngine.UIVertex>"
+            },
+            {
+              "name": "positions",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+            },
+            {
+              "name": "colors",
+              "type": "System.Collections.Generic.List<UnityEngine.Color32>"
+            },
+            {
+              "name": "uv0S",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector4>"
+            },
+            {
+              "name": "uv1S",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector4>"
+            },
+            {
+              "name": "uv2S",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector4>"
+            },
+            {
+              "name": "uv3S",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector4>"
+            },
+            {
+              "name": "normals",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+            },
+            {
+              "name": "tangents",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector4>"
+            },
+            {
+              "name": "indices",
+              "type": "System.Collections.Generic.List<System.Int32>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateUIVertexStream",
+          "parameters": [
+            {
+              "name": "verts",
+              "type": "System.Collections.Generic.List<UnityEngine.UIVertex>"
+            },
+            {
+              "name": "positions",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+            },
+            {
+              "name": "colors",
+              "type": "System.Collections.Generic.List<UnityEngine.Color32>"
+            },
+            {
+              "name": "uv0S",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector4>"
+            },
+            {
+              "name": "uv1S",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector4>"
+            },
+            {
+              "name": "uv2S",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector4>"
+            },
+            {
+              "name": "uv3S",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector4>"
+            },
+            {
+              "name": "normals",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+            },
+            {
+              "name": "tangents",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector4>"
+            },
+            {
+              "name": "indices",
+              "type": "System.Collections.Generic.List<System.Int32>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddUIVertexStream",
+          "parameters": [
+            {
+              "name": "verts",
+              "type": "System.Collections.Generic.List<UnityEngine.UIVertex>"
+            },
+            {
+              "name": "positions",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+            },
+            {
+              "name": "colors",
+              "type": "System.Collections.Generic.List<UnityEngine.Color32>"
+            },
+            {
+              "name": "uv0S",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector4>"
+            },
+            {
+              "name": "uv1S",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector4>"
+            },
+            {
+              "name": "uv2S",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector4>"
+            },
+            {
+              "name": "uv3S",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector4>"
+            },
+            {
+              "name": "normals",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+            },
+            {
+              "name": "tangents",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector4>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SplitIndicesStreamsInternal",
+          "parameters": [
+            {
+              "name": "verts",
+              "type": "System.Object"
+            },
+            {
+              "name": "indices",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SplitUIVertexStreamsInternal",
+          "parameters": [
+            {
+              "name": "verts",
+              "type": "System.Object"
+            },
+            {
+              "name": "positions",
+              "type": "System.Object"
+            },
+            {
+              "name": "colors",
+              "type": "System.Object"
+            },
+            {
+              "name": "uv0S",
+              "type": "System.Object"
+            },
+            {
+              "name": "uv1S",
+              "type": "System.Object"
+            },
+            {
+              "name": "uv2S",
+              "type": "System.Object"
+            },
+            {
+              "name": "uv3S",
+              "type": "System.Object"
+            },
+            {
+              "name": "normals",
+              "type": "System.Object"
+            },
+            {
+              "name": "tangents",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateUIVertexStreamInternal",
+          "parameters": [
+            {
+              "name": "verts",
+              "type": "System.Object"
+            },
+            {
+              "name": "positions",
+              "type": "System.Object"
+            },
+            {
+              "name": "colors",
+              "type": "System.Object"
+            },
+            {
+              "name": "uv0S",
+              "type": "System.Object"
+            },
+            {
+              "name": "uv1S",
+              "type": "System.Object"
+            },
+            {
+              "name": "uv2S",
+              "type": "System.Object"
+            },
+            {
+              "name": "uv3S",
+              "type": "System.Object"
+            },
+            {
+              "name": "normals",
+              "type": "System.Object"
+            },
+            {
+              "name": "tangents",
+              "type": "System.Object"
+            },
+            {
+              "name": "indices",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateInstanceRange",
+          "parameters": [
+            {
+              "name": "rangeCount",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "ranges",
+              "type": "System.Void*"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateInstanceRange",
+          "parameters": [
+            {
+              "name": "rangeCount",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "rangers",
+              "type": "Unity.Collections.NativeArray<UnityEngine.CanvasRenderer.InstanceRange>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginInstanceBufferWrite",
+          "parameters": [
+            {
+              "name": "count",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "stride",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void*"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginPrefabBufferWrite",
+          "parameters": [
+            {
+              "name": "count",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "stride",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void*"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndInstanceBufferWrite",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndPrefabBufferWrite",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginInstanceDataWrite",
+          "parameters": [
+            {
+              "name": "count",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "Unity.Collections.NativeArray<T>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginPrefabBufferWrite",
+          "parameters": [
+            {
+              "name": "count",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "Unity.Collections.NativeArray<T>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnableInstance",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetColor_Injected",
+          "parameters": [
+            {
+              "name": "color",
+              "type": "UnityEngine.Color&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetColor_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Color&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnableRectClipping_Injected",
+          "parameters": [
+            {
+              "name": "rect",
+              "type": "UnityEngine.Rect&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_clippingSoftness_Injected",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector2&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_clippingHGSoftness_Injected",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector4&"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CanvasRenderer",
+      "namespace": "UnityEngine",
+      "parent": "Component",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_Corners",
+          "offset": 0,
+          "type": "UnityEngine.Vector3[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PixelAdjustPoint",
+          "parameters": [
+            {
+              "name": "point",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "elementTransform",
+              "type": "UnityEngine.Transform"
+            },
+            {
+              "name": "canvas",
+              "type": "UnityEngine.Canvas"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PixelAdjustRect",
+          "parameters": [
+            {
+              "name": "rectTransform",
+              "type": "UnityEngine.RectTransform"
+            },
+            {
+              "name": "canvas",
+              "type": "UnityEngine.Canvas"
+            }
+          ],
+          "return_type": "UnityEngine.Rect"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PointInRectangle",
+          "parameters": [
+            {
+              "name": "screenPoint",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "rect",
+              "type": "UnityEngine.RectTransform"
+            },
+            {
+              "name": "cam",
+              "type": "UnityEngine.Camera"
+            },
+            {
+              "name": "offset",
+              "type": "UnityEngine.Vector4"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RectangleContainsScreenPoint",
+          "parameters": [
+            {
+              "name": "rect",
+              "type": "UnityEngine.RectTransform"
+            },
+            {
+              "name": "screenPoint",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RectangleContainsScreenPoint",
+          "parameters": [
+            {
+              "name": "rect",
+              "type": "UnityEngine.RectTransform"
+            },
+            {
+              "name": "screenPoint",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "cam",
+              "type": "UnityEngine.Camera"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RectangleContainsScreenPoint",
+          "parameters": [
+            {
+              "name": "rect",
+              "type": "UnityEngine.RectTransform"
+            },
+            {
+              "name": "screenPoint",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "cam",
+              "type": "UnityEngine.Camera"
+            },
+            {
+              "name": "offset",
+              "type": "UnityEngine.Vector4"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ScreenPointToWorldPointInRectangle",
+          "parameters": [
+            {
+              "name": "rect",
+              "type": "UnityEngine.RectTransform"
+            },
+            {
+              "name": "screenPoint",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "cam",
+              "type": "UnityEngine.Camera"
+            },
+            {
+              "name": "worldPoint",
+              "type": "UnityEngine.Vector3&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ScreenPointToLocalPointInRectangle",
+          "parameters": [
+            {
+              "name": "rect",
+              "type": "UnityEngine.RectTransform"
+            },
+            {
+              "name": "screenPoint",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "cam",
+              "type": "UnityEngine.Camera"
+            },
+            {
+              "name": "localPoint",
+              "type": "UnityEngine.Vector2&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ScreenPointToRay",
+          "parameters": [
+            {
+              "name": "cam",
+              "type": "UnityEngine.Camera"
+            },
+            {
+              "name": "screenPos",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "UnityEngine.Ray"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WorldToScreenPoint",
+          "parameters": [
+            {
+              "name": "cam",
+              "type": "UnityEngine.Camera"
+            },
+            {
+              "name": "worldPoint",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculateRelativeRectTransformBounds",
+          "parameters": [
+            {
+              "name": "root",
+              "type": "UnityEngine.Transform"
+            },
+            {
+              "name": "child",
+              "type": "UnityEngine.Transform"
+            }
+          ],
+          "return_type": "UnityEngine.Bounds"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculateRelativeRectTransformBounds",
+          "parameters": [
+            {
+              "name": "trans",
+              "type": "UnityEngine.Transform"
+            }
+          ],
+          "return_type": "UnityEngine.Bounds"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FlipLayoutOnAxis",
+          "parameters": [
+            {
+              "name": "rect",
+              "type": "UnityEngine.RectTransform"
+            },
+            {
+              "name": "axis",
+              "type": "System.Int32"
+            },
+            {
+              "name": "keepPositioning",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "recursive",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FlipLayoutAxes",
+          "parameters": [
+            {
+              "name": "rect",
+              "type": "UnityEngine.RectTransform"
+            },
+            {
+              "name": "keepPositioning",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "recursive",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTransposed",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PixelAdjustPoint_Injected",
+          "parameters": [
+            {
+              "name": "point",
+              "type": "UnityEngine.Vector2&"
+            },
+            {
+              "name": "elementTransform",
+              "type": "UnityEngine.Transform"
+            },
+            {
+              "name": "canvas",
+              "type": "UnityEngine.Canvas"
+            },
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector2&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PixelAdjustRect_Injected",
+          "parameters": [
+            {
+              "name": "rectTransform",
+              "type": "UnityEngine.RectTransform"
+            },
+            {
+              "name": "canvas",
+              "type": "UnityEngine.Canvas"
+            },
+            {
+              "name": "ret",
+              "type": "UnityEngine.Rect&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PointInRectangle_Injected",
+          "parameters": [
+            {
+              "name": "screenPoint",
+              "type": "UnityEngine.Vector2&"
+            },
+            {
+              "name": "rect",
+              "type": "UnityEngine.RectTransform"
+            },
+            {
+              "name": "cam",
+              "type": "UnityEngine.Camera"
+            },
+            {
+              "name": "offset",
+              "type": "UnityEngine.Vector4&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "RectTransformUtility",
+      "namespace": "UnityEngine",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ScreenSpaceOverlay",
+          "offset": 0,
+          "type": "UnityEngine.RenderMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ScreenSpaceCamera",
+          "offset": 0,
+          "type": "UnityEngine.RenderMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "WorldSpace",
+          "offset": 0,
+          "type": "UnityEngine.RenderMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "RenderMode",
+      "namespace": "UnityEngine",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "UnityEngine.AdditionalCanvasShaderChannels"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "TexCoord1",
+          "offset": 0,
+          "type": "UnityEngine.AdditionalCanvasShaderChannels"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "TexCoord2",
+          "offset": 0,
+          "type": "UnityEngine.AdditionalCanvasShaderChannels"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "TexCoord3",
+          "offset": 0,
+          "type": "UnityEngine.AdditionalCanvasShaderChannels"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Normal",
+          "offset": 0,
+          "type": "UnityEngine.AdditionalCanvasShaderChannels"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Tangent",
+          "offset": 0,
+          "type": "UnityEngine.AdditionalCanvasShaderChannels"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "AdditionalCanvasShaderChannels",
+      "namespace": "UnityEngine",
+      "type_token": 33554440
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "WillRenderCanvases",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "preWillRenderCanvases",
+          "offset": 0,
+          "type": "UnityEngine.Canvas.WillRenderCanvases"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "willRenderCanvases",
+          "offset": 8,
+          "type": "UnityEngine.Canvas.WillRenderCanvases"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "<externBeginRenderOverlays>k__BackingField",
+          "offset": 16,
+          "type": "System.Action<System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "<externRenderOverlaysBefore>k__BackingField",
+          "offset": 24,
+          "type": "System.Action<System.Int32,System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "<externEndRenderOverlays>k__BackingField",
+          "offset": 32,
+          "type": "System.Action<System.Int32>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_preWillRenderCanvases",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Canvas.WillRenderCanvases"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_preWillRenderCanvases",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Canvas.WillRenderCanvases"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_willRenderCanvases",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Canvas.WillRenderCanvases"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_willRenderCanvases",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Canvas.WillRenderCanvases"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_renderMode",
+          "parameters": [],
+          "return_type": "UnityEngine.RenderMode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_renderMode",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.RenderMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_isRootCanvas",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_pixelRect",
+          "parameters": [],
+          "return_type": "UnityEngine.Rect"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_scaleFactor",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_scaleFactor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_referencePixelsPerUnit",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_referencePixelsPerUnit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_overridePixelPerfect",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_overridePixelPerfect",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_vertexColorAlwaysGammaSpace",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_vertexColorAlwaysGammaSpace",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_pixelPerfect",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_pixelPerfect",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_planeDistance",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_planeDistance",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_renderOrder",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_overrideSorting",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_overrideSorting",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sortingOrder",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_sortingOrder",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_targetDisplay",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_targetDisplay",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sortingLayerID",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_sortingLayerID",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_cachedSortingLayerValue",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_additionalShaderChannels",
+          "parameters": [],
+          "return_type": "UnityEngine.AdditionalCanvasShaderChannels"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_additionalShaderChannels",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.AdditionalCanvasShaderChannels"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sortingLayerName",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_sortingLayerName",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_rootCanvas",
+          "parameters": [],
+          "return_type": "UnityEngine.Canvas"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_renderingDisplaySize",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_externBeginRenderOverlays",
+          "parameters": [],
+          "return_type": "System.Action<System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_externBeginRenderOverlays",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<System.Int32>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_externRenderOverlaysBefore",
+          "parameters": [],
+          "return_type": "System.Action<System.Int32,System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_externRenderOverlaysBefore",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<System.Int32,System.Int32>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_externEndRenderOverlays",
+          "parameters": [],
+          "return_type": "System.Action<System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_externEndRenderOverlays",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<System.Int32>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetExternalCanvasEnabled",
+          "parameters": [
+            {
+              "name": "enabled",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_worldCamera",
+          "parameters": [],
+          "return_type": "UnityEngine.Camera"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_worldCamera",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Camera"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_normalizedSortingGridSize",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_normalizedSortingGridSize",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sortingGridNormalizedSize",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_sortingGridNormalizedSize",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDefaultCanvasTextMaterial",
+          "parameters": [],
+          "return_type": "UnityEngine.Material"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDefaultCanvasMaterial",
+          "parameters": [],
+          "return_type": "UnityEngine.Material"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetETC1SupportedCanvasMaterial",
+          "parameters": [],
+          "return_type": "UnityEngine.Material"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateCanvasRectTransform",
+          "parameters": [
+            {
+              "name": "alignWithCamera",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ForceUpdateCanvases",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SendPreWillRenderCanvases",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SendWillRenderCanvases",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginRenderExtraOverlays",
+          "parameters": [
+            {
+              "name": "displayIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RenderExtraOverlaysBefore",
+          "parameters": [
+            {
+              "name": "displayIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "sortingOrder",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndRenderExtraOverlays",
+          "parameters": [
+            {
+              "name": "displayIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_pixelRect_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Rect&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_renderingDisplaySize_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector2&"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Canvas",
+      "namespace": "UnityEngine",
+      "parent": "Behaviour",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Layout",
+          "offset": 0,
+          "type": "UnityEngine.UISystemProfilerApi.SampleType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Render",
+          "offset": 0,
+          "type": "UnityEngine.UISystemProfilerApi.SampleType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "SampleType",
+      "namespace": "",
+      "type_token": 33554444
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginSample",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "UnityEngine.UISystemProfilerApi.SampleType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndSample",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "UnityEngine.UISystemProfilerApi.SampleType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddMarker",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "obj",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UISystemProfilerApi",
+      "namespace": "UnityEngine",
+      "type_token": 33554443
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.UIModule.dll"
+}

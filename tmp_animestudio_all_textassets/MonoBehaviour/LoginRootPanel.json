@@ -1,0 +1,44 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6086208467642486183
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -4295357854250591804
+  },
+  "m_Name": "",
+  "_notchAdapter": {
+    "m_FileID": 0,
+    "m_PathID": 8752106805574562393
+  },
+  "_menuPanel": {
+    "m_FileID": 0,
+    "m_PathID": -8764530229319372199
+  },
+  "_ageTipsPanel": {
+    "m_FileID": 0,
+    "m_PathID": 8745972075565019737
+  },
+  "_govTipsPanel": {
+    "m_FileID": 0,
+    "m_PathID": -8446248124720221607
+  },
+  "_resPanel": {
+    "m_FileID": 0,
+    "m_PathID": 5216795962432287321
+  },
+  "_enterGamePanel": {
+    "m_FileID": 0,
+    "m_PathID": -614954665713339815
+  },
+  "_serverSelectPanel": {
+    "m_FileID": 0,
+    "m_PathID": 5290049386239947353
+  },
+  "_bindingGroup": {
+    "m_FileID": 0,
+    "m_PathID": -309671225598348711
+  }
+}

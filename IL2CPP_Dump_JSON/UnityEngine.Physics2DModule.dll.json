@@ -1,0 +1,2081 @@
+{
+  "class_count": 16,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Handle",
+          "offset": 16,
+          "type": "System.Int32"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.PhysicsScene2D"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Linecast",
+          "parameters": [
+            {
+              "name": "start",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "end",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "contactFilter",
+              "type": "UnityEngine.ContactFilter2D"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Linecast_Internal",
+          "parameters": [
+            {
+              "name": "physicsScene",
+              "type": "UnityEngine.PhysicsScene2D"
+            },
+            {
+              "name": "start",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "end",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "contactFilter",
+              "type": "UnityEngine.ContactFilter2D"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Raycast",
+          "parameters": [
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "layerMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Raycast",
+          "parameters": [
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "contactFilter",
+              "type": "UnityEngine.ContactFilter2D"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Raycast_Internal",
+          "parameters": [
+            {
+              "name": "physicsScene",
+              "type": "UnityEngine.PhysicsScene2D"
+            },
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "contactFilter",
+              "type": "UnityEngine.ContactFilter2D"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Raycast",
+          "parameters": [
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "contactFilter",
+              "type": "UnityEngine.ContactFilter2D"
+            },
+            {
+              "name": "results",
+              "type": "UnityEngine.RaycastHit2D[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RaycastArray_Internal",
+          "parameters": [
+            {
+              "name": "physicsScene",
+              "type": "UnityEngine.PhysicsScene2D"
+            },
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "contactFilter",
+              "type": "UnityEngine.ContactFilter2D"
+            },
+            {
+              "name": "results",
+              "type": "UnityEngine.RaycastHit2D[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Raycast",
+          "parameters": [
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "contactFilter",
+              "type": "UnityEngine.ContactFilter2D"
+            },
+            {
+              "name": "results",
+              "type": "System.Collections.Generic.List<UnityEngine.RaycastHit2D>"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RaycastList_Internal",
+          "parameters": [
+            {
+              "name": "physicsScene",
+              "type": "UnityEngine.PhysicsScene2D"
+            },
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "contactFilter",
+              "type": "UnityEngine.ContactFilter2D"
+            },
+            {
+              "name": "results",
+              "type": "System.Collections.Generic.List<UnityEngine.RaycastHit2D>"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRayIntersection",
+          "parameters": [
+            {
+              "name": "ray",
+              "type": "UnityEngine.Ray"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "layerMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRayIntersection_Internal",
+          "parameters": [
+            {
+              "name": "physicsScene",
+              "type": "UnityEngine.PhysicsScene2D"
+            },
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "layerMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRayIntersection",
+          "parameters": [
+            {
+              "name": "ray",
+              "type": "UnityEngine.Ray"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "results",
+              "type": "UnityEngine.RaycastHit2D[]"
+            },
+            {
+              "name": "layerMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRayIntersectionArray_Internal",
+          "parameters": [
+            {
+              "name": "physicsScene",
+              "type": "UnityEngine.PhysicsScene2D"
+            },
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "layerMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "results",
+              "type": "UnityEngine.RaycastHit2D[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Linecast_Internal_Injected",
+          "parameters": [
+            {
+              "name": "physicsScene",
+              "type": "UnityEngine.PhysicsScene2D&"
+            },
+            {
+              "name": "start",
+              "type": "UnityEngine.Vector2&"
+            },
+            {
+              "name": "end",
+              "type": "UnityEngine.Vector2&"
+            },
+            {
+              "name": "contactFilter",
+              "type": "UnityEngine.ContactFilter2D&"
+            },
+            {
+              "name": "ret",
+              "type": "UnityEngine.RaycastHit2D&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Raycast_Internal_Injected",
+          "parameters": [
+            {
+              "name": "physicsScene",
+              "type": "UnityEngine.PhysicsScene2D&"
+            },
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector2&"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector2&"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "contactFilter",
+              "type": "UnityEngine.ContactFilter2D&"
+            },
+            {
+              "name": "ret",
+              "type": "UnityEngine.RaycastHit2D&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RaycastArray_Internal_Injected",
+          "parameters": [
+            {
+              "name": "physicsScene",
+              "type": "UnityEngine.PhysicsScene2D&"
+            },
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector2&"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector2&"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "contactFilter",
+              "type": "UnityEngine.ContactFilter2D&"
+            },
+            {
+              "name": "results",
+              "type": "UnityEngine.RaycastHit2D[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RaycastList_Internal_Injected",
+          "parameters": [
+            {
+              "name": "physicsScene",
+              "type": "UnityEngine.PhysicsScene2D&"
+            },
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector2&"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector2&"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "contactFilter",
+              "type": "UnityEngine.ContactFilter2D&"
+            },
+            {
+              "name": "results",
+              "type": "System.Collections.Generic.List<UnityEngine.RaycastHit2D>"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRayIntersection_Internal_Injected",
+          "parameters": [
+            {
+              "name": "physicsScene",
+              "type": "UnityEngine.PhysicsScene2D&"
+            },
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "layerMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "ret",
+              "type": "UnityEngine.RaycastHit2D&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRayIntersectionArray_Internal_Injected",
+          "parameters": [
+            {
+              "name": "physicsScene",
+              "type": "UnityEngine.PhysicsScene2D&"
+            },
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "layerMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "results",
+              "type": "UnityEngine.RaycastHit2D[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "PhysicsScene2D",
+      "namespace": "UnityEngine",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "m_LastDisabledRigidbody2D",
+          "offset": 0,
+          "type": "System.Collections.Generic.List<UnityEngine.Rigidbody2D>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_defaultPhysicsScene",
+          "parameters": [],
+          "return_type": "UnityEngine.PhysicsScene2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_gravity",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_queriesHitTriggers",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Linecast",
+          "parameters": [
+            {
+              "name": "start",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "end",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "layerMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LinecastAll",
+          "parameters": [
+            {
+              "name": "start",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "end",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "layerMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LinecastAll_Internal",
+          "parameters": [
+            {
+              "name": "physicsScene",
+              "type": "UnityEngine.PhysicsScene2D"
+            },
+            {
+              "name": "start",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "end",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "contactFilter",
+              "type": "UnityEngine.ContactFilter2D"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Raycast",
+          "parameters": [
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Raycast",
+          "parameters": [
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Raycast",
+          "parameters": [
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "layerMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Raycast",
+          "parameters": [
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "layerMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "minDepth",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Raycast",
+          "parameters": [
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "layerMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "minDepth",
+              "type": "System.Single"
+            },
+            {
+              "name": "maxDepth",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Raycast",
+          "parameters": [
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "contactFilter",
+              "type": "UnityEngine.ContactFilter2D"
+            },
+            {
+              "name": "results",
+              "type": "UnityEngine.RaycastHit2D[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Raycast",
+          "parameters": [
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "contactFilter",
+              "type": "UnityEngine.ContactFilter2D"
+            },
+            {
+              "name": "results",
+              "type": "UnityEngine.RaycastHit2D[]"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Raycast",
+          "parameters": [
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "contactFilter",
+              "type": "UnityEngine.ContactFilter2D"
+            },
+            {
+              "name": "results",
+              "type": "System.Collections.Generic.List<UnityEngine.RaycastHit2D>"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRayIntersection",
+          "parameters": [
+            {
+              "name": "ray",
+              "type": "UnityEngine.Ray"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "layerMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRayIntersectionAll",
+          "parameters": [
+            {
+              "name": "ray",
+              "type": "UnityEngine.Ray"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRayIntersectionAll",
+          "parameters": [
+            {
+              "name": "ray",
+              "type": "UnityEngine.Ray"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRayIntersectionAll",
+          "parameters": [
+            {
+              "name": "ray",
+              "type": "UnityEngine.Ray"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "layerMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRayIntersectionAll_Internal",
+          "parameters": [
+            {
+              "name": "physicsScene",
+              "type": "UnityEngine.PhysicsScene2D"
+            },
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "layerMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRayIntersectionNonAlloc",
+          "parameters": [
+            {
+              "name": "ray",
+              "type": "UnityEngine.Ray"
+            },
+            {
+              "name": "results",
+              "type": "UnityEngine.RaycastHit2D[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRayIntersectionNonAlloc",
+          "parameters": [
+            {
+              "name": "ray",
+              "type": "UnityEngine.Ray"
+            },
+            {
+              "name": "results",
+              "type": "UnityEngine.RaycastHit2D[]"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRayIntersectionNonAlloc",
+          "parameters": [
+            {
+              "name": "ray",
+              "type": "UnityEngine.Ray"
+            },
+            {
+              "name": "results",
+              "type": "UnityEngine.RaycastHit2D[]"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "layerMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_gravity_Injected",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector2&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LinecastAll_Internal_Injected",
+          "parameters": [
+            {
+              "name": "physicsScene",
+              "type": "UnityEngine.PhysicsScene2D&"
+            },
+            {
+              "name": "start",
+              "type": "UnityEngine.Vector2&"
+            },
+            {
+              "name": "end",
+              "type": "UnityEngine.Vector2&"
+            },
+            {
+              "name": "contactFilter",
+              "type": "UnityEngine.ContactFilter2D&"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRayIntersectionAll_Internal_Injected",
+          "parameters": [
+            {
+              "name": "physicsScene",
+              "type": "UnityEngine.PhysicsScene2D&"
+            },
+            {
+              "name": "origin",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "direction",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "distance",
+              "type": "System.Single"
+            },
+            {
+              "name": "layerMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.RaycastHit2D[]"
+        }
+      ],
+      "name": "Physics2D",
+      "namespace": "UnityEngine",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "UnityEngine.RigidbodyInterpolation2D"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Interpolate",
+          "offset": 0,
+          "type": "UnityEngine.RigidbodyInterpolation2D"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Extrapolate",
+          "offset": 0,
+          "type": "UnityEngine.RigidbodyInterpolation2D"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "RigidbodyInterpolation2D",
+      "namespace": "UnityEngine",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "NeverSleep",
+          "offset": 0,
+          "type": "UnityEngine.RigidbodySleepMode2D"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "StartAwake",
+          "offset": 0,
+          "type": "UnityEngine.RigidbodySleepMode2D"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "StartAsleep",
+          "offset": 0,
+          "type": "UnityEngine.RigidbodySleepMode2D"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "RigidbodySleepMode2D",
+      "namespace": "UnityEngine",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "UnityEngine.CollisionDetectionMode2D"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Discrete",
+          "offset": 0,
+          "type": "UnityEngine.CollisionDetectionMode2D"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Continuous",
+          "offset": 0,
+          "type": "UnityEngine.CollisionDetectionMode2D"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "CollisionDetectionMode2D",
+      "namespace": "UnityEngine",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "useTriggers",
+          "offset": 16,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "useLayerMask",
+          "offset": 17,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "useDepth",
+          "offset": 18,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "useOutsideDepth",
+          "offset": 19,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "useNormalAngle",
+          "offset": 20,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "useOutsideNormalAngle",
+          "offset": 21,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "layerMask",
+          "offset": 24,
+          "type": "UnityEngine.LayerMask"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "minDepth",
+          "offset": 28,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "maxDepth",
+          "offset": 32,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "minNormalAngle",
+          "offset": 36,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "maxNormalAngle",
+          "offset": 40,
+          "type": "System.Single"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CheckConsistency",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetLayerMask",
+          "parameters": [
+            {
+              "name": "layerMask",
+              "type": "UnityEngine.LayerMask"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetDepth",
+          "parameters": [
+            {
+              "name": "minDepth",
+              "type": "System.Single"
+            },
+            {
+              "name": "maxDepth",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateLegacyFilter",
+          "parameters": [
+            {
+              "name": "layerMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "minDepth",
+              "type": "System.Single"
+            },
+            {
+              "name": "maxDepth",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.ContactFilter2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CheckConsistency_Injected",
+          "parameters": [
+            {
+              "name": "_unity_self",
+              "type": "UnityEngine.ContactFilter2D&"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ContactFilter2D",
+      "namespace": "UnityEngine",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Collider",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_OtherCollider",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Rigidbody",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_OtherRigidbody",
+          "offset": 28,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_RelativeVelocity",
+          "offset": 32,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Enabled",
+          "offset": 40,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_ContactCount",
+          "offset": 44,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_ReusedContacts",
+          "offset": 48,
+          "type": "UnityEngine.ContactPoint2D[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_LegacyContacts",
+          "offset": 56,
+          "type": "UnityEngine.ContactPoint2D[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_collider",
+          "parameters": [],
+          "return_type": "UnityEngine.Collider2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_rigidbody",
+          "parameters": [],
+          "return_type": "UnityEngine.Rigidbody2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_gameObject",
+          "parameters": [],
+          "return_type": "UnityEngine.GameObject"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_relativeVelocity",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_contacts",
+          "parameters": [],
+          "return_type": "UnityEngine.ContactPoint2D[]"
+        }
+      ],
+      "name": "Collision2D",
+      "namespace": "UnityEngine",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Point",
+          "offset": 16,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Normal",
+          "offset": 24,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_RelativeVelocity",
+          "offset": 32,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Separation",
+          "offset": 40,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_NormalImpulse",
+          "offset": 44,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_TangentImpulse",
+          "offset": 48,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Collider",
+          "offset": 52,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_OtherCollider",
+          "offset": 56,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Rigidbody",
+          "offset": 60,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_OtherRigidbody",
+          "offset": 64,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Enabled",
+          "offset": 68,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_point",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_normal",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_collider",
+          "parameters": [],
+          "return_type": "UnityEngine.Collider2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_otherCollider",
+          "parameters": [],
+          "return_type": "UnityEngine.Collider2D"
+        }
+      ],
+      "name": "ContactPoint2D",
+      "namespace": "UnityEngine",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Centroid",
+          "offset": 16,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Point",
+          "offset": 24,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Normal",
+          "offset": 32,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Distance",
+          "offset": 40,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Fraction",
+          "offset": 44,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Collider",
+          "offset": 48,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_point",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_normal",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_distance",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_fraction",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_collider",
+          "parameters": [],
+          "return_type": "UnityEngine.Collider2D"
+        }
+      ],
+      "name": "RaycastHit2D",
+      "namespace": "UnityEngine",
+      "type_token": 33554442
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_velocity",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_mass",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_velocity_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector2&"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Rigidbody2D",
+      "namespace": "UnityEngine",
+      "parent": "Component",
+      "type_token": 33554443
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_offset",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_attachedRigidbody",
+          "parameters": [],
+          "return_type": "UnityEngine.Rigidbody2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OverlapPoint",
+          "parameters": [
+            {
+              "name": "point",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_offset_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector2&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OverlapPoint_Injected",
+          "parameters": [
+            {
+              "name": "point",
+              "type": "UnityEngine.Vector2&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "Collider2D",
+      "namespace": "UnityEngine",
+      "parent": "Behaviour",
+      "type_token": 33554444
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "CircleCollider2D",
+      "namespace": "UnityEngine",
+      "parent": "Collider2D",
+      "type_token": 33554445
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTotalPointCount",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_pathCount",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPath",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPath_Internal",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2[]"
+        }
+      ],
+      "name": "PolygonCollider2D",
+      "namespace": "UnityEngine",
+      "parent": "Collider2D",
+      "type_token": 33554446
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_pathCount",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_pointCount",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPath",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "points",
+              "type": "UnityEngine.Vector2[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPathArray_Internal",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "points",
+              "type": "UnityEngine.Vector2[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "CompositeCollider2D",
+      "namespace": "UnityEngine",
+      "parent": "Collider2D",
+      "type_token": 33554447
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "PhysicsMaterial2D",
+      "namespace": "UnityEngine",
+      "type_token": 33554448
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.Physics2DModule.dll"
+}

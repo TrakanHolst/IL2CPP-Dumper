@@ -1,0 +1,1228 @@
+﻿Key,Module,Translation
+app.description,app,"Advanced tools and utilities for Arknights: Endfield including factory planner, headhunt summon simulator, character planner, character showcase, and community plans."
+app.title,app,EndfieldTools.DEV - Arknights: Endfield Tools & Utilities
+ascension.add_character,ascension,Add Character
+ascension.add_character_desc,ascension,Plan level and skill upgrades
+ascension.add_weapon,ascension,Add Weapon
+ascension.add_weapon_desc,ascension,Plan breakthrough upgrades
+ascension.category_breakthrough_char,ascension,Character Breakthrough
+ascension.category_breakthrough_weapon,ascension,Weapon Breakthrough
+ascension.category_exp,ascension,Experience
+ascension.category_exp_char,ascension,Character EXP
+ascension.category_exp_weapon,ascension,Weapon EXP
+ascension.category_gold,ascension,Gold
+ascension.category_plant,ascension,Plant Materials
+ascension.category_skill_crown,ascension,Skill Crown
+ascension.category_skill_level,ascension,Skill Level-Up
+ascension.category_skill_specialize,ascension,Skill Specialization
+ascension.clear_all,ascension,Clear All
+ascension.deficit,ascension,Deficit
+ascension.description,ascension,Plan your character and weapon upgrades. Track materials and manage your inventory.
+ascension.farming_list,ascension,Farming List
+ascension.from_level,ascension,From Level
+ascension.include_skills,ascension,Include Skills
+ascension.inventory,ascension,Inventory
+ascension.inventory_hint,ascension,Use Tab or Enter to navigate between inputs
+ascension.inventory_search,ascension,Search materials...
+ascension.inventory_title,ascension,Material Inventory
+ascension.keep_in_inventory,ascension,Keep in Inventory
+ascension.level_range,ascension,Level Range
+ascension.levels,ascension,Levels
+ascension.materials_needed,ascension,Need
+ascension.materials_required,ascension,Materials Required
+ascension.no_items,ascension,No characters or weapons added yet
+ascension.no_items_found,ascension,No items found
+ascension.no_items_hint,ascension,Click the buttons above to start planning your upgrades
+ascension.no_materials,ascension,No materials needed
+ascension.no_materials_allocated,ascension,No materials allocated from inventory.
+ascension.owned,ascension,Have
+ascension.planner,ascension,Planner
+ascension.priority,ascension,Priority
+ascension.priority_mode,ascension,Toggle priority reordering
+ascension.remove,ascension,Remove
+ascension.remove_and_delete,ascension,Remove & Delete
+ascension.remove_confirm_message,ascension,These materials were allocated to {name}:
+ascension.remove_confirm_title,ascension,Remove from Inventory?
+ascension.select_character,ascension,Select Character
+ascension.select_weapon,ascension,Select Weapon
+ascension.skill_from_level,ascension,
+ascension.skill_level,ascension,Skill Level
+ascension.skill_to_level,ascension,
+ascension.skills,ascension,Skills
+ascension.talents,ascension,Talents
+ascension.title,ascension,Ascension Planner
+ascension.to_level,ascension,To Level
+ascension.total_exp,ascension,Total
+ascension.total_items,ascension,Total: {count} items
+ascension.welcome_description,ascension,Plan your character and weapon upgrades by adding them to your list. Track materials needed and monitor your progress.
+ascension.welcome_title,ascension,Welcome to the Ascension Planner
+auth.login,auth,Login
+auth.logout,auth,Logout
+auth.setup_username,auth,Welcome! Please set up your username.
+auth.signup,auth,Sign Up
+auth.welcome_back,auth,"Welcome back, {username}!"
+buildings.sub_automation_core,buildings,Sub-Automation Core
+buildings.sub_automation_core.desc,buildings,Routes different items to each output port. All inputs are consumed.
+builds.add_alt_weapon,builds,Alt
+builds.add_alternative,builds,Add Alternative
+builds.add_character,builds,Add Character
+builds.add_recommended_partner,builds,Add Recommended Partner
+builds.all_time,builds,All Time
+builds.alt_label_placeholder,builds,Alt
+builds.alternative,builds,Alternative
+builds.alternative_equipment,builds,Alternative
+builds.alternative_label_placeholder,builds,"Label (e.g., Budget Option, Late Game)"
+builds.alternative_reason_placeholder,builds,Why is this an alternative?
+builds.apply_filters,builds,Apply Filters
+builds.auto_saved,builds,Auto-saved
+builds.back_to_character,builds,Back to Builds
+builds.back_to_list,builds,Back to Builds
+builds.be_first_character,builds,Be the first to share a build for this character!
+builds.be_first_to_share,builds,Be the first to share your build with the community!
+builds.browse_builds,builds,Browse Builds
+builds.browse_character_builds,builds,Browse community builds for this character
+builds.build,builds,Builds
+builds.build_character,builds,Build a Character
+builds.build_description,builds,Build Guide
+builds.build_name,builds,Build Name
+builds.build_team,builds,Build a Team
+builds.by,builds,by
+builds.change_alt_weapon,builds,Change Alternative Weapon
+builds.change_character,builds,Change Character
+builds.character_desc,builds,Select main character for this build
+builds.character_level,builds,Level
+builds.character_not_found,builds,Character not found
+builds.character_not_found_desc,builds,This character could not be found.
+builds.characters,builds,characters
+builds.clear_draft,builds,Clear draft
+builds.clear_filters,builds,Clear Filters
+builds.click_to_add_partners,builds,Click characters to add them
+builds.comments,builds,Comments
+builds.comments_count,builds,comments
+builds.confirm_delete,builds,Are you sure you want to delete this build? This action cannot be undone.
+builds.copied,builds,Copied!
+builds.copy_to_clipboard,builds,Copy to Clipboard
+builds.counted_in_calculations,builds,Counted in calculations
+builds.create_and_share,builds,Create and Share Build
+builds.create_build,builds,Create Build
+builds.create_character,builds,Create Character Build
+builds.create_first,builds,Create Your First Build
+builds.create_new,builds,Create New Build
+builds.create_team,builds,Create Team Build
+builds.create_your_own,builds,Create your own build!
+builds.delete_success,builds,Build deleted successfully
+builds.description,builds,Create and share character builds with the community
+builds.edit_mode,builds,Edit
+builds.edit_reason,builds,Edit Reason
+builds.equipment,builds,Equipment
+builds.equipment_body,builds,Body
+builds.equipment_bonuses,builds,Equipment Bonuses
+builds.equipment_edc,builds,EDC
+builds.equipment_hand,builds,Hand
+builds.equipment_medical,builds,Medical
+builds.equipment_medical_coming_soon,builds,Medical items coming soon
+builds.equipment_reason_placeholder,builds,Why did you choose this equipment setup?
+builds.error_delete,builds,Failed to delete build
+builds.error_load_build,builds,Failed to load build for editing
+builds.error_loading,builds,Failed to load builds
+builds.error_name_required,builds,Build name is required
+builds.error_no_main_character,builds,Please select a main character
+builds.error_title,builds,Build Not Found
+builds.error_toggle,builds,Failed to toggle visibility
+builds.explain_why,builds,Explain Why
+builds.export_build,builds,Export Build
+builds.filter_by_character,builds,Main Character
+builds.filter_by_element,builds,Element Type
+builds.filter_by_partner,builds,Team Partner
+builds.filter_by_set,builds,Equipment Set
+builds.filter_by_tag,builds,Tag
+builds.filter_by_weapon,builds,Weapon
+builds.filter_character,builds,Character
+builds.filter_has_video,builds,Has Video Guide
+builds.filter_weapon,builds,Weapon Type
+builds.filters,builds,Filters
+builds.guide,builds,Build Guide
+builds.hide_section,builds,Hide this section
+builds.hide_stats,builds,Hide Stats
+builds.import_build,builds,Import Build
+builds.import_error,builds,Invalid build data. Please check the JSON format.
+builds.import_export,builds,Import/Export Build
+builds.import_placeholder,builds,Paste your build JSON here to import...
+builds.import_success,builds,Build imported successfully!
+builds.latest_builds,builds,Latest Builds
+builds.liked_builds,builds,Liked Builds
+builds.likes,builds,likes
+builds.link_copied,builds,Link copied to clipboard!
+builds.loading_builds,builds,Loading builds...
+builds.login_required,builds,Login required to save builds
+builds.main_equipment,builds,Main Equipment
+builds.make_public,builds,Make Public
+builds.manage_builds,builds,Manage Builds
+builds.max_2_tags,builds,Max 2
+builds.max_partners_reached,builds,Maximum 10 partners reached
+builds.most_liked,builds,Most Liked
+builds.most_popular,builds,Most Popular
+builds.my_builds,builds,My Builds
+builds.no_build_specified,builds,No Build Specified
+builds.no_build_specified_desc,builds,Please select a build to view.
+builds.no_builds_character,builds,No builds yet
+builds.no_builds_period,builds,No builds found for this time period.
+builds.no_builds_yet,builds,You haven't created any builds yet
+builds.no_character_selected,builds,No character in this build
+builds.no_community_builds,builds,No Community Builds Yet
+builds.no_description,builds,No description provided
+builds.no_equipment_selected,builds,No equipment selected
+builds.no_liked_builds,builds,You haven't liked any builds yet
+builds.no_notes,builds,No notes provided
+builds.no_results,builds,No builds found
+builds.no_results_desc,builds,No builds match your current filters. Try adjusting your filters or browse popular builds below.
+builds.no_weapon,builds,No weapon selected
+builds.not_found,builds,Build not found or you don't have permission to view it
+builds.not_found_desc,builds,The build you're looking for doesn't exist or has been removed.
+builds.notes,builds,Notes
+builds.nothing_recommended,builds,Nothing recommended
+builds.other_recommended_partners,builds,Other Recommended Partners
+builds.partner,builds,Partner
+builds.partners_explanation_placeholder,builds,Explain why these characters work well with your build...
+builds.popular_this_week,builds,This Week's Popular Builds
+builds.preview,builds,Preview
+builds.preview_note,builds,This is a preview of how your build will appear to others
+builds.private,builds,Private
+builds.public,builds,Public
+builds.publish,builds,Publish
+builds.recommended_partners_help,builds,Suggest other characters that synergize well with this build
+builds.remove_alternative,builds,Remove Alternative
+builds.remove_character,builds,Remove
+builds.remove_to_add_more,builds,Remove a partner to add a different one
+builds.reset_filters,builds,Reset Filters
+builds.results_for,builds,Results for
+builds.role,builds,Role
+builds.save_build,builds,Save Build
+builds.save_error,builds,Failed to save build. Please try again.
+builds.save_requirements,builds,Build name and at least one character required
+builds.save_success,builds,Build saved successfully!
+builds.saving,builds,Saving...
+builds.search_equipment,builds,"Search by set name, stat, or effect..."
+builds.search_placeholder,builds,Search builds...
+builds.search_results,builds,Search Results
+builds.select_equipment,builds,Select Equipment
+builds.select_partner_to_recommend,builds,Select a character to add as a recommended partner
+builds.select_weapon,builds,Select Weapon
+builds.selected_partners,builds,Selected
+builds.set_bonuses,builds,Set Bonuses
+builds.share_with_community,builds,Share your strategy with the community
+builds.short_description,builds,Short Description
+builds.show_stats,builds,Show Stats
+builds.single_build,builds,Single Build
+builds.single_char,builds,Single character
+builds.single_mode,builds,Single Character
+builds.skill_priority,builds,Skill Priority
+builds.skill_priority_reason_placeholder,builds,Why this leveling order?
+builds.skill_type_combo,builds,Combo
+builds.skill_type_normal,builds,Normal
+builds.skill_type_ultimate,builds,Ultimate
+builds.skill_upgrade_priority,builds,Skill Upgrade Priority
+builds.skills,builds,Skills
+builds.solo_build,builds,Solo Build
+builds.sort_by,builds,Sort By
+builds.sort_latest,builds,Latest
+builds.sort_popular,builds,Popular
+builds.subtitle,builds,Browse and share team builds
+builds.tag_boss,builds,Boss
+builds.tag_early_game,builds,Early Game
+builds.tag_f2p_friendly,builds,F2P-Friendly
+builds.tag_farming,builds,Farming
+builds.tag_help,builds,Select up to 2 tags to help players find your build
+builds.tag_late_game,builds,Late Game
+builds.tag_mid_game,builds,Mid Game
+builds.tag_not_f2p_friendly,builds,Not F2P Friendly
+builds.tags,builds,Tags
+builds.team_build,builds,Team Build
+builds.team_desc,builds,Create a team with up to 4 characters
+builds.team_mode,builds,Team (up to 4)
+builds.team_role_placeholder,builds,"Role (e.g., Main DPS, Support)"
+builds.team_role_reason_placeholder,builds,Why does this character fill this role?
+builds.this_month,builds,This Month
+builds.this_week,builds,This Week
+builds.title,builds,Community Builds
+builds.try_different_filters,builds,Try adjusting your filters or search query to find more builds.
+builds.unnamed,builds,Unnamed Build
+builds.unpublish,builds,Unpublish
+builds.untitled,builds,Untitled Build
+builds.up_to_4,builds,Up to 4 characters
+builds.update_build,builds,Update Build
+builds.update_success,builds,Build updated successfully!
+builds.video,builds,Video
+builds.video_showcase,builds,Video Showcase
+builds.view_character_details,builds,View Character Details
+builds.view_mode,builds,View
+builds.views,builds,views
+builds.visibility_updated,builds,Build visibility updated
+builds.watch_video,builds,Watch Video
+builds.weapon,builds,Weapon
+builds.weapon_bonuses,builds,Weapon Bonuses
+builds.weapon_label_placeholder,builds,BiS
+builds.weapon_not_found,builds,Weapon not found
+builds.weapon_reason_placeholder,builds,Why did you choose this weapon?
+builds.weapon_skills,builds,Weapon Skills
+builds.weapons,builds,Weapons
+builds.why_these_partners,builds,Why these partners?
+builds.your_username,builds,Your username
+builds.youtube_video,builds,YouTube Video
+builds.youtube_video_hint,builds,Add a YouTube video showcasing your build
+characters.all_elements,characters,All Elements
+characters.all_professions,characters,All Professions
+characters.all_rarities,characters,All Rarities
+characters.aspd,characters,ASPD
+characters.atk,characters,ATK
+characters.battle_skills,characters,Battle Skills
+characters.battle_tags,characters,Battle Tags
+characters.breakthrough,characters,Breakthrough
+characters.breakthrough_details,characters,Breakthrough Details
+characters.browse_all,characters,Browse all Endfield characters
+characters.def,characters,DEF
+characters.department,characters,Faction
+characters.discussion,characters,Character Discussion
+characters.effect,characters,Effect
+characters.element,characters,Element
+characters.exp_items_required,characters,EXP Items
+characters.experience_calculator,characters,Experience Calculator
+characters.factory_skill_slot,characters,Skill Slot {slot}
+characters.factory_skills,characters,Factory Skills
+characters.from_level,characters,From
+characters.hp,characters,HP
+characters.level_1,characters,Level 1
+characters.level_range,characters,Level Range
+characters.level_up_requirements,characters,Level-Up Requirements
+characters.materials_required,characters,Materials
+characters.max_level,characters,Max Level
+characters.no_factory_skills,characters,No factory skills available
+characters.potential,characters,Potential
+characters.potential_level,characters,Potential {level}
+characters.potential_passive,characters,Potential & Passives
+characters.profession,characters,Profession
+characters.profile_records,characters,Profile Records
+characters.rarity,characters,Rarity
+characters.required_items,characters,Required Items
+characters.results,characters,characters found
+characters.search,characters,Search characters...
+characters.skill_type_combo,characters,Combo Skill
+characters.skill_type_normal,characters,Normal Skill
+characters.skill_type_talent,characters,Talent
+characters.skill_type_ultimate,characters,Ultimate Skill
+characters.stats_progression,characters,Stats Progression
+characters.talents,characters,Talents
+characters.title,characters,Characters
+characters.to_level,characters,To
+characters.unlocks_at,characters,Unlocks at Lv.{level}
+characters.voice_actors,characters,Voice Actors
+characters.voice_lines,characters,Voice Lines
+characters.weapon_type,characters,Weapon Type
+comments.auth_required_title,comments,Authentication Required
+comments.be_first,comments,Be the first to share your thoughts!
+comments.cancel,comments,Cancel
+comments.char_count,comments,{count} / {max}
+comments.days_ago,comments,{count}d ago
+comments.delete,comments,Delete
+comments.deleting,comments,Deleting...
+comments.edit,comments,Edit
+comments.edit_placeholder,comments,Edit your comment...
+comments.edited,comments,(edited)
+comments.error_delete_failed,comments,Failed to delete comment. Please try again.
+comments.error_empty,comments,Comment cannot be empty.
+comments.error_invalid_content,comments,Your comment contains invalid characters or HTML tags. Please use plain text only.
+comments.error_post_failed,comments,Failed to post comment. Please try again.
+comments.error_too_long,comments,Comment is too long (max {max} characters).
+comments.error_update_failed,comments,Failed to update comment. Please try again.
+comments.formatting_guide,comments,Formatting
+comments.hide_replies,comments,Hide {count} replies
+comments.hours_ago,comments,{count}h ago
+comments.join_discussion,comments,Join the discussion...
+comments.just_now,comments,Just now
+comments.load_more,comments,Load More Comments
+comments.loading,comments,Loading comments...
+comments.loading_replies,comments,Loading replies...
+comments.login_link,comments,log in
+comments.login_required,comments,Please {login} to post comments.
+comments.mention_keyboard_hint,comments,↑↓ Navigate • Enter Select • Esc Close
+comments.mention_no_users,comments,No users found
+comments.mention_searching,comments,Searching users...
+comments.minutes_ago,comments,{count}m ago
+comments.no_comments,comments,No comments yet
+comments.placeholder,comments,Share your thoughts...
+comments.post_comment,comments,Post Comment
+comments.post_reply,comments,Post Reply
+comments.posting,comments,Posting...
+comments.reply,comments,Reply
+comments.reply_placeholder,comments,Write a reply...
+comments.replying_to,comments,Replying to
+comments.save_changes,comments,Save Changes
+comments.show_replies,comments,Show {count} replies
+comments.success_deleted,comments,Comment deleted successfully!
+comments.success_posted,comments,Comment posted successfully!
+comments.success_reply_posted,comments,Reply posted successfully!
+comments.success_updated,comments,Comment updated successfully!
+comments.title,comments,Comments
+comments.warning_auth_required,comments,Please log in to post comments.
+common.all_time,common,All Time
+common.back,common,Back
+common.cancel,common,Cancel
+common.clear,common,Clear
+common.close,common,Close
+common.coming_soon,common,Coming soon...
+common.confirm,common,Confirm
+common.copied,common,Copied!
+common.copy,common,Copy
+common.copy_link,common,Copy Link
+common.delete,common,Delete
+common.edit,common,Edit
+common.error,common,Error
+common.exp_required,common,EXP Required
+common.filters,common,Filters
+common.frequently_asked_questions,common,Frequently Asked Questions
+common.gold_cost,common,Gold Cost
+common.last_updated,common,Last updated
+common.latest,common,Latest
+common.level,common,Level
+common.loading,common,Loading...
+common.no_data_yet,common,No data yet
+common.no_results,common,No results found
+common.optional,common,optional
+common.popular,common,Popular
+common.quick_navigation,common,Quick Navigation
+common.related_characters,common,Related Characters
+common.related_weapons,common,Related Weapons
+common.reset,common,Reset
+common.save,common,Save
+common.saving,common,Saving...
+common.search,common,Search
+common.search_results,common,Search Results
+common.show_less,common,Show Less
+common.show_more,common,Show More
+common.sort_by,common,Sort By
+common.success,common,Success
+common.this_month,common,This Month
+common.this_week,common,This Week
+common.view,common,View
+custom.conveyor_merger.desc,custom,Merges up to 3 conveyor lines into 1 output. Does not require power.
+custom.conveyor_merger.name,custom,Conveyor Merger
+equipment.additional_stats,equipment,Additional Stats
+equipment.all_parts,equipment,All Part Types
+equipment.all_stages,equipment,All Stages
+equipment.all_tiers,equipment,All Tiers
+equipment.attr.AllDamageTakenScalar,equipment,All DMG Taken Reduction
+equipment.attr.AllSkillDamageIncrease,equipment,All Skill DMG
+equipment.attr.CrystAndPulseDamageIncrease,equipment,Cryo & Electric DMG
+equipment.attr.FireAndNaturalDamageIncrease,equipment,Heat & Nature DMG
+equipment.attr.Main,equipment,Main Attribute
+equipment.attr.SpellDamageIncrease,equipment,Arts DMG
+equipment.attr.Sub,equipment,Sub-Attr
+equipment.base_stats,equipment,Base Stats
+equipment.best_for_characters,equipment,Best For These Characters
+equipment.best_sets,equipment,Best Equipment Sets
+equipment.browse_all,equipment,Browse all equipment sets
+equipment.community_rating,equipment,Community Rating
+equipment.early_game,equipment,Early Game (Lv10-28)
+equipment.equipment_details,equipment,Equipment Details
+equipment.equipment_pieces,equipment,Equipment Pieces
+equipment.filter_by_part,equipment,Filter by Part Type
+equipment.filter_by_stage,equipment,Filter by Game Stage
+equipment.filter_by_tier,equipment,Filter by Tier
+equipment.game_stage,equipment,Game Stage
+equipment.late_game,equipment,Late Game (Lv70)
+equipment.level_requirement,equipment,Level {level} Required
+equipment.loading,equipment,Loading equipment data...
+equipment.main_stat,equipment,Main
+equipment.mid_game,equipment,Mid Game (Lv36-50)
+equipment.most_liked,equipment,Most Liked
+equipment.no_set_bonus,equipment,This is a standalone item with no set bonus
+equipment.no_sets_found,equipment,No equipment sets found
+equipment.no_standalone_found,equipment,No standalone equipment found
+equipment.no_stats,equipment,No stat data available
+equipment.part_body,equipment,Body
+equipment.part_edc,equipment,EDC
+equipment.part_hand,equipment,Hand
+equipment.part_of_set,equipment,Part of {setName}
+equipment.part_type,equipment,Part Type
+equipment.rate_this_set,equipment,Rate this set for your character
+equipment.recommended_for,equipment,Recommended for {characterName}
+equipment.related_sets,equipment,Related Sets
+equipment.results,equipment,sets found
+equipment.search,equipment,Search equipment sets...
+equipment.select_character,equipment,Select a character...
+equipment.set_bonus,equipment,{count}-Set Bonus
+equipment.set_effects,equipment,Set Effects
+equipment.sort_by,equipment,Sort By
+equipment.sort_name,equipment,Name
+equipment.sort_pieces,equipment,Total Pieces
+equipment.sort_tier,equipment,Tier
+equipment.standalone,equipment,Standalone Equipment
+equipment.standalone_equipment,equipment,Standalone Equipment
+equipment.standalone_results,equipment,items
+equipment.stats,equipment,Stats
+equipment.sub_stats,equipment,Sub
+equipment.tier,equipment,Tier
+equipment.tier_0,equipment,Tier 0
+equipment.tier_1,equipment,Tier 1
+equipment.tier_2,equipment,Tier 2
+equipment.tier_3,equipment,Tier 3
+equipment.tier_4,equipment,Tier 4
+equipment.tier_pieces,equipment,Tier {tier} Pieces
+equipment.title,equipment,Equipment Sets
+equipment.total_pieces,equipment,{count} pieces
+equipment.view_all_sets,equipment,View All Equipment Sets
+equipment.view_set_details,equipment,View Set Details
+essence_solver.compatible,essence_solver,Compatible
+essence_solver.farm_locations,essence_solver,Farm at
+essence_solver.filter_by_dungeon,essence_solver,Filter by Dungeon
+essence_solver.filter_by_rarity,essence_solver,Filter by Rarity
+essence_solver.matches,essence_solver,Matches
+essence_solver.missing,essence_solver,Missing
+essence_solver.no_results,essence_solver,No essences match the current filters
+essence_solver.recommended_essences,essence_solver,Recommended Essences
+essence_solver.select_weapon,essence_solver,Select a Weapon
+essence_solver.stats,essence_solver,Stats
+essence_solver.title,essence_solver,Weapon Essence Solver
+factory.actual,factory,Actual
+factory.all_items_production_overview,factory,All Items Production Overview
+factory.balanced,factory,Balanced
+factory.bottlenecks_detected,factory,Bottlenecks Detected
+factory.browse_blueprints,factory,Browse Blueprints
+factory.buffer_bottlenecks,factory,Buffer Bottlenecks
+factory.buffer_capacity,factory,Capacity
+factory.build,factory,Build
+factory.building_count,factory,Buildings
+factory.building_menu,factory,Building Menu
+factory.buildings,factory,Buildings
+factory.clear,factory,Clear
+factory.click_product_tabs_for_details,factory,Click on product tabs above for detailed production chain analysis
+factory.click_to_set,factory,Click to set
+factory.community_blueprints,factory,AIC Factory Blueprints
+factory.community_blueprints_subtitle,factory,Browse and share community factory blueprints
+factory.configure,factory,Configure
+factory.configure_output,factory,Configure Output
+factory.confirm_delete_plan,factory,Are you sure you want to delete this plan?
+factory.connection_graph,factory,Connection Graph
+factory.consumed,factory,Consumed/min
+factory.consumed_by,factory,Consumed by
+factory.conveyor_connection_errors,factory,Conveyor Connection Errors
+factory.conveyor_menu,factory,Conveyor Menu
+factory.conveyor_saturation,factory,Conveyor Saturation
+factory.conveyors,factory,Conveyors
+factory.cookbook,factory,Cookbook
+factory.cookbook_all_description,factory,Browse all craftable items from the game data
+factory.cookbook_alternative_recipes,factory,Alternative Recipes
+factory.cookbook_back_to_search,factory,Back to Search
+factory.cookbook_crafted_item,factory,Crafted Item
+factory.cookbook_filter_factory,factory,Show only items from current factory
+factory.cookbook_filtered_description,factory,Showing only items that can be crafted with your current factory buildings
+factory.cookbook_machine_required,factory,Required Machine
+factory.cookbook_no_factory_items,factory,No items can be crafted with current factory buildings
+factory.cookbook_no_items,factory,No craftable items found
+factory.cookbook_no_recipes,factory,No recipes available for this item
+factory.cookbook_production_chain,factory,Production Chain
+factory.cookbook_raw_material,factory,Raw Material
+factory.cookbook_select_item,factory,Select an item to view its production chain
+factory.cookbook_selected_item,factory,Selected Item
+factory.cookbook_show_all,factory,Show all items
+factory.cookbook_theoretical_rate,factory,Theoretical Max Rate
+factory.cookbook_title,factory,Recipe Cookbook
+factory.copy,factory,Copy
+factory.copy_to_clipboard,factory,Copy to Clipboard
+factory.craft_time,factory,Craft Time
+factory.create_blueprint,factory,Create Blueprint
+factory.create_first,factory,Create the first blueprint
+factory.create_new_save,factory,Create New Save
+factory.current_file,factory,Current File
+factory.current_tool,factory,Tool
+factory.cycles_per_min,factory,cycles/min
+factory.cycles_per_minute,factory,cycles/min
+factory.deficit,factory,Deficit
+factory.delete,factory,Delete
+factory.delete_building,factory,Delete Building
+factory.depth_level,factory,Lv {level}
+factory.description,factory,Description
+factory.description_placeholder,factory,Brief description...
+factory.destination,factory,Destination
+factory.detailed_producer_analysis,factory,Detailed Producer Analysis
+factory.download_png,factory,Download PNG
+factory.edit_save,factory,Edit Save
+factory.efficiency,factory,Efficiency
+factory.enter_save_name,factory,Enter save name...
+factory.error_deleting_plan,factory,Failed to delete plan.
+factory.error_loading_plan,factory,Failed to load plan.
+factory.error_loading_plans,factory,Failed to load your saved plans.
+factory.error_output_mismatch,factory,Output does not match destination input
+factory.error_saving_plan,factory,Failed to save plan.
+factory.error_updating_plan,factory,Failed to update plan.
+factory.export_import,factory,Export / Import
+factory.export_import_hint,factory,"Export your factory as a JSON file to share or backup, or import a previously exported file."
+factory.export_json,factory,Export
+factory.filter_by_building,factory,Building Type
+factory.filter_by_output,factory,Output Item
+factory.filter_by_stage,factory,Game Stage
+factory.filter_by_tags,factory,Tags
+factory.final_product,factory,Final Product
+factory.final_products,factory,Final Products
+factory.final_products_summary,factory,Final Products Summary
+factory.fix_conveyor_error,factory,Change the recipe or reconnect the conveyor to match inputs
+factory.focus,factory,Focus
+factory.from_connected_recipe,factory,From connected recipe
+factory.graph_view,factory,Connection Graph
+factory.grid_bounds,factory,Grid Bounds
+factory.grid_bounds_desc,factory,"Define the size of your factory grid (centered at 0,0). Buildings and conveyors cannot be placed outside these limits."
+factory.grid_height,factory,Grid Height (cells)
+factory.grid_range,factory,Grid Range
+factory.grid_width,factory,Grid Width (cells)
+factory.import_json,factory,Import
+factory.input_buffer,factory,Input Buffer
+factory.inputs,factory,Inputs
+factory.item,factory,Item
+factory.item_category.components,factory,Components
+factory.item_category.consumables,factory,Consumables
+factory.item_category.equipment,factory,Equipment
+factory.item_category.featured,factory,Featured
+factory.item_category.liquids,factory,Liquids
+factory.item_category.other,factory,Other
+factory.item_category.processed,factory,Processed Materials
+factory.item_category.raw_materials,factory,Raw Materials
+factory.items_in_transit,factory,In Transit
+factory.live_updates,factory,Live (1s)
+factory.load,factory,Load
+factory.loading_items,factory,Loading items...
+factory.local_saves,factory,Local
+factory.login_for_online,factory,Log in to save your factories online
+factory.login_required,factory,Please log in to save online.
+factory.machine,factory,Machine
+factory.make_private,factory,Make private
+factory.make_public,factory,Make public
+factory.menu.build_mode,factory,Build Mode
+factory.menu.clear_grid,factory,Clear Grid
+factory.menu.edit,factory,Edit
+factory.menu.export_json,factory,Export JSON
+factory.menu.file,factory,File
+factory.menu.graph_view,factory,Graph View
+factory.menu.import_json,factory,Import JSON
+factory.menu.new_grid,factory,New Grid
+factory.menu.pan_mode,factory,Pan Mode
+factory.menu.production_stats,factory,Production Stats
+factory.menu.reset_simulator,factory,Reset Simulator
+factory.menu.title,factory,Menu
+factory.menu.tools,factory,Tools
+factory.menu.view,factory,View
+factory.menu.zoom_fit,factory,Zoom to Fit
+factory.merge_inputs,factory,inputs
+factory.merge_mixed_items,factory,Multiple item types merging
+factory.merge_preview,factory,Release to merge
+factory.merge_saturated,factory,Merge saturated
+factory.merge_total_rate,factory,Total rate
+factory.merged_conveyor,factory,Merged Conveyor
+factory.most_liked,factory,Most Liked
+factory.most_popular,factory,Most Popular
+factory.move,factory,Move
+factory.move_building,factory,Move Building
+factory.multi_producer_excess,factory,Multi-Producer Excess
+factory.my_blueprints,factory,My Blueprints
+factory.name_required,factory,Please enter a name for your save.
+factory.net,factory,Net/min
+factory.new_online_save,factory,New Online Save
+factory.new_save,factory,New Save
+factory.no_blueprints,factory,No blueprints yet
+factory.no_file_loaded,factory,No file loaded. Create a new save or load an existing one.
+factory.no_online_saves,factory,No online saves yet
+factory.no_output_selected,factory,No Output Selected
+factory.no_production_data,factory,No production data available. Assign recipes to buildings to see statistics.
+factory.no_recipe,factory,No Recipe
+factory.no_recipes_available,factory,No recipes available for this building
+factory.no_recipes_produce_item,factory,No recipes found that produce this item. This item might need to be imported or created manually.
+factory.no_saved_games,factory,No saved games yet
+factory.not_configured,factory,Not configured
+factory.notifications.auto_loaded,factory,Auto-loaded: {name}
+factory.notifications.cannot_place_building,factory,Cannot place building here - position blocked by another building or conveyor
+factory.notifications.cannot_place_control_point,factory,Cannot place control point here - no valid path
+factory.notifications.confirm_delete,factory,"Delete save ""{name}""? This cannot be undone."
+factory.notifications.confirm_import,factory,Import this factory? Any unsaved changes will be lost.
+factory.notifications.confirm_load,factory,"Load ""{name}""?"
+factory.notifications.confirm_load_with_current,factory,"Load ""{name}""? Any unsaved changes will be lost."
+factory.notifications.conveyor_error,factory,Error recalculating conveyors. Building rotated but conveyors may need manual reconnection.
+factory.notifications.created_new_save,factory,"Created new save ""{name}"""
+factory.notifications.exported_json,factory,Factory exported to JSON file
+factory.notifications.failed_to_delete,factory,Failed to delete save
+factory.notifications.failed_to_export,factory,Failed to export factory
+factory.notifications.failed_to_import,factory,Failed to import factory
+factory.notifications.failed_to_load,factory,Failed to load game
+factory.notifications.failed_to_read_file,factory,Failed to read file
+factory.notifications.failed_to_rotate,factory,Failed to rotate building
+factory.notifications.failed_to_save,factory,Failed to save game
+factory.notifications.imported_json,factory,Factory imported successfully
+factory.notifications.loaded,factory,"Loaded ""{name}"""
+factory.notifications.new_grid_created,factory,New grid created with Sub-Automation Core
+factory.notifications.output_cleared,factory,Output item cleared
+factory.notifications.output_selected,factory,Output item selected: {item}
+factory.notifications.please_enter_name,factory,Please enter a save name
+factory.notifications.recipe_assigned,factory,Recipe assigned: {recipe}
+factory.notifications.recipe_cleared,factory,Recipe cleared
+factory.notifications.save_deleted,factory,Save deleted
+factory.notifications.saved_as,factory,"Saved as ""{name}"""
+factory.notifications.saved_to,factory,"Saved to ""{name}"""
+factory.online_benefits,factory,Access your saves from any device and share with the community
+factory.online_saves,factory,Online
+factory.output,factory,Output
+factory.output_buffer,factory,Output Buffer
+factory.output_conveyors,factory,Output Conveyors
+factory.output_item,factory,Output Item
+factory.outputs,factory,Outputs
+factory.overview,factory,Overview
+factory.pan,factory,Pan
+factory.per_minute,factory,per minute
+factory.place_building,factory,Place Building
+factory.plan_deleted,factory,Plan deleted successfully!
+factory.plan_loaded,factory,Plan loaded successfully!
+factory.plan_saved,factory,Plan saved successfully!
+factory.plan_updated,factory,Plan updated successfully!
+factory.planner.feature_buildings_desc,factory,"Access all factory buildings with detailed information, recipes, and production stats"
+factory.planner.feature_buildings_title,factory,Building Library
+factory.planner.feature_community_desc,factory,Browse and learn from factory layouts shared by other players (coming soon)
+factory.planner.feature_community_title,factory,Community Plans
+factory.planner.feature_conveyors_desc,factory,Connect buildings with intelligent conveyor routing that detects errors and suggests fixes
+factory.planner.feature_conveyors_title,factory,Smart Conveyors
+factory.planner.feature_grid_desc,factory,Place buildings and conveyors on a customizable grid with full pan and zoom support
+factory.planner.feature_grid_title,factory,Interactive Grid
+factory.planner.feature_save_desc,factory,Save your factory layouts locally and share them with the community
+factory.planner.feature_save_title,factory,Save & Load
+factory.planner.feature_stats_desc,factory,"Real-time production statistics, bottleneck detection, and optimization suggestions"
+factory.planner.feature_stats_title,factory,Production Analytics
+factory.planner.features_subtitle,factory,Everything you need to plan your perfect AIC factory
+factory.planner.features_title,factory,Features
+factory.planner.report_issues,factory,Report Issues & Ideas
+factory.planner.start_planning,factory,Start Planning
+factory.planner.subtitle,factory,Design and optimize your AIC (Automated Industry Complex) factory layouts with an interactive grid-based planner
+factory.planner.wip_message,factory,This tool is still in active development. Please report any issues or share your ideas in our Discord community!
+factory.planner.wip_title,factory,Work in Progress
+factory.popular,factory,Popular
+factory.port_config,factory,Configure Ports
+factory.port_config_hint,factory,Click on an output port to assign an item. Items entering via input ports are consumed.
+factory.power,factory,Power
+factory.power_consumed,factory,Power Consumed
+factory.power_warning,factory,Insufficient Power!
+factory.produced,factory,Produced/min
+factory.produced_by,factory,Produced by
+factory.producing,factory,Producing
+factory.production_chain,factory,Production Chain
+factory.production_depth,factory,Production Depth
+factory.production_flow,factory,Production Flow
+factory.production_flows,factory,Production Flows
+factory.production_imbalance,factory,Production Imbalance
+factory.production_rate,factory,Production rate
+factory.production_statistics,factory,Production Statistics
+factory.production_stats_note,factory,All rates shown are per minute. Net = Produced - Consumed.
+factory.production_summary,factory,Summary
+factory.raw_material,factory,Raw Material
+factory.raw_materials,factory,Raw Materials
+factory.recipe,factory,Recipe
+factory.redo,factory,Redo
+factory.requires,factory,Requires
+factory.reset_view,factory,Reset View
+factory.rotate,factory,Rotate
+factory.rotate_building,factory,Rotate Building
+factory.rotate_ccw,factory,Rotate Counter-clockwise
+factory.rotate_cw,factory,Rotate Clockwise
+factory.save,factory,Save
+factory.save_name,factory,Name
+factory.save_online,factory,Save Online
+factory.saved_games,factory,Saved Games
+factory.select_building,factory,Select a building...
+factory.select_item,factory,Select an item...
+factory.select_output,factory,Select Output
+factory.select_recipe,factory,Select Recipe
+factory.set_output,factory,Set Output
+factory.set_recipe,factory,Set Recipe
+factory.settings,factory,Settings
+factory.sim_fast,factory,Fast (2x)
+factory.sim_faster,factory,Faster (4x)
+factory.sim_normal,factory,Normal (1x)
+factory.sim_paused,factory,Paused
+factory.sim_speed,factory,Speed
+factory.state_clogged,factory,Output blocked
+factory.state_idle,factory,Inactive
+factory.state_producing,factory,Producing
+factory.state_unlinked,factory,No input connections
+factory.state_waiting,factory,Waiting for inputs
+factory.status,factory,Status
+factory.suggestion_add_building,factory,Add a new building with one of these recipes and connect it to the consumers
+factory.suggestions_to_fix_deficits,factory,Suggestions to Fix Deficits
+factory.surplus,factory,Surplus
+factory.theoretical,factory,Theoretical
+factory.thumbnail_preview,factory,Preview
+factory.title,factory,Factory Planner
+factory.total_buildings,factory,Active Buildings
+factory.travel_time,factory,travel
+factory.undo,factory,Undo
+factory.unlimited,factory,Unlimited
+factory.update_save,factory,Update Save
+factory.view_compact,factory,Compact View
+factory.view_grid,factory,Grid View
+factory.view_list,factory,List View
+factory.view_mode,factory,View Mode
+factory.visibility_private,factory,Private
+factory.visibility_private_desc,factory,Only you can see this
+factory.visibility_public,factory,Public
+factory.visibility_public_desc,factory,Visible in Community Blueprints
+factory.your_online_saves,factory,Your Online Saves
+factory.zoom_in,factory,Zoom In
+factory.zoom_out,factory,Zoom Out
+factory_plans.all_time,factory_plans,All Time
+factory_plans.back_to_browse,factory_plans,Back to All Blueprints
+factory_plans.be_first_to_share,factory_plans,Be the first to share a blueprint for
+factory_plans.blueprint_found,factory_plans,blueprint found
+factory_plans.blueprint_name,factory_plans,Blueprint Name
+factory_plans.blueprints_found,factory_plans,blueprints found
+factory_plans.browse_crafting_blueprints,factory_plans,Browse community factory blueprints for crafting
+factory_plans.buildings,factory_plans,Buildings
+factory_plans.buildings_used,factory_plans,Buildings Used
+factory_plans.by,factory_plans,by
+factory_plans.comments,factory_plans,Comments
+factory_plans.confirm_delete,factory_plans,Are you sure you want to delete
+factory_plans.create_blueprint,factory_plans,Create Blueprint
+factory_plans.create_first_blueprint,factory_plans,Create your first factory blueprint to share with the community!
+factory_plans.create_new,factory_plans,Create New
+factory_plans.delete_error,factory_plans,Failed to delete blueprint
+factory_plans.description,factory_plans,Browse and share community AIC factory blueprints for Arknights: Endfield
+factory_plans.description_label,factory_plans,Description
+factory_plans.full_description,factory_plans,Full Description
+factory_plans.full_description_hint,factory_plans,Detailed guide for your blueprint (optional)
+factory_plans.game_stage,factory_plans,Game Stage
+factory_plans.grid_size,factory_plans,Grid size
+factory_plans.how_to_craft,factory_plans,How to Craft
+factory_plans.ingame_code,factory_plans,In-Game Code
+factory_plans.ingame_code_hint,factory_plans,Optional: Your in-game factory sharing code
+factory_plans.ingame_code_label,factory_plans,In-Game Sharing Code
+factory_plans.ingame_region,factory_plans,Server Region
+factory_plans.inputs,factory_plans,Inputs
+factory_plans.latest,factory_plans,Latest
+factory_plans.load_in_planner,factory_plans,Load in Planner
+factory_plans.loading_blueprint,factory_plans,Loading blueprint...
+factory_plans.make_private,factory_plans,Make Private
+factory_plans.make_public,factory_plans,Make Public
+factory_plans.manage_your_blueprints,factory_plans,Manage your shared factory blueprints
+factory_plans.most_liked,factory_plans,Most Liked
+factory_plans.my_blueprints,factory_plans,My Blueprints
+factory_plans.net_power,factory_plans,Net Power
+factory_plans.no_blueprints,factory_plans,No Blueprints Yet
+factory_plans.no_blueprints_yet,factory_plans,No Blueprints Yet
+factory_plans.no_external_inputs,factory_plans,No external inputs required
+factory_plans.not_found,factory_plans,Blueprint Not Found
+factory_plans.not_found_desc,factory_plans,This blueprint may have been deleted or made private.
+factory_plans.open_planner,factory_plans,Open Factory Planner
+factory_plans.outputs,factory_plans,Outputs
+factory_plans.popular,factory_plans,Most Popular
+factory_plans.power_consumption,factory_plans,Consumption
+factory_plans.power_generation,factory_plans,Generation
+factory_plans.private,factory_plans,Private
+factory_plans.production,factory_plans,Production
+factory_plans.production_preview,factory_plans,Production Preview
+factory_plans.production_summary,factory_plans,Production Summary
+factory_plans.public,factory_plans,Public
+factory_plans.region,factory_plans,Region
+factory_plans.save_blueprint,factory_plans,Save Blueprint
+factory_plans.saving,factory_plans,Saving...
+factory_plans.search_placeholder,factory_plans,Search blueprints...
+factory_plans.share_blueprint,factory_plans,Share Blueprint
+factory_plans.share_description,factory_plans,Share your factory layout with the community
+factory_plans.short_description,factory_plans,Short Description
+factory_plans.short_description_hint,factory_plans,Brief description shown on cards (max 200 chars)
+factory_plans.sort_latest,factory_plans,Latest
+factory_plans.sort_popular,factory_plans,Popular
+factory_plans.tags,factory_plans,Tags
+factory_plans.tags_hint,factory_plans,Select up to 3 tags
+factory_plans.this_month,factory_plans,This Month
+factory_plans.this_week,factory_plans,This Week
+factory_plans.thumbnail_preview,factory_plans,Thumbnail Preview
+factory_plans.title,factory_plans,AIC Factory Blueprints
+factory_plans.toggle_error,factory_plans,Failed to update visibility
+factory_plans.total_buildings,factory_plans,Total buildings
+factory_plans.update_blueprint,factory_plans,Update Blueprint
+factory_plans.video_guide,factory_plans,Video Guide
+factory_plans.visibility,factory_plans,Visibility
+factory_plans.visibility_private,factory_plans,Private - Only you can see
+factory_plans.visibility_public,factory_plans,Public - Anyone can see
+factory_plans.youtube_url,factory_plans,YouTube Video URL
+factory_plans.youtube_url_hint,factory_plans,Optional video guide
+guides.features_title,guides,What You'll Learn
+home.ascension_planner_desc,home,Plan character and weapon upgrades with material tracking
+home.browse_blueprints,home,Browse Community Blueprints
+home.character_builds,home,Character Builds
+home.character_planner_desc,home,Plan your character progression and resources
+home.character_showcase_desc,home,Share and discover character builds from the community
+home.characters_desc,home,Browse all Endfield characters with full details and community discussion
+home.check_out_tools,home,Check out my tools!
+home.codes.copied,home,Copied!
+home.codes.copy,home,Copy code
+home.codes.ends_in,home,Ends in
+home.codes.expired,home,Expired
+home.codes.how_to_redeem,home,"How to redeem: In-game, go to [Settings] > [Platform & Account] > [Exchange Code]"
+home.codes.no_expiration,home,No expiration
+home.codes.tap_to_copy,home,Tap to copy
+home.codes.title,home,Redeem Codes
+home.coming_soon,home,Soon
+home.community,home,Community
+home.community_builds_desc,home,Share and explore community character builds
+home.community_plans_desc,home,Share and explore factory plans from the community
+home.equipment_desc,home,Discover equipment sets and their bonuses
+home.essences_desc,home,Discover weapon essences and their effects
+home.events.ended,home,Ended
+home.events.ends_in,home,Ends in
+home.events.left,home,left
+home.events.not_confirmed,home,Not confirmed
+home.events.starts_in,home,Starts in
+home.events.title,home,Events
+home.factory_blueprints,home,AIC Factory Blueprints
+home.factory_blueprints_desc,home,Browse and share community AIC factory blueprints
+home.factory_planner_desc,home,Plan and optimize your factory layout with ease
+home.factory_short,home,Factory (AIC)
+home.factory_simulator,home,Factory Simulator
+home.fun_tools,home,Fun & Simulation
+home.guides_desc,home,Learn game mechanics and strategies with comprehensive guides
+home.headhunt_tracker_desc,home,Track your headhunt pulls and pity counter
+home.interactive_map_desc,home,Explore the world with an interactive map
+home.login_register,home,Login / Register
+home.planner_desc,home,Open the interactive factory grid planner
+home.planners,home,Planners
+home.popular_builds,home,Popular Character Builds
+home.popular_builds_desc,home,Discover the most popular character builds from our community
+home.simulators,home,Simulators
+home.site_description,home,The coolest collection of tools and utilities for Arknights: Endfield players.
+home.summon_simulator_desc,home,Fun gacha simulator with a twist: a luck leaderboard!
+home.toolbox,home,Toolbox
+home.toolbox_desc,home,Explore our collection of tools and utilities
+home.tools,home,Tools
+home.valley_iv_desc,home,Explore the Valley IV region
+home.view_all,home,View All
+home.weapons_desc,home,Explore all weapon types and their stats
+home.welcome_to,home,Welcome to
+home.wuling_desc,home,Explore the Wuling region
+home.your_profile,home,Your Profile
+map.activate,map,Activate
+map.amber_rice,map,Amber Rice
+map.battles,map,Battle Encounters
+map.category_battles,map,Battle Encounters
+map.category_chests,map,Treasure Chests
+map.category_collectibles,map,Collectibles
+map.category_daily_instances,map,Daily Instances
+map.category_dungeons,map,Dungeons
+map.category_ether,map,Ether Resources
+map.category_factory,map,Factory POIs
+map.category_mining_formations,map,Mining Formations
+map.category_mining_points,map,Mining Points
+map.category_narrative,map,Story Fragments
+map.category_other,map,Other POIs
+map.category_plants,map,Plant Materials
+map.category_rare_minerals,map,Rare Minerals
+map.category_terminals,map,Terminals
+map.category_travel,map,Travel
+map.challenge,map,Challenge
+map.challenge_entrance,map,Challenge Entrance
+map.chest,map,Chest
+map.chest_high_tier,map,High-Tier Chest
+map.chest_locked,map,Locked Chest
+map.chest_normal,map,Normal Chest
+map.clear_all,map,Clear
+map.clear_search,map,Clear Search
+map.click_to_explore,map,Click to Explore
+map.close,map,Close
+map.collectible,map,Collectible
+map.collectibles,map,Collectibles
+map.communication_terminal,map,Communication Terminal
+map.coordinates,map,Coordinates
+map.daily_dungeon,map,Daily Dungeon
+map.dungeon,map,Dungeon
+map.dungeon_entrance,map,Dungeon Entrance
+map.dungeon_exit,map,Dungeon Exit
+map.enemies,map,Enemies
+map.enemy_encounter,map,Enemy Encounter
+map.energy_point,map,Energy Point
+map.ether_recycle,map,Ether Recycle
+map.fast_travel,map,Fast Travel
+map.fast_travel_point,map,Fast Travel Point
+map.feature_battles_desc,map,"Dungeon entrances, challenge points, and boss locations"
+map.feature_battles_title,map,Battle Encounters
+map.feature_chests_desc,map,"Find and track all chest locations - normal, locked, and high-tier chests"
+map.feature_chests_title,map,Treasure Chests
+map.feature_collectibles_desc,map,"Story fragment, terminal, and collection point locations"
+map.feature_collectibles_title,map,Collectibles
+map.feature_filtering_desc,map,"Filter points of interest by type, level, and region"
+map.feature_filtering_title,map,Advanced Filtering
+map.feature_filters_desc,map,Filter POIs by category to focus on specific resources or collectibles.
+map.feature_filters_title,map,Advanced Filters
+map.feature_gathering_desc,map,"Discover plant gathering locations including mushrooms, flowers, and other botanical resources."
+map.feature_gathering_title,map,Gathering Sites
+map.feature_mining_desc,map,"Ore node locations, mining formations, and rare mineral spots"
+map.feature_mining_title,map,Mining Points
+map.feature_poi_desc,map,"Explore all POIs including travel points, terminals, dungeons, and story fragments."
+map.feature_poi_title,map,Points of Interest
+map.feature_tracking_desc,map,Mark collected items and track your exploration progress across the map.
+map.feature_tracking_title,map,Progress Tracking
+map.feature_travel_desc,map,Map of all fast travel points in the game
+map.feature_travel_title,map,Fast Travel
+map.features_subtitle,map,Track all important locations
+map.features_title,map,Explore Every Corner
+map.filter,map,Filter & Search
+map.filters,map,Filters
+map.glowbug,map,Glowbug
+map.hub_area,map,Hub Area
+map.interactive_object,map,Interactive Object
+map.layer,map,Layer
+map.layers,map,Map Layers
+map.legend,map,Legend
+map.level,map,Level
+map.level_ranges,map,Level Ranges
+map.loading,map,Loading map data...
+map.mark_arrow,map,Mark Arrow
+map.mark_fac_unlocker,map,Factory Unlocker
+map.mechanism,map,Mechanism
+map.mineral_copper,map,Copper
+map.mineral_iron,map,Iron
+map.mineral_originium,map,Originium
+map.mineral_quartz,map,Quartz
+map.mineral_special_metal,map,Special Metal
+map.narrative_fragment,map,Fragment
+map.no_results,map,No points of interest found
+map.poi_details,map,POI Details
+map.poi_types,map,POI Types
+map.pois_visible,map,POIs visible
+map.rare_mineral,map,Rare Mineral
+map.rare_prefix,map,Rare 
+map.reading_terminal,map,Reading Terminal
+map.recommended_level,map,Recommended Level
+map.redjade_ginseng,map,Redjade Ginseng
+map.reed_rye,map,Reed Rye
+map.region,map,Region
+map.region_talos_ii,map,Talos-II
+map.region_valley_iv,map,Valley IV Map
+map.region_wuling,map,Wuling Map
+map.report_issues,map,Report issues and ideas on our Discord community
+map.reset_view,map,Reset View
+map.rewards,map,Rewards
+map.scorchbug,map,Scorchbug
+map.search_placeholder,map,Search points of interest...
+map.select_all,map,All
+map.select_layer,map,Select Layer
+map.select_region,map,Select Region
+map.show_all,map,Show All
+map.special_locations,map,Special Locations
+map.terminal,map,Terminal
+map.title,map,Interactive Map
+map.travel_point,map,Travel Point
+map.type,map,Type
+map.view_point,map,View Point
+map.warning_terminal,map,Warning Terminal
+map.welcome_subtitle,map,"Your ultimate companion for exploring Arknights: Endfield. Find all treasure chests, mining points, collectibles, and points of interest."
+map.wip_message,map,The interactive map is currently under development. Join our Discord community to report issues or share your ideas!
+map.wip_title,map,Work in Progress
+map.zoom_in,map,Zoom In
+map.zoom_out,map,Zoom Out
+nav.achievement_tracker,nav,Achievement Tracker
+nav.achievement_tracker_short,nav,Achievements
+nav.ascension_planner,nav,Ascension Planner
+nav.character_planner,nav,Character Planner
+nav.character_showcase,nav,Character Showcase
+nav.characters,nav,Characters
+nav.community_blueprints,nav,Community Blueprints
+nav.community_builds,nav,Community Builds
+nav.community_plans,nav,Community Plans
+nav.discord,nav,Join the community
+nav.factory_planner,nav,Factory Planner
+nav.guides,nav,Guides
+nav.headhunt_short,nav,Headhunt
+nav.headhunt_tracker,nav,Headhunt Tracker
+nav.home,nav,Home
+nav.interactive_map,nav,Interactive Map
+nav.planner,nav,Planner
+nav.profile,nav,Profile
+nav.recipes,nav,Recipes
+nav.summon_simulator,nav,Summon Simulator
+nav.weapon_essence_solver,nav,Essence Solver
+nav.weapon_essences,nav,Weapon Essences
+nav.weapons,nav,Weapons
+notification.deleted,notification,Deleted successfully
+notification.error,notification,An error occurred
+notification.loaded,notification,Loaded successfully
+notification.saved,notification,Saved successfully
+reactions.authentication_required,reactions,Authentication Required
+reactions.dislike,reactions,Dislike
+reactions.like,reactions,Like
+reactions.login_required,reactions,Please log in to react to this content.
+summon.amazing_pull,summon,Amazing pull! You got {count} six-star{plural}! This could be first place! Submit to leaderboard?
+summon.amazing_pull_prompt,summon,Amazing pull! You got {count} six-star{plural}! Would you like to submit this to the leaderboard?
+summon.animation_in_progress,summon,Animation in Progress...
+summon.auth_error,summon,Authentication error. Please log in again.
+summon.average,summon,Average
+summon.average_joe,summon,Average Joe
+summon.average_rarity,summon,Average Rarity
+summon.average_title,summon,"Perfectly balanced, as all things should be."
+summon.base_six_star_rate,summon,Base 6★ rate: {rate}%
+summon.best_session,summon,Best 10-pull session:
+summon.better_five_star,summon,Better result! Your {count} five-star{plural} beat your previous best of {previous}! Submit to leaderboard?
+summon.better_score,summon,Better result! Your score of {current} beat your previous best of {previous}! Submit to leaderboard?
+summon.blessed_by_rng,summon,Blessed by RNG
+summon.blessed_title,summon,You've been touched by fortune!
+summon.character_collection,summon,Character Collection
+summon.character_pool,summon,Character Pool
+summon.characters_available,summon,{count} characters available
+summon.collection_progress,summon,Collection:
+summon.collection_ratio,summon,{current} / {total} characters
+summon.complete_character_list,summon,Complete list of available characters with individual drop rates
+summon.counted_message,summon,Your summon results will be counted towards the leaderboard. Compete for the King of the Hill role!
+summon.counter_resets,summon,Counter resets when you get any 5★ or 6★
+summon.current_pity_counter,summon,Current Pity Counter:
+summon.current_rate,summon,Current rate: {rate}%
+summon.current_rate_with_bonus,summon,Current rate: {rate}% (+{bonus}% bonus)
+summon.current_six_star_rate,summon,Current 6★ Rate
+summon.cursed_by_rng,summon,Cursed by RNG
+summon.cursed_title,summon,The gacha gods are testing you...
+summon.description,summon,"Feed your gacha addiction! Roll the dice and chase those elusive 6★ characters with realistic drop rates. ""Just one more 10-pull, I swear!"""
+summon.discord_linked,summon,Discord linked - You'll receive the role if you win!
+summon.discord_warning,summon,"You can still submit to the leaderboard, but you won't get the role if you win without Discord linked!"
+summon.download_image,summon,Download Image
+summon.drop_rates,summon,Summon Drop Rates
+summon.drop_rates_by_rarity,summon,Drop Rates by Rarity
+summon.each_rate,summon,~{rate}% each
+summon.expected_rate,summon,Expected: {rate}%
+summon.first_six_star,summon,First 6★ at:
+summon.first_six_star_pulls,summon,{count} pulls
+summon.five_star_guarantee,summon,5★ Guarantee System
+summon.five_star_pity_counter,summon,5★ Pity Counter
+summon.five_star_rate,summon,5★ Rate
+summon.four_star_rate,summon,4★ Rate
+summon.fun_stats,summon,Fun Stats
+summon.gacha_hell,summon,Gacha Hell
+summon.gacha_hell_title,summon,May your luck improve soon...
+summon.generating_image,summon,Generating image...
+summon.guaranteed_at,summon,Guaranteed 6★ at {threshold} summons
+summon.guaranteed_five_star,summon,Guaranteed 5★ or higher every {threshold} summons without getting a 5★+
+summon.individual_character_rates,summon,Individual Character Drop Rates
+summon.leaderboard_description,summon,Top 10 best pulls of the week (resets every Monday)
+summon.leaderboard_discord_reward,summon,"The #1 player gets the ""King of the Hill"" role on the {site} Discord!"
+summon.leaderboard_title,summon,Weekly Leaderboard
+summon.least_pulled_character,summon,Least Pulled Character
+summon.least_pulled_six_star,summon,Least Pulled 6★
+summon.legendary_luck,summon,Legendary Luck
+summon.legendary_title,summon,The RNG gods smile upon you!
+summon.link_discord_profile,summon,Link your Discord account in your profile to receive the role!
+summon.link_discord_reminder,summon,Don't forget to link your Discord account to receive the role!
+summon.loading_leaderboard,summon,Loading leaderboard...
+summon.logged_in,summon,Logged in
+summon.login_to_save,summon,Login to save your results
+summon.lucky,summon,Lucky!
+summon.lucky_charm,summon,Lucky Charm
+summon.lucky_title,summon,Fortune favors the bold!
+summon.most_pulled_character,summon,Most Pulled Character
+summon.most_pulled_six_star,summon,Most Pulled 6★
+summon.new_record,summon,New record! Your {count} six-star{plural} beat your previous best of {previous}! Submit to leaderboard?
+summon.new_record_submitted,summon,New record! Your score of {score} has been submitted to the leaderboard!
+summon.next_guaranteed,summon,Next summon is guaranteed 5★ or higher!
+summon.next_guarantees_five_star,summon,Next summon guarantees a 5★ or higher!
+summon.next_guarantees_six_star,summon,Next summon guarantees a 6★!
+summon.nice_pull,summon,Nice Pull!
+summon.no_history,summon,No summon history yet. Perform your first summon to see results here!
+summon.not_counted_warning,summon,Your summon results will not be counted towards the leaderboard.
+summon.not_logged_in,summon,Not logged in
+summon.not_logged_in_message,summon,Too bad you weren't logged in! This pull could have claimed a top 10 spot on the leaderboard.
+summon.not_owned,summon,Not owned
+summon.novice_description,summon,Perform your first summon to see your statistics!
+summon.novice_summoner,summon,Novice Summoner
+summon.on_leaderboard,summon,#{placement} on leaderboard
+summon.owned_count,summon,{count}×
+summon.perform_10x,summon,Perform 10x Summon/Headhunt
+summon.pity_active,summon,Pity system active! +{bonus}% bonus rate
+summon.pity_active_bonus,summon,Pity active: +{bonus}% bonus
+summon.pity_bonus,summon,Pity Bonus
+summon.pity_counter,summon,Pity Counter
+summon.pity_resets,summon,Pity resets completely when you get a 6★
+summon.pity_starts_at,summon,Pity starts at {threshold} summons: +{increase}% per summon
+summon.pity_system,summon,Pity System (6★)
+summon.pool_description,summon,"Browse all available characters in the summon pool, organized by rarity"
+summon.profile_error,summon,Profile not loaded. Please try again.
+summon.pulled_count,summon,{count} pulled
+summon.pulled_times,summon,Pulled {count} time{plural}
+summon.pulls_until_guaranteed_five_star,summon,Pulls until guaranteed 5★
+summon.rarity_breakdown,summon,Rarity Breakdown
+summon.rate,summon,{rate}% rate
+summon.recent_description,summon,Your latest 10x summon/headhunt results
+summon.recent_summons,summon,Recent Summons
+summon.record_beaten,summon,New record! Your score of {current} beat your previous best of {previous}!
+summon.record_holder,summon,RECORD HOLDER
+summon.reset_confirm,summon,Are you sure you want to reset all your summon/headhunt statistics? This cannot be undone.
+summon.reset_stats,summon,Reset All Statistics
+summon.reset_warning,summon,This will permanently delete all your summon history
+summon.result_preview,summon,Summon/Headhunt result preview
+summon.session_preview,summon,Summon/Headhunt session preview
+summon.share_result,summon,Share Your Summon/Headhunt
+summon.share_session,summon,Share Summon/Headhunt Session
+summon.six_star_rate,summon,6★ Rate
+summon.six_star_resets_counter,summon,Getting a 6★ also resets this counter
+summon.six_stars_count,summon,{count} six-stars
+summon.slightly_unlucky,summon,Slightly Unlucky
+summon.slightly_unlucky_title,summon,Things could be better...
+summon.star_characters,summon,{rarity}-Star Characters
+summon.stats_description,summon,Track your gacha journey and see how lucky you are!
+summon.stats_title,summon,Your Summon Statistics
+summon.submit,summon,Submit to Leaderboard
+summon.submit_failed,summon,Failed to submit to leaderboard. Please try again.
+summon.submit_qualifier,summon,Your summon result qualifies for the leaderboard!
+summon.submit_success,summon,Your summon result has been submitted to the leaderboard!
+summon.submit_to_leaderboard,summon,Submit to Leaderboard?
+summon.submitting,summon,Submitting...
+summon.summoned_on,summon,Summoned on {site}
+summon.summoning,summon,Summoning/Headhunting 10 Characters...
+summon.summons_until_guaranteed,summon,{count} summons until guaranteed 5★!
+summon.summons_without_five_star,summon,Summons without 5★+:
+summon.summons_without_five_star_plus,summon,Summons without 5★+
+summon.table_character,summon,Character
+summon.table_drop_rate,summon,Drop Rate
+summon.table_profession,summon,Profession
+summon.table_rarity,summon,Rarity
+summon.table_type,summon,Type
+summon.title,summon,Summon/Headhunt Simulator
+summon.total_pulls,summon,Total Pulls
+summon.total_value,summon,Total Value
+summon.unique_characters,summon,Unique Characters
+summon.unlucky,summon,Unlucky
+summon.very_lucky,summon,VERY LUCKY!
+summon.very_unlucky,summon,VERY UNLUCKY
+summon.view_profile,summon,View your profile
+summon.warning_until_guaranteed,summon,{count} summons until guaranteed 5★!
+summon.your_stats,summon,Your Stats
+theme.dark,theme,Dark
+theme.dark_desc,theme,Endfield tools dark theme
+theme.high_contrast,theme,High Contrast
+theme.light,theme,Light
+theme.light_desc,theme,Endfield tools light theme
+theme.navy,theme,Navy
+weapons.attack,weapons,Attack
+weapons.attack_growth,weapons,Attack Growth
+weapons.attack_stats,weapons,Attack Stats
+weapons.best_characters,weapons,Best Characters to Equip It
+weapons.best_weapons,weapons,Best Weapons
+weapons.breakthrough,weapons,Breakthrough
+weapons.breakthrough_level,weapons,Breakthrough Level
+weapons.compatible_characters,weapons,Compatible Characters
+weapons.compatible_characters_desc,weapons,This weapon can be equipped by characters with the same weapon type.
+weapons.compatible_weapons,weapons,Compatible Weapons
+weapons.description,weapons,Description
+weapons.effects,weapons,Effects
+weapons.level_up_requirements,weapons,Level-Up Requirements
+weapons.max_level,weapons,Max Level
+weapons.no_skills,weapons,No skill data available
+weapons.passive_attribute,weapons,Passive Attribute
+weapons.potential_skill,weapons,Potential Skill
+weapons.results,weapons,weapons found
+weapons.search,weapons,Search weapons...
+weapons.skill_level,weapons,Level
+weapons.skill_levels_unlocked,weapons,Skill Levels Unlocked
+weapons.skills,weapons,Skills
+weapons.skills_talents,weapons,Skills & Talents
+weapons.special_attribute,weapons,Special Attribute
+weapons.stage,weapons,Stage {stage}
+weapons.stat_increase,weapons,Stat Increase
+weapons.view_compatible_characters,weapons,View Compatible Characters

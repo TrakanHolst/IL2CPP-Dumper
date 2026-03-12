@@ -1,0 +1,1197 @@
+{
+  "class_count": 15,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "EmbeddedAttribute",
+      "namespace": "Microsoft.CodeAnalysis",
+      "parent": "Attribute",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IsUnmanagedAttribute",
+      "namespace": "System.Runtime.CompilerServices",
+      "parent": "Attribute",
+      "type_token": 33554435
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGConstantBufferLayoutAttribute",
+      "namespace": "HG.Rendering.Runtime",
+      "parent": "Attribute",
+      "type_token": 33554436
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AnimatorBlackboardAttribute",
+      "namespace": "Beyond.SourceGenerator",
+      "parent": "Attribute",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CameraControlConfigAttribute",
+      "namespace": "Beyond.SourceGenerator",
+      "parent": "Attribute",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "layoutKind",
+          "offset": 16,
+          "type": "System.Runtime.InteropServices.LayoutKind"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "isTag",
+          "offset": 20,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ECSComponentAttribute",
+      "namespace": "Beyond.SourceGenerator",
+      "parent": "Attribute",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "capacity",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "tSize",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ring",
+          "offset": 24,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "DataNAttribute",
+      "namespace": "Beyond.SourceGenerator",
+      "parent": "Attribute",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_defaultSceneStateId",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_defaultAreaId",
+          "offset": 4,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateStreamingSourceData",
+          "parameters": [
+            {
+              "name": "streamingPos",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "chunkLoadRadius",
+              "type": "System.Single"
+            },
+            {
+              "name": "defaultLayerLoadRadius",
+              "type": "System.Single"
+            },
+            {
+              "name": "hlod0LayerLoadRadius",
+              "type": "System.Single"
+            },
+            {
+              "name": "hlod1LayerLoadRadius",
+              "type": "System.Single"
+            },
+            {
+              "name": "hlod2LayerLoadRadius",
+              "type": "System.Single"
+            },
+            {
+              "name": "colliderLayerLoadRadius",
+              "type": "System.Single"
+            },
+            {
+              "name": "tinyLayerLoadRadius",
+              "type": "System.Single"
+            },
+            {
+              "name": "waterLayerLoadRadius",
+              "type": "System.Single"
+            },
+            {
+              "name": "lightingLoadRadius",
+              "type": "System.Single"
+            },
+            {
+              "name": "audioLoadRadius",
+              "type": "System.Single"
+            },
+            {
+              "name": "layerEnabled",
+              "type": "Unity.Collections.NativeArray<System.Byte>"
+            }
+          ],
+          "return_type": "UnityEngine.HyperGryph.Streaming.StreamingSourceData"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MemSet",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "Unity.Collections.NativeArray<T>"
+            },
+            {
+              "name": "value",
+              "type": "System.Byte"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AsSpan",
+          "parameters": [
+            {
+              "name": "nativeArray",
+              "type": "Unity.Collections.NativeArray<T>"
+            }
+          ],
+          "return_type": "System.Span<T>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AsReadOnlySpan",
+          "parameters": [
+            {
+              "name": "nativeArray",
+              "type": "Unity.Collections.NativeArray<T>"
+            }
+          ],
+          "return_type": "System.ReadOnlySpan<T>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MemCpyUnsafe",
+          "parameters": [
+            {
+              "name": "destination",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "source",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "size",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MallocUnsafe",
+          "parameters": [
+            {
+              "name": "size",
+              "type": "System.Int64"
+            },
+            {
+              "name": "alignment",
+              "type": "System.Int32"
+            },
+            {
+              "name": "allocator",
+              "type": "Unity.Collections.Allocator"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FreeUnsafe",
+          "parameters": [
+            {
+              "name": "memory",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "allocator",
+              "type": "Unity.Collections.Allocator"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConvertToBytes",
+          "parameters": [
+            {
+              "name": "val",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetIntPtr",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "Unity.Collections.NativeArray<T>"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetReadonlyIntPtr",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "Unity.Collections.NativeArray<T>"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetReadonlyUIntPtr",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "Unity.Collections.NativeArray<T>"
+            }
+          ],
+          "return_type": "System.UIntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRendererInfos",
+          "parameters": [
+            {
+              "name": "kComponent",
+              "type": "T&"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRendererInfo",
+          "parameters": [
+            {
+              "name": "rendererInfos",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.HyperGryph.ECS.RendererInfo&"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReinterpretAs",
+          "parameters": [
+            {
+              "name": "val",
+              "type": "TFrom"
+            }
+          ],
+          "return_type": "TTo"
+        }
+      ],
+      "name": "StreamingUnsafeUtilsV2",
+      "namespace": "Beyond.Gameplay.Streaming",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ptr",
+          "offset": 0,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "count",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "allocator",
+          "offset": 0,
+          "type": "Unity.Collections.Allocator"
+        }
+      ],
+      "interfaces": [
+        "IDisposable"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsCreated",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "count",
+              "type": "System.Int32"
+            },
+            {
+              "name": "allocator",
+              "type": "Unity.Collections.Allocator"
+            },
+            {
+              "name": "options",
+              "type": "Unity.Collections.NativeArrayOptions"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Item",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Item",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetValue",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRef",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "T&"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetValue",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Resize",
+          "parameters": [
+            {
+              "name": "newCount",
+              "type": "System.Int32"
+            },
+            {
+              "name": "options",
+              "type": "Unity.Collections.NativeArrayOptions"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UnsafeArray`1",
+      "namespace": "Beyond.Gameplay.Streaming",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "readCommand",
+          "offset": 16,
+          "type": "Unity.IO.LowLevel.Unsafe.ReadCommand*"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "readHandle",
+          "offset": 24,
+          "type": "Unity.IO.LowLevel.Unsafe.ReadHandle"
+        }
+      ],
+      "interfaces": [
+        "IDisposable"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "info",
+              "type": "Beyond.VFS.FVFBlockFileInfo"
+            },
+            {
+              "name": "async",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsValid",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetData",
+          "parameters": [],
+          "return_type": "Unity.Collections.NativeArray<System.Byte>"
+        }
+      ],
+      "name": "VFSReadOperation",
+      "namespace": "Beyond.Gameplay.Streaming",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "virtualMachine",
+          "offset": 16,
+          "type": "IFix.Core.VirtualMachine"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "methodId",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "anonObj",
+          "offset": 32,
+          "type": "System.Object"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "wrapperArray",
+          "offset": 0,
+          "type": "IFix.ILFixDynamicMethodWrapper[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            },
+            {
+              "name": "methodId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "anonObj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_0",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "P1",
+              "type": "System.Single"
+            },
+            {
+              "name": "P2",
+              "type": "System.Single"
+            },
+            {
+              "name": "P3",
+              "type": "System.Single"
+            },
+            {
+              "name": "P4",
+              "type": "System.Single"
+            },
+            {
+              "name": "P5",
+              "type": "System.Single"
+            },
+            {
+              "name": "P6",
+              "type": "System.Single"
+            },
+            {
+              "name": "P7",
+              "type": "System.Single"
+            },
+            {
+              "name": "P8",
+              "type": "System.Single"
+            },
+            {
+              "name": "P9",
+              "type": "System.Single"
+            },
+            {
+              "name": "P10",
+              "type": "System.Single"
+            },
+            {
+              "name": "P11",
+              "type": "Unity.Collections.NativeArray<System.Byte>"
+            }
+          ],
+          "return_type": "UnityEngine.HyperGryph.Streaming.StreamingSourceData"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_1",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "P1",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "P2",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_2",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Int64"
+            },
+            {
+              "name": "P1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "P2",
+              "type": "Unity.Collections.Allocator"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_3",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "P1",
+              "type": "Unity.Collections.Allocator"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_4",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Gameplay.Streaming.VFSReadOperation&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_5",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Gameplay.Streaming.VFSReadOperation&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_6",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "Beyond.Gameplay.Streaming.VFSReadOperation&"
+            }
+          ],
+          "return_type": "Unity.Collections.NativeArray<System.Byte>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ILFixDynamicMethodWrapper",
+      "namespace": "IFix",
+      "type_token": 33554444
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "fieldNum",
+              "type": "System.Int32"
+            },
+            {
+              "name": "fieldTypes",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "typeIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vTable",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "methodIdArray",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RefAsyncBuilderStartMethod",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ILFixInterfaceBridge",
+      "namespace": "IFix",
+      "parent": "AnonymousStorey",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "virtualMachine",
+          "offset": 16,
+          "type": "IFix.Core.VirtualMachine"
+        }
+      ],
+      "interfaces": [
+        "WrappersManager"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPatch",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "IFix.ILFixDynamicMethodWrapper"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsPatched",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateDelegate",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Type"
+            },
+            {
+              "name": "id",
+              "type": "System.Int32"
+            },
+            {
+              "name": "anon",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Delegate"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateWrapper",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitWrapperArray",
+          "parameters": [
+            {
+              "name": "len",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateBridge",
+          "parameters": [
+            {
+              "name": "fieldNum",
+              "type": "System.Int32"
+            },
+            {
+              "name": "fieldTypes",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "typeIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vTable",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "slots",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "virtualMachine",
+              "type": "IFix.Core.VirtualMachine"
+            }
+          ],
+          "return_type": "IFix.Core.AnonymousStorey"
+        }
+      ],
+      "name": "WrappersManagerImpl",
+      "namespace": "IFix",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Gameplay-Streaming-StreamingUnsafeUtilsV2-CreateStreamingSourceData0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Gameplay-Streaming-StreamingUnsafeUtilsV2-MemCpyUnsafe0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Gameplay-Streaming-StreamingUnsafeUtilsV2-MallocUnsafe0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Gameplay-Streaming-StreamingUnsafeUtilsV2-FreeUnsafe0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Gameplay-Streaming-VFSReadOperation-Dispose0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Gameplay-Streaming-VFSReadOperation-IsValid0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Beyond-Gameplay-Streaming-VFSReadOperation-GetData0",
+          "offset": 0,
+          "type": "IFix.IDMAP0"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "IDMAP0",
+      "namespace": "IFix",
+      "type_token": 33554447
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Unsafe.Streaming.dll"
+}

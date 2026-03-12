@@ -1,0 +1,3364 @@
+{
+  "class_count": 15,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "domainRegex",
+          "offset": 0,
+          "type": "System.Text.RegularExpressions.Regex"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RedirectTo",
+          "parameters": [
+            {
+              "name": "baseUri",
+              "type": "System.String"
+            },
+            {
+              "name": "redirectUri",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MakeInitialUrl",
+          "parameters": [
+            {
+              "name": "targetUrl",
+              "type": "System.String"
+            },
+            {
+              "name": "localUrl",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MakeUriString",
+          "parameters": [
+            {
+              "name": "targetUri",
+              "type": "System.Uri"
+            },
+            {
+              "name": "targetUrl",
+              "type": "System.String"
+            },
+            {
+              "name": "prependProtocol",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "URLDecode",
+          "parameters": [
+            {
+              "name": "encoded",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "WebRequestUtils",
+      "namespace": "UnityEngineInternal",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "formData",
+          "offset": 16,
+          "type": "System.Collections.Generic.List<System.Byte[]>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "fieldNames",
+          "offset": 24,
+          "type": "System.Collections.Generic.List<System.String>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "fileNames",
+          "offset": 32,
+          "type": "System.Collections.Generic.List<System.String>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "types",
+          "offset": 40,
+          "type": "System.Collections.Generic.List<System.String>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "boundary",
+          "offset": 48,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "containsFiles",
+          "offset": 56,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "dDash",
+          "offset": 0,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "crlf",
+          "offset": 8,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "contentTypeHeader",
+          "offset": 16,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "dispositionHeader",
+          "offset": 24,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "endQuote",
+          "offset": 32,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "fileNameField",
+          "offset": 40,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ampersand",
+          "offset": 48,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "equal",
+          "offset": 56,
+          "type": "System.Byte[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_DefaultEncoding",
+          "parameters": [],
+          "return_type": "System.Text.Encoding"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_headers",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.Dictionary<System.String,System.String>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_data",
+          "parameters": [],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "WWWForm",
+      "namespace": "UnityEngine",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ucHexChars",
+          "offset": 0,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "lcHexChars",
+          "offset": 8,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "urlEscapeChar",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "urlSpace",
+          "offset": 24,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "dataSpace",
+          "offset": 32,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "urlForbidden",
+          "offset": 40,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "qpEscapeChar",
+          "offset": 48,
+          "type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "qpSpace",
+          "offset": 56,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "qpForbidden",
+          "offset": 64,
+          "type": "System.Byte[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Hex2Byte",
+          "parameters": [
+            {
+              "name": "b",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Byte2Hex",
+          "parameters": [
+            {
+              "name": "b",
+              "type": "System.Byte"
+            },
+            {
+              "name": "hexChars",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "byte0",
+              "type": "System.Byte&"
+            },
+            {
+              "name": "byte1",
+              "type": "System.Byte&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "URLEncode",
+          "parameters": [
+            {
+              "name": "toEncode",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DataEncode",
+          "parameters": [
+            {
+              "name": "toEncode",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DataEncode",
+          "parameters": [
+            {
+              "name": "toEncode",
+              "type": "System.String"
+            },
+            {
+              "name": "e",
+              "type": "System.Text.Encoding"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DataEncode",
+          "parameters": [
+            {
+              "name": "toEncode",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "QPEncode",
+          "parameters": [
+            {
+              "name": "toEncode",
+              "type": "System.String"
+            },
+            {
+              "name": "e",
+              "type": "System.Text.Encoding"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Encode",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "escapeChar",
+              "type": "System.Byte"
+            },
+            {
+              "name": "space",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "forbidden",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "uppercase",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ByteArrayContains",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "b",
+              "type": "System.Byte"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "URLDecode",
+          "parameters": [
+            {
+              "name": "toEncode",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ByteSubArrayEquals",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "comperand",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Decode",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "escapeChar",
+              "type": "System.Byte"
+            },
+            {
+              "name": "space",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SevenBitClean",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.String"
+            },
+            {
+              "name": "e",
+              "type": "System.Text.Encoding"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SevenBitClean",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "inputLength",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "WWWTranscoder",
+      "namespace": "UnityEngine",
+      "type_token": 33554436
+    },
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sectionName",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sectionData",
+          "parameters": [],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_fileName",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_contentType",
+          "parameters": [],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "IMultipartFormSection",
+      "namespace": "UnityEngine.Networking",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<webRequest>k__BackingField",
+          "offset": 32,
+          "type": "UnityEngine.Networking.UnityWebRequest"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_webRequest",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Networking.UnityWebRequest"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UnityWebRequestAsyncOperation",
+      "namespace": "UnityEngine.Networking",
+      "parent": "AsyncOperation",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Get",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestMethod"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Post",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestMethod"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Put",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestMethod"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Head",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestMethod"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Custom",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestMethod"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "UnityWebRequestMethod",
+      "namespace": "",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "OK",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Unknown",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SDKError",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "UnsupportedProtocol",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MalformattedUrl",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CannotResolveProxy",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CannotResolveHost",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CannotConnectToHost",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "AccessDenied",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "GenericHttpError",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "WriteError",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ReadError",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "OutOfMemory",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Timeout",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "HTTPPostError",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SSLCannotConnect",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Aborted",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "TooManyRedirects",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ReceivedNoData",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SSLNotSupported",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FailedToSendData",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FailedToReceiveData",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SSLCertificateError",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SSLCipherNotAvailable",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SSLCACertError",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "UnrecognizedContentEncoding",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LoginFailed",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SSLShutdownFailed",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "NoInternetConnection",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "UnityWebRequestError",
+      "namespace": "",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "InProgress",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.Result"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Success",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.Result"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ConnectionError",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.Result"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ProtocolError",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.Result"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "DataProcessingError",
+          "offset": 0,
+          "type": "UnityEngine.Networking.UnityWebRequest.Result"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Result",
+      "namespace": "",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Ptr",
+          "offset": 16,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_DownloadHandler",
+          "offset": 24,
+          "type": "UnityEngine.Networking.DownloadHandler"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_UploadHandler",
+          "offset": 32,
+          "type": "UnityEngine.Networking.UploadHandler"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_CertificateHandler",
+          "offset": 40,
+          "type": "UnityEngine.Networking.CertificateHandler"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Uri",
+          "offset": 48,
+          "type": "System.Uri"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kHttpVerbGET",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kHttpVerbHEAD",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kHttpVerbPOST",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kHttpVerbPUT",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kHttpVerbCREATE",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "kHttpVerbDELETE",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<disposeCertificateHandlerOnDispose>k__BackingField",
+          "offset": 56,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<disposeDownloadHandlerOnDispose>k__BackingField",
+          "offset": 57,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<disposeUploadHandlerOnDispose>k__BackingField",
+          "offset": 58,
+          "type": "System.Boolean"
+        }
+      ],
+      "interfaces": [
+        "IDisposable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetWebErrorString",
+          "parameters": [
+            {
+              "name": "err",
+              "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHTTPStatusString",
+          "parameters": [
+            {
+              "name": "responseCode",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_disposeCertificateHandlerOnDispose",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_disposeCertificateHandlerOnDispose",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_disposeDownloadHandlerOnDispose",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_disposeDownloadHandlerOnDispose",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_disposeUploadHandlerOnDispose",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_disposeUploadHandlerOnDispose",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClearCookieCache",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClearCookieCache",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.Uri"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClearCookieCache",
+          "parameters": [
+            {
+              "name": "domain",
+              "type": "System.String"
+            },
+            {
+              "name": "path",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Create",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Release",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InternalDestroy",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InternalSetDefaults",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "url",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.Uri"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "url",
+              "type": "System.String"
+            },
+            {
+              "name": "method",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.Uri"
+            },
+            {
+              "name": "method",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "url",
+              "type": "System.String"
+            },
+            {
+              "name": "method",
+              "type": "System.String"
+            },
+            {
+              "name": "downloadHandler",
+              "type": "UnityEngine.Networking.DownloadHandler"
+            },
+            {
+              "name": "uploadHandler",
+              "type": "UnityEngine.Networking.UploadHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.Uri"
+            },
+            {
+              "name": "method",
+              "type": "System.String"
+            },
+            {
+              "name": "downloadHandler",
+              "type": "UnityEngine.Networking.DownloadHandler"
+            },
+            {
+              "name": "uploadHandler",
+              "type": "UnityEngine.Networking.UploadHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisposeHandlers",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginWebRequest",
+          "parameters": [],
+          "return_type": "UnityEngine.Networking.UnityWebRequestAsyncOperation"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Send",
+          "parameters": [],
+          "return_type": "UnityEngine.AsyncOperation"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SendWebRequest",
+          "parameters": [],
+          "return_type": "UnityEngine.Networking.UnityWebRequestAsyncOperation"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Abort",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetMethod",
+          "parameters": [
+            {
+              "name": "methodType",
+              "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestMethod"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InternalSetMethod",
+          "parameters": [
+            {
+              "name": "methodType",
+              "type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestMethod"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetCustomMethod",
+          "parameters": [
+            {
+              "name": "customMethodName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InternalSetCustomMethod",
+          "parameters": [
+            {
+              "name": "customMethodName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMethod",
+          "parameters": [],
+          "return_type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestMethod"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCustomMethod",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_method",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_method",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetError",
+          "parameters": [],
+          "return_type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_error",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_use100Continue",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_use100Continue",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_useHttpContinue",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_useHttpContinue",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_url",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_url",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_uri",
+          "parameters": [],
+          "return_type": "System.Uri"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_uri",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Uri"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetUrl",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetUrl",
+          "parameters": [
+            {
+              "name": "url",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InternalSetUrl",
+          "parameters": [
+            {
+              "name": "url",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_responseCode",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetUploadProgress",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsExecuting",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_uploadProgress",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_isModifiable",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_isDone",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_isNetworkError",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_isHttpError",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_result",
+          "parameters": [],
+          "return_type": "UnityEngine.Networking.UnityWebRequest.Result"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDownloadProgress",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_downloadProgress",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_uploadedBytes",
+          "parameters": [],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_downloadedBytes",
+          "parameters": [],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRedirectLimit",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetRedirectLimitFromScripting",
+          "parameters": [
+            {
+              "name": "limit",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_redirectLimit",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_redirectLimit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetChunked",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetChunked",
+          "parameters": [
+            {
+              "name": "chunked",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_chunkedTransfer",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_chunkedTransfer",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRequestHeader",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InternalSetRequestHeader",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetRequestHeader",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetResponseHeader",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetResponseHeaderKeys",
+          "parameters": [],
+          "return_type": "System.String[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetResponseHeaders",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.Dictionary<System.String,System.String>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetUploadHandler",
+          "parameters": [
+            {
+              "name": "uh",
+              "type": "UnityEngine.Networking.UploadHandler"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_uploadHandler",
+          "parameters": [],
+          "return_type": "UnityEngine.Networking.UploadHandler"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_uploadHandler",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Networking.UploadHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetDownloadHandler",
+          "parameters": [
+            {
+              "name": "dh",
+              "type": "UnityEngine.Networking.DownloadHandler"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_downloadHandler",
+          "parameters": [],
+          "return_type": "UnityEngine.Networking.DownloadHandler"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_downloadHandler",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Networking.DownloadHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetCertificateHandler",
+          "parameters": [
+            {
+              "name": "ch",
+              "type": "UnityEngine.Networking.CertificateHandler"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_certificateHandler",
+          "parameters": [],
+          "return_type": "UnityEngine.Networking.CertificateHandler"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_certificateHandler",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Networking.CertificateHandler"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTimeoutMsec",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTimeoutMsec",
+          "parameters": [
+            {
+              "name": "timeout",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_timeout",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_timeout",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSuppressErrorsToConsole",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetSuppressErrorsToConsole",
+          "parameters": [
+            {
+              "name": "suppress",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest.UnityWebRequestError"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_suppressErrorsToConsole",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_suppressErrorsToConsole",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Get",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Get",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.Uri"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Delete",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Delete",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.Uri"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Head",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Head",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.Uri"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTexture",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTexture",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.String"
+            },
+            {
+              "name": "nonReadable",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAudioClip",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.String"
+            },
+            {
+              "name": "audioType",
+              "type": "UnityEngine.AudioType"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAssetBundle",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAssetBundle",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.String"
+            },
+            {
+              "name": "crc",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAssetBundle",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.String"
+            },
+            {
+              "name": "version",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "crc",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAssetBundle",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.String"
+            },
+            {
+              "name": "hash",
+              "type": "UnityEngine.Hash128"
+            },
+            {
+              "name": "crc",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAssetBundle",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.String"
+            },
+            {
+              "name": "cachedAssetBundle",
+              "type": "UnityEngine.CachedAssetBundle"
+            },
+            {
+              "name": "crc",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Put",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.String"
+            },
+            {
+              "name": "bodyData",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Put",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.Uri"
+            },
+            {
+              "name": "bodyData",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Put",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.String"
+            },
+            {
+              "name": "bodyData",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Put",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.Uri"
+            },
+            {
+              "name": "bodyData",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Post",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.String"
+            },
+            {
+              "name": "postData",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Post",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.Uri"
+            },
+            {
+              "name": "postData",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetupPost",
+          "parameters": [
+            {
+              "name": "request",
+              "type": "UnityEngine.Networking.UnityWebRequest"
+            },
+            {
+              "name": "postData",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Post",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.String"
+            },
+            {
+              "name": "formData",
+              "type": "UnityEngine.WWWForm"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Post",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.Uri"
+            },
+            {
+              "name": "formData",
+              "type": "UnityEngine.WWWForm"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetupPost",
+          "parameters": [
+            {
+              "name": "request",
+              "type": "UnityEngine.Networking.UnityWebRequest"
+            },
+            {
+              "name": "formData",
+              "type": "UnityEngine.WWWForm"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Post",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.String"
+            },
+            {
+              "name": "multipartFormSections",
+              "type": "System.Collections.Generic.List<UnityEngine.Networking.IMultipartFormSection>"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Post",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.Uri"
+            },
+            {
+              "name": "multipartFormSections",
+              "type": "System.Collections.Generic.List<UnityEngine.Networking.IMultipartFormSection>"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Post",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.String"
+            },
+            {
+              "name": "multipartFormSections",
+              "type": "System.Collections.Generic.List<UnityEngine.Networking.IMultipartFormSection>"
+            },
+            {
+              "name": "boundary",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Post",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.Uri"
+            },
+            {
+              "name": "multipartFormSections",
+              "type": "System.Collections.Generic.List<UnityEngine.Networking.IMultipartFormSection>"
+            },
+            {
+              "name": "boundary",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetupPost",
+          "parameters": [
+            {
+              "name": "request",
+              "type": "UnityEngine.Networking.UnityWebRequest"
+            },
+            {
+              "name": "multipartFormSections",
+              "type": "System.Collections.Generic.List<UnityEngine.Networking.IMultipartFormSection>"
+            },
+            {
+              "name": "boundary",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Post",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.String"
+            },
+            {
+              "name": "formFields",
+              "type": "System.Collections.Generic.Dictionary<System.String,System.String>"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Post",
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "System.Uri"
+            },
+            {
+              "name": "formFields",
+              "type": "System.Collections.Generic.Dictionary<System.String,System.String>"
+            }
+          ],
+          "return_type": "UnityEngine.Networking.UnityWebRequest"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetupPost",
+          "parameters": [
+            {
+              "name": "request",
+              "type": "UnityEngine.Networking.UnityWebRequest"
+            },
+            {
+              "name": "formFields",
+              "type": "System.Collections.Generic.Dictionary<System.String,System.String>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EscapeURL",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EscapeURL",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.String"
+            },
+            {
+              "name": "e",
+              "type": "System.Text.Encoding"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnEscapeURL",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnEscapeURL",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.String"
+            },
+            {
+              "name": "e",
+              "type": "System.Text.Encoding"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SerializeFormSections",
+          "parameters": [
+            {
+              "name": "multipartFormSections",
+              "type": "System.Collections.Generic.List<UnityEngine.Networking.IMultipartFormSection>"
+            },
+            {
+              "name": "boundary",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GenerateBoundary",
+          "parameters": [],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SerializeSimpleForm",
+          "parameters": [
+            {
+              "name": "formFields",
+              "type": "System.Collections.Generic.Dictionary<System.String,System.String>"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        }
+      ],
+      "name": "UnityWebRequest",
+      "namespace": "UnityEngine.Networking",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Ptr",
+          "offset": 16,
+          "type": "System.IntPtr"
+        }
+      ],
+      "interfaces": [
+        "IDisposable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Release",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValidateCertificate",
+          "parameters": [
+            {
+              "name": "certificateData",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValidateCertificateNative",
+          "parameters": [
+            {
+              "name": "certificateData",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CertificateHandler",
+      "namespace": "UnityEngine.Networking",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Ptr",
+          "offset": 16,
+          "type": "System.IntPtr"
+        }
+      ],
+      "interfaces": [
+        "IDisposable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Release",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_data",
+          "parameters": [],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_text",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetNativeData",
+          "parameters": [],
+          "return_type": "Unity.Collections.NativeArray<System.Byte>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetData",
+          "parameters": [],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetText",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTextEncoder",
+          "parameters": [],
+          "return_type": "System.Text.Encoding"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetContentType",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReceiveData",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "dataLength",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReceiveContentLengthHeader",
+          "parameters": [
+            {
+              "name": "contentLength",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReceiveContentLength",
+          "parameters": [
+            {
+              "name": "contentLength",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CompleteContent",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetProgress",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InternalGetByteArray",
+          "parameters": [
+            {
+              "name": "dh",
+              "type": "UnityEngine.Networking.DownloadHandler"
+            },
+            {
+              "name": "length",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Byte*"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InternalGetByteArray",
+          "parameters": [
+            {
+              "name": "dh",
+              "type": "UnityEngine.Networking.DownloadHandler"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InternalGetNativeArray",
+          "parameters": [
+            {
+              "name": "dh",
+              "type": "UnityEngine.Networking.DownloadHandler"
+            },
+            {
+              "name": "nativeArray",
+              "type": "Unity.Collections.NativeArray<System.Byte>&"
+            }
+          ],
+          "return_type": "Unity.Collections.NativeArray<System.Byte>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisposeNativeArray",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "Unity.Collections.NativeArray<System.Byte>&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateNativeArrayForNativeData",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "Unity.Collections.NativeArray<System.Byte>&"
+            },
+            {
+              "name": "bytes",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "length",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "DownloadHandler",
+      "namespace": "UnityEngine.Networking",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_NativeData",
+          "offset": 24,
+          "type": "Unity.Collections.NativeArray<System.Byte>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Create",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "UnityEngine.Networking.DownloadHandlerBuffer"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InternalCreateBuffer",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetNativeData",
+          "parameters": [],
+          "return_type": "Unity.Collections.NativeArray<System.Byte>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "DownloadHandlerBuffer",
+      "namespace": "UnityEngine.Networking",
+      "parent": "DownloadHandler",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Ptr",
+          "offset": 16,
+          "type": "System.IntPtr"
+        }
+      ],
+      "interfaces": [
+        "IDisposable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Release",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_contentType",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetContentType",
+          "parameters": [
+            {
+              "name": "newContentType",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InternalSetContentType",
+          "parameters": [
+            {
+              "name": "newContentType",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UploadHandler",
+      "namespace": "UnityEngine.Networking",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Payload",
+          "offset": 24,
+          "type": "Unity.Collections.NativeArray<System.Byte>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Create",
+          "parameters": [
+            {
+              "name": "self",
+              "type": "UnityEngine.Networking.UploadHandlerRaw"
+            },
+            {
+              "name": "data",
+              "type": "System.Byte*"
+            },
+            {
+              "name": "dataLength",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "Unity.Collections.NativeArray<System.Byte>"
+            },
+            {
+              "name": "transferOwnership",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UploadHandlerRaw",
+      "namespace": "UnityEngine.Networking",
+      "parent": "UploadHandler",
+      "type_token": 33554447
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.UnityWebRequestModule.dll"
+}

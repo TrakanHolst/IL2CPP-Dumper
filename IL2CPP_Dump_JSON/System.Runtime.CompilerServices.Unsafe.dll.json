@@ -1,0 +1,200 @@
+{
+  "class_count": 4,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadUnaligned",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "System.Byte&"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteUnaligned",
+          "parameters": [
+            {
+              "name": "destination",
+              "type": "System.Byte&"
+            },
+            {
+              "name": "value",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SizeOf",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CopyBlockUnaligned",
+          "parameters": [
+            {
+              "name": "destination",
+              "type": "System.Byte&"
+            },
+            {
+              "name": "source",
+              "type": "System.Byte&"
+            },
+            {
+              "name": "byteCount",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "As",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AsRef",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "System.Void*"
+            }
+          ],
+          "return_type": "T&"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AsRef",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "T&"
+            }
+          ],
+          "return_type": "T&"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "As",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "TFrom&"
+            }
+          ],
+          "return_type": "TTo&"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "T&"
+            },
+            {
+              "name": "elementOffset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "T&"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddByteOffset",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "T&"
+            },
+            {
+              "name": "byteOffset",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "T&"
+        }
+      ],
+      "name": "Unsafe",
+      "namespace": "System.Runtime.CompilerServices",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "NonVersionableAttribute",
+      "namespace": "System.Runtime.Versioning",
+      "parent": "Attribute",
+      "type_token": 33554435
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IsReadOnlyAttribute",
+      "namespace": "System.Runtime.CompilerServices",
+      "parent": "Attribute",
+      "type_token": 33554436
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "System.Runtime.CompilerServices.Unsafe.dll"
+}

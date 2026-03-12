@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -3093568202004207767
+  },
+  "m_Name": "Player/Fire",
+  "m_Asset": {
+    "m_FileID": 0,
+    "m_PathID": -7673250521023480434
+  },
+  "m_ActionId": "6c2ab1b8-8984-453a-af3d-a3c78ae1679a"
+}

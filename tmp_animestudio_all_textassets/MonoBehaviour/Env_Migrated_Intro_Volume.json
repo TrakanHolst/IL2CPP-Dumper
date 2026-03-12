@@ -1,0 +1,1217 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 4601163127738570186
+  },
+  "m_Name": "Env_Migrated_Intro_Volume",
+  "lightConfig": {
+    "directColor": {
+      "r": 1.0,
+      "g": 0.9295292,
+      "b": 0.8831536,
+      "a": 1.0
+    },
+    "directColorMode": 0,
+    "directCustomColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "directColorTemperature": 5500.0,
+    "directLux": 120000.0,
+    "directEV100": 12.5,
+    "directSpecularIntensity": 1.0,
+    "directSoftSourceRadius": 0.0,
+    "directPitchYaw": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "indirectDiffuseFactor": 1.0,
+    "indirectSpecularFactor": 1.0,
+    "indirectSpecularFactorType": 0,
+    "atmospherePitchYawMode": 0,
+    "atmospherePitchYaw": {
+      "x": 32.0,
+      "y": 0.0
+    },
+    "lightShaftPitchYawMode": 0,
+    "lightShaftPitchYaw": {
+      "x": 32.0,
+      "y": 0.0
+    },
+    "sunDiscPitchYawMode": 0,
+    "sunDiscPitchYaw": {
+      "x": 30.0,
+      "y": 540.0
+    },
+    "lensFlarePitchYawMode": 0,
+    "lensFlarePitchYaw": {
+      "x": 32.0,
+      "y": 0.0
+    },
+    "cloudShadowPitchYawMode": 1,
+    "cloudShadowPitchYaw": {
+      "x": 90.0,
+      "y": 0.0
+    },
+    "heightFogDirectionalInscatteringPitchYawMode": 0,
+    "heightFogDirectionalInscatteringPitchYaw": {
+      "x": 90.0,
+      "y": 0.0
+    },
+    "preExposure": 0.00014386124,
+    "directIntensity": 17.263348,
+    "directIntensityDividePi": 5.4950943,
+    "rotationDirect": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "forwardDirect": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    "localToWorld": {
+      "e00": 1.0,
+      "e01": 0.0,
+      "e02": 0.0,
+      "e03": 0.0,
+      "e10": 0.0,
+      "e11": 1.0,
+      "e12": 0.0,
+      "e13": 0.0,
+      "e20": 0.0,
+      "e21": 0.0,
+      "e22": 1.0,
+      "e23": 0.0,
+      "e30": 0.0,
+      "e31": 0.0,
+      "e32": 0.0,
+      "e33": 1.0
+    },
+    "rotationAtmosphere": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "rotationLightShaft": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "rotationSunDisc": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "rotationLensFlare": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "rotationCloudShadow": {
+      "x": 0.70710677,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 0.70710677
+    },
+    "rotationHeightFogDirectionalInscattering": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "m_active": 0
+  },
+  "skyConfig": {
+    "skyDistance": 10000.0,
+    "skyBakedIndirectIntensity": 1.0,
+    "skyDirectIntensity": 1.0,
+    "useCustomIVDefaultSH": 0,
+    "customIVDefaultSH": {
+      "sh[ 0]": 0.0,
+      "sh[ 1]": 0.0,
+      "sh[ 2]": 0.0,
+      "sh[ 3]": 0.0,
+      "sh[ 4]": 0.0,
+      "sh[ 5]": 0.0,
+      "sh[ 6]": 0.0,
+      "sh[ 7]": 0.0,
+      "sh[ 8]": 0.0,
+      "sh[ 9]": 0.0,
+      "sh[10]": 0.0,
+      "sh[11]": 0.0,
+      "sh[12]": 0.0,
+      "sh[13]": 0.0,
+      "sh[14]": 0.0,
+      "sh[15]": 0.0,
+      "sh[16]": 0.0,
+      "sh[17]": 0.0,
+      "sh[18]": 0.0,
+      "sh[19]": 0.0,
+      "sh[20]": 0.0,
+      "sh[21]": 0.0,
+      "sh[22]": 0.0,
+      "sh[23]": 0.0,
+      "sh[24]": 0.0,
+      "sh[25]": 0.0,
+      "sh[26]": 0.0
+    },
+    "skyMaterialType": 0,
+    "proceduralSkyLuxFactor": 1.0,
+    "enableSunDisc": 0,
+    "sunDiscRadius": 0.1,
+    "sunDiscRampIntensity": 0.2,
+    "sunDiscColor": {
+      "r": 0.5,
+      "g": 0.25,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "skyboxBrightness": 120000.0,
+    "skyboxTintColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "skyboxRotation": 0.0,
+    "visibleBox": {
+      "x": 32.0,
+      "y": 32.0,
+      "z": 32.0
+    },
+    "reflectionType": 0,
+    "reflectionMap": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "culloff": 0.0,
+    "skyAmbientSH": {
+      "sh[ 0]": 0.0,
+      "sh[ 1]": 0.0,
+      "sh[ 2]": 0.0,
+      "sh[ 3]": 0.0,
+      "sh[ 4]": 0.0,
+      "sh[ 5]": 0.0,
+      "sh[ 6]": 0.0,
+      "sh[ 7]": 0.0,
+      "sh[ 8]": 0.0,
+      "sh[ 9]": 0.0,
+      "sh[10]": 0.0,
+      "sh[11]": 0.0,
+      "sh[12]": 0.0,
+      "sh[13]": 0.0,
+      "sh[14]": 0.0,
+      "sh[15]": 0.0,
+      "sh[16]": 0.0,
+      "sh[17]": 0.0,
+      "sh[18]": 0.0,
+      "sh[19]": 0.0,
+      "sh[20]": 0.0,
+      "sh[21]": 0.0,
+      "sh[22]": 0.0,
+      "sh[23]": 0.0,
+      "sh[24]": 0.0,
+      "sh[25]": 0.0,
+      "sh[26]": 0.0
+    },
+    "skyboxCubeMap": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_active": 0
+  },
+  "atmosphereConfig": {
+    "groundRadius": 6360.0,
+    "groundAlbedo": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "outerSunIrradianceColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "atmosphereHeight": 60.0,
+    "multiScatteringFactor": 1.0,
+    "rayleighScatteringScale": 0.0331,
+    "rayleighScattering": {
+      "r": 0.175287,
+      "g": 0.409607,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "rayleighExponentialDistribution": 8.0,
+    "mieScatteringScale": 0.003996,
+    "mieScattering": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "mieAbsorptionScale": 0.000444,
+    "mieAbsorption": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "mieAnisotropy": 0.8,
+    "mieExponentialDistribution": 1.2,
+    "ozoneAbsorptionScale": 0.001881,
+    "ozoneAbsorption": {
+      "r": 0.345561,
+      "g": 1.0,
+      "b": 0.045189,
+      "a": 1.0
+    },
+    "tentTipAltitude": 25.0,
+    "tentTipValue": 1.0,
+    "tentWidth": 15.0,
+    "m_active": 0
+  },
+  "fogConfig": {
+    "enable": 0,
+    "startDistance": 50.0,
+    "startHeight": 0.0,
+    "fallOffHeight": 50.0,
+    "fallOffDistance": 1.0,
+    "mieScattering": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "mieScatteringScale": 1.0,
+    "mieAnisotropy": 0.6,
+    "rayleighScattering": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "rayleighScatteringScale": -1.0,
+    "inscatterAmbientColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "m_active": 0
+  },
+  "heightFogConfig": {
+    "enable": 0,
+    "heightFogStartHeight": 0.0,
+    "heightFogDensity": 0.02,
+    "heightFogFalloff": 0.2,
+    "heightFogStartHeightSecond": 0.0,
+    "heightFogDensitySecond": 0.0,
+    "heightFogFalloffSecond": 0.2,
+    "heightFogInscatter": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "heightFogMaxOpacity": 1.0,
+    "heightFogStartDistance": 0.0,
+    "heightFogStartTransition": 0.05,
+    "heightFogCutoffDistance": 200.0,
+    "heightFogCutoffTransition": 0.05,
+    "heightFogCullingFarClipPlane": 100000.0,
+    "heightFogDirectionalInscatteringExponent": 4.0,
+    "heightFogDirectionalInscatteringStartDistance": 100.0,
+    "heightFogDirectionalInscattering": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "enableVolumetricFog": 0,
+    "volumetricFogScatteringDistribution": 0.2,
+    "volumetricFogAlbedo": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "volumetricFogEmissive": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "volumetricFogExtinctionScale": 1.0,
+    "volumetricFogDistance": 60.0,
+    "volumetricFogStartDistance": 0.0,
+    "volumetricFogNearFadeInDistance": 0.0,
+    "volumetricFogDirectLightingScatteringIntensity": 1.0,
+    "volumetricFogSkyLightingScatteringIntensity": 1.0,
+    "enableFlowNoise": 0,
+    "flowNoiseIntensity": 0.5,
+    "flowNoiseDistance": 60.0,
+    "flowNoiseTilling": 0.01,
+    "flowNoiseHorizontalDirAngle": 0.0,
+    "flowNoiseVerticalDirAngle": 0.0,
+    "flowNoiseDir": {
+      "x": 5.9604645E-08,
+      "y": 0.0,
+      "z": 0.99999994
+    },
+    "flowNoiseSpeed": 0.0,
+    "m_active": 0
+  },
+  "volumetricFogConfig": {
+    "enable": 0,
+    "heightFogStartHeight": 0.0,
+    "heightFogDensity": 0.02,
+    "heightFogFalloff": 0.2,
+    "heightFogStartHeightSecond": 0.0,
+    "heightFogDensitySecond": 0.0,
+    "heightFogFalloffSecond": 0.2,
+    "heightFogInscatter": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "heightFogMaxOpacity": 1.0,
+    "heightFogStartDistance": 0.0,
+    "heightFogStartTransition": 0.05,
+    "heightFogCutoffDistance": 200.0,
+    "heightFogCutoffTransition": 0.05,
+    "heightFogDirectionalInscatteringExponent": 4.0,
+    "heightFogDirectionalInscatteringStartDistance": 100.0,
+    "heightFogDirectionalInscattering": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "volumetricFogScatteringDistribution": 0.2,
+    "volumetricFogAlbedo": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "volumetricFogEmissive": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "volumetricFogExtinctionScale": 1.0,
+    "volumetricFogDistance": 60.0,
+    "volumetricFogStartDistance": 0.0,
+    "volumetricFogNearFadeInDistance": 0.0,
+    "volumetricFogDirectLightingScatteringIntensity": 1.0,
+    "volumetricFogSkyLightingScatteringIntensity": 1.0,
+    "enableFlowNoise": 0,
+    "flowNoiseIntensity": 0.5,
+    "flowNoiseDistance": 60.0,
+    "flowNoiseTilling": 0.01,
+    "flowNoiseHorizontalDirAngle": 0.0,
+    "flowNoiseVerticalDirAngle": 0.0,
+    "flowNoiseDir": {
+      "x": 5.9604645E-08,
+      "y": 0.0,
+      "z": 0.99999994
+    },
+    "flowNoiseSpeed": 0.0,
+    "m_active": 0
+  },
+  "cloudConfig": {
+    "enable": 0,
+    "cloudTexture": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "cloudTint": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "cloudContrast": 1.0,
+    "lightAffectCloud": 1,
+    "cloudBrightness": 0.0,
+    "cloudAbsoluteBrightness": 1.0,
+    "brightnessAffectCloudAlpha": 1,
+    "drawCloudAfterPlanet": 0,
+    "cloudTextureMode": 0,
+    "cloudOpacityR": 1.0,
+    "cloudOpacityG": 1.0,
+    "cloudFlowType": 0,
+    "rotation": 0,
+    "cloudFlowMap": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "flowSpeed": 0.0,
+    "flowDirectionX": 0.0,
+    "flowDirectionY": 0.0,
+    "enableLightShaftCloudMask": 0,
+    "lightShaftCloudMaskTexture": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "enableCloudShadow": 0,
+    "cloudShadowConfig": {
+      "cloudShadowTexture": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "cloudShadowEnvCenter": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "cloudShadowCoverage": 0.0,
+      "cloudShadowFlowSpeed": 0.0,
+      "cloudShadowFlowDirection": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "cloudShadowAlpha": 0.0,
+      "cloudShadowDistanceScale": 0.0,
+      "cloudShadowScaleStartDistance": 0.0,
+      "cloudShadowScaleEndDistance": 0.0
+    },
+    "cloudFadeAlpha": 1.0,
+    "m_active": 0
+  },
+  "celestialConfig": {
+    "moonConfig": {
+      "radius": 5600.0,
+      "orbitRadius": 185000.0,
+      "enableRing": 0,
+      "drawPlanetBelowHorizon": 1.0,
+      "worldLongitude": 0.0,
+      "worldLatitude": 45.0,
+      "rotationAroundUp": 0.0,
+      "ring": {
+        "outerRadius": 10000.0,
+        "width": 3000.0,
+        "ringColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "planetRingMap": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      }
+    },
+    "talosAlphaConfig": {
+      "drawPlanetInSkydome": 0,
+      "drawPlanetBelowHorizon": 1.0,
+      "objectProperty": {
+        "radius": 5600.0,
+        "selfTiltX": 0.0,
+        "selfTiltZ": 0.0,
+        "selfRotationY": 0.0
+      },
+      "skydomeDrawer": {
+        "drawMode": 1,
+        "drawMaterial": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pitchYaw": {
+          "x": 32.0,
+          "y": 45.0
+        },
+        "incidentLightingPitchYaw": {
+          "x": 32.0,
+          "y": 45.0
+        }
+      },
+      "enableRing": 0,
+      "ring": {
+        "outerRadius": 10000.0,
+        "width": 3000.0,
+        "ringColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "planetRingMap": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "enableAtmosphere": 0,
+      "atmosphere": {
+        "bakeFaceVisibility": 0.0,
+        "atmosphereHeight": 320.0,
+        "numInscatteredSamplePoints": 100,
+        "numOpticalDepthSamplePoints": 50,
+        "coff_R": 1.56,
+        "heightScale_R": 11.7333,
+        "atmosphereBrightness": 30.0,
+        "atmosphereHueshift": 0.0
+      }
+    },
+    "planetConfig": {
+      "drawPlanetInSkydome": 0,
+      "drawPlanetBelowHorizon": 1.0,
+      "objectProperty": {
+        "radius": 5600.0,
+        "selfTiltX": 0.0,
+        "selfTiltZ": 0.0,
+        "selfRotationY": 0.0
+      },
+      "skydomeDrawer": {
+        "drawMode": 1,
+        "drawMaterial": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pitchYaw": {
+          "x": 32.0,
+          "y": 45.0
+        },
+        "incidentLightingPitchYaw": {
+          "x": 32.0,
+          "y": 45.0
+        }
+      },
+      "enableRing": 0,
+      "ring": {
+        "outerRadius": 10000.0,
+        "width": 3000.0,
+        "ringColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "planetRingMap": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "enableAtmosphere": 0,
+      "atmosphere": {
+        "bakeFaceVisibility": 0.0,
+        "atmosphereHeight": 320.0,
+        "numInscatteredSamplePoints": 100,
+        "numOpticalDepthSamplePoints": 50,
+        "coff_R": 1.56,
+        "heightScale_R": 11.7333,
+        "atmosphereBrightness": 30.0,
+        "atmosphereHueshift": 0.0
+      }
+    },
+    "advancedPlanetConfig": {
+      "drawAdvancedPlanet": 0,
+      "advancedPlanetMat": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "m_active": 0
+  },
+  "windConfig": {
+    "speed": 1.0,
+    "horizontalDirectionAngle": 0.0,
+    "verticalDirectionAngle": 0.0,
+    "direction": {
+      "x": 5.9604645E-08,
+      "y": 0.0,
+      "z": 0.99999994
+    },
+    "m_active": 0
+  },
+  "lightShaftConfig": {
+    "enable": 0,
+    "bloomScale": 0.2,
+    "bloomThreshold": 0.0,
+    "bloomMaxBrightness": 100.0,
+    "bloomTint": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "blurIntensity": 0.8,
+    "occlusionDepthRange": 1000.0,
+    "enableOcclusion": 0,
+    "occlusionMaskDarkness": 0.05,
+    "m_active": 0
+  },
+  "terrainDeformConfig": {
+    "deformGlobalStrength": 0.0,
+    "latency": 0.0,
+    "m_active": 0
+  },
+  "inkSimulationConfig": {
+    "influence": 0.0,
+    "disableWaterInk": 1,
+    "material": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_active": 0
+  },
+  "rainConfig": {
+    "enable": 0,
+    "intensity": 0.0,
+    "speed": 0.0,
+    "color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 0.0
+    },
+    "streakLength": 0.0,
+    "horizontalRainAngle": 0.0,
+    "horizontalRainLevel": 0.0,
+    "sceneEffectRainJitterLevel": 0.0,
+    "sceneEffectRainWidthScale": 0.03,
+    "sceneEffectRainLightingPercent": 0.0,
+    "rainCenterBias": 0.0,
+    "middleRainLayerSpeedDiffMultiplier": 1.0,
+    "middleRainAlphaMultiplier": 1.0,
+    "middleHorizontalRainAngle": 0.0,
+    "middleHorizontalRainLevel": 0.0,
+    "middleRainLightingPercent": 0.0,
+    "farRainLayerSpeedDiffMultiplier": 1.0,
+    "farRainAlphaMultiplier": 1.0,
+    "farRainHorizontalRainAngle": 0.0,
+    "farRainHorizontalRainLevel": 0.0,
+    "rainWaveVerticalSpeed": 0.0,
+    "rainWaveHorizontalSpeed": 0.0,
+    "rainWaveAlpha": 0.0,
+    "screenDropColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 0.0
+    },
+    "screenDropMaxCountLim": 0,
+    "screenDropMinMaxLifeTime": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "screenDropMinMaxSize": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "screenDropCentroidFadeParam": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "screenDropFlowPercent": 0.0,
+    "screenDropMinMaxSpeed": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "screenDropJitterSpeedScale": 0.0,
+    "rainSplashCount": 0,
+    "rainSplashSpeed": 0.0,
+    "rainSplashAlpha": 0.0,
+    "rainSplashMinMaxSize": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "rainSplashLightingPercent": 0.0,
+    "enableWetness": 0,
+    "enableWetnessAffectSSR": 0,
+    "wetness": 0.0,
+    "wetnessBasePorosity": 0.0,
+    "wetnessPorosityFactor": 0.0,
+    "baseWetnessLevel": 0.0,
+    "verticalWetnessScalar": 1.0,
+    "verticalFlowSpeed": 0.0,
+    "verticalFlowNormalStrength": 0.0,
+    "verticalFlowSurfaceThreshold": 0.0,
+    "verticalFlowPorosityBias": 0.0,
+    "rippleFrequency": 1.0,
+    "rippleNormalStrength": 0.0,
+    "rippleWaveSpeed": 0.0,
+    "rippleWaveNormalStrength": 0.0,
+    "rippleRoughnessMaskThreshold": 0.0,
+    "farSceneWetnessDistanceFactor": 1.0,
+    "farSceneWetnessValue": 1.0,
+    "wetnessProceduralForWater": 0.0,
+    "rainDirection": {
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    },
+    "middleRainDirection": {
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    },
+    "farRainDirection": {
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    },
+    "m_active": 0
+  },
+  "snowConfig": {
+    "enable": 0,
+    "intensity": 0.0,
+    "speed": 0.0,
+    "color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 0.0
+    },
+    "snowflakeLength": 0.0,
+    "snowflakeWidthScale": 0.0,
+    "horizontalSnowAngle": 0.0,
+    "horizontalSnowLevel": 0.0,
+    "snowJitterLevel": 0.0,
+    "snowLightingPercent": 0.0,
+    "snowDirection": {
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    },
+    "m_active": 0
+  },
+  "starConfig": {
+    "enableStars": 0,
+    "starType": 0,
+    "starsSize": 1.0,
+    "starsFlickerSpeed": 0.0,
+    "starsTint": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "starsOffset0": 0.0,
+    "starsDensityR": 1.0,
+    "starsDensity": 0.0,
+    "starsExposure": 0.0,
+    "starsTint1": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "starsOffset1": 0.0,
+    "starsDensityG": 1.0,
+    "starsDensity1": 0.0,
+    "starsExposure1": 0.0,
+    "starsTint2": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "starsOffset2": 0.0,
+    "starsDensityB": 1.0,
+    "starsDensity2": 0.0,
+    "starsExposure2": 0.0,
+    "starLayerViewMode": 0,
+    "skyboxStarNoiseMap": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "skyBoxStarRangeMap": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "skyBoxStarDensityMapRotation": 0.0,
+    "debugMode": 1,
+    "enableNebula": 0,
+    "nebulaMap": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "nebulaTint": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "nebulaMapRotation": 0.0,
+    "nebulaStarConverage": 0.1,
+    "m_active": 0
+  },
+  "lensFlareConfig": {
+    "enable": 0,
+    "lensFlareData": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "intensity": 1.0,
+    "scale": 1.0,
+    "useOcclusion": 0,
+    "occlusionRadius": 0.1,
+    "sampleCount": 32,
+    "occlusionOffset": 0.05,
+    "allowOffScreen": 0,
+    "m_active": 0
+  },
+  "colorGradingConfig": {
+    "tonemappingMode": 0,
+    "colorLookupEnabled": 0,
+    "colorLookupTexture": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "colorLookupContribution": 1.0,
+    "whiteBalanceEnabled": 0,
+    "whiteBalanceTemperature": 0.0,
+    "whiteBalanceTint": 0.0,
+    "colorAdjustmentsEnabled": 0,
+    "colorAdjustmentsPostExposure": 0.0,
+    "colorAdjustmentsContrast": 0.0,
+    "colorAdjustmentsColorFilter": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorAdjustmentsHueShift": 0.0,
+    "colorAdjustmentsSaturation": 0.0,
+    "channelMixerEnabled": 0,
+    "channelMixerRedOutRedIn": 100.0,
+    "channelMixerRedOutGreenIn": 0.0,
+    "channelMixerRedOutBlueIn": 0.0,
+    "channelMixerGreenOutRedIn": 0.0,
+    "channelMixerGreenOutGreenIn": 100.0,
+    "channelMixerGreenOutBlueIn": 0.0,
+    "channelMixerBlueOutRedIn": 0.0,
+    "channelMixerBlueOutGreenIn": 0.0,
+    "channelMixerBlueOutBlueIn": 100.0,
+    "shadowsMidtonesHighlightsEnabled": 0,
+    "shadowsMidtonesHighlights": {
+      "shadows": {
+        "x": 0.96,
+        "y": 1.0,
+        "z": 0.99,
+        "w": 0.06948465
+      },
+      "midtones": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "w": 0.0
+      },
+      "highlights": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "w": 0.023161555
+      },
+      "shadowsStart": 0.0,
+      "shadowsEnd": 0.3,
+      "highlightsStart": 0.55,
+      "highlightsEnd": 1.0,
+      "shadowsOverriding": 1,
+      "midtonesOverriding": 1,
+      "highlightsOverriding": 1,
+      "shadowsStartOverriding": 0,
+      "shadowsEndOverriding": 0,
+      "highlightsStartOverriding": 0,
+      "highlightsEndOverriding": 0
+    },
+    "liftGammaGainEnabled": 0,
+    "liftGammaGain": {
+      "lift": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "w": 0.0
+      },
+      "gamma": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "w": 0.0
+      },
+      "gain": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "w": 0.0
+      },
+      "liftOverriding": 0,
+      "gammaOverriding": 0,
+      "gainOverriding": 0
+    },
+    "splitToningEnabled": 0,
+    "splitToningShadows": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5,
+      "a": 1.0
+    },
+    "splitToningHighlights": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5,
+      "a": 1.0
+    },
+    "splitToningBalance": 0.0,
+    "colorCurvesEnabled": 0,
+    "colorCurves": {
+      "master": {
+        "<length>k__BackingField": 2,
+        "m_Loop": 0,
+        "m_ZeroValue": 0.0,
+        "m_Range": 1.0,
+        "m_Curve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 1.0,
+              "outSlope": 1.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0,
+              "inSlope": 1.0,
+              "outSlope": 1.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        }
+      },
+      "red": {
+        "<length>k__BackingField": 2,
+        "m_Loop": 0,
+        "m_ZeroValue": 0.0,
+        "m_Range": 1.0,
+        "m_Curve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 1.0,
+              "outSlope": 1.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0,
+              "inSlope": 1.0,
+              "outSlope": 1.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        }
+      },
+      "green": {
+        "<length>k__BackingField": 2,
+        "m_Loop": 0,
+        "m_ZeroValue": 0.0,
+        "m_Range": 1.0,
+        "m_Curve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 1.0,
+              "outSlope": 1.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0,
+              "inSlope": 1.0,
+              "outSlope": 1.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        }
+      },
+      "blue": {
+        "<length>k__BackingField": 2,
+        "m_Loop": 0,
+        "m_ZeroValue": 0.0,
+        "m_Range": 1.0,
+        "m_Curve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 1.0,
+              "outSlope": 1.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0,
+              "inSlope": 1.0,
+              "outSlope": 1.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        }
+      },
+      "hueVsHue": {
+        "<length>k__BackingField": 0,
+        "m_Loop": 1,
+        "m_ZeroValue": 0.5,
+        "m_Range": 1.0,
+        "m_Curve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        }
+      },
+      "hueVsSat": {
+        "<length>k__BackingField": 0,
+        "m_Loop": 1,
+        "m_ZeroValue": 0.5,
+        "m_Range": 1.0,
+        "m_Curve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        }
+      },
+      "satVsSat": {
+        "<length>k__BackingField": 0,
+        "m_Loop": 0,
+        "m_ZeroValue": 0.5,
+        "m_Range": 1.0,
+        "m_Curve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        }
+      },
+      "lumVsSat": {
+        "<length>k__BackingField": 0,
+        "m_Loop": 0,
+        "m_ZeroValue": 0.5,
+        "m_Range": 1.0,
+        "m_Curve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        }
+      },
+      "masterOverriding": 0,
+      "redOverriding": 0,
+      "greenOverriding": 0,
+      "blueOverriding": 0,
+      "hueVsHueOverriding": 0,
+      "hueVsSatOverriding": 0,
+      "satVsSatOverriding": 0,
+      "lumVsSatOverriding": 0
+    },
+    "m_active": 1
+  },
+  "autoExposureConfig": {
+    "autoExposureMode": 1,
+    "autoExposureManualEvCompensationAuto": 0.0,
+    "autoExposureLerpUpSpeed": 0.6,
+    "autoExposureLerpDownSpeed": 0.6,
+    "autoExposureEv100Range": {
+      "x": -8.0,
+      "y": 4.0
+    },
+    "autoExposureEv100HistogramRange": {
+      "x": -8.0,
+      "y": 4.0
+    },
+    "autoExposureMeteringMode": 0,
+    "autoExposurePixelLuminanceRange": {
+      "x": 0.05,
+      "y": 0.95
+    },
+    "autoExposureEvClampRange": {
+      "x": -4.0,
+      "y": 4.0
+    },
+    "autoExposureManualEvCompensationManual": 0.0,
+    "m_active": 1
+  },
+  "shadowConfig": {
+    "csmDepthBiasV2": 0.0,
+    "csmNormalBiasV2": 0.0,
+    "csmIntensity": 1.0,
+    "csmRampTexture": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "csmShadowSoftness": 0.01,
+    "asmCasterMinY": -500.0,
+    "asmCasterMaxY": 500.0,
+    "contactShadowIntensity": 0.5,
+    "contactShadowSurfaceThickness": 0.8,
+    "contactShadowBilinearThreshold": 2.0,
+    "contactShadowContract": 1,
+    "contactShadowIgnoreEdgePixels": 0,
+    "overrideCsmFarDistanceEnabled": 0,
+    "overrideCsmFarDistance": 10.0,
+    "manualOverrideCsmRendering": 0,
+    "overrideCsmSpherePosition": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "overrideCsmSphereRadius": 10.0,
+    "disableCsm": 0,
+    "disableCsmBlendFactor": 0.0,
+    "csmSimulatedAttenuation": 0.0,
+    "disableAsm": 0,
+    "m_active": 0
+  }
+}

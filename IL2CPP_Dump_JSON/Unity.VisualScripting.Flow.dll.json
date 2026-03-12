@@ -1,0 +1,3874 @@
+{
+  "class_count": 54,
+  "classes": [
+    {
+      "fields": [],
+      "interfaces": [
+        "IUnitConnection",
+        "IConnection`2",
+        "IGraphElementWithDebugData",
+        "IGraphElement",
+        "IDisposable",
+        "IIdentifiable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "Unity.VisualScripting.ControlOutput"
+            },
+            {
+              "name": "destination",
+              "type": "Unity.VisualScripting.ControlInput"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_source",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.ControlOutput"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_destination",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.ControlInput"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Unity.VisualScripting.IConnection<Unity.VisualScripting.IUnitOutputPort,Unity.VisualScripting.IUnitInputPort>.get_source",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitOutputPort"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Unity.VisualScripting.IConnection<Unity.VisualScripting.IUnitOutputPort,Unity.VisualScripting.IUnitInputPort>.get_destination",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitInputPort"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sourceExists",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_destinationExists",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "ControlConnection",
+      "namespace": "Unity.VisualScripting",
+      "parent": "UnitConnection`2",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IUnitConnection",
+        "IConnection`2",
+        "IGraphElementWithDebugData",
+        "IGraphElement",
+        "IDisposable",
+        "IIdentifiable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "Unity.VisualScripting.IUnitOutputPort"
+            },
+            {
+              "name": "destination",
+              "type": "Unity.VisualScripting.IUnitInputPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_source",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitOutputPort"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_destination",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitInputPort"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validSource",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitOutputPort"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validDestination",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitInputPort"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sourceExists",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_destinationExists",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validSourceExists",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validDestinationExists",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HandleDependencies",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<get_source>b__4_0",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "Unity.VisualScripting.IUnitOutputPort"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<get_destination>b__6_0",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "Unity.VisualScripting.IUnitInputPort"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<get_validSource>b__8_0",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "Unity.VisualScripting.IUnitOutputPort"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<get_validDestination>b__10_0",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "Unity.VisualScripting.IUnitInputPort"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<get_sourceExists>b__12_0",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "Unity.VisualScripting.IUnitOutputPort"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<get_destinationExists>b__14_0",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "Unity.VisualScripting.IUnitInputPort"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<get_validSourceExists>b__16_0",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "Unity.VisualScripting.IUnitOutputPort"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<get_validDestinationExists>b__18_0",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "Unity.VisualScripting.IUnitInputPort"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "InvalidConnection",
+      "namespace": "Unity.VisualScripting",
+      "parent": "UnitConnection`2",
+      "type_token": 33554435
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IConnection`2",
+        "IGraphElementWithDebugData",
+        "IGraphElement",
+        "IDisposable",
+        "IIdentifiable"
+      ],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [],
+      "name": "IUnitConnection",
+      "namespace": "Unity.VisualScripting",
+      "type_token": 33554436
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IGraphElementDebugData"
+      ],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_lastInvokeFrame",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_lastInvokeTime",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IUnitConnectionDebugData",
+      "namespace": "Unity.VisualScripting",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IConnection`2"
+      ],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [],
+      "name": "IUnitRelation",
+      "namespace": "Unity.VisualScripting",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<sourceUnit>k__BackingField",
+          "offset": 0,
+          "type": "Unity.VisualScripting.IUnit"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<sourceKey>k__BackingField",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<destinationUnit>k__BackingField",
+          "offset": 0,
+          "type": "Unity.VisualScripting.IUnit"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<destinationKey>k__BackingField",
+          "offset": 0,
+          "type": "System.String"
+        }
+      ],
+      "interfaces": [
+        "IConnection`2"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "TSourcePort"
+            },
+            {
+              "name": "destination",
+              "type": "TDestinationPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sourceUnit",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnit"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_sourceUnit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "Unity.VisualScripting.IUnit"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sourceKey",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_sourceKey",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_destinationUnit",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnit"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_destinationUnit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "Unity.VisualScripting.IUnit"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_destinationKey",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_destinationKey",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_source",
+          "parameters": [],
+          "return_type": "TSourcePort"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_destination",
+          "parameters": [],
+          "return_type": "TDestinationPort"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_dependencyOrder",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sourceExists",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_destinationExists",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HandleDependencies",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "UnitConnection`2",
+      "namespace": "Unity.VisualScripting",
+      "parent": "GraphElement`1",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<lastInvokeFrame>k__BackingField",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<lastInvokeTime>k__BackingField",
+          "offset": 20,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<runtimeException>k__BackingField",
+          "offset": 24,
+          "type": "System.Exception"
+        }
+      ],
+      "interfaces": [
+        "IUnitConnectionDebugData"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_lastInvokeFrame",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_lastInvokeTime",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_runtimeException",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Exception"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UnitConnectionDebugData",
+      "namespace": "Unity.VisualScripting",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<lastValue>k__BackingField",
+          "offset": 32,
+          "type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<assignedLastValue>k__BackingField",
+          "offset": 40,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_lastValue",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_assignedLastValue",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "DebugData",
+      "namespace": "",
+      "parent": "UnitConnectionDebugData",
+      "type_token": 33554442
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IUnitConnection",
+        "IConnection`2",
+        "IGraphElementWithDebugData",
+        "IGraphElement",
+        "IDisposable",
+        "IIdentifiable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "Unity.VisualScripting.ValueOutput"
+            },
+            {
+              "name": "destination",
+              "type": "Unity.VisualScripting.ValueInput"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_source",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.ValueOutput"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_destination",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.ValueInput"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Unity.VisualScripting.IConnection<Unity.VisualScripting.IUnitOutputPort,Unity.VisualScripting.IUnitInputPort>.get_source",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitOutputPort"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Unity.VisualScripting.IConnection<Unity.VisualScripting.IUnitOutputPort,Unity.VisualScripting.IUnitInputPort>.get_destination",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitInputPort"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sourceExists",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_destinationExists",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "ValueConnection",
+      "namespace": "Unity.VisualScripting",
+      "parent": "UnitConnection`2",
+      "type_token": 33554441
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "PortLabelHiddenAttribute",
+      "namespace": "Unity.VisualScripting",
+      "parent": "Attribute",
+      "type_token": 33554443
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SpecialUnitAttribute",
+      "namespace": "Unity.VisualScripting",
+      "parent": "Attribute",
+      "type_token": 33554444
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UnitHeaderInspectableAttribute",
+      "namespace": "Unity.VisualScripting",
+      "parent": "Attribute",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<title>k__BackingField",
+          "offset": 16,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "title",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_title",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UnitShortTitleAttribute",
+      "namespace": "Unity.VisualScripting",
+      "parent": "Attribute",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<title>k__BackingField",
+          "offset": 16,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "title",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_title",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UnitTitleAttribute",
+      "namespace": "Unity.VisualScripting",
+      "parent": "Attribute",
+      "type_token": 33554447
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<port>k__BackingField",
+          "offset": 16,
+          "type": "Unity.VisualScripting.IUnitPort"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<context>k__BackingField",
+          "offset": 24,
+          "type": "Unity.VisualScripting.IGraphParent"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_port",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitPort"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_context",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IGraphParent"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitPort"
+            },
+            {
+              "name": "pointer",
+              "type": "Unity.VisualScripting.GraphPointer"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "Unity.VisualScripting.Flow.RecursionNode"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "RecursionNode",
+      "namespace": "",
+      "type_token": 33554449
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<stack>k__BackingField",
+          "offset": 16,
+          "type": "Unity.VisualScripting.GraphStack"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "recursion",
+          "offset": 24,
+          "type": "Unity.VisualScripting.Recursion<Unity.VisualScripting.Flow.RecursionNode>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "locals",
+          "offset": 32,
+          "type": "System.Collections.Generic.Dictionary<Unity.VisualScripting.IUnitValuePort,System.Object>"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "variables",
+          "offset": 40,
+          "type": "Unity.VisualScripting.VariableDeclarations"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "loops",
+          "offset": 48,
+          "type": "System.Collections.Generic.Stack<System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "preservedStacks",
+          "offset": 56,
+          "type": "System.Collections.Generic.HashSet<Unity.VisualScripting.GraphStack>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<coroutineRunner>k__BackingField",
+          "offset": 64,
+          "type": "UnityEngine.MonoBehaviour"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "activeCoroutinesRegistry",
+          "offset": 72,
+          "type": "System.Collections.Generic.ICollection<Unity.VisualScripting.Flow>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "coroutineStopRequested",
+          "offset": 80,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<isCoroutine>k__BackingField",
+          "offset": 81,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "coroutineEnumerator",
+          "offset": 88,
+          "type": "System.Collections.IEnumerator"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<isPrediction>k__BackingField",
+          "offset": 96,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "disposed",
+          "offset": 97,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "loopIdentifier",
+          "offset": 100,
+          "type": "System.Int32"
+        }
+      ],
+      "interfaces": [
+        "IPoolable",
+        "IDisposable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_stack",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.GraphStack"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_stack",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "Unity.VisualScripting.GraphStack"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_coroutineRunner",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.MonoBehaviour"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_isCoroutine",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_isPrediction",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_isPrediction",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_enableDebug",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "New",
+          "parameters": [
+            {
+              "name": "reference",
+              "type": "Unity.VisualScripting.GraphReference"
+            }
+          ],
+          "return_type": "Unity.VisualScripting.Flow"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Unity.VisualScripting.IPoolable.New",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Unity.VisualScripting.IPoolable.Free",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "Unity.VisualScripting.ControlOutput"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeforeInvoke",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "Unity.VisualScripting.ControlOutput"
+            },
+            {
+              "name": "recursionNode",
+              "type": "Unity.VisualScripting.Flow.RecursionNode"
+            }
+          ],
+          "return_type": "Unity.VisualScripting.Flow.RecursionNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AfterInvoke",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "Unity.VisualScripting.ControlOutput"
+            },
+            {
+              "name": "recursionNode",
+              "type": "Unity.VisualScripting.Flow.RecursionNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeDelegate",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "Unity.VisualScripting.ControlInput"
+            }
+          ],
+          "return_type": "Unity.VisualScripting.ControlOutput"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetValue",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "Unity.VisualScripting.ValueInput"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetValue",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "Unity.VisualScripting.ValueOutput"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetValue",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "Unity.VisualScripting.ValueInput"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetValue",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "Unity.VisualScripting.ValueInput"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryGetDefaultValue",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "Unity.VisualScripting.ValueInput"
+            },
+            {
+              "name": "defaultValue",
+              "type": "System.Object&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetValueDelegate",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "Unity.VisualScripting.ValueOutput"
+            }
+          ],
+          "return_type": "System.Object"
+        }
+      ],
+      "name": "Flow",
+      "namespace": "Unity.VisualScripting",
+      "type_token": 33554448
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<controlConnections>k__BackingField",
+          "offset": 32,
+          "type": "Unity.VisualScripting.GraphConnectionCollection<Unity.VisualScripting.ControlConnection,Unity.VisualScripting.ControlOutput,Unity.VisualScripting.ControlInput>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<valueConnections>k__BackingField",
+          "offset": 40,
+          "type": "Unity.VisualScripting.GraphConnectionCollection<Unity.VisualScripting.ValueConnection,Unity.VisualScripting.ValueOutput,Unity.VisualScripting.ValueInput>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<invalidConnections>k__BackingField",
+          "offset": 48,
+          "type": "Unity.VisualScripting.GraphConnectionCollection<Unity.VisualScripting.InvalidConnection,Unity.VisualScripting.IUnitOutputPort,Unity.VisualScripting.IUnitInputPort>"
+        }
+      ],
+      "interfaces": [
+        "IGraph",
+        "IDisposable",
+        "ISerializationDepender",
+        "ISerializationCallbackReceiver"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_controlConnections",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.GraphConnectionCollection<Unity.VisualScripting.ControlConnection,Unity.VisualScripting.ControlOutput,Unity.VisualScripting.ControlInput>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_valueConnections",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.GraphConnectionCollection<Unity.VisualScripting.ValueConnection,Unity.VisualScripting.ValueOutput,Unity.VisualScripting.ValueInput>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_invalidConnections",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.GraphConnectionCollection<Unity.VisualScripting.InvalidConnection,Unity.VisualScripting.IUnitOutputPort,Unity.VisualScripting.IUnitInputPort>"
+        }
+      ],
+      "name": "FlowGraph",
+      "namespace": "Unity.VisualScripting",
+      "parent": "Graph",
+      "type_token": 33554451
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<trigger>k__BackingField",
+          "offset": 0,
+          "type": "Unity.VisualScripting.ControlOutput"
+        }
+      ],
+      "interfaces": [
+        "IUnit",
+        "IGraphElementWithDebugData",
+        "IGraphElement",
+        "IDisposable",
+        "IIdentifiable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_trigger",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.ControlOutput"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_trigger",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "Unity.VisualScripting.ControlOutput"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Definition",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Unity.VisualScripting.IUnit.get_graph",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.FlowGraph"
+        }
+      ],
+      "name": "EventUnit`1",
+      "namespace": "Unity.VisualScripting",
+      "parent": "Unit",
+      "type_token": 33554452
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_hookName",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ManualEventUnit`1",
+      "namespace": "Unity.VisualScripting",
+      "parent": "EventUnit`1",
+      "type_token": 33554453
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Definition",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "MissingType",
+      "namespace": "Unity.VisualScripting",
+      "parent": "Unit",
+      "type_token": 33554454
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IGraphElementWithDebugData",
+        "IGraphElement",
+        "IDisposable",
+        "IIdentifiable"
+      ],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_graph",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.FlowGraph"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_defaultValues",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.Dictionary<System.String,System.Object>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_controlInputs",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitPortCollection<Unity.VisualScripting.ControlInput>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_controlOutputs",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitPortCollection<Unity.VisualScripting.ControlOutput>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_valueInputs",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitPortCollection<Unity.VisualScripting.ValueInput>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_valueOutputs",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitPortCollection<Unity.VisualScripting.ValueOutput>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_invalidInputs",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitPortCollection<Unity.VisualScripting.InvalidInput>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_invalidOutputs",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitPortCollection<Unity.VisualScripting.InvalidOutput>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_inputs",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.IUnitInputPort>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_outputs",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.IUnitOutputPort>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validInputs",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.IUnitInputPort>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validOutputs",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.IUnitOutputPort>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PortsChanged",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IUnit",
+      "namespace": "Unity.VisualScripting",
+      "type_token": 33554455
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IGraphElementDebugData"
+      ],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_lastInvokeFrame",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_lastInvokeTime",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IUnitDebugData",
+      "namespace": "Unity.VisualScripting",
+      "type_token": 33554456
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "action",
+          "offset": 32,
+          "type": "System.Func<Unity.VisualScripting.Flow,Unity.VisualScripting.ControlOutput>"
+        }
+      ],
+      "interfaces": [
+        "IUnitPort",
+        "IUnitInputPort"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_requiresCoroutine",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validConnections",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.ControlConnection>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_invalidConnections",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.InvalidConnection>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validConnectedPorts",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.ControlOutput>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_invalidConnectedPorts",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.IUnitOutputPort>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CanConnectToValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.ControlOutput"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConnectToValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.ControlOutput"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConnectToInvalid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitOutputPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisconnectFromValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.ControlOutput"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisconnectFromInvalid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitOutputPort"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ControlInput",
+      "namespace": "Unity.VisualScripting",
+      "parent": "UnitPort`3",
+      "type_token": 33554457
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IUnitPort",
+        "IUnitOutputPort"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validConnections",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.ControlConnection>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_invalidConnections",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.InvalidConnection>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validConnectedPorts",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.ControlInput>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_invalidConnectedPorts",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.IUnitInputPort>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_connection",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.ControlConnection"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_hasValidConnection",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CanConnectToValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.ControlInput"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConnectToValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.ControlInput"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConnectToInvalid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitInputPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisconnectFromValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.ControlInput"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisconnectFromInvalid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitInputPort"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ControlOutput",
+      "namespace": "Unity.VisualScripting",
+      "parent": "UnitPort`3",
+      "type_token": 33554460
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IUnitPort",
+        "IUnitInputPort"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validConnections",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.InvalidConnection>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_invalidConnections",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.InvalidConnection>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validConnectedPorts",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.IUnitOutputPort>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_invalidConnectedPorts",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.IUnitOutputPort>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CanConnectToValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitOutputPort"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConnectToValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitOutputPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConnectToInvalid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitOutputPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisconnectFromValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitOutputPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisconnectFromInvalid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitOutputPort"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "InvalidInput",
+      "namespace": "Unity.VisualScripting",
+      "parent": "UnitPort`3",
+      "type_token": 33554463
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IUnitPort",
+        "IUnitOutputPort"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validConnections",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.InvalidConnection>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_invalidConnections",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.InvalidConnection>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validConnectedPorts",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.IUnitInputPort>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_invalidConnectedPorts",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.IUnitInputPort>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CanConnectToValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitInputPort"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConnectToValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitInputPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConnectToInvalid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitInputPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisconnectFromValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitInputPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisconnectFromInvalid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitInputPort"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "InvalidOutput",
+      "namespace": "Unity.VisualScripting",
+      "parent": "UnitPort`3",
+      "type_token": 33554465
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IUnitPort"
+      ],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [],
+      "name": "IUnitInputPort",
+      "namespace": "Unity.VisualScripting",
+      "type_token": 33554467
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IUnitPort"
+      ],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [],
+      "name": "IUnitOutputPort",
+      "namespace": "Unity.VisualScripting",
+      "type_token": 33554468
+    },
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_unit",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnit"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_unit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "Unity.VisualScripting.IUnit"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_key",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CanInvalidlyConnectTo",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitPort"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CanValidlyConnectTo",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitPort"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvalidlyConnectTo",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValidlyConnectTo",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitPort"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IUnitPort",
+      "namespace": "Unity.VisualScripting",
+      "type_token": 33554469
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IKeyedCollection`2",
+        "ICollection`1",
+        "IEnumerable`1",
+        "IEnumerable"
+      ],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [],
+      "name": "IUnitPortCollection`1",
+      "namespace": "Unity.VisualScripting",
+      "type_token": 33554470
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IUnitPort"
+      ],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [],
+      "name": "IUnitValuePort",
+      "namespace": "Unity.VisualScripting",
+      "type_token": 33554471
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "MissingValuePortInputException",
+      "namespace": "Unity.VisualScripting",
+      "parent": "Exception",
+      "type_token": 33554472
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<unit>k__BackingField",
+          "offset": 0,
+          "type": "Unity.VisualScripting.IUnit"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<key>k__BackingField",
+          "offset": 0,
+          "type": "System.String"
+        }
+      ],
+      "interfaces": [
+        "IUnitPort"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_unit",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnit"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_unit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "Unity.VisualScripting.IUnit"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_key",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validConnections",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<TExternalConnection>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_invalidConnections",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.InvalidConnection>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validConnectedPorts",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<TValidOther>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_invalidConnectedPorts",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<TInvalidOther>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_hasValidConnection",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CanConnectTo",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitPort"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CanValidlyConnectTo",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitPort"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CanInvalidlyConnectTo",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitPort"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValidlyConnectTo",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvalidlyConnectTo",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Disconnect",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CanConnectToValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "TValidOther"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CanConnectToInvalid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "TInvalidOther"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConnectToValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "TValidOther"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConnectToInvalid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "TInvalidOther"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisconnectFromValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "TValidOther"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisconnectFromInvalid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "TInvalidOther"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConnectInvalid",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "Unity.VisualScripting.IUnitOutputPort"
+            },
+            {
+              "name": "destination",
+              "type": "Unity.VisualScripting.IUnitInputPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisconnectInvalid",
+          "parameters": [
+            {
+              "name": "source",
+              "type": "Unity.VisualScripting.IUnitOutputPort"
+            },
+            {
+              "name": "destination",
+              "type": "Unity.VisualScripting.IUnitInputPort"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UnitPort`3",
+      "namespace": "Unity.VisualScripting",
+      "type_token": 33554473
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<unit>k__BackingField",
+          "offset": 0,
+          "type": "Unity.VisualScripting.IUnit"
+        }
+      ],
+      "interfaces": [
+        "IUnitPortCollection`1",
+        "IKeyedCollection`2",
+        "ICollection`1",
+        "IEnumerable`1",
+        "IEnumerable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_unit",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnit"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "unit",
+              "type": "Unity.VisualScripting.IUnit"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeforeAdd",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "TPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AfterAdd",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "TPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeforeRemove",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "TPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AfterRemove",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "TPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetKeyForItem",
+          "parameters": [
+            {
+              "name": "item",
+              "type": "TPort"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InsertItem",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "item",
+              "type": "TPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RemoveItem",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetItem",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "item",
+              "type": "TPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClearItems",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Unity.VisualScripting.IKeyedCollection<System.String,TPort>.get_Item",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "TPort"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Unity.VisualScripting.IKeyedCollection<System.String,TPort>.Contains",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "UnitPortCollection`1",
+      "namespace": "Unity.VisualScripting",
+      "parent": "KeyedCollection`2",
+      "type_token": 33554476
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<type>k__BackingField",
+          "offset": 32,
+          "type": "System.Type"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<nullMeansSelf>k__BackingField",
+          "offset": 40,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "typesWithDefaultValues",
+          "offset": 0,
+          "type": "System.Collections.Generic.HashSet<System.Type>"
+        }
+      ],
+      "interfaces": [
+        "IUnitValuePort",
+        "IUnitPort",
+        "IUnitInputPort"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_type",
+          "parameters": [],
+          "return_type": "System.Type"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validConnections",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.ValueConnection>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_invalidConnections",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.InvalidConnection>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validConnectedPorts",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.ValueOutput>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_invalidConnectedPorts",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.IUnitOutputPort>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_nullMeansSelf",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_connection",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.ValueConnection"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_hasValidConnection",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetDefaultValue",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CanConnectToValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.ValueOutput"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConnectToValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.ValueOutput"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConnectToInvalid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitOutputPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisconnectFromValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.ValueOutput"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisconnectFromInvalid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitOutputPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SupportsDefaultValue",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ValueInput",
+      "namespace": "Unity.VisualScripting",
+      "parent": "UnitPort`3",
+      "type_token": 33554477
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "getValue",
+          "offset": 32,
+          "type": "System.Func<Unity.VisualScripting.Flow,System.Object>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<type>k__BackingField",
+          "offset": 40,
+          "type": "System.Type"
+        }
+      ],
+      "interfaces": [
+        "IUnitValuePort",
+        "IUnitPort",
+        "IUnitOutputPort"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            },
+            {
+              "name": "getValue",
+              "type": "System.Func<Unity.VisualScripting.Flow,System.Object>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_supportsFetch",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_type",
+          "parameters": [],
+          "return_type": "System.Type"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validConnections",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.ValueConnection>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_invalidConnections",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.InvalidConnection>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validConnectedPorts",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.ValueInput>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_invalidConnectedPorts",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.IUnitInputPort>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CanConnectToValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.ValueInput"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConnectToValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.ValueInput"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConnectToInvalid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitInputPort"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisconnectFromValid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.ValueInput"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisconnectFromInvalid",
+          "parameters": [
+            {
+              "name": "port",
+              "type": "Unity.VisualScripting.IUnitInputPort"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ValueOutput",
+      "namespace": "Unity.VisualScripting",
+      "parent": "UnitPort`3",
+      "type_token": 33554480
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<controlInputs>k__BackingField",
+          "offset": 40,
+          "type": "Unity.VisualScripting.IUnitPortCollection<Unity.VisualScripting.ControlInput>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<controlOutputs>k__BackingField",
+          "offset": 48,
+          "type": "Unity.VisualScripting.IUnitPortCollection<Unity.VisualScripting.ControlOutput>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<valueInputs>k__BackingField",
+          "offset": 56,
+          "type": "Unity.VisualScripting.IUnitPortCollection<Unity.VisualScripting.ValueInput>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<valueOutputs>k__BackingField",
+          "offset": 64,
+          "type": "Unity.VisualScripting.IUnitPortCollection<Unity.VisualScripting.ValueOutput>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<invalidInputs>k__BackingField",
+          "offset": 72,
+          "type": "Unity.VisualScripting.IUnitPortCollection<Unity.VisualScripting.InvalidInput>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<invalidOutputs>k__BackingField",
+          "offset": 80,
+          "type": "Unity.VisualScripting.IUnitPortCollection<Unity.VisualScripting.InvalidOutput>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "onPortsChanged",
+          "offset": 88,
+          "type": "System.Action"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<defaultValues>k__BackingField",
+          "offset": 96,
+          "type": "System.Collections.Generic.Dictionary<System.String,System.Object>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<relations>k__BackingField",
+          "offset": 104,
+          "type": "Unity.VisualScripting.IConnectionCollection<Unity.VisualScripting.IUnitRelation,Unity.VisualScripting.IUnitPort,Unity.VisualScripting.IUnitPort>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<isControlRoot>k__BackingField",
+          "offset": 112,
+          "type": "System.Boolean"
+        }
+      ],
+      "interfaces": [
+        "IUnit",
+        "IGraphElementWithDebugData",
+        "IGraphElement",
+        "IDisposable",
+        "IIdentifiable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Definition",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_controlInputs",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitPortCollection<Unity.VisualScripting.ControlInput>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_controlOutputs",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitPortCollection<Unity.VisualScripting.ControlOutput>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_valueInputs",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitPortCollection<Unity.VisualScripting.ValueInput>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_valueOutputs",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitPortCollection<Unity.VisualScripting.ValueOutput>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_invalidInputs",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitPortCollection<Unity.VisualScripting.InvalidInput>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_invalidOutputs",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.IUnitPortCollection<Unity.VisualScripting.InvalidOutput>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_inputs",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.IUnitInputPort>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_outputs",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.IUnitOutputPort>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validInputs",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.IUnitInputPort>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_validOutputs",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<Unity.VisualScripting.IUnitOutputPort>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PortsChanged",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_defaultValues",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.Dictionary<System.String,System.Object>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_defaultValues",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Collections.Generic.Dictionary<System.String,System.Object>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_relations",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "Unity.VisualScripting.IConnectionCollection<Unity.VisualScripting.IUnitRelation,Unity.VisualScripting.IUnitPort,Unity.VisualScripting.IUnitPort>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_isControlRoot",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnsureUniqueInput",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnsureUniqueOutput",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ControlOutput",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "Unity.VisualScripting.ControlOutput"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValueInput",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Type"
+            },
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "Unity.VisualScripting.ValueInput"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValueInput",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "Unity.VisualScripting.ValueInput"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValueInput",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            },
+            {
+              "name": "default",
+              "type": "T"
+            }
+          ],
+          "return_type": "Unity.VisualScripting.ValueInput"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValueOutput",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Type"
+            },
+            {
+              "name": "key",
+              "type": "System.String"
+            },
+            {
+              "name": "getValue",
+              "type": "System.Func<Unity.VisualScripting.Flow,System.Object>"
+            }
+          ],
+          "return_type": "Unity.VisualScripting.ValueOutput"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValueOutput",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.String"
+            },
+            {
+              "name": "getValue",
+              "type": "System.Func<Unity.VisualScripting.Flow,T>"
+            }
+          ],
+          "return_type": "Unity.VisualScripting.ValueOutput"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Unity.VisualScripting.IUnit.get_graph",
+          "parameters": [],
+          "return_type": "Unity.VisualScripting.FlowGraph"
+        }
+      ],
+      "name": "Unit",
+      "namespace": "Unity.VisualScripting",
+      "parent": "GraphElement`1",
+      "type_token": 33554483
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<root>k__BackingField",
+          "offset": 16,
+          "type": "Unity.VisualScripting.UnitCategory"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<parent>k__BackingField",
+          "offset": 24,
+          "type": "Unity.VisualScripting.UnitCategory"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<fullName>k__BackingField",
+          "offset": 32,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<name>k__BackingField",
+          "offset": 40,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<isRoot>k__BackingField",
+          "offset": 48,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "fullName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_fullName",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "UnitCategory",
+      "namespace": "Unity.VisualScripting",
+      "parent": "Attribute",
+      "type_token": 33554485
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ModelType",
+          "parameters": [],
+          "return_type": "System.Type"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TrySerialize",
+          "parameters": [
+            {
+              "name": "instance",
+              "type": "System.Object"
+            },
+            {
+              "name": "serialized",
+              "type": "Unity.VisualScripting.FullSerializer.fsData&"
+            },
+            {
+              "name": "storageType",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "Unity.VisualScripting.FullSerializer.fsResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryDeserialize",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "Unity.VisualScripting.FullSerializer.fsData"
+            },
+            {
+              "name": "instance",
+              "type": "System.Object&"
+            },
+            {
+              "name": "storageType",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "Unity.VisualScripting.FullSerializer.fsResult"
+        }
+      ],
+      "name": "UnitCategoryConverter",
+      "namespace": "Unity.VisualScripting",
+      "parent": "fsDirectConverter",
+      "type_token": 33554486
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Unity.VisualScripting.Flow.dll"
+}

@@ -1,0 +1,777 @@
+{
+  "class_count": 6,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "allowedKeyLength",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "allowedNonceLength",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "processBytesAtTime",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "stateLength",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "state",
+          "offset": 16,
+          "type": "System.UInt32[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "isDisposed",
+          "offset": 24,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "x",
+          "offset": 32,
+          "type": "System.UInt32[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "tmp",
+          "offset": 40,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "processedIdx",
+          "offset": 48,
+          "type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "sigma",
+          "offset": 0,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "tau",
+          "offset": 8,
+          "type": "System.Byte[]"
+        }
+      ],
+      "interfaces": [
+        "IDisposable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.ReadOnlySpan<System.Byte>"
+            },
+            {
+              "name": "nonce",
+              "type": "System.ReadOnlySpan<System.Byte>"
+            },
+            {
+              "name": "counter",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_State",
+          "parameters": [],
+          "return_type": "System.UInt32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "KeySetup",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "System.ReadOnlySpan<System.Byte>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IvSetup",
+          "parameters": [
+            {
+              "name": "nonce",
+              "type": "System.ReadOnlySpan<System.Byte>"
+            },
+            {
+              "name": "counter",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EncryptBytes",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "input",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "numBytes",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EncryptStream",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "System.IO.Stream"
+            },
+            {
+              "name": "input",
+              "type": "System.IO.Stream"
+            },
+            {
+              "name": "howManyBytesToProcessAtTime",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EncryptStreamAsync",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "System.IO.Stream"
+            },
+            {
+              "name": "input",
+              "type": "System.IO.Stream"
+            },
+            {
+              "name": "howManyBytesToProcessAtTime",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Threading.Tasks.Task"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EncryptBytes",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "input",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TransformBytes",
+          "parameters": [
+            {
+              "name": "inoutput",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TransformBytes",
+          "parameters": [
+            {
+              "name": "inoutput",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "inoffset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "len",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TransformBytes",
+          "parameters": [
+            {
+              "name": "inoutput",
+              "type": "System.Span<System.Byte>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateWorkSpace",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EncryptBytes",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "numBytes",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EncryptBytes",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EncryptString",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DecryptBytes",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "input",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "numBytes",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DecryptStream",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "System.IO.Stream"
+            },
+            {
+              "name": "input",
+              "type": "System.IO.Stream"
+            },
+            {
+              "name": "howManyBytesToProcessAtTime",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DecryptStreamAsync",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "System.IO.Stream"
+            },
+            {
+              "name": "input",
+              "type": "System.IO.Stream"
+            },
+            {
+              "name": "howManyBytesToProcessAtTime",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Threading.Tasks.Task"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DecryptBytes",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "input",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DecryptBytes",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "numBytes",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DecryptBytes",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DecryptUTF8ByteArray",
+          "parameters": [
+            {
+              "name": "input",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WorkStreams",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "System.IO.Stream"
+            },
+            {
+              "name": "input",
+              "type": "System.IO.Stream"
+            },
+            {
+              "name": "howManyBytesToProcessAtTime",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WorkStreamsAsync",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "System.IO.Stream"
+            },
+            {
+              "name": "input",
+              "type": "System.IO.Stream"
+            },
+            {
+              "name": "howManyBytesToProcessAtTime",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Threading.Tasks.Task"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WorkBytes",
+          "parameters": [
+            {
+              "name": "inoutput",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WorkBytes",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "input",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "numBytes",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WorkBytes",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "outoffset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "input",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "inoffset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "numBytes",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WorkBytes",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "input",
+              "type": "System.Span<System.Byte>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RecalXORStream",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "QuarterRound",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.UInt32[]"
+            },
+            {
+              "name": "a",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "b",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "c",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "d",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [
+            {
+              "name": "disposing",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "XXE1",
+      "namespace": "Beyond.XXEnc",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Rotate",
+          "parameters": [
+            {
+              "name": "v",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "c",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "XOr",
+          "parameters": [
+            {
+              "name": "v",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "w",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "v",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "w",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddOne",
+          "parameters": [
+            {
+              "name": "v",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "U8To32Little",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "System.ReadOnlySpan<System.Byte>"
+            },
+            {
+              "name": "inputOffset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToBytes",
+          "parameters": [
+            {
+              "name": "output",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "input",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "outputOffset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Util",
+      "namespace": "Beyond.XXEnc",
+      "type_token": 33554438
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Common.Beyond.XXEnc.dll"
+}

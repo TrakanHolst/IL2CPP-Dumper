@@ -21,8 +21,11 @@ namespace api {
     typedef uint32_t( __fastcall * class_get_flags_t )( void * klass );
     typedef void * ( __fastcall * class_get_parent_t )( void * klass );
     typedef bool( __fastcall * class_is_valuetype_t )( void * klass );
+    typedef bool( __fastcall * class_is_enum_t )( void * klass );
     typedef bool( __fastcall * class_is_interface_t )( void * klass );
     typedef void * ( __fastcall * class_get_interfaces_t )( void * klass, void ** iter );
+    typedef void * ( __fastcall * class_get_element_class_t )( void * klass );
+    typedef int32_t( __fastcall * class_get_instance_size_t )( void * klass );
 
     typedef size_t( __fastcall * class_num_fields_t )( void * klass );
     typedef void * ( __fastcall * class_get_fields_t )( void * klass, void ** iter );
@@ -42,6 +45,12 @@ namespace api {
     typedef const char * ( __fastcall * type_get_name_t )( void * type );
     typedef uint32_t( __fastcall * class_get_type_token_t )( void * klass );
 
+    typedef void * ( __fastcall * class_from_name_t )( void * image, const char * namespaceName, const char * name );
+    typedef void * ( __fastcall * class_get_field_from_name_t )( void * klass, const char * name );
+    typedef void( __fastcall * field_static_get_value_t )( void * field, void * value );
+    typedef void * ( __fastcall * object_get_class_t )( void * obj );
+    typedef void * ( __fastcall * field_get_value_object_t )( void * field, void * obj );
+
 
     extern get_domain_t get_domain;
     extern get_assemblies_t get_assemblies;
@@ -55,8 +64,11 @@ namespace api {
     extern class_get_flags_t class_get_flags;
     extern class_get_parent_t class_get_parent;
     extern class_is_valuetype_t class_is_valuetype;
+    extern class_is_enum_t class_is_enum;
     extern class_is_interface_t class_is_interface;
     extern class_get_interfaces_t class_get_interfaces;
+    extern class_get_element_class_t class_get_element_class;
+    extern class_get_instance_size_t class_get_instance_size;
 
     extern class_num_fields_t class_num_fields;
     extern class_get_fields_t class_get_fields;
@@ -75,6 +87,12 @@ namespace api {
 
     extern type_get_name_t type_get_name;
     extern class_get_type_token_t class_get_type_token;
+
+    extern class_from_name_t class_from_name;
+    extern class_get_field_from_name_t class_get_field_from_name;
+    extern field_static_get_value_t field_static_get_value;
+    extern object_get_class_t object_get_class;
+    extern field_get_value_object_t field_get_value_object;
 
 
     void init( );

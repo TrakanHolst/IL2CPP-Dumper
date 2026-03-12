@@ -1,0 +1,56 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 2388064238140310202
+  },
+  "m_Name": "ShadowsMidtonesHighlights",
+  "active": 0,
+  "shadows": {
+    "overrideState": 1,
+    "m_Value": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0,
+      "w": -0.10526314
+    }
+  },
+  "midtones": {
+    "overrideState": 0,
+    "m_Value": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0,
+      "w": -3.1370866E-09
+    }
+  },
+  "highlights": {
+    "overrideState": 0,
+    "m_Value": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0,
+      "w": 0.026315788
+    }
+  },
+  "shadowsStart": {
+    "overrideState": 0,
+    "m_Value": 0.0
+  },
+  "shadowsEnd": {
+    "overrideState": 0,
+    "m_Value": 0.3
+  },
+  "highlightsStart": {
+    "overrideState": 0,
+    "m_Value": 0.55
+  },
+  "highlightsEnd": {
+    "overrideState": 0,
+    "m_Value": 1.0
+  }
+}

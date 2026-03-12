@@ -1,0 +1,4254 @@
+{
+  "class_count": 23,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Format",
+          "parameters": [
+            {
+              "name": "resourceFormat",
+              "type": "System.String"
+            },
+            {
+              "name": "p1",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "SR",
+      "namespace": "",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M11",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M12",
+          "offset": 20,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M21",
+          "offset": 24,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M22",
+          "offset": 28,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M31",
+          "offset": 32,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M32",
+          "offset": 36,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "_identity",
+          "offset": 0,
+          "type": "System.Numerics.Matrix3x2"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "m11",
+              "type": "System.Single"
+            },
+            {
+              "name": "m12",
+              "type": "System.Single"
+            },
+            {
+              "name": "m21",
+              "type": "System.Single"
+            },
+            {
+              "name": "m22",
+              "type": "System.Single"
+            },
+            {
+              "name": "m31",
+              "type": "System.Single"
+            },
+            {
+              "name": "m32",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Numerics.Matrix3x2"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Matrix3x2",
+      "namespace": "System.Numerics",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M11",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M12",
+          "offset": 20,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M13",
+          "offset": 24,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M14",
+          "offset": 28,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M21",
+          "offset": 32,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M22",
+          "offset": 36,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M23",
+          "offset": 40,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M24",
+          "offset": 44,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M31",
+          "offset": 48,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M32",
+          "offset": 52,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M33",
+          "offset": 56,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M34",
+          "offset": 60,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M41",
+          "offset": 64,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M42",
+          "offset": 68,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M43",
+          "offset": 72,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "M44",
+          "offset": 76,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "_identity",
+          "offset": 0,
+          "type": "System.Numerics.Matrix4x4"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "m11",
+              "type": "System.Single"
+            },
+            {
+              "name": "m12",
+              "type": "System.Single"
+            },
+            {
+              "name": "m13",
+              "type": "System.Single"
+            },
+            {
+              "name": "m14",
+              "type": "System.Single"
+            },
+            {
+              "name": "m21",
+              "type": "System.Single"
+            },
+            {
+              "name": "m22",
+              "type": "System.Single"
+            },
+            {
+              "name": "m23",
+              "type": "System.Single"
+            },
+            {
+              "name": "m24",
+              "type": "System.Single"
+            },
+            {
+              "name": "m31",
+              "type": "System.Single"
+            },
+            {
+              "name": "m32",
+              "type": "System.Single"
+            },
+            {
+              "name": "m33",
+              "type": "System.Single"
+            },
+            {
+              "name": "m34",
+              "type": "System.Single"
+            },
+            {
+              "name": "m41",
+              "type": "System.Single"
+            },
+            {
+              "name": "m42",
+              "type": "System.Single"
+            },
+            {
+              "name": "m43",
+              "type": "System.Single"
+            },
+            {
+              "name": "m44",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Numerics.Matrix4x4"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Matrix4x4",
+      "namespace": "System.Numerics",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Normal",
+          "offset": 16,
+          "type": "System.Numerics.Vector3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "D",
+          "offset": 28,
+          "type": "System.Single"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Numerics.Plane"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "Plane",
+      "namespace": "System.Numerics",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "X",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Y",
+          "offset": 20,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Z",
+          "offset": 24,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "W",
+          "offset": 28,
+          "type": "System.Single"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Numerics.Quaternion"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "Quaternion",
+      "namespace": "System.Numerics",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "X",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Y",
+          "offset": 20,
+          "type": "System.Single"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1",
+        "IFormattable"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [
+            {
+              "name": "format",
+              "type": "System.String"
+            },
+            {
+              "name": "formatProvider",
+              "type": "System.IFormatProvider"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Numerics.Vector2"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "Vector2",
+      "namespace": "System.Numerics",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "X",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Y",
+          "offset": 20,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Z",
+          "offset": 24,
+          "type": "System.Single"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1",
+        "IFormattable"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [
+            {
+              "name": "format",
+              "type": "System.String"
+            },
+            {
+              "name": "formatProvider",
+              "type": "System.IFormatProvider"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Numerics.Vector3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "Vector3",
+      "namespace": "System.Numerics",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "X",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Y",
+          "offset": 20,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Z",
+          "offset": 24,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "W",
+          "offset": 28,
+          "type": "System.Single"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1",
+        "IFormattable"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [
+            {
+              "name": "format",
+              "type": "System.String"
+            },
+            {
+              "name": "formatProvider",
+              "type": "System.IFormatProvider"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Numerics.Vector4"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "Vector4",
+      "namespace": "System.Numerics",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "AllocateArray",
+          "offset": 0,
+          "type": "System.Numerics.BigInteger.GetBytesMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Count",
+          "offset": 0,
+          "type": "System.Numerics.BigInteger.GetBytesMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Span",
+          "offset": 0,
+          "type": "System.Numerics.BigInteger.GetBytesMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "GetBytesMode",
+      "namespace": "",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "_sign",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "_bits",
+          "offset": 24,
+          "type": "System.UInt32[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_bnMinInt",
+          "offset": 0,
+          "type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_bnOneInt",
+          "offset": 16,
+          "type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_bnZeroInt",
+          "offset": 32,
+          "type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_bnMinusOneInt",
+          "offset": 48,
+          "type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_success",
+          "offset": 64,
+          "type": "System.Byte[]"
+        }
+      ],
+      "interfaces": [
+        "IFormattable",
+        "IComparable",
+        "IComparable`1",
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Decimal"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.ReadOnlySpan<System.Byte>"
+            },
+            {
+              "name": "isUnsigned",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "isBigEndian",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "n",
+              "type": "System.Int32"
+            },
+            {
+              "name": "rgu",
+              "type": "System.UInt32[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt32[]"
+            },
+            {
+              "name": "negative",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Zero",
+          "parameters": [],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_MinusOne",
+          "parameters": [],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsZero",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Parse",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            },
+            {
+              "name": "provider",
+              "type": "System.IFormatProvider"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Parse",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            },
+            {
+              "name": "style",
+              "type": "System.Globalization.NumberStyles"
+            },
+            {
+              "name": "provider",
+              "type": "System.IFormatProvider"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CompareTo",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CompareTo",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CompareTo",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryWriteBytes",
+          "parameters": [
+            {
+              "name": "destination",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "bytesWritten",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "isUnsigned",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "isBigEndian",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryWriteOrCountBytes",
+          "parameters": [
+            {
+              "name": "destination",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "bytesWritten",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "isUnsigned",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "isBigEndian",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryGetBytes",
+          "parameters": [
+            {
+              "name": "mode",
+              "type": "System.Numerics.BigInteger.GetBytesMode"
+            },
+            {
+              "name": "destination",
+              "type": "System.Span<System.Byte>"
+            },
+            {
+              "name": "isUnsigned",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "isBigEndian",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "bytesWritten",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [
+            {
+              "name": "provider",
+              "type": "System.IFormatProvider"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [
+            {
+              "name": "format",
+              "type": "System.String"
+            },
+            {
+              "name": "provider",
+              "type": "System.IFormatProvider"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "leftBits",
+              "type": "System.UInt32[]"
+            },
+            {
+              "name": "leftSign",
+              "type": "System.Int32"
+            },
+            {
+              "name": "rightBits",
+              "type": "System.UInt32[]"
+            },
+            {
+              "name": "rightSign",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Subtraction",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.Numerics.BigInteger"
+            },
+            {
+              "name": "right",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Subtract",
+          "parameters": [
+            {
+              "name": "leftBits",
+              "type": "System.UInt32[]"
+            },
+            {
+              "name": "leftSign",
+              "type": "System.Int32"
+            },
+            {
+              "name": "rightBits",
+              "type": "System.UInt32[]"
+            },
+            {
+              "name": "rightSign",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Byte"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.SByte"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int16"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Explicit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Explicit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.SByte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Explicit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.Int16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Explicit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.UInt16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Explicit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Explicit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Explicit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Explicit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Explicit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Explicit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Explicit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.Decimal"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_LeftShift",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Numerics.BigInteger"
+            },
+            {
+              "name": "shift",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_RightShift",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Numerics.BigInteger"
+            },
+            {
+              "name": "shift",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_UnaryNegation",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Addition",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.Numerics.BigInteger"
+            },
+            {
+              "name": "right",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Multiply",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.Numerics.BigInteger"
+            },
+            {
+              "name": "right",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Division",
+          "parameters": [
+            {
+              "name": "dividend",
+              "type": "System.Numerics.BigInteger"
+            },
+            {
+              "name": "divisor",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_LessThanOrEqual",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.Numerics.BigInteger"
+            },
+            {
+              "name": "right",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Inequality",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.Numerics.BigInteger"
+            },
+            {
+              "name": "right",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_LessThan",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.Numerics.BigInteger"
+            },
+            {
+              "name": "right",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_LessThanOrEqual",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.Numerics.BigInteger"
+            },
+            {
+              "name": "right",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Equality",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.Numerics.BigInteger"
+            },
+            {
+              "name": "right",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Inequality",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.Numerics.BigInteger"
+            },
+            {
+              "name": "right",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_LessThan",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.Int64"
+            },
+            {
+              "name": "right",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_LessThanOrEqual",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.Int64"
+            },
+            {
+              "name": "right",
+              "type": "System.Numerics.BigInteger"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPartsForBitManipulation",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Numerics.BigInteger&"
+            },
+            {
+              "name": "xd",
+              "type": "System.UInt32[]&"
+            },
+            {
+              "name": "xl",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDiffLength",
+          "parameters": [
+            {
+              "name": "rgu1",
+              "type": "System.UInt32[]"
+            },
+            {
+              "name": "rgu2",
+              "type": "System.UInt32[]"
+            },
+            {
+              "name": "cu",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "BigInteger",
+      "namespace": "System.Numerics",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ReducerThreshold",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SquareThreshold",
+          "offset": 4,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "AllocationThreshold",
+          "offset": 8,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MultiplyThreshold",
+          "offset": 12,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.UInt32[]"
+            },
+            {
+              "name": "right",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.UInt32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.UInt32[]"
+            },
+            {
+              "name": "right",
+              "type": "System.UInt32[]"
+            }
+          ],
+          "return_type": "System.UInt32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "leftLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "right",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "rightLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "bits",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "bitsLength",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddSelf",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "leftLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "right",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "rightLength",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Subtract",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.UInt32[]"
+            },
+            {
+              "name": "right",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.UInt32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Subtract",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.UInt32[]"
+            },
+            {
+              "name": "right",
+              "type": "System.UInt32[]"
+            }
+          ],
+          "return_type": "System.UInt32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Subtract",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "leftLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "right",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "rightLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "bits",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "bitsLength",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Compare",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.UInt32[]"
+            },
+            {
+              "name": "right",
+              "type": "System.UInt32[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Divide",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.UInt32[]"
+            },
+            {
+              "name": "right",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.UInt32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Divide",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.UInt32[]"
+            },
+            {
+              "name": "right",
+              "type": "System.UInt32[]"
+            }
+          ],
+          "return_type": "System.UInt32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Divide",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "leftLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "right",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "rightLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "bits",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "bitsLength",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddDivisor",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "leftLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "right",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "rightLength",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SubtractDivisor",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "leftLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "right",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "rightLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "q",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DivideGuessTooBig",
+          "parameters": [
+            {
+              "name": "q",
+              "type": "System.UInt64"
+            },
+            {
+              "name": "valHi",
+              "type": "System.UInt64"
+            },
+            {
+              "name": "valLo",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "divHi",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "divLo",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateCopy",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt32[]"
+            }
+          ],
+          "return_type": "System.UInt32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LeadingZeros",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Square",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt32[]"
+            }
+          ],
+          "return_type": "System.UInt32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Square",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "valueLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "bits",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "bitsLength",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Multiply",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.UInt32[]"
+            },
+            {
+              "name": "right",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.UInt32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Multiply",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.UInt32[]"
+            },
+            {
+              "name": "right",
+              "type": "System.UInt32[]"
+            }
+          ],
+          "return_type": "System.UInt32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Multiply",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "leftLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "right",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "rightLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "bits",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "bitsLength",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SubtractCore",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "leftLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "right",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "rightLength",
+              "type": "System.Int32"
+            },
+            {
+              "name": "core",
+              "type": "System.UInt32*"
+            },
+            {
+              "name": "coreLength",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "BigIntegerCalculator",
+      "namespace": "System.Numerics",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "digits",
+          "offset": 16,
+          "type": "System.Text.StringBuilder"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "precision",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "scale",
+          "offset": 28,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "sign",
+          "offset": 32,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Create",
+          "parameters": [],
+          "return_type": "System.Numerics.BigNumber.BigNumberBuffer"
+        }
+      ],
+      "name": "BigNumberBuffer",
+      "namespace": "",
+      "type_token": 33554446
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryValidateParseStyleInteger",
+          "parameters": [
+            {
+              "name": "style",
+              "type": "System.Globalization.NumberStyles"
+            },
+            {
+              "name": "e",
+              "type": "System.ArgumentException&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryParseBigInteger",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.ReadOnlySpan<System.Char>"
+            },
+            {
+              "name": "style",
+              "type": "System.Globalization.NumberStyles"
+            },
+            {
+              "name": "info",
+              "type": "System.Globalization.NumberFormatInfo"
+            },
+            {
+              "name": "result",
+              "type": "System.Numerics.BigInteger&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ParseBigInteger",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            },
+            {
+              "name": "style",
+              "type": "System.Globalization.NumberStyles"
+            },
+            {
+              "name": "info",
+              "type": "System.Globalization.NumberFormatInfo"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ParseBigInteger",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.ReadOnlySpan<System.Char>"
+            },
+            {
+              "name": "style",
+              "type": "System.Globalization.NumberStyles"
+            },
+            {
+              "name": "info",
+              "type": "System.Globalization.NumberFormatInfo"
+            }
+          ],
+          "return_type": "System.Numerics.BigInteger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HexNumberToBigInteger",
+          "parameters": [
+            {
+              "name": "number",
+              "type": "System.Numerics.BigNumber.BigNumberBuffer&"
+            },
+            {
+              "name": "value",
+              "type": "System.Numerics.BigInteger&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NumberToBigInteger",
+          "parameters": [
+            {
+              "name": "number",
+              "type": "System.Numerics.BigNumber.BigNumberBuffer&"
+            },
+            {
+              "name": "value",
+              "type": "System.Numerics.BigInteger&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ParseFormatSpecifier",
+          "parameters": [
+            {
+              "name": "format",
+              "type": "System.ReadOnlySpan<System.Char>"
+            },
+            {
+              "name": "digits",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Char"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FormatBigIntegerToHex",
+          "parameters": [
+            {
+              "name": "targetSpan",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "value",
+              "type": "System.Numerics.BigInteger"
+            },
+            {
+              "name": "format",
+              "type": "System.Char"
+            },
+            {
+              "name": "digits",
+              "type": "System.Int32"
+            },
+            {
+              "name": "info",
+              "type": "System.Globalization.NumberFormatInfo"
+            },
+            {
+              "name": "destination",
+              "type": "System.Span<System.Char>"
+            },
+            {
+              "name": "charsWritten",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "spanSuccess",
+              "type": "System.Boolean&"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FormatBigInteger",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Numerics.BigInteger"
+            },
+            {
+              "name": "format",
+              "type": "System.String"
+            },
+            {
+              "name": "info",
+              "type": "System.Globalization.NumberFormatInfo"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FormatBigInteger",
+          "parameters": [
+            {
+              "name": "targetSpan",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "value",
+              "type": "System.Numerics.BigInteger"
+            },
+            {
+              "name": "formatString",
+              "type": "System.String"
+            },
+            {
+              "name": "formatSpan",
+              "type": "System.ReadOnlySpan<System.Char>"
+            },
+            {
+              "name": "info",
+              "type": "System.Globalization.NumberFormatInfo"
+            },
+            {
+              "name": "destination",
+              "type": "System.Span<System.Char>"
+            },
+            {
+              "name": "charsWritten",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "spanSuccess",
+              "type": "System.Boolean&"
+            }
+          ],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "BigNumber",
+      "namespace": "System.Numerics",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "Zero",
+          "offset": 0,
+          "type": "System.Numerics.Complex"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "One",
+          "offset": 16,
+          "type": "System.Numerics.Complex"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "ImaginaryOne",
+          "offset": 32,
+          "type": "System.Numerics.Complex"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_sqrtRescaleThreshold",
+          "offset": 48,
+          "type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_asinOverflowThreshold",
+          "offset": 56,
+          "type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_log2",
+          "offset": 64,
+          "type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_real",
+          "offset": 16,
+          "type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_imaginary",
+          "offset": 24,
+          "type": "System.Double"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1",
+        "IFormattable"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "real",
+              "type": "System.Double"
+            },
+            {
+              "name": "imaginary",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Numerics.Complex"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [
+            {
+              "name": "format",
+              "type": "System.String"
+            },
+            {
+              "name": "provider",
+              "type": "System.IFormatProvider"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Complex",
+      "namespace": "System.Numerics",
+      "type_token": 33554447
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "dbl",
+          "offset": 16,
+          "type": "System.Double"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "uu",
+          "offset": 16,
+          "type": "System.UInt64"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "DoubleUlong",
+      "namespace": "System.Numerics",
+      "type_token": 33554448
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDoubleParts",
+          "parameters": [
+            {
+              "name": "dbl",
+              "type": "System.Double"
+            },
+            {
+              "name": "sign",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "exp",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "man",
+              "type": "System.UInt64&"
+            },
+            {
+              "name": "fFinite",
+              "type": "System.Boolean&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDoubleFromParts",
+          "parameters": [
+            {
+              "name": "sign",
+              "type": "System.Int32"
+            },
+            {
+              "name": "exp",
+              "type": "System.Int32"
+            },
+            {
+              "name": "man",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DangerousMakeTwosComplement",
+          "parameters": [
+            {
+              "name": "d",
+              "type": "System.UInt32[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MakeUlong",
+          "parameters": [
+            {
+              "name": "uHi",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "uLo",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Abs",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CombineHash",
+          "parameters": [
+            {
+              "name": "u1",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "u2",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CombineHash",
+          "parameters": [
+            {
+              "name": "n1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "n2",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CbitHighZero",
+          "parameters": [
+            {
+              "name": "u",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CbitHighZero",
+          "parameters": [
+            {
+              "name": "uu",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "NumericsHelpers",
+      "namespace": "System.Numerics",
+      "type_token": 33554449
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "RandomSeed",
+          "offset": 0,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Combine",
+          "parameters": [
+            {
+              "name": "h1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "h2",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HashHelpers",
+      "namespace": "System.Numerics.Hashing",
+      "type_token": 33554450
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "precision",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "scale",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "sign",
+          "offset": 24,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "overrideDigits",
+          "offset": 32,
+          "type": "System.Char*"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_digits",
+          "parameters": [],
+          "return_type": "System.Char*"
+        }
+      ],
+      "name": "NumberBuffer",
+      "namespace": "",
+      "type_token": 33554453
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_posCurrencyFormats",
+          "offset": 0,
+          "type": "System.String[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_negCurrencyFormats",
+          "offset": 8,
+          "type": "System.String[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_posPercentFormats",
+          "offset": 16,
+          "type": "System.String[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_negPercentFormats",
+          "offset": 24,
+          "type": "System.String[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_negNumberFormats",
+          "offset": 32,
+          "type": "System.String[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_posNumberFormat",
+          "offset": 40,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsWhite",
+          "parameters": [
+            {
+              "name": "ch",
+              "type": "System.Char"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MatchChars",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "System.Char*"
+            },
+            {
+              "name": "pEnd",
+              "type": "System.Char*"
+            },
+            {
+              "name": "str",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Char*"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MatchChars",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "System.Char*"
+            },
+            {
+              "name": "pEnd",
+              "type": "System.Char*"
+            },
+            {
+              "name": "str",
+              "type": "System.Char*"
+            }
+          ],
+          "return_type": "System.Char*"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ParseNumber",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.Char*&"
+            },
+            {
+              "name": "strEnd",
+              "type": "System.Char*"
+            },
+            {
+              "name": "options",
+              "type": "System.Globalization.NumberStyles"
+            },
+            {
+              "name": "number",
+              "type": "System.Globalization.FormatProvider.Number.NumberBuffer&"
+            },
+            {
+              "name": "sb",
+              "type": "System.Text.StringBuilder"
+            },
+            {
+              "name": "numfmt",
+              "type": "System.Globalization.NumberFormatInfo"
+            },
+            {
+              "name": "parseDecimal",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TrailingZeros",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.ReadOnlySpan<System.Char>"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryStringToNumber",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.ReadOnlySpan<System.Char>"
+            },
+            {
+              "name": "options",
+              "type": "System.Globalization.NumberStyles"
+            },
+            {
+              "name": "number",
+              "type": "System.Globalization.FormatProvider.Number.NumberBuffer&"
+            },
+            {
+              "name": "sb",
+              "type": "System.Text.StringBuilder"
+            },
+            {
+              "name": "numfmt",
+              "type": "System.Globalization.NumberFormatInfo"
+            },
+            {
+              "name": "parseDecimal",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Int32ToDecChars",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "System.Char*"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "value",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "digits",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ParseFormatSpecifier",
+          "parameters": [
+            {
+              "name": "format",
+              "type": "System.ReadOnlySpan<System.Char>"
+            },
+            {
+              "name": "digits",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Char"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NumberToString",
+          "parameters": [
+            {
+              "name": "sb",
+              "type": "System.Text.ValueStringBuilder&"
+            },
+            {
+              "name": "number",
+              "type": "System.Globalization.FormatProvider.Number.NumberBuffer&"
+            },
+            {
+              "name": "format",
+              "type": "System.Char"
+            },
+            {
+              "name": "nMaxDigits",
+              "type": "System.Int32"
+            },
+            {
+              "name": "info",
+              "type": "System.Globalization.NumberFormatInfo"
+            },
+            {
+              "name": "isDecimal",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FormatCurrency",
+          "parameters": [
+            {
+              "name": "sb",
+              "type": "System.Text.ValueStringBuilder&"
+            },
+            {
+              "name": "number",
+              "type": "System.Globalization.FormatProvider.Number.NumberBuffer&"
+            },
+            {
+              "name": "nMinDigits",
+              "type": "System.Int32"
+            },
+            {
+              "name": "nMaxDigits",
+              "type": "System.Int32"
+            },
+            {
+              "name": "info",
+              "type": "System.Globalization.NumberFormatInfo"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "wcslen",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.Char*"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FormatFixed",
+          "parameters": [
+            {
+              "name": "sb",
+              "type": "System.Text.ValueStringBuilder&"
+            },
+            {
+              "name": "number",
+              "type": "System.Globalization.FormatProvider.Number.NumberBuffer&"
+            },
+            {
+              "name": "nMinDigits",
+              "type": "System.Int32"
+            },
+            {
+              "name": "nMaxDigits",
+              "type": "System.Int32"
+            },
+            {
+              "name": "info",
+              "type": "System.Globalization.NumberFormatInfo"
+            },
+            {
+              "name": "groupDigits",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "sDecimal",
+              "type": "System.String"
+            },
+            {
+              "name": "sGroup",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FormatNumber",
+          "parameters": [
+            {
+              "name": "sb",
+              "type": "System.Text.ValueStringBuilder&"
+            },
+            {
+              "name": "number",
+              "type": "System.Globalization.FormatProvider.Number.NumberBuffer&"
+            },
+            {
+              "name": "nMinDigits",
+              "type": "System.Int32"
+            },
+            {
+              "name": "nMaxDigits",
+              "type": "System.Int32"
+            },
+            {
+              "name": "info",
+              "type": "System.Globalization.NumberFormatInfo"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FormatScientific",
+          "parameters": [
+            {
+              "name": "sb",
+              "type": "System.Text.ValueStringBuilder&"
+            },
+            {
+              "name": "number",
+              "type": "System.Globalization.FormatProvider.Number.NumberBuffer&"
+            },
+            {
+              "name": "nMinDigits",
+              "type": "System.Int32"
+            },
+            {
+              "name": "nMaxDigits",
+              "type": "System.Int32"
+            },
+            {
+              "name": "info",
+              "type": "System.Globalization.NumberFormatInfo"
+            },
+            {
+              "name": "expChar",
+              "type": "System.Char"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FormatExponent",
+          "parameters": [
+            {
+              "name": "sb",
+              "type": "System.Text.ValueStringBuilder&"
+            },
+            {
+              "name": "info",
+              "type": "System.Globalization.NumberFormatInfo"
+            },
+            {
+              "name": "value",
+              "type": "System.Int32"
+            },
+            {
+              "name": "expChar",
+              "type": "System.Char"
+            },
+            {
+              "name": "minDigits",
+              "type": "System.Int32"
+            },
+            {
+              "name": "positiveSign",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FormatGeneral",
+          "parameters": [
+            {
+              "name": "sb",
+              "type": "System.Text.ValueStringBuilder&"
+            },
+            {
+              "name": "number",
+              "type": "System.Globalization.FormatProvider.Number.NumberBuffer&"
+            },
+            {
+              "name": "nMinDigits",
+              "type": "System.Int32"
+            },
+            {
+              "name": "nMaxDigits",
+              "type": "System.Int32"
+            },
+            {
+              "name": "info",
+              "type": "System.Globalization.NumberFormatInfo"
+            },
+            {
+              "name": "expChar",
+              "type": "System.Char"
+            },
+            {
+              "name": "bSuppressScientific",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FormatPercent",
+          "parameters": [
+            {
+              "name": "sb",
+              "type": "System.Text.ValueStringBuilder&"
+            },
+            {
+              "name": "number",
+              "type": "System.Globalization.FormatProvider.Number.NumberBuffer&"
+            },
+            {
+              "name": "nMinDigits",
+              "type": "System.Int32"
+            },
+            {
+              "name": "nMaxDigits",
+              "type": "System.Int32"
+            },
+            {
+              "name": "info",
+              "type": "System.Globalization.NumberFormatInfo"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RoundNumber",
+          "parameters": [
+            {
+              "name": "number",
+              "type": "System.Globalization.FormatProvider.Number.NumberBuffer&"
+            },
+            {
+              "name": "pos",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FindSection",
+          "parameters": [
+            {
+              "name": "format",
+              "type": "System.ReadOnlySpan<System.Char>"
+            },
+            {
+              "name": "section",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NumberToStringFormat",
+          "parameters": [
+            {
+              "name": "sb",
+              "type": "System.Text.ValueStringBuilder&"
+            },
+            {
+              "name": "number",
+              "type": "System.Globalization.FormatProvider.Number.NumberBuffer&"
+            },
+            {
+              "name": "format",
+              "type": "System.ReadOnlySpan<System.Char>"
+            },
+            {
+              "name": "info",
+              "type": "System.Globalization.NumberFormatInfo"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Number",
+      "namespace": "",
+      "type_token": 33554452
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FormatBigInteger",
+          "parameters": [
+            {
+              "name": "sb",
+              "type": "System.Text.ValueStringBuilder&"
+            },
+            {
+              "name": "precision",
+              "type": "System.Int32"
+            },
+            {
+              "name": "scale",
+              "type": "System.Int32"
+            },
+            {
+              "name": "sign",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "format",
+              "type": "System.ReadOnlySpan<System.Char>"
+            },
+            {
+              "name": "numberFormatInfo",
+              "type": "System.Globalization.NumberFormatInfo"
+            },
+            {
+              "name": "digits",
+              "type": "System.Char[]"
+            },
+            {
+              "name": "startIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryStringToBigInteger",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.ReadOnlySpan<System.Char>"
+            },
+            {
+              "name": "styles",
+              "type": "System.Globalization.NumberStyles"
+            },
+            {
+              "name": "numberFormatInfo",
+              "type": "System.Globalization.NumberFormatInfo"
+            },
+            {
+              "name": "receiver",
+              "type": "System.Text.StringBuilder"
+            },
+            {
+              "name": "precision",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "scale",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "sign",
+              "type": "System.Boolean&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "FormatProvider",
+      "namespace": "System.Globalization",
+      "type_token": 33554451
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_arrayToReturnToPool",
+          "offset": 16,
+          "type": "System.Char[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_chars",
+          "offset": 24,
+          "type": "System.Span<System.Char>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_pos",
+          "offset": 40,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "initialBuffer",
+              "type": "System.Span<System.Char>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Length",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryCopyTo",
+          "parameters": [
+            {
+              "name": "destination",
+              "type": "System.Span<System.Char>"
+            },
+            {
+              "name": "charsWritten",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Insert",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Char"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Append",
+          "parameters": [
+            {
+              "name": "c",
+              "type": "System.Char"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Append",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AppendSlow",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Append",
+          "parameters": [
+            {
+              "name": "c",
+              "type": "System.Char"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Append",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Char*"
+            },
+            {
+              "name": "length",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AppendSpan",
+          "parameters": [
+            {
+              "name": "length",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Span<System.Char>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GrowAndAppend",
+          "parameters": [
+            {
+              "name": "c",
+              "type": "System.Char"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Grow",
+          "parameters": [
+            {
+              "name": "requiredAdditionalCapacity",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ValueStringBuilder",
+      "namespace": "System.Text",
+      "type_token": 33554454
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IntrinsicAttribute",
+      "namespace": "System.Runtime.CompilerServices",
+      "parent": "Attribute",
+      "type_token": 33554455
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "System.Numerics.dll"
+}

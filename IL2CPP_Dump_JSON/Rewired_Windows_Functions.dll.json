@@ -1,0 +1,46 @@
+{
+  "class_count": 2,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ForwardRawInput",
+          "parameters": [
+            {
+              "name": "rawInputHeaderIndices",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "rawInputDataIndices",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "indicesCount",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "rawInputData",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "rawInputDataSize",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Functions",
+      "namespace": "Rewired.Internal.Windows",
+      "type_token": 33554434
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Rewired_Windows_Functions.dll"
+}

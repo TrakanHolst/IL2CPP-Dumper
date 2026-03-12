@@ -1,0 +1,104 @@
+{
+  "class_count": 3,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_cellSize",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_cellSize_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector3&"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Grid",
+      "namespace": "UnityEngine",
+      "parent": "GridLayout",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CellToLocal",
+          "parameters": [
+            {
+              "name": "cellPosition",
+              "type": "UnityEngine.Vector3Int"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DoNothing",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CellToLocal_Injected",
+          "parameters": [
+            {
+              "name": "cellPosition",
+              "type": "UnityEngine.Vector3Int&"
+            },
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector3&"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "GridLayout",
+      "namespace": "UnityEngine",
+      "parent": "Behaviour",
+      "type_token": 33554435
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.GridModule.dll"
+}

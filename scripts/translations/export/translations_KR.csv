@@ -1,0 +1,1228 @@
+﻿Key,Module,Translation
+app.description,app,"명일방주: 엔드필드를 위한 고급 도구 및 유틸리티. 공장 플래너, 소환 시뮬레이터, 캐릭터 플래너, 캐릭터 쇼케이스 및 커뮤니티 계획 포함."
+app.title,app,EndfieldTools.DEV - 명일방주: 엔드필드 도구 및 유틸리티
+ascension.add_character,ascension,캐릭터 추가
+ascension.add_character_desc,ascension,레벨 및 스킬 업그레이드 계획
+ascension.add_weapon,ascension,무기 추가
+ascension.add_weapon_desc,ascension,돌파 업그레이드 계획
+ascension.category_breakthrough_char,ascension,캐릭터 돌파
+ascension.category_breakthrough_weapon,ascension,무기 돌파
+ascension.category_exp,ascension,경험치
+ascension.category_exp_char,ascension,캐릭터 경험치
+ascension.category_exp_weapon,ascension,무기 경험치
+ascension.category_gold,ascension,골드
+ascension.category_plant,ascension,식물 재료
+ascension.category_skill_crown,ascension,스킬 크라운
+ascension.category_skill_level,ascension,스킬 레벨업
+ascension.category_skill_specialize,ascension,스킬 특화
+ascension.clear_all,ascension,모두 지우기
+ascension.deficit,ascension,부족
+ascension.description,ascension,캐릭터와 무기 업그레이드를 계획하세요. 재료를 추적하고 인벤토리를 관리하세요.
+ascension.farming_list,ascension,파밍 목록
+ascension.from_level,ascension,시작 레벨
+ascension.include_skills,ascension,스킬 포함
+ascension.inventory,ascension,인벤토리
+ascension.inventory_hint,ascension,Tab 또는 Enter 키로 입력란 이동
+ascension.inventory_search,ascension,재료 검색...
+ascension.inventory_title,ascension,재료 인벤토리
+ascension.keep_in_inventory,ascension,인벤토리에 유지
+ascension.level_range,ascension,레벨 범위
+ascension.levels,ascension,레벨
+ascension.materials_needed,ascension,필요
+ascension.materials_required,ascension,필요 재료
+ascension.no_items,ascension,캐릭터나 무기가 추가되지 않았습니다
+ascension.no_items_found,ascension,아이템을 찾을 수 없습니다
+ascension.no_items_hint,ascension,위 버튼을 클릭하여 업그레이드 계획을 시작하세요
+ascension.no_materials,ascension,재료 불필요
+ascension.no_materials_allocated,ascension,인벤토리에서 할당된 재료가 없습니다.
+ascension.owned,ascension,보유
+ascension.planner,ascension,플래너
+ascension.priority,ascension,우선순위
+ascension.priority_mode,ascension,우선순위 재정렬
+ascension.remove,ascension,제거
+ascension.remove_and_delete,ascension,삭제 및 제거
+ascension.remove_confirm_message,ascension,이 재료들은 {name}에 할당되어 있습니다:
+ascension.remove_confirm_title,ascension,인벤토리에서 삭제하시겠습니까?
+ascension.select_character,ascension,캐릭터 선택
+ascension.select_weapon,ascension,무기 선택
+ascension.skill_from_level,ascension,
+ascension.skill_level,ascension,스킬 레벨
+ascension.skill_to_level,ascension,
+ascension.skills,ascension,스킬
+ascension.talents,ascension,스킬
+ascension.title,ascension,돌파 플래너
+ascension.to_level,ascension,목표 레벨
+ascension.total_exp,ascension,합계
+ascension.total_items,ascension,총: {count}개
+ascension.welcome_description,ascension,캐릭터와 무기를 목록에 추가하여 업그레이드를 계획하세요. 필요한 재료를 추적하고 진행 상황을 모니터링하세요.
+ascension.welcome_title,ascension,돌파 플래너에 오신 것을 환영합니다
+auth.login,auth,로그인
+auth.logout,auth,로그아웃
+auth.setup_username,auth,환영합니다! 사용자 이름을 설정하세요.
+auth.signup,auth,회원가입
+auth.welcome_back,auth,"환영합니다, {username}!"
+buildings.sub_automation_core,buildings,서브 오토메이션 코어
+buildings.sub_automation_core.desc,buildings,각 출력 포트에 다른 아이템을 라우팅합니다. 모든 입력은 소비됩니다.
+builds.add_alt_weapon,builds,대체
+builds.add_alternative,builds,대안 추가
+builds.add_character,builds,캐릭터 추가
+builds.add_recommended_partner,builds,
+builds.all_time,builds,전체 기간
+builds.alt_label_placeholder,builds,대체
+builds.alternative,builds,대안
+builds.alternative_equipment,builds,대체 장비
+builds.alternative_label_placeholder,builds,"라벨 (예: 저예산, 후반)"
+builds.alternative_reason_placeholder,builds,왜 이것이 대안인가요?
+builds.apply_filters,builds,필터 적용
+builds.auto_saved,builds,자동 저장됨
+builds.back_to_character,builds,빌드 목록으로
+builds.back_to_list,builds,목록으로
+builds.be_first_character,builds,이 캐릭터의 빌드를 처음으로 공유해보세요!
+builds.be_first_to_share,builds,첫 번째로 빌드를 공유해보세요!
+builds.browse_builds,builds,빌드 둘러보기
+builds.browse_character_builds,builds,이 캐릭터의 커뮤니티 빌드 찾아보기
+builds.build,builds,빌드
+builds.build_character,builds,캐릭터 빌드
+builds.build_description,builds,빌드 가이드
+builds.build_name,builds,빌드 이름
+builds.build_team,builds,팀 구성하기
+builds.by,builds,제작자
+builds.change_alt_weapon,builds,대체 무기 변경
+builds.change_character,builds,캐릭터 변경
+builds.character_desc,builds,이 빌드의 메인 캐릭터 선택
+builds.character_level,builds,레벨
+builds.character_not_found,builds,캐릭터를 찾을 수 없습니다
+builds.character_not_found_desc,builds,캐릭터를 찾을 수 없습니다.
+builds.characters,builds,캐릭터
+builds.clear_draft,builds,초안 지우기
+builds.clear_filters,builds,필터 지우기
+builds.click_to_add_partners,builds,
+builds.comments,builds,댓글
+builds.comments_count,builds,댓글
+builds.confirm_delete,builds,이 빌드를 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.
+builds.copied,builds,복사됨!
+builds.copy_to_clipboard,builds,클립보드에 복사
+builds.counted_in_calculations,builds,계산에 포함됨
+builds.create_and_share,builds,빌드 만들기 및 공유
+builds.create_build,builds,빌드 만들기
+builds.create_character,builds,캐릭터 빌드 만들기
+builds.create_first,builds,첫 빌드 만들기
+builds.create_new,builds,새 빌드 만들기
+builds.create_team,builds,팀 빌드 만들기
+builds.create_your_own,builds,나만의 빌드 만들기!
+builds.delete_success,builds,빌드가 삭제되었습니다
+builds.description,builds,커뮤니티와 캐릭터 빌드를 만들고 공유하세요
+builds.edit_mode,builds,편집
+builds.edit_reason,builds,이유 수정
+builds.equipment,builds,장비
+builds.equipment_body,builds,바디
+builds.equipment_bonuses,builds,장비 보너스
+builds.equipment_edc,builds,EDC
+builds.equipment_hand,builds,핸드
+builds.equipment_medical,builds,의료
+builds.equipment_medical_coming_soon,builds,의료 아이템 준비 중
+builds.equipment_reason_placeholder,builds,왜 이 장비를 선택했나요?
+builds.error_delete,builds,빌드 삭제에 실패했습니다
+builds.error_load_build,builds,빌드 로딩에 실패했습니다
+builds.error_loading,builds,빌드 로딩에 실패했습니다
+builds.error_name_required,builds,빌드 이름은 필수입니다
+builds.error_no_main_character,builds,메인 캐릭터를 선택해주세요
+builds.error_title,builds,빌드를 찾을 수 없음
+builds.error_toggle,builds,공개 설정 변경에 실패했습니다
+builds.explain_why,builds,이유 설명
+builds.export_build,builds,빌드 내보내기
+builds.filter_by_character,builds,메인 캐릭터
+builds.filter_by_element,builds,속성 타입
+builds.filter_by_partner,builds,팀 파트너
+builds.filter_by_set,builds,장비 세트
+builds.filter_by_tag,builds,태그
+builds.filter_by_weapon,builds,무기
+builds.filter_character,builds,캐릭터
+builds.filter_has_video,builds,영상 가이드 있음
+builds.filter_weapon,builds,무기 유형
+builds.filters,builds,필터
+builds.guide,builds,빌드 가이드
+builds.hide_section,builds,이 섹션 숨기기
+builds.hide_stats,builds,능력치 숨기기
+builds.import_build,builds,빌드 가져오기
+builds.import_error,builds,잘못된 빌드 데이터입니다. JSON 형식을 확인하세요.
+builds.import_export,builds,빌드 가져오기/내보내기
+builds.import_placeholder,builds,빌드 JSON을 붙여넣어 가져오기...
+builds.import_success,builds,빌드를 성공적으로 가져왔습니다!
+builds.latest_builds,builds,최신 빌드
+builds.liked_builds,builds,좋아요한 빌드
+builds.likes,builds,좋아요
+builds.link_copied,builds,링크가 복사되었습니다!
+builds.loading_builds,builds,빌드 로딩 중...
+builds.login_required,builds,빌드를 저장하려면 로그인이 필요합니다
+builds.main_equipment,builds,메인 장비
+builds.make_public,builds,공개로 설정
+builds.manage_builds,builds,빌드 관리
+builds.max_2_tags,builds,최대 2개
+builds.max_partners_reached,builds,
+builds.most_liked,builds,좋아요 수
+builds.most_popular,builds,인기
+builds.my_builds,builds,내 빌드
+builds.no_build_specified,builds,빌드가 지정되지 않았습니다
+builds.no_build_specified_desc,builds,볼 빌드를 선택해주세요.
+builds.no_builds_character,builds,빌드 없음
+builds.no_builds_period,builds,해당 기간에 빌드가 없습니다.
+builds.no_builds_yet,builds,아직 빌드를 만들지 않았습니다
+builds.no_character_selected,builds,선택된 캐릭터가 없습니다
+builds.no_community_builds,builds,아직 커뮤니티 빌드가 없습니다
+builds.no_description,builds,설명 없음
+builds.no_equipment_selected,builds,장비가 선택되지 않았습니다
+builds.no_liked_builds,builds,아직 좋아요한 빌드가 없습니다
+builds.no_notes,builds,메모 없음
+builds.no_results,builds,빌드를 찾을 수 없습니다
+builds.no_results_desc,builds,현재 필터와 일치하는 빌드가 없습니다. 필터를 조정하거나 아래 인기 빌드를 확인해보세요.
+builds.no_weapon,builds,무기가 선택되지 않았습니다
+builds.not_found,builds,빌드를 찾을 수 없거나 볼 권한이 없습니다
+builds.not_found_desc,builds,찾으시는 빌드가 존재하지 않거나 삭제되었습니다.
+builds.notes,builds,메모
+builds.nothing_recommended,builds,추천 없음
+builds.other_recommended_partners,builds,
+builds.partner,builds,파트너
+builds.partners_explanation_placeholder,builds,
+builds.popular_this_week,builds,이번 주 인기 빌드
+builds.preview,builds,미리보기
+builds.preview_note,builds,다른 사람들에게 보이는 빌드 미리보기입니다
+builds.private,builds,비공개
+builds.public,builds,공개
+builds.publish,builds,공개하기
+builds.recommended_partners_help,builds,
+builds.remove_alternative,builds,대안 삭제
+builds.remove_character,builds,제거
+builds.remove_to_add_more,builds,
+builds.reset_filters,builds,필터 초기화
+builds.results_for,builds,검색 결과
+builds.role,builds,역할
+builds.save_build,builds,빌드 저장
+builds.save_error,builds,빌드 저장에 실패했습니다. 다시 시도해주세요.
+builds.save_requirements,builds,빌드 이름과 최소 한 명의 캐릭터가 필요합니다
+builds.save_success,builds,빌드가 저장되었습니다!
+builds.saving,builds,저장 중...
+builds.search_equipment,builds,"세트 이름, 스탯 또는 효과로 검색..."
+builds.search_placeholder,builds,빌드 검색...
+builds.search_results,builds,검색 결과
+builds.select_equipment,builds,장비 선택
+builds.select_partner_to_recommend,builds,
+builds.select_weapon,builds,무기 선택
+builds.selected_partners,builds,
+builds.set_bonuses,builds,세트 효과
+builds.share_with_community,builds,커뮤니티와 전략을 공유하세요
+builds.short_description,builds,짧은 설명
+builds.show_stats,builds,능력치 표시
+builds.single_build,builds,솔로 빌드
+builds.single_char,builds,단일 캐릭터
+builds.single_mode,builds,단일 캐릭터
+builds.skill_priority,builds,스킬 우선순위
+builds.skill_priority_reason_placeholder,builds,왜 이 레벨링 순서인가요?
+builds.skill_type_combo,builds,콤보
+builds.skill_type_normal,builds,일반
+builds.skill_type_ultimate,builds,궁극기
+builds.skill_upgrade_priority,builds,스킬 업그레이드 우선순위
+builds.skills,builds,스킬
+builds.solo_build,builds,
+builds.sort_by,builds,정렬
+builds.sort_latest,builds,최신
+builds.sort_popular,builds,인기
+builds.subtitle,builds,팀 빌드 탐색 및 공유
+builds.tag_boss,builds,보스전
+builds.tag_early_game,builds,초반
+builds.tag_f2p_friendly,builds,무과금 친화
+builds.tag_farming,builds,파밍
+builds.tag_help,builds,플레이어가 빌드를 찾는 데 도움이 되는 태그를 최대 2개 선택하세요
+builds.tag_late_game,builds,후반
+builds.tag_mid_game,builds,중반
+builds.tag_not_f2p_friendly,builds,과금 추천
+builds.tags,builds,태그
+builds.team_build,builds,
+builds.team_desc,builds,최대 4명의 캐릭터로 팀 만들기
+builds.team_mode,builds,팀 (최대 4명)
+builds.team_role_placeholder,builds,"역할 (예: 메인 DPS, 서포터)"
+builds.team_role_reason_placeholder,builds,이 캐릭터가 이 역할을 담당하는 이유는?
+builds.this_month,builds,이번 달
+builds.this_week,builds,이번 주
+builds.title,builds,커뮤니티 빌드
+builds.try_different_filters,builds,필터나 검색어를 조정해 보세요.
+builds.unnamed,builds,이름 없는 빌드
+builds.unpublish,builds,비공개하기
+builds.untitled,builds,제목 없는 빌드
+builds.up_to_4,builds,최대 4명
+builds.update_build,builds,빌드 업데이트
+builds.update_success,builds,빌드가 업데이트되었습니다!
+builds.video,builds,영상
+builds.video_showcase,builds,영상 소개
+builds.view_character_details,builds,캐릭터 상세 보기
+builds.view_mode,builds,보기
+builds.views,builds,조회
+builds.visibility_updated,builds,빌드 공개 설정이 변경되었습니다
+builds.watch_video,builds,영상 보기
+builds.weapon,builds,무기
+builds.weapon_bonuses,builds,무기 보너스
+builds.weapon_label_placeholder,builds,최적
+builds.weapon_not_found,builds,무기를 찾을 수 없습니다
+builds.weapon_reason_placeholder,builds,왜 이 무기를 선택했나요?
+builds.weapon_skills,builds,무기 스킬
+builds.weapons,builds,무기
+builds.why_these_partners,builds,
+builds.your_username,builds,당신의 사용자 이름
+builds.youtube_video,builds,YouTube 영상
+builds.youtube_video_hint,builds,빌드를 소개하는 YouTube 영상 추가
+characters.all_elements,characters,모든 속성
+characters.all_professions,characters,모든 직업
+characters.all_rarities,characters,모든 등급
+characters.aspd,characters,공격 속도
+characters.atk,characters,공격력
+characters.battle_skills,characters,전투 스킬
+characters.battle_tags,characters,전투 태그
+characters.breakthrough,characters,돌파
+characters.breakthrough_details,characters,돌파 세부 정보
+characters.browse_all,characters,모든 엔드필드 캐릭터 탐색
+characters.def,characters,방어력
+characters.department,characters,진영
+characters.discussion,characters,캐릭터 토론
+characters.effect,characters,효과
+characters.element,characters,속성
+characters.exp_items_required,characters,경험치 아이템
+characters.experience_calculator,characters,경험치 계산기
+characters.factory_skill_slot,characters,스킬 슬롯 {slot}
+characters.factory_skills,characters,기지 스킬
+characters.from_level,characters,시작
+characters.hp,characters,HP
+characters.level_1,characters,레벨 1
+characters.level_range,characters,레벨 범위
+characters.level_up_requirements,characters,레벨업 요구사항
+characters.materials_required,characters,필요 재료
+characters.max_level,characters,최대 레벨
+characters.no_factory_skills,characters,기지 스킬 없음
+characters.potential,characters,잠재력
+characters.potential_level,characters,잠재력 {level}
+characters.potential_passive,characters,잠재력 및 패시브
+characters.profession,characters,직업
+characters.profile_records,characters,프로필 기록
+characters.rarity,characters,등급
+characters.required_items,characters,필요 아이템
+characters.results,characters,캐릭터 발견됨
+characters.search,characters,캐릭터 검색...
+characters.skill_type_combo,characters,콤보 스킬
+characters.skill_type_normal,characters,일반 스킬
+characters.skill_type_talent,characters,재능
+characters.skill_type_ultimate,characters,궁극기
+characters.stats_progression,characters,스탯 성장
+characters.talents,characters,재능
+characters.title,characters,캐릭터
+characters.to_level,characters,종료
+characters.unlocks_at,characters,레벨 {level}에서 잠금 해제
+characters.voice_actors,characters,성우
+characters.voice_lines,characters,음성 대사
+characters.weapon_type,characters,무기 유형
+comments.auth_required_title,comments,인증 필요
+comments.be_first,comments,첫 번째로 의견을 남겨보세요!
+comments.cancel,comments,취소
+comments.char_count,comments,{count} / {max}
+comments.days_ago,comments,{count}일 전
+comments.delete,comments,삭제
+comments.deleting,comments,삭제 중...
+comments.edit,comments,편집
+comments.edit_placeholder,comments,댓글을 편집하세요...
+comments.edited,comments,(수정됨)
+comments.error_delete_failed,comments,댓글 삭제에 실패했습니다. 다시 시도해주세요.
+comments.error_empty,comments,댓글은 비워둘 수 없습니다.
+comments.error_invalid_content,comments,댓글에 잘못된 문자나 HTML 태그가 포함되어 있습니다. 일반 텍스트만 사용하세요.
+comments.error_post_failed,comments,댓글 게시에 실패했습니다. 다시 시도해주세요.
+comments.error_too_long,comments,댓글이 너무 깁니다 (최대 {max}자).
+comments.error_update_failed,comments,댓글 수정에 실패했습니다. 다시 시도해주세요.
+comments.formatting_guide,comments,서식
+comments.hide_replies,comments,{count}개 답글 숨기기
+comments.hours_ago,comments,{count}시간 전
+comments.join_discussion,comments,토론에 참여하세요...
+comments.just_now,comments,방금
+comments.load_more,comments,댓글 더 보기
+comments.loading,comments,댓글 로딩 중...
+comments.loading_replies,comments,답글 로딩 중...
+comments.login_link,comments,로그인
+comments.login_required,comments,댓글을 작성하려면 로그인하세요.
+comments.mention_keyboard_hint,comments,↑↓ 이동 • Enter 선택 • Esc 닫기
+comments.mention_no_users,comments,사용자를 찾을 수 없습니다
+comments.mention_searching,comments,사용자 검색 중...
+comments.minutes_ago,comments,{count}분 전
+comments.no_comments,comments,아직 댓글이 없습니다
+comments.placeholder,comments,의견을 공유하세요...
+comments.post_comment,comments,댓글 작성
+comments.post_reply,comments,답글 작성
+comments.posting,comments,게시 중...
+comments.reply,comments,답글
+comments.reply_placeholder,comments,답글을 작성하세요...
+comments.replying_to,comments,답글 대상
+comments.save_changes,comments,변경사항 저장
+comments.show_replies,comments,{count}개 답글 보기
+comments.success_deleted,comments,댓글이 성공적으로 삭제되었습니다!
+comments.success_posted,comments,댓글이 성공적으로 게시되었습니다!
+comments.success_reply_posted,comments,답글이 성공적으로 게시되었습니다!
+comments.success_updated,comments,댓글이 성공적으로 수정되었습니다!
+comments.title,comments,댓글
+comments.warning_auth_required,comments,댓글을 작성하려면 로그인하세요.
+common.all_time,common,전체 기간
+common.back,common,뒤로
+common.cancel,common,취소
+common.clear,common,지우기
+common.close,common,닫기
+common.coming_soon,common,곧 출시...
+common.confirm,common,확인
+common.copied,common,복사됨!
+common.copy,common,복사
+common.copy_link,common,링크 복사
+common.delete,common,삭제
+common.edit,common,편집
+common.error,common,오류
+common.exp_required,common,필요 경험치
+common.filters,common,필터
+common.frequently_asked_questions,common,자주 묻는 질문
+common.gold_cost,common,골드 비용
+common.last_updated,common,마지막 업데이트
+common.latest,common,최신
+common.level,common,레벨
+common.loading,common,로딩 중...
+common.no_data_yet,common,아직 데이터 없음
+common.no_results,common,결과를 찾을 수 없습니다
+common.optional,common,선택사항
+common.popular,common,인기
+common.quick_navigation,common,빠른 탐색
+common.related_characters,common,관련 캐릭터
+common.related_weapons,common,관련 무기
+common.reset,common,초기화
+common.save,common,저장
+common.saving,common,저장 중...
+common.search,common,검색
+common.search_results,common,검색 결과
+common.show_less,common,접기
+common.show_more,common,더 보기
+common.sort_by,common,정렬
+common.success,common,성공
+common.this_month,common,이번 달
+common.this_week,common,이번 주
+common.view,common,보기
+custom.conveyor_merger.desc,custom,최대 3개의 컨베이어를 하나의 출력으로 병합합니다. 전력 불필요.
+custom.conveyor_merger.name,custom,컨베이어 병합기
+equipment.additional_stats,equipment,추가 스탯
+equipment.all_parts,equipment,모든 부위
+equipment.all_stages,equipment,모든 단계
+equipment.all_tiers,equipment,모든 티어
+equipment.attr.AllDamageTakenScalar,equipment,전체 피해 감소
+equipment.attr.AllSkillDamageIncrease,equipment,전체 스킬 피해
+equipment.attr.CrystAndPulseDamageIncrease,equipment,빙결&전격 피해
+equipment.attr.FireAndNaturalDamageIncrease,equipment,열&자연 피해
+equipment.attr.Main,equipment,주 속성
+equipment.attr.SpellDamageIncrease,equipment,아츠 피해
+equipment.attr.Sub,equipment,부 속성
+equipment.base_stats,equipment,기본 스탯
+equipment.best_for_characters,equipment,최적의 캐릭터
+equipment.best_sets,equipment,최고의 장비 세트
+equipment.browse_all,equipment,모든 장비 세트 탐색
+equipment.community_rating,equipment,커뮤니티 평점
+equipment.early_game,equipment,초반 (Lv10-28)
+equipment.equipment_details,equipment,장비 상세정보
+equipment.equipment_pieces,equipment,장비 부품
+equipment.filter_by_part,equipment,부위 유형으로 필터
+equipment.filter_by_stage,equipment,게임 단계로 필터
+equipment.filter_by_tier,equipment,티어로 필터
+equipment.game_stage,equipment,게임 단계
+equipment.late_game,equipment,후반 (Lv70)
+equipment.level_requirement,equipment,레벨 {level} 필요
+equipment.loading,equipment,장비 데이터 로딩 중...
+equipment.main_stat,equipment,메인
+equipment.mid_game,equipment,중반 (Lv36-50)
+equipment.most_liked,equipment,가장 인기 있는
+equipment.no_set_bonus,equipment,세트 효과가 없는 개별 아이템입니다
+equipment.no_sets_found,equipment,장비 세트를 찾을 수 없습니다
+equipment.no_standalone_found,equipment,개별 장비를 찾을 수 없습니다
+equipment.no_stats,equipment,스탯 데이터 없음
+equipment.part_body,equipment,바디
+equipment.part_edc,equipment,EDC
+equipment.part_hand,equipment,핸드
+equipment.part_of_set,equipment,{setName}의 일부
+equipment.part_type,equipment,부위 유형
+equipment.rate_this_set,equipment,이 세트 평가하기
+equipment.recommended_for,equipment,{characterName}에게 추천
+equipment.related_sets,equipment,관련 세트
+equipment.results,equipment,세트 발견
+equipment.search,equipment,장비 세트 검색...
+equipment.select_character,equipment,캐릭터 선택...
+equipment.set_bonus,equipment,{count}세트 보너스
+equipment.set_effects,equipment,세트 효과
+equipment.sort_by,equipment,정렬 기준
+equipment.sort_name,equipment,이름
+equipment.sort_pieces,equipment,총 개수
+equipment.sort_tier,equipment,티어
+equipment.standalone,equipment,단품 장비
+equipment.standalone_equipment,equipment,개별 장비
+equipment.standalone_results,equipment,아이템
+equipment.stats,equipment,스탯
+equipment.sub_stats,equipment,서브
+equipment.tier,equipment,티어
+equipment.tier_0,equipment,티어 0
+equipment.tier_1,equipment,티어 1
+equipment.tier_2,equipment,티어 2
+equipment.tier_3,equipment,티어 3
+equipment.tier_4,equipment,티어 4
+equipment.tier_pieces,equipment,티어 {tier} 부품
+equipment.title,equipment,장비 세트
+equipment.total_pieces,equipment,{count}개
+equipment.view_all_sets,equipment,모든 장비 세트 보기
+equipment.view_set_details,equipment,세트 상세 보기
+essence_solver.compatible,essence_solver,Compatible
+essence_solver.farm_locations,essence_solver,Farm at
+essence_solver.filter_by_dungeon,essence_solver,Filter by Dungeon
+essence_solver.filter_by_rarity,essence_solver,Filter by Rarity
+essence_solver.matches,essence_solver,Matches
+essence_solver.missing,essence_solver,Missing
+essence_solver.no_results,essence_solver,No essences match the current filters
+essence_solver.recommended_essences,essence_solver,Recommended Essences
+essence_solver.select_weapon,essence_solver,Select a Weapon
+essence_solver.stats,essence_solver,Stats
+essence_solver.title,essence_solver,Weapon Essence Solver
+factory.actual,factory,실제
+factory.all_items_production_overview,factory,전체 아이템 생산 개요
+factory.balanced,factory,균형
+factory.bottlenecks_detected,factory,병목 현상 감지됨
+factory.browse_blueprints,factory,블루프린트 탐색
+factory.buffer_bottlenecks,factory,버퍼 병목 현상
+factory.buffer_capacity,factory,용량
+factory.build,factory,건설
+factory.building_count,factory,건물
+factory.building_menu,factory,건물 메뉴
+factory.buildings,factory,건물
+factory.clear,factory,지우기
+factory.click_product_tabs_for_details,factory,자세한 생산 체인 분석을 보려면 위의 제품 탭을 클릭하세요
+factory.click_to_set,factory,클릭하여 설정
+factory.community_blueprints,factory,AIC 공장 블루프린트
+factory.community_blueprints_subtitle,factory,커뮤니티 공장 블루프린트 탐색 및 공유
+factory.configure,factory,구성
+factory.configure_output,factory,출력 설정
+factory.confirm_delete_plan,factory,이 플랜을 삭제하시겠습니까?
+factory.connection_graph,factory,연결 그래프
+factory.consumed,factory,소비/분
+factory.consumed_by,factory,소비자
+factory.conveyor_connection_errors,factory,컨베이어 연결 오류
+factory.conveyor_menu,factory,컨베이어 메뉴
+factory.conveyor_saturation,factory,컨베이어 포화
+factory.conveyors,factory,컨베이어
+factory.cookbook,factory,레시피북
+factory.cookbook_all_description,factory,게임 데이터에서 모든 제작 가능한 아이템 탐색
+factory.cookbook_alternative_recipes,factory,대체 레시피
+factory.cookbook_back_to_search,factory,검색으로 돌아가기
+factory.cookbook_crafted_item,factory,제작 아이템
+factory.cookbook_filter_factory,factory,현재 공장에서 제작 가능한 아이템만 표시
+factory.cookbook_filtered_description,factory,현재 공장 건물로 제작 가능한 아이템만 표시 중
+factory.cookbook_machine_required,factory,필요한 기계
+factory.cookbook_no_factory_items,factory,현재 공장 건물로 제작할 수 있는 아이템이 없습니다
+factory.cookbook_no_items,factory,제작 가능한 아이템을 찾을 수 없습니다
+factory.cookbook_no_recipes,factory,이 아이템에 사용 가능한 레시피가 없습니다
+factory.cookbook_production_chain,factory,생산 체인
+factory.cookbook_raw_material,factory,원재료
+factory.cookbook_select_item,factory,아이템을 선택하여 생산 체인 보기
+factory.cookbook_selected_item,factory,선택한 아이템
+factory.cookbook_show_all,factory,모든 아이템 표시
+factory.cookbook_theoretical_rate,factory,이론 최대 속도
+factory.cookbook_title,factory,레시피북
+factory.copy,factory,복사
+factory.copy_to_clipboard,factory,클립보드에 복사
+factory.craft_time,factory,제작 시간
+factory.create_blueprint,factory,블루프린트 생성
+factory.create_first,factory,첫 번째 블루프린트 만들기
+factory.create_new_save,factory,새 저장 생성
+factory.current_file,factory,현재 파일
+factory.current_tool,factory,도구
+factory.cycles_per_min,factory,사이클/분
+factory.cycles_per_minute,factory,사이클/분
+factory.deficit,factory,부족
+factory.delete,factory,삭제
+factory.delete_building,factory,건물 삭제
+factory.depth_level,factory,Lv {level}
+factory.description,factory,설명
+factory.description_placeholder,factory,간단한 설명...
+factory.destination,factory,목적지
+factory.detailed_producer_analysis,factory,상세 생산자 분석
+factory.download_png,factory,PNG 다운로드
+factory.edit_save,factory,저장 편집
+factory.efficiency,factory,효율
+factory.enter_save_name,factory,저장 이름 입력...
+factory.error_deleting_plan,factory,플랜 삭제에 실패했습니다.
+factory.error_loading_plan,factory,플랜 로드에 실패했습니다.
+factory.error_loading_plans,factory,저장 파일을 불러오지 못했습니다.
+factory.error_output_mismatch,factory,출력이 목적지 입력과 일치하지 않습니다
+factory.error_saving_plan,factory,플랜 저장에 실패했습니다.
+factory.error_updating_plan,factory,플랜 업데이트에 실패했습니다.
+factory.export_import,factory,내보내기 / 가져오기
+factory.export_import_hint,factory,"공장을 JSON 파일로 내보내 공유하거나 백업하거나, 이전에 내보낸 파일을 가져옵니다."
+factory.export_json,factory,내보내기
+factory.filter_by_building,factory,건물 유형
+factory.filter_by_output,factory,출력 아이템
+factory.filter_by_stage,factory,게임 스테이지
+factory.filter_by_tags,factory,태그
+factory.final_product,factory,최종 제품
+factory.final_products,factory,최종 제품
+factory.final_products_summary,factory,최종 제품 요약
+factory.fix_conveyor_error,factory,레시피를 변경하거나 입력에 맞게 컨베이어를 다시 연결하세요
+factory.focus,factory,포커스
+factory.from_connected_recipe,factory,연결된 레시피에서
+factory.graph_view,factory,연결 그래프
+factory.grid_bounds,factory,그리드 경계
+factory.grid_bounds_desc,factory,"공장 그리드의 크기를 정의합니다(0,0 중심). 건물과 컨베이어는 이 제한을 벗어나 배치할 수 없습니다."
+factory.grid_height,factory,그리드 높이 (셀)
+factory.grid_range,factory,그리드 범위
+factory.grid_width,factory,그리드 너비 (셀)
+factory.import_json,factory,가져오기
+factory.input_buffer,factory,입력 버퍼
+factory.inputs,factory,입력
+factory.item,factory,아이템
+factory.item_category.components,factory,부품
+factory.item_category.consumables,factory,소모품
+factory.item_category.equipment,factory,장비
+factory.item_category.featured,factory,추천
+factory.item_category.liquids,factory,액체
+factory.item_category.other,factory,기타
+factory.item_category.processed,factory,가공 재료
+factory.item_category.raw_materials,factory,원재료
+factory.items_in_transit,factory,운송 중
+factory.live_updates,factory,실시간 (1초)
+factory.load,factory,불러오기
+factory.loading_items,factory,아이템 로드 중...
+factory.local_saves,factory,로컬
+factory.login_for_online,factory,로그인하여 온라인으로 공장 저장
+factory.login_required,factory,온라인 저장을 위해 로그인하세요.
+factory.machine,factory,기계
+factory.make_private,factory,비공개로 설정
+factory.make_public,factory,공개로 설정
+factory.menu.build_mode,factory,건설 모드
+factory.menu.clear_grid,factory,그리드 지우기
+factory.menu.edit,factory,편집
+factory.menu.export_json,factory,JSON 내보내기
+factory.menu.file,factory,파일
+factory.menu.graph_view,factory,그래프 보기
+factory.menu.import_json,factory,JSON 가져오기
+factory.menu.new_grid,factory,새 그리드
+factory.menu.pan_mode,factory,이동 모드
+factory.menu.production_stats,factory,생산 통계
+factory.menu.reset_simulator,factory,
+factory.menu.title,factory,메뉴
+factory.menu.tools,factory,도구
+factory.menu.view,factory,보기
+factory.menu.zoom_fit,factory,화면에 맞추기
+factory.merge_inputs,factory,입력
+factory.merge_mixed_items,factory,여러 아이템 유형 병합 중
+factory.merge_preview,factory,놓아서 병합
+factory.merge_saturated,factory,병합 포화
+factory.merge_total_rate,factory,총 속도
+factory.merged_conveyor,factory,병합된 컨베이어
+factory.most_liked,factory,가장 좋아요
+factory.most_popular,factory,가장 인기
+factory.move,factory,이동
+factory.move_building,factory,건물 이동
+factory.multi_producer_excess,factory,다중 생산자 과잉
+factory.my_blueprints,factory,내 블루프린트
+factory.name_required,factory,이름을 입력해주세요.
+factory.net,factory,순/분
+factory.new_online_save,factory,새 온라인 저장
+factory.new_save,factory,새 저장
+factory.no_blueprints,factory,블루프린트가 없습니다
+factory.no_file_loaded,factory,파일이 로드되지 않았습니다. 새로 저장하거나 기존 파일을 로드하세요.
+factory.no_online_saves,factory,온라인 저장이 없습니다
+factory.no_output_selected,factory,출력이 선택되지 않음
+factory.no_production_data,factory,생산 데이터가 없습니다. 건물에 레시피를 할당하여 통계를 확인하세요.
+factory.no_recipe,factory,레시피 없음
+factory.no_recipes_available,factory,이 건물에 사용 가능한 레시피가 없습니다
+factory.no_recipes_produce_item,factory,이 아이템을 생산하는 레시피를 찾을 수 없습니다. 이 아이템은 가져오거나 수동으로 생성해야 할 수 있습니다.
+factory.no_saved_games,factory,저장된 게임이 없습니다
+factory.not_configured,factory,미설정
+factory.notifications.auto_loaded,factory,자동 로드: {name}
+factory.notifications.cannot_place_building,factory,여기에 건물을 배치할 수 없습니다 - 다른 건물이나 컨베이어에 의해 위치가 차단됨
+factory.notifications.cannot_place_control_point,factory,여기에 제어점을 배치할 수 없습니다 - 유효한 경로 없음
+factory.notifications.confirm_delete,factory,"저장 ""{name}""을(를) 삭제하시겠습니까? 이 작업은 취소할 수 없습니다."
+factory.notifications.confirm_import,factory,이 공장을 가져오시겠습니까? 저장되지 않은 변경 사항이 손실됩니다.
+factory.notifications.confirm_load,factory,"""{name}""을(를) 로드하시겠습니까?"
+factory.notifications.confirm_load_with_current,factory,"""{name}""을(를) 로드하시겠습니까? 저장하지 않은 변경사항이 손실됩니다."
+factory.notifications.conveyor_error,factory,컨베이어 재계산 중 오류. 건물이 회전했지만 컨베이어를 수동으로 다시 연결해야 할 수 있습니다.
+factory.notifications.created_new_save,factory,"새 저장 ""{name}"" 생성됨"
+factory.notifications.exported_json,factory,공장을 JSON 파일로 내보냈습니다
+factory.notifications.failed_to_delete,factory,저장 삭제 실패
+factory.notifications.failed_to_export,factory,공장 내보내기 실패
+factory.notifications.failed_to_import,factory,공장 가져오기 실패
+factory.notifications.failed_to_load,factory,게임 로드 실패
+factory.notifications.failed_to_read_file,factory,파일 읽기 실패
+factory.notifications.failed_to_rotate,factory,건물 회전 실패
+factory.notifications.failed_to_save,factory,게임 저장 실패
+factory.notifications.imported_json,factory,공장을 성공적으로 가져왔습니다
+factory.notifications.loaded,factory,"""{name}"" 로드됨"
+factory.notifications.new_grid_created,factory,서브 자동화 코어로 새 그리드 생성됨
+factory.notifications.output_cleared,factory,출력 아이템이 제거되었습니다
+factory.notifications.output_selected,factory,출력 아이템이 선택되었습니다: {item}
+factory.notifications.please_enter_name,factory,저장 이름을 입력하세요
+factory.notifications.recipe_assigned,factory,레시피 할당됨: {recipe}
+factory.notifications.recipe_cleared,factory,레시피가 제거되었습니다
+factory.notifications.save_deleted,factory,저장 삭제됨
+factory.notifications.saved_as,factory,"""{name}""로 저장됨"
+factory.notifications.saved_to,factory,"""{name}""에 저장됨"
+factory.online_benefits,factory,모든 기기에서 저장 파일에 접근하고 커뮤니티와 공유
+factory.online_saves,factory,온라인
+factory.output,factory,출력
+factory.output_buffer,factory,출력 버퍼
+factory.output_conveyors,factory,출력 컨베이어
+factory.output_item,factory,출력 아이템
+factory.outputs,factory,출력
+factory.overview,factory,개요
+factory.pan,factory,이동
+factory.per_minute,factory,분당
+factory.place_building,factory,건물 배치
+factory.plan_deleted,factory,플랜이 삭제되었습니다!
+factory.plan_loaded,factory,플랜이 로드되었습니다!
+factory.plan_saved,factory,플랜이 저장되었습니다!
+factory.plan_updated,factory,플랜이 업데이트되었습니다!
+factory.planner.feature_buildings_desc,factory,"상세 정보, 레시피 및 생산 통계가 포함된 모든 공장 건물에 액세스"
+factory.planner.feature_buildings_title,factory,건물 라이브러리
+factory.planner.feature_community_desc,factory,다른 플레이어가 공유한 공장 레이아웃을 탐색하고 배우기 (곧 출시)
+factory.planner.feature_community_title,factory,커뮤니티 계획
+factory.planner.feature_conveyors_desc,factory,오류를 감지하고 수정을 제안하는 지능형 컨베이어 라우팅으로 건물 연결
+factory.planner.feature_conveyors_title,factory,스마트 컨베이어
+factory.planner.feature_grid_desc,factory,팬 및 줌 기능을 갖춘 맞춤형 그리드에 건물과 컨베이어 배치
+factory.planner.feature_grid_title,factory,인터랙티브 그리드
+factory.planner.feature_save_desc,factory,공장 레이아웃을 로컬에 저장하고 커뮤니티와 공유
+factory.planner.feature_save_title,factory,저장 및 로드
+factory.planner.feature_stats_desc,factory,"실시간 생산 통계, 병목 현상 감지 및 최적화 제안"
+factory.planner.feature_stats_title,factory,생산 분석
+factory.planner.features_subtitle,factory,완벽한 AIC 공장을 계획하는 데 필요한 모든 것
+factory.planner.features_title,factory,기능
+factory.planner.report_issues,factory,문제 및 아이디어 보고
+factory.planner.start_planning,factory,계획 시작
+factory.planner.subtitle,factory,인터랙티브 그리드 기반 플래너로 AIC (자동화 산업 단지) 공장 레이아웃을 설계하고 최적화하세요
+factory.planner.wip_message,factory,이 도구는 현재 개발 중입니다. Discord 커뮤니티에서 문제를 보고하거나 아이디어를 공유해주세요!
+factory.planner.wip_title,factory,개발 중
+factory.popular,factory,인기
+factory.port_config,factory,포트 설정
+factory.port_config_hint,factory,출력 포트를 클릭하여 아이템을 할당하세요. 입력 포트로 들어오는 아이템은 소비됩니다.
+factory.power,factory,전력
+factory.power_consumed,factory,소비 전력
+factory.power_warning,factory,전력 부족!
+factory.produced,factory,생산/분
+factory.produced_by,factory,생산자
+factory.producing,factory,생산 중
+factory.production_chain,factory,생산 체인
+factory.production_depth,factory,생산 깊이
+factory.production_flow,factory,생산 흐름
+factory.production_flows,factory,생산 흐름
+factory.production_imbalance,factory,생산 불균형
+factory.production_rate,factory,생산 속도
+factory.production_statistics,factory,생산 통계
+factory.production_stats_note,factory,모든 비율은 분당으로 표시됩니다. 순 = 생산 - 소비.
+factory.production_summary,factory,요약
+factory.raw_material,factory,원자재
+factory.raw_materials,factory,원자재
+factory.recipe,factory,레시피
+factory.redo,factory,다시 실행
+factory.requires,factory,필요
+factory.reset_view,factory,뷰 재설정
+factory.rotate,factory,회전
+factory.rotate_building,factory,건물 회전
+factory.rotate_ccw,factory,반시계방향 회전
+factory.rotate_cw,factory,시계방향 회전
+factory.save,factory,저장
+factory.save_name,factory,이름
+factory.save_online,factory,온라인 저장
+factory.saved_games,factory,저장된 게임
+factory.select_building,factory,건물 선택...
+factory.select_item,factory,아이템 선택...
+factory.select_output,factory,출력 선택
+factory.select_recipe,factory,레시피 선택
+factory.set_output,factory,출력 설정
+factory.set_recipe,factory,레시피 설정
+factory.settings,factory,설정
+factory.sim_fast,factory,빠름 (2x)
+factory.sim_faster,factory,매우 빠름 (4x)
+factory.sim_normal,factory,보통 (1x)
+factory.sim_paused,factory,일시정지
+factory.sim_speed,factory,속도
+factory.state_clogged,factory,출력 차단됨
+factory.state_idle,factory,비활성
+factory.state_producing,factory,생산 중
+factory.state_unlinked,factory,입력 연결 없음
+factory.state_waiting,factory,입력 대기 중
+factory.status,factory,상태
+factory.suggestion_add_building,factory,이 레시피 중 하나를 사용하는 새 건물을 추가하고 소비자에 연결하세요
+factory.suggestions_to_fix_deficits,factory,적자를 해결하기 위한 제안
+factory.surplus,factory,잉여
+factory.theoretical,factory,이론값
+factory.thumbnail_preview,factory,미리보기
+factory.title,factory,공장 플래너
+factory.total_buildings,factory,활성 건물
+factory.travel_time,factory,이동 시간
+factory.undo,factory,실행 취소
+factory.unlimited,factory,무제한
+factory.update_save,factory,저장 업데이트
+factory.view_compact,factory,간략 보기
+factory.view_grid,factory,그리드 보기
+factory.view_list,factory,목록 보기
+factory.view_mode,factory,보기 모드
+factory.visibility_private,factory,비공개
+factory.visibility_private_desc,factory,본인만 볼 수 있음
+factory.visibility_public,factory,공개
+factory.visibility_public_desc,factory,커뮤니티 블루프린트에서 표시됨
+factory.your_online_saves,factory,내 온라인 저장
+factory.zoom_in,factory,확대
+factory.zoom_out,factory,축소
+factory_plans.all_time,factory_plans,All Time
+factory_plans.back_to_browse,factory_plans,Back to All Blueprints
+factory_plans.be_first_to_share,factory_plans,Be the first to share a blueprint for
+factory_plans.blueprint_found,factory_plans,blueprint found
+factory_plans.blueprint_name,factory_plans,Blueprint Name
+factory_plans.blueprints_found,factory_plans,blueprints found
+factory_plans.browse_crafting_blueprints,factory_plans,Browse community factory blueprints for crafting
+factory_plans.buildings,factory_plans,Buildings
+factory_plans.buildings_used,factory_plans,Buildings Used
+factory_plans.by,factory_plans,by
+factory_plans.comments,factory_plans,Comments
+factory_plans.confirm_delete,factory_plans,Are you sure you want to delete
+factory_plans.create_blueprint,factory_plans,Create Blueprint
+factory_plans.create_first_blueprint,factory_plans,Create your first factory blueprint to share with the community!
+factory_plans.create_new,factory_plans,Create New
+factory_plans.delete_error,factory_plans,Failed to delete blueprint
+factory_plans.description,factory_plans,Browse and share community AIC factory blueprints for Arknights: Endfield
+factory_plans.description_label,factory_plans,Description
+factory_plans.full_description,factory_plans,Full Description
+factory_plans.full_description_hint,factory_plans,Detailed guide for your blueprint (optional)
+factory_plans.game_stage,factory_plans,Game Stage
+factory_plans.grid_size,factory_plans,Grid size
+factory_plans.how_to_craft,factory_plans,How to Craft
+factory_plans.ingame_code,factory_plans,In-Game Code
+factory_plans.ingame_code_hint,factory_plans,Optional: Your in-game factory sharing code
+factory_plans.ingame_code_label,factory_plans,In-Game Sharing Code
+factory_plans.ingame_region,factory_plans,Server Region
+factory_plans.inputs,factory_plans,Inputs
+factory_plans.latest,factory_plans,Latest
+factory_plans.load_in_planner,factory_plans,Load in Planner
+factory_plans.loading_blueprint,factory_plans,Loading blueprint...
+factory_plans.make_private,factory_plans,Make Private
+factory_plans.make_public,factory_plans,Make Public
+factory_plans.manage_your_blueprints,factory_plans,Manage your shared factory blueprints
+factory_plans.most_liked,factory_plans,Most Liked
+factory_plans.my_blueprints,factory_plans,My Blueprints
+factory_plans.net_power,factory_plans,Net Power
+factory_plans.no_blueprints,factory_plans,No Blueprints Yet
+factory_plans.no_blueprints_yet,factory_plans,No Blueprints Yet
+factory_plans.no_external_inputs,factory_plans,No external inputs required
+factory_plans.not_found,factory_plans,Blueprint Not Found
+factory_plans.not_found_desc,factory_plans,This blueprint may have been deleted or made private.
+factory_plans.open_planner,factory_plans,Open Factory Planner
+factory_plans.outputs,factory_plans,Outputs
+factory_plans.popular,factory_plans,Most Popular
+factory_plans.power_consumption,factory_plans,Consumption
+factory_plans.power_generation,factory_plans,Generation
+factory_plans.private,factory_plans,Private
+factory_plans.production,factory_plans,Production
+factory_plans.production_preview,factory_plans,Production Preview
+factory_plans.production_summary,factory_plans,Production Summary
+factory_plans.public,factory_plans,Public
+factory_plans.region,factory_plans,Region
+factory_plans.save_blueprint,factory_plans,Save Blueprint
+factory_plans.saving,factory_plans,Saving...
+factory_plans.search_placeholder,factory_plans,Search blueprints...
+factory_plans.share_blueprint,factory_plans,Share Blueprint
+factory_plans.share_description,factory_plans,Share your factory layout with the community
+factory_plans.short_description,factory_plans,Short Description
+factory_plans.short_description_hint,factory_plans,Brief description shown on cards (max 200 chars)
+factory_plans.sort_latest,factory_plans,Latest
+factory_plans.sort_popular,factory_plans,Popular
+factory_plans.tags,factory_plans,Tags
+factory_plans.tags_hint,factory_plans,Select up to 3 tags
+factory_plans.this_month,factory_plans,This Month
+factory_plans.this_week,factory_plans,This Week
+factory_plans.thumbnail_preview,factory_plans,Thumbnail Preview
+factory_plans.title,factory_plans,AIC Factory Blueprints
+factory_plans.toggle_error,factory_plans,Failed to update visibility
+factory_plans.total_buildings,factory_plans,Total buildings
+factory_plans.update_blueprint,factory_plans,Update Blueprint
+factory_plans.video_guide,factory_plans,Video Guide
+factory_plans.visibility,factory_plans,Visibility
+factory_plans.visibility_private,factory_plans,Private - Only you can see
+factory_plans.visibility_public,factory_plans,Public - Anyone can see
+factory_plans.youtube_url,factory_plans,YouTube Video URL
+factory_plans.youtube_url_hint,factory_plans,Optional video guide
+guides.features_title,guides,배울 내용
+home.ascension_planner_desc,home,재료 추적으로 캐릭터 및 무기 업그레이드 계획
+home.browse_blueprints,home,Browse Community Blueprints
+home.character_builds,home,캐릭터 빌드
+home.character_planner_desc,home,캐릭터 진행 및 자원 계획
+home.character_showcase_desc,home,커뮤니티의 캐릭터 빌드 공유 및 발견
+home.characters_desc,home,모든 엔드필드 캐릭터의 전체 세부 정보 및 커뮤니티 토론 탐색
+home.check_out_tools,home,내 도구를 확인해보세요!
+home.codes.copied,home,복사됨!
+home.codes.copy,home,코드 복사
+home.codes.ends_in,home,종료까지
+home.codes.expired,home,만료됨
+home.codes.how_to_redeem,home,교환 방법: 게임 내에서 [설정] > [플랫폼 및 계정] > [교환 코드]로 이동
+home.codes.no_expiration,home,만료 없음
+home.codes.tap_to_copy,home,탭하여 복사
+home.codes.title,home,교환 코드
+home.coming_soon,home,곧 출시
+home.community,home,커뮤니티
+home.community_builds_desc,home,커뮤니티 캐릭터 빌드 공유 및 탐색
+home.community_plans_desc,home,커뮤니티 공장 계획 공유 및 탐색
+home.equipment_desc,home,장비 세트 및 보너스 발견
+home.essences_desc,home,무기 에센스 및 효과 발견
+home.events.ended,home,종료됨
+home.events.ends_in,home,종료까지
+home.events.left,home,남음
+home.events.not_confirmed,home,미확인
+home.events.starts_in,home,시작까지
+home.events.title,home,이벤트
+home.factory_blueprints,home,AIC Factory Blueprints
+home.factory_blueprints_desc,home,Browse and share community AIC factory blueprints
+home.factory_planner_desc,home,공장 레이아웃을 쉽게 계획하고 최적화
+home.factory_short,home,
+home.factory_simulator,home,공장 시뮬레이터
+home.fun_tools,home,재미와 시뮬레이션
+home.guides_desc,home,포괄적인 가이드로 게임 메커니즘과 전략 배우기
+home.headhunt_tracker_desc,home,헤드헌트 뽑기 및 천장 카운터 추적
+home.interactive_map_desc,home,대화형 지도로 세계 탐색
+home.login_register,home,로그인 / 회원가입
+home.planner_desc,home,인터랙티브 공장 그리드 플래너 열기
+home.planners,home,
+home.popular_builds,home,인기 캐릭터 빌드
+home.popular_builds_desc,home,커뮤니티에서 가장 인기 있는 캐릭터 빌드 발견
+home.simulators,home,
+home.site_description,home,명일방주: 엔드필드 플레이어를 위한 최고의 도구 및 유틸리티 모음.
+home.summon_simulator_desc,home,"재미있는 가챠 시뮬레이터, 행운 순위표 포함!"
+home.toolbox,home,도구 상자
+home.toolbox_desc,home,도구 및 유틸리티 컬렉션 탐색
+home.tools,home,도구
+home.valley_iv_desc,home,Valley IV 지역 탐색
+home.view_all,home,전체 보기
+home.weapons_desc,home,모든 무기 유형 및 통계 탐색
+home.welcome_to,home,환영합니다
+home.wuling_desc,home,무릉 지역 탐색
+home.your_profile,home,내 프로필
+map.activate,map,활성화
+map.amber_rice,map,호박쌀
+map.battles,map,전투 조우
+map.category_battles,map,전투 조우
+map.category_chests,map,보물 상자
+map.category_collectibles,map,수집품
+map.category_daily_instances,map,일일 인스턴스
+map.category_dungeons,map,던전
+map.category_ether,map,에테르 자원
+map.category_factory,map,공장 POI
+map.category_mining_formations,map,광맥
+map.category_mining_points,map,채광 지점
+map.category_narrative,map,스토리 조각
+map.category_other,map,기타 POI
+map.category_plants,map,식물 재료
+map.category_rare_minerals,map,희귀 광물
+map.category_terminals,map,터미널
+map.category_travel,map,빠른 이동
+map.challenge,map,챌린지
+map.challenge_entrance,map,챌린지 입구
+map.chest,map,상자
+map.chest_high_tier,map,고급 상자
+map.chest_locked,map,잠긴 상자
+map.chest_normal,map,일반 상자
+map.clear_all,map,지우기
+map.clear_search,map,검색 지우기
+map.click_to_explore,map,탐험하기
+map.close,map,닫기
+map.collectible,map,수집품
+map.collectibles,map,수집품
+map.communication_terminal,map,통신 단말기
+map.coordinates,map,좌표
+map.daily_dungeon,map,일일 던전
+map.dungeon,map,던전
+map.dungeon_entrance,map,던전 입구
+map.dungeon_exit,map,던전 출구
+map.enemies,map,적
+map.enemy_encounter,map,적 조우
+map.energy_point,map,에너지 포인트
+map.ether_recycle,map,
+map.fast_travel,map,빠른 이동
+map.fast_travel_point,map,빠른 이동 지점
+map.feature_battles_desc,map,"던전 입구, 챌린지 지점, 보스 위치"
+map.feature_battles_title,map,전투 조우
+map.feature_chests_desc,map,"모든 상자 위치를 찾고 추적하세요 - 일반, 잠긴, 고급 상자"
+map.feature_chests_title,map,보물 상자
+map.feature_collectibles_desc,map,"스토리 파편, 터미널, 수집 포인트 위치"
+map.feature_collectibles_title,map,수집품
+map.feature_filtering_desc,map,"유형, 레벨, 지역별 관심 지점 필터링"
+map.feature_filtering_title,map,고급 필터링
+map.feature_filters_desc,map,
+map.feature_filters_title,map,
+map.feature_gathering_desc,map,
+map.feature_gathering_title,map,
+map.feature_mining_desc,map,"광석 노드, 광맥, 희귀 광물 위치"
+map.feature_mining_title,map,채광 지점
+map.feature_poi_desc,map,
+map.feature_poi_title,map,
+map.feature_tracking_desc,map,
+map.feature_tracking_title,map,
+map.feature_travel_desc,map,게임 내 모든 빠른 이동 지점 표시
+map.feature_travel_title,map,빠른 이동
+map.features_subtitle,map,모든 중요한 위치 추적
+map.features_title,map,모든 구석 탐험하기
+map.filter,map,필터 및 검색
+map.filters,map,필터
+map.glowbug,map,빛나는 벌레
+map.hub_area,map,허브 지역
+map.interactive_object,map,상호작용 오브젝트
+map.layer,map,레이어
+map.layers,map,맵 레이어
+map.legend,map,범례
+map.level,map,레벨
+map.level_ranges,map,레벨 범위
+map.loading,map,맵 데이터 로딩 중...
+map.mark_arrow,map,표시 화살표
+map.mark_fac_unlocker,map,공장 해제기
+map.mechanism,map,기계 장치
+map.mineral_copper,map,구리
+map.mineral_iron,map,철
+map.mineral_originium,map,오리지늄
+map.mineral_quartz,map,석영
+map.mineral_special_metal,map,특수 금속
+map.narrative_fragment,map,파편
+map.no_results,map,관심 지점을 찾을 수 없습니다
+map.poi_details,map,POI 세부정보
+map.poi_types,map,POI 유형
+map.pois_visible,map,개의 POI 표시 중
+map.rare_mineral,map,희귀 광물
+map.rare_prefix,map,희귀 
+map.reading_terminal,map,열람 단말기
+map.recommended_level,map,권장 레벨
+map.redjade_ginseng,map,홍옥 인삼
+map.reed_rye,map,갈대 호밀
+map.region,map,지역
+map.region_talos_ii,map,탈로스 II
+map.region_valley_iv,map,4번 협곡 지도
+map.region_wuling,map,우링 지도
+map.report_issues,map,Discord 커뮤니티에서 문제 및 아이디어 보고
+map.reset_view,map,뷰 초기화
+map.rewards,map,보상
+map.scorchbug,map,불타는 벌레
+map.search_placeholder,map,관심 지점 검색...
+map.select_all,map,모두
+map.select_layer,map,레이어 선택
+map.select_region,map,지역 선택
+map.show_all,map,모두 표시
+map.special_locations,map,특별한 장소
+map.terminal,map,터미널
+map.title,map,인터랙티브 맵
+map.travel_point,map,
+map.type,map,유형
+map.view_point,map,전망대
+map.warning_terminal,map,경고 단말기
+map.welcome_subtitle,map,"명일방주: 엔드필드 탐험을 위한 최고의 동반자. 모든 보물 상자, 채광 지점, 수집품 및 포인트를 찾아보세요."
+map.wip_message,map,인터랙티브 맵은 현재 개발 중입니다. Discord 커뮤니티에 참여하여 문제를 보고하거나 아이디어를 공유해주세요!
+map.wip_title,map,개발 중
+map.zoom_in,map,확대
+map.zoom_out,map,축소
+nav.achievement_tracker,nav,
+nav.achievement_tracker_short,nav,
+nav.ascension_planner,nav,돌파 플래너
+nav.character_planner,nav,캐릭터 플래너
+nav.character_showcase,nav,캐릭터 쇼케이스
+nav.characters,nav,캐릭터
+nav.community_blueprints,nav,Community Blueprints
+nav.community_builds,nav,커뮤니티 빌드
+nav.community_plans,nav,커뮤니티 계획
+nav.discord,nav,커뮤니티 참여
+nav.factory_planner,nav,공장 플래너
+nav.guides,nav,가이드
+nav.headhunt_short,nav,
+nav.headhunt_tracker,nav,헤드헌트 트래커
+nav.home,nav,홈
+nav.interactive_map,nav,인터랙티브 맵
+nav.planner,nav,플래너
+nav.profile,nav,프로필
+nav.recipes,nav,레시피
+nav.summon_simulator,nav,소환 시뮬레이터
+nav.weapon_essence_solver,nav,Essence Solver
+nav.weapon_essences,nav,무기 에센스
+nav.weapons,nav,무기
+notification.deleted,notification,삭제되었습니다
+notification.error,notification,오류가 발생했습니다
+notification.loaded,notification,불러왔습니다
+notification.saved,notification,저장되었습니다
+reactions.authentication_required,reactions,인증이 필요합니다
+reactions.dislike,reactions,싫어요
+reactions.like,reactions,좋아요
+reactions.login_required,reactions,이 콘텐츠에 반응하려면 로그인하세요.
+summon.amazing_pull,summon,놀라운 뽑기! {count}개의 6성을 획득! 1위가 될 수 있습니다! 리더보드에 제출?
+summon.amazing_pull_prompt,summon,놀라운 뽑기! {count}개의 6성을 획득! 리더보드에 제출하시겠습니까?
+summon.animation_in_progress,summon,애니메이션 진행 중...
+summon.auth_error,summon,인증 오류. 다시 로그인해주세요.
+summon.average,summon,평균
+summon.average_joe,summon,평범한 사람
+summon.average_rarity,summon,평균 희귀도
+summon.average_title,summon,"완벽한 균형, 모든 것이 그래야 하듯이."
+summon.base_six_star_rate,summon,기본 6★ 확률: {rate}%
+summon.best_session,summon,최고 10연:
+summon.better_five_star,summon,더 나은 결과! {count}개의 5성이 이전 최고 {previous}를 넘었습니다! 리더보드에 제출?
+summon.better_score,summon,더 나은 결과! 점수 {current}가 이전 최고 {previous}를 넘었습니다! 리더보드에 제출?
+summon.blessed_by_rng,summon,RNG의 축복
+summon.blessed_title,summon,당신은 행운의 손길을 받았습니다!
+summon.character_collection,summon,캐릭터 컬렉션
+summon.character_pool,summon,캐릭터 풀
+summon.characters_available,summon,{count}개 캐릭터 사용 가능
+summon.collection_progress,summon,컬렉션:
+summon.collection_ratio,summon,{current} / {total}개 캐릭터
+summon.complete_character_list,summon,개별 드롭률이 있는 사용 가능한 캐릭터의 전체 목록
+summon.counted_message,summon,소환 결과가 리더보드에 카운트됩니다. 힐의 왕 역할을 쟁취하세요!
+summon.counter_resets,summon,5★ 또는 6★를 획득하면 카운터가 리셋
+summon.current_pity_counter,summon,현재 천장 카운터:
+summon.current_rate,summon,현재 확률: {rate}%
+summon.current_rate_with_bonus,summon,현재 확률: {rate}% (+{bonus}% 보너스)
+summon.current_six_star_rate,summon,현재 6★ 확률
+summon.cursed_by_rng,summon,RNG의 저주
+summon.cursed_title,summon,가챠의 신이 당신을 시험하고 있습니다...
+summon.description,summon,"가챠 중독을 만족시키세요! 주사위를 굴려 현실적인 드롭률로 잡기 힘든 6★ 캐릭터를 쫓으세요. ""한 번만 더 10연, 맹세합니다!"""
+summon.discord_linked,summon,Discord 연결됨 - 이기면 역할을 받습니다!
+summon.discord_warning,summon,리더보드에 제출할 수 있지만 Discord를 연결하지 않고 이기면 역할을 받지 못합니다!
+summon.download_image,summon,이미지 다운로드
+summon.drop_rates,summon,소환 드롭률
+summon.drop_rates_by_rarity,summon,등급별 드롭률
+summon.each_rate,summon,~{rate}% 각각
+summon.expected_rate,summon,예상: {rate}%
+summon.first_six_star,summon,첫 6★:
+summon.first_six_star_pulls,summon,{count}회 뽑기
+summon.five_star_guarantee,summon,5★ 보장 시스템
+summon.five_star_pity_counter,summon,5★ 천장 카운터
+summon.five_star_rate,summon,5★ 확률
+summon.four_star_rate,summon,4★ 확률
+summon.fun_stats,summon,재미있는 통계
+summon.gacha_hell,summon,가챠 지옥
+summon.gacha_hell_title,summon,당신의 운이 곧 나아지기를...
+summon.generating_image,summon,이미지 생성 중...
+summon.guaranteed_at,summon,{threshold}회 소환 시 6★ 보장
+summon.guaranteed_five_star,summon,5★+를 획득하지 않고 {threshold}회 소환마다 5★ 이상 보장
+summon.individual_character_rates,summon,개별 캐릭터 드롭률
+summon.leaderboard_description,summon,이번 주 최고의 10연 (매주 월요일 리셋)
+summon.leaderboard_discord_reward,summon,"1위 플레이어는 {site} Discord에서 ""힐의 왕"" 역할을 획득합니다!"
+summon.leaderboard_title,summon,주간 리더보드
+summon.least_pulled_character,summon,가장 적게 뽑은 캐릭터
+summon.least_pulled_six_star,summon,가장 적게 뽑은 6★
+summon.legendary_luck,summon,전설적인 행운
+summon.legendary_title,summon,RNG의 신이 당신을 미소짓고 있습니다!
+summon.link_discord_profile,summon,역할을 받으려면 프로필에서 Discord 계정을 연결하세요!
+summon.link_discord_reminder,summon,역할을 받으려면 Discord 계정을 연결하는 것을 잊지 마세요!
+summon.loading_leaderboard,summon,리더보드 로딩 중...
+summon.logged_in,summon,로그인됨
+summon.login_to_save,summon,결과를 저장하려면 로그인
+summon.lucky,summon,운이 좋음!
+summon.lucky_charm,summon,행운의 부적
+summon.lucky_title,summon,행운은 용감한 자에게!
+summon.most_pulled_character,summon,가장 많이 뽑은 캐릭터
+summon.most_pulled_six_star,summon,가장 많이 뽑은 6★
+summon.new_record,summon,신기록! {count}개의 6성이 이전 최고 {previous}를 넘었습니다! 리더보드에 제출?
+summon.new_record_submitted,summon,신기록! 점수 {score}가 리더보드에 제출되었습니다!
+summon.next_guaranteed,summon,다음 소환에서 5★ 이상 보장!
+summon.next_guarantees_five_star,summon,다음 소환에서 5★ 이상 보장!
+summon.next_guarantees_six_star,summon,다음 소환에서 6★ 보장!
+summon.nice_pull,summon,좋은 뽑기!
+summon.no_history,summon,아직 소환 기록이 없습니다. 첫 소환을 수행하여 결과를 확인하세요!
+summon.not_counted_warning,summon,소환 결과가 리더보드에 카운트되지 않습니다.
+summon.not_logged_in,summon,로그인되지 않음
+summon.not_logged_in_message,summon,로그인하지 않아서 아쉽습니다! 이 뽑기는 상위 10위에 들 수 있었습니다.
+summon.not_owned,summon,미소유
+summon.novice_description,summon,첫 소환을 수행하여 통계를 확인하세요!
+summon.novice_summoner,summon,초보 소환사
+summon.on_leaderboard,summon,리더보드 #{placement}위
+summon.owned_count,summon,{count}×
+summon.perform_10x,summon,10회 소환/헤드헌트 수행
+summon.pity_active,summon,천장 시스템 활성화! +{bonus}% 보너스 확률
+summon.pity_active_bonus,summon,천장 활성화: +{bonus}% 보너스
+summon.pity_bonus,summon,천장 보너스
+summon.pity_counter,summon,천장 카운터
+summon.pity_resets,summon,6★를 획득하면 천장이 완전히 리셋
+summon.pity_starts_at,summon,천장은 {threshold}회 소환부터 시작: 매번 +{increase}%
+summon.pity_system,summon,천장 시스템 (6★)
+summon.pool_description,summon,소환 풀의 모든 사용 가능한 캐릭터를 희귀도별로 탐색
+summon.profile_error,summon,프로필이 로드되지 않았습니다. 다시 시도해주세요.
+summon.pulled_count,summon,{count}개 뽑음
+summon.pulled_times,summon,{count}번 뽑음
+summon.pulls_until_guaranteed_five_star,summon,5★ 보장까지의 횟수
+summon.rarity_breakdown,summon,희귀도 분포
+summon.rate,summon,{rate}% 확률
+summon.recent_description,summon,최신 10회 소환/헤드헌트 결과
+summon.recent_summons,summon,최근 소환
+summon.record_beaten,summon,신기록! 점수 {current}가 이전 최고 {previous}를 넘었습니다!
+summon.record_holder,summon,기록 보유자
+summon.reset_confirm,summon,모든 소환/헤드헌트 통계를 리셋하시겠습니까? 이 작업은 취소할 수 없습니다.
+summon.reset_stats,summon,모든 통계 리셋
+summon.reset_warning,summon,모든 소환 기록이 영구적으로 삭제됩니다
+summon.result_preview,summon,소환/헤드헌트 결과 미리보기
+summon.session_preview,summon,소환/헤드헌트 세션 미리보기
+summon.share_result,summon,소환/헤드헌트 결과 공유
+summon.share_session,summon,소환/헤드헌트 세션 공유
+summon.six_star_rate,summon,6★ 확률
+summon.six_star_resets_counter,summon,6★를 획득하면 이 카운터도 리셋
+summon.six_stars_count,summon,{count}개의 6성
+summon.slightly_unlucky,summon,약간 운이 나쁨
+summon.slightly_unlucky_title,summon,더 나아질 수 있습니다...
+summon.star_characters,summon,{rarity}성 캐릭터
+summon.stats_description,summon,가챠 여정을 추적하고 얼마나 운이 좋은지 확인하세요!
+summon.stats_title,summon,소환 통계
+summon.submit,summon,리더보드에 제출
+summon.submit_failed,summon,리더보드 제출 실패. 다시 시도해주세요.
+summon.submit_qualifier,summon,소환 결과가 리더보드 자격이 있습니다!
+summon.submit_success,summon,소환 결과가 리더보드에 제출되었습니다!
+summon.submit_to_leaderboard,summon,리더보드에 제출?
+summon.submitting,summon,제출 중...
+summon.summoned_on,summon,{site}에서 소환
+summon.summoning,summon,10개 캐릭터를 소환/헤드헌트 중...
+summon.summons_until_guaranteed,summon,5★ 보장까지 {count}회 소환!
+summon.summons_without_five_star,summon,5★+ 없는 소환 횟수:
+summon.summons_without_five_star_plus,summon,5★+ 없는 소환
+summon.table_character,summon,캐릭터
+summon.table_drop_rate,summon,드롭률
+summon.table_profession,summon,직업
+summon.table_rarity,summon,등급
+summon.table_type,summon,타입
+summon.title,summon,소환/헤드헌트 시뮬레이터
+summon.total_pulls,summon,총 소환 횟수
+summon.total_value,summon,총 가치
+summon.unique_characters,summon,고유 캐릭터
+summon.unlucky,summon,운이 나쁨
+summon.very_lucky,summon,매우 운이 좋음!
+summon.very_unlucky,summon,매우 운이 나쁨
+summon.view_profile,summon,프로필 보기
+summon.warning_until_guaranteed,summon,5★ 보장까지 {count}회 소환!
+summon.your_stats,summon,내 통계
+theme.dark,theme,다크
+theme.dark_desc,theme,엔드필드 도구 다크 테마
+theme.high_contrast,theme,고대비
+theme.light,theme,라이트
+theme.light_desc,theme,엔드필드 도구 라이트 테마
+theme.navy,theme,네이비
+weapons.attack,weapons,공격력
+weapons.attack_growth,weapons,공격력 성장
+weapons.attack_stats,weapons,공격 스탯
+weapons.best_characters,weapons,최적 캐릭터
+weapons.best_weapons,weapons,최고의 무기
+weapons.breakthrough,weapons,돌파
+weapons.breakthrough_level,weapons,돌파 레벨
+weapons.compatible_characters,weapons,호환 캐릭터
+weapons.compatible_characters_desc,weapons,이 무기는 같은 무기 유형의 캐릭터가 장착할 수 있습니다.
+weapons.compatible_weapons,weapons,호환 무기
+weapons.description,weapons,설명
+weapons.effects,weapons,효과
+weapons.level_up_requirements,weapons,레벨업 요구사항
+weapons.max_level,weapons,최대 레벨
+weapons.no_skills,weapons,스킬 데이터 없음
+weapons.passive_attribute,weapons,패시브 속성
+weapons.potential_skill,weapons,포텐셜 스킬
+weapons.results,weapons,무기 발견
+weapons.search,weapons,무기 검색...
+weapons.skill_level,weapons,레벨
+weapons.skill_levels_unlocked,weapons,스킬 레벨 해제
+weapons.skills,weapons,스킬
+weapons.skills_talents,weapons,스킬 & 재능
+weapons.special_attribute,weapons,특수 속성
+weapons.stage,weapons,단계 {stage}
+weapons.stat_increase,weapons,스탯 증가
+weapons.view_compatible_characters,weapons,호환 캐릭터 보기

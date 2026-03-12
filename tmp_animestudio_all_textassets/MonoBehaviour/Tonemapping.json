@@ -1,0 +1,52 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 5948875985501435001
+  },
+  "m_Name": "Tonemapping",
+  "active": 1,
+  "mode": {
+    "overrideState": 1,
+    "m_Value": 0
+  },
+  "toeStrength": {
+    "overrideState": 0,
+    "m_Value": 0.0
+  },
+  "toeLength": {
+    "overrideState": 0,
+    "m_Value": 0.5
+  },
+  "shoulderStrength": {
+    "overrideState": 0,
+    "m_Value": 0.0
+  },
+  "shoulderLength": {
+    "overrideState": 0,
+    "m_Value": 0.5
+  },
+  "shoulderAngle": {
+    "overrideState": 0,
+    "m_Value": 0.0
+  },
+  "gamma": {
+    "overrideState": 0,
+    "m_Value": 1.0
+  },
+  "lutTexture": {
+    "overrideState": 0,
+    "m_Value": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "lutContribution": {
+    "overrideState": 0,
+    "m_Value": 1.0
+  }
+}

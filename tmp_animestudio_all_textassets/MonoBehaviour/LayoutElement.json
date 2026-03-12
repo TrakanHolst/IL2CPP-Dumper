@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 9036331046641005145
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -8545018526213454877
+  },
+  "m_Name": "",
+  "m_IgnoreLayout": 0,
+  "m_MinWidth": -1.0,
+  "m_MinHeight": -1.0,
+  "m_PreferredWidth": 292.0,
+  "m_PreferredHeight": 64.0,
+  "m_FlexibleWidth": -1.0,
+  "m_FlexibleHeight": -1.0,
+  "m_LayoutPriority": 1
+}

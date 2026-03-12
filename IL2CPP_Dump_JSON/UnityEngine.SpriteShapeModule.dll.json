@@ -1,0 +1,17 @@
+{
+  "class_count": 2,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "SpriteShapeRenderer",
+      "namespace": "UnityEngine.U2D",
+      "parent": "Renderer",
+      "type_token": 33554434
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.SpriteShapeModule.dll"
+}

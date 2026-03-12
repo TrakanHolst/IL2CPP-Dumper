@@ -1,0 +1,28 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2532539312286462553
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 536591447201701790
+  },
+  "m_Name": "",
+  "m_Padding": {
+    "x": -10.0,
+    "y": -10.0,
+    "z": -10.0,
+    "w": -10.0
+  },
+  "m_Softness": {
+    "x": 0,
+    "y": 0
+  },
+  "m_HGSoftness": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "w": 0.0
+  }
+}

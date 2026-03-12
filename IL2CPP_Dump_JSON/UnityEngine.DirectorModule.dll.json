@@ -1,0 +1,722 @@
+{
+  "class_count": 2,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "played",
+          "offset": 24,
+          "type": "System.Action<UnityEngine.Playables.PlayableDirector>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "paused",
+          "offset": 32,
+          "type": "System.Action<UnityEngine.Playables.PlayableDirector>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "stopped",
+          "offset": 40,
+          "type": "System.Action<UnityEngine.Playables.PlayableDirector>"
+        }
+      ],
+      "interfaces": [
+        "IExposedPropertyTable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_state",
+          "parameters": [],
+          "return_type": "UnityEngine.Playables.PlayState"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_extrapolationMode",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Playables.DirectorWrapMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_extrapolationMode",
+          "parameters": [],
+          "return_type": "UnityEngine.Playables.DirectorWrapMode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_playableAsset",
+          "parameters": [],
+          "return_type": "UnityEngine.Playables.PlayableAsset"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_playableAsset",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Playables.PlayableAsset"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_playableGraph",
+          "parameters": [],
+          "return_type": "UnityEngine.Playables.PlayableGraph"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_playOnAwake",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_playOnAwake",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DeferredEvaluate",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Play",
+          "parameters": [
+            {
+              "name": "frameRate",
+              "type": "UnityEngine.Playables.FrameRate"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Play",
+          "parameters": [
+            {
+              "name": "asset",
+              "type": "UnityEngine.Playables.PlayableAsset"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Play",
+          "parameters": [
+            {
+              "name": "asset",
+              "type": "UnityEngine.Playables.PlayableAsset"
+            },
+            {
+              "name": "mode",
+              "type": "UnityEngine.Playables.DirectorWrapMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetGenericBinding",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "UnityEngine.Object"
+            },
+            {
+              "name": "value",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_timeUpdateMode",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Playables.DirectorUpdateMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_timeUpdateMode",
+          "parameters": [],
+          "return_type": "UnityEngine.Playables.DirectorUpdateMode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_time",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_time",
+          "parameters": [],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_initialTime",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_initialTime",
+          "parameters": [],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_duration",
+          "parameters": [],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Evaluate",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PlayOnFrame",
+          "parameters": [
+            {
+              "name": "frameRate",
+              "type": "UnityEngine.Playables.FrameRate"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Play",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Stop",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Pause",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Resume",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RebuildGraph",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClearReferenceValue",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "UnityEngine.PropertyName"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetReferenceValue",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "UnityEngine.PropertyName"
+            },
+            {
+              "name": "value",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetReferenceValue",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "UnityEngine.PropertyName"
+            },
+            {
+              "name": "idValid",
+              "type": "System.Boolean&"
+            }
+          ],
+          "return_type": "UnityEngine.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetGenericBinding",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "UnityEngine.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClearGenericBinding",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RebindPlayableGraphOutputs",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ProcessPendingGraphChanges",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HasGenericBinding",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPlayState",
+          "parameters": [],
+          "return_type": "UnityEngine.Playables.PlayState"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetWrapMode",
+          "parameters": [
+            {
+              "name": "mode",
+              "type": "UnityEngine.Playables.DirectorWrapMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetWrapMode",
+          "parameters": [],
+          "return_type": "UnityEngine.Playables.DirectorWrapMode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EvaluateNextFrame",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetGraphHandle",
+          "parameters": [],
+          "return_type": "UnityEngine.Playables.PlayableGraph"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetPlayOnAwake",
+          "parameters": [
+            {
+              "name": "on",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPlayOnAwake",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_SetGenericBinding",
+          "parameters": [
+            {
+              "name": "key",
+              "type": "UnityEngine.Object"
+            },
+            {
+              "name": "value",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetPlayableAsset",
+          "parameters": [
+            {
+              "name": "asset",
+              "type": "UnityEngine.ScriptableObject"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_GetPlayableAsset",
+          "parameters": [],
+          "return_type": "UnityEngine.ScriptableObject"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_played",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Playables.PlayableDirector>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_played",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Playables.PlayableDirector>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_paused",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Playables.PlayableDirector>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_paused",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Playables.PlayableDirector>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_stopped",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Playables.PlayableDirector>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_stopped",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Playables.PlayableDirector>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ResetFrameTiming",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SendOnPlayableDirectorPlay",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SendOnPlayableDirectorPause",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SendOnPlayableDirectorStop",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PlayOnFrame_Injected",
+          "parameters": [
+            {
+              "name": "frameRate",
+              "type": "UnityEngine.Playables.FrameRate&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClearReferenceValue_Injected",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "UnityEngine.PropertyName&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetReferenceValue_Injected",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "UnityEngine.PropertyName&"
+            },
+            {
+              "name": "value",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetReferenceValue_Injected",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "UnityEngine.PropertyName&"
+            },
+            {
+              "name": "idValid",
+              "type": "System.Boolean&"
+            }
+          ],
+          "return_type": "UnityEngine.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetGraphHandle_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Playables.PlayableGraph&"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "PlayableDirector",
+      "namespace": "UnityEngine.Playables",
+      "parent": "Behaviour",
+      "type_token": 33554434
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.DirectorModule.dll"
+}

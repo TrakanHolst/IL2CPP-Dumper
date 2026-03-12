@@ -1,0 +1,111 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2532539312286462553
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -6764815775054424660
+  },
+  "m_Name": "",
+  "_cellTemplate": {
+    "m_FileID": 0,
+    "m_PathID": 5445141186182902361
+  },
+  "_scrollDirection": 0,
+  "_expandCellSize": 0,
+  "_alsoExpandCellSizeInAnotherDirection": 0,
+  "_space": {
+    "x": 5.0,
+    "y": 10.0
+  },
+  "_padding": {
+    "top": 7.5,
+    "left": 4.0,
+    "right": 0.0,
+    "bottom": 0.0
+  },
+  "_ignorePaddingWhenScroll": 0,
+  "_notCacheBufferSize": 0.0,
+  "_extraCacheBufferSize": 0.0,
+  "_inverse": 0,
+  "_autoLayoutWhenFew": 0,
+  "_autoLayoutWhenFewType": 0,
+  "_autoCenterInOtherDir": 1,
+  "_centerNode": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_hideRayCastWhenLessThanOnePage": 0,
+  "_clampWhenLessThanOnePage": 0,
+  "_container": {
+    "m_FileID": 0,
+    "m_PathID": 1150324810755732057
+  },
+  "_scrollRect": {
+    "m_FileID": 0,
+    "m_PathID": -1082128544782749095
+  },
+  "_moveTipsLeftOrTop": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_moveTipsRightOrBottom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_useViewEffect": 0,
+  "_symmetricViewEffect": 1,
+  "_needDummyParent": 0,
+  "_viewEffectAnimation": {
+    "m_Curve": [],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "_effectAnchorPoint": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "_useDefaultScaleEffect": 0,
+  "_scaleEffectAnimation": {
+    "m_Curve": [],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "_useDefaultArcEffect": 0,
+  "_arcEffectAnimation": {
+    "m_Curve": [],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "_tweenDuration": 0.2,
+  "_tweenEase": 3,
+  "_changeStepRatio": 0.5,
+  "enableAutoScroll": 0,
+  "_startAutoScrollTime": 0.3,
+  "_autoScrollSpeed": 1.0,
+  "autoScrollUpArea": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "autoScrollDownArea": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_enableGraduallyShow": 0,
+  "_graduallyShowTime": 0.2,
+  "_graduallyShowDelayTime": 0.0,
+  "_enableSelectedNavigation": 0,
+  "_noNavigationKeyHint": 0,
+  "_enableNavigationLoop": 0,
+  "_customNavigationActionId": 0,
+  "_customNavigationPreviousActionId": "",
+  "_customNavigationNextActionId": "",
+  "_enableWrapNavigation": 0,
+  "_enableCircleWrapNavigation": 0,
+  "_clearNaviGroupOnUpdateCount": 1
+}

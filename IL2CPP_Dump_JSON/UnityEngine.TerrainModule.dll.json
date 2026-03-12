@@ -1,0 +1,3066 @@
+{
+  "class_count": 21,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "EmbeddedAttribute",
+      "namespace": "Microsoft.CodeAnalysis",
+      "parent": "Attribute",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IsReadOnlyAttribute",
+      "namespace": "System.Runtime.CompilerServices",
+      "parent": "Attribute",
+      "type_token": 33554435
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_terrainData",
+          "parameters": [],
+          "return_type": "UnityEngine.TerrainData"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_terrainData",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_detailObjectDistance",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_detailObjectDensity",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_lightmapIndex",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_lightmapScaleOffset",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector4"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_materialTemplate",
+          "parameters": [],
+          "return_type": "UnityEngine.Material"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_materialTemplate",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Material"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_allowAutoConnect",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_allowAutoConnect",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_groupingID",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_drawInstanced",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetNeighbors",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "UnityEngine.Terrain"
+            },
+            {
+              "name": "top",
+              "type": "UnityEngine.Terrain"
+            },
+            {
+              "name": "right",
+              "type": "UnityEngine.Terrain"
+            },
+            {
+              "name": "bottom",
+              "type": "UnityEngine.Terrain"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Flush",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_activeTerrains",
+          "parameters": [],
+          "return_type": "UnityEngine.Terrain[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetActiveTerrains",
+          "parameters": [
+            {
+              "name": "terrainList",
+              "type": "System.Collections.Generic.List<UnityEngine.Terrain>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_FillActiveTerrainList",
+          "parameters": [
+            {
+              "name": "terrainList",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_lightmapScaleOffset_Injected",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector4&"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Terrain",
+      "namespace": "UnityEngine",
+      "parent": "Behaviour",
+      "type_token": 33554436
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "terrain",
+              "type": "UnityEngine.Terrain"
+            },
+            {
+              "name": "heightRegion",
+              "type": "UnityEngine.RectInt"
+            },
+            {
+              "name": "synched",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HeightmapChangedCallback",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554438
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "terrain",
+              "type": "UnityEngine.Terrain"
+            },
+            {
+              "name": "textureName",
+              "type": "System.String"
+            },
+            {
+              "name": "texelRegion",
+              "type": "UnityEngine.RectInt"
+            },
+            {
+              "name": "synched",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "TextureChangedCallback",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "heightmapChanged",
+          "offset": 0,
+          "type": "UnityEngine.TerrainCallbacks.HeightmapChangedCallback"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "textureChanged",
+          "offset": 8,
+          "type": "UnityEngine.TerrainCallbacks.TextureChangedCallback"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeHeightmapChangedCallback",
+          "parameters": [
+            {
+              "name": "terrainData",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "heightRegion",
+              "type": "UnityEngine.RectInt"
+            },
+            {
+              "name": "synched",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeTextureChangedCallback",
+          "parameters": [
+            {
+              "name": "terrainData",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "textureName",
+              "type": "System.String"
+            },
+            {
+              "name": "texelRegion",
+              "type": "UnityEngine.RectInt"
+            },
+            {
+              "name": "synched",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "TerrainCallbacks",
+      "namespace": "UnityEngine",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Prefab",
+          "offset": 16,
+          "type": "UnityEngine.GameObject"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_BendFactor",
+          "offset": 24,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_NavMeshLod",
+          "offset": 28,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_prefab",
+          "parameters": [],
+          "return_type": "UnityEngine.GameObject"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_prefab",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.GameObject"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_bendFactor",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_bendFactor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_navMeshLod",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.TreePrototype"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "TreePrototype",
+      "namespace": "UnityEngine",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "GrassBillboard",
+          "offset": 0,
+          "type": "UnityEngine.DetailRenderMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "VertexLit",
+          "offset": 0,
+          "type": "UnityEngine.DetailRenderMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Grass",
+          "offset": 0,
+          "type": "UnityEngine.DetailRenderMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "DetailRenderMode",
+      "namespace": "UnityEngine",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "DefaultHealthColor",
+          "offset": 0,
+          "type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "DefaultDryColor",
+          "offset": 16,
+          "type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Prototype",
+          "offset": 16,
+          "type": "UnityEngine.GameObject"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_PrototypeTexture",
+          "offset": 24,
+          "type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_HealthyColor",
+          "offset": 32,
+          "type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_DryColor",
+          "offset": 48,
+          "type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_MinWidth",
+          "offset": 64,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_MaxWidth",
+          "offset": 68,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_MinHeight",
+          "offset": 72,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_MaxHeight",
+          "offset": 76,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_NoiseSeed",
+          "offset": 80,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_NoiseSpread",
+          "offset": 84,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_HoleEdgePadding",
+          "offset": 88,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_RenderMode",
+          "offset": 92,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_UsePrototypeMesh",
+          "offset": 96,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_UseInstancing",
+          "offset": 100,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_prototype",
+          "parameters": [],
+          "return_type": "UnityEngine.GameObject"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_prototype",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.GameObject"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_prototypeTexture",
+          "parameters": [],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_prototypeTexture",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Texture2D"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_minWidth",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_minWidth",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_maxWidth",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_maxWidth",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_minHeight",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_minHeight",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_maxHeight",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_maxHeight",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_noiseSpread",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_noiseSpread",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_healthyColor",
+          "parameters": [],
+          "return_type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_healthyColor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_dryColor",
+          "parameters": [],
+          "return_type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_dryColor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_renderMode",
+          "parameters": [],
+          "return_type": "UnityEngine.DetailRenderMode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_renderMode",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.DetailRenderMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_usePrototypeMesh",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.DetailPrototype"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.DetailPrototype"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "DetailPrototype",
+      "namespace": "UnityEngine",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "position",
+          "offset": 16,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "widthScale",
+          "offset": 28,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "heightScale",
+          "offset": 32,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "rotation",
+          "offset": 36,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "color",
+          "offset": 40,
+          "type": "UnityEngine.Color32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "lightmapColor",
+          "offset": 44,
+          "type": "UnityEngine.Color32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "prototypeIndex",
+          "offset": 48,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "temporaryDistance",
+          "offset": 52,
+          "type": "System.Single"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TreeInstance",
+      "namespace": "UnityEngine",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MaxHeightmapRes",
+          "offset": 0,
+          "type": "UnityEngine.TerrainData.BoundaryValueType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MinDetailResPerPatch",
+          "offset": 0,
+          "type": "UnityEngine.TerrainData.BoundaryValueType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MaxDetailResPerPatch",
+          "offset": 0,
+          "type": "UnityEngine.TerrainData.BoundaryValueType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MaxDetailPatchCount",
+          "offset": 0,
+          "type": "UnityEngine.TerrainData.BoundaryValueType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MaxDetailsPerRes",
+          "offset": 0,
+          "type": "UnityEngine.TerrainData.BoundaryValueType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MinAlphamapRes",
+          "offset": 0,
+          "type": "UnityEngine.TerrainData.BoundaryValueType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MaxAlphamapRes",
+          "offset": 0,
+          "type": "UnityEngine.TerrainData.BoundaryValueType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MinBaseMapRes",
+          "offset": 0,
+          "type": "UnityEngine.TerrainData.BoundaryValueType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MaxBaseMapRes",
+          "offset": 0,
+          "type": "UnityEngine.TerrainData.BoundaryValueType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "BoundaryValueType",
+      "namespace": "",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "k_ScriptingInterfaceName",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "k_ScriptingInterfacePrefix",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "k_HeightmapPrefix",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "k_DetailDatabasePrefix",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "k_TreeDatabasePrefix",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "k_SplatDatabasePrefix",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "k_MaximumResolution",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "k_MinimumDetailResolutionPerPatch",
+          "offset": 4,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "k_MaximumDetailResolutionPerPatch",
+          "offset": 8,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "k_MaximumDetailPatchCount",
+          "offset": 12,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "k_MaximumDetailsPerRes",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "k_MinimumAlphamapResolution",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "k_MaximumAlphamapResolution",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "k_MinimumBaseMapResolution",
+          "offset": 28,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "k_MaximumBaseMapResolution",
+          "offset": 32,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetBoundaryValue",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "UnityEngine.TerrainData.BoundaryValueType"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_Create",
+          "parameters": [
+            {
+              "name": "terrainData",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_heightmapTexture",
+          "parameters": [],
+          "return_type": "UnityEngine.RenderTexture"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_heightmapResolution",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_heightmapResolution",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_internalHeightmapResolution",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_internalHeightmapResolution",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_holesTexture",
+          "parameters": [],
+          "return_type": "UnityEngine.Texture"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_enableHolesTextureCompression",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_enableHolesTextureCompression",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsHolesTextureCompressed",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHolesTexture",
+          "parameters": [],
+          "return_type": "UnityEngine.RenderTexture"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCompressedHolesTexture",
+          "parameters": [],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_holesResolution",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_size",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_size",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetInterpolatedHeight",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Single"
+            },
+            {
+              "name": "y",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHeights",
+          "parameters": [
+            {
+              "name": "xBase",
+              "type": "System.Int32"
+            },
+            {
+              "name": "yBase",
+              "type": "System.Int32"
+            },
+            {
+              "name": "width",
+              "type": "System.Int32"
+            },
+            {
+              "name": "height",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Single[,]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_GetHeights",
+          "parameters": [
+            {
+              "name": "xBase",
+              "type": "System.Int32"
+            },
+            {
+              "name": "yBase",
+              "type": "System.Int32"
+            },
+            {
+              "name": "width",
+              "type": "System.Int32"
+            },
+            {
+              "name": "height",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Single[,]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetHeights",
+          "parameters": [
+            {
+              "name": "xBase",
+              "type": "System.Int32"
+            },
+            {
+              "name": "yBase",
+              "type": "System.Int32"
+            },
+            {
+              "name": "heights",
+              "type": "System.Single[,]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_SetHeights",
+          "parameters": [
+            {
+              "name": "xBase",
+              "type": "System.Int32"
+            },
+            {
+              "name": "yBase",
+              "type": "System.Int32"
+            },
+            {
+              "name": "width",
+              "type": "System.Int32"
+            },
+            {
+              "name": "height",
+              "type": "System.Int32"
+            },
+            {
+              "name": "heights",
+              "type": "System.Single[,]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHoles",
+          "parameters": [
+            {
+              "name": "xBase",
+              "type": "System.Int32"
+            },
+            {
+              "name": "yBase",
+              "type": "System.Int32"
+            },
+            {
+              "name": "width",
+              "type": "System.Int32"
+            },
+            {
+              "name": "height",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean[,]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_GetHoles",
+          "parameters": [
+            {
+              "name": "xBase",
+              "type": "System.Int32"
+            },
+            {
+              "name": "yBase",
+              "type": "System.Int32"
+            },
+            {
+              "name": "width",
+              "type": "System.Int32"
+            },
+            {
+              "name": "height",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean[,]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetInterpolatedNormal",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Single"
+            },
+            {
+              "name": "y",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_detailWidth",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_detailHeight",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetDetailResolution",
+          "parameters": [
+            {
+              "name": "detailResolution",
+              "type": "System.Int32"
+            },
+            {
+              "name": "resolutionPerPatch",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_SetDetailResolution",
+          "parameters": [
+            {
+              "name": "patchCount",
+              "type": "System.Int32"
+            },
+            {
+              "name": "resolutionPerPatch",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_detailResolution",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_detailResolutionPerPatch",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RefreshPrototypes",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_detailPrototypes",
+          "parameters": [],
+          "return_type": "UnityEngine.DetailPrototype[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_detailPrototypes",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.DetailPrototype[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSupportedLayers",
+          "parameters": [
+            {
+              "name": "xBase",
+              "type": "System.Int32"
+            },
+            {
+              "name": "yBase",
+              "type": "System.Int32"
+            },
+            {
+              "name": "totalWidth",
+              "type": "System.Int32"
+            },
+            {
+              "name": "totalHeight",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDetailLayer",
+          "parameters": [
+            {
+              "name": "xBase",
+              "type": "System.Int32"
+            },
+            {
+              "name": "yBase",
+              "type": "System.Int32"
+            },
+            {
+              "name": "width",
+              "type": "System.Int32"
+            },
+            {
+              "name": "height",
+              "type": "System.Int32"
+            },
+            {
+              "name": "layer",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32[,]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetDetailLayer",
+          "parameters": [
+            {
+              "name": "xBase",
+              "type": "System.Int32"
+            },
+            {
+              "name": "yBase",
+              "type": "System.Int32"
+            },
+            {
+              "name": "layer",
+              "type": "System.Int32"
+            },
+            {
+              "name": "details",
+              "type": "System.Int32[,]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_SetDetailLayer",
+          "parameters": [
+            {
+              "name": "xBase",
+              "type": "System.Int32"
+            },
+            {
+              "name": "yBase",
+              "type": "System.Int32"
+            },
+            {
+              "name": "totalWidth",
+              "type": "System.Int32"
+            },
+            {
+              "name": "totalHeight",
+              "type": "System.Int32"
+            },
+            {
+              "name": "detailIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "data",
+              "type": "System.Int32[,]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_treeInstances",
+          "parameters": [],
+          "return_type": "UnityEngine.TreeInstance[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_GetTreeInstances",
+          "parameters": [],
+          "return_type": "UnityEngine.TreeInstance[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTreeInstances",
+          "parameters": [
+            {
+              "name": "instances",
+              "type": "UnityEngine.TreeInstance[]"
+            },
+            {
+              "name": "snapToHeightmap",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_treePrototypes",
+          "parameters": [],
+          "return_type": "UnityEngine.TreePrototype[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_treePrototypes",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.TreePrototype[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_alphamapLayers",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAlphamaps",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Int32"
+            },
+            {
+              "name": "y",
+              "type": "System.Int32"
+            },
+            {
+              "name": "width",
+              "type": "System.Int32"
+            },
+            {
+              "name": "height",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Single[,,]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_GetAlphamaps",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Int32"
+            },
+            {
+              "name": "y",
+              "type": "System.Int32"
+            },
+            {
+              "name": "width",
+              "type": "System.Int32"
+            },
+            {
+              "name": "height",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Single[,,]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_alphamapResolution",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_alphamapResolution",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAlphamapResolutionInternal",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Internal_alphamapResolution",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Internal_alphamapResolution",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_alphamapWidth",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_alphamapHeight",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_baseMapResolution",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Internal_baseMapResolution",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetAlphamaps",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Int32"
+            },
+            {
+              "name": "y",
+              "type": "System.Int32"
+            },
+            {
+              "name": "map",
+              "type": "System.Single[,,]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_SetAlphamaps",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Int32"
+            },
+            {
+              "name": "y",
+              "type": "System.Int32"
+            },
+            {
+              "name": "width",
+              "type": "System.Int32"
+            },
+            {
+              "name": "height",
+              "type": "System.Int32"
+            },
+            {
+              "name": "map",
+              "type": "System.Single[,,]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAlphamapTexture",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_alphamapTextureCount",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_alphamapTextures",
+          "parameters": [],
+          "return_type": "UnityEngine.Texture2D[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_terrainLayers",
+          "parameters": [],
+          "return_type": "UnityEngine.TerrainLayer[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_terrainLayers",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.TerrainLayer[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_users",
+          "parameters": [],
+          "return_type": "UnityEngine.Terrain[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_size_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector3&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_size_Injected",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector3&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetInterpolatedNormal_Injected",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Single"
+            },
+            {
+              "name": "y",
+              "type": "System.Single"
+            },
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector3&"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "TerrainData",
+      "namespace": "UnityEngine",
+      "type_token": 33554444
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_Create",
+          "parameters": [
+            {
+              "name": "layer",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_diffuseTexture",
+          "parameters": [],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_diffuseTexture",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Texture2D"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_normalMapTexture",
+          "parameters": [],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_normalMapTexture",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Texture2D"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_maskMapTexture",
+          "parameters": [],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_maskMapTexture",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Texture2D"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_tileSize",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_tileSize",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_tileOffset",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_tileOffset",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_specular",
+          "parameters": [],
+          "return_type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_specular",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_metallic",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_metallic",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_smoothness",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_smoothness",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_normalScale",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_normalScale",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_diffuseRemapMin",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_diffuseRemapMin",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector4"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_diffuseRemapMax",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_diffuseRemapMax",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector4"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_maskMapRemapMin",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_maskMapRemapMin",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector4"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_maskMapRemapMax",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_maskMapRemapMax",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector4"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_tileSize_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector2&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_tileSize_Injected",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector2&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_tileOffset_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector2&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_tileOffset_Injected",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector2&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_specular_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Color&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_specular_Injected",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Color&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_diffuseRemapMin_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector4&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_diffuseRemapMin_Injected",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector4&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_diffuseRemapMax_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector4&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_diffuseRemapMax_Injected",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector4&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_maskMapRemapMin_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector4&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_maskMapRemapMin_Injected",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector4&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_maskMapRemapMax_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector4&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_maskMapRemapMax_Injected",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector4&"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "TerrainLayer",
+      "namespace": "UnityEngine",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "OK",
+          "offset": 0,
+          "type": "UnityEngine.TerrainUtils.TerrainMapStatusCode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Overlapping",
+          "offset": 0,
+          "type": "UnityEngine.TerrainUtils.TerrainMapStatusCode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SizeMismatch",
+          "offset": 0,
+          "type": "UnityEngine.TerrainUtils.TerrainMapStatusCode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "EdgeAlignmentMismatch",
+          "offset": 0,
+          "type": "UnityEngine.TerrainUtils.TerrainMapStatusCode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TerrainMapStatusCode",
+      "namespace": "UnityEngine.TerrainUtils",
+      "type_token": 33554447
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "tileX",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "tileZ",
+          "offset": 20,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "tileX",
+              "type": "System.Int32"
+            },
+            {
+              "name": "tileZ",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "TerrainTileCoord",
+      "namespace": "UnityEngine.TerrainUtils",
+      "type_token": 33554448
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_patchSize",
+          "offset": 16,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_errorCode",
+          "offset": 28,
+          "type": "UnityEngine.TerrainUtils.TerrainMapStatusCode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_terrainTiles",
+          "offset": 32,
+          "type": "System.Collections.Generic.Dictionary<UnityEngine.TerrainUtils.TerrainTileCoord,UnityEngine.Terrain>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTerrain",
+          "parameters": [
+            {
+              "name": "tileX",
+              "type": "System.Int32"
+            },
+            {
+              "name": "tileZ",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Terrain"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateFromPlacement",
+          "parameters": [
+            {
+              "name": "originTerrain",
+              "type": "UnityEngine.Terrain"
+            },
+            {
+              "name": "filter",
+              "type": "System.Predicate<UnityEngine.Terrain>"
+            },
+            {
+              "name": "fullValidation",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.TerrainUtils.TerrainMap"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateFromPlacement",
+          "parameters": [
+            {
+              "name": "gridOrigin",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "gridSize",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "filter",
+              "type": "System.Predicate<UnityEngine.Terrain>"
+            },
+            {
+              "name": "fullValidation",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.TerrainUtils.TerrainMap"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_terrainTiles",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.Dictionary<UnityEngine.TerrainUtils.TerrainTileCoord,UnityEngine.Terrain>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddTerrainInternal",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Int32"
+            },
+            {
+              "name": "z",
+              "type": "System.Int32"
+            },
+            {
+              "name": "terrain",
+              "type": "UnityEngine.Terrain"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryToAddTerrain",
+          "parameters": [
+            {
+              "name": "tileX",
+              "type": "System.Int32"
+            },
+            {
+              "name": "tileZ",
+              "type": "System.Int32"
+            },
+            {
+              "name": "terrain",
+              "type": "UnityEngine.Terrain"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValidateTerrain",
+          "parameters": [
+            {
+              "name": "tileX",
+              "type": "System.Int32"
+            },
+            {
+              "name": "tileZ",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Validate",
+          "parameters": [],
+          "return_type": "UnityEngine.TerrainUtils.TerrainMapStatusCode"
+        }
+      ],
+      "name": "TerrainMap",
+      "namespace": "UnityEngine.TerrainUtils",
+      "type_token": 33554449
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValidTerrainsExist",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClearConnectivity",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CollectTerrains",
+          "parameters": [
+            {
+              "name": "onlyAutoConnectedTerrains",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Collections.Generic.Dictionary<System.Int32,UnityEngine.TerrainUtils.TerrainMap>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AutoConnect",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "TerrainUtility",
+      "namespace": "UnityEngine.TerrainUtils",
+      "type_token": 33554451
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.TerrainModule.dll"
+}

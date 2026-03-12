@@ -1,0 +1,28 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 780465435977249369
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -7395611920868273578
+  },
+  "m_Name": "",
+  "_detailPanel": {
+    "m_FileID": 0,
+    "m_PathID": -8147371246933904807
+  },
+  "_ageTipsCN": {
+    "m_FileID": 0,
+    "m_PathID": -519575362474937767
+  },
+  "_ageTipsKR": {
+    "m_FileID": 0,
+    "m_PathID": 2538963312758157913
+  },
+  "_canvasVersionTop": {
+    "m_FileID": 0,
+    "m_PathID": 7988300006813725273
+  }
+}

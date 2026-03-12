@@ -1,0 +1,96 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3084455833434131879
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 6677602529694647435
+  },
+  "m_Name": "",
+  "_maskableGraphic": {
+    "m_FileID": 0,
+    "m_PathID": -8239485670313954727
+  },
+  "_material": {
+    "m_FileID": 2,
+    "m_PathID": 3311290956987037351
+  },
+  "_propertiesName1": "_Offset",
+  "_propertiesSet1": 0.09,
+  "_propertiesName2": "_Amount",
+  "_propertiesSet2": 0.68,
+  "_propertiesName3": "",
+  "_propertiesSet3": 0.0,
+  "_propertiesName4": "",
+  "_propertiesSet4": 0.0,
+  "_propertiesName5": "",
+  "_propertiesSet5": 0.0,
+  "_propertiesName6": "",
+  "_propertiesSet6": 0.0,
+  "_propertiesName7": "",
+  "_propertiesSet7": 0.0,
+  "_propertiesName8": "",
+  "_propertiesSet8": 0.0,
+  "_propertiesName9": "",
+  "_propertiesSet9": 0.0,
+  "_propertiesName10": "",
+  "_propertiesSet10": 0.0,
+  "_propertiesVectorName1": "",
+  "_propertiesVector1": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "_propertiesVectorName2": "",
+  "_propertiesVector2": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "_propertiesVectorName3": "",
+  "_propertiesVector3": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "_propertiesVectorName4": "",
+  "_propertiesVector4": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "_propertiesVectorName5": "",
+  "_propertiesVector5": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "_propertiesColorName1": "",
+  "_propertiesColor1": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "_propertiesColorName2": "",
+  "_propertiesColor2": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "_propertiesColorName3": "",
+  "_propertiesColor3": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  }
+}

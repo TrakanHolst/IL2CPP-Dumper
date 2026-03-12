@@ -1,0 +1,41 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 9
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -5270563832444020661
+  },
+  "m_Name": "",
+  "_target": {
+    "m_FileID": 0,
+    "m_PathID": 42
+  },
+  "_clipA1": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_clipA1s": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_transA1": 0.1,
+  "_transA1s": 0.1,
+  "_randomRangeA1s": {
+    "x": 1.0,
+    "y": 2.0
+  },
+  "_clipA1A2": {
+    "m_FileID": 10,
+    "m_PathID": -2656281127498641512
+  },
+  "_predelayA1A2": 0.33,
+  "_transA1A2": 0.1,
+  "_clipA2": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_transA2": 0.1
+}

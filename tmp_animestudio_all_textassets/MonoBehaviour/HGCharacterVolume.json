@@ -1,0 +1,249 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 643396062690085217
+  },
+  "m_Name": "HGCharacterVolume",
+  "active": 1,
+  "charMaxCubemap": {
+    "overrideState": 0,
+    "m_Value": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "charAmbientModeIndex": {
+    "overrideState": 0,
+    "m_Value": 0
+  },
+  "charAmbientLightBaseIntensity": {
+    "overrideState": 1,
+    "m_Value": 1.0
+  },
+  "charAmbientLightCustomDir": {
+    "overrideState": 1,
+    "m_Value": {
+      "x": 180.0,
+      "y": 0.0
+    }
+  },
+  "charAmbientLightDirIntensity": {
+    "overrideState": 1,
+    "m_Value": 0.6
+  },
+  "charAmbientLightDirParam": {
+    "overrideState": 1,
+    "m_Value": 0.15
+  },
+  "charGlobalAmbientParam0": {
+    "overrideState": 0,
+    "m_Value": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    }
+  },
+  "charGlobalAmbientParam1": {
+    "overrideState": 0,
+    "m_Value": {
+      "x": 0.15,
+      "y": 0.6,
+      "z": 1.0,
+      "w": 0.0
+    }
+  },
+  "charMainLightControl": {
+    "overrideState": 0,
+    "m_Value": 1
+  },
+  "charMainLightMultiplier": {
+    "overrideState": 0,
+    "m_Value": 2.0
+  },
+  "charEnvLightMultiplier": {
+    "overrideState": 0,
+    "m_Value": 1.1
+  },
+  "charEnvShadowMultiplier": {
+    "overrideState": 0,
+    "m_Value": 1.0
+  },
+  "charMainLightSpecularMultiplier": {
+    "overrideState": 0,
+    "m_Value": 1.0
+  },
+  "charEyeBaseLightMultiplier": {
+    "overrideState": 0,
+    "m_Value": 0.0
+  },
+  "charEyeHighlightMultiplier": {
+    "overrideState": 0,
+    "m_Value": 0.0
+  },
+  "charEyeScatteringMultiplier": {
+    "overrideState": 0,
+    "m_Value": 0.0
+  },
+  "charMainLightRangeBias": {
+    "overrideState": 0,
+    "m_Value": 0.0
+  },
+  "charIgnoreMainLightShadow": {
+    "overrideState": 0,
+    "m_Value": 0
+  },
+  "charMainLightMode": {
+    "overrideState": 0,
+    "m_Value": 0
+  },
+  "charCustomMainLightDir": {
+    "overrideState": 1,
+    "m_Value": {
+      "x": 30.0,
+      "y": 150.0
+    }
+  },
+  "charCameraFollowMainLightBias": {
+    "overrideState": 1,
+    "m_Value": {
+      "x": 30.0,
+      "y": 10.0
+    }
+  },
+  "charMainLightOverrideColor": {
+    "overrideState": 0,
+    "m_Value": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    }
+  },
+  "charSkinMainLightOverrideColor": {
+    "overrideState": 0,
+    "m_Value": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    }
+  },
+  "charLightDialogMode": {
+    "overrideState": 0,
+    "m_Value": 0
+  },
+  "charShadowTintControl": {
+    "overrideState": 0,
+    "m_Value": 0
+  },
+  "charShadowTintColor": {
+    "overrideState": 0,
+    "m_Value": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    }
+  },
+  "charSkinShadowTintColor": {
+    "overrideState": 0,
+    "m_Value": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    }
+  },
+  "charShadowMode": {
+    "overrideState": 1,
+    "m_Value": 0
+  },
+  "charAutoRimEnable": {
+    "overrideState": 0,
+    "m_Value": 0
+  },
+  "charAutoRimColor": {
+    "overrideState": 0,
+    "m_Value": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    }
+  },
+  "charAutoRimDir": {
+    "overrideState": 0,
+    "m_Value": 0.0
+  },
+  "charAutoRimIntensity": {
+    "overrideState": 0,
+    "m_Value": 1.0
+  },
+  "charAutoRimWidth": {
+    "overrideState": 0,
+    "m_Value": 0.4
+  },
+  "charAutoRimAlbedo": {
+    "overrideState": 0,
+    "m_Value": 0.0
+  },
+  "charFaceRimEnable": {
+    "overrideState": 0,
+    "m_Value": 0
+  },
+  "charFaceRimColor": {
+    "overrideState": 0,
+    "m_Value": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    }
+  },
+  "charFaceRimDir": {
+    "overrideState": 0,
+    "m_Value": 0.0
+  },
+  "charFaceRimIntensity": {
+    "overrideState": 0,
+    "m_Value": 1.0
+  },
+  "charRainEffectPreviewEnable": {
+    "overrideState": 0,
+    "m_Value": 0
+  },
+  "charRainEffectPreviewIntensity": {
+    "overrideState": 0,
+    "m_Value": 1.0
+  },
+  "charWetEffectPreviewWorldHeight": {
+    "overrideState": 0,
+    "m_Value": -100.0
+  },
+  "charRainEffectTextureTiling": {
+    "overrideState": 0,
+    "m_Value": 2.0
+  },
+  "charIgnoreSceneAdditionalLights": {
+    "overrideState": 0,
+    "m_Value": 0
+  },
+  "charIgnoreSceneEnv": {
+    "overrideState": 0,
+    "m_Value": 0
+  },
+  "charOutlineQualityMode": {
+    "overrideState": 0,
+    "m_Value": 20
+  },
+  "charSelfShadowQualityMode": {
+    "overrideState": 0,
+    "m_Value": 20
+  }
+}

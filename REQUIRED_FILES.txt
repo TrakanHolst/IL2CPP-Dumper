@@ -1,0 +1,144 @@
+=================================================================================
+FILES REQUIRED BY MAP GENERATOR SCRIPT FOR MAP01 AND MAP02
+=================================================================================
+
+Script location: c:\Users\fonta\GIT\communitywebtemplate\scripts\generate-map-data.js
+Base data path: c:\Users\fonta\GIT\communitywebtemplate\extracted_data\Json\
+
+=================================================================================
+1. LEVELCONFIG FILES (8 total)
+=================================================================================
+
+Map01 LevelConfig files (6):
+- c:\Users\fonta\GIT\communitywebtemplate\extracted_data\Json\LevelConfig\map01_lv001.json
+- c:\Users\fonta\GIT\communitywebtemplate\extracted_data\Json\LevelConfig\map01_lv002.json
+- c:\Users\fonta\GIT\communitywebtemplate\extracted_data\Json\LevelConfig\map01_lv003.json
+- c:\Users\fonta\GIT\communitywebtemplate\extracted_data\Json\LevelConfig\map01_lv005.json
+- c:\Users\fonta\GIT\communitywebtemplate\extracted_data\Json\LevelConfig\map01_lv006.json
+- c:\Users\fonta\GIT\communitywebtemplate\extracted_data\Json\LevelConfig\map01_lv007.json
+
+Map02 LevelConfig files (2):
+- c:\Users\fonta\GIT\communitywebtemplate\extracted_data\Json\LevelConfig\map02_lv001.json
+- c:\Users\fonta\GIT\communitywebtemplate\extracted_data\Json\LevelConfig\map02_lv002.json
+
+Processing logic (generate-map-data.js line 803):
+- Reads ALL .json files from LevelConfig directory
+- No filtering - processes every level config file found
+
+=================================================================================
+2. MAPCONFIG FILES (2 total)
+=================================================================================
+
+- c:\Users\fonta\GIT\communitywebtemplate\extracted_data\Json\MapConfig\map01.json
+- c:\Users\fonta\GIT\communitywebtemplate\extracted_data\Json\MapConfig\map02.json
+
+Processing logic (generate-map-data.js lines 1972-1973):
+- TEMP filter: Currently only processes map01.json
+- Line 1972-1973: if (!mapId.includes('map01')) { continue; }
+- This filter needs to be removed to include map02
+
+=================================================================================
+3. LEVELDATA FILES (9 folders total)
+=================================================================================
+
+Naming pattern: {levelId}_lv_data.json and {levelId}_lv_data_sub_{name}.json
+
+Map01 LevelData folders (6):
+
+1. c:\Users\fonta\GIT\communitywebtemplate\extracted_data\Json\LevelData\map01_lv001\
+   - map01_lv001_lv_data.json
+   - map01_lv001_lv_data_sub__a1m4_v0d8.json
+   - map01_lv001_lv_data_sub_01.json through 08.json
+   - map01_lv001_lv_data_sub_animal_v1d0.json
+   - map01_lv001_lv_data_sub_audio.json
+   - map01_lv001_lv_data_sub_c13m1.json, c13m2.json, c13m3.json, c17m2.json, c6m1.json
+   - map01_lv001_lv_data_sub_e1m1.json, e1m2.json, e1m3.json, e1m4.json, e1m9.json, e1m10.json
+   - map01_lv001_lv_data_sub_e2m1.json, e3m6.json
+   - map01_lv001_lv_data_sub_env.json
+   - map01_lv001_lv_data_sub_f1m3.json
+   - map01_lv001_lv_data_sub_factory.json
+   - map01_lv001_lv_data_sub_gm01m1.json through gm01m8.json
+   - map01_lv001_lv_data_sub_m1m8.json, m1m9.json, m1m10.json, m1m15.json, m1m19.json
+   - map01_lv001_lv_data_sub_npc.json, npc_v1d0.json
+   - map01_lv001_lv_data_sub_sm1l1m1.json through sm1l1m11.json
+   - map01_lv001_lv_data_sub_sm1l3m1.json, sm1l5m2.json, sm1l7m2.json
+   - map01_lv001_lv_data_sub_snapshot_activity_v0d8.json
+   - map01_lv001_lv_data_sub_social_building.json
+   - map01_lv001_lv_data_sub_world_energypoint.json
+   TOTAL: 59 files
+
+2. c:\Users\fonta\GIT\communitywebtemplate\extracted_data\Json\LevelData\map01_lv002\
+   TOTAL: 26 files (1 main + 25 sub files)
+
+3. c:\Users\fonta\GIT\communitywebtemplate\extracted_data\Json\LevelData\map01_lv003\
+   TOTAL: 15 files (1 main + 14 sub files)
+
+4. c:\Users\fonta\GIT\communitywebtemplate\extracted_data\Json\LevelData\map01_lv005\
+   TOTAL: 40 files (1 main + 39 sub files)
+
+5. c:\Users\fonta\GIT\communitywebtemplate\extracted_data\Json\LevelData\map01_lv006\
+   TOTAL: 31 files (1 main + 30 sub files)
+
+6. c:\Users\fonta\GIT\communitywebtemplate\extracted_data\Json\LevelData\map01_lv007\
+   TOTAL: 31 files (1 main + 30 sub files)
+
+Map02 LevelData folders (3):
+
+7. c:\Users\fonta\GIT\communitywebtemplate\extracted_data\Json\LevelData\map02_lv000\
+   TOTAL: 1 file (map02_lv000_lv_data.json only)
+
+8. c:\Users\fonta\GIT\communitywebtemplate\extracted_data\Json\LevelData\map02_lv001\
+   TOTAL: 31 files (1 main + 30 sub files)
+
+9. c:\Users\fonta\GIT\communitywebtemplate\extracted_data\Json\LevelData\map02_lv002\
+   TOTAL: 45 files (1 main + 44 sub files)
+
+Processing logic (generate-map-data.js lines 408-417, 2410-2412):
+- Reads ALL subdirectories from LevelData folder
+- Each directory is treated as a level
+- ALL JSON files within each level directory are processed
+- TEMP filter (lines 2410-2412): Currently only processes map01_* levels
+- This filter needs to be removed to include map02_*
+
+=================================================================================
+4. FILE TOTALS (for communitywebtemplate project)
+=================================================================================
+
+LevelConfig: 8 files (6 map01 + 2 map02)
+MapConfig: 2 files (map01 + map02)
+LevelData: 279 files across 9 folders
+  - map01: 202 files (6 folders)
+  - map02: 77 files (3 folders, includes map02_lv000)
+
+TOTAL: 289 files required for full map01 and map02 generation
+
+=================================================================================
+5. LEVELDATA FILE NAMING PATTERN
+=================================================================================
+
+Main file: {levelId}_lv_data.json
+Sub files: {levelId}_lv_data_sub_{mission_or_feature_name}.json
+
+Sub file names are mission-based or feature-based:
+- Mission codes: e1m1, e1m2, c6m1, gm01m1, etc.
+- Features: animal_v1d0, audio, env, factory, npc, boss, defense, etc.
+- Generic: 01, 02, 03, etc.
+
+NOTE: The IL2CPP dumper has been FIXED to output this correct naming format.
+Previous versions used incorrect naming: {levelId}_FIELD_{fieldname}.json
+
+=================================================================================
+6. SCRIPT FILTERS TO UPDATE
+=================================================================================
+
+To enable full map02 support in generate-map-data.js:
+
+1. Line 1972-1973 (MapConfig filter):
+   Current: if (!mapId.includes('map01')) { continue; }
+   Action: Remove or change to allow map02
+
+2. Line 2410-2412 (LevelData filter):
+   Current: if (!levelDataId.startsWith('map01_')) { continue; }
+   Action: Remove or change to allow map02_*
+
+=================================================================================

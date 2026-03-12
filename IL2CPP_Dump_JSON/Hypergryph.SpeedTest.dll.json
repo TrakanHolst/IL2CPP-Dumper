@@ -1,0 +1,984 @@
+{
+  "class_count": 33,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "_instance",
+          "offset": 0,
+          "type": "Hypergryph.SpeedTest.EventLogWrapper"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_appId",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_gameVersion",
+          "offset": 24,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Instance",
+          "parameters": [],
+          "return_type": "Hypergryph.SpeedTest.EventLogWrapper"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "init",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EventTrack",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "data",
+              "type": "System.Collections.Generic.Dictionary<System.String,System.Object>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExecuteEventTrackSafely",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "data",
+              "type": "System.Collections.Generic.Dictionary<System.String,System.Object>"
+            }
+          ],
+          "return_type": "System.Threading.Tasks.Task"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "EventLogWrapper",
+      "namespace": "Hypergryph.SpeedTest",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "VERSION",
+          "offset": 0,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGSpeedTestSDKVersion",
+      "namespace": "Hypergryph.SpeedTest",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "host",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "name",
+          "offset": 24,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "host",
+              "type": "System.String"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SpeedTestServerInfo",
+      "namespace": "Hypergryph.SpeedTest",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "taskCode",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "message",
+          "offset": 24,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "code",
+              "type": "System.Int32"
+            },
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "TaskResult",
+      "namespace": "Hypergryph.SpeedTest",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "host",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "name",
+          "offset": 24,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "latency",
+          "offset": 32,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "resultCode",
+          "offset": 36,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "resultCode",
+              "type": "System.Int32"
+            },
+            {
+              "name": "latency",
+              "type": "System.Int32"
+            },
+            {
+              "name": "server",
+              "type": "Hypergryph.SpeedTest.SpeedTestServerInfo"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SpeedTestResult",
+      "namespace": "Hypergryph.SpeedTest",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "TCP",
+          "offset": 0,
+          "type": "Hypergryph.SpeedTest.SpeedTestProtocol"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "UDP",
+          "offset": 0,
+          "type": "Hypergryph.SpeedTest.SpeedTestProtocol"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "SpeedTestProtocol",
+      "namespace": "Hypergryph.SpeedTest",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "_instance",
+          "offset": 0,
+          "type": "Hypergryph.SpeedTest.HGSpeedTestSDK"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "_connections",
+          "offset": 16,
+          "type": "System.Collections.Generic.Dictionary<System.String,System.Net.Sockets.TcpClient>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "_streams",
+          "offset": 24,
+          "type": "System.Collections.Generic.Dictionary<System.String,System.Net.Sockets.NetworkStream>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "_lockObject",
+          "offset": 32,
+          "type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "cts",
+          "offset": 40,
+          "type": "System.Threading.CancellationTokenSource"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_packetIndex",
+          "offset": 48,
+          "type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_isInSpeedTest",
+          "offset": 56,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetInstance",
+          "parameters": [],
+          "return_type": "Hypergryph.SpeedTest.HGSpeedTestSDK"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnApplicationPause",
+          "parameters": [
+            {
+              "name": "pauseStatus",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Threading.Tasks.Task"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "StartSpeedTest",
+          "parameters": [
+            {
+              "name": "serverList",
+              "type": "System.Collections.Generic.List<Hypergryph.SpeedTest.SpeedTestServerInfo>"
+            },
+            {
+              "name": "callback",
+              "type": "System.Action<Hypergryph.SpeedTest.SpeedTestResult>"
+            },
+            {
+              "name": "round",
+              "type": "System.Int32"
+            },
+            {
+              "name": "protocol",
+              "type": "Hypergryph.SpeedTest.SpeedTestProtocol"
+            }
+          ],
+          "return_type": "System.Threading.Tasks.Task<Hypergryph.SpeedTest.TaskResult>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnSpeedTestStart",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnSpeedTaskResult",
+          "parameters": [
+            {
+              "name": "code",
+              "type": "System.Int32"
+            },
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "Hypergryph.SpeedTest.TaskResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NotifyRoundResult",
+          "parameters": [
+            {
+              "name": "callback",
+              "type": "System.Action<Hypergryph.SpeedTest.SpeedTestResult>"
+            },
+            {
+              "name": "code",
+              "type": "System.Int32"
+            },
+            {
+              "name": "latency",
+              "type": "System.Int32"
+            },
+            {
+              "name": "server",
+              "type": "Hypergryph.SpeedTest.SpeedTestServerInfo"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CleanupConnections",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TestServerLatency",
+          "parameters": [
+            {
+              "name": "server",
+              "type": "Hypergryph.SpeedTest.SpeedTestServerInfo"
+            },
+            {
+              "name": "callback",
+              "type": "System.Action<Hypergryph.SpeedTest.SpeedTestResult>"
+            },
+            {
+              "name": "round",
+              "type": "System.Int32"
+            },
+            {
+              "name": "protocol",
+              "type": "Hypergryph.SpeedTest.SpeedTestProtocol"
+            },
+            {
+              "name": "cancellationToken",
+              "type": "System.Threading.CancellationToken"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EstablishConnection",
+          "parameters": [
+            {
+              "name": "server",
+              "type": "Hypergryph.SpeedTest.SpeedTestServerInfo"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TestTcpLatency",
+          "parameters": [
+            {
+              "name": "server",
+              "type": "Hypergryph.SpeedTest.SpeedTestServerInfo"
+            },
+            {
+              "name": "serverLatencyList",
+              "type": "System.Collections.Generic.List<System.Int64>"
+            },
+            {
+              "name": "cancellationToken",
+              "type": "System.Threading.CancellationToken"
+            }
+          ],
+          "return_type": "Hypergryph.SpeedTest.SpeedTestResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SendTcpPackage",
+          "parameters": [
+            {
+              "name": "stream",
+              "type": "System.Net.Sockets.NetworkStream"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateTcpPacket",
+          "parameters": [],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetP50",
+          "parameters": [
+            {
+              "name": "latencies",
+              "type": "System.Collections.Generic.List<System.Int64>"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGSpeedTestSDK",
+      "namespace": "Hypergryph.SpeedTest",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "instance",
+          "offset": 0,
+          "type": "Hypergryph.SpeedTest.NativeConfigLoader"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "region",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "appDataPath",
+          "offset": 24,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_gameVersion",
+          "offset": 32,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "init",
+          "parameters": [],
+          "return_type": "System.Threading.Tasks.Task"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetInstance",
+          "parameters": [],
+          "return_type": "Hypergryph.SpeedTest.NativeConfigLoader"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetGameVersion",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRegion",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRegionFromConfig",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadWinConfig",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<init>b__7_0",
+          "parameters": [],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "NativeConfigLoader",
+      "namespace": "Hypergryph.SpeedTest",
+      "type_token": 33554453
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Debug",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Error",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PrintLogToView",
+          "parameters": [
+            {
+              "name": "logInfo",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SpeedTestLogger",
+      "namespace": "Hypergryph.SpeedTest",
+      "type_token": 33554455
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MainContext",
+          "offset": 0,
+          "type": "System.Threading.SynchronizationContext"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "isDebug",
+          "offset": 8,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Init",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RunOnMainThread",
+          "parameters": [
+            {
+              "name": "action",
+              "type": "System.Action"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RunOnMainThread",
+          "parameters": [
+            {
+              "name": "func",
+              "type": "System.Func<T>"
+            }
+          ],
+          "return_type": "System.Threading.Tasks.Task<T>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "isAppFocused",
+          "parameters": [],
+          "return_type": "System.Threading.Tasks.Task<System.Boolean>"
+        }
+      ],
+      "name": "UnityMainThread",
+      "namespace": "Hypergryph.SpeedTest",
+      "type_token": 33554457
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "iv",
+          "offset": 0,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "aes_key",
+          "offset": 8,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "public_key_str",
+          "offset": 16,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ParseEncryptionFile",
+          "parameters": [
+            {
+              "name": "encryptionfile",
+              "type": "System.String"
+            },
+            {
+              "name": "verifyfile",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DecryptConfig",
+          "parameters": [
+            {
+              "name": "encryptedData",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "key",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "iv",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "VerifySignature",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.String"
+            },
+            {
+              "name": "sign",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ImportRsaPublicKeyManually",
+          "parameters": [
+            {
+              "name": "rsa",
+              "type": "System.Security.Cryptography.RSACryptoServiceProvider"
+            },
+            {
+              "name": "publicKeyBytes",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExtractPublicKeyFromPem",
+          "parameters": [
+            {
+              "name": "pemString",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "WinConfigParser",
+      "namespace": "Hypergryph.SpeedTest",
+      "type_token": 33554462
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "__StaticArrayInitTypeSize=16",
+      "namespace": "",
+      "type_token": 33554464
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "__StaticArrayInitTypeSize=32",
+      "namespace": "",
+      "type_token": 33554465
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Hypergryph.SpeedTest.dll"
+}

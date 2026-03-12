@@ -1,0 +1,56 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4416083828644704857
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 5666686608534244987
+  },
+  "m_Name": "",
+  "_states": [
+    {
+      "name": "Select",
+      "activeObjects": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -3742625710902873511
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -9212973472972148135
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 2840474743055381081
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 7269070017395618393
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 7223339684686852697
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 2537056506800566873
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4189389026178560601
+        }
+      ]
+    },
+    {
+      "name": "Normal",
+      "activeObjects": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 1554350197223191129
+        }
+      ]
+    }
+  ]
+}

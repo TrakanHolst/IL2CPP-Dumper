@@ -1,0 +1,4415 @@
+{
+  "class_count": 15,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AndroidJavaRunnable",
+      "namespace": "UnityEngine",
+      "parent": "MulticastDelegate",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "mJavaStackTrace",
+          "offset": 144,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "message",
+              "type": "System.String"
+            },
+            {
+              "name": "javaStackTrace",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_StackTrace",
+          "parameters": [],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "AndroidJavaException",
+      "namespace": "UnityEngine",
+      "parent": "Exception",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_disposed",
+          "offset": 16,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "protected",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_jobject",
+          "offset": 24,
+          "type": "System.IntPtr"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "jobject",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "UnityEngine.GlobalJavaObjectRef"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "GlobalJavaObjectRef",
+      "namespace": "UnityEngine",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "mRunnable",
+          "offset": 32,
+          "type": "UnityEngine.AndroidJavaRunnable"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "runnable",
+              "type": "UnityEngine.AndroidJavaRunnable"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AndroidJavaRunnableProxy",
+      "namespace": "UnityEngine",
+      "parent": "AndroidJavaProxy",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "javaInterface",
+          "offset": 16,
+          "type": "UnityEngine.AndroidJavaClass"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "proxyObject",
+          "offset": 24,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_JavaLangSystemClass",
+          "offset": 0,
+          "type": "UnityEngine.GlobalJavaObjectRef"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_HashCodeMethodID",
+          "offset": 8,
+          "type": "System.IntPtr"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "javaInterface",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "javaInterface",
+              "type": "UnityEngine.AndroidJavaClass"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "methodName",
+              "type": "System.String"
+            },
+            {
+              "name": "args",
+              "type": "System.Object[]"
+            }
+          ],
+          "return_type": "UnityEngine.AndroidJavaObject"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "methodName",
+              "type": "System.String"
+            },
+            {
+              "name": "javaArgs",
+              "type": "UnityEngine.AndroidJavaObject[]"
+            }
+          ],
+          "return_type": "UnityEngine.AndroidJavaObject"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "UnityEngine.AndroidJavaObject"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "hashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "toString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetProxyObject",
+          "parameters": [],
+          "return_type": "UnityEngine.AndroidJavaObject"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRawProxy",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AndroidJavaProxy",
+      "namespace": "UnityEngine",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "enableDebugPrints",
+          "offset": 0,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_jobject",
+          "offset": 16,
+          "type": "UnityEngine.GlobalJavaObjectRef"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_jclass",
+          "offset": 24,
+          "type": "UnityEngine.GlobalJavaObjectRef"
+        }
+      ],
+      "interfaces": [
+        "IDisposable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "className",
+              "type": "System.String"
+            },
+            {
+              "name": "args",
+              "type": "System.Object[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Get",
+          "parameters": [
+            {
+              "name": "fieldName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "FieldType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStatic",
+          "parameters": [
+            {
+              "name": "fieldName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "FieldType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRawObject",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRawClass",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Call",
+          "parameters": [
+            {
+              "name": "methodName",
+              "type": "System.String"
+            },
+            {
+              "name": "args",
+              "type": "System.Object[]"
+            }
+          ],
+          "return_type": "ReturnType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStatic",
+          "parameters": [
+            {
+              "name": "methodName",
+              "type": "System.String"
+            },
+            {
+              "name": "args",
+              "type": "System.Object[]"
+            }
+          ],
+          "return_type": "ReturnType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DebugPrint",
+          "parameters": [
+            {
+              "name": "msg",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_AndroidJavaObject",
+          "parameters": [
+            {
+              "name": "className",
+              "type": "System.String"
+            },
+            {
+              "name": "args",
+              "type": "System.Object[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "jobject",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [
+            {
+              "name": "disposing",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_Call",
+          "parameters": [
+            {
+              "name": "methodName",
+              "type": "System.String"
+            },
+            {
+              "name": "args",
+              "type": "System.Object[]"
+            }
+          ],
+          "return_type": "ReturnType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_Get",
+          "parameters": [
+            {
+              "name": "fieldName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "FieldType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_CallStatic",
+          "parameters": [
+            {
+              "name": "methodName",
+              "type": "System.String"
+            },
+            {
+              "name": "args",
+              "type": "System.Object[]"
+            }
+          ],
+          "return_type": "ReturnType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_GetStatic",
+          "parameters": [
+            {
+              "name": "fieldName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "FieldType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AndroidJavaObjectDeleteLocalRef",
+          "parameters": [
+            {
+              "name": "jobject",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "UnityEngine.AndroidJavaObject"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AndroidJavaClassDeleteLocalRef",
+          "parameters": [
+            {
+              "name": "jclass",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "UnityEngine.AndroidJavaClass"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromJavaArrayDeleteLocalRef",
+          "parameters": [
+            {
+              "name": "jobject",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "ReturnType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_GetRawObject",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_GetRawClass",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        }
+      ],
+      "name": "AndroidJavaObject",
+      "namespace": "UnityEngine",
+      "type_token": 33554439
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "className",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_AndroidJavaClass",
+          "parameters": [
+            {
+              "name": "className",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "jclass",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AndroidJavaClass",
+      "namespace": "UnityEngine",
+      "parent": "AndroidJavaObject",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_ReflectionHelperClass",
+          "offset": 0,
+          "type": "UnityEngine.GlobalJavaObjectRef"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_ReflectionHelperGetConstructorID",
+          "offset": 8,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_ReflectionHelperGetMethodID",
+          "offset": 16,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_ReflectionHelperGetFieldID",
+          "offset": 24,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_ReflectionHelperGetFieldSignature",
+          "offset": 32,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_ReflectionHelperNewProxyInstance",
+          "offset": 40,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_ReflectionHelperSetNativeExceptionOnProxy",
+          "offset": 48,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_FieldGetDeclaringClass",
+          "offset": 56,
+          "type": "System.IntPtr"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsPrimitive",
+          "parameters": [
+            {
+              "name": "t",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsAssignableFrom",
+          "parameters": [
+            {
+              "name": "t",
+              "type": "System.Type"
+            },
+            {
+              "name": "from",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticMethodID",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.String"
+            },
+            {
+              "name": "methodName",
+              "type": "System.String"
+            },
+            {
+              "name": "signature",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMethodID",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.String"
+            },
+            {
+              "name": "methodName",
+              "type": "System.String"
+            },
+            {
+              "name": "signature",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetConstructorMember",
+          "parameters": [
+            {
+              "name": "jclass",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "signature",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMethodMember",
+          "parameters": [
+            {
+              "name": "jclass",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodName",
+              "type": "System.String"
+            },
+            {
+              "name": "signature",
+              "type": "System.String"
+            },
+            {
+              "name": "isStatic",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetFieldMember",
+          "parameters": [
+            {
+              "name": "jclass",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldName",
+              "type": "System.String"
+            },
+            {
+              "name": "signature",
+              "type": "System.String"
+            },
+            {
+              "name": "isStatic",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetFieldClass",
+          "parameters": [
+            {
+              "name": "field",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetFieldSignature",
+          "parameters": [
+            {
+              "name": "field",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NewProxyInstance",
+          "parameters": [
+            {
+              "name": "player",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "delegateHandle",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "interfaze",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetNativeExceptionOnProxy",
+          "parameters": [
+            {
+              "name": "proxy",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "e",
+              "type": "System.Exception"
+            },
+            {
+              "name": "methodNotFound",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AndroidReflection",
+      "namespace": "UnityEngine",
+      "type_token": 33554441
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateJavaProxy",
+          "parameters": [
+            {
+              "name": "player",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "delegateHandle",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "proxy",
+              "type": "UnityEngine.AndroidJavaProxy"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateJavaRunnable",
+          "parameters": [
+            {
+              "name": "jrunnable",
+              "type": "UnityEngine.AndroidJavaRunnable"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeJavaProxyMethod",
+          "parameters": [
+            {
+              "name": "proxy",
+              "type": "UnityEngine.AndroidJavaProxy"
+            },
+            {
+              "name": "jmethodName",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "jargs",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateJNIArgArray",
+          "parameters": [
+            {
+              "name": "args",
+              "type": "System.Object[]"
+            }
+          ],
+          "return_type": "UnityEngine.jvalue[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnboxArray",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "UnityEngine.AndroidJavaObject"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Unbox",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "UnityEngine.AndroidJavaObject"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Box",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "UnityEngine.AndroidJavaObject"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DeleteJNIArgArray",
+          "parameters": [
+            {
+              "name": "args",
+              "type": "System.Object[]"
+            },
+            {
+              "name": "jniArgs",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConvertToJNIArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.Array"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConvertFromJNIArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "ArrayType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetConstructorID",
+          "parameters": [
+            {
+              "name": "jclass",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "System.Object[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMethodID",
+          "parameters": [
+            {
+              "name": "jclass",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodName",
+              "type": "System.String"
+            },
+            {
+              "name": "args",
+              "type": "System.Object[]"
+            },
+            {
+              "name": "isStatic",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetFieldID",
+          "parameters": [
+            {
+              "name": "jclass",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldName",
+              "type": "System.String"
+            },
+            {
+              "name": "isStatic",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetConstructorID",
+          "parameters": [
+            {
+              "name": "jclass",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "signature",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMethodID",
+          "parameters": [
+            {
+              "name": "jclass",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodName",
+              "type": "System.String"
+            },
+            {
+              "name": "signature",
+              "type": "System.String"
+            },
+            {
+              "name": "isStatic",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMethodIDFallback",
+          "parameters": [
+            {
+              "name": "jclass",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodName",
+              "type": "System.String"
+            },
+            {
+              "name": "signature",
+              "type": "System.String"
+            },
+            {
+              "name": "isStatic",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetFieldID",
+          "parameters": [
+            {
+              "name": "jclass",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldName",
+              "type": "System.String"
+            },
+            {
+              "name": "signature",
+              "type": "System.String"
+            },
+            {
+              "name": "isStatic",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSignature",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSignature",
+          "parameters": [
+            {
+              "name": "args",
+              "type": "System.Object[]"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSignature",
+          "parameters": [
+            {
+              "name": "args",
+              "type": "System.Object[]"
+            }
+          ],
+          "return_type": "System.String"
+        }
+      ],
+      "name": "_AndroidJNIHelper",
+      "namespace": "UnityEngine",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "z",
+          "offset": 16,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "b",
+          "offset": 16,
+          "type": "System.SByte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "c",
+          "offset": 16,
+          "type": "System.Char"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "s",
+          "offset": 16,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "i",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "j",
+          "offset": 16,
+          "type": "System.Int64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "f",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "d",
+          "offset": 16,
+          "type": "System.Double"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "l",
+          "offset": 16,
+          "type": "System.IntPtr"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "jvalue",
+      "namespace": "UnityEngine",
+      "type_token": 33554443
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetConstructorID",
+          "parameters": [
+            {
+              "name": "javaClass",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "signature",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMethodID",
+          "parameters": [
+            {
+              "name": "javaClass",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodName",
+              "type": "System.String"
+            },
+            {
+              "name": "signature",
+              "type": "System.String"
+            },
+            {
+              "name": "isStatic",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetFieldID",
+          "parameters": [
+            {
+              "name": "javaClass",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldName",
+              "type": "System.String"
+            },
+            {
+              "name": "signature",
+              "type": "System.String"
+            },
+            {
+              "name": "isStatic",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateJavaRunnable",
+          "parameters": [
+            {
+              "name": "jrunnable",
+              "type": "UnityEngine.AndroidJavaRunnable"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateJavaProxy",
+          "parameters": [
+            {
+              "name": "proxy",
+              "type": "UnityEngine.AndroidJavaProxy"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateJNIArgArray",
+          "parameters": [
+            {
+              "name": "args",
+              "type": "System.Object[]"
+            }
+          ],
+          "return_type": "UnityEngine.jvalue[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DeleteJNIArgArray",
+          "parameters": [
+            {
+              "name": "args",
+              "type": "System.Object[]"
+            },
+            {
+              "name": "jniArgs",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetConstructorID",
+          "parameters": [
+            {
+              "name": "jclass",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "System.Object[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ConvertFromJNIArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "ArrayType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMethodID",
+          "parameters": [
+            {
+              "name": "jclass",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodName",
+              "type": "System.String"
+            },
+            {
+              "name": "args",
+              "type": "System.Object[]"
+            },
+            {
+              "name": "isStatic",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetFieldID",
+          "parameters": [
+            {
+              "name": "jclass",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldName",
+              "type": "System.String"
+            },
+            {
+              "name": "isStatic",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        }
+      ],
+      "name": "AndroidJNIHelper",
+      "namespace": "UnityEngine",
+      "type_token": 33554444
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FindClass",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromReflectedMethod",
+          "parameters": [
+            {
+              "name": "refMethod",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExceptionOccurred",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExceptionClear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PushLocalFrame",
+          "parameters": [
+            {
+              "name": "capacity",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopLocalFrame",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NewGlobalRef",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DeleteGlobalRef",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NewWeakGlobalRef",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DeleteWeakGlobalRef",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NewLocalRef",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DeleteLocalRef",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsSameObject",
+          "parameters": [
+            {
+              "name": "obj1",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "obj2",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NewObject",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetObjectClass",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMethodID",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "sig",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetFieldID",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "sig",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticMethodID",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "sig",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticFieldID",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "sig",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NewString",
+          "parameters": [
+            {
+              "name": "chars",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NewStringFromStr",
+          "parameters": [
+            {
+              "name": "chars",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStringChars",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStringMethod",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallObjectMethod",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallIntMethod",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallBooleanMethod",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallShortMethod",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Int16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallSByteMethod",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.SByte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallCharMethod",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Char"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallFloatMethod",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallDoubleMethod",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallLongMethod",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStringField",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetObjectField",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetBooleanField",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSByteField",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.SByte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCharField",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Char"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetShortField",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetIntField",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLongField",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetFloatField",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDoubleField",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticStringMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticObjectMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticIntMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticBooleanMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticShortMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Int16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticSByteMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.SByte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticCharMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Char"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticFloatMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticDoubleMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticLongMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticVoidMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticStringField",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticObjectField",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticBooleanField",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticSByteField",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.SByte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticCharField",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Char"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticShortField",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticIntField",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticLongField",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticFloatField",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticDoubleField",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToBooleanArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.Boolean[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToByteArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToSByteArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.SByte[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToCharArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.Char[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToShortArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.Int16[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToIntArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.Int32[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToLongArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.Int64[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToFloatArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.Single[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToDoubleArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.Double[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToObjectArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr[]"
+            },
+            {
+              "name": "arrayClass",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromBooleanArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Boolean[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromByteArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromSByteArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.SByte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromCharArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Char[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromShortArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int16[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromIntArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromLongArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int64[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromFloatArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Single[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromDoubleArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Double[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetArrayLength",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NewObjectArray",
+          "parameters": [
+            {
+              "name": "size",
+              "type": "System.Int32"
+            },
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetObjectArrayElement",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetObjectArrayElement",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AndroidJNI",
+      "namespace": "UnityEngine",
+      "type_token": 33554445
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CheckException",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DeleteGlobalRef",
+          "parameters": [
+            {
+              "name": "globalref",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DeleteWeakGlobalRef",
+          "parameters": [
+            {
+              "name": "globalref",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DeleteLocalRef",
+          "parameters": [
+            {
+              "name": "localref",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NewString",
+          "parameters": [
+            {
+              "name": "chars",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStringChars",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetObjectClass",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticMethodID",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "sig",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMethodID",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "sig",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetFieldID",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "sig",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticFieldID",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "sig",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromReflectedMethod",
+          "parameters": [
+            {
+              "name": "refMethod",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FindClass",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NewObject",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticObjectField",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticStringField",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticCharField",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Char"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticDoubleField",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticFloatField",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticLongField",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticShortField",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticSByteField",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.SByte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticBooleanField",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStaticIntField",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticVoidMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticObjectMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticStringMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticCharMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Char"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticDoubleMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticFloatMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticLongMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticShortMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Int16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticSByteMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.SByte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticBooleanMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStaticIntMethod",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetObjectField",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStringField",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCharField",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Char"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDoubleField",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetFloatField",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLongField",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetShortField",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSByteField",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.SByte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetBooleanField",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetIntField",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "fieldID",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallObjectMethod",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallStringMethod",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallCharMethod",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Char"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallDoubleMethod",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallFloatMethod",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallLongMethod",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallShortMethod",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Int16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallSByteMethod",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.SByte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallBooleanMethod",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CallIntMethod",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "methodID",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "args",
+              "type": "UnityEngine.jvalue[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromCharArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Char[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromDoubleArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Double[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromFloatArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Single[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromLongArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int64[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromShortArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int16[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromByteArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromSByteArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.SByte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromBooleanArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Boolean[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromIntArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToObjectArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr[]"
+            },
+            {
+              "name": "type",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToCharArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.Char[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToDoubleArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.Double[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToFloatArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.Single[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToLongArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.Int64[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToShortArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.Int16[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToByteArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToSByteArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.SByte[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToBooleanArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.Boolean[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToIntArray",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.Int32[]"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetObjectArrayElement",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetArrayLength",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "AndroidJNISafe",
+      "namespace": "UnityEngine",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "m_Activity",
+          "offset": 0,
+          "type": "UnityEngine.AndroidJavaObject"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetActivity",
+          "parameters": [],
+          "return_type": "UnityEngine.AndroidJavaObject"
+        }
+      ],
+      "name": "Common",
+      "namespace": "UnityEngine.Android",
+      "type_token": 33554447
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.AndroidJNIModule.dll"
+}

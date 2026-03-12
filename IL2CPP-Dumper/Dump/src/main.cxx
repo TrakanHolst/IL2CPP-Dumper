@@ -4,16 +4,23 @@
 #include <iostream>
 #include "../include/utils.hxx"
 #include "../include/dumper.hxx"
+#include "../include/runtime_dumper.hxx"
 
 
-FILE * Startup( ) {
+FILE * Startup( HMODULE hModule ) {
     AllocConsole( );
 
     FILE * fDummy = nullptr;
     freopen_s( &fDummy, "CONOUT$", "w", stdout );
     freopen_s( &fDummy, "CONIN$", "r", stdin );
 
-    SetConsoleTitleA( "IL2CPP Dumper - Press INSERT" );
+    SetConsoleTitleA( "IL2CPP Dumper - INSERT=ClassDump | DELETE=RuntimeData" );
+
+    // Initialize log file in DLL directory
+    std::string logPath = GetDllDirectory( hModule ) + "\\IL2CPPDump_Log.txt";
+    logFile.open( logPath );
+
+    Log( "Log file: " + logPath );
 
     return fDummy;
 }
@@ -21,13 +28,19 @@ FILE * Startup( ) {
 
 DWORD WINAPI EntryPoint( LPVOID lpParam ) {
     HMODULE hModule = ( HMODULE ) lpParam;
-    FILE * output = Startup( );
+    FILE * output = Startup( hModule );
 
-    Log( "DLL injected. Press INSERT to dump..." );
+    Log( "DLL injected." );
+    Log( "Press INSERT = Dump IL2CPP classes" );
+    Log( "Press DELETE = Dump runtime game data" );
 
-    while ( true ) {
-        if ( GetAsyncKeyState( VK_INSERT ) & 0x8000 ) {
-            Log( "INSERT -> starting dump..." );
+    bool classDumpDone = false;
+    bool runtimeDumpDone = false;
+
+    while ( !classDumpDone || !runtimeDumpDone ) {
+        // INSERT key - Class structure dump
+        if ( !classDumpDone && ( GetAsyncKeyState( VK_INSERT ) & 0x8000 ) ) {
+            Log( "\n[INSERT] Starting class structure dump..." );
             Sleep( 300 );
 
             Dumper dumper;
@@ -39,13 +52,26 @@ DWORD WINAPI EntryPoint( LPVOID lpParam ) {
                 dumper.DumpAllToFiles( );
             }
 
-            break;
+            classDumpDone = true;
+            Log( "[OK] Class dump complete!" );
+        }
+
+        // DELETE key - Runtime data dump
+        if ( !runtimeDumpDone && ( GetAsyncKeyState( VK_DELETE ) & 0x8000 ) ) {
+            Log( "\n[DELETE] Starting runtime data dump..." );
+            Sleep( 300 );
+
+            RuntimeDumper rtDumper;
+            rtDumper.DumpAllGameData( );
+
+            runtimeDumpDone = true;
+            Log( "[OK] Runtime data dump complete!" );
         }
 
         Sleep( 50 );
     }
 
-    Log( "Dump finished." );
+    Log( "\nAll dumps finished. Press Enter to exit..." );
     std::cin.get( );
 
     if ( output ) fclose( output );

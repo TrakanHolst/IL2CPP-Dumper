@@ -1,0 +1,1578 @@
+{
+  "class_count": 14,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Normal",
+          "offset": 0,
+          "type": "UnityEngine.FontStyle"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Bold",
+          "offset": 0,
+          "type": "UnityEngine.FontStyle"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Italic",
+          "offset": 0,
+          "type": "UnityEngine.FontStyle"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "BoldAndItalic",
+          "offset": 0,
+          "type": "UnityEngine.FontStyle"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "FontStyle",
+      "namespace": "UnityEngine",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "UnityEngine.TextGenerationError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CustomSizeOnNonDynamicFont",
+          "offset": 0,
+          "type": "UnityEngine.TextGenerationError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CustomStyleOnNonDynamicFont",
+          "offset": 0,
+          "type": "UnityEngine.TextGenerationError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "NoFont",
+          "offset": 0,
+          "type": "UnityEngine.TextGenerationError"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TextGenerationError",
+      "namespace": "UnityEngine",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "font",
+          "offset": 16,
+          "type": "UnityEngine.Font"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "color",
+          "offset": 24,
+          "type": "UnityEngine.Color"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "fontSize",
+          "offset": 40,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "lineSpacing",
+          "offset": 44,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "richText",
+          "offset": 48,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "scaleFactor",
+          "offset": 52,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "fontStyle",
+          "offset": 56,
+          "type": "UnityEngine.FontStyle"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "textAnchor",
+          "offset": 60,
+          "type": "UnityEngine.TextAnchor"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "alignByGeometry",
+          "offset": 64,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "resizeTextForBestFit",
+          "offset": 65,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "resizeTextMinSize",
+          "offset": 68,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "resizeTextMaxSize",
+          "offset": 72,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "updateBounds",
+          "offset": 76,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "verticalOverflow",
+          "offset": 80,
+          "type": "UnityEngine.VerticalWrapMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "horizontalOverflow",
+          "offset": 84,
+          "type": "UnityEngine.HorizontalWrapMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "generationExtents",
+          "offset": 88,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "pivot",
+          "offset": 96,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "generateOutOfBounds",
+          "offset": 104,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CompareColors",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "UnityEngine.Color"
+            },
+            {
+              "name": "right",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CompareVector2",
+          "parameters": [
+            {
+              "name": "left",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "right",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.TextGenerationSettings"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "TextGenerationSettings",
+      "namespace": "UnityEngine",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Ptr",
+          "offset": 16,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_LastString",
+          "offset": 24,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_LastSettings",
+          "offset": 32,
+          "type": "UnityEngine.TextGenerationSettings"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_HasGenerated",
+          "offset": 128,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_LastValid",
+          "offset": 132,
+          "type": "UnityEngine.TextGenerationError"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "m_Verts",
+          "offset": 136,
+          "type": "System.Collections.Generic.List<UnityEngine.UIVertex>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "m_Characters",
+          "offset": 144,
+          "type": "System.Collections.Generic.List<UnityEngine.UICharInfo>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "m_Lines",
+          "offset": 152,
+          "type": "System.Collections.Generic.List<UnityEngine.UILineInfo>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_CachedVerts",
+          "offset": 160,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_CachedCharacters",
+          "offset": 161,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_CachedLines",
+          "offset": 162,
+          "type": "System.Boolean"
+        }
+      ],
+      "interfaces": [
+        "IDisposable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "initialCapacity",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.IDisposable.Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_characterCountVisible",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ValidatedSettings",
+          "parameters": [
+            {
+              "name": "settings",
+              "type": "UnityEngine.TextGenerationSettings"
+            }
+          ],
+          "return_type": "UnityEngine.TextGenerationSettings"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invalidate",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCharacters",
+          "parameters": [
+            {
+              "name": "characters",
+              "type": "System.Collections.Generic.List<UnityEngine.UICharInfo>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLines",
+          "parameters": [
+            {
+              "name": "lines",
+              "type": "System.Collections.Generic.List<UnityEngine.UILineInfo>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetVertices",
+          "parameters": [
+            {
+              "name": "vertices",
+              "type": "System.Collections.Generic.List<UnityEngine.UIVertex>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPreferredWidth",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.String"
+            },
+            {
+              "name": "settings",
+              "type": "UnityEngine.TextGenerationSettings"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPreferredHeight",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.String"
+            },
+            {
+              "name": "settings",
+              "type": "UnityEngine.TextGenerationSettings"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopulateWithErrors",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.String"
+            },
+            {
+              "name": "settings",
+              "type": "UnityEngine.TextGenerationSettings"
+            },
+            {
+              "name": "context",
+              "type": "UnityEngine.GameObject"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Populate",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.String"
+            },
+            {
+              "name": "settings",
+              "type": "UnityEngine.TextGenerationSettings"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopulateWithError",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.String"
+            },
+            {
+              "name": "settings",
+              "type": "UnityEngine.TextGenerationSettings"
+            }
+          ],
+          "return_type": "UnityEngine.TextGenerationError"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopulateAlways",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.String"
+            },
+            {
+              "name": "settings",
+              "type": "UnityEngine.TextGenerationSettings"
+            }
+          ],
+          "return_type": "UnityEngine.TextGenerationError"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_verts",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IList<UnityEngine.UIVertex>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_characters",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IList<UnityEngine.UICharInfo>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_lines",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IList<UnityEngine.UILineInfo>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_rectExtents",
+          "parameters": [],
+          "return_type": "UnityEngine.Rect"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_characterCount",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_lineCount",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_Create",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_Destroy",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Populate_Internal",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.String"
+            },
+            {
+              "name": "font",
+              "type": "UnityEngine.Font"
+            },
+            {
+              "name": "color",
+              "type": "UnityEngine.Color"
+            },
+            {
+              "name": "fontSize",
+              "type": "System.Int32"
+            },
+            {
+              "name": "scaleFactor",
+              "type": "System.Single"
+            },
+            {
+              "name": "lineSpacing",
+              "type": "System.Single"
+            },
+            {
+              "name": "style",
+              "type": "UnityEngine.FontStyle"
+            },
+            {
+              "name": "richText",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "resizeTextForBestFit",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "resizeTextMinSize",
+              "type": "System.Int32"
+            },
+            {
+              "name": "resizeTextMaxSize",
+              "type": "System.Int32"
+            },
+            {
+              "name": "verticalOverFlow",
+              "type": "System.Int32"
+            },
+            {
+              "name": "horizontalOverflow",
+              "type": "System.Int32"
+            },
+            {
+              "name": "updateBounds",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "anchor",
+              "type": "UnityEngine.TextAnchor"
+            },
+            {
+              "name": "extentsX",
+              "type": "System.Single"
+            },
+            {
+              "name": "extentsY",
+              "type": "System.Single"
+            },
+            {
+              "name": "pivotX",
+              "type": "System.Single"
+            },
+            {
+              "name": "pivotY",
+              "type": "System.Single"
+            },
+            {
+              "name": "generateOutOfBounds",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "alignByGeometry",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "error",
+              "type": "System.UInt32&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Populate_Internal",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.String"
+            },
+            {
+              "name": "font",
+              "type": "UnityEngine.Font"
+            },
+            {
+              "name": "color",
+              "type": "UnityEngine.Color"
+            },
+            {
+              "name": "fontSize",
+              "type": "System.Int32"
+            },
+            {
+              "name": "scaleFactor",
+              "type": "System.Single"
+            },
+            {
+              "name": "lineSpacing",
+              "type": "System.Single"
+            },
+            {
+              "name": "style",
+              "type": "UnityEngine.FontStyle"
+            },
+            {
+              "name": "richText",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "resizeTextForBestFit",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "resizeTextMinSize",
+              "type": "System.Int32"
+            },
+            {
+              "name": "resizeTextMaxSize",
+              "type": "System.Int32"
+            },
+            {
+              "name": "verticalOverFlow",
+              "type": "UnityEngine.VerticalWrapMode"
+            },
+            {
+              "name": "horizontalOverflow",
+              "type": "UnityEngine.HorizontalWrapMode"
+            },
+            {
+              "name": "updateBounds",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "anchor",
+              "type": "UnityEngine.TextAnchor"
+            },
+            {
+              "name": "extents",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "pivot",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "generateOutOfBounds",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "alignByGeometry",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "error",
+              "type": "UnityEngine.TextGenerationError&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetVerticesInternal",
+          "parameters": [
+            {
+              "name": "vertices",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCharactersInternal",
+          "parameters": [
+            {
+              "name": "characters",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLinesInternal",
+          "parameters": [
+            {
+              "name": "lines",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_rectExtents_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Rect&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Populate_Internal_Injected",
+          "parameters": [
+            {
+              "name": "str",
+              "type": "System.String"
+            },
+            {
+              "name": "font",
+              "type": "UnityEngine.Font"
+            },
+            {
+              "name": "color",
+              "type": "UnityEngine.Color&"
+            },
+            {
+              "name": "fontSize",
+              "type": "System.Int32"
+            },
+            {
+              "name": "scaleFactor",
+              "type": "System.Single"
+            },
+            {
+              "name": "lineSpacing",
+              "type": "System.Single"
+            },
+            {
+              "name": "style",
+              "type": "UnityEngine.FontStyle"
+            },
+            {
+              "name": "richText",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "resizeTextForBestFit",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "resizeTextMinSize",
+              "type": "System.Int32"
+            },
+            {
+              "name": "resizeTextMaxSize",
+              "type": "System.Int32"
+            },
+            {
+              "name": "verticalOverFlow",
+              "type": "System.Int32"
+            },
+            {
+              "name": "horizontalOverflow",
+              "type": "System.Int32"
+            },
+            {
+              "name": "updateBounds",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "anchor",
+              "type": "UnityEngine.TextAnchor"
+            },
+            {
+              "name": "extentsX",
+              "type": "System.Single"
+            },
+            {
+              "name": "extentsY",
+              "type": "System.Single"
+            },
+            {
+              "name": "pivotX",
+              "type": "System.Single"
+            },
+            {
+              "name": "pivotY",
+              "type": "System.Single"
+            },
+            {
+              "name": "generateOutOfBounds",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "alignByGeometry",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "error",
+              "type": "System.UInt32&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "TextGenerator",
+      "namespace": "UnityEngine",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Left",
+          "offset": 0,
+          "type": "UnityEngine.TextAlignment"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Center",
+          "offset": 0,
+          "type": "UnityEngine.TextAlignment"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Right",
+          "offset": 0,
+          "type": "UnityEngine.TextAlignment"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TextAlignment",
+      "namespace": "UnityEngine",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "UpperLeft",
+          "offset": 0,
+          "type": "UnityEngine.TextAnchor"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "UpperCenter",
+          "offset": 0,
+          "type": "UnityEngine.TextAnchor"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "UpperRight",
+          "offset": 0,
+          "type": "UnityEngine.TextAnchor"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MiddleLeft",
+          "offset": 0,
+          "type": "UnityEngine.TextAnchor"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MiddleCenter",
+          "offset": 0,
+          "type": "UnityEngine.TextAnchor"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MiddleRight",
+          "offset": 0,
+          "type": "UnityEngine.TextAnchor"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LowerLeft",
+          "offset": 0,
+          "type": "UnityEngine.TextAnchor"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LowerCenter",
+          "offset": 0,
+          "type": "UnityEngine.TextAnchor"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LowerRight",
+          "offset": 0,
+          "type": "UnityEngine.TextAnchor"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "TextAnchor",
+      "namespace": "UnityEngine",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Wrap",
+          "offset": 0,
+          "type": "UnityEngine.HorizontalWrapMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Overflow",
+          "offset": 0,
+          "type": "UnityEngine.HorizontalWrapMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "HorizontalWrapMode",
+      "namespace": "UnityEngine",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Truncate",
+          "offset": 0,
+          "type": "UnityEngine.VerticalWrapMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Overflow",
+          "offset": 0,
+          "type": "UnityEngine.VerticalWrapMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "VerticalWrapMode",
+      "namespace": "UnityEngine",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "cursorPos",
+          "offset": 16,
+          "type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "charWidth",
+          "offset": 24,
+          "type": "System.Single"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "UICharInfo",
+      "namespace": "UnityEngine",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "startCharIdx",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "height",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "topY",
+          "offset": 24,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "leading",
+          "offset": 28,
+          "type": "System.Single"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "UILineInfo",
+      "namespace": "UnityEngine",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "position",
+          "offset": 16,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "normal",
+          "offset": 28,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "tangent",
+          "offset": 40,
+          "type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "color",
+          "offset": 56,
+          "type": "UnityEngine.Color32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "uv0",
+          "offset": 60,
+          "type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "uv1",
+          "offset": 76,
+          "type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "uv2",
+          "offset": 92,
+          "type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "uv3",
+          "offset": 108,
+          "type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_DefaultColor",
+          "offset": 0,
+          "type": "UnityEngine.Color32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_DefaultTangent",
+          "offset": 4,
+          "type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "simpleVert",
+          "offset": 20,
+          "type": "UnityEngine.UIVertex"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UIVertex",
+      "namespace": "UnityEngine",
+      "type_token": 33554444
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "FontTextureRebuildCallback",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "textureRebuilt",
+          "offset": 0,
+          "type": "System.Action<UnityEngine.Font>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_FontTextureRebuildCallback",
+          "offset": 24,
+          "type": "UnityEngine.Font.FontTextureRebuildCallback"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "add_textureRebuilt",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Font>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "remove_textureRebuilt",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Action<UnityEngine.Font>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_material",
+          "parameters": [],
+          "return_type": "UnityEngine.Material"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_dynamic",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_fontSize",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InvokeTextureRebuilt_Internal",
+          "parameters": [
+            {
+              "name": "font",
+              "type": "UnityEngine.Font"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HasCharacter",
+          "parameters": [
+            {
+              "name": "c",
+              "type": "System.Char"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HasCharacter",
+          "parameters": [
+            {
+              "name": "c",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_CreateFont",
+          "parameters": [
+            {
+              "name": "self",
+              "type": "UnityEngine.Font"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Font",
+      "namespace": "UnityEngine",
+      "type_token": 33554445
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.TextRenderingModule.dll"
+}

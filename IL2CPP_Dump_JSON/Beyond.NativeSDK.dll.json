@@ -1,0 +1,1476 @@
+{
+  "class_count": 16,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "cb",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "PageFaultCount",
+          "offset": 20,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "PeakWorkingSetSize",
+          "offset": 24,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "WorkingSetSize",
+          "offset": 32,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "QuotaPeakPagedPoolUsage",
+          "offset": 40,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "QuotaPagedPoolUsage",
+          "offset": 48,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "QuotaPeakNonPagedPoolUsage",
+          "offset": 56,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "QuotaNonPagedPoolUsage",
+          "offset": 64,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "PagefileUsage",
+          "offset": 72,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "PeakPagefileUsage",
+          "offset": 80,
+          "type": "System.UInt64"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "PROCESS_MEMORY_COUNTERS",
+      "namespace": "",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "CStatus",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "largeValue",
+          "offset": 24,
+          "type": "System.Int64"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "PDH_FMT_COUNTERVALUE",
+      "namespace": "",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_procId",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_DedicatedGpuMem",
+          "offset": 8,
+          "type": "System.ValueTuple<System.Int64,System.Int64>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_SharedMemoryGpuMem",
+          "offset": 24,
+          "type": "System.ValueTuple<System.Int64,System.Int64>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_CommittedMemoryGpuMem",
+          "offset": 40,
+          "type": "System.ValueTuple<System.Int64,System.Int64>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_gpuMemQuery",
+          "offset": 56,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_frequencyCalcTimes",
+          "offset": 64,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "_calcResult",
+          "offset": 72,
+          "type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "SW",
+          "offset": 80,
+          "type": "System.Diagnostics.Stopwatch"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "_Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsPromotionSupport",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAvailableMemory",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetOOMMemory",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetProcessMemoryInfo",
+          "parameters": [
+            {
+              "name": "hProcess",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "counters",
+              "type": "Beyond.NativeSDK.NativeUtil.PROCESS_MEMORY_COUNTERS&"
+            },
+            {
+              "name": "size",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PdhOpenQueryA",
+          "parameters": [
+            {
+              "name": "szDataSource",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "dwUserData",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "phQuery",
+              "type": "System.IntPtr&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PdhAddEnglishCounterA",
+          "parameters": [
+            {
+              "name": "hQuery",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "szFullCounterPath",
+              "type": "System.String"
+            },
+            {
+              "name": "dwUserData",
+              "type": "System.UIntPtr"
+            },
+            {
+              "name": "phCounter",
+              "type": "System.IntPtr&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PdhCollectQueryData",
+          "parameters": [
+            {
+              "name": "hQuery",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PdhGetFormattedCounterValue",
+          "parameters": [
+            {
+              "name": "hQuery",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "dwFormat",
+              "type": "System.Int32"
+            },
+            {
+              "name": "lpdwType",
+              "type": "System.Int32*"
+            },
+            {
+              "name": "pValue",
+              "type": "Beyond.NativeSDK.NativeUtil.PDH_FMT_COUNTERVALUE&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PdhCloseQuery",
+          "parameters": [
+            {
+              "name": "hQuery",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetProcId",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTotalMemory",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetVirtualMemory",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetGpuMemory",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCpuTemperature",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetGpuTemperature",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCpuFrequency",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetBatteryLevel",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsLapTop",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsCharge",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetThermalState",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsInSsd",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HasSsd",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetFrequencyCalculateTime",
+          "parameters": [],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RunCpuFrequencyCalculate",
+          "parameters": [
+            {
+              "name": "times",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "NativeUtil",
+      "namespace": "Beyond.NativeSDK",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "PropertyId",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "QueryType",
+          "offset": 20,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "AdditionalParameters",
+          "offset": 24,
+          "type": "System.Byte"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "STORAGE_PROPERTY_QUERY",
+      "namespace": "",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Version",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Size",
+          "offset": 20,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "IncursSeekPenalty",
+          "offset": 24,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "DEVICE_SEEK_PENALTY_DESCRIPTOR",
+      "namespace": "",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "STORAGEDEVICESEEKPENALTYPROPERTY",
+          "offset": 0,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "PROPERTYSTANDARDQUERY",
+          "offset": 0,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "MAX_PATH",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FILE_SHARE_READ",
+          "offset": 0,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FILE_SHARE_WRITE",
+          "offset": 0,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FILE_SHARE_DELETE",
+          "offset": 0,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "OPEN_EXISTING",
+          "offset": 0,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FILE_FLAG_BACKUP_SEMANTICS",
+          "offset": 0,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "IOCTL_STORAGE_QUERY_PROPERTY",
+          "offset": 0,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "initOnceIsRunningInSSD",
+          "offset": 0,
+          "type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "initOnceStandaloneWinHaveSSd",
+          "offset": 8,
+          "type": "System.Object"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetVolumePathName",
+          "parameters": [
+            {
+              "name": "lpszFileName",
+              "type": "System.String"
+            },
+            {
+              "name": "lpszVolumePathName",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "cchBufferLength",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetVolumeNameForVolumeMountPoint",
+          "parameters": [
+            {
+              "name": "lpszVolumeMountPoint",
+              "type": "System.String"
+            },
+            {
+              "name": "lpszVolumeName",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "cchBufferLength",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateFile",
+          "parameters": [
+            {
+              "name": "lpFileName",
+              "type": "System.String"
+            },
+            {
+              "name": "dwDesiredAccess",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "dwShareMode",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "lpSecurityAttributes",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "dwCreationDisposition",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "dwFlagsAndAttributes",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "hTemplateFile",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CloseHandle",
+          "parameters": [
+            {
+              "name": "hObject",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLogicalDriveStrings",
+          "parameters": [
+            {
+              "name": "nBufferLength",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "lpBuffer",
+              "type": "System.Char[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DeviceIoControl",
+          "parameters": [
+            {
+              "name": "hDevice",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "dwIoControlCode",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "lpInBuffer",
+              "type": "Beyond.NativeSDK.NativeWindowsDiskChecker.STORAGE_PROPERTY_QUERY&"
+            },
+            {
+              "name": "nInBufferSize",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "lpOutBuffer",
+              "type": "Beyond.NativeSDK.NativeWindowsDiskChecker.DEVICE_SEEK_PENALTY_DESCRIPTOR&"
+            },
+            {
+              "name": "nOutBufferSize",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "lpBytesReturned",
+              "type": "System.UInt32&"
+            },
+            {
+              "name": "lpOverlapped",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetVolumeHandleForFile",
+          "parameters": [
+            {
+              "name": "filePath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsFileOnSsd",
+          "parameters": [
+            {
+              "name": "filePath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsRunningInSSD",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "StandaloneWinHaveSSd",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Test",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "NativeWindowsDiskChecker",
+      "namespace": "Beyond.NativeSDK",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ACLineStatus",
+          "offset": 16,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "BatteryFlag",
+          "offset": 17,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "BatteryLifePercent",
+          "offset": 18,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Reserved1",
+          "offset": 19,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "BatteryLifeTime",
+          "offset": 20,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "BatteryFullLifeTime",
+          "offset": 24,
+          "type": "System.UInt32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "SYSTEM_POWER_STATUS",
+      "namespace": "",
+      "type_token": 33554442
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSystemPowerStatus",
+          "parameters": [
+            {
+              "name": "sps",
+              "type": "Beyond.NativeSDK.NativePower.SYSTEM_POWER_STATUS&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "laptop",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "NativePower",
+      "namespace": "Beyond.NativeSDK",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "cb",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "PageFaultCount",
+          "offset": 20,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "PeakWorkingSetSize",
+          "offset": 24,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "WorkingSetSize",
+          "offset": 32,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "QuotaPeakPagedPoolUsage",
+          "offset": 40,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "QuotaPagedPoolUsage",
+          "offset": 48,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "QuotaPeakNonPagedPoolUsage",
+          "offset": 56,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "QuotaNonPagedPoolUsage",
+          "offset": 64,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "PagefileUsage",
+          "offset": 72,
+          "type": "System.UInt64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "PeakPagefileUsage",
+          "offset": 80,
+          "type": "System.UInt64"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "PROCESS_MEMORY_COUNTERS",
+      "namespace": "",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "CStatus",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "largeValue",
+          "offset": 24,
+          "type": "System.Int64"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "PDH_FMT_COUNTERVALUE",
+      "namespace": "",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "szName",
+          "offset": 16,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "FmtValue",
+          "offset": 24,
+          "type": "Beyond.NativeSDK.VideoMemoryStatus.PDH_FMT_COUNTERVALUE"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "PDH_FMT_COUNTERVALUE_ITEM",
+      "namespace": "",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "PDH_FMT_LARGE",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "PDH_MORE_DATA",
+          "offset": 8,
+          "type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Command",
+          "offset": 0,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetProcessMemoryInfo",
+          "parameters": [
+            {
+              "name": "hProcess",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "counters",
+              "type": "Beyond.NativeSDK.VideoMemoryStatus.PROCESS_MEMORY_COUNTERS&"
+            },
+            {
+              "name": "size",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PdhOpenQuery",
+          "parameters": [
+            {
+              "name": "szDataSource",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "dwUserData",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "phQuery",
+              "type": "System.IntPtr&"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PdhAddCounter",
+          "parameters": [
+            {
+              "name": "hQuery",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "szFullCounterPath",
+              "type": "System.String"
+            },
+            {
+              "name": "dwUserData",
+              "type": "System.UIntPtr"
+            },
+            {
+              "name": "phCounter",
+              "type": "System.IntPtr&"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PdhCollectQueryData",
+          "parameters": [
+            {
+              "name": "hQuery",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PdhGetFormattedCounterArray",
+          "parameters": [
+            {
+              "name": "hQuery",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "dwFormat",
+              "type": "System.Int32"
+            },
+            {
+              "name": "dwBufferSize",
+              "type": "System.UInt32&"
+            },
+            {
+              "name": "dwItemCount",
+              "type": "System.UInt32&"
+            },
+            {
+              "name": "itemBuffer",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PdhCloseQuery",
+          "parameters": [
+            {
+              "name": "hQuery",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDedicatedMemoryStatus",
+          "parameters": [],
+          "return_type": "System.ValueTuple<System.Int64,System.Int64>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSharedMemoryStatus",
+          "parameters": [],
+          "return_type": "System.ValueTuple<System.Int64,System.Int64>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCommittedMemoryStatus",
+          "parameters": [],
+          "return_type": "System.ValueTuple<System.Int64,System.Int64>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMemoryStatus",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.ValueTuple<System.Int64,System.Int64>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "VideoMemoryStatus",
+      "namespace": "Beyond.NativeSDK",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "virtualMachine",
+          "offset": 16,
+          "type": "IFix.Core.VirtualMachine"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "methodId",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "anonObj",
+          "offset": 32,
+          "type": "System.Object"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "wrapperArray",
+          "offset": 0,
+          "type": "IFix.ILFixDynamicMethodWrapper[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_0",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_1",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_2",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_3",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_4",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.ValueTuple<System.Int64,System.Int64>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_5",
+          "parameters": [],
+          "return_type": "System.ValueTuple<System.Int64,System.Int64>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_6",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_7",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_8",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_10",
+          "parameters": [
+            {
+              "name": "P0",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__Gen_Wrap_11",
+          "parameters": [],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ILFixDynamicMethodWrapper",
+      "namespace": "IFix",
+      "type_token": 33554447
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPatch",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "IFix.ILFixDynamicMethodWrapper"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsPatched",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "WrappersManagerImpl",
+      "namespace": "IFix",
+      "type_token": 33554448
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Beyond.NativeSDK.dll"
+}

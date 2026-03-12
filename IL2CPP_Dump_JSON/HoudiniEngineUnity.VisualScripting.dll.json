@@ -1,0 +1,353 @@
+{
+  "class_count": 7,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "triggerButton",
+          "offset": 128,
+          "type": "HoudiniEngineUnity.HEU_UnitButton"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "inputPath",
+          "offset": 136,
+          "type": "Unity.VisualScripting.ValueInput"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "inputAsync",
+          "offset": 144,
+          "type": "Unity.VisualScripting.ValueInput"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "inputPosition",
+          "offset": 152,
+          "type": "Unity.VisualScripting.ValueInput"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "outputHDARoot",
+          "offset": 160,
+          "type": "Unity.VisualScripting.ValueOutput"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "outputHDAAsset",
+          "offset": 168,
+          "type": "Unity.VisualScripting.ValueOutput"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "outputSuccess",
+          "offset": 176,
+          "type": "Unity.VisualScripting.ValueOutput"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "hdaRoot",
+          "offset": 184,
+          "type": "HoudiniEngineUnity.HEU_HoudiniAssetRoot"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "hdaAsset",
+          "offset": 192,
+          "type": "HoudiniEngineUnity.HEU_HoudiniAsset"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "bSuccess",
+          "offset": 200,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_hookName",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Definition",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TriggerButton",
+          "parameters": [
+            {
+              "name": "reference",
+              "type": "Unity.VisualScripting.GraphReference"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<Definition>b__12_0",
+          "parameters": [
+            {
+              "name": "flow",
+              "type": "Unity.VisualScripting.Flow"
+            }
+          ],
+          "return_type": "HoudiniEngineUnity.HEU_HoudiniAssetRoot"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<Definition>b__12_1",
+          "parameters": [
+            {
+              "name": "flow",
+              "type": "Unity.VisualScripting.Flow"
+            }
+          ],
+          "return_type": "HoudiniEngineUnity.HEU_HoudiniAsset"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<Definition>b__12_2",
+          "parameters": [
+            {
+              "name": "flow",
+              "type": "Unity.VisualScripting.Flow"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "HEU_InstantiateHDA",
+      "namespace": "HoudiniEngineUnity",
+      "parent": "ManualEventUnit`1",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "triggerButton",
+          "offset": 128,
+          "type": "HoudiniEngineUnity.HEU_UnitButton"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "inputHDA",
+          "offset": 136,
+          "type": "Unity.VisualScripting.ValueInput"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "outputHDAAsset",
+          "offset": 144,
+          "type": "Unity.VisualScripting.ValueOutput"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "hdaAsset",
+          "offset": 152,
+          "type": "HoudiniEngineUnity.HEU_HoudiniAsset"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_hookName",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Definition",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TriggerButton",
+          "parameters": [
+            {
+              "name": "reference",
+              "type": "Unity.VisualScripting.GraphReference"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<Definition>b__6_0",
+          "parameters": [
+            {
+              "name": "flow",
+              "type": "Unity.VisualScripting.Flow"
+            }
+          ],
+          "return_type": "HoudiniEngineUnity.HEU_HoudiniAsset"
+        }
+      ],
+      "name": "HEU_ModifyHDA",
+      "namespace": "HoudiniEngineUnity",
+      "parent": "ManualEventUnit`1",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "action",
+          "offset": 16,
+          "type": "System.Action"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HEU_UnitButton",
+      "namespace": "HoudiniEngineUnity",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "functionName",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "buttonLabel",
+          "offset": 24,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "buttonWidth",
+          "offset": 32,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "fnName",
+              "type": "System.String"
+            },
+            {
+              "name": "btnLabel",
+              "type": "System.String"
+            },
+            {
+              "name": "btnWidth",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HEU_UnitButtonAttribute",
+      "namespace": "HoudiniEngineUnity",
+      "parent": "Attribute",
+      "type_token": 33554439
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "HoudiniEngineUnity.VisualScripting.dll"
+}

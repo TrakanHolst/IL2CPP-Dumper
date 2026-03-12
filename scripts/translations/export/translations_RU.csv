@@ -1,0 +1,1228 @@
+﻿Key,Module,Translation
+app.description,app,"Продвинутые инструменты и утилиты для Arknights: Endfield, включая планировщик фабрики, симулятор призыва, планировщик персонажей, витрину персонажей и планы сообщества."
+app.title,app,EndfieldTools.DEV - Arknights: Endfield Инструменты и Утилиты
+ascension.add_character,ascension,Добавить персонажа
+ascension.add_character_desc,ascension,Выберите персонажей и задайте уровни для расчёта материалов
+ascension.add_weapon,ascension,Добавить оружие
+ascension.add_weapon_desc,ascension,Добавьте оружие для прокачки вместе с персонажами
+ascension.category_breakthrough_char,ascension,Материалы прорыва персонажа
+ascension.category_breakthrough_weapon,ascension,Материалы прорыва оружия
+ascension.category_exp,ascension,Опыт
+ascension.category_exp_char,ascension,Опыт персонажа
+ascension.category_exp_weapon,ascension,Опыт оружия
+ascension.category_gold,ascension,Золото
+ascension.category_plant,ascension,Растительные материалы
+ascension.category_skill_crown,ascension,Корона навыков
+ascension.category_skill_level,ascension,Материалы повышения навыков
+ascension.category_skill_specialize,ascension,Материалы специализации навыков
+ascension.clear_all,ascension,Очистить всё
+ascension.deficit,ascension,Дефицит
+ascension.description,ascension,
+ascension.farming_list,ascension,Список фарма
+ascension.from_level,ascension,С уровня
+ascension.include_skills,ascension,Включить навыки
+ascension.inventory,ascension,Инвентарь
+ascension.inventory_hint,ascension,Используйте Tab или Enter для перемещения между полями
+ascension.inventory_search,ascension,Поиск материалов...
+ascension.inventory_title,ascension,Инвентарь Материалов
+ascension.keep_in_inventory,ascension,Оставить в инвентаре
+ascension.level_range,ascension,Диапазон уровней
+ascension.levels,ascension,Уровни
+ascension.materials_needed,ascension,Необходимые материалы
+ascension.materials_required,ascension,Необходимые материалы
+ascension.no_items,ascension,Персонажи или оружие не выбраны
+ascension.no_items_found,ascension,Предметы не найдены
+ascension.no_items_hint,ascension,
+ascension.no_materials,ascension,Материалы не требуются
+ascension.no_materials_allocated,ascension,Материалы из инвентаря не распределены.
+ascension.owned,ascension,В наличии
+ascension.planner,ascension,Планировщик
+ascension.priority,ascension,Приоритет
+ascension.priority_mode,ascension,Режим сортировки по приоритету
+ascension.remove,ascension,Удалить
+ascension.remove_and_delete,ascension,Удалить и стереть
+ascension.remove_confirm_message,ascension,Эти материалы были назначены для {name}:
+ascension.remove_confirm_title,ascension,Удалить из инвентаря?
+ascension.select_character,ascension,Выбрать персонажа
+ascension.select_weapon,ascension,Выбрать оружие
+ascension.skill_from_level,ascension,Навык с
+ascension.skill_level,ascension,
+ascension.skill_to_level,ascension,Навык до
+ascension.skills,ascension,Навыки
+ascension.talents,ascension,Навыки
+ascension.title,ascension,Планировщик Прокачки
+ascension.to_level,ascension,До уровня
+ascension.total_exp,ascension,Всего
+ascension.total_items,ascension,Всего: {count} предметов
+ascension.welcome_description,ascension,"Планируйте прокачку персонажей и оружия, отслеживайте необходимые материалы и управляйте инвентарём в одном месте."
+ascension.welcome_title,ascension,Добро пожаловать в Планировщик Прокачки
+auth.login,auth,Войти
+auth.logout,auth,Выйти
+auth.setup_username,auth,"Добро пожаловать! Пожалуйста, установите имя пользователя."
+auth.signup,auth,Регистрация
+auth.welcome_back,auth,"С возвращением, {username}!"
+buildings.sub_automation_core,buildings,Ядро Субавтоматизации
+buildings.sub_automation_core.desc,buildings,Направляет разные предметы на каждый выходной порт. Все входы потребляются.
+builds.add_alt_weapon,builds,Альт
+builds.add_alternative,builds,Добавить альтернативу
+builds.add_character,builds,Добавить Персонажа
+builds.add_recommended_partner,builds,
+builds.all_time,builds,За всё время
+builds.alt_label_placeholder,builds,Альт
+builds.alternative,builds,Альтернатива
+builds.alternative_equipment,builds,Альтернатива
+builds.alternative_label_placeholder,builds,"Метка (напр., Бюджетный вариант, Поздняя игра)"
+builds.alternative_reason_placeholder,builds,Почему это альтернатива?
+builds.apply_filters,builds,Применить фильтры
+builds.auto_saved,builds,Автосохранено
+builds.back_to_character,builds,К списку сборок
+builds.back_to_list,builds,Назад к сборкам
+builds.be_first_character,builds,"Станьте первым, кто поделится сборкой для этого персонажа!"
+builds.be_first_to_share,builds,"Станьте первым, кто поделится сборкой с сообществом!"
+builds.browse_builds,builds,Просмотр сборок
+builds.browse_character_builds,builds,Просмотр сборок сообщества для этого персонажа
+builds.build,builds,Сборки
+builds.build_character,builds,Сборка Персонажа
+builds.build_description,builds,Гайд по Сборке
+builds.build_name,builds,Название Сборки
+builds.build_team,builds,Собрать Команду
+builds.by,builds,от
+builds.change_alt_weapon,builds,Изменить альтернативное оружие
+builds.change_character,builds,Сменить персонажа
+builds.character_desc,builds,Выберите главного персонажа для этой сборки
+builds.character_level,builds,Уровень
+builds.character_not_found,builds,Персонаж не найден
+builds.character_not_found_desc,builds,Персонаж не найден.
+builds.characters,builds,персонажей
+builds.clear_draft,builds,Очистить черновик
+builds.clear_filters,builds,Очистить фильтры
+builds.click_to_add_partners,builds,
+builds.comments,builds,Комментарии
+builds.comments_count,builds,комментариев
+builds.confirm_delete,builds,"Вы уверены, что хотите удалить эту сборку? Это действие нельзя отменить."
+builds.copied,builds,Скопировано!
+builds.copy_to_clipboard,builds,Копировать в буфер
+builds.counted_in_calculations,builds,Учтено в расчётах
+builds.create_and_share,builds,Создать и поделиться сборкой
+builds.create_build,builds,Создать сборку
+builds.create_character,builds,Создать сборку персонажа
+builds.create_first,builds,Создайте вашу первую сборку
+builds.create_new,builds,Создать Новую Сборку
+builds.create_team,builds,Создать командную сборку
+builds.create_your_own,builds,Создай свой билд!
+builds.delete_success,builds,Сборка успешно удалена
+builds.description,builds,Создавайте и делитесь сборками персонажей с сообществом
+builds.edit_mode,builds,Редактировать
+builds.edit_reason,builds,Изменить причину
+builds.equipment,builds,Снаряжение
+builds.equipment_body,builds,Тело
+builds.equipment_bonuses,builds,Бонусы снаряжения
+builds.equipment_edc,builds,EDC
+builds.equipment_hand,builds,Руки
+builds.equipment_medical,builds,Медикаменты
+builds.equipment_medical_coming_soon,builds,Медикаменты скоро появятся
+builds.equipment_reason_placeholder,builds,Почему вы выбрали это снаряжение?
+builds.error_delete,builds,Не удалось удалить сборку
+builds.error_load_build,builds,Не удалось загрузить сборку для редактирования
+builds.error_loading,builds,Не удалось загрузить сборки
+builds.error_name_required,builds,Требуется название сборки
+builds.error_no_main_character,builds,"Пожалуйста, выберите главного персонажа"
+builds.error_title,builds,Сборка не найдена
+builds.error_toggle,builds,Не удалось изменить видимость
+builds.explain_why,builds,Объяснить почему
+builds.export_build,builds,Экспорт сборки
+builds.filter_by_character,builds,Главный персонаж
+builds.filter_by_element,builds,Тип элемента
+builds.filter_by_partner,builds,Партнёр по команде
+builds.filter_by_set,builds,Набор снаряжения
+builds.filter_by_tag,builds,Тег
+builds.filter_by_weapon,builds,Оружие
+builds.filter_character,builds,Персонаж
+builds.filter_has_video,builds,Есть видео-гайд
+builds.filter_weapon,builds,Тип Оружия
+builds.filters,builds,Фильтры
+builds.guide,builds,Руководство по сборке
+builds.hide_section,builds,Скрыть этот раздел
+builds.hide_stats,builds,Скрыть Статы
+builds.import_build,builds,Импорт сборки
+builds.import_error,builds,Неверные данные сборки. Проверьте формат JSON.
+builds.import_export,builds,Импорт/Экспорт сборки
+builds.import_placeholder,builds,Вставьте JSON сборки для импорта...
+builds.import_success,builds,Сборка успешно импортирована!
+builds.latest_builds,builds,Последние Сборки
+builds.liked_builds,builds,Понравившиеся сборки
+builds.likes,builds,лайков
+builds.link_copied,builds,Ссылка скопирована!
+builds.loading_builds,builds,Загрузка сборок...
+builds.login_required,builds,"Войдите, чтобы сохранить сборки"
+builds.main_equipment,builds,Основное снаряжение
+builds.make_public,builds,Сделать публичным
+builds.manage_builds,builds,Управление сборками
+builds.max_2_tags,builds,Макс 2
+builds.max_partners_reached,builds,
+builds.most_liked,builds,Больше всего лайков
+builds.most_popular,builds,Самые популярные
+builds.my_builds,builds,Мои сборки
+builds.no_build_specified,builds,Сборка не указана
+builds.no_build_specified_desc,builds,"Пожалуйста, выберите сборку для просмотра."
+builds.no_builds_character,builds,Сборок пока нет
+builds.no_builds_period,builds,За этот период сборок не найдено.
+builds.no_builds_yet,builds,Вы ещё не создали ни одной сборки
+builds.no_character_selected,builds,Персонаж не выбран
+builds.no_community_builds,builds,Сборок сообщества пока нет
+builds.no_description,builds,Нет описания
+builds.no_equipment_selected,builds,Снаряжение не выбрано
+builds.no_liked_builds,builds,У вас пока нет понравившихся сборок
+builds.no_notes,builds,Нет заметок
+builds.no_results,builds,Сборки не найдены
+builds.no_results_desc,builds,"Нет сборок, соответствующих вашим фильтрам. Попробуйте изменить фильтры или посмотрите популярные сборки ниже."
+builds.no_weapon,builds,Оружие не выбрано
+builds.not_found,builds,Сборка не найдена или у вас нет прав на её просмотр
+builds.not_found_desc,builds,Искомая сборка не существует или была удалена.
+builds.notes,builds,Заметки
+builds.nothing_recommended,builds,Нет рекомендаций
+builds.other_recommended_partners,builds,
+builds.partner,builds,Партнёр
+builds.partners_explanation_placeholder,builds,
+builds.popular_this_week,builds,Популярные Сборки Недели
+builds.preview,builds,Предпросмотр
+builds.preview_note,builds,"Это предпросмотр того, как ваша сборка будет выглядеть для других"
+builds.private,builds,Приватная
+builds.public,builds,Публичная
+builds.publish,builds,Опубликовать
+builds.recommended_partners_help,builds,
+builds.remove_alternative,builds,Удалить альтернативу
+builds.remove_character,builds,Удалить
+builds.remove_to_add_more,builds,
+builds.reset_filters,builds,Сбросить фильтры
+builds.results_for,builds,Результаты для
+builds.role,builds,Роль
+builds.save_build,builds,Сохранить сборку
+builds.save_error,builds,"Не удалось сохранить сборку. Пожалуйста, попробуйте снова."
+builds.save_requirements,builds,Требуется название сборки и хотя бы один персонаж
+builds.save_success,builds,Сборка успешно сохранена!
+builds.saving,builds,Сохранение...
+builds.search_equipment,builds,"Поиск по названию набора, стату или эффекту..."
+builds.search_placeholder,builds,Поиск сборок...
+builds.search_results,builds,Результаты поиска
+builds.select_equipment,builds,Выбрать Снаряжение
+builds.select_partner_to_recommend,builds,
+builds.select_weapon,builds,Выбрать Оружие
+builds.selected_partners,builds,
+builds.set_bonuses,builds,Бонусы сета
+builds.share_with_community,builds,Поделитесь своей стратегией с сообществом
+builds.short_description,builds,Краткое описание
+builds.show_stats,builds,Показать Статы
+builds.single_build,builds,Одиночная сборка
+builds.single_char,builds,Один персонаж
+builds.single_mode,builds,Один Персонаж
+builds.skill_priority,builds,Приоритет навыков
+builds.skill_priority_reason_placeholder,builds,Почему такой порядок прокачки?
+builds.skill_type_combo,builds,Комбо
+builds.skill_type_normal,builds,Обычный
+builds.skill_type_ultimate,builds,Ультимат
+builds.skill_upgrade_priority,builds,Приоритет улучшения навыков
+builds.skills,builds,Навыки
+builds.solo_build,builds,Соло сборка
+builds.sort_by,builds,Сортировать по
+builds.sort_latest,builds,Новейшие
+builds.sort_popular,builds,Популярные
+builds.subtitle,builds,Просматривайте и делитесь сборками команд
+builds.tag_boss,builds,Босс
+builds.tag_early_game,builds,Ранняя игра
+builds.tag_f2p_friendly,builds,F2P-дружественно
+builds.tag_farming,builds,Фарм
+builds.tag_help,builds,"Выберите до 2 тегов, чтобы игроки могли найти вашу сборку"
+builds.tag_late_game,builds,Поздняя игра
+builds.tag_mid_game,builds,Середина игры
+builds.tag_not_f2p_friendly,builds,Не для F2P
+builds.tags,builds,Теги
+builds.team_build,builds,Командная сборка
+builds.team_desc,builds,Создайте команду до 4 персонажей
+builds.team_mode,builds,Команда (до 4)
+builds.team_role_placeholder,builds,"Роль (напр., Осн. ДПС, Поддержка)"
+builds.team_role_reason_placeholder,builds,Почему этот персонаж выполняет эту роль?
+builds.this_month,builds,Этот месяц
+builds.this_week,builds,Эта неделя
+builds.title,builds,Сборки Сообщества
+builds.try_different_filters,builds,Попробуйте изменить фильтры или поисковый запрос.
+builds.unnamed,builds,Безымянная сборка
+builds.unpublish,builds,Снять с публикации
+builds.untitled,builds,Без названия
+builds.up_to_4,builds,До 4 персонажей
+builds.update_build,builds,Обновить сборку
+builds.update_success,builds,Сборка успешно обновлена!
+builds.video,builds,Видео
+builds.video_showcase,builds,Видео-демонстрация
+builds.view_character_details,builds,Подробнее о персонаже
+builds.view_mode,builds,Просмотр
+builds.views,builds,просмотров
+builds.visibility_updated,builds,Видимость сборки обновлена
+builds.watch_video,builds,Смотреть видео
+builds.weapon,builds,Оружие
+builds.weapon_bonuses,builds,Бонусы оружия
+builds.weapon_label_placeholder,builds,БиС
+builds.weapon_not_found,builds,Оружие не найдено
+builds.weapon_reason_placeholder,builds,Почему вы выбрали это оружие?
+builds.weapon_skills,builds,Навыки оружия
+builds.weapons,builds,Оружие
+builds.why_these_partners,builds,
+builds.your_username,builds,Ваше имя пользователя
+builds.youtube_video,builds,Видео YouTube
+builds.youtube_video_hint,builds,Добавьте видео YouTube с демонстрацией сборки
+characters.all_elements,characters,Все Элементы
+characters.all_professions,characters,Все профессии
+characters.all_rarities,characters,Все Редкости
+characters.aspd,characters,Скор. Атаки
+characters.atk,characters,АТК
+characters.battle_skills,characters,Боевые Навыки
+characters.battle_tags,characters,Боевые Теги
+characters.breakthrough,characters,Прорыв
+characters.breakthrough_details,characters,Детали Прорыва
+characters.browse_all,characters,Просмотреть всех персонажей Endfield
+characters.def,characters,ЗАЩ
+characters.department,characters,Фракция
+characters.discussion,characters,Обсуждение Персонажа
+characters.effect,characters,Эффект
+characters.element,characters,Элемент
+characters.exp_items_required,characters,Предметы опыта
+characters.experience_calculator,characters,Калькулятор Опыта
+characters.factory_skill_slot,characters,Слот Навыков {slot}
+characters.factory_skills,characters,Навыки Базы
+characters.from_level,characters,От
+characters.hp,characters,HP
+characters.level_1,characters,Уровень 1
+characters.level_range,characters,Диапазон Уровней
+characters.level_up_requirements,characters,Требования для Повышения Уровня
+characters.materials_required,characters,Требуемые Материалы
+characters.max_level,characters,Максимальный Уровень
+characters.no_factory_skills,characters,Нет навыков базы
+characters.potential,characters,Потенциал
+characters.potential_level,characters,Потенциал {level}
+characters.potential_passive,characters,Потенциал и Пассивы
+characters.profession,characters,Профессия
+characters.profile_records,characters,Записи профиля
+characters.rarity,characters,Редкость
+characters.required_items,characters,Требуемые Предметы
+characters.results,characters,персонажей найдено
+characters.search,characters,Поиск персонажей...
+characters.skill_type_combo,characters,Комбо Навык
+characters.skill_type_normal,characters,Обычный Навык
+characters.skill_type_talent,characters,Талант
+characters.skill_type_ultimate,characters,Ультимативный Навык
+characters.stats_progression,characters,Прогрессия Характеристик
+characters.talents,characters,Таланты
+characters.title,characters,Персонажи
+characters.to_level,characters,До
+characters.unlocks_at,characters,Разблокируется на Ур.{level}
+characters.voice_actors,characters,Актёры Озвучки
+characters.voice_lines,characters,Реплики Озвучки
+characters.weapon_type,characters,Тип оружия
+comments.auth_required_title,comments,Требуется Аутентификация
+comments.be_first,comments,"Будьте первым, кто поделится мнением!"
+comments.cancel,comments,Отмена
+comments.char_count,comments,{count} / {max}
+comments.days_ago,comments,{count}д назад
+comments.delete,comments,Удалить
+comments.deleting,comments,Удаление...
+comments.edit,comments,Редактировать
+comments.edit_placeholder,comments,Редактировать комментарий...
+comments.edited,comments,(изменено)
+comments.error_delete_failed,comments,Не удалось удалить комментарий. Попробуйте снова.
+comments.error_empty,comments,Комментарий не может быть пустым.
+comments.error_invalid_content,comments,Ваш комментарий содержит недопустимые символы или HTML-теги. Используйте только текст.
+comments.error_post_failed,comments,Не удалось опубликовать комментарий. Попробуйте снова.
+comments.error_too_long,comments,Комментарий слишком длинный (макс. {max} символов).
+comments.error_update_failed,comments,Не удалось обновить комментарий. Попробуйте снова.
+comments.formatting_guide,comments,Форматирование
+comments.hide_replies,comments,Скрыть {count} ответов
+comments.hours_ago,comments,{count}ч назад
+comments.join_discussion,comments,Присоединиться к обсуждению...
+comments.just_now,comments,Только что
+comments.load_more,comments,Загрузить Больше Комментариев
+comments.loading,comments,Загрузка комментариев...
+comments.loading_replies,comments,Загрузка ответов...
+comments.login_link,comments,войти
+comments.login_required,comments,"Пожалуйста, войдите, чтобы оставлять комментарии."
+comments.mention_keyboard_hint,comments,↑↓ Навигация • Enter Выбор • Esc Закрыть
+comments.mention_no_users,comments,Пользователи не найдены
+comments.mention_searching,comments,Поиск пользователей...
+comments.minutes_ago,comments,{count}м назад
+comments.no_comments,comments,Комментариев пока нет
+comments.placeholder,comments,Поделитесь своими мыслями...
+comments.post_comment,comments,Опубликовать Комментарий
+comments.post_reply,comments,Опубликовать Ответ
+comments.posting,comments,Публикация...
+comments.reply,comments,Ответить
+comments.reply_placeholder,comments,Напишите ответ...
+comments.replying_to,comments,Ответ для
+comments.save_changes,comments,Сохранить Изменения
+comments.show_replies,comments,Показать {count} ответов
+comments.success_deleted,comments,Комментарий успешно удалён!
+comments.success_posted,comments,Комментарий успешно опубликован!
+comments.success_reply_posted,comments,Ответ успешно опубликован!
+comments.success_updated,comments,Комментарий успешно обновлён!
+comments.title,comments,Комментарии
+comments.warning_auth_required,comments,"Пожалуйста, войдите, чтобы оставлять комментарии."
+common.all_time,common,За все время
+common.back,common,Назад
+common.cancel,common,Отмена
+common.clear,common,Очистить
+common.close,common,Закрыть
+common.coming_soon,common,Скоро...
+common.confirm,common,Подтвердить
+common.copied,common,Скопировано!
+common.copy,common,Копировать
+common.copy_link,common,Копировать ссылку
+common.delete,common,Удалить
+common.edit,common,Редактировать
+common.error,common,Ошибка
+common.exp_required,common,Требуется EXP
+common.filters,common,Фильтры
+common.frequently_asked_questions,common,Часто Задаваемые Вопросы
+common.gold_cost,common,Стоимость в Золоте
+common.last_updated,common,Последнее обновление
+common.latest,common,Последние
+common.level,common,Уровень
+common.loading,common,Загрузка...
+common.no_data_yet,common,Данных пока нет
+common.no_results,common,Результаты не найдены
+common.optional,common,необязательно
+common.popular,common,Популярное
+common.quick_navigation,common,Быстрая Навигация
+common.related_characters,common,Связанные Персонажи
+common.related_weapons,common,Связанное Оружие
+common.reset,common,Сбросить
+common.save,common,Сохранить
+common.saving,common,Сохранение...
+common.search,common,Поиск
+common.search_results,common,Результаты поиска
+common.show_less,common,Свернуть
+common.show_more,common,Показать больше
+common.sort_by,common,Сортировка
+common.success,common,Успех
+common.this_month,common,Этот месяц
+common.this_week,common,Эта неделя
+common.view,common,Просмотр
+custom.conveyor_merger.desc,custom,Объединяет до 3 конвейерных линий в 1 выход. Не требует питания.
+custom.conveyor_merger.name,custom,Объединитель Конвейеров
+equipment.additional_stats,equipment,Дополнительные Характеристики
+equipment.all_parts,equipment,Все Типы Частей
+equipment.all_stages,equipment,Все Этапы
+equipment.all_tiers,equipment,Все Уровни
+equipment.attr.AllDamageTakenScalar,equipment,Снижение Получаемого Урона
+equipment.attr.AllSkillDamageIncrease,equipment,Урон Всех Навыков
+equipment.attr.CrystAndPulseDamageIncrease,equipment,Крио и Электро Урон
+equipment.attr.FireAndNaturalDamageIncrease,equipment,Жар и Природа Урон
+equipment.attr.Main,equipment,Главный Атрибут
+equipment.attr.SpellDamageIncrease,equipment,Урон Искусств
+equipment.attr.Sub,equipment,Доп. Атрибут
+equipment.base_stats,equipment,Базовые Характеристики
+equipment.best_for_characters,equipment,Лучше Всего Подходит Для
+equipment.best_sets,equipment,Лучшие Наборы Снаряжения
+equipment.browse_all,equipment,Просмотр всех наборов снаряжения
+equipment.community_rating,equipment,Рейтинг Сообщества
+equipment.early_game,equipment,Ранняя Игра (Ур.10-28)
+equipment.equipment_details,equipment,Детали Снаряжения
+equipment.equipment_pieces,equipment,Части Снаряжения
+equipment.filter_by_part,equipment,Фильтр по Типу Части
+equipment.filter_by_stage,equipment,Фильтр по Этапу Игры
+equipment.filter_by_tier,equipment,Фильтр по Уровню
+equipment.game_stage,equipment,Этап Игры
+equipment.late_game,equipment,Поздняя Игра (Ур.70)
+equipment.level_requirement,equipment,Требуется Уровень {level}
+equipment.loading,equipment,Загрузка данных снаряжения...
+equipment.main_stat,equipment,Основная
+equipment.mid_game,equipment,Средняя Игра (Ур.36-50)
+equipment.most_liked,equipment,Самые Понравившиеся
+equipment.no_set_bonus,equipment,Это отдельный предмет без бонуса набора
+equipment.no_sets_found,equipment,Наборы снаряжения не найдены
+equipment.no_standalone_found,equipment,Отдельное снаряжение не найдено
+equipment.no_stats,equipment,Нет данных о характеристиках
+equipment.part_body,equipment,Тело
+equipment.part_edc,equipment,EDC
+equipment.part_hand,equipment,Руки
+equipment.part_of_set,equipment,Часть {setName}
+equipment.part_type,equipment,Тип Части
+equipment.rate_this_set,equipment,Оцените этот набор для вашего персонажа
+equipment.recommended_for,equipment,Рекомендуется для {characterName}
+equipment.related_sets,equipment,Связанные Наборы
+equipment.results,equipment,наборов найдено
+equipment.search,equipment,Поиск наборов снаряжения...
+equipment.select_character,equipment,Выберите персонажа...
+equipment.set_bonus,equipment,Бонус {count} Частей
+equipment.set_effects,equipment,Эффекты Набора
+equipment.sort_by,equipment,Сортировать По
+equipment.sort_name,equipment,Названию
+equipment.sort_pieces,equipment,Количеству Частей
+equipment.sort_tier,equipment,Уровню
+equipment.standalone,equipment,Отдельное Снаряжение
+equipment.standalone_equipment,equipment,Отдельное Снаряжение
+equipment.standalone_results,equipment,предметов
+equipment.stats,equipment,Характеристики
+equipment.sub_stats,equipment,Дополн.
+equipment.tier,equipment,Уровень
+equipment.tier_0,equipment,Уровень 0
+equipment.tier_1,equipment,Уровень 1
+equipment.tier_2,equipment,Уровень 2
+equipment.tier_3,equipment,Уровень 3
+equipment.tier_4,equipment,Уровень 4
+equipment.tier_pieces,equipment,Части Уровня {tier}
+equipment.title,equipment,Наборы Снаряжения
+equipment.total_pieces,equipment,{count} частей
+equipment.view_all_sets,equipment,Просмотр Всех Наборов Снаряжения
+equipment.view_set_details,equipment,Просмотр Деталей Набора
+essence_solver.compatible,essence_solver,Compatible
+essence_solver.farm_locations,essence_solver,Farm at
+essence_solver.filter_by_dungeon,essence_solver,Filter by Dungeon
+essence_solver.filter_by_rarity,essence_solver,Filter by Rarity
+essence_solver.matches,essence_solver,Matches
+essence_solver.missing,essence_solver,Missing
+essence_solver.no_results,essence_solver,No essences match the current filters
+essence_solver.recommended_essences,essence_solver,Recommended Essences
+essence_solver.select_weapon,essence_solver,Select a Weapon
+essence_solver.stats,essence_solver,Stats
+essence_solver.title,essence_solver,Weapon Essence Solver
+factory.actual,factory,Фактический
+factory.all_items_production_overview,factory,Обзор Производства Всех Предметов
+factory.balanced,factory,Сбалансировано
+factory.bottlenecks_detected,factory,Обнаружены Узкие Места
+factory.browse_blueprints,factory,Просмотр чертежей
+factory.buffer_bottlenecks,factory,Узкие Места Буфера
+factory.buffer_capacity,factory,Емкость
+factory.build,factory,Построить
+factory.building_count,factory,Здания
+factory.building_menu,factory,Меню Зданий
+factory.buildings,factory,Здания
+factory.clear,factory,Очистить
+factory.click_product_tabs_for_details,factory,Нажмите на вкладки продуктов выше для подробного анализа производственной цепочки
+factory.click_to_set,factory,Нажмите для настройки
+factory.community_blueprints,factory,Чертежи фабрик AIC
+factory.community_blueprints_subtitle,factory,Просматривайте и делитесь чертежами фабрик сообщества
+factory.configure,factory,Настроить
+factory.configure_output,factory,Настройка выхода
+factory.confirm_delete_plan,factory,"Вы уверены, что хотите удалить этот план?"
+factory.connection_graph,factory,Граф Соединений
+factory.consumed,factory,Потреблено/мин
+factory.consumed_by,factory,Потребитель
+factory.conveyor_connection_errors,factory,Ошибки Подключения Конвейера
+factory.conveyor_menu,factory,Меню Конвейеров
+factory.conveyor_saturation,factory,Насыщение Конвейера
+factory.conveyors,factory,Конвейеры
+factory.cookbook,factory,Книга Рецептов
+factory.cookbook_all_description,factory,Просмотр всех создаваемых предметов из игровых данных
+factory.cookbook_alternative_recipes,factory,Альтернативные Рецепты
+factory.cookbook_back_to_search,factory,Вернуться к Поиску
+factory.cookbook_crafted_item,factory,Создаваемый Предмет
+factory.cookbook_filter_factory,factory,Показать только предметы текущей фабрики
+factory.cookbook_filtered_description,factory,"Показаны только предметы, которые можно создать с текущими зданиями фабрики"
+factory.cookbook_machine_required,factory,Требуемая Машина
+factory.cookbook_no_factory_items,factory,С текущими зданиями фабрики нельзя создать предметы
+factory.cookbook_no_items,factory,Создаваемые предметы не найдены
+factory.cookbook_no_recipes,factory,Для этого предмета нет доступных рецептов
+factory.cookbook_production_chain,factory,Производственная Цепочка
+factory.cookbook_raw_material,factory,Сырьё
+factory.cookbook_select_item,factory,Выберите предмет для просмотра производственной цепочки
+factory.cookbook_selected_item,factory,Выбранный Предмет
+factory.cookbook_show_all,factory,Показать все предметы
+factory.cookbook_theoretical_rate,factory,Теоретическая Макс. Скорость
+factory.cookbook_title,factory,Книга Рецептов
+factory.copy,factory,Копировать
+factory.copy_to_clipboard,factory,Скопировать в буфер
+factory.craft_time,factory,Время Изготовления
+factory.create_blueprint,factory,Создать чертёж
+factory.create_first,factory,Создать первый чертёж
+factory.create_new_save,factory,Создать Новое Сохранение
+factory.current_file,factory,Текущий Файл
+factory.current_tool,factory,Инструмент
+factory.cycles_per_min,factory,циклов/мин
+factory.cycles_per_minute,factory,циклов/мин
+factory.deficit,factory,Дефицит
+factory.delete,factory,Удалить
+factory.delete_building,factory,Удалить Здание
+factory.depth_level,factory,Ур {level}
+factory.description,factory,Описание
+factory.description_placeholder,factory,Краткое описание...
+factory.destination,factory,Назначение
+factory.detailed_producer_analysis,factory,Подробный Анализ Производителя
+factory.download_png,factory,Скачать PNG
+factory.edit_save,factory,Редактировать сохранение
+factory.efficiency,factory,Эффективность
+factory.enter_save_name,factory,Введите имя сохранения...
+factory.error_deleting_plan,factory,Не удалось удалить план.
+factory.error_loading_plan,factory,Не удалось загрузить план.
+factory.error_loading_plans,factory,Не удалось загрузить сохранения.
+factory.error_output_mismatch,factory,Выход не соответствует входу назначения
+factory.error_saving_plan,factory,Не удалось сохранить план.
+factory.error_updating_plan,factory,Не удалось обновить план.
+factory.export_import,factory,Экспорт / Импорт
+factory.export_import_hint,factory,"Экспортируйте фабрику как JSON файл для обмена или резервного копирования, или импортируйте ранее экспортированный файл."
+factory.export_json,factory,Экспорт
+factory.filter_by_building,factory,Тип здания
+factory.filter_by_output,factory,Выходной предмет
+factory.filter_by_stage,factory,Этап игры
+factory.filter_by_tags,factory,Теги
+factory.final_product,factory,Конечный Продукт
+factory.final_products,factory,Конечные Продукты
+factory.final_products_summary,factory,Сводка Конечных Продуктов
+factory.fix_conveyor_error,factory,Измените рецепт или переподключите конвейер для соответствия входам
+factory.focus,factory,Фокус
+factory.from_connected_recipe,factory,Из подключенного рецепта
+factory.graph_view,factory,Граф Соединений
+factory.grid_bounds,factory,Границы Сетки
+factory.grid_bounds_desc,factory,"Определите размер сетки фабрики (с центром в 0,0). Здания и конвейеры не могут быть размещены за пределами этих ограничений."
+factory.grid_height,factory,Высота Сетки (ячейки)
+factory.grid_range,factory,Диапазон Сетки
+factory.grid_width,factory,Ширина Сетки (ячейки)
+factory.import_json,factory,Импорт
+factory.input_buffer,factory,Входной Буфер
+factory.inputs,factory,Вход
+factory.item,factory,Предмет
+factory.item_category.components,factory,Компоненты
+factory.item_category.consumables,factory,Расходники
+factory.item_category.equipment,factory,Снаряжение
+factory.item_category.featured,factory,Рекомендуемые
+factory.item_category.liquids,factory,Жидкости
+factory.item_category.other,factory,Прочее
+factory.item_category.processed,factory,Обработанные Материалы
+factory.item_category.raw_materials,factory,Сырьё
+factory.items_in_transit,factory,В Пути
+factory.live_updates,factory,В реальном времени (1с)
+factory.load,factory,Загрузить
+factory.loading_items,factory,Загрузка предметов...
+factory.local_saves,factory,Локально
+factory.login_for_online,factory,Войдите для сохранения фабрики онлайн
+factory.login_required,factory,Войдите для сохранения онлайн.
+factory.machine,factory,Машина
+factory.make_private,factory,Сделать приватным
+factory.make_public,factory,Сделать публичным
+factory.menu.build_mode,factory,Режим строительства
+factory.menu.clear_grid,factory,Очистить сетку
+factory.menu.edit,factory,Редактировать
+factory.menu.export_json,factory,Экспорт JSON
+factory.menu.file,factory,Файл
+factory.menu.graph_view,factory,Вид графика
+factory.menu.import_json,factory,Импорт JSON
+factory.menu.new_grid,factory,Новая сетка
+factory.menu.pan_mode,factory,Режим панорамы
+factory.menu.production_stats,factory,Статистика производства
+factory.menu.reset_simulator,factory,
+factory.menu.title,factory,Меню
+factory.menu.tools,factory,Инструменты
+factory.menu.view,factory,Вид
+factory.menu.zoom_fit,factory,По размеру экрана
+factory.merge_inputs,factory,входов
+factory.merge_mixed_items,factory,Объединение разных типов предметов
+factory.merge_preview,factory,Отпустите для объединения
+factory.merge_saturated,factory,Объединение насыщено
+factory.merge_total_rate,factory,Общая скорость
+factory.merged_conveyor,factory,Объединённый Конвейер
+factory.most_liked,factory,Больше всего лайков
+factory.most_popular,factory,Самые популярные
+factory.move,factory,Переместить
+factory.move_building,factory,Переместить здание
+factory.multi_producer_excess,factory,Избыток Мульти-Производителей
+factory.my_blueprints,factory,Мои чертежи
+factory.name_required,factory,"Пожалуйста, введите название."
+factory.net,factory,Чистый/мин
+factory.new_online_save,factory,Новое онлайн-сохранение
+factory.new_save,factory,Новое Сохранение
+factory.no_blueprints,factory,Чертежей пока нет
+factory.no_file_loaded,factory,Файл не загружен. Создайте новое сохранение или загрузите существующее.
+factory.no_online_saves,factory,Нет онлайн-сохранений
+factory.no_output_selected,factory,Выход Не Выбран
+factory.no_production_data,factory,Нет данных о производстве. Назначьте рецепты зданиям для просмотра статистики.
+factory.no_recipe,factory,Без Рецепта
+factory.no_recipes_available,factory,Нет доступных рецептов для этого здания
+factory.no_recipes_produce_item,factory,"Не найдено рецептов, производящих этот предмет. Возможно, этот предмет нужно импортировать или создать вручную."
+factory.no_saved_games,factory,Нет сохранённых игр
+factory.not_configured,factory,Не настроено
+factory.notifications.auto_loaded,factory,Автозагрузка: {name}
+factory.notifications.cannot_place_building,factory,Невозможно разместить здание здесь - позиция заблокирована другим зданием или конвейером
+factory.notifications.cannot_place_control_point,factory,Невозможно разместить контрольную точку здесь - нет допустимого пути
+factory.notifications.confirm_delete,factory,"Удалить сохранение ""{name}""? Это действие нельзя отменить."
+factory.notifications.confirm_import,factory,Импортировать эту фабрику? Несохраненные изменения будут потеряны.
+factory.notifications.confirm_load,factory,"Загрузить ""{name}""?"
+factory.notifications.confirm_load_with_current,factory,"Загрузить ""{name}""? Все несохраненные изменения будут потеряны."
+factory.notifications.conveyor_error,factory,"Ошибка пересчета конвейеров. Здание повернуто, но конвейеры могут потребовать ручного переподключения."
+factory.notifications.created_new_save,factory,"Создано новое сохранение ""{name}"""
+factory.notifications.exported_json,factory,Фабрика экспортирована в JSON файл
+factory.notifications.failed_to_delete,factory,Не удалось удалить сохранение
+factory.notifications.failed_to_export,factory,Не удалось экспортировать фабрику
+factory.notifications.failed_to_import,factory,Не удалось импортировать фабрику
+factory.notifications.failed_to_load,factory,Не удалось загрузить игру
+factory.notifications.failed_to_read_file,factory,Не удалось прочитать файл
+factory.notifications.failed_to_rotate,factory,Не удалось повернуть здание
+factory.notifications.failed_to_save,factory,Не удалось сохранить игру
+factory.notifications.imported_json,factory,Фабрика успешно импортирована
+factory.notifications.loaded,factory,"Загружено ""{name}"""
+factory.notifications.new_grid_created,factory,Создана новая сетка с суб-автоматизацией ядра
+factory.notifications.output_cleared,factory,Выходной предмет удален
+factory.notifications.output_selected,factory,Выбран выходной предмет: {item}
+factory.notifications.please_enter_name,factory,"Пожалуйста, введите имя сохранения"
+factory.notifications.recipe_assigned,factory,Рецепт назначен: {recipe}
+factory.notifications.recipe_cleared,factory,Рецепт удален
+factory.notifications.save_deleted,factory,Сохранение удалено
+factory.notifications.saved_as,factory,"Сохранено как ""{name}"""
+factory.notifications.saved_to,factory,"Сохранено в ""{name}"""
+factory.online_benefits,factory,Получайте доступ к сохранениям с любого устройства и делитесь с сообществом
+factory.online_saves,factory,Онлайн
+factory.output,factory,Выход
+factory.output_buffer,factory,Выходной Буфер
+factory.output_conveyors,factory,Выходные Конвейеры
+factory.output_item,factory,Выходной Предмет
+factory.outputs,factory,Выход
+factory.overview,factory,Обзор
+factory.pan,factory,Панорама
+factory.per_minute,factory,в минуту
+factory.place_building,factory,Разместить Здание
+factory.plan_deleted,factory,План удалён!
+factory.plan_loaded,factory,План загружен!
+factory.plan_saved,factory,План сохранён!
+factory.plan_updated,factory,План обновлён!
+factory.planner.feature_buildings_desc,factory,"Доступ ко всем заводским зданиям с подробной информацией, рецептами и статистикой производства"
+factory.planner.feature_buildings_title,factory,Библиотека зданий
+factory.planner.feature_community_desc,factory,"Просматривайте и учитесь на планировках фабрик, которыми поделились другие игроки (скоро)"
+factory.planner.feature_community_title,factory,Планы сообщества
+factory.planner.feature_conveyors_desc,factory,"Соединяйте здания с интеллектуальной маршрутизацией конвейеров, которая обнаруживает ошибки и предлагает исправления"
+factory.planner.feature_conveyors_title,factory,Умные конвейеры
+factory.planner.feature_grid_desc,factory,Размещайте здания и конвейеры на настраиваемой сетке с полной поддержкой панорамирования и масштабирования
+factory.planner.feature_grid_title,factory,Интерактивная сетка
+factory.planner.feature_save_desc,factory,Сохраняйте планировки фабрик локально и делитесь ими с сообществом
+factory.planner.feature_save_title,factory,Сохранение и загрузка
+factory.planner.feature_stats_desc,factory,"Статистика производства в реальном времени, обнаружение узких мест и предложения по оптимизации"
+factory.planner.feature_stats_title,factory,Аналитика производства
+factory.planner.features_subtitle,factory,Все необходимое для планирования идеальной фабрики AIC
+factory.planner.features_title,factory,Возможности
+factory.planner.report_issues,factory,Сообщить о проблемах и идеях
+factory.planner.start_planning,factory,Начать планирование
+factory.planner.subtitle,factory,Проектируйте и оптимизируйте планировки фабрик AIC (Автоматизированный Промышленный Комплекс) с интерактивным планировщиком на основе сетки
+factory.planner.wip_message,factory,"Этот инструмент все еще находится в активной разработке. Пожалуйста, сообщайте о любых проблемах или делитесь своими идеями в нашем Discord-сообществе!"
+factory.planner.wip_title,factory,В разработке
+factory.popular,factory,Популярное
+factory.port_config,factory,Настройка портов
+factory.port_config_hint,factory,Нажмите на выходной порт для назначения предмета. Предметы на входных портах потребляются.
+factory.power,factory,Энергия
+factory.power_consumed,factory,Потребляемая Мощность
+factory.power_warning,factory,Недостаточно Энергии!
+factory.produced,factory,Произведено/мин
+factory.produced_by,factory,Производитель
+factory.producing,factory,Производит
+factory.production_chain,factory,Производственная Цепь
+factory.production_depth,factory,Глубина Производства
+factory.production_flow,factory,Производственный Поток
+factory.production_flows,factory,Производственные потоки
+factory.production_imbalance,factory,Дисбаланс Производства
+factory.production_rate,factory,Скорость Производства
+factory.production_statistics,factory,Статистика Производства
+factory.production_stats_note,factory,Все показатели указаны в минуту. Чистый = Произведено - Потреблено.
+factory.production_summary,factory,Сводка
+factory.raw_material,factory,Сырье
+factory.raw_materials,factory,Сырье
+factory.recipe,factory,Рецепт
+factory.redo,factory,Повторить
+factory.requires,factory,Требует
+factory.reset_view,factory,Сбросить Вид
+factory.rotate,factory,Повернуть
+factory.rotate_building,factory,Повернуть Здание
+factory.rotate_ccw,factory,Повернуть против часовой
+factory.rotate_cw,factory,Повернуть по часовой
+factory.save,factory,Сохранить
+factory.save_name,factory,Название
+factory.save_online,factory,Сохранить онлайн
+factory.saved_games,factory,Сохраненные Игры
+factory.select_building,factory,Выберите здание...
+factory.select_item,factory,Выберите предмет...
+factory.select_output,factory,Выбрать Выход
+factory.select_recipe,factory,Выбрать Рецепт
+factory.set_output,factory,Установить выход
+factory.set_recipe,factory,Установить рецепт
+factory.settings,factory,Настройки
+factory.sim_fast,factory,Быстрая (2x)
+factory.sim_faster,factory,Очень быстрая (4x)
+factory.sim_normal,factory,Обычная (1x)
+factory.sim_paused,factory,Пауза
+factory.sim_speed,factory,Скорость
+factory.state_clogged,factory,Выход заблокирован
+factory.state_idle,factory,Неактивен
+factory.state_producing,factory,Производство
+factory.state_unlinked,factory,Нет входных соединений
+factory.state_waiting,factory,Ожидание входов
+factory.status,factory,Статус
+factory.suggestion_add_building,factory,Добавьте новое здание с одним из этих рецептов и подключите его к потребителям
+factory.suggestions_to_fix_deficits,factory,Предложения по Устранению Дефицита
+factory.surplus,factory,Излишек
+factory.theoretical,factory,Теоретический
+factory.thumbnail_preview,factory,Предпросмотр
+factory.title,factory,Планировщик Фабрики
+factory.total_buildings,factory,Активные Здания
+factory.travel_time,factory,время в пути
+factory.undo,factory,Отменить
+factory.unlimited,factory,Безлимитный
+factory.update_save,factory,Обновить сохранение
+factory.view_compact,factory,Компактный
+factory.view_grid,factory,Сетка
+factory.view_list,factory,Список
+factory.view_mode,factory,Режим отображения
+factory.visibility_private,factory,Приватное
+factory.visibility_private_desc,factory,Видите только вы
+factory.visibility_public,factory,Публичное
+factory.visibility_public_desc,factory,Видно в чертежах сообщества
+factory.your_online_saves,factory,Ваши онлайн-сохранения
+factory.zoom_in,factory,Увеличить
+factory.zoom_out,factory,Уменьшить
+factory_plans.all_time,factory_plans,All Time
+factory_plans.back_to_browse,factory_plans,Back to All Blueprints
+factory_plans.be_first_to_share,factory_plans,Be the first to share a blueprint for
+factory_plans.blueprint_found,factory_plans,blueprint found
+factory_plans.blueprint_name,factory_plans,Blueprint Name
+factory_plans.blueprints_found,factory_plans,blueprints found
+factory_plans.browse_crafting_blueprints,factory_plans,Browse community factory blueprints for crafting
+factory_plans.buildings,factory_plans,Buildings
+factory_plans.buildings_used,factory_plans,Buildings Used
+factory_plans.by,factory_plans,by
+factory_plans.comments,factory_plans,Comments
+factory_plans.confirm_delete,factory_plans,Are you sure you want to delete
+factory_plans.create_blueprint,factory_plans,Create Blueprint
+factory_plans.create_first_blueprint,factory_plans,Create your first factory blueprint to share with the community!
+factory_plans.create_new,factory_plans,Create New
+factory_plans.delete_error,factory_plans,Failed to delete blueprint
+factory_plans.description,factory_plans,Browse and share community AIC factory blueprints for Arknights: Endfield
+factory_plans.description_label,factory_plans,Description
+factory_plans.full_description,factory_plans,Full Description
+factory_plans.full_description_hint,factory_plans,Detailed guide for your blueprint (optional)
+factory_plans.game_stage,factory_plans,Game Stage
+factory_plans.grid_size,factory_plans,Grid size
+factory_plans.how_to_craft,factory_plans,How to Craft
+factory_plans.ingame_code,factory_plans,In-Game Code
+factory_plans.ingame_code_hint,factory_plans,Optional: Your in-game factory sharing code
+factory_plans.ingame_code_label,factory_plans,In-Game Sharing Code
+factory_plans.ingame_region,factory_plans,Server Region
+factory_plans.inputs,factory_plans,Inputs
+factory_plans.latest,factory_plans,Latest
+factory_plans.load_in_planner,factory_plans,Load in Planner
+factory_plans.loading_blueprint,factory_plans,Loading blueprint...
+factory_plans.make_private,factory_plans,Make Private
+factory_plans.make_public,factory_plans,Make Public
+factory_plans.manage_your_blueprints,factory_plans,Manage your shared factory blueprints
+factory_plans.most_liked,factory_plans,Most Liked
+factory_plans.my_blueprints,factory_plans,My Blueprints
+factory_plans.net_power,factory_plans,Net Power
+factory_plans.no_blueprints,factory_plans,No Blueprints Yet
+factory_plans.no_blueprints_yet,factory_plans,No Blueprints Yet
+factory_plans.no_external_inputs,factory_plans,No external inputs required
+factory_plans.not_found,factory_plans,Blueprint Not Found
+factory_plans.not_found_desc,factory_plans,This blueprint may have been deleted or made private.
+factory_plans.open_planner,factory_plans,Open Factory Planner
+factory_plans.outputs,factory_plans,Outputs
+factory_plans.popular,factory_plans,Most Popular
+factory_plans.power_consumption,factory_plans,Consumption
+factory_plans.power_generation,factory_plans,Generation
+factory_plans.private,factory_plans,Private
+factory_plans.production,factory_plans,Production
+factory_plans.production_preview,factory_plans,Production Preview
+factory_plans.production_summary,factory_plans,Production Summary
+factory_plans.public,factory_plans,Public
+factory_plans.region,factory_plans,Region
+factory_plans.save_blueprint,factory_plans,Save Blueprint
+factory_plans.saving,factory_plans,Saving...
+factory_plans.search_placeholder,factory_plans,Search blueprints...
+factory_plans.share_blueprint,factory_plans,Share Blueprint
+factory_plans.share_description,factory_plans,Share your factory layout with the community
+factory_plans.short_description,factory_plans,Short Description
+factory_plans.short_description_hint,factory_plans,Brief description shown on cards (max 200 chars)
+factory_plans.sort_latest,factory_plans,Latest
+factory_plans.sort_popular,factory_plans,Popular
+factory_plans.tags,factory_plans,Tags
+factory_plans.tags_hint,factory_plans,Select up to 3 tags
+factory_plans.this_month,factory_plans,This Month
+factory_plans.this_week,factory_plans,This Week
+factory_plans.thumbnail_preview,factory_plans,Thumbnail Preview
+factory_plans.title,factory_plans,AIC Factory Blueprints
+factory_plans.toggle_error,factory_plans,Failed to update visibility
+factory_plans.total_buildings,factory_plans,Total buildings
+factory_plans.update_blueprint,factory_plans,Update Blueprint
+factory_plans.video_guide,factory_plans,Video Guide
+factory_plans.visibility,factory_plans,Visibility
+factory_plans.visibility_private,factory_plans,Private - Only you can see
+factory_plans.visibility_public,factory_plans,Public - Anyone can see
+factory_plans.youtube_url,factory_plans,YouTube Video URL
+factory_plans.youtube_url_hint,factory_plans,Optional video guide
+guides.features_title,guides,Что вы узнаете
+home.ascension_planner_desc,home,Планируйте улучшения персонажей и оружия с отслеживанием материалов
+home.browse_blueprints,home,Browse Community Blueprints
+home.character_builds,home,Сборки Персонажей
+home.character_planner_desc,home,Планируйте прогресс персонажей и ресурсы
+home.character_showcase_desc,home,Делитесь и находите сборки персонажей от сообщества
+home.characters_desc,home,Просмотрите всех персонажей Endfield с полной информацией и обсуждением сообщества
+home.check_out_tools,home,Посмотрите мои инструменты!
+home.codes.copied,home,Скопировано!
+home.codes.copy,home,Копировать код
+home.codes.ends_in,home,Конец через
+home.codes.expired,home,Истёк
+home.codes.how_to_redeem,home,Как активировать: В игре перейдите в [Настройки] > [Платформа и Аккаунт] > [Код обмена]
+home.codes.no_expiration,home,Без срока
+home.codes.tap_to_copy,home,Нажмите для копирования
+home.codes.title,home,Промокоды
+home.coming_soon,home,Скоро
+home.community,home,Сообщество
+home.community_builds_desc,home,Делитесь и изучайте сборки персонажей от сообщества
+home.community_plans_desc,home,Делитесь и изучайте планы фабрик от сообщества
+home.equipment_desc,home,Откройте наборы снаряжения и их бонусы
+home.essences_desc,home,Откройте эссенции оружия и их эффекты
+home.events.ended,home,Завершено
+home.events.ends_in,home,Конец через
+home.events.left,home,осталось
+home.events.not_confirmed,home,Не подтверждено
+home.events.starts_in,home,Начало через
+home.events.title,home,События
+home.factory_blueprints,home,AIC Factory Blueprints
+home.factory_blueprints_desc,home,Browse and share community AIC factory blueprints
+home.factory_planner_desc,home,Планируйте и оптимизируйте планировку фабрики с легкостью
+home.factory_short,home,
+home.factory_simulator,home,Симулятор Фабрики
+home.fun_tools,home,Развлечения и Симуляция
+home.guides_desc,home,Изучайте игровые механики и стратегии с помощью комплексных руководств
+home.headhunt_tracker_desc,home,Отслеживайте ваши призывы и счетчик гарантии
+home.interactive_map_desc,home,Исследуйте мир с помощью интерактивной карты
+home.login_register,home,Войти / Зарегистрироваться
+home.planner_desc,home,Откройте интерактивный планировщик сетки фабрики
+home.planners,home,
+home.popular_builds,home,Популярные Сборки Персонажей
+home.popular_builds_desc,home,Откройте самые популярные сборки персонажей от нашего сообщества
+home.simulators,home,
+home.site_description,home,Лучшая коллекция инструментов и утилит для игроков Arknights: Endfield.
+home.summon_simulator_desc,home,Веселый симулятор гачи с изюминкой: таблица удачи!
+home.toolbox,home,Набор Инструментов
+home.toolbox_desc,home,Изучите нашу коллекцию инструментов и утилит
+home.tools,home,Инструменты
+home.valley_iv_desc,home,Исследуйте регион Valley IV
+home.view_all,home,Посмотреть Все
+home.weapons_desc,home,Изучайте все типы оружия и их характеристики
+home.welcome_to,home,Добро пожаловать в
+home.wuling_desc,home,Исследуйте регион Wuling
+home.your_profile,home,Ваш Профиль
+map.activate,map,Активировать
+map.amber_rice,map,Янтарный рис
+map.battles,map,Боевые Столкновения
+map.category_battles,map,Боевые встречи
+map.category_chests,map,Сундуки с сокровищами
+map.category_collectibles,map,Коллекционные
+map.category_daily_instances,map,Ежедневные инстансы
+map.category_dungeons,map,Подземелья
+map.category_ether,map,Ресурсы эфира
+map.category_factory,map,Заводские POI
+map.category_mining_formations,map,Месторождения
+map.category_mining_points,map,Точки добычи
+map.category_narrative,map,Фрагменты истории
+map.category_other,map,Прочие POI
+map.category_plants,map,Растительные материалы
+map.category_rare_minerals,map,Редкие минералы
+map.category_terminals,map,Терминалы
+map.category_travel,map,Быстрое путешествие
+map.challenge,map,Испытание
+map.challenge_entrance,map,Вход в испытание
+map.chest,map,Сундук
+map.chest_high_tier,map,Высокоуровневый Сундук
+map.chest_locked,map,Запертый Сундук
+map.chest_normal,map,Обычный Сундук
+map.clear_all,map,Очистить
+map.clear_search,map,Очистить Поиск
+map.click_to_explore,map,Нажмите для Исследования
+map.close,map,Закрыть
+map.collectible,map,Предмет коллекции
+map.collectibles,map,Коллекционные Предметы
+map.communication_terminal,map,Терминал Связи
+map.coordinates,map,Координаты
+map.daily_dungeon,map,Ежедневное Подземелье
+map.dungeon,map,Подземелье
+map.dungeon_entrance,map,Вход в подземелье
+map.dungeon_exit,map,Выход из подземелья
+map.enemies,map,Враги
+map.enemy_encounter,map,Встреча с врагом
+map.energy_point,map,Точка Энергии
+map.ether_recycle,map,
+map.fast_travel,map,Быстрое Перемещение
+map.fast_travel_point,map,Точка Быстрого Перемещения
+map.feature_battles_desc,map,"Входы в подземелья, точки испытаний и локации боссов"
+map.feature_battles_title,map,Боевые Столкновения
+map.feature_chests_desc,map,"Найдите и отслеживайте все местоположения сундуков - обычные, запертые и высокоуровневые"
+map.feature_chests_title,map,Сундуки с Сокровищами
+map.feature_collectibles_desc,map,"Расположение фрагментов истории, терминалов и точек сбора"
+map.feature_collectibles_title,map,Коллекционные Предметы
+map.feature_filtering_desc,map,"Фильтруйте точки интереса по типу, уровню и региону"
+map.feature_filtering_title,map,Расширенная Фильтрация
+map.feature_filters_desc,map,
+map.feature_filters_title,map,
+map.feature_gathering_desc,map,
+map.feature_gathering_title,map,
+map.feature_mining_desc,map,"Расположение рудных узлов, месторождений и редких минералов"
+map.feature_mining_title,map,Точки Добычи
+map.feature_poi_desc,map,
+map.feature_poi_title,map,
+map.feature_tracking_desc,map,
+map.feature_tracking_title,map,
+map.feature_travel_desc,map,Карта всех точек быстрого перемещения в игре
+map.feature_travel_title,map,Быстрое Перемещение
+map.features_subtitle,map,Отслеживайте все важные локации
+map.features_title,map,Исследуйте Каждый Уголок
+map.filter,map,Фильтр и Поиск
+map.filters,map,Фильтры
+map.glowbug,map,Светящийся жук
+map.hub_area,map,Центральная Зона
+map.interactive_object,map,Интерактивный объект
+map.layer,map,Слой
+map.layers,map,Слои Карты
+map.legend,map,Легенда
+map.level,map,Уровень
+map.level_ranges,map,Диапазоны уровней
+map.loading,map,Загрузка данных карты...
+map.mark_arrow,map,Метка стрелка
+map.mark_fac_unlocker,map,Разблокировщик фабрики
+map.mechanism,map,Механизм
+map.mineral_copper,map,Медь
+map.mineral_iron,map,Железо
+map.mineral_originium,map,Оригиниум
+map.mineral_quartz,map,Кварц
+map.mineral_special_metal,map,Специальный Металл
+map.narrative_fragment,map,Фрагмент
+map.no_results,map,Точки интереса не найдены
+map.poi_details,map,Детали POI
+map.poi_types,map,Типы POI
+map.pois_visible,map,видимых POI
+map.rare_mineral,map,Редкий минерал
+map.rare_prefix,map,Редкий 
+map.reading_terminal,map,Терминал Чтения
+map.recommended_level,map,Рекомендуемый Уровень
+map.redjade_ginseng,map,Красный нефритовый женьшень
+map.reed_rye,map,Тростниковая рожь
+map.region,map,Регион
+map.region_talos_ii,map,Талос II
+map.region_valley_iv,map,Карта Долина IV
+map.region_wuling,map,Карта Улин
+map.report_issues,map,Сообщайте о проблемах и идеях в нашем Discord-сообществе
+map.reset_view,map,Сбросить Вид
+map.rewards,map,Награды
+map.scorchbug,map,Обжигающий жук
+map.search_placeholder,map,Поиск точек интереса...
+map.select_all,map,Все
+map.select_layer,map,Выбрать Слой
+map.select_region,map,Выберите Регион
+map.show_all,map,Показать Все
+map.special_locations,map,Особые Места
+map.terminal,map,Терминал
+map.title,map,Интерактивная Карта
+map.travel_point,map,
+map.type,map,Тип
+map.view_point,map,Обзорная точка
+map.warning_terminal,map,Предупреждающий Терминал
+map.welcome_subtitle,map,"Ваш лучший помощник для исследования Arknights: Endfield. Найдите все сундуки с сокровищами, точки добычи, коллекционные предметы и точки интереса."
+map.wip_message,map,"Интерактивная карта в настоящее время находится в разработке. Присоединяйтесь к нашему сообществу Discord, чтобы сообщить о проблемах или поделиться идеями!"
+map.wip_title,map,В разработке
+map.zoom_in,map,Приблизить
+map.zoom_out,map,Отдалить
+nav.achievement_tracker,nav,
+nav.achievement_tracker_short,nav,
+nav.ascension_planner,nav,Планировщик Прокачки
+nav.character_planner,nav,Планировщик Персонажей
+nav.character_showcase,nav,Витрина Персонажей
+nav.characters,nav,Персонажи
+nav.community_blueprints,nav,Community Blueprints
+nav.community_builds,nav,Сборки Сообщества
+nav.community_plans,nav,Планы Сообщества
+nav.discord,nav,Присоединиться к сообществу
+nav.factory_planner,nav,Планировщик Фабрики
+nav.guides,nav,Руководства
+nav.headhunt_short,nav,
+nav.headhunt_tracker,nav,Трекер Рекрутинга
+nav.home,nav,Главная
+nav.interactive_map,nav,Интерактивная Карта
+nav.planner,nav,Планировщик
+nav.profile,nav,Профиль
+nav.recipes,nav,Рецепты
+nav.summon_simulator,nav,Симулятор Призыва
+nav.weapon_essence_solver,nav,Essence Solver
+nav.weapon_essences,nav,Сущности оружия
+nav.weapons,nav,Оружие
+notification.deleted,notification,Успешно удалено
+notification.error,notification,Произошла ошибка
+notification.loaded,notification,Успешно загружено
+notification.saved,notification,Успешно сохранено
+reactions.authentication_required,reactions,Требуется Аутентификация
+reactions.dislike,reactions,Не нравится
+reactions.like,reactions,Нравится
+reactions.login_required,reactions,"Пожалуйста, войдите, чтобы реагировать на этот контент."
+summon.amazing_pull,summon,Потрясающий призыв! Вы получили {count} шестизвёздных! Это может быть первое место! Отправить в таблицу лидеров?
+summon.amazing_pull_prompt,summon,Потрясающий призыв! Вы получили {count} шестизвёздных! Отправить в таблицу лидеров?
+summon.animation_in_progress,summon,Анимация в процессе...
+summon.auth_error,summon,"Ошибка аутентификации. Пожалуйста, войдите снова."
+summon.average,summon,Средний
+summon.average_joe,summon,Обычный Парень
+summon.average_rarity,summon,Средняя Редкость
+summon.average_title,summon,"Идеально сбалансировано, как и должно быть."
+summon.base_six_star_rate,summon,Базовый шанс 6★: {rate}%
+summon.best_session,summon,Лучшая 10-кратная сессия:
+summon.better_five_star,summon,Лучший результат! Ваши {count} пятизвёздных превзошли предыдущий лучший результат {previous}! Отправить в таблицу лидеров?
+summon.better_score,summon,Лучший результат! Ваш счёт {current} превзошёл предыдущий лучший результат {previous}! Отправить в таблицу лидеров?
+summon.blessed_by_rng,summon,Благословлён ГСЧ
+summon.blessed_title,summon,Вас коснулась удача!
+summon.character_collection,summon,Коллекция Персонажей
+summon.character_pool,summon,Пул Персонажей
+summon.characters_available,summon,{count} персонажей доступно
+summon.collection_progress,summon,Коллекция:
+summon.collection_ratio,summon,{current} / {total} персонажей
+summon.complete_character_list,summon,Полный список доступных персонажей с индивидуальными шансами выпадения
+summon.counted_message,summon,Ваши результаты призывов будут учитываться в таблице лидеров. Соревнуйтесь за роль Короля Холма!
+summon.counter_resets,summon,Счётчик сбрасывается при получении любого 5★ или 6★
+summon.current_pity_counter,summon,Текущий Счётчик Гарантии:
+summon.current_rate,summon,Текущий шанс: {rate}%
+summon.current_rate_with_bonus,summon,Текущий шанс: {rate}% (+{bonus}% бонус)
+summon.current_six_star_rate,summon,Текущий Шанс 6★
+summon.cursed_by_rng,summon,Проклят ГСЧ
+summon.cursed_title,summon,Боги гачи испытывают вас...
+summon.description,summon,"Удовлетворите свою зависимость от гачи! Бросайте кости и гонитесь за неуловимыми 6★ персонажами с реалистичными шансами выпадения. ""Ещё один десятикратный призыв, клянусь!"""
+summon.discord_linked,summon,"Discord связан - Вы получите роль, если выиграете!"
+summon.discord_warning,summon,"Вы всё ещё можете отправить в таблицу лидеров, но не получите роль, если выиграете без связанного Discord!"
+summon.download_image,summon,Скачать Изображение
+summon.drop_rates,summon,Шансы Призыва
+summon.drop_rates_by_rarity,summon,Шансы Выпадения по Редкости
+summon.each_rate,summon,~{rate}% каждый
+summon.expected_rate,summon,Ожидаемо: {rate}%
+summon.first_six_star,summon,Первый 6★ на:
+summon.first_six_star_pulls,summon,{count} призывах
+summon.five_star_guarantee,summon,Система Гарантии 5★
+summon.five_star_pity_counter,summon,Счётчик Гарантии 5★
+summon.five_star_rate,summon,Шанс 5★
+summon.four_star_rate,summon,Шанс 4★
+summon.fun_stats,summon,Забавная Статистика
+summon.gacha_hell,summon,Гача Ад
+summon.gacha_hell_title,summon,Пусть ваша удача скоро улучшится...
+summon.generating_image,summon,Генерация изображения...
+summon.guaranteed_at,summon,Гарантированный 6★ на {threshold} призыве
+summon.guaranteed_five_star,summon,Гарантированный 5★ или выше каждые {threshold} призывов без получения 5★+
+summon.individual_character_rates,summon,Индивидуальные Шансы Персонажей
+summon.leaderboard_description,summon,Топ-10 лучших призывов недели (сбрасывается каждый понедельник)
+summon.leaderboard_discord_reward,summon,"Игрок #1 получает роль ""Король Холма"" на Discord {site}!"
+summon.leaderboard_title,summon,Еженедельная Таблица Лидеров
+summon.least_pulled_character,summon,Реже Всего Выпавший Персонаж
+summon.least_pulled_six_star,summon,Реже Всего Выпавший 6★
+summon.legendary_luck,summon,Легендарная Удача
+summon.legendary_title,summon,Боги ГСЧ улыбаются вам!
+summon.link_discord_profile,summon,"Свяжите свой аккаунт Discord в профиле, чтобы получить роль!"
+summon.link_discord_reminder,summon,"Не забудьте связать свой аккаунт Discord, чтобы получить роль!"
+summon.loading_leaderboard,summon,Загрузка таблицы лидеров...
+summon.logged_in,summon,Вы вошли
+summon.login_to_save,summon,"Войдите, чтобы сохранить результаты"
+summon.lucky,summon,Везучий!
+summon.lucky_charm,summon,Талисман Удачи
+summon.lucky_title,summon,Удача благоволит смелым!
+summon.most_pulled_character,summon,Чаще Всего Выпавший Персонаж
+summon.most_pulled_six_star,summon,Чаще Всего Выпавший 6★
+summon.new_record,summon,Новый рекорд! Ваши {count} шестизвёздных превзошли предыдущий лучший результат {previous}! Отправить в таблицу лидеров?
+summon.new_record_submitted,summon,Новый рекорд! Ваш счёт {score} отправлен в таблицу лидеров!
+summon.next_guaranteed,summon,Следующий призыв гарантирует 5★ или выше!
+summon.next_guarantees_five_star,summon,Следующий призыв гарантирует 5★ или выше!
+summon.next_guarantees_six_star,summon,Следующий призыв гарантирует 6★!
+summon.nice_pull,summon,Хороший Призыв!
+summon.no_history,summon,"Пока нет истории призывов. Выполните свой первый призыв, чтобы увидеть результаты здесь!"
+summon.not_counted_warning,summon,Ваши результаты призывов не будут учитываться в таблице лидеров.
+summon.not_logged_in,summon,Вы не вошли
+summon.not_logged_in_message,summon,"Жаль, что вы не были авторизованы! Этот призыв мог бы попасть в топ-10."
+summon.not_owned,summon,Не получен
+summon.novice_description,summon,"Выполните свой первый призыв, чтобы увидеть статистику!"
+summon.novice_summoner,summon,Новичок-Призыватель
+summon.on_leaderboard,summon,#{placement} в таблице лидеров
+summon.owned_count,summon,{count}×
+summon.perform_10x,summon,Выполнить 10-кратный Призыв/Рекрутинг
+summon.pity_active,summon,Система гарантии активна! +{bonus}% бонусный шанс
+summon.pity_active_bonus,summon,Гарантия активна: +{bonus}% бонус
+summon.pity_bonus,summon,Бонус Гарантии
+summon.pity_counter,summon,Счётчик Гарантии
+summon.pity_resets,summon,Гарантия полностью сбрасывается при получении 6★
+summon.pity_starts_at,summon,Гарантия начинается с {threshold} призывов: +{increase}% за призыв
+summon.pity_system,summon,Система Гарантии (6★)
+summon.pool_description,summon,"Просмотрите всех доступных персонажей в пуле призыва, организованных по редкости"
+summon.profile_error,summon,"Профиль не загружен. Пожалуйста, попробуйте снова."
+summon.pulled_count,summon,Получено {count}
+summon.pulled_times,summon,Получено {count} раз
+summon.pulls_until_guaranteed_five_star,summon,Призывов до гарантированного 5★
+summon.rarity_breakdown,summon,Разбивка по Редкости
+summon.rate,summon,{rate}% шанс
+summon.recent_description,summon,Ваши последние результаты 10-кратного призыва/рекрутинга
+summon.recent_summons,summon,Недавние Призывы
+summon.record_beaten,summon,Новый рекорд! Ваш счёт {current} превзошёл предыдущий лучший результат {previous}!
+summon.record_holder,summon,РЕКОРДСМЕН
+summon.reset_confirm,summon,"Вы уверены, что хотите сбросить всю статистику призывов/рекрутинга? Это действие нельзя отменить."
+summon.reset_stats,summon,Сбросить Всю Статистику
+summon.reset_warning,summon,Это навсегда удалит всю вашу историю призывов
+summon.result_preview,summon,Предпросмотр результата призыва/рекрутинга
+summon.session_preview,summon,Предпросмотр сессии призыва/рекрутинга
+summon.share_result,summon,Поделиться Результатом Призыва/Рекрутинга
+summon.share_session,summon,Поделиться Сессией Призыва/Рекрутинга
+summon.six_star_rate,summon,Шанс 6★
+summon.six_star_resets_counter,summon,Получение 6★ также сбрасывает этот счётчик
+summon.six_stars_count,summon,{count} шестизвёздных
+summon.slightly_unlucky,summon,Немного Невезучий
+summon.slightly_unlucky_title,summon,Могло быть и лучше...
+summon.star_characters,summon,{rarity}-Звёздные Персонажи
+summon.stats_description,summon,"Отслеживайте свой путь в гаче и узнайте, насколько вам везёт!"
+summon.stats_title,summon,Ваша Статистика Призывов
+summon.submit,summon,Отправить в Таблицу Лидеров
+summon.submit_failed,summon,"Не удалось отправить в таблицу лидеров. Пожалуйста, попробуйте снова."
+summon.submit_qualifier,summon,Ваш результат призыва подходит для таблицы лидеров!
+summon.submit_success,summon,Ваш результат призыва отправлен в таблицу лидеров!
+summon.submit_to_leaderboard,summon,Отправить в Таблицу Лидеров?
+summon.submitting,summon,Отправка...
+summon.summoned_on,summon,Призвано на {site}
+summon.summoning,summon,Призыв/Рекрутинг 10 Персонажей...
+summon.summons_until_guaranteed,summon,{count} призывов до гарантированного 5★!
+summon.summons_without_five_star,summon,Призывов без 5★+:
+summon.summons_without_five_star_plus,summon,Призывов без 5★+
+summon.table_character,summon,Персонаж
+summon.table_drop_rate,summon,Шанс Выпадения
+summon.table_profession,summon,Профессия
+summon.table_rarity,summon,Редкость
+summon.table_type,summon,Тип
+summon.title,summon,Симулятор Призыва/Рекрутинга
+summon.total_pulls,summon,Всего Призывов
+summon.total_value,summon,Общая Ценность
+summon.unique_characters,summon,Уникальных Персонажей
+summon.unlucky,summon,Невезучий
+summon.very_lucky,summon,ОЧЕНЬ ВЕЗУЧИЙ!
+summon.very_unlucky,summon,ОЧЕНЬ НЕВЕЗУЧИЙ
+summon.view_profile,summon,Посмотреть ваш профиль
+summon.warning_until_guaranteed,summon,{count} призывов до гарантированного 5★!
+summon.your_stats,summon,Ваша Статистика
+theme.dark,theme,Тёмная
+theme.dark_desc,theme,Тёмная тема Endfield tools
+theme.high_contrast,theme,Высокий Контраст
+theme.light,theme,Светлая
+theme.light_desc,theme,Светлая тема Endfield tools
+theme.navy,theme,Синяя
+weapons.attack,weapons,Атака
+weapons.attack_growth,weapons,Рост Атаки
+weapons.attack_stats,weapons,Характеристики Атаки
+weapons.best_characters,weapons,Лучшие Персонажи для Экипировки
+weapons.best_weapons,weapons,Лучшее Оружие
+weapons.breakthrough,weapons,Прорыв
+weapons.breakthrough_level,weapons,Уровень Прорыва
+weapons.compatible_characters,weapons,Совместимые Персонажи
+weapons.compatible_characters_desc,weapons,Это оружие может быть экипировано персонажами с таким же типом оружия.
+weapons.compatible_weapons,weapons,Совместимое оружие
+weapons.description,weapons,Описание
+weapons.effects,weapons,Эффекты
+weapons.level_up_requirements,weapons,Требования для Повышения Уровня
+weapons.max_level,weapons,Максимальный Уровень
+weapons.no_skills,weapons,Нет данных о навыках
+weapons.passive_attribute,weapons,Пассивная Характеристика
+weapons.potential_skill,weapons,Навык Потенциала
+weapons.results,weapons,оружие найдено
+weapons.search,weapons,Поиск оружия...
+weapons.skill_level,weapons,Уровень
+weapons.skill_levels_unlocked,weapons,Разблокированные Уровни Навыков
+weapons.skills,weapons,Навыки
+weapons.skills_talents,weapons,Навыки и Таланты
+weapons.special_attribute,weapons,Специальная Характеристика
+weapons.stage,weapons,Этап {stage}
+weapons.stat_increase,weapons,Увеличение Характеристик
+weapons.view_compatible_characters,weapons,Просмотреть Совместимых Персонажей

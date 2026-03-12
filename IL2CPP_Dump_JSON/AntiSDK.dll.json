@@ -1,0 +1,80 @@
+{
+  "class_count": 2,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "AntiSDKLib",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "GAME_ID",
+          "offset": 0,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetConst",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.String"
+            },
+            {
+              "name": "b",
+              "type": "System.Int32"
+            },
+            {
+              "name": "c",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TestFrom",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.String"
+            },
+            {
+              "name": "b",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_isInterfaceDisabled",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "AntiSDK",
+      "namespace": "Beyond.SDK",
+      "type_token": 33554434
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "AntiSDK.dll"
+}

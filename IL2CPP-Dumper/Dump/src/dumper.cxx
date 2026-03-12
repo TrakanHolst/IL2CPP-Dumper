@@ -5,6 +5,9 @@
 #include <map>
 #include <iomanip>
 #include <algorithm>
+#include <nlohmann/json.hpp>
+
+using json = nlohmann::json;
 
 
 Dumper::Dumper( ) {
@@ -49,7 +52,8 @@ void Dumper::DumpAssembly( const Il2CppImage & img, bool aiMode ) {
     std::replace( safeName.begin( ), safeName.end( ), '.', '_' );
     std::replace( safeName.begin( ), safeName.end( ), '-', '_' );
 
-    std::string folder = aiMode ? "C:\\IL2CPP_Dump_AI\\" : "C:\\IL2CPP_Dump_Normal\\";
+    std::string baseDir = GetModuleDirectory( );
+    std::string folder = aiMode ? baseDir + "\\IL2CPP_Dump_AI\\" : baseDir + "\\IL2CPP_Dump_Normal\\";
     EnsureDirectory( folder );
 
     std::string filename = folder + asmName + ".cs";
@@ -217,9 +221,115 @@ void Dumper::DumpAssembly( const Il2CppImage & img, bool aiMode ) {
 }
 
 
+void Dumper::DumpAssemblyJSON( const Il2CppImage & img ) {
+    std::string asmName = img.GetName( );
+
+    std::string baseDir = GetModuleDirectory( );
+    std::string folder = baseDir + "\\IL2CPP_Dump_JSON\\";
+    EnsureDirectory( folder );
+
+    std::string filename = folder + asmName + ".json";
+
+    json assembly;
+    assembly["name"] = asmName;
+    assembly["class_count"] = img.GetClassCount( );
+    assembly["dump_date"] = std::string( __DATE__ ) + " " + __TIME__;
+    assembly["classes"] = json::array( );
+
+    for ( size_t i = 0; i < img.GetClassCount( ); ++i ) {
+        auto cls = img.GetClassByIndex( i );
+        if ( !cls.klass ) continue;
+
+        std::string name = cls.GetName( );
+        if ( name.find( '<' ) != std::string::npos ) continue;  // skip generics
+
+        json classObj;
+        classObj["name"] = name;
+        classObj["namespace"] = cls.GetNamespace( );
+        classObj["type_token"] = cls.GetTypeToken( );
+        classObj["is_interface"] = cls.IsInterface( );
+        classObj["is_value_type"] = cls.IsValueType( );
+
+        // Add parent class
+        auto parent = cls.GetParent( );
+        if ( parent.klass ) {
+            std::string pn = parent.GetName( );
+            if ( pn != "Object" && pn != "ValueType" && pn != "Enum" ) {
+                classObj["parent"] = pn;
+            }
+        }
+
+        // Add interfaces
+        auto interfaces = cls.GetInterfaces( );
+        if ( !interfaces.empty( ) ) {
+            classObj["interfaces"] = json::array( );
+            for ( const auto & iface : interfaces ) {
+                classObj["interfaces"].push_back( iface.GetName( ) );
+            }
+        }
+
+        // Add fields
+        classObj["fields"] = json::array( );
+        for ( const auto & f : cls.GetFields( ) ) {
+            uint32_t ff; std::string ft, fn; int32_t off;
+            std::tie( ff, ft, fn, off ) = f;
+
+            json field;
+            field["name"] = fn;
+            field["type"] = ft;
+            field["offset"] = off;
+            field["access"] = GetAccessModifier( ff );
+            field["is_static"] = ( ff & 0x0010 ) != 0;
+            field["is_readonly"] = ( ff & 0x0020 ) != 0;
+
+            classObj["fields"].push_back( field );
+        }
+
+        // Add methods
+        classObj["methods"] = json::array( );
+        for ( const auto & m : cls.GetMethods( ) ) {
+            uint32_t mf; std::string rt, mn; std::vector<Il2CppClass::ParamInfo> ps;
+            std::tie( mf, rt, mn, ps ) = m;
+
+            json method;
+            method["name"] = mn;
+            method["return_type"] = rt;
+            method["access"] = GetAccessModifier( mf );
+            method["is_static"] = ( mf & 0x0010 ) != 0;
+            method["is_virtual"] = ( mf & 0x0040 ) != 0;
+
+            // Add parameters
+            method["parameters"] = json::array( );
+            for ( const auto & param : ps ) {
+                json p;
+                p["type"] = param.first;
+                p["name"] = param.second;
+                method["parameters"].push_back( p );
+            }
+
+            classObj["methods"].push_back( method );
+        }
+
+        assembly["classes"].push_back( classObj );
+    }
+
+    std::ofstream out( filename );
+    if ( out.is_open( ) ) {
+        out << assembly.dump( 2 );  // Pretty print with 2-space indentation
+        out.close( );
+        Log( "Saved -> " + filename + "  [JSON mode]" );
+    } else {
+        Log( "Failed to open: " + filename );
+    }
+}
+
+
 void Dumper::DumpAllToFiles( ) {
-    EnsureDirectory( "C:\\IL2CPP_Dump_Normal" );
-    EnsureDirectory( "C:\\IL2CPP_Dump_AI" );
+    std::string baseDir = GetModuleDirectory( );
+
+    EnsureDirectory( baseDir + "\\IL2CPP_Dump_Normal" );
+    EnsureDirectory( baseDir + "\\IL2CPP_Dump_AI" );
+    EnsureDirectory( baseDir + "\\IL2CPP_Dump_JSON" );
 
     for ( const auto & img : images ) {
         std::string name = img.GetName( );
@@ -227,10 +337,12 @@ void Dumper::DumpAllToFiles( ) {
 
         DumpAssembly( img, false );
         DumpAssembly( img, true );
+        DumpAssemblyJSON( img );
     }
 
     Log( "\nDone!" );
-    Log( "  Normal (C#):     C:\\IL2CPP_Dump_Normal\\" );
-    Log( "  AI-friendly:     C:\\IL2CPP_Dump_AI\\" );
+    Log( "  Normal (C#):     " + baseDir + "\\IL2CPP_Dump_Normal\\" );
+    Log( "  AI-friendly:     " + baseDir + "\\IL2CPP_Dump_AI\\" );
+    Log( "  JSON:            " + baseDir + "\\IL2CPP_Dump_JSON\\" );
     Log( "" );
 }

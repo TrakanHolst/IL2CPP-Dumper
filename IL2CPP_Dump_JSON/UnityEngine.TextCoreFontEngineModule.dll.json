@@ -1,0 +1,2784 @@
+{
+  "class_count": 18,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_FaceIndex",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_FamilyName",
+          "offset": 24,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_StyleName",
+          "offset": 32,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_PointSize",
+          "offset": 40,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Scale",
+          "offset": 44,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_UnitsPerEM",
+          "offset": 48,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_LineHeight",
+          "offset": 52,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_AscentLine",
+          "offset": 56,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_CapLine",
+          "offset": 60,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_MeanLine",
+          "offset": 64,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Baseline",
+          "offset": 68,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_DescentLine",
+          "offset": 72,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_SuperscriptOffset",
+          "offset": 76,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_SuperscriptSize",
+          "offset": 80,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_SubscriptOffset",
+          "offset": 84,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_SubscriptSize",
+          "offset": 88,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_UnderlineOffset",
+          "offset": 92,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_UnderlineThickness",
+          "offset": 96,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_StrikethroughOffset",
+          "offset": 100,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_StrikethroughThickness",
+          "offset": 104,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_TabWidth",
+          "offset": 108,
+          "type": "System.Single"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_faceIndex",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_familyName",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_familyName",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_styleName",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_styleName",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_pointSize",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_pointSize",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_scale",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_scale",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_lineHeight",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_lineHeight",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ascentLine",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_ascentLine",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_capLine",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_capLine",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_meanLine",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_meanLine",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_baseline",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_baseline",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_descentLine",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_descentLine",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_superscriptOffset",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_superscriptOffset",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_superscriptSize",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_superscriptSize",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_subscriptOffset",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_subscriptOffset",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_subscriptSize",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_subscriptSize",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_underlineOffset",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_underlineOffset",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_underlineThickness",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_underlineThickness",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_strikethroughOffset",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_strikethroughOffset",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_strikethroughThickness",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_tabWidth",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_tabWidth",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "FaceInfo",
+      "namespace": "UnityEngine.TextCore",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Undefined",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.GlyphClassDefinitionType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Base",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.GlyphClassDefinitionType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Ligature",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.GlyphClassDefinitionType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Mark",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.GlyphClassDefinitionType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Component",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.GlyphClassDefinitionType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "GlyphClassDefinitionType",
+      "namespace": "UnityEngine.TextCore",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_X",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Y",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Width",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Height",
+          "offset": 28,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "s_ZeroGlyphRect",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.GlyphRect"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_x",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_y",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_width",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_height",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_zero",
+          "parameters": [],
+          "return_type": "UnityEngine.TextCore.GlyphRect"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Int32"
+            },
+            {
+              "name": "y",
+              "type": "System.Int32"
+            },
+            {
+              "name": "width",
+              "type": "System.Int32"
+            },
+            {
+              "name": "height",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.TextCore.GlyphRect"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "GlyphRect",
+      "namespace": "UnityEngine.TextCore",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Width",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Height",
+          "offset": 20,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_HorizontalBearingX",
+          "offset": 24,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_HorizontalBearingY",
+          "offset": 28,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_HorizontalAdvance",
+          "offset": 32,
+          "type": "System.Single"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_width",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_height",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_horizontalBearingX",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_horizontalBearingY",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_horizontalAdvance",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "width",
+              "type": "System.Single"
+            },
+            {
+              "name": "height",
+              "type": "System.Single"
+            },
+            {
+              "name": "bearingX",
+              "type": "System.Single"
+            },
+            {
+              "name": "bearingY",
+              "type": "System.Single"
+            },
+            {
+              "name": "advance",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.TextCore.GlyphMetrics"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "GlyphMetrics",
+      "namespace": "UnityEngine.TextCore",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Index",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Metrics",
+          "offset": 20,
+          "type": "UnityEngine.TextCore.GlyphMetrics"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_GlyphRect",
+          "offset": 40,
+          "type": "UnityEngine.TextCore.GlyphRect"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Scale",
+          "offset": 56,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_AtlasIndex",
+          "offset": 60,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_ClassDefinitionType",
+          "offset": 64,
+          "type": "UnityEngine.TextCore.GlyphClassDefinitionType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_index",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_index",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_metrics",
+          "parameters": [],
+          "return_type": "UnityEngine.TextCore.GlyphMetrics"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_metrics",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.TextCore.GlyphMetrics"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_glyphRect",
+          "parameters": [],
+          "return_type": "UnityEngine.TextCore.GlyphRect"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_glyphRect",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.TextCore.GlyphRect"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_scale",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_scale",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_atlasIndex",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_atlasIndex",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "glyphStruct",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "metrics",
+              "type": "UnityEngine.TextCore.GlyphMetrics"
+            },
+            {
+              "name": "glyphRect",
+              "type": "UnityEngine.TextCore.GlyphRect"
+            },
+            {
+              "name": "scale",
+              "type": "System.Single"
+            },
+            {
+              "name": "atlasIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Glyph",
+      "namespace": "UnityEngine.TextCore",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LOAD_DEFAULT",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphLoadFlags"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LOAD_NO_SCALE",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphLoadFlags"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LOAD_NO_HINTING",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphLoadFlags"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LOAD_RENDER",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphLoadFlags"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LOAD_NO_BITMAP",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphLoadFlags"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LOAD_FORCE_AUTOHINT",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphLoadFlags"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LOAD_MONOCHROME",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphLoadFlags"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LOAD_NO_AUTOHINT",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphLoadFlags"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LOAD_COLOR",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphLoadFlags"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LOAD_COMPUTE_METRICS",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphLoadFlags"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LOAD_BITMAP_METRICS_ONLY",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphLoadFlags"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "GlyphLoadFlags",
+      "namespace": "UnityEngine.TextCore.LowLevel",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Success",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.FontEngineError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Invalid_File_Path",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.FontEngineError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Invalid_File_Format",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.FontEngineError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Invalid_File_Structure",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.FontEngineError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Invalid_File",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.FontEngineError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Invalid_Table",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.FontEngineError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Invalid_Glyph_Index",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.FontEngineError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Invalid_Character_Code",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.FontEngineError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Invalid_Pixel_Size",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.FontEngineError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Invalid_Library",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.FontEngineError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Invalid_Face",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.FontEngineError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Invalid_Library_or_Face",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.FontEngineError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Atlas_Generation_Cancelled",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.FontEngineError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Invalid_SharedTextureData",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.FontEngineError"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "OpenTypeLayoutLookup_Mismatch",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.FontEngineError"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "FontEngineError",
+      "namespace": "UnityEngine.TextCore.LowLevel",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SMOOTH_HINTED",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphRenderMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SMOOTH",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphRenderMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "COLOR_HINTED",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphRenderMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "COLOR",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphRenderMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "RASTER_HINTED",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphRenderMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "RASTER",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphRenderMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SDF",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphRenderMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SDF8",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphRenderMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SDF16",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphRenderMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SDF32",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphRenderMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SDFAA_HINTED",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphRenderMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SDFAA",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphRenderMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "GlyphRenderMode",
+      "namespace": "UnityEngine.TextCore.LowLevel",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "BestShortSideFit",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphPackingMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "BestLongSideFit",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphPackingMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "BestAreaFit",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphPackingMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "BottomLeftRule",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphPackingMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ContactPointRule",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphPackingMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "GlyphPackingMode",
+      "namespace": "UnityEngine.TextCore.LowLevel",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "familyName",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "styleName",
+          "offset": 24,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "faceIndex",
+          "offset": 32,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "filePath",
+          "offset": 40,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "FontReference",
+      "namespace": "UnityEngine.TextCore.LowLevel",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_Glyphs",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.Glyph[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_GlyphIndexes_MarshallingArray_A",
+          "offset": 8,
+          "type": "System.UInt32[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_GlyphMarshallingStruct_IN",
+          "offset": 16,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_GlyphMarshallingStruct_OUT",
+          "offset": 24,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_FreeGlyphRects",
+          "offset": 32,
+          "type": "UnityEngine.TextCore.GlyphRect[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_UsedGlyphRects",
+          "offset": 40,
+          "type": "UnityEngine.TextCore.GlyphRect[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_PairAdjustmentRecords_MarshallingArray",
+          "offset": 48,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_GlyphLookupDictionary",
+          "offset": 56,
+          "type": "System.Collections.Generic.Dictionary<System.UInt32,UnityEngine.TextCore.Glyph>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitializeFontEngine",
+          "parameters": [],
+          "return_type": "UnityEngine.TextCore.LowLevel.FontEngineError"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitializeFontEngine_Internal",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadFontFace",
+          "parameters": [
+            {
+              "name": "filePath",
+              "type": "System.String"
+            },
+            {
+              "name": "pointSize",
+              "type": "System.Int32"
+            },
+            {
+              "name": "faceIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.TextCore.LowLevel.FontEngineError"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadFontFace_With_Size_And_FaceIndex_Internal",
+          "parameters": [
+            {
+              "name": "filePath",
+              "type": "System.String"
+            },
+            {
+              "name": "pointSize",
+              "type": "System.Int32"
+            },
+            {
+              "name": "faceIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadFontFace",
+          "parameters": [
+            {
+              "name": "font",
+              "type": "UnityEngine.Font"
+            },
+            {
+              "name": "pointSize",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.TextCore.LowLevel.FontEngineError"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadFontFace_With_Size_FromFont_Internal",
+          "parameters": [
+            {
+              "name": "font",
+              "type": "UnityEngine.Font"
+            },
+            {
+              "name": "pointSize",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadFontFace",
+          "parameters": [
+            {
+              "name": "font",
+              "type": "UnityEngine.Font"
+            },
+            {
+              "name": "pointSize",
+              "type": "System.Int32"
+            },
+            {
+              "name": "faceIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.TextCore.LowLevel.FontEngineError"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadFontFace_With_Size_and_FaceIndex_FromFont_Internal",
+          "parameters": [
+            {
+              "name": "font",
+              "type": "UnityEngine.Font"
+            },
+            {
+              "name": "pointSize",
+              "type": "System.Int32"
+            },
+            {
+              "name": "faceIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadFontFace",
+          "parameters": [
+            {
+              "name": "familyName",
+              "type": "System.String"
+            },
+            {
+              "name": "styleName",
+              "type": "System.String"
+            },
+            {
+              "name": "pointSize",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.TextCore.LowLevel.FontEngineError"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadFontFace_With_Size_by_FamilyName_and_StyleName_Internal",
+          "parameters": [
+            {
+              "name": "familyName",
+              "type": "System.String"
+            },
+            {
+              "name": "styleName",
+              "type": "System.String"
+            },
+            {
+              "name": "pointSize",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryGetSystemFontReference",
+          "parameters": [
+            {
+              "name": "familyName",
+              "type": "System.String"
+            },
+            {
+              "name": "styleName",
+              "type": "System.String"
+            },
+            {
+              "name": "fontRef",
+              "type": "UnityEngine.TextCore.LowLevel.FontReference&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryGetSystemFontReference_Internal",
+          "parameters": [
+            {
+              "name": "familyName",
+              "type": "System.String"
+            },
+            {
+              "name": "styleName",
+              "type": "System.String"
+            },
+            {
+              "name": "fontRef",
+              "type": "UnityEngine.TextCore.LowLevel.FontReference&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetFaceInfo",
+          "parameters": [],
+          "return_type": "UnityEngine.TextCore.FaceInfo"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetFaceInfo_Internal",
+          "parameters": [
+            {
+              "name": "faceInfo",
+              "type": "UnityEngine.TextCore.FaceInfo&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetGlyphIndex",
+          "parameters": [
+            {
+              "name": "unicode",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryGetGlyphWithUnicodeValue",
+          "parameters": [
+            {
+              "name": "unicode",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "flags",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphLoadFlags"
+            },
+            {
+              "name": "glyph",
+              "type": "UnityEngine.TextCore.Glyph&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryGetGlyphWithUnicodeValue_Internal",
+          "parameters": [
+            {
+              "name": "unicode",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "loadFlags",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphLoadFlags"
+            },
+            {
+              "name": "glyphStruct",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryGetGlyphWithIndexValue",
+          "parameters": [
+            {
+              "name": "glyphIndex",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "flags",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphLoadFlags"
+            },
+            {
+              "name": "glyph",
+              "type": "UnityEngine.TextCore.Glyph&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryGetGlyphWithIndexValue_Internal",
+          "parameters": [
+            {
+              "name": "glyphIndex",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "loadFlags",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphLoadFlags"
+            },
+            {
+              "name": "glyphStruct",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetTextureUploadMode",
+          "parameters": [
+            {
+              "name": "shouldUploadImmediately",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryAddGlyphToTexture",
+          "parameters": [
+            {
+              "name": "glyphIndex",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "padding",
+              "type": "System.Int32"
+            },
+            {
+              "name": "packingMode",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphPackingMode"
+            },
+            {
+              "name": "freeGlyphRects",
+              "type": "System.Collections.Generic.List<UnityEngine.TextCore.GlyphRect>"
+            },
+            {
+              "name": "usedGlyphRects",
+              "type": "System.Collections.Generic.List<UnityEngine.TextCore.GlyphRect>"
+            },
+            {
+              "name": "renderMode",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphRenderMode"
+            },
+            {
+              "name": "texture",
+              "type": "UnityEngine.Texture2D"
+            },
+            {
+              "name": "glyph",
+              "type": "UnityEngine.TextCore.Glyph&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryAddGlyphToTexture_Internal",
+          "parameters": [
+            {
+              "name": "glyphIndex",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "padding",
+              "type": "System.Int32"
+            },
+            {
+              "name": "packingMode",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphPackingMode"
+            },
+            {
+              "name": "freeGlyphRects",
+              "type": "UnityEngine.TextCore.GlyphRect[]"
+            },
+            {
+              "name": "freeGlyphRectCount",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "usedGlyphRects",
+              "type": "UnityEngine.TextCore.GlyphRect[]"
+            },
+            {
+              "name": "usedGlyphRectCount",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "renderMode",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphRenderMode"
+            },
+            {
+              "name": "texture",
+              "type": "UnityEngine.Texture2D"
+            },
+            {
+              "name": "glyph",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryAddGlyphsToTexture",
+          "parameters": [
+            {
+              "name": "glyphIndexes",
+              "type": "System.Collections.Generic.List<System.UInt32>"
+            },
+            {
+              "name": "padding",
+              "type": "System.Int32"
+            },
+            {
+              "name": "packingMode",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphPackingMode"
+            },
+            {
+              "name": "freeGlyphRects",
+              "type": "System.Collections.Generic.List<UnityEngine.TextCore.GlyphRect>"
+            },
+            {
+              "name": "usedGlyphRects",
+              "type": "System.Collections.Generic.List<UnityEngine.TextCore.GlyphRect>"
+            },
+            {
+              "name": "renderMode",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphRenderMode"
+            },
+            {
+              "name": "texture",
+              "type": "UnityEngine.Texture2D"
+            },
+            {
+              "name": "glyphs",
+              "type": "UnityEngine.TextCore.Glyph[]&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryAddGlyphsToTexture_Internal",
+          "parameters": [
+            {
+              "name": "glyphIndex",
+              "type": "System.UInt32[]"
+            },
+            {
+              "name": "padding",
+              "type": "System.Int32"
+            },
+            {
+              "name": "packingMode",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphPackingMode"
+            },
+            {
+              "name": "freeGlyphRects",
+              "type": "UnityEngine.TextCore.GlyphRect[]"
+            },
+            {
+              "name": "freeGlyphRectCount",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "usedGlyphRects",
+              "type": "UnityEngine.TextCore.GlyphRect[]"
+            },
+            {
+              "name": "usedGlyphRectCount",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "renderMode",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphRenderMode"
+            },
+            {
+              "name": "texture",
+              "type": "UnityEngine.Texture2D"
+            },
+            {
+              "name": "glyphs",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct[]"
+            },
+            {
+              "name": "glyphCount",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetGlyphPairAdjustmentTable",
+          "parameters": [
+            {
+              "name": "glyphIndexes",
+              "type": "System.UInt32[]"
+            }
+          ],
+          "return_type": "UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetGlyphPairAdjustmentRecords",
+          "parameters": [
+            {
+              "name": "glyphIndexes",
+              "type": "System.Collections.Generic.List<System.UInt32>"
+            },
+            {
+              "name": "recordCount",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopulatePairAdjustmentRecordMarshallingArray_from_KernTable",
+          "parameters": [
+            {
+              "name": "glyphIndexes",
+              "type": "System.UInt32[]"
+            },
+            {
+              "name": "recordCount",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPairAdjustmentRecordsFromMarshallingArray",
+          "parameters": [
+            {
+              "name": "glyphPairAdjustmentRecords",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GenericListToMarshallingArray",
+          "parameters": [
+            {
+              "name": "srcList",
+              "type": "System.Collections.Generic.List<T>&"
+            },
+            {
+              "name": "dstArray",
+              "type": "T[]&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetMarshallingArraySize",
+          "parameters": [
+            {
+              "name": "marshallingArray",
+              "type": "T[]&"
+            },
+            {
+              "name": "recordCount",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ResetAtlasTexture",
+          "parameters": [
+            {
+              "name": "texture",
+              "type": "UnityEngine.Texture2D"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "FontEngine",
+      "namespace": "UnityEngine.TextCore.LowLevel",
+      "type_token": 33554444
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MaxValue",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.Int32"
+            },
+            {
+              "name": "b",
+              "type": "System.Int32"
+            },
+            {
+              "name": "c",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "FontEngineUtilities",
+      "namespace": "UnityEngine.TextCore.LowLevel",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "index",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "metrics",
+          "offset": 20,
+          "type": "UnityEngine.TextCore.GlyphMetrics"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "glyphRect",
+          "offset": 40,
+          "type": "UnityEngine.TextCore.GlyphRect"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "scale",
+          "offset": 56,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "atlasIndex",
+          "offset": 60,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "classDefinitionType",
+          "offset": 64,
+          "type": "UnityEngine.TextCore.GlyphClassDefinitionType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "GlyphMarshallingStruct",
+      "namespace": "UnityEngine.TextCore.LowLevel",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "IgnoreLigatures",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "IgnoreSpacingAdjustments",
+          "offset": 0,
+          "type": "UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "FontFeatureLookupFlags",
+      "namespace": "UnityEngine.TextCore.LowLevel",
+      "type_token": 33554447
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_XPlacement",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_YPlacement",
+          "offset": 20,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_XAdvance",
+          "offset": 24,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_YAdvance",
+          "offset": 28,
+          "type": "System.Single"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_xPlacement",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_yPlacement",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_xAdvance",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_yAdvance",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Addition",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphValueRecord"
+            },
+            {
+              "name": "b",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphValueRecord"
+            }
+          ],
+          "return_type": "UnityEngine.TextCore.LowLevel.GlyphValueRecord"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphValueRecord"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "GlyphValueRecord",
+      "namespace": "UnityEngine.TextCore.LowLevel",
+      "type_token": 33554448
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_GlyphIndex",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_GlyphValueRecord",
+          "offset": 20,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphValueRecord"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_glyphIndex",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_glyphValueRecord",
+          "parameters": [],
+          "return_type": "UnityEngine.TextCore.LowLevel.GlyphValueRecord"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "GlyphAdjustmentRecord",
+      "namespace": "UnityEngine.TextCore.LowLevel",
+      "type_token": 33554449
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_FirstAdjustmentRecord",
+          "offset": 16,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_SecondAdjustmentRecord",
+          "offset": 36,
+          "type": "UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_FeatureLookupFlags",
+          "offset": 56,
+          "type": "UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_firstAdjustmentRecord",
+          "parameters": [],
+          "return_type": "UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_secondAdjustmentRecord",
+          "parameters": [],
+          "return_type": "UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "other",
+              "type": "UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "GlyphPairAdjustmentRecord",
+      "namespace": "UnityEngine.TextCore.LowLevel",
+      "type_token": 33554450
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.TextCoreFontEngineModule.dll"
+}

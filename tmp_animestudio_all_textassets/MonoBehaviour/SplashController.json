@@ -1,0 +1,438 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -8034481675323970330
+  },
+  "m_Name": "",
+  "_initialFadeTime": 0.3,
+  "_regularFadeTime": 0.5,
+  "_showTime": 1.0,
+  "_blackCoverImage": {
+    "m_FileID": 0,
+    "m_PathID": 21
+  },
+  "_splashImage": {
+    "m_FileID": 0,
+    "m_PathID": 18
+  },
+  "_splashConfigsCN": {
+    "splashConfigs": [
+      {
+        "sprite": {
+          "m_FileID": 3,
+          "m_PathID": -6353902165868712979
+        },
+        "blackCoverFadeOut": 0
+      },
+      {
+        "sprite": {
+          "m_FileID": 4,
+          "m_PathID": 2988926935506016964
+        },
+        "blackCoverFadeOut": 1
+      }
+    ],
+    "splashConfigsVNMobile": [],
+    "i18nSplashConfigOverrides": []
+  },
+  "_splashConfigsOS": {
+    "splashConfigs": [
+      {
+        "sprite": {
+          "m_FileID": 5,
+          "m_PathID": -6217068894519718755
+        },
+        "blackCoverFadeOut": 0
+      },
+      {
+        "sprite": {
+          "m_FileID": 6,
+          "m_PathID": -7963412379297079950
+        },
+        "blackCoverFadeOut": 0
+      },
+      {
+        "sprite": {
+          "m_FileID": 7,
+          "m_PathID": 5769846911273063717
+        },
+        "blackCoverFadeOut": 1
+      }
+    ],
+    "splashConfigsVNMobile": [
+      {
+        "sprite": {
+          "m_FileID": 8,
+          "m_PathID": 4319422958438485865
+        },
+        "blackCoverFadeOut": 0
+      },
+      {
+        "sprite": {
+          "m_FileID": 6,
+          "m_PathID": -7963412379297079950
+        },
+        "blackCoverFadeOut": 0
+      },
+      {
+        "sprite": {
+          "m_FileID": 9,
+          "m_PathID": -2045895976379198941
+        },
+        "blackCoverFadeOut": 1
+      }
+    ],
+    "i18nSplashConfigOverrides": [
+      {
+        "envLang": 1,
+        "splashConfigs": [
+          {
+            "sprite": {
+              "m_FileID": 5,
+              "m_PathID": -6217068894519718755
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 6,
+              "m_PathID": -7963412379297079950
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 10,
+              "m_PathID": 3472033534238396922
+            },
+            "blackCoverFadeOut": 1
+          }
+        ]
+      },
+      {
+        "envLang": 2,
+        "splashConfigs": [
+          {
+            "sprite": {
+              "m_FileID": 5,
+              "m_PathID": -6217068894519718755
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 6,
+              "m_PathID": -7963412379297079950
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 11,
+              "m_PathID": -6848748307233818072
+            },
+            "blackCoverFadeOut": 1
+          }
+        ]
+      },
+      {
+        "envLang": 3,
+        "splashConfigs": [
+          {
+            "sprite": {
+              "m_FileID": 5,
+              "m_PathID": -6217068894519718755
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 6,
+              "m_PathID": -7963412379297079950
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 12,
+              "m_PathID": -3246904552978885338
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 13,
+              "m_PathID": 4804574398890244569
+            },
+            "blackCoverFadeOut": 1
+          }
+        ]
+      },
+      {
+        "envLang": 4,
+        "splashConfigs": [
+          {
+            "sprite": {
+              "m_FileID": 14,
+              "m_PathID": -8218142171634728543
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 6,
+              "m_PathID": -7963412379297079950
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 15,
+              "m_PathID": 6927959900284108186
+            },
+            "blackCoverFadeOut": 1
+          }
+        ]
+      },
+      {
+        "envLang": 9,
+        "splashConfigs": [
+          {
+            "sprite": {
+              "m_FileID": 5,
+              "m_PathID": -6217068894519718755
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 6,
+              "m_PathID": -7963412379297079950
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 16,
+              "m_PathID": 4769376639165217307
+            },
+            "blackCoverFadeOut": 1
+          }
+        ]
+      },
+      {
+        "envLang": 5,
+        "splashConfigs": [
+          {
+            "sprite": {
+              "m_FileID": 5,
+              "m_PathID": -6217068894519718755
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 6,
+              "m_PathID": -7963412379297079950
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 17,
+              "m_PathID": 4484432236303862427
+            },
+            "blackCoverFadeOut": 1
+          }
+        ]
+      },
+      {
+        "envLang": 6,
+        "splashConfigs": [
+          {
+            "sprite": {
+              "m_FileID": 5,
+              "m_PathID": -6217068894519718755
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 6,
+              "m_PathID": -7963412379297079950
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 18,
+              "m_PathID": -5052911161342497530
+            },
+            "blackCoverFadeOut": 1
+          }
+        ]
+      },
+      {
+        "envLang": 8,
+        "splashConfigs": [
+          {
+            "sprite": {
+              "m_FileID": 5,
+              "m_PathID": -6217068894519718755
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 6,
+              "m_PathID": -7963412379297079950
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 19,
+              "m_PathID": 4064056164794103030
+            },
+            "blackCoverFadeOut": 1
+          }
+        ]
+      },
+      {
+        "envLang": 7,
+        "splashConfigs": [
+          {
+            "sprite": {
+              "m_FileID": 5,
+              "m_PathID": -6217068894519718755
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 6,
+              "m_PathID": -7963412379297079950
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 20,
+              "m_PathID": 5210151454334316556
+            },
+            "blackCoverFadeOut": 1
+          }
+        ]
+      },
+      {
+        "envLang": 11,
+        "splashConfigs": [
+          {
+            "sprite": {
+              "m_FileID": 5,
+              "m_PathID": -6217068894519718755
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 6,
+              "m_PathID": -7963412379297079950
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 21,
+              "m_PathID": -2060656292284407316
+            },
+            "blackCoverFadeOut": 1
+          }
+        ]
+      },
+      {
+        "envLang": 10,
+        "splashConfigs": [
+          {
+            "sprite": {
+              "m_FileID": 5,
+              "m_PathID": -6217068894519718755
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 6,
+              "m_PathID": -7963412379297079950
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 22,
+              "m_PathID": 6091880445206798296
+            },
+            "blackCoverFadeOut": 1
+          }
+        ]
+      },
+      {
+        "envLang": 12,
+        "splashConfigs": [
+          {
+            "sprite": {
+              "m_FileID": 5,
+              "m_PathID": -6217068894519718755
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 6,
+              "m_PathID": -7963412379297079950
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 23,
+              "m_PathID": -7144430976948122151
+            },
+            "blackCoverFadeOut": 1
+          }
+        ]
+      },
+      {
+        "envLang": 13,
+        "splashConfigs": [
+          {
+            "sprite": {
+              "m_FileID": 5,
+              "m_PathID": -6217068894519718755
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 6,
+              "m_PathID": -7963412379297079950
+            },
+            "blackCoverFadeOut": 0
+          },
+          {
+            "sprite": {
+              "m_FileID": 9,
+              "m_PathID": -2045895976379198941
+            },
+            "blackCoverFadeOut": 1
+          }
+        ]
+      }
+    ]
+  }
+}

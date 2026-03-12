@@ -1,0 +1,132 @@
+{
+  "class_count": 2,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToJsonInternal",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            },
+            {
+              "name": "prettyPrint",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromJsonInternal",
+          "parameters": [
+            {
+              "name": "json",
+              "type": "System.String"
+            },
+            {
+              "name": "objectToOverwrite",
+              "type": "System.Object"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToJson",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToJson",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            },
+            {
+              "name": "prettyPrint",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromJson",
+          "parameters": [
+            {
+              "name": "json",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromJson",
+          "parameters": [
+            {
+              "name": "json",
+              "type": "System.String"
+            },
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FromJsonOverwrite",
+          "parameters": [
+            {
+              "name": "json",
+              "type": "System.String"
+            },
+            {
+              "name": "objectToOverwrite",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "JsonUtility",
+      "namespace": "UnityEngine",
+      "type_token": 33554434
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.JSONSerializeModule.dll"
+}

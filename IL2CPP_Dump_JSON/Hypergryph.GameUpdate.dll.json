@@ -1,0 +1,752 @@
+{
+  "class_count": 9,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "m_callback",
+          "offset": 0,
+          "type": "Hypergryph.SDK.IHGGameUpdateSDKCallback"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "gameObjectName",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "mainThreadContext",
+          "offset": 8,
+          "type": "System.Threading.SynchronizationContext"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_instance",
+          "offset": 16,
+          "type": "Hypergryph.SDK.HGGameUpdateCallback"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Init",
+          "parameters": [
+            {
+              "name": "callback",
+              "type": "Hypergryph.SDK.IHGGameUpdateSDKCallback"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "onLatestGame",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "runInMainTread",
+          "parameters": [
+            {
+              "name": "action",
+              "type": "System.Action"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGGameUpdateCallback",
+      "namespace": "Hypergryph.SDK",
+      "parent": "MonoBehaviour",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "onLatestGame",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IHGGameUpdateSDKCallback",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Init",
+          "parameters": [
+            {
+              "name": "config",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLatestGame",
+          "parameters": [
+            {
+              "name": "onResult",
+              "type": "System.Action<System.String>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Update",
+          "parameters": [
+            {
+              "name": "updateType",
+              "type": "System.Int32"
+            },
+            {
+              "name": "useMobileData",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnableMobileData",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTaskState",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Resume",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CancelAndClear",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Cancel",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Install",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDownloadSpeed",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDownloadedSize",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTotalDownloadSize",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEstimatedDownloadSize",
+          "parameters": [
+            {
+              "name": "updateType",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetNotificationTitle",
+          "parameters": [
+            {
+              "name": "titleConfig",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "IHGGameUpdateSDK",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_gu",
+          "offset": 0,
+          "type": "Hypergryph.SDK.IHGGameUpdateSDK"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "m_callback",
+          "offset": 8,
+          "type": "Hypergryph.SDK.IHGGameUpdateSDKCallback"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "mainThreadContext",
+          "offset": 16,
+          "type": "System.Threading.SynchronizationContext"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_gameUpdateSDK",
+          "parameters": [],
+          "return_type": "Hypergryph.SDK.IHGGameUpdateSDK"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Init",
+          "parameters": [
+            {
+              "name": "config",
+              "type": "System.String"
+            },
+            {
+              "name": "callback",
+              "type": "Hypergryph.SDK.IHGGameUpdateSDKCallback"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLatestGame",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Update",
+          "parameters": [
+            {
+              "name": "updateType",
+              "type": "System.Int32"
+            },
+            {
+              "name": "useMobileData",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnableMobileData",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTaskState",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Resume",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CancelAndClear",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Cancel",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Install",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDownloadSpeed",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDownloadedSize",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTotalDownloadSize",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEstimatedDownloadSize",
+          "parameters": [
+            {
+              "name": "updateType",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetNotificationTitle",
+          "parameters": [
+            {
+              "name": "titleConfig",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "HGGameUpdateSDK",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554439
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IHGGameUpdateSDK"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Init",
+          "parameters": [
+            {
+              "name": "config",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLatestGame",
+          "parameters": [
+            {
+              "name": "onResult",
+              "type": "System.Action<System.String>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Update",
+          "parameters": [
+            {
+              "name": "updateType",
+              "type": "System.Int32"
+            },
+            {
+              "name": "useMobileData",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnableMobileData",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTaskState",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Resume",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CancelAndClear",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Cancel",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Install",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDownloadSpeed",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDownloadedSize",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTotalDownloadSize",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEstimatedDownloadSize",
+          "parameters": [
+            {
+              "name": "updateType",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetNotificationTitle",
+          "parameters": [
+            {
+              "name": "titleConfig",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGGameUpdateSDKPluginDefault",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554441
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Hypergryph.GameUpdate.dll"
+}

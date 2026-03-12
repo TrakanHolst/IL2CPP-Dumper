@@ -1,0 +1,4859 @@
+{
+  "class_count": 30,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "EmbeddedAttribute",
+      "namespace": "Microsoft.CodeAnalysis",
+      "parent": "Attribute",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IsReadOnlyAttribute",
+      "namespace": "System.Runtime.CompilerServices",
+      "parent": "Attribute",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "PathComplete",
+          "offset": 0,
+          "type": "UnityEngine.AI.NavMeshPathStatus"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "PathPartial",
+          "offset": 0,
+          "type": "UnityEngine.AI.NavMeshPathStatus"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "PathInvalid",
+          "offset": 0,
+          "type": "UnityEngine.AI.NavMeshPathStatus"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "PathProcessing",
+          "offset": 0,
+          "type": "UnityEngine.AI.NavMeshPathStatus"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "NavMeshPathStatus",
+      "namespace": "UnityEngine.AI",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Ptr",
+          "offset": 16,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Corners",
+          "offset": 24,
+          "type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Areas",
+          "offset": 32,
+          "type": "System.Int32[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_DividingPos",
+          "offset": 40,
+          "type": "UnityEngine.Vector3[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitializeNavMeshPath",
+          "parameters": [],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DestroyNavMeshPath",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCornersNonAlloc",
+          "parameters": [
+            {
+              "name": "corners",
+              "type": "UnityEngine.Vector3[]"
+            },
+            {
+              "name": "areas",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "dividingPos",
+              "type": "UnityEngine.Vector3[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPolyCount",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculateCornersInternal",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClearCornersInternal",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClearCorners",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculateCorners",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_corners",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_status",
+          "parameters": [],
+          "return_type": "UnityEngine.AI.NavMeshPathStatus"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_needRepath",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_needRepath",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_calcAutoRepath",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "NavMeshPath",
+      "namespace": "UnityEngine.AI",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CollectSources",
+          "parameters": [
+            {
+              "name": "includedWorldBounds",
+              "type": "UnityEngine.Bounds"
+            },
+            {
+              "name": "includedLayerMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "geometry",
+              "type": "UnityEngine.AI.NavMeshCollectGeometry"
+            },
+            {
+              "name": "defaultArea",
+              "type": "System.Int32"
+            },
+            {
+              "name": "markups",
+              "type": "System.Collections.Generic.List<UnityEngine.AI.NavMeshBuildMarkup>"
+            },
+            {
+              "name": "results",
+              "type": "System.Collections.Generic.List<UnityEngine.AI.NavMeshBuildSource>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CollectSources",
+          "parameters": [
+            {
+              "name": "root",
+              "type": "UnityEngine.Transform"
+            },
+            {
+              "name": "includedLayerMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "geometry",
+              "type": "UnityEngine.AI.NavMeshCollectGeometry"
+            },
+            {
+              "name": "defaultArea",
+              "type": "System.Int32"
+            },
+            {
+              "name": "markups",
+              "type": "System.Collections.Generic.List<UnityEngine.AI.NavMeshBuildMarkup>"
+            },
+            {
+              "name": "results",
+              "type": "System.Collections.Generic.List<UnityEngine.AI.NavMeshBuildSource>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CollectSourcesInternal",
+          "parameters": [
+            {
+              "name": "includedLayerMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "includedWorldBounds",
+              "type": "UnityEngine.Bounds"
+            },
+            {
+              "name": "root",
+              "type": "UnityEngine.Transform"
+            },
+            {
+              "name": "useBounds",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "geometry",
+              "type": "UnityEngine.AI.NavMeshCollectGeometry"
+            },
+            {
+              "name": "defaultArea",
+              "type": "System.Int32"
+            },
+            {
+              "name": "markups",
+              "type": "UnityEngine.AI.NavMeshBuildMarkup[]"
+            }
+          ],
+          "return_type": "UnityEngine.AI.NavMeshBuildSource[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CollectSourcesV2",
+          "parameters": [
+            {
+              "name": "includedWorldBounds",
+              "type": "UnityEngine.Bounds"
+            },
+            {
+              "name": "includedLayerMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "defaultArea",
+              "type": "System.Int32"
+            },
+            {
+              "name": "markups",
+              "type": "System.Collections.Generic.List<UnityEngine.AI.NavMeshBuildMarkup>"
+            },
+            {
+              "name": "results",
+              "type": "System.Collections.Generic.List<UnityEngine.AI.NavMeshBuildSource>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CollectSourcesV2Internal",
+          "parameters": [
+            {
+              "name": "includedLayerMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "includedWorldBounds",
+              "type": "UnityEngine.Bounds"
+            },
+            {
+              "name": "defaultArea",
+              "type": "System.Int32"
+            },
+            {
+              "name": "markups",
+              "type": "UnityEngine.AI.NavMeshBuildMarkup[]"
+            }
+          ],
+          "return_type": "UnityEngine.AI.NavMeshBuildSource[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BuildNavMeshData",
+          "parameters": [
+            {
+              "name": "buildSettings",
+              "type": "UnityEngine.AI.NavMeshBuildSettings"
+            },
+            {
+              "name": "sources",
+              "type": "System.Collections.Generic.List<UnityEngine.AI.NavMeshBuildSource>"
+            },
+            {
+              "name": "localBounds",
+              "type": "UnityEngine.Bounds"
+            },
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "rotation",
+              "type": "UnityEngine.Quaternion"
+            },
+            {
+              "name": "useSubJob",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.AI.NavMeshData"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateNavMeshData",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "UnityEngine.AI.NavMeshData"
+            },
+            {
+              "name": "buildSettings",
+              "type": "UnityEngine.AI.NavMeshBuildSettings"
+            },
+            {
+              "name": "sources",
+              "type": "System.Collections.Generic.List<UnityEngine.AI.NavMeshBuildSource>"
+            },
+            {
+              "name": "localBounds",
+              "type": "UnityEngine.Bounds"
+            },
+            {
+              "name": "useSubJob",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateNavMeshDataListInternal",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "UnityEngine.AI.NavMeshData"
+            },
+            {
+              "name": "buildSettings",
+              "type": "UnityEngine.AI.NavMeshBuildSettings"
+            },
+            {
+              "name": "sources",
+              "type": "System.Object"
+            },
+            {
+              "name": "localBounds",
+              "type": "UnityEngine.Bounds"
+            },
+            {
+              "name": "useSubJob",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateNavMeshDataAsync",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "UnityEngine.AI.NavMeshData"
+            },
+            {
+              "name": "buildSettings",
+              "type": "UnityEngine.AI.NavMeshBuildSettings"
+            },
+            {
+              "name": "sources",
+              "type": "System.Collections.Generic.List<UnityEngine.AI.NavMeshBuildSource>"
+            },
+            {
+              "name": "localBounds",
+              "type": "UnityEngine.Bounds"
+            },
+            {
+              "name": "useSubJob",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.AsyncOperation"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateNavMeshDataAsyncListInternal",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "UnityEngine.AI.NavMeshData"
+            },
+            {
+              "name": "buildSettings",
+              "type": "UnityEngine.AI.NavMeshBuildSettings"
+            },
+            {
+              "name": "sources",
+              "type": "System.Object"
+            },
+            {
+              "name": "localBounds",
+              "type": "UnityEngine.Bounds"
+            },
+            {
+              "name": "useSubJob",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.AsyncOperation"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CollectSourcesInternal_Injected",
+          "parameters": [
+            {
+              "name": "includedLayerMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "includedWorldBounds",
+              "type": "UnityEngine.Bounds&"
+            },
+            {
+              "name": "root",
+              "type": "UnityEngine.Transform"
+            },
+            {
+              "name": "useBounds",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "geometry",
+              "type": "UnityEngine.AI.NavMeshCollectGeometry"
+            },
+            {
+              "name": "defaultArea",
+              "type": "System.Int32"
+            },
+            {
+              "name": "markups",
+              "type": "UnityEngine.AI.NavMeshBuildMarkup[]"
+            }
+          ],
+          "return_type": "UnityEngine.AI.NavMeshBuildSource[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CollectSourcesV2Internal_Injected",
+          "parameters": [
+            {
+              "name": "includedLayerMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "includedWorldBounds",
+              "type": "UnityEngine.Bounds&"
+            },
+            {
+              "name": "defaultArea",
+              "type": "System.Int32"
+            },
+            {
+              "name": "markups",
+              "type": "UnityEngine.AI.NavMeshBuildMarkup[]"
+            }
+          ],
+          "return_type": "UnityEngine.AI.NavMeshBuildSource[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateNavMeshDataListInternal_Injected",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "UnityEngine.AI.NavMeshData"
+            },
+            {
+              "name": "buildSettings",
+              "type": "UnityEngine.AI.NavMeshBuildSettings&"
+            },
+            {
+              "name": "sources",
+              "type": "System.Object"
+            },
+            {
+              "name": "localBounds",
+              "type": "UnityEngine.Bounds&"
+            },
+            {
+              "name": "useSubJob",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateNavMeshDataAsyncListInternal_Injected",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "UnityEngine.AI.NavMeshData"
+            },
+            {
+              "name": "buildSettings",
+              "type": "UnityEngine.AI.NavMeshBuildSettings&"
+            },
+            {
+              "name": "sources",
+              "type": "System.Object"
+            },
+            {
+              "name": "localBounds",
+              "type": "UnityEngine.Bounds&"
+            },
+            {
+              "name": "useSubJob",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.AsyncOperation"
+        }
+      ],
+      "name": "NavMeshBuilder",
+      "namespace": "UnityEngine.AI",
+      "type_token": 33554438
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "HGNavMeshAgent",
+      "namespace": "UnityEngine.AI",
+      "parent": "Behaviour",
+      "type_token": 33554439
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "NavMeshAgent",
+      "namespace": "UnityEngine.AI",
+      "parent": "Behaviour",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Capsule",
+          "offset": 0,
+          "type": "UnityEngine.AI.NavMeshObstacleShape"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Box",
+          "offset": 0,
+          "type": "UnityEngine.AI.NavMeshObstacleShape"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Polygon",
+          "offset": 0,
+          "type": "UnityEngine.AI.NavMeshObstacleShape"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "NavMeshObstacleShape",
+      "namespace": "UnityEngine.AI",
+      "type_token": 33554441
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_height",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_height",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_radius",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_radius",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_carving",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_carveOnlyStationary",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_shape",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.AI.NavMeshObstacleShape"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_center",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_center",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_size",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_size",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_ignoredSurfaceID",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_center_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector3&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_center_Injected",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector3&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_size_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Vector3&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_size_Injected",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector3&"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "NavMeshObstacle",
+      "namespace": "UnityEngine.AI",
+      "parent": "Behaviour",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Position",
+          "offset": 16,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Normal",
+          "offset": 28,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Distance",
+          "offset": 40,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Mask",
+          "offset": 44,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Hit",
+          "offset": 48,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_position",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_normal",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_hit",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "NavMeshHit",
+      "namespace": "UnityEngine.AI",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "distance",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "polyRef",
+          "offset": 24,
+          "type": "System.UInt64"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "QueryPolygonInfo",
+      "namespace": "UnityEngine.AI",
+      "type_token": 33554444
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "agentTypeID",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_Create",
+          "parameters": [
+            {
+              "name": "mono",
+              "type": "UnityEngine.AI.NavMeshData"
+            },
+            {
+              "name": "agentTypeID",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sourceBounds",
+          "parameters": [],
+          "return_type": "UnityEngine.Bounds"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_position",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_rotation",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Quaternion"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AppendExtOffMeshLink",
+          "parameters": [
+            {
+              "name": "start",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "end",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "width",
+              "type": "System.Single"
+            },
+            {
+              "name": "bidirectional",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "area",
+              "type": "System.Int32"
+            },
+            {
+              "name": "costModifier",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_AppendExtOffMeshLink",
+          "parameters": [
+            {
+              "name": "startLeft",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "startRight",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "endRight",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "endLeft",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "bidirectional",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "area",
+              "type": "System.Int32"
+            },
+            {
+              "name": "costModifier",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sourceBounds_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Bounds&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_position_Injected",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector3&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_rotation_Injected",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Quaternion&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_AppendExtOffMeshLink_Injected",
+          "parameters": [
+            {
+              "name": "startLeft",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "startRight",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "endRight",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "endLeft",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "bidirectional",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "area",
+              "type": "System.Int32"
+            },
+            {
+              "name": "costModifier",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "NavMeshData",
+      "namespace": "UnityEngine.AI",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<id>k__BackingField",
+          "offset": 16,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_valid",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_id",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_id",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_handleId",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_handleId",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_owner",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "NavMeshDataInstance",
+      "namespace": "UnityEngine.AI",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_IsExt",
+          "offset": 16,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_StartLeft",
+          "offset": 20,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_StartRight",
+          "offset": 32,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_EndRight",
+          "offset": 44,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_EndLeft",
+          "offset": 56,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_CostModifier",
+          "offset": 68,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Bidirectional",
+          "offset": 72,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Area",
+          "offset": 76,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_AgentTypeID",
+          "offset": 80,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_isExt",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_isExt",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_startLeft",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_startLeft",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_startRight",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_startRight",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_endRight",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_endRight",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_endLeft",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_endLeft",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_costModifier",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_costModifier",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_bidirectional",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_bidirectional",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_area",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_area",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_agentTypeID",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_agentTypeID",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "NavMeshLinkData",
+      "namespace": "UnityEngine.AI",
+      "type_token": 33554447
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<id>k__BackingField",
+          "offset": 16,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_valid",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_id",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_id",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_owner",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "NavMeshLinkInstance",
+      "namespace": "UnityEngine.AI",
+      "type_token": 33554448
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "OnNavMeshPreUpdate",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554450
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "surfTileID",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "OnUnloadFinishDelegate",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554451
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "onPreUpdate",
+          "offset": 0,
+          "type": "UnityEngine.AI.NavMesh.OnNavMeshPreUpdate"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "onUnloadFinish",
+          "offset": 8,
+          "type": "UnityEngine.AI.NavMesh.OnUnloadFinishDelegate"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_CallOnNavMeshPreUpdate",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Raycast",
+          "parameters": [
+            {
+              "name": "sourcePosition",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "targetPosition",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "hit",
+              "type": "UnityEngine.AI.NavMeshHit&"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculatePath",
+          "parameters": [
+            {
+              "name": "sourcePosition",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "targetPosition",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "path",
+              "type": "UnityEngine.AI.NavMeshPath"
+            },
+            {
+              "name": "isReserveEnd",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "agentTypeID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "radius",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculatePathInternal",
+          "parameters": [
+            {
+              "name": "sourcePosition",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "targetPosition",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "path",
+              "type": "UnityEngine.AI.NavMeshPath"
+            },
+            {
+              "name": "isReserveEnd",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "agentTypeID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "radius",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FindClosestEdge",
+          "parameters": [
+            {
+              "name": "sourcePosition",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "hit",
+              "type": "UnityEngine.AI.NavMeshHit&"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SamplePosition",
+          "parameters": [
+            {
+              "name": "sourcePosition",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "hit",
+              "type": "UnityEngine.AI.NavMeshHit&"
+            },
+            {
+              "name": "maxDistance",
+              "type": "System.Single"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetAreaFromName",
+          "parameters": [
+            {
+              "name": "areaName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddNavMeshData",
+          "parameters": [
+            {
+              "name": "navMeshData",
+              "type": "UnityEngine.AI.NavMeshData"
+            }
+          ],
+          "return_type": "UnityEngine.AI.NavMeshDataInstance"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddNavMeshData",
+          "parameters": [
+            {
+              "name": "navMeshData",
+              "type": "UnityEngine.AI.NavMeshData"
+            },
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "rotation",
+              "type": "UnityEngine.Quaternion"
+            }
+          ],
+          "return_type": "UnityEngine.AI.NavMeshDataInstance"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateSurfaceTransform",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "UnityEngine.AI.NavMeshDataInstance"
+            },
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "rotation",
+              "type": "UnityEngine.Quaternion"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RemoveNavMeshData",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "UnityEngine.AI.NavMeshDataInstance"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsValidNavMeshDataHandle",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsValidLinkHandle",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InternalSetOwner",
+          "parameters": [
+            {
+              "name": "dataID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "ownerID",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InternalSetLinkOwner",
+          "parameters": [
+            {
+              "name": "linkID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "ownerID",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddNavMeshDataInternal",
+          "parameters": [
+            {
+              "name": "navMeshData",
+              "type": "UnityEngine.AI.NavMeshData"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddNavMeshDataTransformedInternal",
+          "parameters": [
+            {
+              "name": "navMeshData",
+              "type": "UnityEngine.AI.NavMeshData"
+            },
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "rotation",
+              "type": "UnityEngine.Quaternion"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RemoveNavMeshDataInternal",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddLink",
+          "parameters": [
+            {
+              "name": "link",
+              "type": "UnityEngine.AI.NavMeshLinkData"
+            },
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "rotation",
+              "type": "UnityEngine.Quaternion"
+            }
+          ],
+          "return_type": "UnityEngine.AI.NavMeshLinkInstance"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RemoveLink",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "UnityEngine.AI.NavMeshLinkInstance"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddLinkInternal",
+          "parameters": [
+            {
+              "name": "link",
+              "type": "UnityEngine.AI.NavMeshLinkData"
+            },
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "rotation",
+              "type": "UnityEngine.Quaternion"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RemoveLinkInternal",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSettingsByID",
+          "parameters": [
+            {
+              "name": "agentTypeID",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.AI.NavMeshBuildSettings"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSettingsByIndex",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.AI.NavMeshBuildSettings"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateSurfaceTransformInternal",
+          "parameters": [
+            {
+              "name": "surfaceID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "rotation",
+              "type": "UnityEngine.Quaternion"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DetachFromSurface",
+          "parameters": [
+            {
+              "name": "chunkSurfaceId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "builderSurfaceId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "indexX",
+              "type": "System.Int32"
+            },
+            {
+              "name": "indexZ",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetBuilderSurfaceParams",
+          "parameters": [
+            {
+              "name": "surfID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "chunkSize",
+              "type": "System.Single"
+            },
+            {
+              "name": "tileSize",
+              "type": "System.Single"
+            },
+            {
+              "name": "centerX",
+              "type": "System.Single"
+            },
+            {
+              "name": "centerZ",
+              "type": "System.Single"
+            },
+            {
+              "name": "sizeX",
+              "type": "System.Single"
+            },
+            {
+              "name": "sizeZ",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_DetachFromSurface",
+          "parameters": [
+            {
+              "name": "chunkSurfaceId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "builderSurfaceId",
+              "type": "System.Int32"
+            },
+            {
+              "name": "indexX",
+              "type": "System.Int32"
+            },
+            {
+              "name": "indexZ",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_SetBuilderSurfaceParams",
+          "parameters": [
+            {
+              "name": "surfID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "chunkSize",
+              "type": "System.Single"
+            },
+            {
+              "name": "tileSize",
+              "type": "System.Single"
+            },
+            {
+              "name": "centerX",
+              "type": "System.Single"
+            },
+            {
+              "name": "centerZ",
+              "type": "System.Single"
+            },
+            {
+              "name": "sizeX",
+              "type": "System.Single"
+            },
+            {
+              "name": "sizeZ",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "VerticalQueryNearestPolygons",
+          "parameters": [
+            {
+              "name": "start",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "height",
+              "type": "System.Single"
+            },
+            {
+              "name": "nearestPoly",
+              "type": "UnityEngine.AI.QueryPolygonInfo&"
+            },
+            {
+              "name": "agentTypeID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "VerticalQueryNearestPolygons",
+          "parameters": [
+            {
+              "name": "start",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "height",
+              "type": "System.Single"
+            },
+            {
+              "name": "nearestPoly",
+              "type": "UnityEngine.AI.QueryPolygonInfo&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_VerticalQueryNearestPolygons",
+          "parameters": [
+            {
+              "name": "start",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "height",
+              "type": "System.Single"
+            },
+            {
+              "name": "nearestPoly",
+              "type": "UnityEngine.AI.QueryPolygonInfo&"
+            },
+            {
+              "name": "agentTypeID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadDynamicBakeTile",
+          "parameters": [
+            {
+              "name": "navMeshData",
+              "type": "UnityEngine.AI.NavMeshData"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnloadDynamicBakeTile",
+          "parameters": [
+            {
+              "name": "dynamicTileID",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_LoadDynamicBakeTile",
+          "parameters": [
+            {
+              "name": "navMeshData",
+              "type": "UnityEngine.AI.NavMeshData"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_UnloadDynamicBakeTile",
+          "parameters": [
+            {
+              "name": "dynamicTileID",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ModifyVolumeArea",
+          "parameters": [
+            {
+              "name": "center",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+            },
+            {
+              "name": "ext",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+            },
+            {
+              "name": "rotation",
+              "type": "System.Collections.Generic.List<UnityEngine.Quaternion>"
+            },
+            {
+              "name": "area",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ModifyBoxAreaInternal",
+          "parameters": [
+            {
+              "name": "center",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+            },
+            {
+              "name": "ext",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+            },
+            {
+              "name": "rotation",
+              "type": "System.Collections.Generic.List<UnityEngine.Quaternion>"
+            },
+            {
+              "name": "area",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ModifyVolumeArea",
+          "parameters": [
+            {
+              "name": "center",
+              "type": "UnityEngine.Vector3[]"
+            },
+            {
+              "name": "ext",
+              "type": "UnityEngine.Vector3[]"
+            },
+            {
+              "name": "rotation",
+              "type": "UnityEngine.Quaternion[]"
+            },
+            {
+              "name": "area",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ModifyBoxArrayAreaInternal",
+          "parameters": [
+            {
+              "name": "center",
+              "type": "UnityEngine.Vector3[]"
+            },
+            {
+              "name": "ext",
+              "type": "UnityEngine.Vector3[]"
+            },
+            {
+              "name": "rotation",
+              "type": "UnityEngine.Quaternion[]"
+            },
+            {
+              "name": "area",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ModifyVolumeArea",
+          "parameters": [
+            {
+              "name": "verts",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+            },
+            {
+              "name": "hMin",
+              "type": "System.Single"
+            },
+            {
+              "name": "hMax",
+              "type": "System.Single"
+            },
+            {
+              "name": "area",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ModifyPolygonAreaInternal",
+          "parameters": [
+            {
+              "name": "verts",
+              "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+            },
+            {
+              "name": "hMin",
+              "type": "System.Single"
+            },
+            {
+              "name": "hMax",
+              "type": "System.Single"
+            },
+            {
+              "name": "area",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadExtOffMeshLinks",
+          "parameters": [
+            {
+              "name": "surfaceID",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_LoadExtOffMeshLinks",
+          "parameters": [
+            {
+              "name": "surfaceID",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddNavMeshDataAsync",
+          "parameters": [
+            {
+              "name": "surfaceID",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "navMeshData",
+              "type": "UnityEngine.AI.NavMeshData"
+            },
+            {
+              "name": "surfTileID",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "UnityEngine.AsyncOperation"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddNavMeshDataAsyncInternal",
+          "parameters": [
+            {
+              "name": "surfaceID",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "navMeshData",
+              "type": "UnityEngine.AI.NavMeshData"
+            },
+            {
+              "name": "surfTileID",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "UnityEngine.AsyncOperation"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CancelAsyncAdd",
+          "parameters": [
+            {
+              "name": "surfTileID",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_CancelAsyncAdd",
+          "parameters": [
+            {
+              "name": "surfaceID",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnloadDataAsync",
+          "parameters": [
+            {
+              "name": "surfaceID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "surfTileID",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_UnloadDataAsync",
+          "parameters": [
+            {
+              "name": "surfaceID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "surfTileID",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_InvokeOnUnloadFinish",
+          "parameters": [
+            {
+              "name": "surfTileID",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsSurfaceUnloading",
+          "parameters": [
+            {
+              "name": "surfTileID",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_IsSurfaceUnloading",
+          "parameters": [
+            {
+              "name": "surfTileID",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ForceClearUnloadDataRequest",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_ForceClearUnloadDataRequest",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculatePathAsync",
+          "parameters": [
+            {
+              "name": "sourcePosition",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "targetPosition",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "path",
+              "type": "UnityEngine.AI.NavMeshPath"
+            },
+            {
+              "name": "isReserveEnd",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "agentTypeID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "radius",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculatePathAsyncInternal",
+          "parameters": [
+            {
+              "name": "sourcePosition",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "targetPosition",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "path",
+              "type": "UnityEngine.AI.NavMeshPath"
+            },
+            {
+              "name": "isReserveEnd",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "agentTypeID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "radius",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetFindPathMaxIterPerFrame",
+          "parameters": [
+            {
+              "name": "maxIterPerFrame",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_SetFindPathMaxIterPerFrame",
+          "parameters": [
+            {
+              "name": "maxIterPerFrame",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CancelAsyncCalculatePath",
+          "parameters": [
+            {
+              "name": "path",
+              "type": "UnityEngine.AI.NavMeshPath"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_CancelAsyncCalculatePath",
+          "parameters": [
+            {
+              "name": "path",
+              "type": "UnityEngine.AI.NavMeshPath"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RegisterAutoRepath",
+          "parameters": [
+            {
+              "name": "path",
+              "type": "UnityEngine.AI.NavMeshPath"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_RegisterAutoRepath",
+          "parameters": [
+            {
+              "name": "path",
+              "type": "UnityEngine.AI.NavMeshPath"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnregisterAutoRepath",
+          "parameters": [
+            {
+              "name": "path",
+              "type": "UnityEngine.AI.NavMeshPath"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_UnregisterAutoRepath",
+          "parameters": [
+            {
+              "name": "path",
+              "type": "UnityEngine.AI.NavMeshPath"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Raycast_Injected",
+          "parameters": [
+            {
+              "name": "sourcePosition",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "targetPosition",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "hit",
+              "type": "UnityEngine.AI.NavMeshHit&"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculatePathInternal_Injected",
+          "parameters": [
+            {
+              "name": "sourcePosition",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "targetPosition",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "path",
+              "type": "UnityEngine.AI.NavMeshPath"
+            },
+            {
+              "name": "isReserveEnd",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "agentTypeID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "radius",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FindClosestEdge_Injected",
+          "parameters": [
+            {
+              "name": "sourcePosition",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "hit",
+              "type": "UnityEngine.AI.NavMeshHit&"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SamplePosition_Injected",
+          "parameters": [
+            {
+              "name": "sourcePosition",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "hit",
+              "type": "UnityEngine.AI.NavMeshHit&"
+            },
+            {
+              "name": "maxDistance",
+              "type": "System.Single"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddNavMeshDataTransformedInternal_Injected",
+          "parameters": [
+            {
+              "name": "navMeshData",
+              "type": "UnityEngine.AI.NavMeshData"
+            },
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "rotation",
+              "type": "UnityEngine.Quaternion&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddLinkInternal_Injected",
+          "parameters": [
+            {
+              "name": "link",
+              "type": "UnityEngine.AI.NavMeshLinkData&"
+            },
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "rotation",
+              "type": "UnityEngine.Quaternion&"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSettingsByID_Injected",
+          "parameters": [
+            {
+              "name": "agentTypeID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "ret",
+              "type": "UnityEngine.AI.NavMeshBuildSettings&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSettingsByIndex_Injected",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            },
+            {
+              "name": "ret",
+              "type": "UnityEngine.AI.NavMeshBuildSettings&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateSurfaceTransformInternal_Injected",
+          "parameters": [
+            {
+              "name": "surfaceID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "rotation",
+              "type": "UnityEngine.Quaternion&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Internal_VerticalQueryNearestPolygons_Injected",
+          "parameters": [
+            {
+              "name": "start",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "height",
+              "type": "System.Single"
+            },
+            {
+              "name": "nearestPoly",
+              "type": "UnityEngine.AI.QueryPolygonInfo&"
+            },
+            {
+              "name": "agentTypeID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CalculatePathAsyncInternal_Injected",
+          "parameters": [
+            {
+              "name": "sourcePosition",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "targetPosition",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "path",
+              "type": "UnityEngine.AI.NavMeshPath"
+            },
+            {
+              "name": "isReserveEnd",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "agentTypeID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "radius",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "NavMesh",
+      "namespace": "UnityEngine.AI",
+      "type_token": 33554449
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Mesh",
+          "offset": 0,
+          "type": "UnityEngine.AI.NavMeshBuildSourceShape"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Terrain",
+          "offset": 0,
+          "type": "UnityEngine.AI.NavMeshBuildSourceShape"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Box",
+          "offset": 0,
+          "type": "UnityEngine.AI.NavMeshBuildSourceShape"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Sphere",
+          "offset": 0,
+          "type": "UnityEngine.AI.NavMeshBuildSourceShape"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Capsule",
+          "offset": 0,
+          "type": "UnityEngine.AI.NavMeshBuildSourceShape"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ModifierBox",
+          "offset": 0,
+          "type": "UnityEngine.AI.NavMeshBuildSourceShape"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "PhysicsTriangleMesh",
+          "offset": 0,
+          "type": "UnityEngine.AI.NavMeshBuildSourceShape"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "PhysicsConvexMesh",
+          "offset": 0,
+          "type": "UnityEngine.AI.NavMeshBuildSourceShape"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "PhysicsTerrain",
+          "offset": 0,
+          "type": "UnityEngine.AI.NavMeshBuildSourceShape"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ModifierPoly",
+          "offset": 0,
+          "type": "UnityEngine.AI.NavMeshBuildSourceShape"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "NavMeshBuildSourceShape",
+      "namespace": "UnityEngine.AI",
+      "type_token": 33554452
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "RenderMeshes",
+          "offset": 0,
+          "type": "UnityEngine.AI.NavMeshCollectGeometry"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "PhysicsColliders",
+          "offset": 0,
+          "type": "UnityEngine.AI.NavMeshCollectGeometry"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "NavMeshCollectGeometry",
+      "namespace": "UnityEngine.AI",
+      "type_token": 33554453
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Transform",
+          "offset": 16,
+          "type": "UnityEngine.Matrix4x4"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Size",
+          "offset": 80,
+          "type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Shape",
+          "offset": 92,
+          "type": "UnityEngine.AI.NavMeshBuildSourceShape"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Area",
+          "offset": 96,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_InstanceID",
+          "offset": 100,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_ComponentID",
+          "offset": 104,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_IsConvex",
+          "offset": 108,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_EcsShape",
+          "offset": 112,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "convexVerts",
+          "offset": 120,
+          "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "convexHmin",
+          "offset": 128,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "convexHmax",
+          "offset": 132,
+          "type": "System.Single"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_transform",
+          "parameters": [],
+          "return_type": "UnityEngine.Matrix4x4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_transform",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Matrix4x4"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_size",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_size",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_shape",
+          "parameters": [],
+          "return_type": "UnityEngine.AI.NavMeshBuildSourceShape"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_shape",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.AI.NavMeshBuildSourceShape"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_area",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_area",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_sourceObject",
+          "parameters": [],
+          "return_type": "UnityEngine.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_component",
+          "parameters": [],
+          "return_type": "UnityEngine.Component"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InternalGetComponent",
+          "parameters": [
+            {
+              "name": "instanceID",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Component"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InternalGetObject",
+          "parameters": [
+            {
+              "name": "instanceID",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Object"
+        }
+      ],
+      "name": "NavMeshBuildSource",
+      "namespace": "UnityEngine.AI",
+      "type_token": 33554454
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_OverrideArea",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Area",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_IgnoreFromBuild",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_InstanceID",
+          "offset": 28,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_overrideArea",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_area",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_ignoreFromBuild",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_root",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "UnityEngine.Transform"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "NavMeshBuildMarkup",
+      "namespace": "UnityEngine.AI",
+      "type_token": 33554455
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_AgentTypeID",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_AgentRadius",
+          "offset": 20,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_AgentHeight",
+          "offset": 24,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_AgentSlope",
+          "offset": 28,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_AgentClimb",
+          "offset": 32,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_LedgeDropHeight",
+          "offset": 36,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_MaxJumpAcrossDistance",
+          "offset": 40,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_MinRegionArea",
+          "offset": 44,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_OverrideVoxelSize",
+          "offset": 48,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_VoxelSize",
+          "offset": 52,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_OverrideTileSize",
+          "offset": 56,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_TileSize",
+          "offset": 60,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_AccuratePlacement",
+          "offset": 64,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_MaxJobWorkers",
+          "offset": 68,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_PreserveTilesOutsideBounds",
+          "offset": 72,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_PartitioningMethod",
+          "offset": 76,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_FilterLowHangingObstacles",
+          "offset": 80,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_FilterLedgeSpans",
+          "offset": 84,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_FilterWalkableLowHeightSpans",
+          "offset": 88,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_erodeAgainstWallSpans",
+          "offset": 92,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_cliffIndent",
+          "offset": 96,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_DynamicNavmeshSurfaceType",
+          "offset": 100,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Debug",
+          "offset": 104,
+          "type": "UnityEngine.AI.NavMeshBuildDebugSettings"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_agentTypeID",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_agentTypeID",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_agentRadius",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_agentHeight",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_agentClimb",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_minRegionArea",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_overrideVoxelSize",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_voxelSize",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_overrideTileSize",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_tileSize",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_partitioningMethod",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_filterLowHangingObstacles",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_filterLedgeSpans",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_filterWalkableLowHeightSpans",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_erodeAgainstWallSpans",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_cliffIndent",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "NavMeshBuildSettings",
+      "namespace": "UnityEngine.AI",
+      "type_token": 33554456
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Flags",
+          "offset": 16,
+          "type": "System.Byte"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "NavMeshBuildDebugSettings",
+      "namespace": "UnityEngine.AI",
+      "type_token": 33554457
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "polyRef",
+          "offset": 16,
+          "type": "System.UInt64"
+        }
+      ],
+      "interfaces": [
+        "IEquatable`1"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsNull",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Equality",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "UnityEngine.Experimental.AI.PolygonId"
+            },
+            {
+              "name": "y",
+              "type": "UnityEngine.Experimental.AI.PolygonId"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Inequality",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "UnityEngine.Experimental.AI.PolygonId"
+            },
+            {
+              "name": "y",
+              "type": "UnityEngine.Experimental.AI.PolygonId"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "rhs",
+              "type": "UnityEngine.Experimental.AI.PolygonId"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "PolygonId",
+      "namespace": "UnityEngine.Experimental.AI",
+      "type_token": 33554458
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<polygon>k__BackingField",
+          "offset": 16,
+          "type": "UnityEngine.Experimental.AI.PolygonId"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "<position>k__BackingField",
+          "offset": 24,
+          "type": "UnityEngine.Vector3"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_polygon",
+          "parameters": [],
+          "return_type": "UnityEngine.Experimental.AI.PolygonId"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_position",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        }
+      ],
+      "name": "NavMeshLocation",
+      "namespace": "UnityEngine.Experimental.AI",
+      "type_token": 33554459
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Failure",
+          "offset": 0,
+          "type": "UnityEngine.Experimental.AI.PathQueryStatus"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Success",
+          "offset": 0,
+          "type": "UnityEngine.Experimental.AI.PathQueryStatus"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "InProgress",
+          "offset": 0,
+          "type": "UnityEngine.Experimental.AI.PathQueryStatus"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "StatusDetailMask",
+          "offset": 0,
+          "type": "UnityEngine.Experimental.AI.PathQueryStatus"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "WrongMagic",
+          "offset": 0,
+          "type": "UnityEngine.Experimental.AI.PathQueryStatus"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "WrongVersion",
+          "offset": 0,
+          "type": "UnityEngine.Experimental.AI.PathQueryStatus"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "OutOfMemory",
+          "offset": 0,
+          "type": "UnityEngine.Experimental.AI.PathQueryStatus"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "InvalidParam",
+          "offset": 0,
+          "type": "UnityEngine.Experimental.AI.PathQueryStatus"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "BufferTooSmall",
+          "offset": 0,
+          "type": "UnityEngine.Experimental.AI.PathQueryStatus"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "OutOfNodes",
+          "offset": 0,
+          "type": "UnityEngine.Experimental.AI.PathQueryStatus"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "PartialResult",
+          "offset": 0,
+          "type": "UnityEngine.Experimental.AI.PathQueryStatus"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "PathQueryStatus",
+      "namespace": "UnityEngine.Experimental.AI",
+      "type_token": 33554460
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "world",
+          "offset": 16,
+          "type": "System.IntPtr"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDefaultWorld",
+          "parameters": [],
+          "return_type": "UnityEngine.Experimental.AI.NavMeshWorld"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDefaultWorld_Injected",
+          "parameters": [
+            {
+              "name": "ret",
+              "type": "UnityEngine.Experimental.AI.NavMeshWorld&"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "NavMeshWorld",
+      "namespace": "UnityEngine.Experimental.AI",
+      "type_token": 33554461
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_NavMeshQuery",
+          "offset": 16,
+          "type": "System.IntPtr"
+        }
+      ],
+      "interfaces": [
+        "IDisposable"
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "world",
+              "type": "UnityEngine.Experimental.AI.NavMeshWorld"
+            },
+            {
+              "name": "allocator",
+              "type": "Unity.Collections.Allocator"
+            },
+            {
+              "name": "pathNodePoolSize",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Create",
+          "parameters": [
+            {
+              "name": "world",
+              "type": "UnityEngine.Experimental.AI.NavMeshWorld"
+            },
+            {
+              "name": "nodePoolSize",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Destroy",
+          "parameters": [
+            {
+              "name": "navMeshQuery",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MapLocation",
+          "parameters": [
+            {
+              "name": "navMeshQuery",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "extents",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "agentTypeID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Experimental.AI.NavMeshLocation"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MapLocation",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "extents",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "agentTypeID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Experimental.AI.NavMeshLocation"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MoveLocation",
+          "parameters": [
+            {
+              "name": "navMeshQuery",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "location",
+              "type": "UnityEngine.Experimental.AI.NavMeshLocation"
+            },
+            {
+              "name": "target",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Experimental.AI.NavMeshLocation"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MoveLocation",
+          "parameters": [
+            {
+              "name": "location",
+              "type": "UnityEngine.Experimental.AI.NavMeshLocation"
+            },
+            {
+              "name": "target",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Experimental.AI.NavMeshLocation"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Raycast",
+          "parameters": [
+            {
+              "name": "navMeshQuery",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "start",
+              "type": "UnityEngine.Experimental.AI.NavMeshLocation"
+            },
+            {
+              "name": "targetPosition",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "costs",
+              "type": "System.Void*"
+            },
+            {
+              "name": "hit",
+              "type": "UnityEngine.AI.NavMeshHit&"
+            },
+            {
+              "name": "path",
+              "type": "System.Void*"
+            },
+            {
+              "name": "pathCount",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "maxPath",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Experimental.AI.PathQueryStatus"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Raycast",
+          "parameters": [
+            {
+              "name": "hit",
+              "type": "UnityEngine.AI.NavMeshHit&"
+            },
+            {
+              "name": "start",
+              "type": "UnityEngine.Experimental.AI.NavMeshLocation"
+            },
+            {
+              "name": "targetPosition",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "costs",
+              "type": "Unity.Collections.NativeArray<System.Single>"
+            }
+          ],
+          "return_type": "UnityEngine.Experimental.AI.PathQueryStatus"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Create_Injected",
+          "parameters": [
+            {
+              "name": "world",
+              "type": "UnityEngine.Experimental.AI.NavMeshWorld&"
+            },
+            {
+              "name": "nodePoolSize",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MapLocation_Injected",
+          "parameters": [
+            {
+              "name": "navMeshQuery",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "extents",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "agentTypeID",
+              "type": "System.Int32"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "ret",
+              "type": "UnityEngine.Experimental.AI.NavMeshLocation&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MoveLocation_Injected",
+          "parameters": [
+            {
+              "name": "navMeshQuery",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "location",
+              "type": "UnityEngine.Experimental.AI.NavMeshLocation&"
+            },
+            {
+              "name": "target",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "ret",
+              "type": "UnityEngine.Experimental.AI.NavMeshLocation&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Raycast_Injected",
+          "parameters": [
+            {
+              "name": "navMeshQuery",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "start",
+              "type": "UnityEngine.Experimental.AI.NavMeshLocation&"
+            },
+            {
+              "name": "targetPosition",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "areaMask",
+              "type": "System.Int32"
+            },
+            {
+              "name": "costs",
+              "type": "System.Void*"
+            },
+            {
+              "name": "hit",
+              "type": "UnityEngine.AI.NavMeshHit&"
+            },
+            {
+              "name": "path",
+              "type": "System.Void*"
+            },
+            {
+              "name": "pathCount",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "maxPath",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Experimental.AI.PathQueryStatus"
+        }
+      ],
+      "name": "NavMeshQuery",
+      "namespace": "UnityEngine.Experimental.AI",
+      "type_token": 33554462
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "UnityEngine.AIModule.dll"
+}

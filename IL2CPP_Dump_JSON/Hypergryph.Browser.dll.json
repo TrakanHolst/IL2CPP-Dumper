@@ -1,0 +1,1039 @@
+{
+  "class_count": 22,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Open",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.String"
+            },
+            {
+              "name": "onResult",
+              "type": "System.Action<System.String>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Close",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRedDotState",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RegisterBulletinEventListener",
+          "parameters": [
+            {
+              "name": "eventListener",
+              "type": "System.Action<System.String>"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IHGBulletinSDK",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_bulletin",
+          "offset": 0,
+          "type": "Hypergryph.SDK.IHGBulletinSDK"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_bulletinSdk",
+          "parameters": [],
+          "return_type": "Hypergryph.SDK.IHGBulletinSDK"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Open",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.String"
+            },
+            {
+              "name": "onResult",
+              "type": "System.Action<System.String>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Close",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRedDotState",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RegisterBulletinEventListener",
+          "parameters": [
+            {
+              "name": "eventListener",
+              "type": "System.Action<System.String>"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGBulletinSDK",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554435
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "jsonData",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "OpenCallback",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "jsonData",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "EventCallback",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "outerOpenCallback",
+          "offset": 0,
+          "type": "System.Action<System.String>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "outerEventCallback",
+          "offset": 8,
+          "type": "System.Action<System.String>"
+        }
+      ],
+      "interfaces": [
+        "IHGBulletinSDK"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BulletinSDK_OpenBulletin",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.String"
+            },
+            {
+              "name": "callback",
+              "type": "Hypergryph.SDK.HGBulletinSDKPluginWindows.OpenCallback"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BulletinSDK_CloseBulletin",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BulletinSDK_GetRedDotState",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BulletinSDK_RegisterBulletinEventListener",
+          "parameters": [
+            {
+              "name": "callback",
+              "type": "Hypergryph.SDK.HGBulletinSDKPluginWindows.EventCallback"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InnerOpenCallBack",
+          "parameters": [
+            {
+              "name": "jsonData",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InnerEventCallBack",
+          "parameters": [
+            {
+              "name": "jsonData",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Open",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.String"
+            },
+            {
+              "name": "onResult",
+              "type": "System.Action<System.String>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Close",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRedDotState",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RegisterBulletinEventListener",
+          "parameters": [
+            {
+              "name": "eventListener",
+              "type": "System.Action<System.String>"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGBulletinSDKPluginWindows",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554436
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "StatusCode",
+      "namespace": "",
+      "type_token": 33554440
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [],
+      "name": "HGBroserSDKConstants",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554439
+    },
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "onBrowserEvent",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IHGBrowserSDKCallback",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554441
+    },
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Open",
+          "parameters": [
+            {
+              "name": "url",
+              "type": "System.String"
+            },
+            {
+              "name": "styleConfig",
+              "type": "System.String"
+            },
+            {
+              "name": "onResult",
+              "type": "System.Action<System.String>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Close",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IHGBrowserSDK",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_browser",
+          "offset": 0,
+          "type": "Hypergryph.SDK.IHGBrowserSDK"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_browserSDK",
+          "parameters": [],
+          "return_type": "Hypergryph.SDK.IHGBrowserSDK"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Open",
+          "parameters": [
+            {
+              "name": "url",
+              "type": "System.String"
+            },
+            {
+              "name": "styleConfig",
+              "type": "System.String"
+            },
+            {
+              "name": "callback",
+              "type": "Hypergryph.SDK.IHGBrowserSDKCallback"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Close",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGBrowserSDK",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554443
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "jsonData",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ExtraInfoCallback",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "outerCallback",
+          "offset": 0,
+          "type": "System.Action<System.String>"
+        }
+      ],
+      "interfaces": [
+        "IHGBrowserSDK"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MiniWebViewSDKLoad",
+          "parameters": [
+            {
+              "name": "url",
+              "type": "System.String"
+            },
+            {
+              "name": "styleConfig",
+              "type": "System.String"
+            },
+            {
+              "name": "callback",
+              "type": "Hypergryph.SDK.HGBrowserSDKPluginWindows.ExtraInfoCallback"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MiniWebViewSDKClose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InnerCallBack",
+          "parameters": [
+            {
+              "name": "jsonData",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Open",
+          "parameters": [
+            {
+              "name": "url",
+              "type": "System.String"
+            },
+            {
+              "name": "styleConfig",
+              "type": "System.String"
+            },
+            {
+              "name": "onResult",
+              "type": "System.Action<System.String>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Close",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGBrowserSDKPluginWindows",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554445
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Update",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WebViewSDKTickEvent",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGBrowerSDKTickEvent",
+      "namespace": "Hypergryph.SDK",
+      "parent": "MonoBehaviour",
+      "type_token": 33554447
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "tickGameObject",
+          "offset": 16,
+          "type": "UnityEngine.GameObject"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "tickEvent",
+          "offset": 24,
+          "type": "Hypergryph.SDK.HGBrowerSDKTickEvent"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "instanceMangaer",
+          "offset": 0,
+          "type": "Hypergryph.SDK.HGBrowerSDKTickEventManager"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_InstanceMangaer",
+          "parameters": [],
+          "return_type": "Hypergryph.SDK.HGBrowerSDKTickEventManager"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitTickEvent",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UnInitTickEvent",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGBrowerSDKTickEventManager",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554448
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGWebPortalState",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554449
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGWebPortalMetadata",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554450
+    },
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Open",
+          "parameters": [
+            {
+              "name": "target",
+              "type": "System.String"
+            },
+            {
+              "name": "urlParams",
+              "type": "System.String"
+            },
+            {
+              "name": "onResult",
+              "type": "System.Action<System.String>"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IHGWebPortalSDK",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554451
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_webportal",
+          "offset": 0,
+          "type": "Hypergryph.SDK.IHGWebPortalSDK"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_webportalSdk",
+          "parameters": [],
+          "return_type": "Hypergryph.SDK.IHGWebPortalSDK"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Open",
+          "parameters": [
+            {
+              "name": "target",
+              "type": "System.String"
+            },
+            {
+              "name": "urlParams",
+              "type": "System.String"
+            },
+            {
+              "name": "onResult",
+              "type": "System.Action<System.String>"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGWebPortalSDK",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554452
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "jsonData",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "OpenCallback",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554454
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "outerOpenCallback",
+          "offset": 0,
+          "type": "System.Action<System.String>"
+        }
+      ],
+      "interfaces": [
+        "IHGWebPortalSDK"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WebPortalSDK_Open",
+          "parameters": [
+            {
+              "name": "target",
+              "type": "System.String"
+            },
+            {
+              "name": "urlParams",
+              "type": "System.String"
+            },
+            {
+              "name": "callback",
+              "type": "Hypergryph.SDK.HGWebPortalSDKPluginWindows.OpenCallback"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InnerOpenCallBack",
+          "parameters": [
+            {
+              "name": "jsonData",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Open",
+          "parameters": [
+            {
+              "name": "target",
+              "type": "System.String"
+            },
+            {
+              "name": "urlParams",
+              "type": "System.String"
+            },
+            {
+              "name": "onResult",
+              "type": "System.Action<System.String>"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGWebPortalSDKPluginWindows",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554453
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Hypergryph.Browser.dll"
+}

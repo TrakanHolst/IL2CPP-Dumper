@@ -1,0 +1,845 @@
+{
+  "class_count": 13,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Sort",
+          "parameters": [
+            {
+              "name": "list",
+              "type": "System.Collections.Generic.IList<T>"
+            },
+            {
+              "name": "comparison",
+              "type": "System.Comparison<T>"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "LinqExtensions",
+      "namespace": "Sirenix.Utilities",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "FloatEqualityComparerFunc",
+          "offset": 0,
+          "type": "System.Func<System.Single,System.Single,System.Boolean>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "DoubleEqualityComparerFunc",
+          "offset": 8,
+          "type": "System.Func<System.Double,System.Double,System.Boolean>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "QuaternionEqualityComparerFunc",
+          "offset": 16,
+          "type": "System.Func<UnityEngine.Quaternion,UnityEngine.Quaternion,System.Boolean>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "GenericConstraintsSatisfaction_LOCK",
+          "offset": 24,
+          "type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "GenericConstraintsSatisfactionInferredParameters",
+          "offset": 32,
+          "type": "System.Collections.Generic.Dictionary<System.Type,System.Type>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "GenericConstraintsSatisfactionResolvedMap",
+          "offset": 40,
+          "type": "System.Collections.Generic.Dictionary<System.Type,System.Type>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "GenericConstraintsSatisfactionProcessedParams",
+          "offset": 48,
+          "type": "System.Collections.Generic.HashSet<System.Type>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "GenericConstraintsSatisfactionTypesToCheck",
+          "offset": 56,
+          "type": "System.Collections.Generic.HashSet<System.Type>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "GenericConstraintsSatisfactionTypesToCheck_ToAdd",
+          "offset": 64,
+          "type": "System.Collections.Generic.List<System.Type>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "GenericListInterface",
+          "offset": 72,
+          "type": "System.Type"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "GenericCollectionInterface",
+          "offset": 80,
+          "type": "System.Type"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "WeaklyTypedTypeCastDelegates_LOCK",
+          "offset": 88,
+          "type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "StronglyTypedTypeCastDelegates_LOCK",
+          "offset": 96,
+          "type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "WeaklyTypedTypeCastDelegates",
+          "offset": 104,
+          "type": "Sirenix.Utilities.DoubleLookupDictionary<System.Type,System.Type,System.Func<System.Object,System.Object>>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "StronglyTypedTypeCastDelegates",
+          "offset": 112,
+          "type": "Sirenix.Utilities.DoubleLookupDictionary<System.Type,System.Type,System.Delegate>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "TwoLengthTypeArray_Cached",
+          "offset": 120,
+          "type": "System.Type[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "GenericArgumentsContainsTypes_ArgsToCheckCached",
+          "offset": 128,
+          "type": "System.Collections.Generic.Stack<System.Type>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ReservedCSharpKeywords",
+          "offset": 136,
+          "type": "System.Collections.Generic.HashSet<System.String>"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "TypeNameAlternatives",
+          "offset": 144,
+          "type": "System.Collections.Generic.Dictionary<System.Type,System.String>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "CachedNiceNames_LOCK",
+          "offset": 152,
+          "type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "CachedNiceNames",
+          "offset": 160,
+          "type": "System.Collections.Generic.Dictionary<System.Type,System.String>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "VoidPointerType",
+          "offset": 168,
+          "type": "System.Type"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "PrimitiveImplicitCasts",
+          "offset": 176,
+          "type": "System.Collections.Generic.Dictionary<System.Type,System.Collections.Generic.HashSet<System.Type>>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "ExplicitCastIntegrals",
+          "offset": 184,
+          "type": "System.Collections.Generic.HashSet<System.Type>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCachedNiceName",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateNiceName",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FloatEqualityComparer",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.Single"
+            },
+            {
+              "name": "b",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DoubleEqualityComparer",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "System.Double"
+            },
+            {
+              "name": "b",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "QuaternionEqualityComparer",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "UnityEngine.Quaternion"
+            },
+            {
+              "name": "b",
+              "type": "UnityEngine.Quaternion"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMaybeSimplifiedTypeName",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetNiceName",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCustomAttribute",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Type"
+            },
+            {
+              "name": "inherit",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCustomAttribute",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InheritsFrom",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Type"
+            },
+            {
+              "name": "baseType",
+              "type": "System.Type"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "TypeExtensions",
+      "namespace": "Sirenix.Utilities",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "secondKeyComparer",
+          "offset": 0,
+          "type": "System.Collections.Generic.IEqualityComparer<TSecondKey>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "DoubleLookupDictionary`3",
+      "namespace": "Sirenix.Utilities",
+      "parent": "Dictionary`2",
+      "type_token": 33554436
+    },
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnConfigAutoCreated",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnConfigInstanceFirstAccessed",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IGlobalConfigEvents",
+      "namespace": "Sirenix.Utilities",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "configAttribute",
+          "offset": 0,
+          "type": "Sirenix.Utilities.GlobalConfigAttribute"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "instance",
+          "offset": 0,
+          "type": "T"
+        }
+      ],
+      "interfaces": [
+        "IGlobalConfigEvents"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ConfigAttribute",
+          "parameters": [],
+          "return_type": "Sirenix.Utilities.GlobalConfigAttribute"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_HasInstanceLoaded",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Instance",
+          "parameters": [],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadInstanceIfAssetExists",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OpenInEditor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnConfigInstanceFirstAccessed",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnConfigAutoCreated",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Sirenix.Utilities.IGlobalConfigEvents.OnConfigAutoCreated",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Sirenix.Utilities.IGlobalConfigEvents.OnConfigInstanceFirstAccessed",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "GlobalConfig`1",
+      "namespace": "Sirenix.Utilities",
+      "parent": "ScriptableObject",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "instance",
+          "offset": 0,
+          "type": "T"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_HasInstanceLoaded",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetInstance",
+          "parameters": [
+            {
+              "name": "defaultAssetFolderPath",
+              "type": "System.String"
+            },
+            {
+              "name": "defaultFileNameWithoutExtension",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadInstanceIfAssetExists",
+          "parameters": [
+            {
+              "name": "assetPath",
+              "type": "System.String"
+            },
+            {
+              "name": "defaultFileNameWithoutExtension",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "GlobalConfigUtility`1",
+      "namespace": "Sirenix.Utilities",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "assetPath",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<UseAsset>k__BackingField",
+          "offset": 24,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AssetPath",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "assetPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "GlobalConfigAttribute",
+      "namespace": "Sirenix.Utilities",
+      "parent": "Attribute",
+      "type_token": 33554440
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "PersistentAssemblyAttribute",
+      "namespace": "Sirenix.Utilities",
+      "parent": "Attribute",
+      "type_token": 33554441
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ProjectPathFinder",
+      "namespace": "Sirenix.Utilities",
+      "parent": "ScriptableObject",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "OdinPath",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "SirenixAssetsPath",
+          "offset": 8,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "SirenixPluginPath",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "SirenixAssembliesPath",
+          "offset": 24,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "OdinResourcesPath",
+          "offset": 32,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "OdinEditorConfigsPath",
+          "offset": 40,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "OdinResourcesConfigsPath",
+          "offset": 48,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SirenixAssetPaths",
+      "namespace": "Sirenix.Utilities",
+      "type_token": 33554443
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SirenixGlobalConfigAttribute",
+      "namespace": "Sirenix.Utilities",
+      "parent": "GlobalConfigAttribute",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "Major",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "Minor",
+          "offset": 4,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnsureLoaded",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "UnityVersion",
+      "namespace": "Sirenix.Utilities",
+      "type_token": 33554445
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Sirenix.Utilities.dll"
+}

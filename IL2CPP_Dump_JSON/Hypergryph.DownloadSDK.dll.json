@@ -1,0 +1,1383 @@
+{
+  "class_count": 4,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "init",
+          "parameters": [
+            {
+              "name": "config",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "download",
+          "parameters": [
+            {
+              "name": "versionId",
+              "type": "System.String"
+            },
+            {
+              "name": "downloadFiles",
+              "type": "System.String"
+            },
+            {
+              "name": "decompressPath",
+              "type": "System.String"
+            },
+            {
+              "name": "useMobileData",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "needCompress",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "usePatch",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "rootPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "updateV3",
+          "parameters": [
+            {
+              "name": "versionId",
+              "type": "System.String"
+            },
+            {
+              "name": "basePath",
+              "type": "System.String"
+            },
+            {
+              "name": "rootPath",
+              "type": "System.String"
+            },
+            {
+              "name": "fileUrl",
+              "type": "System.String"
+            },
+            {
+              "name": "patchUrl",
+              "type": "System.String"
+            },
+            {
+              "name": "totalFiles",
+              "type": "System.String"
+            },
+            {
+              "name": "patchInfo",
+              "type": "System.String"
+            },
+            {
+              "name": "useMobileData",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "checkType",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "clearUselessFiles",
+          "parameters": [
+            {
+              "name": "rootPath",
+              "type": "System.String"
+            },
+            {
+              "name": "allFiles",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "enableMobileData",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "resume",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "cancel",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "clearAllTasks",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "finish",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getSDKState",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getTaskState",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getTaskInfo",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getDownloadSpeed",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getDownloadedSize",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getTotalDownloadSize",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getDecompressedProgress",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "setLanguageType",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "setNotificationTitle",
+          "parameters": [
+            {
+              "name": "title",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getEstimatedDownloadSize",
+          "parameters": [
+            {
+              "name": "versionId",
+              "type": "System.String"
+            },
+            {
+              "name": "downloadFiles",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getEstimatedUpdateSizeV2",
+          "parameters": [
+            {
+              "name": "versionId",
+              "type": "System.String"
+            },
+            {
+              "name": "basePath",
+              "type": "System.String"
+            },
+            {
+              "name": "rootPath",
+              "type": "System.String"
+            },
+            {
+              "name": "fileUrl",
+              "type": "System.String"
+            },
+            {
+              "name": "patchUrl",
+              "type": "System.String"
+            },
+            {
+              "name": "totalFiles",
+              "type": "System.String"
+            },
+            {
+              "name": "patchInfo",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int64"
+        }
+      ],
+      "name": "IHGDownloadSDK",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "s_dl",
+          "offset": 0,
+          "type": "Hypergryph.SDK.IHGDownloadSDK"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_downloadSDK",
+          "parameters": [],
+          "return_type": "Hypergryph.SDK.IHGDownloadSDK"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Init",
+          "parameters": [
+            {
+              "name": "config",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Download",
+          "parameters": [
+            {
+              "name": "versionId",
+              "type": "System.String"
+            },
+            {
+              "name": "downloadFiles",
+              "type": "System.String"
+            },
+            {
+              "name": "useMobileData",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "decompressPath",
+              "type": "System.String"
+            },
+            {
+              "name": "needCompress",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "usePatch",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "rootPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateV3",
+          "parameters": [
+            {
+              "name": "versionId",
+              "type": "System.String"
+            },
+            {
+              "name": "basePath",
+              "type": "System.String"
+            },
+            {
+              "name": "rootPath",
+              "type": "System.String"
+            },
+            {
+              "name": "fileUrl",
+              "type": "System.String"
+            },
+            {
+              "name": "patchUrl",
+              "type": "System.String"
+            },
+            {
+              "name": "totalFiles",
+              "type": "System.String"
+            },
+            {
+              "name": "patchInfo",
+              "type": "System.String"
+            },
+            {
+              "name": "useMobileData",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "checkType",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClearUselessFiles",
+          "parameters": [
+            {
+              "name": "rootPath",
+              "type": "System.String"
+            },
+            {
+              "name": "allFiles",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnableMobileData",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Resume",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Cancel",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ClearAllTasks",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finish",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSDKState",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTaskState",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTaskInfo",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDownloadSpeed",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDownloadedSize",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetTotalDownloadSize",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDecompressedProgress",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetLanguageType",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetNotificationTitle",
+          "parameters": [
+            {
+              "name": "title",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEstimatedDownloadSize",
+          "parameters": [
+            {
+              "name": "versionId",
+              "type": "System.String"
+            },
+            {
+              "name": "downloadFiles",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEstimatedUpdateSizeV2",
+          "parameters": [
+            {
+              "name": "versionId",
+              "type": "System.String"
+            },
+            {
+              "name": "basePath",
+              "type": "System.String"
+            },
+            {
+              "name": "rootPath",
+              "type": "System.String"
+            },
+            {
+              "name": "fileUrl",
+              "type": "System.String"
+            },
+            {
+              "name": "patchUrl",
+              "type": "System.String"
+            },
+            {
+              "name": "totalFiles",
+              "type": "System.String"
+            },
+            {
+              "name": "patchInfo",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int64"
+        }
+      ],
+      "name": "HGDownloadSDK",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554435
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IHGDownloadSDK"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGDLSDKInit",
+          "parameters": [
+            {
+              "name": "config",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGDLSDKDownloadWithPatch",
+          "parameters": [
+            {
+              "name": "version_id",
+              "type": "System.String"
+            },
+            {
+              "name": "download_files",
+              "type": "System.String"
+            },
+            {
+              "name": "decompress_path",
+              "type": "System.String"
+            },
+            {
+              "name": "need_decompress",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "use_patch",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "root_path",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGDLSDKClearAllTasks",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGDLSDKGetSDKState",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGDLSDKGetTaskState",
+          "parameters": [
+            {
+              "name": "task_id",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGDLSDKResume",
+          "parameters": [
+            {
+              "name": "task_id",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGDLSDKCancel",
+          "parameters": [
+            {
+              "name": "task_id",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGDLSDKFinish",
+          "parameters": [
+            {
+              "name": "task_id",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGDLSDKGetTaskInfo",
+          "parameters": [
+            {
+              "name": "task_id",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGDLSDKGetDownloadSpeed",
+          "parameters": [
+            {
+              "name": "task_id",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGDLSDKGetDownloadedSize",
+          "parameters": [
+            {
+              "name": "task_id",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGDLSDKGetTotalDownloadSize",
+          "parameters": [
+            {
+              "name": "task_id",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGDLSDKGetDecompressedProgress",
+          "parameters": [
+            {
+              "name": "task_id",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGDLSDKGetEstimatedDownloadSize",
+          "parameters": [
+            {
+              "name": "version_id",
+              "type": "System.String"
+            },
+            {
+              "name": "download_files",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGDLSDKFree",
+          "parameters": [
+            {
+              "name": "pointer",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGDLSDKClearUselessFiles",
+          "parameters": [
+            {
+              "name": "root_path",
+              "type": "System.String"
+            },
+            {
+              "name": "all_files",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGDLSDKGetEstimatedUpdateSizeV2",
+          "parameters": [
+            {
+              "name": "version_id",
+              "type": "System.String"
+            },
+            {
+              "name": "base_paths",
+              "type": "System.String"
+            },
+            {
+              "name": "root_path",
+              "type": "System.String"
+            },
+            {
+              "name": "file_url_prefix",
+              "type": "System.String"
+            },
+            {
+              "name": "patch_url_prefixm",
+              "type": "System.String"
+            },
+            {
+              "name": "total_files",
+              "type": "System.String"
+            },
+            {
+              "name": "patch_info",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HGDLSDKUpdateV3",
+          "parameters": [
+            {
+              "name": "version_id",
+              "type": "System.String"
+            },
+            {
+              "name": "base_paths",
+              "type": "System.String"
+            },
+            {
+              "name": "root_path",
+              "type": "System.String"
+            },
+            {
+              "name": "file_url_prefix",
+              "type": "System.String"
+            },
+            {
+              "name": "patch_url_prefix",
+              "type": "System.String"
+            },
+            {
+              "name": "total_files",
+              "type": "System.String"
+            },
+            {
+              "name": "patch_info",
+              "type": "System.String"
+            },
+            {
+              "name": "check_type",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "init",
+          "parameters": [
+            {
+              "name": "config",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "download",
+          "parameters": [
+            {
+              "name": "versionId",
+              "type": "System.String"
+            },
+            {
+              "name": "downloadFiles",
+              "type": "System.String"
+            },
+            {
+              "name": "decompressPath",
+              "type": "System.String"
+            },
+            {
+              "name": "useMobileData",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "needCompress",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "usePatch",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "rootPath",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "enableMobileData",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "resume",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "cancel",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "clearAllTasks",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "finish",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getSDKState",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getTaskState",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getTaskInfo",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getDownloadSpeed",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getDownloadedSize",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getTotalDownloadSize",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getDecompressedProgress",
+          "parameters": [
+            {
+              "name": "taskId",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "setLanguageType",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "setNotificationTitle",
+          "parameters": [
+            {
+              "name": "title",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getEstimatedDownloadSize",
+          "parameters": [
+            {
+              "name": "versionId",
+              "type": "System.String"
+            },
+            {
+              "name": "downloadFiles",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "clearUselessFiles",
+          "parameters": [
+            {
+              "name": "rootPath",
+              "type": "System.String"
+            },
+            {
+              "name": "allFiles",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "getEstimatedUpdateSizeV2",
+          "parameters": [
+            {
+              "name": "versionId",
+              "type": "System.String"
+            },
+            {
+              "name": "basePath",
+              "type": "System.String"
+            },
+            {
+              "name": "rootPath",
+              "type": "System.String"
+            },
+            {
+              "name": "fileUrl",
+              "type": "System.String"
+            },
+            {
+              "name": "patchUrl",
+              "type": "System.String"
+            },
+            {
+              "name": "totalFiles",
+              "type": "System.String"
+            },
+            {
+              "name": "patchInfo",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "updateV3",
+          "parameters": [
+            {
+              "name": "versionId",
+              "type": "System.String"
+            },
+            {
+              "name": "basePath",
+              "type": "System.String"
+            },
+            {
+              "name": "rootPath",
+              "type": "System.String"
+            },
+            {
+              "name": "fileUrl",
+              "type": "System.String"
+            },
+            {
+              "name": "patchUrl",
+              "type": "System.String"
+            },
+            {
+              "name": "totalFiles",
+              "type": "System.String"
+            },
+            {
+              "name": "patchInfo",
+              "type": "System.String"
+            },
+            {
+              "name": "useMobileData",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "checkType",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int64"
+        }
+      ],
+      "name": "HGDownloadSDKPluginWindows",
+      "namespace": "Hypergryph.SDK",
+      "type_token": 33554436
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Hypergryph.DownloadSDK.dll"
+}

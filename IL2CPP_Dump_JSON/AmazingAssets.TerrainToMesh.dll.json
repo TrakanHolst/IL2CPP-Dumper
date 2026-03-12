@@ -1,0 +1,7066 @@
+{
+  "class_count": 19,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯‭⁫⁭‭‍‍‏⁮‍‌‎​‎‎‎⁭‪‌‪‎⁮‪⁭⁫‪⁯‪‪‪⁭⁭⁮⁭‎​‭⁪​⁮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "‏‮​⁬⁬⁬‪‏​‭‭​⁭⁪⁭‫⁬⁯‫⁯‭‌⁯⁭⁯⁬‮⁪‫‮‎‌‎‍‍‌‬‪‌‌‮"
+        }
+      ],
+      "name": "‏‭⁮⁮⁫‍⁫‪‌⁯‏⁬​⁫⁫​‌⁭⁭‍⁭⁪⁭⁯⁯⁯⁫‪‫⁭⁪⁭​‏⁯⁬⁮‮‏⁪‮",
+      "namespace": "",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "All",
+          "offset": 0,
+          "type": "‏‮​⁬⁬⁬‪‏​‭‭​⁭⁪⁭‫⁬⁯‫⁯‭‌⁯⁭⁯⁬‮⁪‫‮‎‌‎‍‍‌‬‪‌‌‮.⁬⁮⁮⁫⁭‮⁬⁮⁬⁫‏​⁯⁮⁫⁬⁭⁯⁫‭‬‮‏⁭⁪‍‏‏​⁫⁭‮‏⁪⁭‪‎‎⁮‎‮"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "BasemapDiffuse",
+          "offset": 0,
+          "type": "‏‮​⁬⁬⁬‪‏​‭‭​⁭⁪⁭‫⁬⁯‫⁯‭‌⁯⁭⁯⁬‮⁪‫‮‎‌‎‍‍‌‬‪‌‌‮.⁬⁮⁮⁫⁭‮⁬⁮⁬⁫‏​⁯⁮⁫⁬⁭⁯⁫‭‬‮‏⁭⁪‍‏‏​⁫⁭‮‏⁪⁭‪‎‎⁮‎‮"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "BasemapNormal",
+          "offset": 0,
+          "type": "‏‮​⁬⁬⁬‪‏​‭‭​⁭⁪⁭‫⁬⁯‫⁯‭‌⁯⁭⁯⁬‮⁪‫‮‎‌‎‍‍‌‬‪‌‌‮.⁬⁮⁮⁫⁭‮⁬⁮⁬⁫‏​⁯⁮⁫⁬⁭⁯⁫‭‬‮‏⁭⁪‍‏‏​⁫⁭‮‏⁪⁭‪‎‎⁮‎‮"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "BasemapNormalUnpacked",
+          "offset": 0,
+          "type": "‏‮​⁬⁬⁬‪‏​‭‭​⁭⁪⁭‫⁬⁯‫⁯‭‌⁯⁭⁯⁬‮⁪‫‮‎‌‎‍‍‌‬‪‌‌‮.⁬⁮⁮⁫⁭‮⁬⁮⁬⁫‏​⁯⁮⁫⁬⁭⁯⁫‭‬‮‏⁭⁪‍‏‏​⁫⁭‮‏⁪⁭‪‎‎⁮‎‮"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "BasemapMask",
+          "offset": 0,
+          "type": "‏‮​⁬⁬⁬‪‏​‭‭​⁭⁪⁭‫⁬⁯‫⁯‭‌⁯⁭⁯⁬‮⁪‫‮‎‌‎‍‍‌‬‪‌‌‮.⁬⁮⁮⁫⁭‮⁬⁮⁬⁫‏​⁯⁮⁫⁬⁭⁯⁫‭‬‮‏⁭⁪‍‏‏​⁫⁭‮‏⁪⁭‪‎‎⁮‎‮"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "BasemapSpecular",
+          "offset": 0,
+          "type": "‏‮​⁬⁬⁬‪‏​‭‭​⁭⁪⁭‫⁬⁯‫⁯‭‌⁯⁭⁯⁬‮⁪‫‮‎‌‎‍‍‌‬‪‌‌‮.⁬⁮⁮⁫⁭‮⁬⁮⁬⁫‏​⁯⁮⁫⁬⁭⁯⁫‭‬‮‏⁭⁪‍‏‏​⁫⁭‮‏⁪⁭‪‎‎⁮‎‮"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "BasemapMetallic",
+          "offset": 0,
+          "type": "‏‮​⁬⁬⁬‪‏​‭‭​⁭⁪⁭‫⁬⁯‫⁯‭‌⁯⁭⁯⁬‮⁪‫‮‎‌‎‍‍‌‬‪‌‌‮.⁬⁮⁮⁫⁭‮⁬⁮⁬⁫‏​⁯⁮⁫⁬⁭⁯⁫‭‬‮‏⁭⁪‍‏‏​⁫⁭‮‏⁪⁭‪‎‎⁮‎‮"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "BasemapSmoothness",
+          "offset": 0,
+          "type": "‏‮​⁬⁬⁬‪‏​‭‭​⁭⁪⁭‫⁬⁯‫⁯‭‌⁯⁭⁯⁬‮⁪‫‮‎‌‎‍‍‌‬‪‌‌‮.⁬⁮⁮⁫⁭‮⁬⁮⁬⁫‏​⁯⁮⁫⁬⁭⁯⁫‭‬‮‏⁭⁪‍‏‏​⁫⁭‮‏⁪⁭‪‎‎⁮‎‮"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "BasemapOcclusion",
+          "offset": 0,
+          "type": "‏‮​⁬⁬⁬‪‏​‭‭​⁭⁪⁭‫⁬⁯‫⁯‭‌⁯⁭⁯⁬‮⁪‫‮‎‌‎‍‍‌‬‪‌‌‮.⁬⁮⁮⁫⁭‮⁬⁮⁬⁫‏​⁯⁮⁫⁬⁭⁯⁫‭‬‮‏⁭⁪‍‏‏​⁫⁭‮‏⁪⁭‪‎‎⁮‎‮"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Generic",
+          "offset": 0,
+          "type": "‏‮​⁬⁬⁬‪‏​‭‭​⁭⁪⁭‫⁬⁯‫⁯‭‌⁯⁭⁯⁬‮⁪‫‮‎‌‎‍‍‌‬‪‌‌‮.⁬⁮⁮⁫⁭‮⁬⁮⁬⁫‏​⁯⁮⁫⁬⁭⁯⁫‭‬‮‏⁭⁪‍‏‏​⁫⁭‮‏⁪⁭‪‎‎⁮‎‮"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "GenericHolesmap",
+          "offset": 0,
+          "type": "‏‮​⁬⁬⁬‪‏​‭‭​⁭⁪⁭‫⁬⁯‫⁯‭‌⁯⁭⁯⁬‮⁪‫‮‎‌‎‍‍‌‬‪‌‌‮.⁬⁮⁮⁫⁭‮⁬⁮⁬⁫‏​⁯⁮⁫⁬⁭⁯⁫‭‬‮‏⁭⁪‍‏‏​⁫⁭‮‏⁪⁭‪‎‎⁮‎‮"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "GenericHeightmap",
+          "offset": 0,
+          "type": "‏‮​⁬⁬⁬‪‏​‭‭​⁭⁪⁭‫⁬⁯‫⁯‭‌⁯⁭⁯⁬‮⁪‫‮‎‌‎‍‍‌‬‪‌‌‮.⁬⁮⁮⁫⁭‮⁬⁮⁬⁫‏​⁯⁮⁫⁬⁭⁯⁫‭‬‮‏⁭⁪‍‏‏​⁫⁭‮‏⁪⁭‪‎‎⁮‎‮"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "GenericHeightmapNormal",
+          "offset": 0,
+          "type": "‏‮​⁬⁬⁬‪‏​‭‭​⁭⁪⁭‫⁬⁯‫⁯‭‌⁯⁭⁯⁬‮⁪‫‮‎‌‎‍‍‌‬‪‌‌‮.⁬⁮⁮⁫⁭‮⁬⁮⁬⁫‏​⁯⁮⁫⁬⁭⁯⁫‭‬‮‏⁭⁪‍‏‏​⁫⁭‮‏⁪⁭‪‎‎⁮‎‮"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "⁬⁮⁮⁫⁭‮⁬⁮⁬⁫‏​⁯⁮⁫⁬⁭⁯⁫‭‬‮‏⁭⁪‍‏‏​⁫⁭‮‏⁪⁭‪‎‎⁮‎‮",
+      "namespace": "",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "‫⁯⁮⁯‌‮‎⁪‭⁫‍‪​‮‎⁭⁭⁯‍‭⁯‭⁫⁭‎‍⁬⁯⁪‏‍‪⁪‮⁮⁯​‪‫‌‮",
+          "offset": 16,
+          "type": "UnityEngine.TerrainData"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "⁯⁮⁬⁮‏⁮‬⁬‍‫‫⁮⁬‮‪‌⁯⁭‭‬​⁯‌‮‎‌‏⁮‭⁮⁪‭⁬‪‍‬‎‭‮‏‮",
+          "offset": 24,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "⁬‬‍‍‭‎‎‍⁭⁪​‍⁬‌‭‮⁫‮⁪⁮‬‬‎‍⁭⁫⁪‍‫⁪‭‍‭​⁪‫⁭‫⁪‬‮",
+          "offset": 25,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍‮‎⁪​⁬⁭⁯⁬⁮‏‪‫⁫‬‌⁪‏‬‌⁮⁯⁬‭‪‪‬⁮‭‮​⁬‌‏‬⁪‌‏‬⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌‮‪⁪‮‫⁭‮⁭⁮⁪‍⁮‏‫‮⁫‌‪​⁯⁮​‍⁫‌‭‪⁮‫‬‎⁫‬​‭‬⁭‌‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​‪⁫‎‏‮⁪‍‍⁪⁬‭‍⁬‍⁬‭⁪⁭‭‎⁮⁫‮‌‪‫⁫⁫⁬‬‭​⁮‫​​⁫⁯‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫‌‏⁯⁫​‬⁮‮‬‌​​⁮⁬‎⁫‮⁬‬⁮‌‫‌‬⁬‌⁬‮⁯‏‫‏‏‬‪⁯‫⁮‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫‍⁭‎‎⁪‏‬⁮‮‏‫‌⁯‫‮⁯‎‎‮‭‭‫⁭‬⁯⁪⁯​⁪‮‮⁬‫‎⁭⁫⁯⁬⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁫⁬‬‮⁬‏‎⁫‌⁯‮‍‍‎‍⁯‮‬‪⁭⁫⁪‌‏⁯‬⁭⁫⁪⁫‭⁫‌‎‪‫‮‏​‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌⁮⁫‌⁫‫‌‬​⁭⁮⁪‮⁮‮⁮⁮⁮⁯‎‪⁪‪‍‮⁪‫⁮‭‎⁫‬‮⁪⁯‍‪‎‎‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Shader"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫‫‫⁭⁭⁮‫⁪‏‬⁮⁭⁮‍⁬‭‏⁯⁮‬⁬‎​⁮‍‏‪‬⁫‍‏⁬‮‬‪‬‭‎‭‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Shader"
+            }
+          ],
+          "return_type": "UnityEngine.Material"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪‎‎‮‌‫‫‭‌‌⁭⁯⁯‏⁮‮​‮⁫‬​​‫⁪⁫⁭‭⁪⁪⁬‮‌⁯⁯‮‎‏‎‪‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁭‌‬‎‮⁮‮⁬‏‪‎‫⁫‮‏‭⁫⁭‭‏‫‬‪‭⁬‏⁮⁯‬⁮‬‎‪‭‭​⁪‍‬⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁪⁯⁬‎‪‮⁬​‍⁫​⁪⁫⁬‍‍⁭⁭⁪⁭⁯‬‮⁬⁯⁮⁮⁪⁮⁮⁬‍‏⁫‫‎⁯⁯‮‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.RenderTexture"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮⁯‪​​‏‬‌‬⁫‮⁭⁭‍‫⁯‎​‎‫⁮‪⁫‮‎‍‍⁫​⁭‮‪‌‭‭⁬⁭⁫‭⁬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.TextureWrapMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁮‪⁯‭⁮‎⁯‫‫‮⁮⁬‭⁯⁫‬‪​⁯‏‎‫‍‍‮​‬‪⁪‎​⁭‍‎⁪⁬⁮‎⁭⁬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁫‍⁪​⁭‏‌‮​‌‏‮⁯⁯‪⁪‎⁭‬⁯‭‮‬‫‎‌‏​⁪‍⁬⁯‪‌⁮‫​⁮‪‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.RenderTexture"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬‪‭⁮⁫‏‫‌‪‌‮‮‬‎⁬‬‪⁯‍‌⁮‮‏​‌⁮⁮⁪‌⁫‍⁪⁪‪⁪‬⁭⁭‮‮‮",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁫‎‬⁬‬‮​‬‎⁬‮‏​‮‎​⁭‍⁫‎⁯‪⁫‭⁮‬⁪⁬⁭⁬⁪‫⁬‬‮‫‫⁫‪⁫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁮‮⁫‪⁪‫‪‫‍‏‪‫⁯‎‮⁯⁪‏‪⁫⁭‏‫⁮‪⁫‌‮‍⁬⁫⁬‭‭‭⁭‍‪‬‮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁭‎⁫⁫‬⁭⁬​‫⁫‬‬‪‎⁯‭‪⁫‫‏⁭⁭‏‍⁮‬⁭‎⁮‏⁮⁬​‌‍‫‌‭⁯‭‮",
+          "parameters": [],
+          "return_type": "UnityEngine.ColorSpace"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁪‎​⁮‏‌‬‪‌⁮⁪⁭⁫‫‬⁯‫⁭⁯‌⁭⁯‪‫‌⁬‎‎⁫⁬‮​⁪‬⁭⁭‏​‬⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "UnityEngine.RenderTexture"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍⁫‎⁭⁮‍‎​‭‏⁭‌‎‫‪⁭‌‬⁯⁬‎‬⁫​‬⁪‌⁭‌⁪‭⁬‌‭‍‬‮⁭‏⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.RenderTexture"
+            }
+          ],
+          "return_type": "UnityEngine.RenderTextureFormat"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‎‏⁪⁯‬⁯⁫⁭‌‬‮‪‬‮⁫‏⁫‮⁪‬​‪‫⁫‌‌‫‌‏‌⁭⁯‪⁫‫‪‬⁪‪‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.RenderTextureFormat"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‬‌‪‏‭⁯‌⁪‍‫‏‫‬‪‏‭⁯‪‌‎‎⁬‬⁯‫‌⁫⁬‬⁬⁭‬‏‌⁭‪⁬⁬‭‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TextureFormat"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫‪⁯⁭‬‭⁯‭⁮⁭⁪‌⁭⁫⁬‪⁬‎‍‫‬‍⁭⁭⁪⁮‍‌‎‍‏⁮‎‎⁪⁮⁬⁮⁪⁬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "UnityEngine.Texture"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍‬⁮‎⁭‏‬‫⁫‮‬⁬‏‍‏‮‪⁮‏⁬‫‍⁭⁮​‌​⁬‮‬​‫⁪‭⁮‎⁭‫⁬⁬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪​‭​‭​⁭‬⁫‫​‬‫⁯⁬⁮‪‏‍‎⁪‭‪‬⁪‮‪⁬⁬‎⁬‫‎‎‭⁬⁮‌‫‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮‌‮​‫‏⁪⁯‬⁬‪⁬‌‎​‮‮‭​‪‌⁮‍⁮‭​​‫⁬‏‭‌‎⁭​⁮‮‪‪⁫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.RenderTexture"
+        }
+      ],
+      "name": "⁫‏‮‍⁬‮‬‫‬⁯⁬‏⁭⁬⁭‏⁪⁮⁬‮⁪⁮‭⁪⁯‪‪⁬‭⁪​‫⁬⁬⁫​‍⁬⁮‮‮",
+      "namespace": "",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Object"
+            },
+            {
+              "name": "",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "resolution",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        }
+      ],
+      "name": "‫⁯‬⁬‬⁫⁬⁮‮⁮​⁬‮‪⁪‎‏⁮‪⁭‬‬‫​‌‫⁪⁯‌​⁫‎‏‪⁫‫‌‌⁫⁭‮",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "<>9",
+          "offset": 0,
+          "type": "‏‮​⁬⁬⁬‪‏​‭‭​⁭⁪⁭‫⁬⁯‫⁯‭‌⁯⁭⁯⁬‮⁪‫‮‎‌‎‍‍‌‬‪‌‌‮.⁭‮⁪‫‫​⁬‭‏‬⁬⁫‮⁭⁫⁭⁪‭⁯‎‬‮⁬‮⁫‌‫⁯‏⁮‫‏‭⁪‫‏⁪‏⁬‬‮.‌⁫‌‎⁬‍⁯⁭‎⁬⁫⁭‎‪‭‬⁭⁪‬‫‏‏‪‫‍‫‌‌‭​‌‪‮‭‌‬‬‬‎⁯‮"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "<>9__7_0",
+          "offset": 8,
+          "type": "System.Func<UnityEngine.TerrainLayer,System.Boolean>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "<>9__13_0",
+          "offset": 16,
+          "type": "System.Func<UnityEngine.TerrainLayer,System.Boolean>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "<>9__14_0",
+          "offset": 24,
+          "type": "System.Func<UnityEngine.TerrainLayer,System.Boolean>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪‌‎⁪​⁭⁪‎‌‬‮⁫‬‏⁪‮‫⁪‮‌‍‎‍⁮‭‏​‏⁬⁮‍‏‏‫⁬‮⁭⁬⁮‮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁮‭‪⁬⁮‎‌⁫⁮‎⁯⁬‫‮‌⁭‬⁫⁫⁫‫⁪‬‎‫⁮‎⁬⁭‫‬‏⁯‎⁭‏⁫⁬⁭‫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‏⁯‪⁯‫‎‍‫‪‏⁮‬⁬‬‫⁬‌‪⁪‏⁮‬‌‌⁪⁮‍⁪‎⁫‌‎​‮⁪‏⁫⁬⁭‬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯⁬⁪‫⁬‬⁭‍‬‮‪‫⁪⁯‏‬‏‎‬⁪‍‏‪⁭⁯‌‬⁫‪‪‬‬⁬‮‎⁯​‍‮‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁪‎‬⁪⁮‭‏⁪⁪⁭⁪‪⁮‎‌⁭‌⁪‭‬⁯‬​‪⁯‍‭⁮‬‬⁮⁪‫‫⁭⁪‏‎‍⁬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁪‎‎‫‪‎‫‎‎‏‏​⁪‪‎⁪⁯⁬‮‎‍‏⁬‎‍‌​‪⁮⁯⁫‬‮‮‌‬‏‍‌‮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        }
+      ],
+      "name": "‌⁫‌‎⁬‍⁯⁭‎⁬⁫⁭‎‪‭‬⁭⁪‬‫‏‏‪‫‍‫‌‌‭​‌‪‮‭‌‬‬‬‎⁯‮",
+      "namespace": "",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "‏‬⁯‮‬⁬‬‬⁮⁮‫⁫⁫⁬‎⁬⁮⁯⁫‪‌‫⁭⁪‌⁯‬⁫‏‌⁮⁬⁭‍⁫‏​⁯⁫‫‮",
+          "offset": 0,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "‪⁫⁬⁭‎⁮‪⁮⁮‪‎‪​‎⁭‏​‌‌⁯‍⁯⁭‭​‏⁫⁭‍‎⁬⁭‫‫⁮⁬⁪‮​‍‮",
+          "offset": 4,
+          "type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "⁫‍‌‭‎⁮‭‫⁯‫⁭⁮⁬‍‬⁬‫‌⁭‍⁮‭‭‪‌‬‮‍⁮‎⁮‎⁭‮⁭‍​⁮⁮‮",
+          "offset": 16,
+          "type": "UnityEngine.TerrainData"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "‏⁪‮‪⁬‮⁬⁭⁬⁭‭‭⁭‪​‎‪⁪‪⁪‬‎​‏‏‭⁪⁬‮‎⁯‬‎​‌‎‍‪⁯‏‮",
+          "offset": 24,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "⁯⁮⁯‮‏⁯⁭‌⁭⁯‮‍‏‭‮‏‬‬‏⁯‫⁯‮‌​⁭‎⁮‬‫⁫⁫‭‮⁭‍‭⁫⁫‮‮",
+          "offset": 25,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‭‏‌‎⁬⁫‍⁪⁫⁪⁮‭​⁯⁫⁫⁮⁭‭‭‫⁫‎⁯‎⁮‏‍⁯‌‫‫​‏‏‏‮​‏‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌⁭⁭‍‌⁯​‭⁯⁭‫⁪‬​⁭⁪‬⁭‬‮‫⁪⁪⁭⁯⁪‮‭‮‎⁯⁮⁫⁯‫​⁪​⁮⁬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁮‏‍⁫‪‬‌⁪‎⁭‮⁫‎​⁫‎‫⁯‮⁫‏⁪‎‫‎‮⁯⁪⁫⁭‏‍⁭‎⁪⁪‎⁭‏⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‏‮⁬‭⁮‎⁬‏⁪‫⁫⁪‍‍‎⁮‬⁭​‏⁮⁯​‬⁮‌‏⁭‬‍‬‏⁫‍⁯‭‫⁮‍⁬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‬‮⁯​⁮​‫‎‭⁯‪⁫⁯‬‍‎⁬​⁮⁯‮‏‬‫⁪⁬‏‭‪‏⁬⁪‍⁬‎‮‍⁮⁫‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫‮‭‪‮⁫⁪‭‬⁬⁬‌‭​‫‬‍⁯​⁫‍‮‭‭‍‏⁯‬⁭⁫⁮‍⁯‮‪‮⁪⁯‎‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‏​‍‭⁫‍⁫‭‌⁫‭⁫⁮‮​‭⁭⁭‮​‎‌‮⁬‪‮‌‪​⁪‭⁮‏‫‌‪⁯‪⁪‮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁭‎‍‍‫‪‏‫‮‏‪‍‌‭​⁯‮‍‎⁮⁬⁪​‏‫⁭‍‏​‫⁮‭‎⁪⁮‎‎‭​⁬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍⁬⁭⁮⁭‌⁬‮⁮⁯​⁭⁮‮⁭​‏⁯‌‏⁭‪​⁪‍⁮⁮‬⁬‪⁮‬⁫‬⁪‬⁯‫‮‫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "",
+              "type": "‏‮​⁬⁬⁬‪‏​‭‭​⁭⁪⁭‫⁬⁯‫⁯‭‌⁯⁭⁯⁬‮⁪‫‮‎‌‎‍‍‌‬‪‌‌‮.⁭‮⁪‫‫​⁬‭‏‬⁬⁫‮⁭⁫⁭⁪‭⁯‎‬‮⁬‮⁫‌‫⁯‏⁮‫‏‭⁪‫‏⁪‏⁬‬‮.‫⁯‬⁬‬⁫⁬⁮‮⁮​⁬‮‪⁪‎‏⁮‪⁭‬‬‫​‌‫⁪⁯‌​⁫‎‏‪⁫‫‌‌⁫⁭‮"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‎‪‏‬‮​‎⁮‬‍‪‬‬⁬​‎‬‮‫⁫⁮⁬⁬‭‬‎⁯‌⁮⁮‫‮⁯⁭⁪‬‍‌‫‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "UnityEngine.TerrainLayer[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯‌‭‪‌‏‪⁬‬​⁪‫‏‍⁬⁮‏‏‎‬⁮⁯‮‭‫⁬⁯‬⁬‎‍‬‌‍‍‬⁫⁭⁫‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture2D"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍‍‬‮‭‮⁭‍‪​⁭⁬‬⁬⁬⁯‌​⁬‍⁮‮​⁫⁯‫‍‭‫‎⁮⁯‏‎‮‬‎‎⁪⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁮‮‏‏‍⁫‌‪⁬‮​‏⁭⁯‫‭‭‏‏⁬‍‎⁯⁫​⁯‎⁪‌‬‏‍‍‬⁭‮‮‌⁮⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬‍⁫⁪⁬⁭‭⁮⁪‫‎⁮‬⁯​‮‏‪​⁮‏‏⁪‮‫‮‪‪⁬⁯⁮‫⁯⁪‮‎‏⁪⁮‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‭‬‍‏‪‏‮⁯‮‎⁯‎⁭⁪⁪‮​‭⁬⁪⁯‭⁭‭​‬‏⁮‎⁪​⁫‮⁪⁫‭⁪‌‎⁫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬‪⁯‎‮‍‌‬⁫⁮⁭⁯‭⁬⁮​⁭‭‎⁫‬‬‭‪⁭⁫‏‏⁮⁭⁮‏‭⁯⁪⁫‎‬⁪⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​‮‭‭⁭‫‫⁪‬‎‬‌‮⁪⁫‬‏‬‌‫⁮‍⁪⁯‏⁫⁯⁯‌‭‎‭‮⁭‫‫⁪‏‫‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯⁮‭⁪‫‬⁯‏⁪⁬‏‮⁭⁫‭‫⁮⁬‍⁬⁫⁭⁮⁮⁪⁪‮‪⁪‪⁫‬‫‎‍‭‎​‫⁮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Shader"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌⁪‫⁫⁫‎⁫⁬​⁫⁭‌‮⁪‍‫​‌⁭⁭​⁮‍‏⁪​‬‏‪⁭‏‏‬‭⁪⁫‫‭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​‏‍‪‮‫‌‏⁮⁫⁮​‭⁪​‌⁭‎⁪⁪⁭⁮​⁬⁬⁯⁮‌‍⁮⁬‮‏‮‮‫⁮⁯‮‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Shader"
+            }
+          ],
+          "return_type": "UnityEngine.Material"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬‎​‌⁬‫​⁫‫‎‮‍⁭‫​‍‏‮⁬‬‫⁭‎‍‫‮‌‪‫‍‏‏⁬‫​⁬⁪⁯‪⁮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯‎‭‭‭⁫⁬‎‪‎‮‎‍‌‎‫‮‏‬‍‌⁯‭⁮‌‮‭⁭‫‏​‫‮⁮‏⁪‌⁫‌‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector4"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‎⁪‭⁮‭‌⁯⁯‎‏⁭⁪‌‭⁯‫‬⁬‌⁭⁯⁪​‮⁮⁬‏⁬‏‭‬‪⁫⁭‌‮⁬⁬⁬⁫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.RenderTexture"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬‍‍⁭‪‬‍‪⁬‭‫‎⁫‍‎‪​​‏‮​‌‌⁮⁯‌‎⁮‍‫⁬‫‫‬‍‫⁪⁭‬⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Texture"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‏‪​‬⁪‏⁬⁯​‌‌⁫‎⁭‏⁫‎‍⁬‭‪‬​⁭‍‮‫‬‫⁯​‏‭‬⁪‫⁬‍‭⁫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍‍‍⁯‎‍‭‌‏⁬‏‫‍‎‍⁮‌‮‭⁬‮‍⁬‏‌‌‪‌⁯‬‭‮⁮‎​‪‪‬‮‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮‌‍⁫⁭⁬⁭‌‌‪‬‫‭⁭‮⁪‭‬⁫‌⁯‌​‌⁭‎⁫‫‪‭‪‪⁬‌‍‪‪⁫⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‏‫⁮​⁫​‭​⁯⁮‬⁬‫‪⁯‍⁯​⁫⁭⁬‭⁪‎‌⁯⁮⁭‍⁮‌‏⁬‫‎‪⁯‍‌‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯⁭‮‭‌‬‪⁮‪‮​⁭‮⁬⁬‪‌‮​⁪‪‪⁫‌‎‫‮‏⁭⁭⁫‬‫‪⁪​⁪‮‍‮‮",
+          "parameters": [],
+          "return_type": "UnityEngine.Rendering.RenderPipelineAsset"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍⁬‬‭‏‍‏‮⁪​⁮‭‌‭‭‪⁭⁮⁮⁬​⁫⁫​‮‮⁬‬‪⁮‌‍⁮‬​​⁮‎⁯⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‎⁫‭‏⁭⁪‫​⁪⁭⁯⁯‎⁭⁯⁬‭​‎​‪⁫‌‪‭‮‌⁮⁪⁬‫‭​​‏‪⁭⁮​⁮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬‏⁯⁭‪⁪⁫‏‎⁮‭‍‎⁬⁭‭‎⁮‪⁫‫‬⁫⁫⁪‎‏‭‍‌‭⁮⁯‬‎‫⁬‮‬‬‮",
+          "parameters": [],
+          "return_type": "UnityEngine.ColorSpace"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫‬‌​‌⁫⁭‮‏‭‏‪​‏‌‪⁬⁪⁭⁯⁪‏⁮‌‫​⁮‭‫‎​⁮⁫⁫⁭⁪​‍‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬‌‍‫⁮​⁭⁫‎‌‫‮⁪‫‎‮‫⁮‫‏‪‬‎⁭⁯⁯⁪‫‮‍‏⁯‪⁮‭⁬⁪​⁮‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.TextureWrapMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‬⁪‭‎‏​⁪‬‬‪⁪‏⁫‍‪‍‌‍⁭⁮‍⁮‪⁮⁬⁬‮‭‫⁯‮⁮‎⁬⁯‬‍‎‌⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁭⁪‏‫‬‫​‍⁮‎⁫⁮‌‮‭‪‭⁪⁪‌‮⁫‬‎⁫⁭​‭‏‮⁯‪⁪⁬⁯⁫‭‌⁬⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.RenderTexture"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁭⁭‭‏⁪‪‬‍‎⁮‬‮‌​‮⁫‭⁭‬‮‭‪⁬⁪​‍‎‎⁯⁬⁬⁭⁪‫‏⁭⁫‏‭⁪‮",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‬⁪‬⁭⁯‭‪⁫‏‮⁫‮‬​⁯‏‌⁭‫⁫​‎​⁬‎‪⁮‍⁫⁪‭‭​‪‬‎⁬‫⁭⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬‮‬⁭‪‍‍‬‭⁫‪‭⁮​‮⁮⁬‌‪‎‮⁬‭‫‪⁬‮⁭‎‫⁬‏‎‮‮⁭⁬‌‪‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪‮⁪‭‪‪‫‮‮‏‬⁪‌⁬‮⁪‮‬⁫⁫⁬⁯‭⁮⁯‍‌‍⁫⁫‫‏⁪⁬⁯⁬⁬‎⁯⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁪‫⁬‭‪⁭⁮‫⁭‏‬​‎‌⁮⁮‍⁭‫‬‮‪‎‌⁪‮‏​⁯⁪‮‍‭​​​‫‎‪⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁮‌⁬​‏⁮‪‭⁮⁬⁪‭​‭‪‪‏⁪‪⁯‏‎‌‏‫⁯‎⁫‬‭‌⁫‬‌‍‮⁪⁫‏‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‭‍⁮‌‮‎‌‍⁯⁯‏‬⁪‮​⁫‫‮⁮‍⁪‮‌⁭‮⁫‮​⁯⁭⁯‪‮⁯‭⁬‍⁬⁫‫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬⁪‏‮‮‍⁪⁪‎‬‫‎​‬‬⁬‬‎‏‮⁪‬‮​‍‪⁭⁫‪‪‍​‍‫​⁯⁮‫‫‮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪‬⁮⁭⁫‍⁮⁬‎⁬⁬⁭‫⁪‎‮⁫⁫‎‮⁭‍‏‮⁮⁫‎‮‌‫⁭⁭‏‬‏⁬‌‭‮⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‎⁫⁯‭‬⁭‭‭‌⁬⁯‫‎‪‫​‮​⁪‍‪‭‌‍​‬‍⁬⁮‎‫‬⁮​⁮⁭‌⁬⁭‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬‬⁪⁪​‏⁬​‮⁯​‫‭‭​‭‍⁭​‍‭⁫⁫⁭​​‎⁬⁪‬⁯‮⁮⁮‫​⁫‎‏⁬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.Object"
+            },
+            {
+              "name": "",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁮​‏‌‌⁪‭‬‏⁯‫​⁫‌‏‏‌‬‮‍​​⁫⁬‫‌⁯‎⁪‍‪‌‌‏⁫⁬⁫‬​⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮‎⁯⁫‎⁭‍‮‬‏​⁮⁫‫‭‪⁮⁫‬⁫⁬⁬⁯‬‏⁯‮⁪‪‎⁫‎‍‍‪⁬⁪‫⁮⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "UnityEngine.TerrainLayer[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯‫‭‏‍‮‪⁮​⁭⁪⁭⁯⁭‎⁮‎⁪‍‮‎‬⁪⁬⁯‫⁪‌‏‮⁭⁫⁫⁪‮⁮⁪‏​‭‮",
+          "parameters": [],
+          "return_type": "UnityEngine.TerrainLayer"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁫‏‬⁫‍⁯⁯⁭⁮⁯‮‫⁪⁯‬​‏⁪⁫‌‎⁬​⁫‮‎⁭‎⁮⁬‌⁫​‎‍‭⁫⁫⁮⁮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Texture2D"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮‫‍‌‎‭‪‎‪​‮‬⁬⁮‮‭‭⁯⁪⁬‎‫⁮‪⁭‌⁯‬‍‌⁪⁭‬⁪‌‫⁬‏‫⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Texture2D"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫‌⁭‫‪⁫​‌​⁫⁭⁯​‎⁬⁫⁮⁪⁪⁪‌‍⁭‫‫‍‎‪⁮‎⁫‮⁪⁮⁯‌‌⁫‮‫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Texture2D"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬⁮‫​‮‏⁮‏⁭​⁯⁮‮⁬‏​‍‭⁫‫‍‪‪‍‭​‫‎⁫⁮⁬⁯‬‭‌‫‫⁬‫⁬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌​‪⁪⁭⁫‎⁬‫⁯⁭⁭‎⁬‫⁪‎⁬‭​‍‌⁪‍‏‏‏⁮⁯‫‪‮‮‎‪‍‭‭‫‭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‬‎⁬⁮‍‭‪⁬‏⁯⁮​‌⁮⁭‬⁮‍‎‮‮⁫‎‫‎‬⁭⁯‫‬‪⁬‍‏‭‫⁭⁬⁫⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬‭‍⁬‪‪‍‪‏⁭‌⁬⁮‌⁪‎⁫⁪⁪‬⁫‬​‭‮‏⁮‏⁪‫‪‬‫⁭⁪‪​‪⁯⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            },
+            {
+              "name": "",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁭‪‬‎‫‌‪‍‎‪‌‪⁬‭⁪⁪‎‍⁭‏⁭‏‪⁭‮⁬‏​‪‬‏⁯⁪⁬‌⁯‍​‭⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            },
+            {
+              "name": "",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯⁪⁯‬​‮⁭‬‌⁭⁮⁯⁯⁫⁫⁪‎⁬‌⁫‪⁯‭‮‎⁫⁫‎‌‍⁮‎⁪‌​⁪‌‭‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            },
+            {
+              "name": "",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‎‏⁫‏⁫‬​⁮‌‏‏⁭‮‏‌‬⁫‍⁮‪⁫‭​⁯‏‎⁯‭‎‎‮⁮‍‎‫‪​​‍‮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector4"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌‪​‪‭⁭‎​‫⁬‏⁯‭‍⁪‭‫​⁮‍⁪⁮‫‬‏⁫⁯‌⁮‬‭⁪‎‮⁬‏⁮⁭​‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector4"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯‮‭⁭⁭‎‭‬⁭⁮‬​‎‏‭‎⁯⁫⁯‍‎‍⁪⁮‪‬‏⁭⁭⁫‎‭​⁭‎⁭‌‏‪‬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector4"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯‌‎⁭‪⁬⁫‍‍⁯​‮⁬‮‭⁯‍‫‪‪‏‪‍‍‌‎‫‌‏⁪‌‎‎‍‎‏‍⁬⁪‫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector4"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​‌‭⁬⁭‍⁬⁪‪‮⁫‬⁯‪‬‎⁬⁭‫⁮⁭‪​‭⁭‪⁬⁮‪‌⁭‬‏‬⁪‮⁬‪‬⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‎​‫⁯‪‭‏‮⁯⁯‎‍⁯‭‍⁮⁭‬‍​‭‪⁭‎⁪⁭⁯⁯‮⁪⁮⁯‮⁮‏⁮⁫‌‪⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‏⁮​⁪⁭‭⁪‌‌⁭‏‍‌‍‫⁭‪‮⁮‫‮‏‫‬‮⁭⁬⁫‎‭‪⁪‪‮‫​‭‮⁯‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture2D"
+            }
+          ],
+          "return_type": "UnityEngine.TextureFormat"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁫⁯‪⁫‪​‬‪‪‍⁯‌‮‎‬⁪⁪⁫⁯⁬‮‪‫‏‬‫‫⁪⁬⁯‭⁮‬⁪‫⁯‪​​⁮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬‬​‌⁮‏‮‬‫‭‬⁭⁬⁭⁫‮‍‮⁬⁯‌‬⁪‮⁫‌‍‎‍‌‎‌⁪‫‫⁫‬‫⁪‫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "⁭‮⁪‫‫​⁬‭‏‬⁬⁫‮⁭⁫⁭⁪‭⁯‎‬‮⁬‮⁫‌‫⁯‏⁮‫‏‭⁪‫‏⁪‏⁬‬‮",
+      "namespace": "",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "‏⁫⁮‮‌​⁮⁬‎‭‫⁮‏⁭⁬‏‬⁮⁬‏⁭‭‫‍⁫⁭‫⁫‫‎‭‌‏⁬⁯⁬‪⁫‍‎‮",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "⁯‎⁯‭‮‎‪‮‫‭​‫‪⁭‍⁬‌⁭⁮‪​​‬⁪⁬⁮⁮⁯‭⁬⁫⁭⁬‍‮⁭⁮⁬⁪‫‮",
+          "offset": 16,
+          "type": "‏‮​⁬⁬⁬‪‏​‭‭​⁭⁪⁭‫⁬⁯‫⁯‭‌⁯⁭⁯⁬‮⁪‫‮‎‌‎‍‍‌‬‪‌‌‮.⁫‏‮‍⁬‮‬‫‬⁯⁬‏⁭⁬⁭‏⁪⁮⁬‮⁪⁮‭⁪⁯‪‪⁬‭⁪​‫⁬⁬⁫​‍⁬⁮‮‮"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "‍‭⁭‏⁪‬‏‬‬‏‪⁫⁫⁫⁮‫⁭⁫⁪‌⁬‬⁬⁭​‮‫‮⁮⁫‫‎‮‭‏⁫‍‫‫⁫‮",
+          "offset": 24,
+          "type": "‏‮​⁬⁬⁬‪‏​‭‭​⁭⁪⁭‫⁬⁯‫⁯‭‌⁯⁭⁯⁬‮⁪‫‮‎‌‎‍‍‌‬‪‌‌‮.⁭‮⁪‫‫​⁬‭‏‬⁬⁫‮⁭⁫⁭⁪‭⁯‎‬‮⁬‮⁫‌‫⁯‏⁮‫‏‭⁪‫‏⁪‏⁬‬‮"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪⁯‎‫⁮⁮‪‌⁭⁬⁫‌⁮‭⁫‌‭‎​‪⁬‏⁬⁭‪‪​⁮‎⁪‎​‪‍‎⁪‬⁯⁭‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.RenderTexture"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌⁮‭⁪‫‌⁬‏‎⁪‬‮⁬‍‌⁬⁫‮‍‬⁮‌‎⁭‏‮⁪⁯‎‭‭‌​‍‍‮⁬⁭‪⁫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.RenderTexture"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "",
+              "type": "‏‮​⁬⁬⁬‪‏​‭‭​⁭⁪⁭‫⁬⁯‫⁯‭‌⁯⁭⁯⁬‮⁪‫‮‎‌‎‍‍‌‬‪‌‌‮.⁬⁮⁮⁫⁭‮⁬⁮⁬⁫‏​⁯⁮⁫⁬⁭⁯⁫‭‬‮‏⁭⁪‍‏‏​⁫⁭‮‏⁪⁭‪‎‎⁮‎‮"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁪‭‏⁯‫⁮‫⁪⁭‍‍‬⁭⁬⁭⁮⁯‌⁫‎⁪⁪‭‏⁭‭⁭‫⁪‬‭⁫‮‪⁭‮⁭‫‌⁮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Color"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.TextureFormat"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌‏‫‫‍‎​​⁯​‮⁫‌⁭⁮⁫⁭​⁪‍‭⁮‪⁮⁬⁫‮‌⁮⁪​⁫‌‬⁭‏‏⁯‫‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.RenderTexture"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.TextureFormat"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Texture2D&"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‭⁬‌‮⁯⁯⁮⁮‎⁭‍⁭⁬⁯‭⁭‬‬⁮‏‪⁫‍‪‌⁯‬‪​⁭‎‬‪‏‎‪⁪‭‍‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture2D"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬‮‫⁫‭⁭⁬‬​⁭⁪⁮⁭‏‬‪‍⁬‮⁫‫‪⁯⁭⁫​⁬⁪⁮‭‮‪⁬⁮⁫‌⁭⁬⁪⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture2D"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯‪‏‮‫⁯‌‍‮⁫⁮‌‏⁬‮‍⁮‮⁯⁬⁯‎‪‎⁬‍‏⁬‫‬⁪⁮⁪⁭‫⁪⁮‪‬⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "",
+              "type": "System.Int32&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁪⁭‍⁬‏‎‎⁮‬⁯​⁯⁬‎⁯‫‪⁮⁯‌‌⁮​‪⁮​‮‍​⁭‪⁫‬‏⁮‫⁫‌‬‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫‎⁬⁪⁯‏⁪⁮⁫‏‪⁫⁭‮⁬‭‬‌⁪⁫‪‬‎‏‮‭‪‍‍‏⁮‌‮‎​‮‎⁬⁮⁯‮",
+          "parameters": [],
+          "return_type": "UnityEngine.ColorSpace"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮⁮⁪​‎‬‪⁭‭‫‪⁯⁬​‌⁫‏⁯⁮⁬‭‫⁬‭⁬‍‎⁭‏‏‌‎‬‎⁬⁪‮‌‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌‭⁭‬‍⁮‮⁯​‌⁯​‬‍⁪‎​⁬‮‪‍‭‮⁯‎‮⁮‌⁬⁫⁮⁭‬⁬‮⁫⁮​‪‮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁫⁬⁪⁭⁫‎‍‍⁮‍‏⁬‎⁬‭‬‌⁭​‮⁮⁬⁮‍⁪⁭⁯⁭⁬‮⁯‬‮‍‬‮⁭⁭‮⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.RenderTexture"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​⁬⁮‌​⁮​‌​‏⁭‭​‏‎⁯‫‫‬​‏⁮⁬‎​⁯⁪⁭⁮‏⁬‪‍⁬‍‬‭‬‪⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.RenderTexture"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮‏⁪‮⁭‮⁬‍‫⁪‍‫‬​‮‌‎⁪‪​⁭‮‌‎⁫⁫​⁭‬‍‪⁮‏‍‬‍‎⁮‍⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.TextureFormat"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‬‍⁪‍⁭‭​‬‭‪⁪‭‭⁭‮‫‮​⁭‪‌⁫⁮⁮⁪‪‎⁮‫‮‪‮‌‮‪‪​‮⁪⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture2D"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Color[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‬⁮⁮⁪‎‌‪⁮‎⁪‌⁭​⁮⁪​‏⁯⁪‪⁮‮‮‪‬⁯​​‭‪‭‏‪‭‏‍‫​⁫‬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture2D"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮‌‪⁫‮⁬⁫⁮‍‬⁭⁪‌‍‍‍⁮‪⁮⁮‍‫​⁯⁫‭⁯‮‫​⁬‍‫⁫⁫‭⁯‪‫‬‮",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‭⁪‬⁬⁭‫⁭‎⁯‌​‭‮⁯​⁮⁬‍‍⁭‮‎​‫‌‍⁪‏⁯‏‫⁮‏‏‎‮⁪⁫⁫‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫‭‌‭⁫⁭​​⁭‫‭‬‪‮‬‪⁫‌⁮‎⁪‭‪‏⁫‌‮⁪⁫‫⁬‬‪​‭⁫‭⁬‎‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪⁬‫⁮​⁮⁬‬​⁭⁯⁭‎‪⁮⁬⁪‮⁭‎⁭⁭‬‬‮⁮⁭‎‭​‮​‬‭⁪‍‮‎⁮⁪‮",
+          "parameters": [],
+          "return_type": "UnityEngine.RenderTexture"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‏⁪⁯​‎​‭‪‏‭⁫⁭⁯‍⁫⁬‮‪⁭⁬⁮⁪⁭‌‮⁬⁬⁪⁬‮‬‫‍‏‎​‏‪‎‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.RenderTexture"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‬‬⁭‏⁫‬⁬‌‎⁮⁬⁯⁭⁭‫⁭‏‎⁯⁬⁭⁭​⁪⁭⁫‍‫‭⁮⁮‫‍‬⁭‫‏‎‍‮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‬⁯‭‭‏‮⁭‪⁬‭‌‎​‫‪‍⁪‪‮‌⁯‫‪⁮⁪‎‎⁮⁫‮‫⁭​⁫‎⁬‌‍‭‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪⁮‪‬‫⁬‎‫‬‬‪‪‪⁭‏⁮⁪‌‫‫‏‪‫⁫⁪⁭‪⁫‬‫⁮⁬⁮⁪⁭⁯‫⁪⁮‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.TextureFormat"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯‮‍‍‬⁮‬‍‍‮‏​‮​⁮‍‍‫⁫⁪‍⁭‫‎‏⁭⁯‌⁮‮‫‬⁭‌‫​⁫⁯‭‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture2D"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.TextureFormat"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫‮‫‎⁫‌‫‍⁭⁫​​‭‬‌‬⁯⁯⁫⁮⁯⁯‬‏​‏⁭‎⁭⁯⁭​‭‎⁯⁭⁬‍‌⁮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture2D"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Rect"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮⁭⁯⁪‬‎⁬⁪⁫‎‫‮‬‏‫‪‏‌⁯​‎‭⁮‌⁭⁫‪‏​‪⁫⁮⁪​‪‌⁯‬⁮⁬‮",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬⁯⁯⁬‪‪‫‎‬⁬‭‌⁮‪⁬⁯⁯⁬⁮‪‌‌⁬‮‮‫⁮​​‭‮⁬‭‍‌‌‎‌⁪‬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.Object"
+            },
+            {
+              "name": "",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮⁫⁯‬​⁭⁮⁬‎‏⁮⁪‮⁮⁮‬⁪⁫‍⁯⁮⁪‪‬​‭‫‪⁫‪‫‏‮‮⁬‏⁫‏‌‭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture2D"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Color[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‭⁪‮‫‍‪⁪‮‍‍⁭⁪‍‭⁬‏‏​‬⁪⁫⁮‮​‬‬‭‏⁭‬‍‬‍‬⁮‏‬‬‌‫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture2D"
+            }
+          ],
+          "return_type": "UnityEngine.TextureFormat"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍‌‫⁫⁪​‬​‬‎‌⁫‏‬‪⁪⁬‮‬⁬⁯⁮‮‫⁬‭‍‌‮‏‎‏‬​⁯‫⁮‬​⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.TextureWrapMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌⁬‌⁫⁭‍‬‫‭⁬‬‎‮⁭‭⁫⁬​⁭​​‫‏⁯‎⁫‫⁫‫⁫‏⁬‌‮‏‭‪⁫‫⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture"
+            }
+          ],
+          "return_type": "UnityEngine.FilterMode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫​⁬‬​⁯⁫‏‫⁮‪‏⁮⁭‏‮⁮⁫‏⁮‫‎‭‫‫⁭‎⁬‫‍⁯‬​‪‪‭‭⁭⁭‫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.FilterMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‎‪⁭‬‮⁪⁭‍‏‪‬⁫⁭‮‌⁬‍‎‪‎‫⁫⁪⁪⁬‪‎‬​⁫⁬‮‬‍⁭‫‏‎‎‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​⁭‎‫‎‪‮⁪⁮‬‫⁮⁫‌‏‪‎⁫⁯⁪‬‭⁯⁮‌⁭‫‭⁮‭‍⁯‭‍⁪⁭‏​⁭‮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​‭‏‪‭⁮‏‍⁯⁬‭‮⁪‭‬‎⁯‫‪‎⁬⁫⁬⁭‌‍⁯‍‬‏‭‎⁮⁮‍‏‫‪⁮‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‏‌‭​⁫‫⁭‭‎‮‍⁪⁫‌‌‏‎‎⁯‮‎⁬⁮‎⁭‎‌‪‎⁫​‮‮‬​​‬‍‌‬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮‫‌‌⁯‬⁪‏‮⁮⁪​‭⁬‪‏⁫⁭⁪⁭‮‪⁭‫‌⁭⁭‪⁯​⁫‫⁪‮‫‏‪⁭‎‮‮",
+          "parameters": [],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "‏‮​⁬⁬⁬‪‏​‭‭​⁭⁪⁭‫⁬⁯‫⁯‭‌⁯⁭⁯⁬‮⁪‫‮‎‌‎‍‍‌‬‪‌‌‮",
+      "namespace": "",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "AmazingAssets.TerrainToMesh.Normal"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CalculateFromMesh",
+          "offset": 0,
+          "type": "AmazingAssets.TerrainToMesh.Normal"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "CalculateFromTerrain",
+          "offset": 0,
+          "type": "AmazingAssets.TerrainToMesh.Normal"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Normal",
+      "namespace": "AmazingAssets.TerrainToMesh",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "maxSplatmapsCount",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "maxLayersCount",
+          "offset": 4,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "vertexLimitIn16BitsIndexBuffer",
+          "offset": 8,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "shaderAllTerrainTexture",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "shaderGrass",
+          "offset": 24,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "shaderSplatmap",
+          "offset": 32,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "shaderSplatmapWithHoles",
+          "offset": 40,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "shaderSplatmapFallback",
+          "offset": 48,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "shaderSplatmapWithHolesFallback",
+          "offset": 56,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Constants",
+      "namespace": "AmazingAssets.TerrainToMesh",
+      "type_token": 33554442
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TerrainToMesh",
+          "parameters": [
+            {
+              "name": "terrainData",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "AmazingAssets.TerrainToMesh.TerrainToMeshDataExtractor"
+        }
+      ],
+      "name": "Extensions",
+      "namespace": "AmazingAssets.TerrainToMesh",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "‎‫‏⁭‭‫‍‏⁪‎‬‏⁫‮​‬⁪‏⁬⁪‎‎‪‍⁪‎‏​⁪‫‏⁯⁭⁯​‎‮⁪‏⁬‮",
+          "offset": 0,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "‏​‮‫‫⁯⁪‫​‌⁯‫‪‫‏⁪⁯‎​⁪‌‪‬‌‍​‌‫‬‮‪‪‭‎‮⁭⁮⁬‮‪‮",
+          "offset": 8,
+          "type": "System.Collections.Generic.Dictionary<System.Int32,UnityEngine.Vector3[]>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "‏⁭‮​⁭‫‎‫‫‫‫‭‍⁫‌⁯‏‍⁯‪⁮⁬‮‫⁯⁬‭⁪⁬‫‎⁬⁫⁯​‬‌‭‬⁭‮",
+          "offset": 16,
+          "type": "System.Collections.Generic.Dictionary<System.Int32,System.Int32[]>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "‭‍⁮⁮​‬⁪‏⁫​⁮⁮‏‫⁮⁫‏‭‏‪‭‌‎⁭‮‫⁭‫​‎⁬‬⁪‮‌⁭‍‏⁫⁭‮",
+          "offset": 24,
+          "type": "System.Collections.Generic.Dictionary<System.Int32,UnityEngine.Vector2[]>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "⁪‎‌⁮‮⁪‌⁬‍⁯‏⁪⁬⁭⁮⁮‭⁬‎⁫‏⁬⁫‎‭‬⁮‏‪‫​‌‎⁬‏‏⁯⁪‏‏‮",
+          "offset": 32,
+          "type": "System.Collections.Generic.Dictionary<System.Int32,System.Int32[]>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "‪‬⁯‎‭‎​‌⁬‬‮⁫⁬​​‍⁬‭⁬‮‬⁫‎‎⁯⁪⁪⁭‮‌‌⁫‮⁮‪⁬​​‭⁭‮",
+          "offset": 40,
+          "type": "System.Collections.Generic.Dictionary<System.Int32,System.Int32[]>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "‫⁭⁮‮⁮⁭‎​⁪‮‌‭‍‫⁫‭‌⁪⁮⁫‪⁪​⁭⁫⁫‏​‪⁯‎‌​‏⁪‬‫⁯‎‭‮",
+          "offset": 48,
+          "type": "System.Collections.Generic.Dictionary<System.Int32,UnityEngine.Vector2[]>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "‪‍⁫‏⁮‏⁭‬‪‏‮‪‬‬⁭⁪‬‫⁭​‬‍⁯⁮⁮‍‬‌⁭‫‪⁭‭​⁬‏⁬⁬‫⁪‮",
+          "offset": 16,
+          "type": "UnityEngine.TerrainData"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExportMesh",
+          "parameters": [
+            {
+              "name": "vertexCountHorizontal",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vertexCountVertical",
+              "type": "System.Int32"
+            },
+            {
+              "name": "normalReconstruction",
+              "type": "AmazingAssets.TerrainToMesh.Normal"
+            },
+            {
+              "name": "edgeFall",
+              "type": "AmazingAssets.TerrainToMesh.EdgeFall"
+            }
+          ],
+          "return_type": "UnityEngine.Mesh"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExportMesh",
+          "parameters": [
+            {
+              "name": "vertexCountHorizontal",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vertexCountVertical",
+              "type": "System.Int32"
+            },
+            {
+              "name": "chunkCountHorizontal",
+              "type": "System.Int32"
+            },
+            {
+              "name": "chunkCountVertical",
+              "type": "System.Int32"
+            },
+            {
+              "name": "positionX",
+              "type": "System.Int32"
+            },
+            {
+              "name": "positionY",
+              "type": "System.Int32"
+            },
+            {
+              "name": "perChunkUV",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "normalReconstruction",
+              "type": "AmazingAssets.TerrainToMesh.Normal"
+            },
+            {
+              "name": "edgeFall",
+              "type": "AmazingAssets.TerrainToMesh.EdgeFall"
+            }
+          ],
+          "return_type": "UnityEngine.Mesh"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪​‌⁯⁭⁯⁪‭‫‍‎​⁬‬​⁫⁭⁪‌⁫‍⁪⁭‍‭​⁪​⁪‬​⁯⁪‭​‮‎⁭⁭‫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3[]"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector2[]"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "",
+              "type": "System.Single"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3[]&"
+            },
+            {
+              "name": "",
+              "type": "System.Int32[]&"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3[]&"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector4[]&"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector2[]&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁪‏⁮‎‪‭‌⁫‪‮⁭‪⁫⁯‍‬⁯⁯⁫⁭‪‏‍⁪⁪‬‬‪⁯‏⁬⁮‫⁮‬⁫‭‪​⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Single"
+            },
+            {
+              "name": "",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌‌‎‪‌⁭⁬⁬​⁯‎⁮‏​‮‎‏​‬⁮⁫⁯⁫‭‭⁭‌‪‪‎‭⁯⁫⁮⁪⁯‭⁪‬⁬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯⁮‬‫‪⁪‫‏⁭‌‏‪‌‬‌⁫⁮‌⁪‎⁫‭‍‬​‌‎‍⁫⁮‫‭‌‎⁬⁫‎‎‪⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‭‎⁫⁮‍​‫‪‪‎‬‭⁭⁫⁯‍‎‮‬‍‬⁪⁭‮‪‪​‬⁪‎⁮⁮‍‏‌⁪‫‎‫⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32[]&"
+            },
+            {
+              "name": "",
+              "type": "System.Int32[]&"
+            },
+            {
+              "name": "",
+              "type": "System.Int32[]&"
+            },
+            {
+              "name": "",
+              "type": "System.Int32[]&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​⁮⁬‏‎⁬‮⁬‎⁫‎‬‏‏‮⁫‏⁪‫‬⁯⁬‫‏‪⁮⁮⁯⁮‫⁮​‍‌‎‎‌⁯⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‬⁭⁫‪⁯⁪‪​‮⁪‍​‫​⁬⁪‎⁯‫⁫⁯‭⁫‪⁫‏⁮⁬⁮‮‬​‮‭⁬⁫‭​‎⁮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3[]"
+            },
+            {
+              "name": "",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‏‍‫⁫​⁯​‬⁯‮‏⁪⁪⁪⁪‫‍‌⁮‭‭‮‮‭⁯‮‪⁭‬⁪⁭⁮‌‭⁯⁫⁫‍⁫‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪⁮⁭⁫⁯​‍⁮‫⁮‎⁭‍​‭⁬‪‍‌⁬‎‌‪‍⁪⁭‏⁮‪‬⁮⁭⁬​⁬⁯‮⁯‍⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Vector2[]"
+            },
+            {
+              "name": "",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁫​‫‪‮⁪‪⁬‭‍‌⁪‌⁭‬‪⁮‍‏⁯⁭​⁪‬‌‎‏⁫‍‮⁫‬⁪⁭‫⁮⁯​⁪⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍⁬​‮⁮‪‭​‏‮⁭‍‎‎⁪⁫‭⁪‏⁭‏⁭‪⁭⁪‭‍⁫⁮‭‬⁫‬‪‍‬⁭‍⁪‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁪‮‭‌⁭‬⁬‏‬‮⁭⁮‪‌​​⁪⁪⁭⁪⁮⁬⁭‬⁬‏‪⁬‫‏‮‭‪‍‬‪‬‭‫‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁪⁭⁫⁮‏⁬​⁭‎‍⁮‮‫‏‬‌‮‬⁪‏⁫⁮​⁯‮⁫‮⁭⁪⁯‌⁭​⁯⁫‮⁭‮⁫‫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "AmazingAssets.TerrainToMesh.EdgeFall"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌‏⁫‬‫‍‌‏⁯‌⁬‮⁪​‫​‍​‬​⁪‮‌⁬⁯⁭‪‬​​‭⁭⁮⁫‪‬‫⁪⁬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‭‎⁭⁯⁪‫‏⁭‫‍‌‍⁭‭‌‏‪‎‏⁮‍‬⁮‌‎⁭⁫⁭‎‍‭⁭⁯‭⁪‏⁮⁭⁮‬‮",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯‏‌‪⁭⁪‫⁭⁮‏⁮⁮‭‭‫‌​⁭‏‌​⁭⁯‎‪​‎‭​‍⁯‎⁫⁪‎⁬⁮⁬‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExportHolesmapTexture",
+          "parameters": [
+            {
+              "name": "resolution",
+              "type": "System.Int32"
+            },
+            {
+              "name": "chunkCountHorizontal",
+              "type": "System.Int32"
+            },
+            {
+              "name": "chunkCountVertical",
+              "type": "System.Int32"
+            },
+            {
+              "name": "positionX",
+              "type": "System.Int32"
+            },
+            {
+              "name": "positionY",
+              "type": "System.Int32"
+            },
+            {
+              "name": "unpack",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExportBasemapDiffuseTexture",
+          "parameters": [
+            {
+              "name": "resolution",
+              "type": "System.Int32"
+            },
+            {
+              "name": "includeHolesmap",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "unpack",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExportBasemapDiffuseTexture",
+          "parameters": [
+            {
+              "name": "resolution",
+              "type": "System.Int32"
+            },
+            {
+              "name": "chunkCountHorizontal",
+              "type": "System.Int32"
+            },
+            {
+              "name": "chunkCountVertical",
+              "type": "System.Int32"
+            },
+            {
+              "name": "positionX",
+              "type": "System.Int32"
+            },
+            {
+              "name": "positionY",
+              "type": "System.Int32"
+            },
+            {
+              "name": "includeHolesmap",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "unpack",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExportBasemapNormalTexture",
+          "parameters": [
+            {
+              "name": "resolution",
+              "type": "System.Int32"
+            },
+            {
+              "name": "unpack",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExportBasemapNormalTexture",
+          "parameters": [
+            {
+              "name": "resolution",
+              "type": "System.Int32"
+            },
+            {
+              "name": "chunkCountHorizontal",
+              "type": "System.Int32"
+            },
+            {
+              "name": "chunkCountVertical",
+              "type": "System.Int32"
+            },
+            {
+              "name": "positionX",
+              "type": "System.Int32"
+            },
+            {
+              "name": "positionY",
+              "type": "System.Int32"
+            },
+            {
+              "name": "unpack",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExportBasemapMaskTexture",
+          "parameters": [
+            {
+              "name": "resolution",
+              "type": "System.Int32"
+            },
+            {
+              "name": "unpack",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExportBasemapMaskTexture",
+          "parameters": [
+            {
+              "name": "resolution",
+              "type": "System.Int32"
+            },
+            {
+              "name": "chunkCountHorizontal",
+              "type": "System.Int32"
+            },
+            {
+              "name": "chunkCountVertical",
+              "type": "System.Int32"
+            },
+            {
+              "name": "positionX",
+              "type": "System.Int32"
+            },
+            {
+              "name": "positionY",
+              "type": "System.Int32"
+            },
+            {
+              "name": "unpack",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁪⁭‌⁪‎‮⁬⁫​​‎⁬​⁮⁭‌‎⁮‏⁭​⁮⁮‫‮‏‍‎​‌‪‭‮‪⁪‎‌‬‏⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture2D"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Texture"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExportSplatmapMaterial",
+          "parameters": [
+            {
+              "name": "hasHolesmap",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "UnityEngine.Material"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExportTreeData",
+          "parameters": [
+            {
+              "name": "vertexCountHorizontal",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vertexCountVertical",
+              "type": "System.Int32"
+            },
+            {
+              "name": "chunkCountHorizontal",
+              "type": "System.Int32"
+            },
+            {
+              "name": "chunkCountVertical",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "AmazingAssets.TerrainToMesh.TreePrototypesData[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‏⁯⁮⁫‭⁮‎‮⁯⁯‬⁭⁯⁬‏‏‎⁮‌⁫‍‪‍⁭⁯⁯‮⁪⁮‭‏⁪‏⁫⁭‭⁯‍‪⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "AmazingAssets.TerrainToMesh.TreePrototypesData[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExportGrassData",
+          "parameters": [
+            {
+              "name": "vertexCountHorizontal",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vertexCountVertical",
+              "type": "System.Int32"
+            },
+            {
+              "name": "chunkCountHorizontal",
+              "type": "System.Int32"
+            },
+            {
+              "name": "chunkCountVertical",
+              "type": "System.Int32"
+            },
+            {
+              "name": "maxCountPerPatch",
+              "type": "System.Int32"
+            },
+            {
+              "name": "countMulitplier",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "AmazingAssets.TerrainToMesh.DetailPrototypesData[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExportDetailMeshData",
+          "parameters": [
+            {
+              "name": "vertexCountHorizontal",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vertexCountVertical",
+              "type": "System.Int32"
+            },
+            {
+              "name": "chunkCountHorizontal",
+              "type": "System.Int32"
+            },
+            {
+              "name": "chunkCountVertical",
+              "type": "System.Int32"
+            },
+            {
+              "name": "maxCountPerPatch",
+              "type": "System.Int32"
+            },
+            {
+              "name": "countMulitplier",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "AmazingAssets.TerrainToMesh.DetailPrototypesData[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍‮‎‬‫‏‍‫‫‎⁯‫⁬​‎⁫‭‪‭‮‬‍⁭‏‮‭‭⁪⁫‬⁫⁫‍⁫‌⁪​‌‪‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "AmazingAssets.TerrainToMesh.DetailPrototypesData[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍​‬‎⁬‬⁯⁮‏‎⁭‎⁪‎‬‏‫‬​‮‌‪‫‏⁮‮​​‪‪‭⁬⁭⁮‎‎‌⁮⁫‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌‏​‍⁯‎‭⁮⁯⁫⁬‪‍​‪‬⁯‫‏‬⁮‪‫⁯⁯⁪⁬⁮‏‪⁫‌‍‮‭‮‭‍‍⁮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Array"
+            }
+          ],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​⁫⁫‍⁭⁬‎‎‏‪⁬‪⁮‫‪‭⁯​⁯‬⁯‫⁬‮‪‪​⁭‏‌⁪‪‪⁯⁫⁯‬‎‬‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "",
+              "type": "System.Single"
+            },
+            {
+              "name": "",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‭⁫⁭‫‍⁭‍‌⁮‪‌‌‪⁭‬⁭‫‮‪​‮‏⁬⁮‏‏‏‬‎‫‎⁪⁪‌⁭‫‌‍‫⁭‮",
+          "parameters": [],
+          "return_type": "UnityEngine.Mesh"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‬‎‌⁮‫‭​‍‬⁭‬‏‮⁫⁮‭⁪‬‮‬‏‍​‭​​‬⁪⁮‪‌​‎‎‌⁮‮‏⁬⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Rendering.IndexFormat"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮‪⁬⁪‎‭‏‭⁭‫‏⁭‫⁭⁪‌‏‪⁬⁮‌‍⁬‎‮‫​​‍‫‍‫⁮‎‏‌⁭⁫‌‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫‏‌‪⁮‎⁭⁮‭‬‏‫⁮⁬​⁮‭⁭⁭‬‫‮‭‌‌⁯‪‌⁯⁬‬⁮⁭⁪⁫‫‭‬‮‫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‎​⁭‪‬‌‪​‬‪‎‏⁭⁬⁯‫‍⁪⁬‬⁮‌⁮‭⁪‌⁪‎‬⁪‮‍‮‭⁪⁮⁯‪⁯‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "System.Int32[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫​‪‌‬‫‪‬‏‌⁮⁪‏‍‌⁮‫⁫‭⁯‫​⁯⁮‮‮⁫‍⁮‮‮‏‏⁫⁭‏‪‏⁮⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector2[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​⁪‎⁮‮⁮‮‪⁭‌⁮‌‬‭‪‌‎⁮‪‮⁭‎‭⁯‏‪‬‌‫⁬⁮‎​⁯‎⁪‮⁫‌‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫⁬⁬‏‭‏​‬‎‪⁮‎‪⁮‎⁬​‫⁭‮⁮‭‌⁭‌‪‫⁬‮‏⁪‌⁪⁫‪⁫⁬‪‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁫⁮​​​‏⁭‮‍‫⁮⁯⁫‌⁯⁮‪‎⁭⁪‎⁬⁫⁭‍‎⁯⁯‭‮⁭​⁫‮‍‎⁪‪​⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "",
+              "type": "System.Single"
+            },
+            {
+              "name": "",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯⁪⁬​⁭⁫⁭‌‌⁬⁮⁮‏⁮⁬⁯⁬⁮‏‎⁪‍‫‌⁮‎‭‎⁮⁭‪⁪⁭‮‬‫⁪‬‭⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁮‍⁭‌⁪‬‏⁪‫‎‎‮‫​⁫‪⁮‎⁫⁪‍⁭‫‫​‫⁫⁯‌⁮‫⁫‬‫‏⁫‌‎‏‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬⁬‏‭‬‮‪‭‪‫‌‍‭‪⁭​⁮‎⁫‭⁯‮‭‭‪⁮‬‬‌⁭‍‬⁪‫‎‮‬‮‏‭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            }
+          ],
+          "return_type": "UnityEngine.Vector4[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯‪‍⁮⁭‮‌‏⁯‍⁪‎‌⁯‭‏‎‭‎‮‫‬‍‍​⁭⁫⁫‏⁭‭⁯‪⁯⁯⁪‪‏‏‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‬‭⁪‌‍⁬⁬⁬‏‬‮⁬⁪‮‮​‭⁯‍⁯​‭⁫‭‫‫⁯‬⁫⁯⁯⁪⁪⁯⁮⁪⁭‍⁫‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector4[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮‏⁭⁭‭‫⁪‮⁭⁮‎⁫⁮⁮‪‎⁯⁭⁬⁬‪⁭‏‭⁭‫⁭⁮⁭‮‮⁫⁮‏‫‭‬‏​‫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯‫‪⁪‫​⁬⁫‏‮⁭⁭⁮‪‬‏‫‎‪‏‪⁭‎⁮‬‌⁬‭​‬‏‏⁪⁬⁫⁮⁫‎‮‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            }
+          ],
+          "return_type": "System.Int32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁪‫‎⁯‫‭‪‬‎⁮‬⁫‬⁭⁫‭⁫⁯‭‪⁯‪⁪⁮‪‭‮⁪⁮‌⁮‏‫‏‍⁯‪⁭‫‭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​⁪‮⁫‌⁯‬‭⁯‫‎⁯‭‭⁮⁯⁫‎‪‎‍‎​⁫‫‪‮⁫⁫‮‬‪‍⁪‪‍‫​‍‬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮‮‭‬‍⁪‬‏⁫⁪‭⁪‌‪‎⁫‏⁪‎‮‏‮‫‮⁫​⁪​⁮‭⁪⁯​‭⁬⁫‏⁮‪‫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪‎​​‭‏⁯‎‏⁮‮⁮‎‌⁭‍‏⁬⁪‫⁭‬‍⁮⁯‍‍⁯‏⁪‎⁫‫‬‌⁬‬‎‌⁮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "System.Int32[]"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪‬‍⁬‎‪⁬⁮‪⁪⁪⁮‪‌‏‫⁪⁫‎⁫‎‬‍​‮‍⁫‌‌​‮‪‌⁬‏‬⁫⁪‮⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍‫⁫⁮⁭‎‍⁫‍⁯‭⁪‍‫‎‎‍⁮‎⁯‫⁪⁬⁭‬⁪‬‭‮⁬⁮‫‎‏⁪⁭‮‌⁯‫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​⁭⁪⁮⁫‍⁫‫‪‍⁭⁫⁭⁫⁮‎⁯​⁮‬‎‮⁪⁭⁯‫‭‎‭⁬‎‬‭⁬‮⁪‏‏‬‬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String[]"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍‭‎⁬⁪⁪⁪‎⁮‮​‪‪‎‍‫⁭‌​‌⁮‬‬‎‏‫‭‬‭‍⁭⁭‌⁭‫⁫⁯‌‮‮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯​⁯⁭‏‍​⁮‭⁪⁯‏⁬‍⁯⁫‫‍‪⁭‫‭⁯⁫⁭‍‫‍⁫‪⁬⁭⁪‍⁬‍‏⁪‮⁮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬‬⁫⁮‫⁪‮​⁭‬‪‭⁯⁯⁬‮‪⁮‫⁬‮‮⁫⁯⁬⁪​⁮⁬‭​⁪⁯‬⁬​‮‌⁫‍‮",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪‫⁬‬⁪‌⁯‌⁬‌⁬‫‫⁯‪‬‍‬‮⁪⁫⁫‎⁯‎‏‪⁬⁬‍‫‏‏‏​⁮⁮⁭⁫‫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪‭⁫‮‫‍⁬⁯⁮⁬⁫‪‭‎⁭‪⁭⁭‍‌‮​⁯⁭⁭⁭‏‍‌⁭‬‬⁪‏‪⁭‫⁮​‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬⁬‭‏‪⁮‪‌‏‏‫⁯⁫⁫‫‏‍‌‪‭⁪‬‪‎⁪⁭‍‍‍‭⁭‍‪⁭‎⁪‮​‌‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫‭⁬​⁮‌‪⁬‌⁯​⁯⁬⁯‎‍‫⁫‍‏⁫‬⁬‭‬⁭‏‏⁪⁫​‬‌‏‪⁪‌‌‭‫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​‍‪​⁮‫‏⁭‍‭⁮‫⁪‪‭‬⁯⁬⁯‪⁯‪⁪‭‫‪⁫⁮‮‪‮⁪⁫⁬⁮⁪‌‭‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.Object"
+            },
+            {
+              "name": "",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁪⁭⁫‎‭⁪​⁪‭‎‍⁪⁬​‪‌⁯‮⁬‌⁪‌‫‫‫‌‌⁯⁮‏‬⁪‫‌‏‬⁭‪‬‌‮",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯​‮‭‍​‌⁭⁬‮‫‎‭‏​‬⁫‬⁪⁭‮​‪⁫‫‮‭‪‫‭‏​‬‎‏‫​‪⁪‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪‭‪‎‫‮⁮‮‌‌⁭​‫‬‬‍‬⁬‭⁪‭⁭⁭‏‌‭⁮‍⁪⁭‮‎‪​‭‎‏⁬‏⁬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌‭⁯‮‬‪​‫⁮⁫‫‭‭‭⁮⁬‎‭⁬‭⁪⁯⁪⁪⁬‍‌⁬‌⁮‫‮‪⁪⁮‎‮‮⁬‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "UnityEngine.Texture"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯​‎⁭⁪‪‍⁬‫⁬‮⁮​‎⁮⁬‬‏​⁯‮‪⁪‏⁭‭‍⁪‍⁪⁬​⁮‬⁯‍‎⁭⁭⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯‍⁬‪⁯‮⁮‭‍‏​‍‌‍​⁬⁪‌‮⁭‬‭‫⁫⁫‫‫⁬‭⁫⁮‏‬‭‌‬⁪⁪‌‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Shader"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁪​⁭⁭⁮‌‬‌‪⁪‫​‭‭‏‮⁮‌‪⁯⁬‍⁫⁭‎‬⁮‬‮‌‏‪‬‪⁮‍‏‪⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Shader"
+            }
+          ],
+          "return_type": "UnityEngine.Material"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‏‪⁯‫‏⁮​‌⁪‫‬​⁯⁪‏‭‫‫‮⁬⁭⁯‌⁯⁬‪‫‍⁯⁯​‏‏‪⁯‍⁪⁮‎⁬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Texture"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​⁭‎‮‭‪‮⁯⁪‮⁮‎⁪‍⁯⁯​‪⁫‫‎‭‪‭⁯‬‭‭‭​‏⁭‍​‎⁯⁯⁭‭⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬‍‏⁪‏‏‍‍‍‫‪‍⁬⁯⁮‪‫‪‬‌‮‬⁮‮​‫‎‍‮‪‬⁫‌⁯⁫​‪‫‪⁫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍‍‪‪‎‏⁪‪‏‫‬‮‌‌‮‎‍‮⁪⁭⁬​‬‭⁭​‫⁪‫⁮‌‫‏‭⁭⁭‮‭‫‭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.RenderTexture"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯⁮‌⁪‮‬‌⁭⁮‭⁫⁬⁭⁫‎‌⁬‬⁫⁬‭‏⁯‎‌⁯‫⁯⁯‏‫‍⁯⁮‏‍‪⁪‏‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.RenderTexture"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪‫‎⁫‭‬‪​⁯⁬⁯⁭‬⁯‫‍​‮‪‏‮‌‍‭‎‫​‎​‫​⁭⁯‌‫⁫‪‍‍‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.RenderTexture"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‏⁭‏⁮‮⁫‪‮⁫⁪‬⁭‪‏⁫‮‭‮‬‌‭⁫‮‬‪⁮‭⁭⁯‪‍‮‫⁬⁯‮‏‎⁭‎‮",
+          "parameters": [],
+          "return_type": "UnityEngine.RenderTexture"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪‮‫⁬​‬‬‫⁯‫⁮⁬‍‫‍⁯⁬‎⁮‏​⁪‪‪⁫⁫⁬‪‭‪‌‍‬‍⁭‏⁯⁪‪⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.RenderTexture"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬‫⁮‌‭‫‫‬​‎⁬‬⁫‭‬‬​‌⁯‏⁪⁬‎​⁯⁯‎‪‌‎‫‍⁫‌‮⁫⁮‎‬⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture2D"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Rect"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​‎‮‪⁬‪‭​‏‏‌⁬‍‌‪‍‍‏‌‫‪​⁪‎⁭‭​⁪⁫‎⁯⁪‮‏‌‎​‌⁪⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture2D"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‭‌⁬‭⁪‌‏‭‭‭‫‍‮⁬‎​⁫‭‮‬‎‎‬⁮‬‌⁮‌‏​‫‬⁮‫‬‫⁪⁫​⁯‮",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮‮​‬‬⁫‮‪‍‮‬⁭⁮‏‬⁭‎⁭‬⁮‮⁬‌⁭⁮‌‍‫‭‪​⁯⁭‮⁮‭‍‭‮⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.RenderTexture"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​⁮‎‍‎⁫‫⁪⁬​‭⁯⁪‮⁪⁪‏‏⁮‬⁮‏‭​‭‪‪⁬⁯‌‬⁪‌‬‫‮‍‎⁪‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‏‬⁭‌⁬‬⁪​‭‏‎​⁪‪‬‮⁮‌‬⁯⁯⁭‍​‫‎⁪⁯⁫‌‪‎⁪⁭‍‮‎‬⁭‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪‭‏‫⁪‭‌‍⁬‬‪​‌⁬⁮‮​‍⁬‮‌⁭‌⁬⁭⁭‫‬⁮‏‮⁯‬‏‮⁪‪‍⁭⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁭⁯​⁮‪‫⁫‪⁬⁮⁯‎‪‭‍⁪⁮⁫​⁯⁮‎⁪‪‭⁮‍⁬‎‫⁭‍⁯⁫‍⁬⁬⁪‏‭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁮‪​⁭⁪‮‭‬‏⁭‍‌⁫‪⁭‮‪‎⁯⁪‏‌‎‬‭‮⁭​⁭‪⁬‫‍​‪⁫‫⁬‬⁬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪⁬‏‏‭⁬‏‪⁬‏‪‎‎‏⁮‌‌‍⁭⁪‏⁬‮‍‏⁭‍⁯‏‮⁪‌‏‎‫‪‍‮‌‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁪​‪⁪‎​‫⁮‪‏‎‭‌⁭‏‪​‮⁪‎‏‪‪⁪⁭‪‭‏⁫‬‍⁫⁮​⁭⁬‮⁬⁯⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​‬⁫⁭​⁮⁮⁮‍⁬⁭⁬‮‬⁫⁫‪‬⁪‌⁪​​‮‏‏​‭‬‍‫‮‌‌‪‏⁮‍‏‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁭⁮‏‫⁬⁯⁫⁬‬‏⁪‎‬‭​‭⁬‫⁪⁬‮⁬⁭‎‌⁭‪⁭⁬⁬‎‌‎‏⁭‪‭‮⁮‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯‍⁫⁫‌‫⁪‍‪⁯‏⁭⁯⁫⁭⁮⁪⁯⁫⁮‎‮‌⁭⁭‫‪​‌‌‭‬‭‏‭​⁭⁬⁫‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‬⁪⁯‭‏‍‍‭‪‏​‮‫⁪‭‌‪‍‍‮⁫⁭⁭‌⁮‎⁫‌⁮​⁬‍⁪‬‏‏‭⁫‎⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌‬⁫⁫‌⁭‌⁪‮​‫‍‌‫⁯‌‍‪‫‬⁫‌⁭‪‮‬⁭‮‎‍‏‎‭‪⁯‮⁬‭⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector4"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮‪⁮‏‎‌‭⁬‍‪⁮⁯‍‏‏‪⁪‪⁯‫⁮⁫⁯‏‬‬⁮⁬⁫‪⁫⁬​‬‎‬​‏⁯⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯‏‮‫⁯‍⁬​‭‏‭‮‍‪⁪⁪‌‌‪⁮‭⁬‍​‭‮‭‌⁯‏‮‍‭‫⁯⁪‍⁯⁭‫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮‏⁬‌‮‍⁫‎‫​‍​‫⁪⁮⁪⁮⁯‏‬⁬⁭⁭⁮⁭‌⁮‍‮‪‌‬‏‎‏⁯⁫‬⁯‬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍‪⁫⁬⁪⁮‫‍‫⁬​⁫⁪‎‏‫⁭‮‪⁫⁫‭‮‭⁪⁮⁭​‏⁯⁪‌‌⁪‫‏⁯⁬⁫‎‮",
+          "parameters": [],
+          "return_type": "UnityEngine.Rendering.RenderPipelineAsset"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮‍‎​⁮‭​​⁫‌‪⁯‪⁪⁪‪‭⁪‬‎⁫‮⁬⁮⁮⁪⁪​‭‮‬⁬‍‫‫‮⁯⁬‬⁮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainLayer"
+            }
+          ],
+          "return_type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‎⁭‍‮‪‌⁫‫⁪​⁬‬‬‬‮⁯‬‪⁫‫⁬⁪‭‭‏⁯‍​‏​‍⁭⁮‬⁫‌‎‍⁬⁯‮",
+          "parameters": [],
+          "return_type": "UnityEngine.ColorSpace"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​‎⁭‭⁫‏‫‪‍⁪⁫‏‌⁮‎‬‎‌‪⁫‮‭​‫⁮⁪‬‭⁪⁭‬​⁮⁮‏‬‏‪‭⁮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁪‌⁫⁯‬‬⁬​‎⁭‮‮‫⁬‮‫‪‮⁯‮⁮‎‬‪​‫‌‎⁪‮‎‫​⁬⁫⁫‮‎‌‭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "UnityEngine.TreePrototype[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍⁫⁭‏‬‍​⁮‮‪⁯⁮⁪⁫⁫⁪‫‮⁯⁭​‪‫‮‭‍​⁯‎‌‎⁮⁭‮‎​‌⁮‎‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "UnityEngine.TreeInstance[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁪‫‪​⁯‏‎‮‎‭‌‭‍‪‮⁮‎⁮⁫‭‌⁫⁪‬⁫⁬‎⁫‍⁭⁬‌‌‏‬‏‏‫⁯‭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean[,]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫​‪‌‎‏⁬‫⁬‏⁮‎⁭⁬⁮⁭⁪‎‪‍‭‮‪‎‬⁮⁭‎‌‫‎‎‏⁮‪‮‎‭‍⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Array"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‎‫‏⁮‫⁪⁯​⁭‌‍​⁬‭⁬⁪​⁮⁫​‌‫‮‏‭⁮‫⁪⁮⁮⁪⁯‎‍⁫⁬‎⁪‎‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TreePrototype"
+            }
+          ],
+          "return_type": "UnityEngine.GameObject"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮‪⁫⁭⁬⁯‏‎‎‌‬‭⁯‎‏‏⁬⁮‏‍⁫‏‭⁮‬​⁭​⁬⁯‪‏⁫‭⁫⁭‍⁪‎‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.GameObject"
+            }
+          ],
+          "return_type": "UnityEngine.Transform"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌‪⁬‍⁪⁪‍⁭‌​‎‌‮‪‍⁯‎⁬‌‎‮‭‬‏⁬‏⁪‌‮‬‌⁮⁫‬‌‏‭‪⁭‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Transform"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‏‫​⁬​‎‌‭⁯‪‏⁬‍⁪‫‏⁫‍⁮⁮⁮⁬‭‪⁬⁭‌‬‍⁫⁫‍‌⁬⁪‪⁫‏‬⁮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Transform"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​⁫⁯‌‎‍⁫⁭​‌⁭⁬‍‍⁪⁮‬⁭‌‪‭‭⁮‎‫⁬⁭‫‪‏⁭‫‬‪‮⁭⁬‬‍‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯‫‎⁭⁫⁪⁫‬‫⁭⁭⁯⁮‍‌‪⁭‬⁯​‎⁯‬‬‮‏‪​⁫‎​⁭​⁬‏‌⁪‏⁯‭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​‪‏‎‏‌‍​⁫⁭‭⁭‭⁬⁮‮‍⁯⁭⁫‎‎‭⁬⁯⁪⁪⁪⁫‍⁯​‪‭‏⁯‏‪‬‮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍‍⁪‌‍‌‍‬‭‬⁬⁪‮⁮​‏⁭‌⁪‏‭‬‮​‬‬​⁪​⁭‬‪‍⁪⁭⁬‬⁭⁬‮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁭‮⁮‏‬‬⁮‎⁯‭⁭‍⁯‬‍‌‎⁭⁭‏⁮​‪‌‍⁫⁭‬⁯‌‮‮⁬‪‮⁮‏‏‮‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫⁮‭⁮‏‌⁮‪⁬⁭⁯‍‍‌​‮⁭‫‏‎⁮‎⁭‏⁭⁫‌​⁮⁮⁪⁭‏‮⁮‌‏​‬‭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "UnityEngine.DetailPrototype[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‏⁪‪‪⁮‍‌⁭⁭‬‮‍‍‎‬‏‏‮‍‏‏‌‭‍⁭‌⁮‏‮⁬⁬⁯‬‫‫⁬⁮⁮⁮‮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.DetailPrototype"
+            }
+          ],
+          "return_type": "UnityEngine.Texture2D"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁮⁬‍‬⁪⁭⁮⁯⁪‏⁭⁭‍⁪⁬‭‮‌‍⁫‍‪⁬⁪⁪‎‍‮​‍‍​‏⁯⁬⁫⁪‫‎‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.DetailPrototype"
+            }
+          ],
+          "return_type": "UnityEngine.GameObject"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍‌⁭⁬⁫‮‬‬‭⁬‫‍⁫‍⁭‌​‏‫⁫⁯⁭⁮‪⁬⁮‎‏⁭‍⁯‫‌‮‌​‭‪‍‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32[,]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‭‪‬‏‪‍⁮‌⁭‏‍‭⁬⁫⁭‎‍‮⁯⁯‫​‮‏‏‮⁯⁮‏‎⁪⁫⁮⁭‍⁪‫​‏‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Array"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍⁯‌⁬‎⁯‎‭‏⁯‍‮⁮⁫⁫⁬‎⁯‫‮‏‫⁭⁮‫⁮⁯‪‏⁮​‌‮‌‭⁭‮‍‍‮",
+          "parameters": [],
+          "return_type": "System.Single"
+        }
+      ],
+      "name": "TerrainToMeshDataExtractor",
+      "namespace": "AmazingAssets.TerrainToMesh",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "prefab",
+          "offset": 16,
+          "type": "UnityEngine.GameObject"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "prototypeIndex",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "position",
+          "offset": 32,
+          "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "surfaceNormal",
+          "offset": 40,
+          "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "scale",
+          "offset": 48,
+          "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.GameObject"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "surfaceNormal",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "scale",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "TreePrototypesData",
+      "namespace": "AmazingAssets.TerrainToMesh",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "detailPrototype",
+          "offset": 16,
+          "type": "UnityEngine.DetailPrototype"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "prototypeIndex",
+          "offset": 24,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "position",
+          "offset": 32,
+          "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "surfaceNormal",
+          "offset": 40,
+          "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "scale",
+          "offset": 48,
+          "type": "System.Collections.Generic.List<UnityEngine.Vector3>"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "healthDryColor",
+          "offset": 56,
+          "type": "System.Collections.Generic.List<UnityEngine.Color>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.DetailPrototype"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "position",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "surfaceNormal",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​⁭⁯‍‭‮⁫‮‌⁮‫‬‭‍⁭​‍⁮‭⁫‮⁬⁪‭‭‮​‬‪‭⁫​​‬‏⁭⁫‫⁫‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.DetailPrototype"
+            }
+          ],
+          "return_type": "UnityEngine.DetailPrototype"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫‏‎‬⁮‌‪‌‬‮‎‪‫⁭⁮​‎‮‫⁪⁭⁭‬‬‭⁭‍⁫‏‏‮‏⁫‌​⁭‎‬‏‮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.DetailPrototype"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌‬‍‫⁭⁫​⁯‭‌‎‌⁭⁬‭⁯⁮​‌⁪‏‏‪⁫‭‍‎‏⁯​‬⁫‎‪⁮⁯‌⁯⁫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.DetailPrototype"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁮‬‫⁭‏‍‭‍‪‭​⁯⁬​‍‭‭​⁮‌⁮⁮‍‎‫⁫‭‍‫‪⁪⁮⁪‍⁫‮⁯‍‮⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.DetailPrototype"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍‌⁪⁪‌‬⁪‬‪‏‪‬‍‮⁬‏‬‏⁮⁮‌‪​‫‬⁬‪‬‏‏​⁮‬‍‌‪‪‏‏⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.DetailPrototype"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁫‮⁮‭‏‍⁮‏‏⁭⁮‭⁬‌‎‎⁯​⁭⁪⁫⁪⁭‬‎‪‮‫‮‬‫‎⁭‎‌‬‪⁪‎‮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.DetailPrototype"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫‎⁮‪‎‬⁫‪‮​‭⁮‬‎‫‎‮⁭‏‍‬⁪⁫⁬‎⁯​‎⁫‏⁫​⁪‏⁪‍‭⁫‫‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.DetailPrototype"
+            }
+          ],
+          "return_type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁫‫‪⁫‭‍‭‎⁭‍‏‮‮‫‮⁭⁭‬⁬⁯‭⁭‪‬⁯⁫⁪‪‬‏⁯‍‫‬⁪‭‪⁪⁪⁮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.DetailPrototype"
+            }
+          ],
+          "return_type": "UnityEngine.Color"
+        }
+      ],
+      "name": "DetailPrototypesData",
+      "namespace": "AmazingAssets.TerrainToMesh",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "yValue",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "saveInSubmesh",
+          "offset": 20,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Single"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "EdgeFall",
+      "namespace": "AmazingAssets.TerrainToMesh",
+      "type_token": 33554447
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "prefabProjectPath",
+          "offset": 24,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "vertexCountHorizontal",
+          "offset": 32,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "vertexCountVertical",
+          "offset": 36,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "chunkCountHorizontal",
+          "offset": 40,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "chunkCountVertical",
+          "offset": 44,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "hasEdgeFall",
+          "offset": 48,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "hasPerChunkUV",
+          "offset": 49,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "meshIsCompressed",
+          "offset": 50,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "meshes",
+          "offset": 56,
+          "type": "UnityEngine.Mesh[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Start",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‭​⁫‏⁮⁮⁯​‭⁭⁮⁮⁮‍‬⁬‌‎‍‌⁮⁯‎⁪‬⁬‍⁪‍⁪‮‫⁫⁫‬​‍‬‍‍‮",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‎‌‌‬‍⁯⁮⁯⁭⁮⁯⁮⁮‪‌⁯⁫⁯⁮⁭‎‍⁮‬‎‬⁯⁪‭‎⁫‪⁪‮‫⁬⁮⁪‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌⁬‭‭‫‌‌⁭‭‎‪​⁫⁪‫⁫‫‍‪⁪⁫‍‬⁮⁪⁮⁪‮‪⁪⁬‍​⁯⁮‫⁯⁬​‬‮",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪‎‬⁯‍‫‌‫‮⁯⁪‏⁯⁭⁪⁭‬‮‎⁪⁯‏‫‎⁯⁯‮⁬‪​‭⁬⁬⁮‬⁭‏⁭⁯‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁪‪⁮⁯‎⁬‫‏​⁪​⁪⁯‪‏⁮⁬‭​⁮‏⁯‫⁮‌⁬‎⁯⁬‪‫‭‏‬‮​‪‫​⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍‍⁬‫⁫⁫‏⁭‌⁯‎⁫‪‬‌‪‮‏​​‍‎⁪‌‭‬‪‍‎‌⁪‮‏​⁯⁮‏‎‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫⁫⁮‬‎‬⁮⁮⁮‎⁯‮⁮⁫‭‬‭⁯⁮⁫⁯​​‮‭‫⁪‪‍‭‭⁭‮‭‪​‫⁭⁬‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍‪⁬‮‎‍⁬⁮⁮‭⁭‎‎‎⁬‮​‫‍​‬‍⁯⁬‎⁫‬‮⁫‫⁮⁮⁫⁫⁫‮‮​‏⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            }
+          ],
+          "return_type": "UnityEngine.Vector4[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‭⁭‭⁯‭‬⁫⁪‮‬‮‭⁪‎⁫⁪⁫​‭‪⁪‬⁭⁭⁬‌⁯⁬‪‎⁪‎⁬‍⁪‌⁯​​‭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‏‌‪‍‫‪‮‮‏⁪‪⁬⁪⁪‪⁮‍‍⁮‏‏‮‭‎‫‍‏⁭‭‍‎⁬⁭‎⁭‫‌⁬‭⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector2[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯‏‍‬⁪‭‎‮‭‫​‎⁮⁮​⁭‏⁭⁯​⁮‪‫‪⁭‭‬⁫‭⁯‌‏‮‍‏‏‭‍‫⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector2[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬‭⁯​⁯⁮‭⁭‬‌‌⁭⁪⁮‍‫⁬⁯‫‍⁮⁮​‎‍⁪⁬‮‪⁮‪‌‭‫⁭​⁫‎⁭⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​⁬⁯⁮⁫⁭​⁮⁮⁫‪⁯‏‎⁪‬⁬‫​‬⁮‌‪‏⁭⁭‫‫‎‌​⁭⁪⁭⁪‍‫⁪‭‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector4[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁪‬‌‮⁫⁫‮‭‮‎​⁫⁪​⁬‭‭‫⁪‬⁭⁬⁮‏‍‮⁫‌‭‎⁬⁫‎‌‪‌​‬‌‫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            }
+          ],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "TerrainToMeshConversionDetails",
+      "namespace": "AmazingAssets.TerrainToMesh",
+      "parent": "MonoBehaviour",
+      "type_token": 33554448
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Builtin",
+          "offset": 0,
+          "type": "AmazingAssets.TerrainToMesh.Utilities.RenderPipeline"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Universal",
+          "offset": 0,
+          "type": "AmazingAssets.TerrainToMesh.Utilities.RenderPipeline"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "HighDefinition",
+          "offset": 0,
+          "type": "AmazingAssets.TerrainToMesh.Utilities.RenderPipeline"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "RenderPipeline",
+      "namespace": "",
+      "type_token": 33554450
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetCurrentRenderPipeline",
+          "parameters": [],
+          "return_type": "AmazingAssets.TerrainToMesh.Utilities.RenderPipeline"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetRequiredVertexCount",
+          "parameters": [
+            {
+              "name": "vertexCountHorizontal",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vertexCountVertical",
+              "type": "System.Int32"
+            },
+            {
+              "name": "chunkCountHorizontal",
+              "type": "System.Int32"
+            },
+            {
+              "name": "chunkCountVertical",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hasEdgeFall",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetGeneratedVertexCount",
+          "parameters": [
+            {
+              "name": "vertexCountHorizontal",
+              "type": "System.Int32"
+            },
+            {
+              "name": "vertexCountVertical",
+              "type": "System.Int32"
+            },
+            {
+              "name": "hasEdgeFall",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍⁪⁯‌⁭‬‍‌‏⁬⁭⁮‬​​⁮‬‫⁭‮‌‎‭⁫⁭‪‮‍​⁪⁯⁬‮‮‏⁬‮‮⁪‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‭‍⁮⁬​⁬⁮‫⁫⁪‮⁬⁪‭‎⁭‪⁪‮⁮⁬⁪⁬⁪⁯‏⁫‏​‍‎⁬​⁬​‌‬‍‫‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌‍‮⁯‫‍⁪‍‎⁮‍‍‪⁯‏‬⁮⁫​‮‏‭⁮​⁭⁬‬⁭‪​‬⁪⁭⁯‭‏‎‌⁪‬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁫‬‫⁮⁫⁮‎⁪⁪⁯‫⁬‪⁪‮‮​‫⁬⁮⁯⁯⁮‏‏⁮‎‮‍‭​‏⁪⁫⁯⁭⁪‫‏⁯‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3&"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateGrassMesh",
+          "parameters": [
+            {
+              "name": "sides",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "UnityEngine.Mesh"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CombineGameObjects",
+          "parameters": [
+            {
+              "name": "parentGameObject",
+              "type": "UnityEngine.GameObject"
+            },
+            {
+              "name": "material",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "meshName",
+              "type": "System.String"
+            },
+            {
+              "name": "objectName",
+              "type": "System.String"
+            },
+            {
+              "name": "indexFormat",
+              "type": "UnityEngine.Rendering.IndexFormat"
+            }
+          ],
+          "return_type": "System.Collections.Generic.List<UnityEngine.Mesh>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‪‍‫⁮​‪‍‏‮‏⁯‭‭‎⁬‏‎⁭‮‮⁬‮‮⁮⁮⁪‎‏‌‌‫⁬‍⁫‌⁮‌⁬⁫‬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.GameObject"
+            },
+            {
+              "name": "",
+              "type": "System.Collections.Generic.List<UnityEngine.CombineInstance>"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Rendering.IndexFormat"
+            }
+          ],
+          "return_type": "UnityEngine.Mesh"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HasHoles",
+          "parameters": [
+            {
+              "name": "terrainData",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HasTextureAlphaChannel",
+          "parameters": [
+            {
+              "name": "texture",
+              "type": "UnityEngine.Texture2D"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetupAlphaTestProperties",
+          "parameters": [
+            {
+              "name": "material",
+              "type": "UnityEngine.Material"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetUnityDefaultShader",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMaterailPropMainTex",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMaterailPropBumpMap",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMaterailPropMetallicSmoothnessMap",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Debug",
+          "parameters": [
+            {
+              "name": "logType",
+              "type": "UnityEngine.LogType"
+            },
+            {
+              "name": "message",
+              "type": "System.String"
+            },
+            {
+              "name": "exception",
+              "type": "System.Exception"
+            },
+            {
+              "name": "context",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁭‌⁯‎⁭⁯‏⁬⁭‫‎⁮‮‪⁯‫⁭‫‪‎‮‍⁭⁬⁭‭⁬⁫⁫‎‎‮‪‏⁪‮‌‏‎‬‮",
+          "parameters": [],
+          "return_type": "UnityEngine.Rendering.RenderPipelineAsset"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯⁪‌‮‎​‫‫​‌‪⁮‮‍​⁯⁯‌‭​‪⁭⁫‪‌‎⁮⁯⁭‌⁮‪⁮‬‏⁫​‬⁪‭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁮⁮‪‭‭⁫‫⁯‌‍‬⁭⁫‮‪⁯‍‌‪‬⁮⁬‮‬⁯​‍‏‪‪⁬‫⁬‫​‮​‫‮‬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁪‍​‫‭⁪‍‍‭⁭⁫‎‮‮⁫‍‪‎⁫⁪‪⁮‪‏‍‍‬​⁫‏‍⁭‌‭‫‮⁫⁭‭‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁫‭‏‮‍⁭‫⁬‏⁯​‍‌⁯​⁭⁯​⁬⁬‎⁭‬⁮‎‬⁯‍‮‌⁫‌‭‪‮‍⁪​‮‭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Shader"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁮​‬⁬⁭‬‏⁫‬⁭‮‮⁮‏​⁯‫‎‬‍⁪​‫‫⁬‭⁭‍‎‎‬⁯‫⁫⁬⁮⁮⁯⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‎‪​‏⁪‏⁮‪⁪‎⁪‌‌‪‬‬​‪‭‭⁫‌⁫‍‮‮​⁫​‪⁮⁯⁯‬⁯‬‪‪‫‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬‬⁬⁮⁮‍‏‍⁯‭‬‍⁫‎‭‏⁬‏⁫⁬⁯⁪‪⁪‬‪​‎⁬⁬‬‪​⁬⁮⁬‏‫‍⁬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "",
+              "type": "System.Single"
+            },
+            {
+              "name": "",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫⁬‍⁮‫‮⁯⁫‫‏⁪‮⁭‎‎‪‬‭⁮⁪‍‍‮‏‬⁯​⁯‏⁬‎⁭‎⁭⁪‫‭⁪⁭⁯‮",
+          "parameters": [],
+          "return_type": "UnityEngine.Mesh"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁯‪‏⁪⁫‍‍‌⁬‭‬⁪‬⁭⁪‎‍⁭‏‪‬‮‌​‏‬‮‍‌‍‌⁬‍⁮‭‎‏‪​‫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍‪⁯⁯‬⁫‎⁫‌‮‫‌‌‬‪⁪‍⁯⁭‏⁬⁭‍‮‫⁮‮‎‍‌⁮‏⁮⁫‌‍‍‭‬‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​⁭‭⁫‪‎‭‭‭‎‫‪‭‎‍⁮‎⁪⁯⁬⁯‍‪‬⁯​‫​‏‍‌‌⁯‌⁭‎‫‬⁮‭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "System.Int32[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "​‏‍‎‏‫‎⁫‫⁪⁭‭‪‍‌​‬‌⁫⁮​⁮⁮‭‏‮‫​‏⁬⁬‎‬‭​⁪​⁬‍‬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector3[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁫⁪⁫⁫⁯​⁯‮‎⁫⁬‎‌​‬⁮‌‬‍‍‏‌‎‎‫‎‌⁬​‍​‮​⁫‬‬⁮‫‏‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector4[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌‌⁬​‬‎​‍‏‎‪⁬⁮‫⁫‭⁬‪⁬‬‭‌‪​⁪‏⁪​⁮⁪⁮⁭⁫‪⁪‌‪⁫⁫‭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Vector2[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁮‎⁮‭‪‮‭⁮‫⁯‭⁬​⁭⁫‌​‭‏‬⁪‎⁭‮‭‎‮‏‌⁮​‭⁭‏‫‬‎‎⁯‫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Color[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁫‫‎​‬‪⁬‪⁫⁬⁮‬‍⁫⁬‍‌‭‫⁫‭⁪⁬⁯⁪⁪‭‎​⁮⁬‏⁭⁯‫‭‍⁬‫‮",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‎⁪‪⁭⁫⁯‫‫⁫‫‏‎​‬‫⁯​‬‭‬‭⁪‏​‏‭​‫‌⁯⁫‪‌​‬‫⁮‎‫‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.MeshFilter"
+            }
+          ],
+          "return_type": "UnityEngine.Mesh"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‭‎‌‮‭⁫​‪‫‪⁫⁭‬‍‬‫‫‪‬‏‪⁫‬⁫‬⁬⁮⁪⁪⁪‍​⁭​‮⁯‫⁪⁭‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁫‪‪‫‮‪‭‏‪‮‏‌⁫‪‭‏‌‫‏‫‏‬‪‍‎‮⁯‫‌⁬⁫⁯⁫‏⁮‬‏​⁫⁬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌‌​‎‮⁭⁬⁮‬⁬‫‬⁫‪⁫​⁬‪‭‬‮​⁫⁪‮⁮‎‌‫‌⁮‎⁫‎⁮‌‮‭‭‬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‏⁭​⁮​​‪‎⁮⁯​​​‫⁪‌⁯‪‮‭​‏⁯⁬⁭‪‏‏⁭‍‫⁭⁪‫⁭⁬⁮‭​‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Component"
+            }
+          ],
+          "return_type": "UnityEngine.Transform"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬‏⁮‏⁪​‫⁬‏‍⁯‏⁯⁯‪‎⁮‍⁬‏‍‍‌⁭​⁬⁪⁮⁭⁭⁭‭‬⁪⁭⁫‏⁮‫‮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Transform"
+            }
+          ],
+          "return_type": "UnityEngine.Matrix4x4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‎‪​⁭‏‌⁯​‌‏‬⁪‬⁭⁬‮⁭⁬‭‎⁪‬‫‭⁯⁭⁫⁫‎‎⁯⁬‭‭‮⁮‪‮​‫‮",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮‬‍⁮⁪‪​‎⁪⁮⁬⁫⁭‪⁬‬⁫‮‫‭‭‬⁯⁯⁯‏‫‏‏‪‬⁫‪⁭⁭​⁪⁯‬‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Component"
+            }
+          ],
+          "return_type": "UnityEngine.GameObject"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁮​⁭⁬⁪‪‮‎​‏​‮‭‏‭⁮‌‬‮‌‏​‮⁯‏⁪‌‪⁬‌⁬‏⁪‍‭⁬‫⁬‮⁮‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁭‫‫‭⁪⁫⁫⁪⁯⁫‎‭‏‭⁫⁪‮‪‮‍⁪⁭‌‮‮​⁯⁫⁪‫‏‬⁫⁪‪‌​‌‏⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‎‎‌​‎⁫​‫‬‌⁫⁭‫⁭‎​‎‪‪⁭⁫‏‫⁮⁯‭‌‮‎‍⁫⁫​⁫‬‌‫⁬⁫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.GameObject"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‎⁪‬‭‍⁬⁪⁭‫⁯⁬‫‮⁫⁮⁫‮‌‌‮⁫‭‎‭‮⁭⁭‍‪⁯‍‪‮‫‏⁭‎⁭‭‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.GameObject"
+            }
+          ],
+          "return_type": "UnityEngine.Transform"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁮⁪⁮⁭⁯‌‌‮‎⁭‭‎⁮‬‬⁪‍‫⁪‫⁫⁮‬‪‎​‪‍‬‪‏⁬‭‏⁮⁪‭‍‪⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Transform"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Transform"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍​‌⁮⁭‮⁫‍‪⁫‫⁮‬‍⁪‬⁬⁫‭‭⁭‭‎‍‫⁯​‭‫‌⁫​‏‭⁬⁫⁫⁮‎‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Renderer"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Material"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‍‍‎⁫‍‭⁬‪⁮‏⁫⁬​‫‫‪⁮‭‪⁫⁬⁪⁬⁬‌‍‍⁫‬‫⁪‪⁫⁯⁮⁬‭‎‪‭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.MeshFilter"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‫‎​‏‏‌⁮‏⁫⁪‭⁭‪‌‍⁯‍⁯‪‬‌‬⁬‮⁬‪⁭‬‎⁭​‍⁯‍‍​‭⁫⁭‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Rendering.IndexFormat"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁭⁪⁯⁯⁮‪‎‮⁫‬​‬⁭‭‫‏⁬‌‪​‌​⁮‎‍⁭‬​‍‌⁯‍‫‌‎⁭⁯‫⁭‭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Mesh"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.CombineInstance[]"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁮‪​‮‏​‎‏‍⁯⁯‭‭‭⁬‏‪​⁬⁭‏‫⁭​‮‬‎‍⁬‮⁫⁫‮​‎‪⁪‫‭‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "UnityEngine.Texture"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮‬‮⁬‍​‏‏‬‮‏‫‭⁮‎⁬‌⁪‪‏‎‬​‫⁬⁬⁫‍‎‎⁮‎​‍⁮​⁫​⁪‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‎⁭‬⁪⁬‍⁪⁮‪‎‭‌⁯⁯‮⁯⁬‬‍‮⁫​‏‏‪‬⁭‏⁫⁪⁯‍‬⁮‌‫⁪‎⁭⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‬⁫‮‫‫‪⁪‍‭‪​‭‮⁪‫​‌‏⁪⁪‪⁪‬‪‬​⁬‎⁮‏‍‫‮‌⁫‍‍‭⁫‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Texture"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌⁫⁬⁮‮‬‌‫‌​⁫‪‬‮⁯‬‏‭⁯‌⁫‬‍‏‎⁯⁬‫‌‭‌⁬‫‬​‌‮‍‭‍‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.TerrainData"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Boolean[,]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮⁮‎‭‎‎‍‪⁯‭‮‪⁮⁫‬‍⁪⁪‏‌‌‏‬‏⁯⁮⁯‏‮‮‪‌‌⁭⁭⁮‪‪⁪⁬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Array"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁭⁬⁭‭⁯‭‪⁯‮‬⁫‪‪⁭‍⁭⁭‏‎⁪‮⁬⁪‫⁭‏⁯⁯⁯⁪‬⁭‮‎‏⁬‫‭‎⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁮‏‫‎​⁫⁫‏⁯‬‬⁫⁮⁫⁬⁯‌‬‪‍‏‫​⁯‍‪‬⁮⁯‭​⁯‫⁪⁪⁮‫‎‎‏‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌⁬‫‬⁫‮⁭⁯‪​‫‫⁬‭‎‮‫‍⁫​‬⁫⁯‍‍⁫‍⁯‪‍‫‌‮⁫⁪⁬‬⁪‬‭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            },
+            {
+              "name": "",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬‭⁪⁮‎‭‎‭‭‪‌⁫‮‎⁪‭‎‏⁬‏⁯‬⁫​‪⁪​‬​‭‮‫‎‌⁬‮‬⁪‪‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.Material"
+            },
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁫⁫‏‪⁬⁮⁯⁪‌⁭‍‍‍⁮‬‫‏⁫‌‌⁫‌‏‪⁬‌‎⁮‮‏​⁮⁮‏⁪‌⁫⁮‮‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.LogType"
+            }
+          ],
+          "return_type": "UnityEngine.StackTraceLogType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‮​‮⁪⁭‌‫⁫⁯⁯‌⁫​⁪‬‍‬⁪⁪‪‮‬​‫‪‭⁫‮⁯‎‬⁬‭⁯⁫‎⁭‪‫‎‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "UnityEngine.LogType"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.StackTraceLogType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁫⁭‎‮⁮⁭‏‬⁯‮⁬⁯⁪⁮‭‪⁪⁪⁯‪‫‎⁫‫‮⁬⁪⁫‎‍‬⁪‬‌‮​‌⁫​‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‎‮⁬‭‮⁫‌⁫‫⁭‎‬‌‍‎‍⁬⁪⁬‏‌‎‌‪‏‎‍‍‪⁬⁯‪‍‏‮⁪‭‏‭⁬‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Object"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‌⁮‌⁭‪⁮‌⁮⁭⁫⁮⁬‫‍‏⁬‮‏‍‭‪‬‮⁬‍‮‮‮⁬⁪‎⁬‎⁫‌‮⁯‏⁬‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Exception"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‎​‪⁭‮‫‍‎⁫⁬‍⁪‏‌‍⁯‮⁮​⁫⁯‫‍​‫⁭⁬⁮⁯⁫‪​‍‮⁮‪⁭‎⁮⁫‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Exception"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁬‎‌⁪‍‫‫‌⁬⁮‍‌‏‌‍‎​​‭​‍‬⁯‪​‭​⁫‏⁯‮‌‪⁪⁭⁯‫‎‭⁪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁮‎​‫‎⁪‮‌‎‎​‫⁭‪⁫‮‌‍‎​‭⁯⁬‬‫‪​‎‮‎​​⁬‏​⁪⁫‪‬‪‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Object"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "‬‬⁫⁮​‌⁮⁪⁮‍⁫⁫‬⁬⁯‪⁫‭‏‭‎⁭‬‪⁭‏‪‭⁫‭‮⁭​​‏⁯‏⁫⁪⁭‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "⁮‌‎‫‬‎‭⁯‏‫‫⁭‏‏‪⁪‬​‭‪⁭‌⁬‍⁮⁬‪‎⁬‫‭‌‎⁭⁯‎⁫⁫‏‌‮",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.Object"
+            },
+            {
+              "name": "",
+              "type": "UnityEngine.Object"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Utilities",
+      "namespace": "AmazingAssets.TerrainToMesh",
+      "type_token": 33554449
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ConfusedByAttribute",
+      "namespace": "",
+      "parent": "Attribute",
+      "type_token": 33554451
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "AmazingAssets.TerrainToMesh.dll"
+}

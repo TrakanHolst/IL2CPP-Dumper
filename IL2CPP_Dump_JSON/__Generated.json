@@ -1,0 +1,62 @@
+{
+  "class_count": 3,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ActivateInstance",
+          "parameters": [],
+          "return_type": "System.Object"
+        }
+      ],
+      "name": "IActivationFactory",
+      "namespace": "",
+      "type_token": 33554433
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "__Il2CppComObject",
+      "namespace": "System",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "__Il2CppComDelegate",
+      "namespace": "System",
+      "parent": "__Il2CppComObject",
+      "type_token": 33554435
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "__Generated"
+}

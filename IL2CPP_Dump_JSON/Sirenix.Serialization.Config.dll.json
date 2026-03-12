@@ -1,0 +1,563 @@
+{
+  "class_count": 8,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "logWarningDelegate",
+          "offset": 16,
+          "type": "System.Action<System.String>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "logErrorDelegate",
+          "offset": 24,
+          "type": "System.Action<System.String>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "logExceptionDelegate",
+          "offset": 32,
+          "type": "System.Action<System.Exception>"
+        }
+      ],
+      "interfaces": [
+        "ILogger"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "logWarningDelegate",
+              "type": "System.Action<System.String>"
+            },
+            {
+              "name": "logErrorDelegate",
+              "type": "System.Action<System.String>"
+            },
+            {
+              "name": "logExceptionDelegate",
+              "type": "System.Action<System.Exception>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogWarning",
+          "parameters": [
+            {
+              "name": "warning",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogError",
+          "parameters": [
+            {
+              "name": "error",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogException",
+          "parameters": [
+            {
+              "name": "exception",
+              "type": "System.Exception"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CustomLogger",
+      "namespace": "Sirenix.Serialization",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Binary",
+          "offset": 0,
+          "type": "Sirenix.Serialization.DataFormat"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "JSON",
+          "offset": 0,
+          "type": "Sirenix.Serialization.DataFormat"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Nodes",
+          "offset": 0,
+          "type": "Sirenix.Serialization.DataFormat"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "DataFormat",
+      "namespace": "Sirenix.Serialization",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "LOCK",
+          "offset": 0,
+          "type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "unityLogger",
+          "offset": 8,
+          "type": "Sirenix.Serialization.ILogger"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_DefaultLogger",
+          "parameters": [],
+          "return_type": "Sirenix.Serialization.ILogger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_UnityLogger",
+          "parameters": [],
+          "return_type": "Sirenix.Serialization.ILogger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "DefaultLoggers",
+      "namespace": "Sirenix.Serialization",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Resilient",
+          "offset": 0,
+          "type": "Sirenix.Serialization.ErrorHandlingPolicy"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ThrowOnErrors",
+          "offset": 0,
+          "type": "Sirenix.Serialization.ErrorHandlingPolicy"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ThrowOnWarningsAndErrors",
+          "offset": 0,
+          "type": "Sirenix.Serialization.ErrorHandlingPolicy"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ErrorHandlingPolicy",
+      "namespace": "Sirenix.Serialization",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ODIN_SERIALIZATION_CAUTIONARY_WARNING_TEXT",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ODIN_PREFAB_CAUTIONARY_WARNING_TEXT",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ODIN_SERIALIZATION_CAUTIONARY_WARNING_BUTTON_TEXT",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ODIN_PREFAB_CAUTIONARY_WARNING_BUTTON_TEXT",
+          "offset": 0,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": true,
+          "name": "BuildFormats",
+          "offset": 0,
+          "type": "Sirenix.Serialization.DataFormat[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "HideSerializationCautionaryMessage",
+          "offset": 24,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "HidePrefabCautionaryMessage",
+          "offset": 25,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "HideOdinSerializeAttributeWarningMessages",
+          "offset": 26,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "HideNonSerializedShowInInspectorWarningMessages",
+          "offset": 27,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "buildSerializationFormat",
+          "offset": 28,
+          "type": "Sirenix.Serialization.DataFormat"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "editorSerializationFormat",
+          "offset": 32,
+          "type": "Sirenix.Serialization.DataFormat"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "loggingPolicy",
+          "offset": 36,
+          "type": "Sirenix.Serialization.LoggingPolicy"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "errorHandlingPolicy",
+          "offset": 40,
+          "type": "Sirenix.Serialization.ErrorHandlingPolicy"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Logger",
+          "parameters": [],
+          "return_type": "Sirenix.Serialization.ILogger"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_EditorSerializationFormat",
+          "parameters": [],
+          "return_type": "Sirenix.Serialization.DataFormat"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_EditorSerializationFormat",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "Sirenix.Serialization.DataFormat"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_BuildSerializationFormat",
+          "parameters": [],
+          "return_type": "Sirenix.Serialization.DataFormat"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_BuildSerializationFormat",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "Sirenix.Serialization.DataFormat"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_LoggingPolicy",
+          "parameters": [],
+          "return_type": "Sirenix.Serialization.LoggingPolicy"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_LoggingPolicy",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "Sirenix.Serialization.LoggingPolicy"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ErrorHandlingPolicy",
+          "parameters": [],
+          "return_type": "Sirenix.Serialization.ErrorHandlingPolicy"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_ErrorHandlingPolicy",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "Sirenix.Serialization.ErrorHandlingPolicy"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnInspectorGUI",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "GlobalSerializationConfig",
+      "namespace": "Sirenix.Serialization",
+      "parent": "GlobalConfig`1",
+      "type_token": 33554438
+    },
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogWarning",
+          "parameters": [
+            {
+              "name": "warning",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogError",
+          "parameters": [
+            {
+              "name": "error",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LogException",
+          "parameters": [
+            {
+              "name": "exception",
+              "type": "System.Exception"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ILogger",
+      "namespace": "Sirenix.Serialization",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LogErrors",
+          "offset": 0,
+          "type": "Sirenix.Serialization.LoggingPolicy"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "LogWarningsAndErrors",
+          "offset": 0,
+          "type": "Sirenix.Serialization.LoggingPolicy"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Silent",
+          "offset": 0,
+          "type": "Sirenix.Serialization.LoggingPolicy"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "LoggingPolicy",
+      "namespace": "Sirenix.Serialization",
+      "type_token": 33554440
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Sirenix.Serialization.Config.dll"
+}

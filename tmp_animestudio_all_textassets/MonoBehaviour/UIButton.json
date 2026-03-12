@@ -1,0 +1,248 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 9036331046641005145
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 4603514517995781272
+  },
+  "m_Name": "",
+  "m_Navigation": {
+    "m_Mode": 0,
+    "m_WrapAround": 0,
+    "m_SelectOnUp": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_SelectOnDown": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_SelectOnLeft": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_SelectOnRight": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_Transition": 1,
+  "m_Colors": {
+    "m_NormalColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 0.0
+    },
+    "m_HighlightedColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_PressedColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 0.050980393
+    },
+    "m_SelectedColor": {
+      "r": 0.9607843,
+      "g": 0.9607843,
+      "b": 0.9607843,
+      "a": 1.0
+    },
+    "m_DisabledColor": {
+      "r": 0.78431374,
+      "g": 0.78431374,
+      "b": 0.78431374,
+      "a": 0.5019608
+    },
+    "m_ColorMultiplier": 1.0,
+    "m_FadeDuration": 0.1
+  },
+  "m_SpriteState": {
+    "m_HighlightedSprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_PressedSprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_SelectedSprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_DisabledSprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "m_AnimationTriggers": {
+    "m_NormalTrigger": "Normal",
+    "m_HighlightedTrigger": "Highlighted",
+    "m_PressedTrigger": "Pressed",
+    "m_SelectedTrigger": "Selected",
+    "m_DisabledTrigger": "Disabled"
+  },
+  "m_Interactable": 1,
+  "m_TargetGraphic": {
+    "m_FileID": 0,
+    "m_PathID": 1628849414202389081
+  },
+  "m_NotifyHover": 1,
+  "m_HoverEnableNode": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_HoverAudioKey": "",
+  "enableControllerNavi": 1,
+  "overrideNaviHintRectTransform": {
+    "m_FileID": 0,
+    "m_PathID": -2718406859863952807
+  },
+  "overrideNaviHintRectScale": 1.0,
+  "changeNaviHintParent": 1,
+  "hideNaviHint": 0,
+  "needNaviConfirmKeyHint": 0,
+  "useExplicitNaviSelect": 0,
+  "banExplicitOnLeft": 0,
+  "banExplicitOnRight": 0,
+  "banExplicitOnUp": 0,
+  "banExplicitOnDown": 0,
+  "m_ExplicitSelectOnLeft": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_ExplicitSelectOnRight": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_ExplicitSelectOnUp": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_ExplicitSelectOnDown": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "naviGroup": {
+    "m_FileID": 0,
+    "m_PathID": -6020426803257806247
+  },
+  "_audioPressStart": "Au_UI_Button_Common",
+  "_audioOnClick": "",
+  "_audioRelease": "",
+  "_audioLongPress": "",
+  "_audioInvalid": "",
+  "_noAudioWhenAutoTriggerOnClick": 0,
+  "onClick": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    },
+    "useBindingAction": 0,
+    "playerActionId": "",
+    "anonymousPlayerActionInfo": {
+      "rid": -2
+    },
+    "useAnonymousAction": 0
+  },
+  "onDoubleClick": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    },
+    "useBindingAction": 0,
+    "playerActionId": "",
+    "anonymousPlayerActionInfo": {
+      "rid": -2
+    },
+    "useAnonymousAction": 0
+  },
+  "_ignoreClickOnDrag": 0,
+  "_clickThrough": 0,
+  "_clickCd": 0.1,
+  "_invalidClickLangKey": {
+    "key": ""
+  },
+  "_useClickAnimation": 0,
+  "_clickAnimationCurve": {
+    "m_Curve": [],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "_clickAnimationDuration": 0.5,
+  "onLongPress": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    },
+    "useBindingAction": 0,
+    "playerActionId": "",
+    "anonymousPlayerActionInfo": {
+      "rid": -2
+    },
+    "useAnonymousAction": 0
+  },
+  "onPressStart": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    },
+    "useBindingAction": 0,
+    "playerActionId": "",
+    "anonymousPlayerActionInfo": {
+      "rid": -2
+    },
+    "useAnonymousAction": 0
+  },
+  "onPressEnd": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    },
+    "useBindingAction": 0,
+    "playerActionId": "",
+    "anonymousPlayerActionInfo": {
+      "rid": -2
+    },
+    "useAnonymousAction": 0
+  },
+  "_longPressTime": 0.3,
+  "_ignoreClickOnLongPress": 0,
+  "longPressImg": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_longPressImgShowDelay": 0.15,
+  "_longPressMaxDragDist": 50.0,
+  "_forceEnableButtonPressAudio": 0,
+  "noTextBtn": 0,
+  "_label": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "hintTextId": "",
+  "_redDotTrans": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_audioGamePadLongPress": "",
+  "_actionOnSetNaviTarget": 2,
+  "_useNoHintAction": 0,
+  "references": {
+    "version": 2,
+    "RefIds": [
+      {
+        "rid": -2,
+        "type": {
+          "class": "",
+          "ns": "",
+          "asm": ""
+        },
+        "data": {}
+      }
+    ]
+  }
+}

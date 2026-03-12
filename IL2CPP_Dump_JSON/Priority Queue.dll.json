@@ -1,0 +1,1728 @@
+{
+  "class_count": 15,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_numNodes",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_nodes",
+          "offset": 0,
+          "type": "T[]"
+        }
+      ],
+      "interfaces": [
+        "IFixedSizePriorityQueue`2",
+        "IPriorityQueue`2",
+        "IEnumerable`1",
+        "IEnumerable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "maxNodes",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Count",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_MaxSize",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Contains",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Enqueue",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "T"
+            },
+            {
+              "name": "priority",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CascadeUp",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CascadeDown",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HasHigherPriority",
+          "parameters": [
+            {
+              "name": "higher",
+              "type": "T"
+            },
+            {
+              "name": "lower",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HasHigherOrEqualPriority",
+          "parameters": [
+            {
+              "name": "higher",
+              "type": "T"
+            },
+            {
+              "name": "lower",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dequeue",
+          "parameters": [],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Resize",
+          "parameters": [
+            {
+              "name": "maxNodes",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_First",
+          "parameters": [],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdatePriority",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "T"
+            },
+            {
+              "name": "priority",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnNodeUpdated",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ResetNode",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerator<T>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.Collections.IEnumerable.GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.IEnumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsValidQueue",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "FastPriorityQueue`1",
+      "namespace": "Priority_Queue",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<Priority>k__BackingField",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<QueueIndex>k__BackingField",
+          "offset": 20,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Priority",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Priority",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_QueueIndex",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_QueueIndex",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "FastPriorityQueueNode",
+      "namespace": "Priority_Queue",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_numNodes",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_nodes",
+          "offset": 0,
+          "type": "TItem[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_numNodesEverEnqueued",
+          "offset": 0,
+          "type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "_comparer",
+          "offset": 0,
+          "type": "System.Comparison<TPriority>"
+        }
+      ],
+      "interfaces": [
+        "IFixedSizePriorityQueue`2",
+        "IPriorityQueue`2",
+        "IEnumerable`1",
+        "IEnumerable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "maxNodes",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "maxNodes",
+              "type": "System.Int32"
+            },
+            {
+              "name": "comparer",
+              "type": "System.Collections.Generic.IComparer<TPriority>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "maxNodes",
+              "type": "System.Int32"
+            },
+            {
+              "name": "comparer",
+              "type": "System.Comparison<TPriority>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Count",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_MaxSize",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Contains",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "TItem"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Enqueue",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "TItem"
+            },
+            {
+              "name": "priority",
+              "type": "TPriority"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CascadeUp",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "TItem"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CascadeDown",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "TItem"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HasHigherPriority",
+          "parameters": [
+            {
+              "name": "higher",
+              "type": "TItem"
+            },
+            {
+              "name": "lower",
+              "type": "TItem"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dequeue",
+          "parameters": [],
+          "return_type": "TItem"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Resize",
+          "parameters": [
+            {
+              "name": "maxNodes",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_First",
+          "parameters": [],
+          "return_type": "TItem"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdatePriority",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "TItem"
+            },
+            {
+              "name": "priority",
+              "type": "TPriority"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnNodeUpdated",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "TItem"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "TItem"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ResetNode",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "TItem"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerator<TItem>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.Collections.IEnumerable.GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.IEnumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsValidQueue",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "GenericPriorityQueue`2",
+      "namespace": "Priority_Queue",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<Priority>k__BackingField",
+          "offset": 0,
+          "type": "TPriority"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<QueueIndex>k__BackingField",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<InsertionIndex>k__BackingField",
+          "offset": 0,
+          "type": "System.Int64"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Priority",
+          "parameters": [],
+          "return_type": "TPriority"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Priority",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "TPriority"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_QueueIndex",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_QueueIndex",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_InsertionIndex",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_InsertionIndex",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "GenericPriorityQueueNode`1",
+      "namespace": "Priority_Queue",
+      "type_token": 33554439
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IPriorityQueue`2",
+        "IEnumerable`1",
+        "IEnumerable"
+      ],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Resize",
+          "parameters": [
+            {
+              "name": "maxNodes",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_MaxSize",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ResetNode",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "TItem"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IFixedSizePriorityQueue`2",
+      "namespace": "Priority_Queue",
+      "type_token": 33554440
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IEnumerable`1",
+        "IEnumerable"
+      ],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Enqueue",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "TItem"
+            },
+            {
+              "name": "priority",
+              "type": "TPriority"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dequeue",
+          "parameters": [],
+          "return_type": "TItem"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Contains",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "TItem"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "TItem"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdatePriority",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "TItem"
+            },
+            {
+              "name": "priority",
+              "type": "TPriority"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_First",
+          "parameters": [],
+          "return_type": "TItem"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Count",
+          "parameters": [],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "IPriorityQueue`2",
+      "namespace": "Priority_Queue",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<Data>k__BackingField",
+          "offset": 0,
+          "type": "TItem"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Data",
+          "parameters": [],
+          "return_type": "TItem"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Data",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "TItem"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "TItem"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SimpleNode",
+      "namespace": "",
+      "parent": "GenericPriorityQueueNode`1",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "INITIAL_QUEUE_SIZE",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "_queue",
+          "offset": 0,
+          "type": "Priority_Queue.GenericPriorityQueue<Priority_Queue.SimplePriorityQueue.SimpleNode<TItem,TPriority>,TPriority>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "_itemToNodesCache",
+          "offset": 0,
+          "type": "System.Collections.Generic.Dictionary<TItem,System.Collections.Generic.IList<Priority_Queue.SimplePriorityQueue.SimpleNode<TItem,TPriority>>>"
+        },
+        {
+          "access": "private",
+          "is_readonly": true,
+          "is_static": false,
+          "name": "_nullNodesCache",
+          "offset": 0,
+          "type": "System.Collections.Generic.IList<Priority_Queue.SimplePriorityQueue.SimpleNode<TItem,TPriority>>"
+        }
+      ],
+      "interfaces": [
+        "IPriorityQueue`2",
+        "IEnumerable`1",
+        "IEnumerable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "priorityComparer",
+              "type": "System.Collections.Generic.IComparer<TPriority>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "priorityComparer",
+              "type": "System.Comparison<TPriority>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "itemEquality",
+              "type": "System.Collections.Generic.IEqualityComparer<TItem>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "priorityComparer",
+              "type": "System.Collections.Generic.IComparer<TPriority>"
+            },
+            {
+              "name": "itemEquality",
+              "type": "System.Collections.Generic.IEqualityComparer<TItem>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "priorityComparer",
+              "type": "System.Comparison<TPriority>"
+            },
+            {
+              "name": "itemEquality",
+              "type": "System.Collections.Generic.IEqualityComparer<TItem>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetExistingNode",
+          "parameters": [
+            {
+              "name": "item",
+              "type": "TItem"
+            }
+          ],
+          "return_type": "Priority_Queue.SimplePriorityQueue.SimpleNode<TItem,TPriority>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddToNodeCache",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "Priority_Queue.SimplePriorityQueue.SimpleNode<TItem,TPriority>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RemoveFromNodeCache",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "Priority_Queue.SimplePriorityQueue.SimpleNode<TItem,TPriority>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Count",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_First",
+          "parameters": [],
+          "return_type": "TItem"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Contains",
+          "parameters": [
+            {
+              "name": "item",
+              "type": "TItem"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dequeue",
+          "parameters": [],
+          "return_type": "TItem"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnqueueNoLockOrCache",
+          "parameters": [
+            {
+              "name": "item",
+              "type": "TItem"
+            },
+            {
+              "name": "priority",
+              "type": "TPriority"
+            }
+          ],
+          "return_type": "Priority_Queue.SimplePriorityQueue.SimpleNode<TItem,TPriority>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Enqueue",
+          "parameters": [
+            {
+              "name": "item",
+              "type": "TItem"
+            },
+            {
+              "name": "priority",
+              "type": "TPriority"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EnqueueWithoutDuplicates",
+          "parameters": [
+            {
+              "name": "item",
+              "type": "TItem"
+            },
+            {
+              "name": "priority",
+              "type": "TPriority"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [
+            {
+              "name": "item",
+              "type": "TItem"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdatePriority",
+          "parameters": [
+            {
+              "name": "item",
+              "type": "TItem"
+            },
+            {
+              "name": "priority",
+              "type": "TPriority"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetPriority",
+          "parameters": [
+            {
+              "name": "item",
+              "type": "TItem"
+            }
+          ],
+          "return_type": "TPriority"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryFirst",
+          "parameters": [
+            {
+              "name": "first",
+              "type": "TItem&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryDequeue",
+          "parameters": [
+            {
+              "name": "first",
+              "type": "TItem&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryRemove",
+          "parameters": [
+            {
+              "name": "item",
+              "type": "TItem"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryUpdatePriority",
+          "parameters": [
+            {
+              "name": "item",
+              "type": "TItem"
+            },
+            {
+              "name": "priority",
+              "type": "TPriority"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TryGetPriority",
+          "parameters": [
+            {
+              "name": "item",
+              "type": "TItem"
+            },
+            {
+              "name": "priority",
+              "type": "TPriority&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerator<TItem>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.Collections.IEnumerable.GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.IEnumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsValidQueue",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "SimplePriorityQueue`2",
+      "namespace": "Priority_Queue",
+      "type_token": 33554442
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "comparer",
+              "type": "System.Collections.Generic.IComparer<System.Single>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "comparer",
+              "type": "System.Comparison<System.Single>"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "SimplePriorityQueue`1",
+      "namespace": "Priority_Queue",
+      "parent": "SimplePriorityQueue`2",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_numNodes",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_nodes",
+          "offset": 0,
+          "type": "T[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_numNodesEverEnqueued",
+          "offset": 0,
+          "type": "System.Int64"
+        }
+      ],
+      "interfaces": [
+        "IFixedSizePriorityQueue`2",
+        "IPriorityQueue`2",
+        "IEnumerable`1",
+        "IEnumerable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "maxNodes",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Count",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_MaxSize",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Contains",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Enqueue",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "T"
+            },
+            {
+              "name": "priority",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CascadeUp",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CascadeDown",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HasHigherPriority",
+          "parameters": [
+            {
+              "name": "higher",
+              "type": "T"
+            },
+            {
+              "name": "lower",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dequeue",
+          "parameters": [],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Resize",
+          "parameters": [
+            {
+              "name": "maxNodes",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_First",
+          "parameters": [],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdatePriority",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "T"
+            },
+            {
+              "name": "priority",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnNodeUpdated",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ResetNode",
+          "parameters": [
+            {
+              "name": "node",
+              "type": "T"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerator<T>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.Collections.IEnumerable.GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.IEnumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsValidQueue",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "StablePriorityQueue`1",
+      "namespace": "Priority_Queue",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<InsertionIndex>k__BackingField",
+          "offset": 24,
+          "type": "System.Int64"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_InsertionIndex",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_InsertionIndex",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "StablePriorityQueueNode",
+      "namespace": "Priority_Queue",
+      "parent": "FastPriorityQueueNode",
+      "type_token": 33554447
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Priority Queue.dll"
+}

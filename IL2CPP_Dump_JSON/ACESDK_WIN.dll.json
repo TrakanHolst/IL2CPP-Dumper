@@ -1,0 +1,2351 @@
+{
+  "class_count": 29,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "HGConstantBufferLayoutAttribute",
+      "namespace": "HG.Rendering.Runtime",
+      "parent": "Attribute",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_QQ",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_WECHAT",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_BAIDU",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_QQ_OPENID",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_VISITOR",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_GOPENID",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_GOOGLE",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_WEGAME_MAIL",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_4399",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_GARENA",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_GIANT_NETWORK",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_WEGAME",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_STEAM",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_WEGAME_COMMON_ID",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_WOODUAN",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_VK",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_COMMON_ID",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_FACEBOOK",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_SUPERCELL",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_TCOMMIC",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_UPLAY",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_PHONE_OPENID",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_LINE",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_ACCOUNT_TYPE_APPLE",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "AceSdkAccountType",
+      "namespace": "AceSdk",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_PLAT_ID_IOS",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountPlatID"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_PLAT_ID_ANDROID",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountPlatID"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_PLAT_ID_PC_CLIENT",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountPlatID"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_PLAT_ID_LINUX",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountPlatID"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_PLAT_ID_SWITCH",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountPlatID"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_PLAT_ID_MAC",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountPlatID"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_PLAT_ID_PS_CLIENT",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountPlatID"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_PLAT_ID_XBOX_CLIENT",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountPlatID"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_PLAT_ID_PC_EMULATOR_CLIENT",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountPlatID"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_PLAT_ID_HARMONY_MOBILE",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountPlatID"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_PLAT_ID_HARMONY_PC",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountPlatID"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_PLAT_ID_UNKNOWN",
+          "offset": 0,
+          "type": "AceSdk.AceSdkAccountPlatID"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "AceSdkAccountPlatID",
+      "namespace": "AceSdk",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_MAX_ACCOUNT_LEN",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "account_",
+          "offset": 16,
+          "type": "System.Text.StringBuilder"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "account_type_",
+          "offset": 24,
+          "type": "AceSdk.AceSdkAccountType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "plat_id_",
+          "offset": 28,
+          "type": "AceSdk.AceSdkAccountPlatID"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "game_id_",
+          "offset": 32,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "world_id_",
+          "offset": 36,
+          "type": "System.UInt32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AceSdkAccount",
+      "namespace": "AceSdk",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "ver",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "opt",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "client_obj_ptr",
+              "type": "System.IntPtr&"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginInvoke",
+          "parameters": [
+            {
+              "name": "ver",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "opt",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "client_obj_ptr",
+              "type": "System.IntPtr&"
+            },
+            {
+              "name": "callback",
+              "type": "System.AsyncCallback"
+            },
+            {
+              "name": "object",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.IAsyncResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndInvoke",
+          "parameters": [
+            {
+              "name": "client_obj_ptr",
+              "type": "System.IntPtr&"
+            },
+            {
+              "name": "result",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        }
+      ],
+      "name": "InitAceClient5Routine",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554439
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "account",
+              "type": "System.String"
+            },
+            {
+              "name": "account_type",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "world_id",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "login_ticket",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginInvoke",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "account",
+              "type": "System.String"
+            },
+            {
+              "name": "account_type",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "world_id",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "login_ticket",
+              "type": "System.String"
+            },
+            {
+              "name": "callback",
+              "type": "System.AsyncCallback"
+            },
+            {
+              "name": "object",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.IAsyncResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndInvoke",
+          "parameters": [
+            {
+              "name": "result",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        }
+      ],
+      "name": "LogInRoutine",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554440
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginInvoke",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "callback",
+              "type": "System.AsyncCallback"
+            },
+            {
+              "name": "object",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.IAsyncResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndInvoke",
+          "parameters": [
+            {
+              "name": "result",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        }
+      ],
+      "name": "LogOutRoutine",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554441
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginInvoke",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "callback",
+              "type": "System.AsyncCallback"
+            },
+            {
+              "name": "object",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.IAsyncResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndInvoke",
+          "parameters": [
+            {
+              "name": "result",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        }
+      ],
+      "name": "DeinitRoutine",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554442
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "packet",
+              "type": "AceSdk.AceSdkClient.AceSdkClientPacket&"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginInvoke",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "packet",
+              "type": "AceSdk.AceSdkClient.AceSdkClientPacket&"
+            },
+            {
+              "name": "callback",
+              "type": "System.AsyncCallback"
+            },
+            {
+              "name": "object",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.IAsyncResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndInvoke",
+          "parameters": [
+            {
+              "name": "packet",
+              "type": "AceSdk.AceSdkClient.AceSdkClientPacket&"
+            },
+            {
+              "name": "result",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        }
+      ],
+      "name": "GetPacketRoutine",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554443
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "len",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginInvoke",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "data",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "len",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "callback",
+              "type": "System.AsyncCallback"
+            },
+            {
+              "name": "object",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.IAsyncResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndInvoke",
+          "parameters": [
+            {
+              "name": "result",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        }
+      ],
+      "name": "OnPacketReceivedRoutine",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554444
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "packet",
+              "type": "AceSdk.AceSdkClient.AceSdkClientLightFeaturePacket&"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginInvoke",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "packet",
+              "type": "AceSdk.AceSdkClient.AceSdkClientLightFeaturePacket&"
+            },
+            {
+              "name": "callback",
+              "type": "System.AsyncCallback"
+            },
+            {
+              "name": "object",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.IAsyncResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndInvoke",
+          "parameters": [
+            {
+              "name": "packet",
+              "type": "AceSdk.AceSdkClient.AceSdkClientLightFeaturePacket&"
+            },
+            {
+              "name": "result",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        }
+      ],
+      "name": "GetLightFeaturePacketRoutine",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554445
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "object",
+              "type": "System.Object"
+            },
+            {
+              "name": "method",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Invoke",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "data",
+              "type": "AceSdk.AceSdkClient.AceSdkClientLightFeature&"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BeginInvoke",
+          "parameters": [
+            {
+              "name": "handle",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "data",
+              "type": "AceSdk.AceSdkClient.AceSdkClientLightFeature&"
+            },
+            {
+              "name": "callback",
+              "type": "System.AsyncCallback"
+            },
+            {
+              "name": "object",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.IAsyncResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndInvoke",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "AceSdk.AceSdkClient.AceSdkClientLightFeature&"
+            },
+            {
+              "name": "result",
+              "type": "System.IAsyncResult"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        }
+      ],
+      "name": "OnLightFeaturePacketReceivedRoutine",
+      "namespace": "",
+      "parent": "MulticastDelegate",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "handle_",
+          "offset": 16,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_deprecated1",
+          "offset": 24,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "log_out_",
+          "offset": 32,
+          "type": "AceSdk.AceSdkClient.LogOutRoutine"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "deinit_",
+          "offset": 40,
+          "type": "AceSdk.AceSdkClient.DeinitRoutine"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "get_packet_",
+          "offset": 48,
+          "type": "AceSdk.AceSdkClient.GetPacketRoutine"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "on_packet_received_",
+          "offset": 56,
+          "type": "AceSdk.AceSdkClient.OnPacketReceivedRoutine"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "log_in_",
+          "offset": 64,
+          "type": "AceSdk.AceSdkClient.LogInRoutine"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "get_light_feature_packet_",
+          "offset": 72,
+          "type": "AceSdk.AceSdkClient.GetLightFeaturePacketRoutine"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "on_light_feature_packet_received_",
+          "offset": 80,
+          "type": "AceSdk.AceSdkClient.OnLightFeaturePacketReceivedRoutine"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "AceSdkClientObject",
+      "namespace": "",
+      "type_token": 33554447
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "buffer_",
+          "offset": 16,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "len_",
+          "offset": 24,
+          "type": "System.UInt32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "AceSdkClientPacket",
+      "namespace": "",
+      "type_token": 33554448
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "buffer_",
+          "offset": 16,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "len_",
+          "offset": 24,
+          "type": "System.UInt32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "AceSdkClientLightFeaturePacket",
+      "namespace": "",
+      "type_token": 33554449
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "name_",
+          "offset": 16,
+          "type": "System.String"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "data_",
+          "offset": 24,
+          "type": "System.IntPtr"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "data_len_",
+          "offset": 32,
+          "type": "System.UInt32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "crc_",
+          "offset": 36,
+          "type": "System.UInt32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "AceSdkClientLightFeature",
+      "namespace": "",
+      "type_token": 33554450
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "client_obj_",
+          "offset": 16,
+          "type": "AceSdk.AceSdkClient.AceSdkClientObject"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "get_packet_buffer_",
+          "offset": 88,
+          "type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "get_light_feature_packet_buffer_",
+          "offset": 96,
+          "type": "System.Byte[]"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ace_sdk_client_init",
+          "parameters": [
+            {
+              "name": "ace_client",
+              "type": "AceSdk.AceSdkClient&"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ace_sdk_client_deinit",
+          "parameters": [],
+          "return_type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ace_sdk_client_log_in",
+          "parameters": [
+            {
+              "name": "account_id",
+              "type": "System.String"
+            },
+            {
+              "name": "account_type",
+              "type": "AceSdk.AceSdkAccountType"
+            },
+            {
+              "name": "world_id",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "login_ticket",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ace_sdk_client_log_out",
+          "parameters": [],
+          "return_type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ace_sdk_client_get_packet",
+          "parameters": [
+            {
+              "name": "packet",
+              "type": "System.Byte[]&"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ace_sdk_client_on_packet_received",
+          "parameters": [
+            {
+              "name": "packet",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ace_sdk_client_get_light_feature_packet",
+          "parameters": [
+            {
+              "name": "packet",
+              "type": "System.Byte[]&"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ace_sdk_client_on_light_feature_packet_received",
+          "parameters": [
+            {
+              "name": "lf_data",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "name",
+              "type": "System.String"
+            },
+            {
+              "name": "crc",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "client_obj_ptr",
+              "type": "System.IntPtr"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_exe_module_path",
+          "parameters": [
+            {
+              "name": "path",
+              "type": "System.Text.StringBuilder"
+            },
+            {
+              "name": "len",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DecryptString",
+          "parameters": [
+            {
+              "name": "encrypted",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "key",
+              "type": "System.Byte"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LoadLibrary",
+          "parameters": [
+            {
+              "name": "lpLibFileName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetProcAddress",
+          "parameters": [
+            {
+              "name": "hModule",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "lpProcName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetProcAddressByOrdinal",
+          "parameters": [
+            {
+              "name": "hModule",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "nOrdinal",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.IntPtr"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetModuleFileName",
+          "parameters": [
+            {
+              "name": "hModule",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "lpFilename",
+              "type": "System.Text.StringBuilder"
+            },
+            {
+              "name": "nSize",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.UInt32"
+        }
+      ],
+      "name": "AceSdkClient",
+      "namespace": "AceSdk",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_OK",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_NOT_SUPPORTED",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_INVALID_PARAMETER",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_CALC_PATH_FAILED",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_LOAD_LIBRARY_FAILED",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_UNLOAD_LIBRARY_FAILED",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_SYMBOL_NOT_FOUND",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_INIT_NOT_CALLED_OR_FAILED",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_INTERNAL_ERROR",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_ACCOUNT_TOO_LONG",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_ACCOUNT_ILLEGAL_CHARACTER",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_NO_PACKET_NEED_SENDING",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_ILLEGAL_LOG_IN",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_COMMON_END",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_DEVELOP_LANGUAGE_BEGIN",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_PACK_STRUCT_1BYTE_ERROR",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_UNPACK_STRUCT_1BYTE_ERROR",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_PACK_STRUCT_1BYTE_LEN_ERROR",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESLUT_JAVA_JNI_BEGIN",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESLUT_JAVA_JNI_ENV_NULL",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESLUT_JAVA_JNI_JVM_NULL",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESLUT_JAVA_JNI_JOBJECT_NULL",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESLUT_JAVA_JNI_CLASS_NULL",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESLUT_JAVA_JNI_REFLECT_BS_DATA_FAILED",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESLUT_JAVA_JNI_REFLECT_BS_OFFSET_FAILED",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESLUT_JAVA_JNI_REFLECT_BS_CAPACITY_FAILED",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESLUT_JAVA_JNI_REFLECT_BS_LENGTH_ERROR",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESLUT_JAVA_ARRAY_LENTGH_ERROR",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESLUT_JAVA_JNI_END",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_DEVELOP_LANGUAGE_END",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_BUSI_INTERFACE_BEGIN",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESLUT_LIGHT_FEATURE_BEGIN",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESLUT_LIGHT_FEATURE_NOT_OPENED",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESLUT_LIGHT_FEATURE_END",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESLUT_UIC_BEGIN",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_UIC_TEXT_INTERF_CALL_FAILED",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_UIC_TEXT_CALLBACK_HAS_NOT_SET",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_UIC_PIC_INTERF_CALL_FAILED",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_UIC_PIC_CALLBACK_HAS_NOT_SET",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESLUT_UIC_END",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_SAFEMODE_BEGIN",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_SAFEMODE_CALLBACK_HAS_NOT_SET",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_SAFEMODE_INTERF_CALL_FAILED",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_SAFEMODE_END",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_GAME_SESSION_BEGIN",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_GAME_SESSION_INTERF_CALL_FAILED",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_GAME_SESSION_END",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_BUSI_INTERFACE_END",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ACE_SDK_RESULT_MAX_INT32",
+          "offset": 0,
+          "type": "AceSdk.AceSdkResult"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "AceSdkResult",
+      "namespace": "AceSdk",
+      "type_token": 33554451
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_string_from_bytearray_until_zero",
+          "parameters": [
+            {
+              "name": "input_bytes",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AceSdkTool",
+      "namespace": "AceSdk",
+      "type_token": 33554452
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AnimatorBlackboardAttribute",
+      "namespace": "Beyond.SourceGenerator",
+      "parent": "Attribute",
+      "type_token": 33554453
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "CameraControlConfigAttribute",
+      "namespace": "Beyond.SourceGenerator",
+      "parent": "Attribute",
+      "type_token": 33554454
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "layoutKind",
+          "offset": 16,
+          "type": "System.Runtime.InteropServices.LayoutKind"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "isTag",
+          "offset": 20,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ECSComponentAttribute",
+      "namespace": "Beyond.SourceGenerator",
+      "parent": "Attribute",
+      "type_token": 33554455
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "capacity",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "tSize",
+          "offset": 20,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ring",
+          "offset": 24,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "DataNAttribute",
+      "namespace": "Beyond.SourceGenerator",
+      "parent": "Attribute",
+      "type_token": 33554456
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "instance",
+          "offset": 0,
+          "type": "Beyond.AceSdk.AceSDKInterfaceWin"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ace_client",
+          "offset": 16,
+          "type": "AceSdk.AceSdkClient"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_netThread",
+          "offset": 24,
+          "type": "System.Threading.Thread"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "b_stopThread",
+          "offset": 32,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "s_LoginAccount",
+          "offset": 40,
+          "type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "login_ids",
+          "offset": 48,
+          "type": "System.Collections.Generic.HashSet<System.String>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "isGamePaused",
+          "offset": 56,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Instance",
+          "parameters": [],
+          "return_type": "Beyond.AceSdk.AceSDKInterfaceWin"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finalize",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitACESDK",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DeinitACESDK",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnApplicationPause",
+          "parameters": [
+            {
+              "name": "pause",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AceSdkClientLogIn",
+          "parameters": [
+            {
+              "name": "account_id",
+              "type": "System.String"
+            },
+            {
+              "name": "ticket",
+              "type": "System.String"
+            },
+            {
+              "name": "world_id",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AceSdkClientLogOut",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "StartNetThread",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NetworkThread",
+          "parameters": [
+            {
+              "name": "ace_client",
+              "type": "AceSdk.AceSdkClient"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SendPktToGameServer",
+          "parameters": [
+            {
+              "name": "pkg",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OnAceSdkPacketReceived",
+          "parameters": [
+            {
+              "name": "pkt",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "<StartNetThread>b__16_0",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "AceSDKInterfaceWin",
+      "namespace": "Beyond.AceSdk",
+      "type_token": 33554457
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "__StaticArrayInitTypeSize=14",
+      "namespace": "",
+      "type_token": 33554459
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "__StaticArrayInitTypeSize=33",
+      "namespace": "",
+      "type_token": 33554460
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "__StaticArrayInitTypeSize=38",
+      "namespace": "",
+      "type_token": 33554461
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "ACESDK_WIN.dll"
+}

@@ -1,0 +1,52 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 2709034000876254125
+  },
+  "m_Name": "HGShadowSettings",
+  "active": 1,
+  "csmDepthBias": {
+    "overrideState": 0,
+    "m_Value": 1.0
+  },
+  "csmNormalBias": {
+    "overrideState": 0,
+    "m_Value": 1.0
+  },
+  "shadowIntensity": {
+    "overrideState": 0,
+    "m_Value": 1.0
+  },
+  "csmShadowSoftness": {
+    "overrideState": 0,
+    "m_Value": 0.01
+  },
+  "csmShadowRamp": {
+    "overrideState": 0,
+    "m_Value": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "characterDepthBias": {
+    "overrideState": 0,
+    "m_Value": 1.0
+  },
+  "characterNormalBias": {
+    "overrideState": 0,
+    "m_Value": 1.0
+  },
+  "characterShadowResolution": {
+    "overrideState": 0,
+    "m_Value": -1
+  },
+  "characterShadowSampleMode": {
+    "overrideState": 0,
+    "m_Value": 0
+  }
+}

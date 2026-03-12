@@ -1,0 +1,96 @@
+# Map Generation Comparison
+
+## Reference (communitywebtemplate) vs New Extraction (IL2CPP-Dumper)
+
+---
+
+## POI Count Comparison
+
+| Project | Total POIs | Difference |
+|---------|-----------|------------|
+| **Reference** | 6,364 POIs | baseline |
+| **New Extraction** | 5,580 POIs | **-784 POIs (-12.3%)** |
+
+---
+
+## POI Breakdown by Category
+
+| Category | Reference | New | Difference | % Change |
+|----------|-----------|-----|------------|----------|
+| plant | 1,614 | 1,588 | -26 | -1.6% |
+| battle | 1,164 | 1,017 | -147 | -12.6% |
+| formation | 1,116 | 886 | -230 | -20.6% |
+| collectible | 880 | 879 | -1 | -0.1% |
+| chest | 783 | 533 | -250 | -31.9% |
+| mineral | 297 | 266 | -31 | -10.4% |
+| narrative | 288 | 276 | -12 | -4.2% |
+| system | 102 | 29 | -73 | -71.6% |
+| terminal | 53 | 44 | -9 | -17.0% |
+| travel | 52 | 47 | -5 | -9.6% |
+| ether | 15 | 15 | 0 | 0% |
+
+**Categories missing in new extraction:**
+- other: 253 POIs (not categorized)
+- spcstone: 151 POIs (special stones)
+
+---
+
+## Key Findings
+
+### Major Discrepancies:
+
+1. **Chest POIs: -31.9%** (250 fewer)
+   - Possible cause: Field filtering might be removing locked chest data
+
+2. **System POIs: -71.6%** (73 fewer)
+   - Possible cause: Missing system-related interactives
+
+3. **Formation POIs: -20.6%** (230 fewer)
+   - Possible cause: Formation data might be in skipped fields
+
+4. **Battle POIs: -12.6%** (147 fewer)
+   - Possible cause: Some enemy spawns missing
+
+### Minor Discrepancies:
+
+- **Ether POIs: 0%** - Perfect match! ✓
+- **Collectible POIs: -0.1%** - Nearly perfect! ✓
+- **Plant POIs: -1.6%** - Very close! ✓
+
+---
+
+## Root Cause Analysis
+
+The 784 missing POIs are likely due to:
+
+1. **Field-level filtering**: We're skipping many fields within interactives
+   - rotation, scale, progressLockCondition
+   - properties, globalProperties, componentProperties
+   - These might contain POI-relevant data
+
+2. **Missing entity fields**: Reference shows "other" and "spcstone" categories
+   - These categories don't appear in our extraction at all
+   - Suggests we're missing certain entity types or classifications
+
+3. **Version differences**: Reference is from Dec 17, 2025
+   - Some POIs may have been removed/relocated in game updates
+
+---
+
+## Recommendations
+
+### To achieve parity with reference:
+
+1. **Keep more interactive fields**:
+   - Add back: properties, globalProperties, componentProperties
+   - These may contain POI classification data
+
+2. **Check entity extraction**:
+   - Verify all interactive types are being captured
+   - Ensure no filter is accidentally excluding POI categories
+
+3. **Compare specific POI examples**:
+   - Pick a missing chest/formation/system POI from reference
+   - Check if it exists in your level data files
+   - Determine which field filter is removing it
+

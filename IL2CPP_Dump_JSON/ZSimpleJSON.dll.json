@@ -1,0 +1,4584 @@
+{
+  "class_count": 23,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "ZSimpleJSON.JSONNode.Enumerator.Type"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Array",
+          "offset": 0,
+          "type": "ZSimpleJSON.JSONNode.Enumerator.Type"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Object",
+          "offset": 0,
+          "type": "ZSimpleJSON.JSONNode.Enumerator.Type"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Type",
+      "namespace": "",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "type",
+          "offset": 16,
+          "type": "ZSimpleJSON.JSONNode.Enumerator.Type"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Object",
+          "offset": 24,
+          "type": "System.Collections.Generic.Dictionary.Enumerator<System.String,ZSimpleJSON.JSONNode>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Array",
+          "offset": 64,
+          "type": "System.Collections.Generic.List.Enumerator<ZSimpleJSON.JSONNode>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsValid",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "aArrayEnum",
+              "type": "System.Collections.Generic.List.Enumerator<ZSimpleJSON.JSONNode>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "aDictEnum",
+              "type": "System.Collections.Generic.Dictionary.Enumerator<System.String,ZSimpleJSON.JSONNode>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Current",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.KeyValuePair<System.String,ZSimpleJSON.JSONNode>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MoveNext",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        }
+      ],
+      "name": "Enumerator",
+      "namespace": "",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Enumerator",
+          "offset": 16,
+          "type": "ZSimpleJSON.JSONNode.Enumerator"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "aArrayEnum",
+              "type": "System.Collections.Generic.List.Enumerator<ZSimpleJSON.JSONNode>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "aDictEnum",
+              "type": "System.Collections.Generic.Dictionary.Enumerator<System.String,ZSimpleJSON.JSONNode>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "aEnumerator",
+              "type": "ZSimpleJSON.JSONNode.Enumerator"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Current",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MoveNext",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNode.ValueEnumerator"
+        }
+      ],
+      "name": "ValueEnumerator",
+      "namespace": "",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Enumerator",
+          "offset": 16,
+          "type": "ZSimpleJSON.JSONNode.Enumerator"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "aArrayEnum",
+              "type": "System.Collections.Generic.List.Enumerator<ZSimpleJSON.JSONNode>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "aDictEnum",
+              "type": "System.Collections.Generic.Dictionary.Enumerator<System.String,ZSimpleJSON.JSONNode>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "aEnumerator",
+              "type": "ZSimpleJSON.JSONNode.Enumerator"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Current",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MoveNext",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNode.KeyEnumerator"
+        }
+      ],
+      "name": "KeyEnumerator",
+      "namespace": "",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Node",
+          "offset": 16,
+          "type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Enumerator",
+          "offset": 24,
+          "type": "ZSimpleJSON.JSONNode.Enumerator"
+        }
+      ],
+      "interfaces": [
+        "IEnumerator`1",
+        "IEnumerator",
+        "IDisposable",
+        "IEnumerable`1",
+        "IEnumerable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Current",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.KeyValuePair<System.String,ZSimpleJSON.JSONNode>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.Collections.IEnumerator.get_Current",
+          "parameters": [],
+          "return_type": "System.Object"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "MoveNext",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,ZSimpleJSON.JSONNode>>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Reset",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "System.Collections.IEnumerable.GetEnumerator",
+          "parameters": [],
+          "return_type": "System.Collections.IEnumerator"
+        }
+      ],
+      "name": "LinqEnumerator",
+      "namespace": "",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Color32DefaultAlpha",
+          "offset": 0,
+          "type": "System.Byte"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ColorDefaultAlpha",
+          "offset": 4,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "VectorContainerType",
+          "offset": 8,
+          "type": "ZSimpleJSON.JSONContainerType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "QuaternionContainerType",
+          "offset": 12,
+          "type": "ZSimpleJSON.JSONContainerType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "RectContainerType",
+          "offset": 16,
+          "type": "ZSimpleJSON.JSONContainerType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ColorContainerType",
+          "offset": 20,
+          "type": "ZSimpleJSON.JSONContainerType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "forceASCII",
+          "offset": 24,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "longAsString",
+          "offset": 25,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "allowLineComments",
+          "offset": 26,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "m_EscapeBuilder",
+          "offset": -1,
+          "type": "System.Text.StringBuilder"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsDecimal",
+          "parameters": [],
+          "return_type": "System.Decimal"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsDecimal",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Decimal"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aDecimal",
+              "type": "System.Decimal"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Decimal"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsChar",
+          "parameters": [],
+          "return_type": "System.Char"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsChar",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Char"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aChar",
+              "type": "System.Char"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Char"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsUInt",
+          "parameters": [],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsUInt",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aUInt",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsByte",
+          "parameters": [],
+          "return_type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsByte",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Byte"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aByte",
+              "type": "System.Byte"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsSByte",
+          "parameters": [],
+          "return_type": "System.SByte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsSByte",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.SByte"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aSByte",
+              "type": "System.SByte"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.SByte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsShort",
+          "parameters": [],
+          "return_type": "System.Int16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsShort",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int16"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aShort",
+              "type": "System.Int16"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Int16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsUShort",
+          "parameters": [],
+          "return_type": "System.UInt16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsUShort",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aUShort",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.UInt16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsDateTime",
+          "parameters": [],
+          "return_type": "System.DateTime"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsDateTime",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.DateTime"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aDateTime",
+              "type": "System.DateTime"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.DateTime"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsTimeSpan",
+          "parameters": [],
+          "return_type": "System.TimeSpan"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsTimeSpan",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.TimeSpan"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aTimeSpan",
+              "type": "System.TimeSpan"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.TimeSpan"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsGuid",
+          "parameters": [],
+          "return_type": "System.Guid"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsGuid",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Guid"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aGuid",
+              "type": "System.Guid"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Guid"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsByteArray",
+          "parameters": [],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsByteArray",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aByteArray",
+              "type": "System.Byte[]"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsByteList",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.List<System.Byte>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsByteList",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Collections.Generic.List<System.Byte>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aByteList",
+              "type": "System.Collections.Generic.List<System.Byte>"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Collections.Generic.List<System.Byte>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsUlongArray",
+          "parameters": [],
+          "return_type": "System.UInt64[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsUlongArray",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt64[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aStringArray",
+              "type": "System.UInt64[]"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.UInt64[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsStringArray",
+          "parameters": [],
+          "return_type": "System.String[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsStringArray",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aStringArray",
+              "type": "System.String[]"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.String[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsStringList",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.List<System.String>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsStringList",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Collections.Generic.List<System.String>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aStringList",
+              "type": "System.Collections.Generic.List<System.String>"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Collections.Generic.List<System.String>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aValue",
+              "type": "System.Nullable<System.Int32>"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Nullable<System.Int32>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aValue",
+              "type": "System.Nullable<System.Single>"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Nullable<System.Single>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aValue",
+              "type": "System.Nullable<System.Double>"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Nullable<System.Double>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aValue",
+              "type": "System.Nullable<System.Boolean>"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Nullable<System.Boolean>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aValue",
+              "type": "System.Nullable<System.Int64>"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Nullable<System.Int64>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aValue",
+              "type": "System.Nullable<System.Int16>"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Nullable<System.Int16>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetContainer",
+          "parameters": [
+            {
+              "name": "aType",
+              "type": "ZSimpleJSON.JSONContainerType"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aVec",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aVec",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aVec",
+              "type": "UnityEngine.Vector4"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aCol",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aCol",
+              "type": "UnityEngine.Color32"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aRot",
+              "type": "UnityEngine.Quaternion"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aRect",
+              "type": "UnityEngine.Rect"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aRect",
+              "type": "UnityEngine.RectOffset"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "UnityEngine.Color32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "UnityEngine.Quaternion"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "UnityEngine.Rect"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "UnityEngine.RectOffset"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadVector2",
+          "parameters": [
+            {
+              "name": "aDefault",
+              "type": "UnityEngine.Vector2"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadVector2",
+          "parameters": [
+            {
+              "name": "aXName",
+              "type": "System.String"
+            },
+            {
+              "name": "aYName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadVector2",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector2"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteVector2",
+          "parameters": [
+            {
+              "name": "aVec",
+              "type": "UnityEngine.Vector2"
+            },
+            {
+              "name": "aXName",
+              "type": "System.String"
+            },
+            {
+              "name": "aYName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadVector3",
+          "parameters": [
+            {
+              "name": "aDefault",
+              "type": "UnityEngine.Vector3"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadVector3",
+          "parameters": [
+            {
+              "name": "aXName",
+              "type": "System.String"
+            },
+            {
+              "name": "aYName",
+              "type": "System.String"
+            },
+            {
+              "name": "aZName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadVector3",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector3"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteVector3",
+          "parameters": [
+            {
+              "name": "aVec",
+              "type": "UnityEngine.Vector3"
+            },
+            {
+              "name": "aXName",
+              "type": "System.String"
+            },
+            {
+              "name": "aYName",
+              "type": "System.String"
+            },
+            {
+              "name": "aZName",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadVector4",
+          "parameters": [
+            {
+              "name": "aDefault",
+              "type": "UnityEngine.Vector4"
+            }
+          ],
+          "return_type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadVector4",
+          "parameters": [],
+          "return_type": "UnityEngine.Vector4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteVector4",
+          "parameters": [
+            {
+              "name": "aVec",
+              "type": "UnityEngine.Vector4"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadColor",
+          "parameters": [
+            {
+              "name": "aDefault",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadColor",
+          "parameters": [],
+          "return_type": "UnityEngine.Color"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteColor",
+          "parameters": [
+            {
+              "name": "aCol",
+              "type": "UnityEngine.Color"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadColor32",
+          "parameters": [
+            {
+              "name": "aDefault",
+              "type": "UnityEngine.Color32"
+            }
+          ],
+          "return_type": "UnityEngine.Color32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadColor32",
+          "parameters": [],
+          "return_type": "UnityEngine.Color32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteColor32",
+          "parameters": [
+            {
+              "name": "aCol",
+              "type": "UnityEngine.Color32"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadQuaternion",
+          "parameters": [
+            {
+              "name": "aDefault",
+              "type": "UnityEngine.Quaternion"
+            }
+          ],
+          "return_type": "UnityEngine.Quaternion"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadQuaternion",
+          "parameters": [],
+          "return_type": "UnityEngine.Quaternion"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteQuaternion",
+          "parameters": [
+            {
+              "name": "aRot",
+              "type": "UnityEngine.Quaternion"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadRect",
+          "parameters": [
+            {
+              "name": "aDefault",
+              "type": "UnityEngine.Rect"
+            }
+          ],
+          "return_type": "UnityEngine.Rect"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadRect",
+          "parameters": [],
+          "return_type": "UnityEngine.Rect"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteRect",
+          "parameters": [
+            {
+              "name": "aRect",
+              "type": "UnityEngine.Rect"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadRectOffset",
+          "parameters": [
+            {
+              "name": "aDefault",
+              "type": "UnityEngine.RectOffset"
+            }
+          ],
+          "return_type": "UnityEngine.RectOffset"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadRectOffset",
+          "parameters": [],
+          "return_type": "UnityEngine.RectOffset"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteRectOffset",
+          "parameters": [
+            {
+              "name": "aRect",
+              "type": "UnityEngine.RectOffset"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadMatrix",
+          "parameters": [],
+          "return_type": "UnityEngine.Matrix4x4"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteMatrix",
+          "parameters": [
+            {
+              "name": "aMatrix",
+              "type": "UnityEngine.Matrix4x4"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Tag",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNodeType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Item",
+          "parameters": [
+            {
+              "name": "aIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Item",
+          "parameters": [
+            {
+              "name": "aIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Item",
+          "parameters": [
+            {
+              "name": "aKey",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Item",
+          "parameters": [
+            {
+              "name": "aKey",
+              "type": "System.String"
+            },
+            {
+              "name": "value",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Value",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Value",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Count",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsNumber",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsString",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsBoolean",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsNull",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsArray",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsObject",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Inline",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Inline",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "aKey",
+              "type": "System.String"
+            },
+            {
+              "name": "aItem",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "aItem",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [
+            {
+              "name": "aKey",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [
+            {
+              "name": "aIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clone",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Children",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<ZSimpleJSON.JSONNode>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_DeepChildren",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<ZSimpleJSON.JSONNode>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HasKey",
+          "parameters": [
+            {
+              "name": "aKey",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetValueOrDefault",
+          "parameters": [
+            {
+              "name": "aKey",
+              "type": "System.String"
+            },
+            {
+              "name": "aDefault",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToString",
+          "parameters": [
+            {
+              "name": "aIndent",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToStringBuild",
+          "parameters": [
+            {
+              "name": "sb",
+              "type": "System.Text.StringBuilder&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteToStringBuilder",
+          "parameters": [
+            {
+              "name": "aSB",
+              "type": "System.Text.StringBuilder"
+            },
+            {
+              "name": "aIndent",
+              "type": "System.Int32"
+            },
+            {
+              "name": "aIndentInc",
+              "type": "System.Int32"
+            },
+            {
+              "name": "aMode",
+              "type": "ZSimpleJSON.JSONTextMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNode.Enumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Linq",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,ZSimpleJSON.JSONNode>>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Keys",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNode.KeyEnumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Values",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNode.ValueEnumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsDouble",
+          "parameters": [],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsDouble",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsInt",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsInt",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsFloat",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsFloat",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsBool",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsBool",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsLong",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsLong",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsULong",
+          "parameters": [],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsULong",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsArray",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONArray"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsObject",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONObject"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "d",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "n",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "d",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "n",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "d",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "n",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "d",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "n",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "d",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "n",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "d",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "b",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "d",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Implicit",
+          "parameters": [
+            {
+              "name": "aKeyValue",
+              "type": "System.Collections.Generic.KeyValuePair<System.String,ZSimpleJSON.JSONNode>"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Equality",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "ZSimpleJSON.JSONNode"
+            },
+            {
+              "name": "b",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Inequality",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "ZSimpleJSON.JSONNode"
+            },
+            {
+              "name": "b",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_EscapeBuilder",
+          "parameters": [],
+          "return_type": "System.Text.StringBuilder"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Escape",
+          "parameters": [
+            {
+              "name": "aText",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ParseElement",
+          "parameters": [
+            {
+              "name": "token",
+              "type": "System.String"
+            },
+            {
+              "name": "quoted",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Parse",
+          "parameters": [
+            {
+              "name": "aJSON",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "JSONNode",
+      "namespace": "ZSimpleJSON",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Array",
+          "offset": 0,
+          "type": "ZSimpleJSON.JSONContainerType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Object",
+          "offset": 0,
+          "type": "ZSimpleJSON.JSONContainerType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "JSONContainerType",
+      "namespace": "ZSimpleJSON",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Array",
+          "offset": 0,
+          "type": "ZSimpleJSON.JSONNodeType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Object",
+          "offset": 0,
+          "type": "ZSimpleJSON.JSONNodeType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "String",
+          "offset": 0,
+          "type": "ZSimpleJSON.JSONNodeType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Number",
+          "offset": 0,
+          "type": "ZSimpleJSON.JSONNodeType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "NullValue",
+          "offset": 0,
+          "type": "ZSimpleJSON.JSONNodeType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Boolean",
+          "offset": 0,
+          "type": "ZSimpleJSON.JSONNodeType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "None",
+          "offset": 0,
+          "type": "ZSimpleJSON.JSONNodeType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Custom",
+          "offset": 0,
+          "type": "ZSimpleJSON.JSONNodeType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "JSONNodeType",
+      "namespace": "ZSimpleJSON",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Compact",
+          "offset": 0,
+          "type": "ZSimpleJSON.JSONTextMode"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "Indent",
+          "offset": 0,
+          "type": "ZSimpleJSON.JSONTextMode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "JSONTextMode",
+      "namespace": "ZSimpleJSON",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_List",
+          "offset": 16,
+          "type": "System.Collections.Generic.List<ZSimpleJSON.JSONNode>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "inline",
+          "offset": 24,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Inline",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Inline",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Tag",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNodeType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsArray",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNode.Enumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Item",
+          "parameters": [
+            {
+              "name": "aIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Item",
+          "parameters": [
+            {
+              "name": "aIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Item",
+          "parameters": [
+            {
+              "name": "aKey",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Item",
+          "parameters": [
+            {
+              "name": "aKey",
+              "type": "System.String"
+            },
+            {
+              "name": "value",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Count",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "aKey",
+              "type": "System.String"
+            },
+            {
+              "name": "aItem",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [
+            {
+              "name": "aIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clone",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Children",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<ZSimpleJSON.JSONNode>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteToStringBuilder",
+          "parameters": [
+            {
+              "name": "aSB",
+              "type": "System.Text.StringBuilder"
+            },
+            {
+              "name": "aIndent",
+              "type": "System.Int32"
+            },
+            {
+              "name": "aIndentInc",
+              "type": "System.Int32"
+            },
+            {
+              "name": "aMode",
+              "type": "ZSimpleJSON.JSONTextMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "JSONArray",
+      "namespace": "ZSimpleJSON",
+      "parent": "JSONNode",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Dict",
+          "offset": 16,
+          "type": "System.Collections.Generic.Dictionary<System.String,ZSimpleJSON.JSONNode>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "inline",
+          "offset": 24,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Inline",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Inline",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Tag",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNodeType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsObject",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNode.Enumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Item",
+          "parameters": [
+            {
+              "name": "aKey",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Item",
+          "parameters": [
+            {
+              "name": "aKey",
+              "type": "System.String"
+            },
+            {
+              "name": "value",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Item",
+          "parameters": [
+            {
+              "name": "aIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Item",
+          "parameters": [
+            {
+              "name": "aIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Count",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "aKey",
+              "type": "System.String"
+            },
+            {
+              "name": "aItem",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [
+            {
+              "name": "aKey",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [
+            {
+              "name": "aIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Remove",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clone",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HasKey",
+          "parameters": [
+            {
+              "name": "aKey",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetValueOrDefault",
+          "parameters": [
+            {
+              "name": "aKey",
+              "type": "System.String"
+            },
+            {
+              "name": "aDefault",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Children",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.IEnumerable<ZSimpleJSON.JSONNode>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteToStringBuilder",
+          "parameters": [
+            {
+              "name": "aSB",
+              "type": "System.Text.StringBuilder"
+            },
+            {
+              "name": "aIndent",
+              "type": "System.Int32"
+            },
+            {
+              "name": "aIndentInc",
+              "type": "System.Int32"
+            },
+            {
+              "name": "aMode",
+              "type": "ZSimpleJSON.JSONTextMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "JSONObject",
+      "namespace": "ZSimpleJSON",
+      "parent": "JSONNode",
+      "type_token": 33554447
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Data",
+          "offset": 16,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Tag",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNodeType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsString",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNode.Enumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Value",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Value",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "aData",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clone",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteToStringBuilder",
+          "parameters": [
+            {
+              "name": "aSB",
+              "type": "System.Text.StringBuilder"
+            },
+            {
+              "name": "aIndent",
+              "type": "System.Int32"
+            },
+            {
+              "name": "aIndentInc",
+              "type": "System.Int32"
+            },
+            {
+              "name": "aMode",
+              "type": "ZSimpleJSON.JSONTextMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "JSONString",
+      "namespace": "ZSimpleJSON",
+      "parent": "JSONNode",
+      "type_token": 33554450
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Data",
+          "offset": 16,
+          "type": "System.Double"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Tag",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNodeType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsNumber",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNode.Enumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Value",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Value",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsDouble",
+          "parameters": [],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsDouble",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsLong",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsLong",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsULong",
+          "parameters": [],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsULong",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "aData",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "aData",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clone",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteToStringBuilder",
+          "parameters": [
+            {
+              "name": "aSB",
+              "type": "System.Text.StringBuilder"
+            },
+            {
+              "name": "aIndent",
+              "type": "System.Int32"
+            },
+            {
+              "name": "aIndentInc",
+              "type": "System.Int32"
+            },
+            {
+              "name": "aMode",
+              "type": "ZSimpleJSON.JSONTextMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsNumeric",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "JSONNumber",
+      "namespace": "ZSimpleJSON",
+      "parent": "JSONNode",
+      "type_token": 33554451
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Data",
+          "offset": 16,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Tag",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNodeType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsBoolean",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNode.Enumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Value",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Value",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsBool",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsBool",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "aData",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "aData",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clone",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteToStringBuilder",
+          "parameters": [
+            {
+              "name": "aSB",
+              "type": "System.Text.StringBuilder"
+            },
+            {
+              "name": "aIndent",
+              "type": "System.Int32"
+            },
+            {
+              "name": "aIndentInc",
+              "type": "System.Int32"
+            },
+            {
+              "name": "aMode",
+              "type": "ZSimpleJSON.JSONTextMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "JSONBool",
+      "namespace": "ZSimpleJSON",
+      "parent": "JSONNode",
+      "type_token": 33554452
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "m_StaticInstance",
+          "offset": 0,
+          "type": "ZSimpleJSON.JSONNull"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "reuseSameInstance",
+          "offset": 8,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateOrGet",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNull"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Tag",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNodeType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_IsNull",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNode.Enumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Value",
+          "parameters": [],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Value",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsBool",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsBool",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clone",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteToStringBuilder",
+          "parameters": [
+            {
+              "name": "aSB",
+              "type": "System.Text.StringBuilder"
+            },
+            {
+              "name": "aIndent",
+              "type": "System.Int32"
+            },
+            {
+              "name": "aIndentInc",
+              "type": "System.Int32"
+            },
+            {
+              "name": "aMode",
+              "type": "ZSimpleJSON.JSONTextMode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "JSONNull",
+      "namespace": "ZSimpleJSON",
+      "parent": "JSONNode",
+      "type_token": 33554453
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Node",
+          "offset": 16,
+          "type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Key",
+          "offset": 24,
+          "type": "System.String"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Tag",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNodeType"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetEnumerator",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONNode.Enumerator"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "aNode",
+              "type": "ZSimpleJSON.JSONNode"
+            },
+            {
+              "name": "aKey",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Set",
+          "parameters": [
+            {
+              "name": "aVal",
+              "type": "T"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Item",
+          "parameters": [
+            {
+              "name": "aIndex",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Item",
+          "parameters": [
+            {
+              "name": "aIndex",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Item",
+          "parameters": [
+            {
+              "name": "aKey",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Item",
+          "parameters": [
+            {
+              "name": "aKey",
+              "type": "System.String"
+            },
+            {
+              "name": "value",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "aItem",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "aKey",
+              "type": "System.String"
+            },
+            {
+              "name": "aItem",
+              "type": "ZSimpleJSON.JSONNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Equality",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "ZSimpleJSON.JSONLazyCreator"
+            },
+            {
+              "name": "b",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Inequality",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "ZSimpleJSON.JSONLazyCreator"
+            },
+            {
+              "name": "b",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsInt",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsInt",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsFloat",
+          "parameters": [],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsFloat",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsDouble",
+          "parameters": [],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsDouble",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsLong",
+          "parameters": [],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsLong",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsULong",
+          "parameters": [],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsULong",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsBool",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_AsBool",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsArray",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONArray"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_AsObject",
+          "parameters": [],
+          "return_type": "ZSimpleJSON.JSONObject"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteToStringBuilder",
+          "parameters": [
+            {
+              "name": "aSB",
+              "type": "System.Text.StringBuilder"
+            },
+            {
+              "name": "aIndent",
+              "type": "System.Int32"
+            },
+            {
+              "name": "aIndentInc",
+              "type": "System.Int32"
+            },
+            {
+              "name": "aMode",
+              "type": "ZSimpleJSON.JSONTextMode"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "JSONLazyCreator",
+      "namespace": "ZSimpleJSON",
+      "parent": "JSONNode",
+      "type_token": 33554454
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Parse",
+          "parameters": [
+            {
+              "name": "aJSON",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "ZSimpleJSON.JSONNode"
+        }
+      ],
+      "name": "JSON",
+      "namespace": "ZSimpleJSON",
+      "type_token": 33554455
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "ZSimpleJSON.dll"
+}

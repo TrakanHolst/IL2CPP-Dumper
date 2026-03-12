@@ -1,0 +1,3636 @@
+{
+  "class_count": 26,
+  "classes": [
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "X",
+          "offset": 16,
+          "type": "System.Double"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Y",
+          "offset": 24,
+          "type": "System.Double"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Double"
+            },
+            {
+              "name": "y",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "dp",
+              "type": "ClipperLib.DoublePoint"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "DoublePoint",
+      "namespace": "ClipperLib",
+      "type_token": 33554434
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Parent",
+          "offset": 16,
+          "type": "ClipperLib.PolyNode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_polygon",
+          "offset": 24,
+          "type": "System.Collections.Generic.List<ClipperLib.IntPoint>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Index",
+          "offset": 32,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_jointype",
+          "offset": 36,
+          "type": "ClipperLib.JoinType"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_endtype",
+          "offset": 40,
+          "type": "ClipperLib.EndType"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Childs",
+          "offset": 48,
+          "type": "System.Collections.Generic.List<ClipperLib.PolyNode>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<IsOpen>k__BackingField",
+          "offset": 56,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ChildCount",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddChild",
+          "parameters": [
+            {
+              "name": "Child",
+              "type": "ClipperLib.PolyNode"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Childs",
+          "parameters": [],
+          "return_type": "System.Collections.Generic.List<ClipperLib.PolyNode>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "PolyNode",
+      "namespace": "ClipperLib",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "hi",
+          "offset": 16,
+          "type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "lo",
+          "offset": 24,
+          "type": "System.UInt64"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "_hi",
+              "type": "System.Int64"
+            },
+            {
+              "name": "_lo",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Equality",
+          "parameters": [
+            {
+              "name": "val1",
+              "type": "ClipperLib.Int128"
+            },
+            {
+              "name": "val2",
+              "type": "ClipperLib.Int128"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_UnaryNegation",
+          "parameters": [
+            {
+              "name": "val",
+              "type": "ClipperLib.Int128"
+            }
+          ],
+          "return_type": "ClipperLib.Int128"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Int128Mul",
+          "parameters": [
+            {
+              "name": "lhs",
+              "type": "System.Int64"
+            },
+            {
+              "name": "rhs",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "ClipperLib.Int128"
+        }
+      ],
+      "name": "Int128",
+      "namespace": "ClipperLib",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "X",
+          "offset": 16,
+          "type": "System.Int64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Y",
+          "offset": 24,
+          "type": "System.Int64"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "X",
+              "type": "System.Int64"
+            },
+            {
+              "name": "Y",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Double"
+            },
+            {
+              "name": "y",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "pt",
+              "type": "ClipperLib.IntPoint"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Equality",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "ClipperLib.IntPoint"
+            },
+            {
+              "name": "b",
+              "type": "ClipperLib.IntPoint"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "op_Inequality",
+          "parameters": [
+            {
+              "name": "a",
+              "type": "ClipperLib.IntPoint"
+            },
+            {
+              "name": "b",
+              "type": "ClipperLib.IntPoint"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Equals",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Object"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHashCode",
+          "parameters": [],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "IntPoint",
+      "namespace": "ClipperLib",
+      "type_token": 33554437
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "left",
+          "offset": 16,
+          "type": "System.Int64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "top",
+          "offset": 24,
+          "type": "System.Int64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "right",
+          "offset": 32,
+          "type": "System.Int64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "bottom",
+          "offset": 40,
+          "type": "System.Int64"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "l",
+              "type": "System.Int64"
+            },
+            {
+              "name": "t",
+              "type": "System.Int64"
+            },
+            {
+              "name": "r",
+              "type": "System.Int64"
+            },
+            {
+              "name": "b",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IntRect",
+      "namespace": "ClipperLib",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ctIntersection",
+          "offset": 0,
+          "type": "ClipperLib.ClipType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ctUnion",
+          "offset": 0,
+          "type": "ClipperLib.ClipType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ctDifference",
+          "offset": 0,
+          "type": "ClipperLib.ClipType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ctXor",
+          "offset": 0,
+          "type": "ClipperLib.ClipType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "ClipType",
+      "namespace": "ClipperLib",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ptSubject",
+          "offset": 0,
+          "type": "ClipperLib.PolyType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "ptClip",
+          "offset": 0,
+          "type": "ClipperLib.PolyType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "PolyType",
+      "namespace": "ClipperLib",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "pftEvenOdd",
+          "offset": 0,
+          "type": "ClipperLib.PolyFillType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "pftNonZero",
+          "offset": 0,
+          "type": "ClipperLib.PolyFillType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "pftPositive",
+          "offset": 0,
+          "type": "ClipperLib.PolyFillType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "pftNegative",
+          "offset": 0,
+          "type": "ClipperLib.PolyFillType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "PolyFillType",
+      "namespace": "ClipperLib",
+      "type_token": 33554441
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "jtSquare",
+          "offset": 0,
+          "type": "ClipperLib.JoinType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "jtRound",
+          "offset": 0,
+          "type": "ClipperLib.JoinType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "jtMiter",
+          "offset": 0,
+          "type": "ClipperLib.JoinType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "JoinType",
+      "namespace": "ClipperLib",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "etClosedPolygon",
+          "offset": 0,
+          "type": "ClipperLib.EndType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "etClosedLine",
+          "offset": 0,
+          "type": "ClipperLib.EndType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "etOpenButt",
+          "offset": 0,
+          "type": "ClipperLib.EndType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "etOpenSquare",
+          "offset": 0,
+          "type": "ClipperLib.EndType"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "etOpenRound",
+          "offset": 0,
+          "type": "ClipperLib.EndType"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "EndType",
+      "namespace": "ClipperLib",
+      "type_token": 33554443
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "esLeft",
+          "offset": 0,
+          "type": "ClipperLib.EdgeSide"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "esRight",
+          "offset": 0,
+          "type": "ClipperLib.EdgeSide"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "EdgeSide",
+      "namespace": "ClipperLib",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "value__",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "dRightToLeft",
+          "offset": 0,
+          "type": "ClipperLib.Direction"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "dLeftToRight",
+          "offset": 0,
+          "type": "ClipperLib.Direction"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "Direction",
+      "namespace": "ClipperLib",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Bot",
+          "offset": 16,
+          "type": "ClipperLib.IntPoint"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Curr",
+          "offset": 32,
+          "type": "ClipperLib.IntPoint"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Top",
+          "offset": 48,
+          "type": "ClipperLib.IntPoint"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Delta",
+          "offset": 64,
+          "type": "ClipperLib.IntPoint"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Dx",
+          "offset": 80,
+          "type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "PolyTyp",
+          "offset": 88,
+          "type": "ClipperLib.PolyType"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Side",
+          "offset": 92,
+          "type": "ClipperLib.EdgeSide"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "WindDelta",
+          "offset": 96,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "WindCnt",
+          "offset": 100,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "WindCnt2",
+          "offset": 104,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "OutIdx",
+          "offset": 108,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Next",
+          "offset": 112,
+          "type": "ClipperLib.TEdge"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Prev",
+          "offset": 120,
+          "type": "ClipperLib.TEdge"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "NextInLML",
+          "offset": 128,
+          "type": "ClipperLib.TEdge"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "NextInAEL",
+          "offset": 136,
+          "type": "ClipperLib.TEdge"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "PrevInAEL",
+          "offset": 144,
+          "type": "ClipperLib.TEdge"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "NextInSEL",
+          "offset": 152,
+          "type": "ClipperLib.TEdge"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "PrevInSEL",
+          "offset": 160,
+          "type": "ClipperLib.TEdge"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "TEdge",
+      "namespace": "ClipperLib",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Edge1",
+          "offset": 16,
+          "type": "ClipperLib.TEdge"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Edge2",
+          "offset": 24,
+          "type": "ClipperLib.TEdge"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Pt",
+          "offset": 32,
+          "type": "ClipperLib.IntPoint"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IntersectNode",
+      "namespace": "ClipperLib",
+      "type_token": 33554447
+    },
+    {
+      "fields": [],
+      "interfaces": [
+        "IComparer`1"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Compare",
+          "parameters": [
+            {
+              "name": "node1",
+              "type": "ClipperLib.IntersectNode"
+            },
+            {
+              "name": "node2",
+              "type": "ClipperLib.IntersectNode"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "MyIntersectNodeSort",
+      "namespace": "ClipperLib",
+      "type_token": 33554448
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Y",
+          "offset": 16,
+          "type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "LeftBound",
+          "offset": 24,
+          "type": "ClipperLib.TEdge"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "RightBound",
+          "offset": 32,
+          "type": "ClipperLib.TEdge"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Next",
+          "offset": 40,
+          "type": "ClipperLib.LocalMinima"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "LocalMinima",
+      "namespace": "ClipperLib",
+      "type_token": 33554449
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Y",
+          "offset": 16,
+          "type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Next",
+          "offset": 24,
+          "type": "ClipperLib.Scanbeam"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Scanbeam",
+      "namespace": "ClipperLib",
+      "type_token": 33554450
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "X",
+          "offset": 16,
+          "type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Next",
+          "offset": 24,
+          "type": "ClipperLib.Maxima"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Prev",
+          "offset": 32,
+          "type": "ClipperLib.Maxima"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Maxima",
+      "namespace": "ClipperLib",
+      "type_token": 33554451
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Idx",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "IsHole",
+          "offset": 20,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "IsOpen",
+          "offset": 21,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "FirstLeft",
+          "offset": 24,
+          "type": "ClipperLib.OutRec"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Pts",
+          "offset": 32,
+          "type": "ClipperLib.OutPt"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "BottomPt",
+          "offset": 40,
+          "type": "ClipperLib.OutPt"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "PolyNode",
+          "offset": 48,
+          "type": "ClipperLib.PolyNode"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "OutRec",
+      "namespace": "ClipperLib",
+      "type_token": 33554452
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Idx",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Pt",
+          "offset": 24,
+          "type": "ClipperLib.IntPoint"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Next",
+          "offset": 40,
+          "type": "ClipperLib.OutPt"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Prev",
+          "offset": 48,
+          "type": "ClipperLib.OutPt"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "OutPt",
+      "namespace": "ClipperLib",
+      "type_token": 33554453
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "OutPt1",
+          "offset": 16,
+          "type": "ClipperLib.OutPt"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "OutPt2",
+          "offset": 24,
+          "type": "ClipperLib.OutPt"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "OffPt",
+          "offset": 32,
+          "type": "ClipperLib.IntPoint"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Join",
+      "namespace": "ClipperLib",
+      "type_token": 33554454
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_MinimaList",
+          "offset": 16,
+          "type": "ClipperLib.LocalMinima"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_CurrentLM",
+          "offset": 24,
+          "type": "ClipperLib.LocalMinima"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_edges",
+          "offset": 32,
+          "type": "System.Collections.Generic.List<System.Collections.Generic.List<ClipperLib.TEdge>>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Scanbeam",
+          "offset": 40,
+          "type": "ClipperLib.Scanbeam"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_PolyOuts",
+          "offset": 48,
+          "type": "System.Collections.Generic.List<ClipperLib.OutRec>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_ActiveEdges",
+          "offset": 56,
+          "type": "ClipperLib.TEdge"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_UseFullRange",
+          "offset": 64,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_HasOpenPaths",
+          "offset": 65,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<PreserveCollinear>k__BackingField",
+          "offset": 66,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "near_zero",
+          "parameters": [
+            {
+              "name": "val",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_PreserveCollinear",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_PreserveCollinear",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Swap",
+          "parameters": [
+            {
+              "name": "val1",
+              "type": "System.Int64&"
+            },
+            {
+              "name": "val2",
+              "type": "System.Int64&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsHorizontal",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SlopesEqual",
+          "parameters": [
+            {
+              "name": "e1",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "e2",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "UseFullRange",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SlopesEqual",
+          "parameters": [
+            {
+              "name": "pt1",
+              "type": "ClipperLib.IntPoint"
+            },
+            {
+              "name": "pt2",
+              "type": "ClipperLib.IntPoint"
+            },
+            {
+              "name": "pt3",
+              "type": "ClipperLib.IntPoint"
+            },
+            {
+              "name": "UseFullRange",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SlopesEqual",
+          "parameters": [
+            {
+              "name": "pt1",
+              "type": "ClipperLib.IntPoint"
+            },
+            {
+              "name": "pt2",
+              "type": "ClipperLib.IntPoint"
+            },
+            {
+              "name": "pt3",
+              "type": "ClipperLib.IntPoint"
+            },
+            {
+              "name": "pt4",
+              "type": "ClipperLib.IntPoint"
+            },
+            {
+              "name": "UseFullRange",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisposeLocalMinimaList",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RangeTest",
+          "parameters": [
+            {
+              "name": "Pt",
+              "type": "ClipperLib.IntPoint"
+            },
+            {
+              "name": "useFullRange",
+              "type": "System.Boolean&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitEdge",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "eNext",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "ePrev",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "pt",
+              "type": "ClipperLib.IntPoint"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InitEdge2",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "polyType",
+              "type": "ClipperLib.PolyType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FindNextLocMin",
+          "parameters": [
+            {
+              "name": "E",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "ClipperLib.TEdge"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ProcessBound",
+          "parameters": [
+            {
+              "name": "E",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "LeftBoundIsForward",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "ClipperLib.TEdge"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddPath",
+          "parameters": [
+            {
+              "name": "pg",
+              "type": "System.Collections.Generic.List<ClipperLib.IntPoint>"
+            },
+            {
+              "name": "polyType",
+              "type": "ClipperLib.PolyType"
+            },
+            {
+              "name": "Closed",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddPaths",
+          "parameters": [
+            {
+              "name": "ppg",
+              "type": "System.Collections.Generic.List<System.Collections.Generic.List<ClipperLib.IntPoint>>"
+            },
+            {
+              "name": "polyType",
+              "type": "ClipperLib.PolyType"
+            },
+            {
+              "name": "closed",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Pt2IsBetweenPt1AndPt3",
+          "parameters": [
+            {
+              "name": "pt1",
+              "type": "ClipperLib.IntPoint"
+            },
+            {
+              "name": "pt2",
+              "type": "ClipperLib.IntPoint"
+            },
+            {
+              "name": "pt3",
+              "type": "ClipperLib.IntPoint"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RemoveEdge",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "ClipperLib.TEdge"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetDx",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InsertLocalMinima",
+          "parameters": [
+            {
+              "name": "newLm",
+              "type": "ClipperLib.LocalMinima"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopLocalMinima",
+          "parameters": [
+            {
+              "name": "Y",
+              "type": "System.Int64"
+            },
+            {
+              "name": "current",
+              "type": "ClipperLib.LocalMinima&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReverseHorizontal",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Reset",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetBounds",
+          "parameters": [
+            {
+              "name": "paths",
+              "type": "System.Collections.Generic.List<System.Collections.Generic.List<ClipperLib.IntPoint>>"
+            }
+          ],
+          "return_type": "ClipperLib.IntRect"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InsertScanbeam",
+          "parameters": [
+            {
+              "name": "Y",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopScanbeam",
+          "parameters": [
+            {
+              "name": "Y",
+              "type": "System.Int64&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "LocalMinimaPending",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateOutRec",
+          "parameters": [],
+          "return_type": "ClipperLib.OutRec"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisposeOutRec",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateEdgeIntoAEL",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "ClipperLib.TEdge&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SwapPositionsInAEL",
+          "parameters": [
+            {
+              "name": "edge1",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "edge2",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DeleteFromAEL",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ClipperBase",
+      "namespace": "ClipperLib",
+      "type_token": 33554455
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_ClipType",
+          "offset": 72,
+          "type": "ClipperLib.ClipType"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Maxima",
+          "offset": 80,
+          "type": "ClipperLib.Maxima"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_SortedEdges",
+          "offset": 88,
+          "type": "ClipperLib.TEdge"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_IntersectList",
+          "offset": 96,
+          "type": "System.Collections.Generic.List<ClipperLib.IntersectNode>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_IntersectNodeComparer",
+          "offset": 104,
+          "type": "System.Collections.Generic.IComparer<ClipperLib.IntersectNode>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_ExecuteLocked",
+          "offset": 112,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_ClipFillType",
+          "offset": 116,
+          "type": "ClipperLib.PolyFillType"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_SubjFillType",
+          "offset": 120,
+          "type": "ClipperLib.PolyFillType"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_Joins",
+          "offset": 128,
+          "type": "System.Collections.Generic.List<ClipperLib.Join>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_GhostJoins",
+          "offset": 136,
+          "type": "System.Collections.Generic.List<ClipperLib.Join>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_UsingPolyTree",
+          "offset": 144,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<ReverseSolution>k__BackingField",
+          "offset": 145,
+          "type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<StrictlySimple>k__BackingField",
+          "offset": 146,
+          "type": "System.Boolean"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "InitOptions",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InsertMaxima",
+          "parameters": [
+            {
+              "name": "X",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ReverseSolution",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_ReverseSolution",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_StrictlySimple",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_StrictlySimple",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Execute",
+          "parameters": [
+            {
+              "name": "clipType",
+              "type": "ClipperLib.ClipType"
+            },
+            {
+              "name": "solution",
+              "type": "System.Collections.Generic.List<System.Collections.Generic.List<ClipperLib.IntPoint>>"
+            },
+            {
+              "name": "subjFillType",
+              "type": "ClipperLib.PolyFillType"
+            },
+            {
+              "name": "clipFillType",
+              "type": "ClipperLib.PolyFillType"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ExecuteInternal",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DisposeAllPolyPts",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddJoin",
+          "parameters": [
+            {
+              "name": "Op1",
+              "type": "ClipperLib.OutPt"
+            },
+            {
+              "name": "Op2",
+              "type": "ClipperLib.OutPt"
+            },
+            {
+              "name": "OffPt",
+              "type": "ClipperLib.IntPoint"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddGhostJoin",
+          "parameters": [
+            {
+              "name": "Op",
+              "type": "ClipperLib.OutPt"
+            },
+            {
+              "name": "OffPt",
+              "type": "ClipperLib.IntPoint"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InsertLocalMinimaIntoAEL",
+          "parameters": [
+            {
+              "name": "botY",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "InsertEdgeIntoAEL",
+          "parameters": [
+            {
+              "name": "edge",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "startEdge",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "E2InsertsBeforeE1",
+          "parameters": [
+            {
+              "name": "e1",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "e2",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsEvenOddFillType",
+          "parameters": [
+            {
+              "name": "edge",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsEvenOddAltFillType",
+          "parameters": [
+            {
+              "name": "edge",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsContributing",
+          "parameters": [
+            {
+              "name": "edge",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetWindingCount",
+          "parameters": [
+            {
+              "name": "edge",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddEdgeToSEL",
+          "parameters": [
+            {
+              "name": "edge",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PopEdgeFromSEL",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "ClipperLib.TEdge&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CopyAELToSEL",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SwapPositionsInSEL",
+          "parameters": [
+            {
+              "name": "edge1",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "edge2",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddLocalMaxPoly",
+          "parameters": [
+            {
+              "name": "e1",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "e2",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "pt",
+              "type": "ClipperLib.IntPoint"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddLocalMinPoly",
+          "parameters": [
+            {
+              "name": "e1",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "e2",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "pt",
+              "type": "ClipperLib.IntPoint"
+            }
+          ],
+          "return_type": "ClipperLib.OutPt"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddOutPt",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "pt",
+              "type": "ClipperLib.IntPoint"
+            }
+          ],
+          "return_type": "ClipperLib.OutPt"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLastOutPt",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "ClipperLib.OutPt"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "HorzSegmentsOverlap",
+          "parameters": [
+            {
+              "name": "seg1a",
+              "type": "System.Int64"
+            },
+            {
+              "name": "seg1b",
+              "type": "System.Int64"
+            },
+            {
+              "name": "seg2a",
+              "type": "System.Int64"
+            },
+            {
+              "name": "seg2b",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SetHoleState",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "outRec",
+              "type": "ClipperLib.OutRec"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDx",
+          "parameters": [
+            {
+              "name": "pt1",
+              "type": "ClipperLib.IntPoint"
+            },
+            {
+              "name": "pt2",
+              "type": "ClipperLib.IntPoint"
+            }
+          ],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FirstIsBottomPt",
+          "parameters": [
+            {
+              "name": "btmPt1",
+              "type": "ClipperLib.OutPt"
+            },
+            {
+              "name": "btmPt2",
+              "type": "ClipperLib.OutPt"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetBottomPt",
+          "parameters": [
+            {
+              "name": "pp",
+              "type": "ClipperLib.OutPt"
+            }
+          ],
+          "return_type": "ClipperLib.OutPt"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLowermostRec",
+          "parameters": [
+            {
+              "name": "outRec1",
+              "type": "ClipperLib.OutRec"
+            },
+            {
+              "name": "outRec2",
+              "type": "ClipperLib.OutRec"
+            }
+          ],
+          "return_type": "ClipperLib.OutRec"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OutRec1RightOfOutRec2",
+          "parameters": [
+            {
+              "name": "outRec1",
+              "type": "ClipperLib.OutRec"
+            },
+            {
+              "name": "outRec2",
+              "type": "ClipperLib.OutRec"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetOutRec",
+          "parameters": [
+            {
+              "name": "idx",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "ClipperLib.OutRec"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AppendPolygon",
+          "parameters": [
+            {
+              "name": "e1",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "e2",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReversePolyPtLinks",
+          "parameters": [
+            {
+              "name": "pp",
+              "type": "ClipperLib.OutPt"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SwapSides",
+          "parameters": [
+            {
+              "name": "edge1",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "edge2",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SwapPolyIndexes",
+          "parameters": [
+            {
+              "name": "edge1",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "edge2",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IntersectEdges",
+          "parameters": [
+            {
+              "name": "e1",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "e2",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "pt",
+              "type": "ClipperLib.IntPoint"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ProcessHorizontals",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetHorzDirection",
+          "parameters": [
+            {
+              "name": "HorzEdge",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "Dir",
+              "type": "ClipperLib.Direction&"
+            },
+            {
+              "name": "Left",
+              "type": "System.Int64&"
+            },
+            {
+              "name": "Right",
+              "type": "System.Int64&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ProcessHorizontal",
+          "parameters": [
+            {
+              "name": "horzEdge",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetNextInAEL",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "Direction",
+              "type": "ClipperLib.Direction"
+            }
+          ],
+          "return_type": "ClipperLib.TEdge"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsMaxima",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "Y",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsIntermediate",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "Y",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMaximaPair",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "ClipperLib.TEdge"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetMaximaPairEx",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "ClipperLib.TEdge"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ProcessIntersections",
+          "parameters": [
+            {
+              "name": "topY",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BuildIntersectList",
+          "parameters": [
+            {
+              "name": "topY",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EdgesAdjacent",
+          "parameters": [
+            {
+              "name": "inode",
+              "type": "ClipperLib.IntersectNode"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FixupIntersectionOrder",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ProcessIntersectList",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Round",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "TopX",
+          "parameters": [
+            {
+              "name": "edge",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "currentY",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IntersectPoint",
+          "parameters": [
+            {
+              "name": "edge1",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "edge2",
+              "type": "ClipperLib.TEdge"
+            },
+            {
+              "name": "ip",
+              "type": "ClipperLib.IntPoint&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ProcessEdgesAtTopOfScanbeam",
+          "parameters": [
+            {
+              "name": "topY",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DoMaxima",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "ClipperLib.TEdge"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Orientation",
+          "parameters": [
+            {
+              "name": "poly",
+              "type": "System.Collections.Generic.List<ClipperLib.IntPoint>"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PointCount",
+          "parameters": [
+            {
+              "name": "pts",
+              "type": "ClipperLib.OutPt"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "BuildResult",
+          "parameters": [
+            {
+              "name": "polyg",
+              "type": "System.Collections.Generic.List<System.Collections.Generic.List<ClipperLib.IntPoint>>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FixupOutPolyline",
+          "parameters": [
+            {
+              "name": "outrec",
+              "type": "ClipperLib.OutRec"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FixupOutPolygon",
+          "parameters": [
+            {
+              "name": "outRec",
+              "type": "ClipperLib.OutRec"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DupOutPt",
+          "parameters": [
+            {
+              "name": "outPt",
+              "type": "ClipperLib.OutPt"
+            },
+            {
+              "name": "InsertAfter",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "ClipperLib.OutPt"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetOverlap",
+          "parameters": [
+            {
+              "name": "a1",
+              "type": "System.Int64"
+            },
+            {
+              "name": "a2",
+              "type": "System.Int64"
+            },
+            {
+              "name": "b1",
+              "type": "System.Int64"
+            },
+            {
+              "name": "b2",
+              "type": "System.Int64"
+            },
+            {
+              "name": "Left",
+              "type": "System.Int64&"
+            },
+            {
+              "name": "Right",
+              "type": "System.Int64&"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "JoinHorz",
+          "parameters": [
+            {
+              "name": "op1",
+              "type": "ClipperLib.OutPt"
+            },
+            {
+              "name": "op1b",
+              "type": "ClipperLib.OutPt"
+            },
+            {
+              "name": "op2",
+              "type": "ClipperLib.OutPt"
+            },
+            {
+              "name": "op2b",
+              "type": "ClipperLib.OutPt"
+            },
+            {
+              "name": "Pt",
+              "type": "ClipperLib.IntPoint"
+            },
+            {
+              "name": "DiscardLeft",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "JoinPoints",
+          "parameters": [
+            {
+              "name": "j",
+              "type": "ClipperLib.Join"
+            },
+            {
+              "name": "outRec1",
+              "type": "ClipperLib.OutRec"
+            },
+            {
+              "name": "outRec2",
+              "type": "ClipperLib.OutRec"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PointInPolygon",
+          "parameters": [
+            {
+              "name": "pt",
+              "type": "ClipperLib.IntPoint"
+            },
+            {
+              "name": "path",
+              "type": "System.Collections.Generic.List<ClipperLib.IntPoint>"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PointInPolygon",
+          "parameters": [
+            {
+              "name": "pt",
+              "type": "ClipperLib.IntPoint"
+            },
+            {
+              "name": "op",
+              "type": "ClipperLib.OutPt"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Poly2ContainsPoly1",
+          "parameters": [
+            {
+              "name": "outPt1",
+              "type": "ClipperLib.OutPt"
+            },
+            {
+              "name": "outPt2",
+              "type": "ClipperLib.OutPt"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FixupFirstLefts1",
+          "parameters": [
+            {
+              "name": "OldOutRec",
+              "type": "ClipperLib.OutRec"
+            },
+            {
+              "name": "NewOutRec",
+              "type": "ClipperLib.OutRec"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FixupFirstLefts2",
+          "parameters": [
+            {
+              "name": "innerOutRec",
+              "type": "ClipperLib.OutRec"
+            },
+            {
+              "name": "outerOutRec",
+              "type": "ClipperLib.OutRec"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FixupFirstLefts3",
+          "parameters": [
+            {
+              "name": "OldOutRec",
+              "type": "ClipperLib.OutRec"
+            },
+            {
+              "name": "NewOutRec",
+              "type": "ClipperLib.OutRec"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ParseFirstLeft",
+          "parameters": [
+            {
+              "name": "FirstLeft",
+              "type": "ClipperLib.OutRec"
+            }
+          ],
+          "return_type": "ClipperLib.OutRec"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "JoinCommonEdges",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "UpdateOutPtIdxs",
+          "parameters": [
+            {
+              "name": "outrec",
+              "type": "ClipperLib.OutRec"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DoSimplePolygons",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Area",
+          "parameters": [
+            {
+              "name": "poly",
+              "type": "System.Collections.Generic.List<ClipperLib.IntPoint>"
+            }
+          ],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Area",
+          "parameters": [
+            {
+              "name": "outRec",
+              "type": "ClipperLib.OutRec"
+            }
+          ],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Area",
+          "parameters": [
+            {
+              "name": "op",
+              "type": "ClipperLib.OutPt"
+            }
+          ],
+          "return_type": "System.Double"
+        }
+      ],
+      "name": "Clipper",
+      "namespace": "ClipperLib",
+      "parent": "ClipperBase",
+      "type_token": 33554456
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_destPolys",
+          "offset": 16,
+          "type": "System.Collections.Generic.List<System.Collections.Generic.List<ClipperLib.IntPoint>>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_srcPoly",
+          "offset": 24,
+          "type": "System.Collections.Generic.List<ClipperLib.IntPoint>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_destPoly",
+          "offset": 32,
+          "type": "System.Collections.Generic.List<ClipperLib.IntPoint>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_normals",
+          "offset": 40,
+          "type": "System.Collections.Generic.List<ClipperLib.DoublePoint>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_delta",
+          "offset": 48,
+          "type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_sinA",
+          "offset": 56,
+          "type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_sin",
+          "offset": 64,
+          "type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_cos",
+          "offset": 72,
+          "type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_miterLim",
+          "offset": 80,
+          "type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_StepsPerRad",
+          "offset": 88,
+          "type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_lowest",
+          "offset": 96,
+          "type": "ClipperLib.IntPoint"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "m_polyNodes",
+          "offset": 112,
+          "type": "ClipperLib.PolyNode"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<ArcTolerance>k__BackingField",
+          "offset": 120,
+          "type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<MiterLimit>k__BackingField",
+          "offset": 128,
+          "type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "two_pi",
+          "offset": 0,
+          "type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "def_arc_tolerance",
+          "offset": 0,
+          "type": "System.Double"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ArcTolerance",
+          "parameters": [],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_ArcTolerance",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_MiterLimit",
+          "parameters": [],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_MiterLimit",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "miterLimit",
+              "type": "System.Double"
+            },
+            {
+              "name": "arcTolerance",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Round",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddPath",
+          "parameters": [
+            {
+              "name": "path",
+              "type": "System.Collections.Generic.List<ClipperLib.IntPoint>"
+            },
+            {
+              "name": "joinType",
+              "type": "ClipperLib.JoinType"
+            },
+            {
+              "name": "endType",
+              "type": "ClipperLib.EndType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddPaths",
+          "parameters": [
+            {
+              "name": "paths",
+              "type": "System.Collections.Generic.List<System.Collections.Generic.List<ClipperLib.IntPoint>>"
+            },
+            {
+              "name": "joinType",
+              "type": "ClipperLib.JoinType"
+            },
+            {
+              "name": "endType",
+              "type": "ClipperLib.EndType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FixOrientations",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetUnitNormal",
+          "parameters": [
+            {
+              "name": "pt1",
+              "type": "ClipperLib.IntPoint"
+            },
+            {
+              "name": "pt2",
+              "type": "ClipperLib.IntPoint"
+            }
+          ],
+          "return_type": "ClipperLib.DoublePoint"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DoOffset",
+          "parameters": [
+            {
+              "name": "delta",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Execute",
+          "parameters": [
+            {
+              "name": "solution",
+              "type": "System.Collections.Generic.List<System.Collections.Generic.List<ClipperLib.IntPoint>>&"
+            },
+            {
+              "name": "delta",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "OffsetPoint",
+          "parameters": [
+            {
+              "name": "j",
+              "type": "System.Int32"
+            },
+            {
+              "name": "k",
+              "type": "System.Int32&"
+            },
+            {
+              "name": "jointype",
+              "type": "ClipperLib.JoinType"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DoSquare",
+          "parameters": [
+            {
+              "name": "j",
+              "type": "System.Int32"
+            },
+            {
+              "name": "k",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DoMiter",
+          "parameters": [
+            {
+              "name": "j",
+              "type": "System.Int32"
+            },
+            {
+              "name": "k",
+              "type": "System.Int32"
+            },
+            {
+              "name": "r",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "DoRound",
+          "parameters": [
+            {
+              "name": "j",
+              "type": "System.Int32"
+            },
+            {
+              "name": "k",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ClipperOffset",
+      "namespace": "ClipperLib",
+      "type_token": 33554457
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "description",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ClipperException",
+      "namespace": "ClipperLib",
+      "parent": "Exception",
+      "type_token": 33554458
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "clipper_library.dll"
+}

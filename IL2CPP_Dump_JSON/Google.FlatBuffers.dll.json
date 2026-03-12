@@ -1,0 +1,3047 @@
+{
+  "class_count": 17,
+  "classes": [
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "EmbeddedAttribute",
+      "namespace": "Microsoft.CodeAnalysis",
+      "parent": "Attribute",
+      "type_token": 33554434
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "IsUnmanagedAttribute",
+      "namespace": "System.Runtime.CompilerServices",
+      "parent": "Attribute",
+      "type_token": 33554435
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_buffer",
+          "offset": 16,
+          "type": "System.Byte*"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_length",
+          "offset": 24,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Buffer",
+          "parameters": [],
+          "return_type": "System.Byte*"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Length",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsCreated",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "Unity.Collections.NativeArray<System.Byte>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Span",
+          "parameters": [],
+          "return_type": "System.Span<System.Byte>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ReadOnlySpan",
+          "parameters": [],
+          "return_type": "System.ReadOnlySpan<System.Byte>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToSpan",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "T*"
+            },
+            {
+              "name": "length",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Span<T>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToReadOnlySpan",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "T*"
+            },
+            {
+              "name": "length",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.ReadOnlySpan<T>"
+        }
+      ],
+      "name": "ByteData",
+      "namespace": "Google.FlatBuffers",
+      "type_token": 33554436
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_buffer",
+          "offset": 16,
+          "type": "Google.FlatBuffers.ByteData"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_pos",
+          "offset": 32,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "genericSizes",
+          "offset": 0,
+          "type": "System.Collections.Generic.Dictionary<System.Type,System.Int32>"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "allocator",
+              "type": "Google.FlatBuffers.ByteData"
+            },
+            {
+              "name": "position",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "Unity.Collections.NativeArray<System.Byte>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "buffer",
+              "type": "Unity.Collections.NativeArray<System.Byte>"
+            },
+            {
+              "name": "pos",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsCreated",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Position",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_Position",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Length",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Reset",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Duplicate",
+          "parameters": [],
+          "return_type": "Google.FlatBuffers.ByteBuffer"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToArray",
+          "parameters": [
+            {
+              "name": "pos",
+              "type": "System.Int32"
+            },
+            {
+              "name": "len",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SizeOf",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "IsSupportedType",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ArraySize",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "T[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ArraySize",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.ArraySegment<T>"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ArraySize",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Span<T>"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToSpanSlice",
+          "parameters": [
+            {
+              "name": "pos",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.ReadOnlySpan<T>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToArray",
+          "parameters": [
+            {
+              "name": "pos",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "T[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToNativeArray",
+          "parameters": [
+            {
+              "name": "pos",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "Unity.Collections.NativeArray<T>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToSizedArray",
+          "parameters": [],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToFullArray",
+          "parameters": [],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ToSpan",
+          "parameters": [
+            {
+              "name": "pos",
+              "type": "System.Int32"
+            },
+            {
+              "name": "len",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Span<System.Byte>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetUnsafePtr",
+          "parameters": [],
+          "return_type": "System.Byte*"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "WriteLittleEndian",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            },
+            {
+              "name": "data",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReadLittleEndian",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AssertOffsetAndLength",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "length",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutSbyte",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.SByte"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutByte",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Byte"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutByte",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Byte"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Put",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Byte"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutStringUTF8",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutShort",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Int16"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutUshort",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutInt",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutUint",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutLong",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutUlong",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutFloat",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutDouble",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "value",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSbyte",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.SByte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Get",
+          "parameters": [
+            {
+              "name": "index",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Byte"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetStringUTF8",
+          "parameters": [
+            {
+              "name": "startPos",
+              "type": "System.Int32"
+            },
+            {
+              "name": "len",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetShort",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetUshort",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.UInt16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetInt",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetUint",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.UInt32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetLong",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetUlong",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.UInt64"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetFloat",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Single"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetDouble",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Double"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Put",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "T[]"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Put",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.ArraySegment<T>"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Put",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "ptr",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "sizeInBytes",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Put",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Span<T>"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".cctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ByteBuffer",
+      "namespace": "Google.FlatBuffers",
+      "type_token": 33554437
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GetSizePrefix",
+          "parameters": [
+            {
+              "name": "bb",
+              "type": "Google.FlatBuffers.ByteBuffer"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "RemoveSizePrefix",
+          "parameters": [
+            {
+              "name": "bb",
+              "type": "Google.FlatBuffers.ByteBuffer"
+            }
+          ],
+          "return_type": "Google.FlatBuffers.ByteBuffer"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "ByteBufferUtil",
+      "namespace": "Google.FlatBuffers",
+      "type_token": 33554438
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_space",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_data",
+          "offset": 24,
+          "type": "Unity.Collections.NativeArray<System.Byte>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_bb",
+          "offset": 40,
+          "type": "Google.FlatBuffers.ByteBuffer"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_minAlign",
+          "offset": 64,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_vtable",
+          "offset": 72,
+          "type": "System.Int32[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_vtableSize",
+          "offset": 80,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_objectStart",
+          "offset": 84,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_vtables",
+          "offset": 88,
+          "type": "System.Int32[]"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_numVtables",
+          "offset": 96,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_vectorNumElems",
+          "offset": 100,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "_sharedStringMap",
+          "offset": 104,
+          "type": "System.Collections.Generic.Dictionary<System.String,Google.FlatBuffers.StringOffset>"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<ForceDefaults>k__BackingField",
+          "offset": 112,
+          "type": "System.Boolean"
+        }
+      ],
+      "interfaces": [
+        "IDisposable"
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "initialSize",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Dispose",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Clear",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ForceDefaults",
+          "parameters": [],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_ForceDefaults",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_Offset",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Pad",
+          "parameters": [
+            {
+              "name": "size",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "GrowBuffer",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Prep",
+          "parameters": [
+            {
+              "name": "size",
+              "type": "System.Int32"
+            },
+            {
+              "name": "additionalBytes",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutBool",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutSbyte",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.SByte"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutByte",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Byte"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutShort",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Int16"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutUshort",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutInt",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutUint",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutLong",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutUlong",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutFloat",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Put",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "T[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Put",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.ArraySegment<T>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Put",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "sizeInBytes",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Put",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Span<T>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "PutDouble",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddBool",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddSbyte",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.SByte"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddByte",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Byte"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddShort",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Int16"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddUshort",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddInt",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddUint",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddLong",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddUlong",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddFloat",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Single"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "T[]"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.ArraySegment<T>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "ptr",
+              "type": "System.IntPtr"
+            },
+            {
+              "name": "sizeInBytes",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Add",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Span<T>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddDouble",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddOffset",
+          "parameters": [
+            {
+              "name": "off",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "StartVector",
+          "parameters": [
+            {
+              "name": "elemSize",
+              "type": "System.Int32"
+            },
+            {
+              "name": "count",
+              "type": "System.Int32"
+            },
+            {
+              "name": "alignment",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndVector",
+          "parameters": [],
+          "return_type": "Google.FlatBuffers.VectorOffset"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateVectorOfTables",
+          "parameters": [
+            {
+              "name": "offsets",
+              "type": "Google.FlatBuffers.Offset<T>[]"
+            }
+          ],
+          "return_type": "Google.FlatBuffers.VectorOffset"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Nested",
+          "parameters": [
+            {
+              "name": "obj",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "NotNested",
+          "parameters": [],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "StartTable",
+          "parameters": [
+            {
+              "name": "numfields",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Slot",
+          "parameters": [
+            {
+              "name": "voffset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddBool",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Boolean"
+            },
+            {
+              "name": "d",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddBool",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Nullable<System.Boolean>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddSbyte",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.SByte"
+            },
+            {
+              "name": "d",
+              "type": "System.SByte"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddSbyte",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Nullable<System.SByte>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddByte",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Byte"
+            },
+            {
+              "name": "d",
+              "type": "System.Byte"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddByte",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Nullable<System.Byte>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddShort",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Int16"
+            },
+            {
+              "name": "d",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddShort",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Nullable<System.Int16>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddUshort",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.UInt16"
+            },
+            {
+              "name": "d",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddUshort",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Nullable<System.UInt16>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddInt",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Int32"
+            },
+            {
+              "name": "d",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddInt",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Nullable<System.Int32>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddUint",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.UInt32"
+            },
+            {
+              "name": "d",
+              "type": "System.UInt32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddUint",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Nullable<System.UInt32>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddLong",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Int64"
+            },
+            {
+              "name": "d",
+              "type": "System.Int64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddLong",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Nullable<System.Int64>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddUlong",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.UInt64"
+            },
+            {
+              "name": "d",
+              "type": "System.UInt64"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddUlong",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Nullable<System.UInt64>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddFloat",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Single"
+            },
+            {
+              "name": "d",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddFloat",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Nullable<System.Single>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddDouble",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Double"
+            },
+            {
+              "name": "d",
+              "type": "System.Double"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddDouble",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Nullable<System.Double>"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddOffset",
+          "parameters": [
+            {
+              "name": "o",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Int32"
+            },
+            {
+              "name": "d",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateString",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "Google.FlatBuffers.StringOffset"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateUTF8String",
+          "parameters": [
+            {
+              "name": "chars",
+              "type": "System.Span<System.Byte>"
+            }
+          ],
+          "return_type": "Google.FlatBuffers.StringOffset"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CreateSharedString",
+          "parameters": [
+            {
+              "name": "s",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "Google.FlatBuffers.StringOffset"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AddStruct",
+          "parameters": [
+            {
+              "name": "voffset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "x",
+              "type": "System.Int32"
+            },
+            {
+              "name": "d",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "EndTable",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Required",
+          "parameters": [
+            {
+              "name": "table",
+              "type": "System.Int32"
+            },
+            {
+              "name": "field",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finish",
+          "parameters": [
+            {
+              "name": "rootTable",
+              "type": "System.Int32"
+            },
+            {
+              "name": "sizePrefix",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finish",
+          "parameters": [
+            {
+              "name": "rootTable",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FinishSizePrefixed",
+          "parameters": [
+            {
+              "name": "rootTable",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_DataBuffer",
+          "parameters": [],
+          "return_type": "Google.FlatBuffers.ByteBuffer"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "SizedByteArray",
+          "parameters": [],
+          "return_type": "System.Byte[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finish",
+          "parameters": [
+            {
+              "name": "rootTable",
+              "type": "System.Int32"
+            },
+            {
+              "name": "fileIdentifier",
+              "type": "System.String"
+            },
+            {
+              "name": "sizePrefix",
+              "type": "System.Boolean"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "Finish",
+          "parameters": [
+            {
+              "name": "rootTable",
+              "type": "System.Int32"
+            },
+            {
+              "name": "fileIdentifier",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FinishSizePrefixed",
+          "parameters": [
+            {
+              "name": "rootTable",
+              "type": "System.Int32"
+            },
+            {
+              "name": "fileIdentifier",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "FlatBufferBuilder",
+      "namespace": "Google.FlatBuffers",
+      "type_token": 33554439
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "FileIdentifierLength",
+          "offset": 0,
+          "type": "System.Int32"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": true,
+          "name": "SizePrefixLength",
+          "offset": 0,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "FLATBUFFERS_23_1_21",
+          "parameters": [],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "FlatBufferConstants",
+      "namespace": "Google.FlatBuffers",
+      "type_token": 33554440
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "shortVal",
+          "offset": 16,
+          "type": "System.Int16"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "ushortVal",
+          "offset": 16,
+          "type": "System.UInt16"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "UnionForShort",
+      "namespace": "",
+      "type_token": 33554442
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "longVal",
+          "offset": 16,
+          "type": "System.Int64"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "floatValLow",
+          "offset": 16,
+          "type": "System.Single"
+        },
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "floatValHigh",
+          "offset": 20,
+          "type": "System.Single"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [],
+      "name": "UnionForLong",
+      "namespace": "",
+      "type_token": 33554443
+    },
+    {
+      "fields": [],
+      "is_interface": false,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReinterpretAsShort",
+          "parameters": [
+            {
+              "name": "val",
+              "type": "System.UInt16"
+            }
+          ],
+          "return_type": "System.Int16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReinterpretAsUShort",
+          "parameters": [
+            {
+              "name": "val",
+              "type": "System.Int16"
+            }
+          ],
+          "return_type": "System.UInt16"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "ReinterpretAsFloat",
+          "parameters": [
+            {
+              "name": "val",
+              "type": "System.Int64"
+            },
+            {
+              "name": "floatValLow",
+              "type": "System.Single&"
+            },
+            {
+              "name": "floatValHigh",
+              "type": "System.Single&"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AsSpan",
+          "parameters": [
+            {
+              "name": "nativeArray",
+              "type": "Unity.Collections.NativeArray<T>"
+            }
+          ],
+          "return_type": "System.Span<T>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "AsReadOnlySpan",
+          "parameters": [
+            {
+              "name": "nativeArray",
+              "type": "Unity.Collections.NativeArray<T>"
+            }
+          ],
+          "return_type": "System.ReadOnlySpan<T>"
+        }
+      ],
+      "name": "FlatBufferUtils",
+      "namespace": "Google.FlatBuffers",
+      "type_token": 33554441
+    },
+    {
+      "fields": [],
+      "is_interface": true,
+      "is_value_type": false,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__init",
+          "parameters": [
+            {
+              "name": "_i",
+              "type": "System.Int32"
+            },
+            {
+              "name": "_bb",
+              "type": "Google.FlatBuffers.ByteBuffer"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ByteBuffer",
+          "parameters": [],
+          "return_type": "Google.FlatBuffers.ByteBuffer"
+        }
+      ],
+      "name": "IFlatbufferObject",
+      "namespace": "Google.FlatBuffers",
+      "type_token": 33554444
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Value",
+          "offset": 0,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Offset`1",
+      "namespace": "Google.FlatBuffers",
+      "type_token": 33554445
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Value",
+          "offset": 16,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "StringOffset",
+      "namespace": "Google.FlatBuffers",
+      "type_token": 33554446
+    },
+    {
+      "fields": [
+        {
+          "access": "public",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "Value",
+          "offset": 16,
+          "type": "System.Int32"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "VectorOffset",
+      "namespace": "Google.FlatBuffers",
+      "type_token": 33554447
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<bb_pos>k__BackingField",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<bb>k__BackingField",
+          "offset": 24,
+          "type": "Google.FlatBuffers.ByteBuffer"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_bb_pos",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_bb_pos",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_bb",
+          "parameters": [],
+          "return_type": "Google.FlatBuffers.ByteBuffer"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_bb",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "Google.FlatBuffers.ByteBuffer"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "_i",
+              "type": "System.Int32"
+            },
+            {
+              "name": "_bb",
+              "type": "Google.FlatBuffers.ByteBuffer"
+            }
+          ],
+          "return_type": "System.Void"
+        }
+      ],
+      "name": "Struct",
+      "namespace": "Google.FlatBuffers",
+      "type_token": 33554448
+    },
+    {
+      "fields": [
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<bb_pos>k__BackingField",
+          "offset": 16,
+          "type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_readonly": false,
+          "is_static": false,
+          "name": "<bb>k__BackingField",
+          "offset": 24,
+          "type": "Google.FlatBuffers.ByteBuffer"
+        }
+      ],
+      "is_interface": false,
+      "is_value_type": true,
+      "methods": [
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_bb_pos",
+          "parameters": [],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_bb_pos",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_bb",
+          "parameters": [],
+          "return_type": "Google.FlatBuffers.ByteBuffer"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "set_bb",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "Google.FlatBuffers.ByteBuffer"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "get_ByteBuffer",
+          "parameters": [],
+          "return_type": "Google.FlatBuffers.ByteBuffer"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": ".ctor",
+          "parameters": [
+            {
+              "name": "_i",
+              "type": "System.Int32"
+            },
+            {
+              "name": "_bb",
+              "type": "Google.FlatBuffers.ByteBuffer"
+            }
+          ],
+          "return_type": "System.Void"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__offset",
+          "parameters": [
+            {
+              "name": "vtableOffset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__offset",
+          "parameters": [
+            {
+              "name": "vtableOffset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "bb",
+              "type": "Google.FlatBuffers.ByteBuffer"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__indirect",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__indirect",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "bb",
+              "type": "Google.FlatBuffers.ByteBuffer"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__string",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.String"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__vector_len",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__vector",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__vector_as_span",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            },
+            {
+              "name": "elementSize",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "System.Span<T>"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__vector_as_array",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "T[]"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__union",
+          "parameters": [
+            {
+              "name": "offset",
+              "type": "System.Int32"
+            }
+          ],
+          "return_type": "T"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "__has_identifier",
+          "parameters": [
+            {
+              "name": "bb",
+              "type": "Google.FlatBuffers.ByteBuffer"
+            },
+            {
+              "name": "ident",
+              "type": "System.String"
+            }
+          ],
+          "return_type": "System.Boolean"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CompareStrings",
+          "parameters": [
+            {
+              "name": "offset_1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "offset_2",
+              "type": "System.Int32"
+            },
+            {
+              "name": "bb",
+              "type": "Google.FlatBuffers.ByteBuffer"
+            }
+          ],
+          "return_type": "System.Int32"
+        },
+        {
+          "access": "private",
+          "is_static": false,
+          "is_virtual": false,
+          "name": "CompareStrings",
+          "parameters": [
+            {
+              "name": "offset_1",
+              "type": "System.Int32"
+            },
+            {
+              "name": "key",
+              "type": "System.Byte[]"
+            },
+            {
+              "name": "bb",
+              "type": "Google.FlatBuffers.ByteBuffer"
+            }
+          ],
+          "return_type": "System.Int32"
+        }
+      ],
+      "name": "Table",
+      "namespace": "Google.FlatBuffers",
+      "type_token": 33554449
+    }
+  ],
+  "dump_date": "Feb  1 2026 09:18:12",
+  "name": "Google.FlatBuffers.dll"
+}
